@@ -1,0 +1,55 @@
+backend/
+│
+├── app/
+│   │
+│   ├── api/
+│   │   ├── configuration.py
+│   │   ├── blueprint.py
+│   │   ├── question.py
+│   │   ├── validation.py
+│   │   ├── regeneration.py
+│   │   ├── export.py
+│   │   └── teacher_preferences.py
+│   │
+│   ├── engines/
+│   │   ├── knowledge_engine.py
+│   │   ├── blueprint_engine.py
+│   │   ├── question_engine.py
+│   │   ├── validation_engine.py
+│   │   ├── regeneration_engine.py
+│   │   └── pdf_engine.py
+│   │
+│   ├── preprocessing/
+│   │   ├── chunking.py
+│   │   ├── concept_extractor.py
+│   │   ├── bloom_mapper.py
+│   │   ├── difficulty_mapper.py
+│   │   ├── diagram_mapper.py
+│   │   └── build_knowledge_base.py
+│   │
+│   ├── repositories/
+│   │   ├── knowledge_repository.py
+│   │   ├── blueprint_repository.py
+│   │   ├── preference_repository.py
+│   │   └── paper_repository.py
+│   │
+│   ├── llm/
+│   │   ├── prompts.py
+│   │   ├── question_generation.py
+│   │   ├── regeneration.py
+│   │   └── client.py
+│   │
+│   ├── models/
+│   │   ├── blueprint.py
+│   │   ├── concept.py
+│   │   ├── question.py
+│   │   └── validation.py
+│   │
+│   ├── data/
+│   │   ├── knowledge_base/
+│   │   ├── generated_tests/
+│   │   └── blueprints/
+│   │
+│   └── main.py
+│
+└── requirements.txt

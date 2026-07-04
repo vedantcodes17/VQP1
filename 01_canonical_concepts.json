@@ -1,0 +1,169 @@
+{
+  "next_batch_index": 2,
+  "canonical": [
+    {
+      "concept_name": "Molarity",
+      "aliases": [
+        "Molar Concentration"
+      ],
+      "definition": "",
+      "formulae": [],
+      "examples": [],
+      "parent_hint": "Expression of Concentration",
+      "is_grouping_node_hint": false,
+      "category_hint": "Concentration Expressions in Solutions",
+      "topic": "Solutions",
+      "source_chunk_ids": [
+        "Equivalent Concept _ Titration Theory_combined_output_chunked.xml_33"
+      ]
+    },
+    {
+      "concept_name": "Hardness Measurement (ppm)",
+      "aliases": [],
+      "definition": "",
+      "formulae": [
+        "Hardness in ppm = \\(\\frac{mass of CaCO_{3}}{Total mass of solution} \\times 10^{6}\\)"
+      ],
+      "examples": [],
+      "parent_hint": "Colligative Properties",
+      "is_grouping_node_hint": true,
+      "category_hint": "",
+      "topic": "Solutions",
+      "source_chunk_ids": [
+        "Equivalent Concept _ Titration Theory_combined_output_chunked.xml_23"
+      ]
+    },
+    {
+      "concept_name": "Normality Calculations",
+      "aliases": [],
+      "definition": "",
+      "formulae": [
+        "N_{f} = \\(\\frac{N_{1} V_{1} + N_{2} V_{2}}{V_{1} + V_{2}}\\)"
+      ],
+      "examples": [],
+      "parent_hint": "",
+      "is_grouping_node_hint": false,
+      "category_hint": "",
+      "topic": "Solutions",
+      "source_chunk_ids": [
+        "Equivalent Concept _ Titration Theory_combined_output_chunked.xml_28"
+      ]
+    },
+    {
+      "concept_name": "Osmotic Pressure Measurement",
+      "aliases": [],
+      "definition": "Measurement of osmotic pressure provides another method of determining molar masses of solutes. This method is widely used to determine molar masses of proteins, polymers and other macromolecules.",
+      "formulae": [],
+      "examples": [],
+      "parent_hint": "",
+      "is_grouping_node_hint": true,
+      "category_hint": "",
+      "topic": "Solutions",
+      "source_chunk_ids": [
+        "lech101_combined_output_chunked.xml_49"
+      ]
+    },
+    {
+      "concept_name": "Back Titration",
+      "aliases": [],
+      "definition": "",
+      "formulae": [],
+      "examples": [],
+      "parent_hint": "",
+      "is_grouping_node_hint": false,
+      "category_hint": "",
+      "topic": "Solutions",
+      "source_chunk_ids": [
+        "Equivalent Concept _ Titration APSP_combined_output_chunked.xml_124"
+      ]
+    },
+    {
+      "concept_name": "Normality Calculation for H₂SO₄ and Titration",
+      "aliases": [],
+      "definition": "",
+      "formulae": [
+        "m.eq. of H₂SO₄ = m.eq.",
+        "\\(\\frac{98 \\times 1.84 \\times 10}{98} \\times 2 \\times 10 = 2 \\times V_{1}\\)",
+        "\\(V_{1}=184 mL\\)"
+      ],
+      "examples": [],
+      "parent_hint": "",
+      "is_grouping_node_hint": false,
+      "category_hint": "",
+      "topic": "Solutions",
+      "source_chunk_ids": [
+        "Equivalent Concept _ Titration APSP_combined_output_chunked.xml_22"
+      ]
+    },
+    {
+      "concept_name": "Relative Lowering in Vapour Pressure (ΔP/P)",
+      "aliases": [],
+      "definition": "The decrease in vapor pressure of a solution relative to the pure solvent.",
+      "formulae": [],
+      "examples": [],
+      "parent_hint": "Colligative Properties",
+      "is_grouping_node_hint": false,
+      "category_hint": "",
+      "topic": "Solution and Colligative Properties",
+      "source_chunk_ids": [
+        "Solution _ Colligative Properties Theory_combined_output_chunked.xml_90"
+      ]
+    },
+    {
+      "concept_name": "Elevation in Boiling Point (ΔTb)",
+      "aliases": [],
+      "definition": "The increase in boiling point of a solution relative to the pure solvent.",
+      "formulae": [],
+      "examples": [],
+      "parent_hint": "Colligative Properties",
+      "is_grouping_node_hint": false,
+      "category_hint": "",
+      "topic": "Solution and Colligative Properties",
+      "source_chunk_ids": [
+        "Solution _ Colligative Properties Theory_combined_output_chunked.xml_90"
+      ]
+    },
+    {
+      "concept_name": "Depression in Freezing Point (ΔTf)",
+      "aliases": [],
+      "definition": "The decrease in freezing point of a solution relative to the pure solvent.",
+      "formulae": [],
+      "examples": [],
+      "parent_hint": "Colligative Properties",
+      "is_grouping_node_hint": false,
+      "category_hint": "",
+      "topic": "Solution and Colligative Properties",
+      "source_chunk_ids": [
+        "Solution _ Colligative Properties Theory_combined_output_chunked.xml_90"
+      ]
+    },
+    {
+      "concept_name": "Osmotic Pressure (π)",
+      "aliases": [],
+      "definition": "The equilibrium hydrostatic pressure developed by a solution column when separated from the solvent by a semipermeable membrane.",
+      "formulae": [],
+      "examples": [],
+      "parent_hint": "Colligative Properties",
+      "is_grouping_node_hint": false,
+      "category_hint": "",
+      "topic": "Solution and Colligative Properties",
+      "source_chunk_ids": [
+        "Solution _ Colligative Properties Theory_combined_output_chunked.xml_117"
+      ]
+    },
+    {
+      "concept_name": "Osmotic Pressure Definition (Hydrostatic vs External)",
+      "aliases": [],
+      "definition": "The equilibrium hydrostatic pressure developed by a solution column when separated from the solvent by a semipermeable membrane is called osmotic pressure of the solution. The external pressure which must be applied on the solution side to stop the process of osmosis is also referred to as osmotic pressure.",
+      "formulae": [],
+      "examples": [],
+      "parent_hint": "Colligative Properties",
+      "is_grouping_node_hint": false,
+      "category_hint": "",
+      "topic": "Solution and Colligative Properties",
+      "source_chunk_ids": [
+        "Solution _ Colligative Properties Theory_combined_output_chunked.xml_117"
+      ]
+    }
+  ]
+}
