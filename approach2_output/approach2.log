@@ -1,0 +1,27 @@
+2026-07-04 08:36:14 | INFO     | ================================================================================
+2026-07-04 08:36:14 | INFO     | APPROACH 2 -- CHUNK-TO-CANONICAL-KB PIPELINE
+2026-07-04 08:36:14 | INFO     | ================================================================================
+2026-07-04 08:36:14 | INFO     | Loaded 5 chunk(s) from unit1_solutions_preprocessed.json
+2026-07-04 08:36:14 | INFO     | Stage 1: discovery over 5 chunk(s) in 1 batch(es)
+2026-07-04 08:36:14 | INFO     | Discovery batch 1/1 (5 chunk(s), 0 canonical concept(s) so far)
+2026-07-04 08:39:14 | INFO     | Stage 1 complete: 4 canonical concept(s) discovered
+2026-07-04 08:39:14 | INFO     | Stage 2 complete: 4 concept(s), 4 top-level, 0 grouping node(s)
+2026-07-04 08:39:14 | INFO     | Stage 3: enrichment in 1 batch(es)
+2026-07-04 08:39:14 | INFO     | Enrichment batch 1/1 (4 concept(s))
+2026-07-04 08:40:03 | INFO     | Stage 3 complete: 4 concept(s) enriched
+2026-07-04 08:40:03 | INFO     | Stage 4: 2 question chunk(s) out of 5 total
+2026-07-04 08:40:03 | INFO     | Stage 4: extracting questions in 1 batch(es)
+2026-07-04 08:40:03 | INFO     | Question batch 1/1 (2 chunk(s))
+2026-07-04 08:40:17 | INFO     | Question from chunk Equivalent Concept _ Titration Theory_combined_output_chunked.xml_33 had no linked concept; keyword-matched to CH01_001
+2026-07-04 08:40:17 | INFO     | Stage 4 complete: 2 question(s) extracted
+2026-07-04 08:40:17 | INFO     | Stage 5: 0 deterministic part_of relationship(s)
+2026-07-04 08:40:17 | INFO     | Relationship batch (topic='Solutions') 1/1 (4 concept(s))
+2026-07-04 08:40:25 | INFO     | Stage 5 complete: 3 relationship(s) total
+2026-07-04 08:40:25 | WARNING  | Question 'The oxidation state of chromium in the final product formed ...' had no keyword match either; attached to most-referenced concept CH01_001
+2026-07-04 08:40:25 | INFO     | Stage 6 (quality gate) complete
+2026-07-04 08:40:25 | INFO     | Saved: C:\CODES\VQP1\approach2_output\chapter_kb.json
+2026-07-04 08:40:25 | INFO     | Summary
+2026-07-04 08:40:25 | INFO     |   Concepts       : 4
+2026-07-04 08:40:25 | INFO     |   Grouping nodes : 0
+2026-07-04 08:40:25 | INFO     |   Relationships  : 3
+2026-07-04 08:40:25 | INFO     |   Questions      : 2

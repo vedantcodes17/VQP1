@@ -1,0 +1,2575 @@
+{
+  "chapter": "Solutions and Colligative Properties",
+  "concept_tree": [
+    {
+      "concept_id": "CHE_SOL_001",
+      "concept_name": "Solution",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Solution",
+      "aliases": [
+        "Homogeneous Mixture"
+      ],
+      "search_terms": [
+        "solution",
+        "homogeneous mixture"
+      ],
+      "abbreviations": [],
+      "definition": "A homogeneous mixture of two or more substances in which the components are uniformly distributed.",
+      "formulae": [],
+      "examples": [
+        "Sugar dissolved in water to form a sweet drink",
+        "Salt mixed with sand to create a uniform mixture"
+      ],
+      "related_concepts": [],
+      "importance": "high",
+      "chapter_weightage": "high",
+      "concept_category": "Core Concept",
+      "concept_type": "Conceptual",
+      "prerequisites": [
+        "CHE_SOL_002"
+      ],
+      "difficulty_hint": "medium",
+      "learning_outcomes": [
+        {
+          "verb": "Define",
+          "object": "Solution"
+        },
+        {
+          "verb": "Describe",
+          "object": "Solution"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Short Answer",
+          "Long Answer"
+        ],
+        "recommended_marks": [
+          3,
+          4
+        ],
+        "blooms_levels": [
+          "Understand",
+          "Apply"
+        ],
+        "competencies": [
+          "Conceptual Understanding",
+          "Application"
+        ],
+        "board_frequency": {
+          "ncert": "high",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Solution",
+          "Homogeneous Mixture",
+          "Components of Solution"
+        ],
+        "chunk_ids": [],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      }
+    },
+    {
+      "concept_id": "CHE_SOL_002",
+      "concept_name": "Components of Solution",
+      "parent_concept": "Solution",
+      "is_grouping_node": false,
+      "official_name": "Components of Solution",
+      "aliases": [
+        "Solute and Solvent"
+      ],
+      "search_terms": [
+        "solute",
+        "solvent"
+      ],
+      "abbreviations": [],
+      "definition": "The components that make up a solution, where the solute is the substance being dissolved and the solvent is the medium in which it dissolves.",
+      "formulae": [],
+      "examples": [
+        "In a saltwater solution, sodium chloride (salt) is the solute and water is the solvent",
+        "In air, nitrogen gas is the solvent with oxygen as one of the solutes"
+      ],
+      "related_concepts": [
+        "CHE_SOL_001"
+      ],
+      "importance": "high",
+      "chapter_weightage": "high",
+      "concept_category": "Definition",
+      "concept_type": "Factual",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "learning_outcomes": [
+        {
+          "verb": "Identify",
+          "object": "Components of Solution"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Short Answer",
+          "Very Short Answer"
+        ],
+        "recommended_marks": [
+          2,
+          3
+        ],
+        "blooms_levels": [
+          "Understand",
+          "Apply"
+        ],
+        "competencies": [
+          "Conceptual Understanding",
+          "Application"
+        ],
+        "board_frequency": {
+          "ncert": "high",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Components of Solution",
+          "Solute and Solvent",
+          "solute",
+          "solvent"
+        ],
+        "chunk_ids": [],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      }
+    },
+    {
+      "concept_id": "CHE_SOL_003",
+      "concept_name": "Solubility",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Solubility",
+      "aliases": [],
+      "search_terms": [
+        "maximum solute",
+        "dissolution limit"
+      ],
+      "abbreviations": [],
+      "definition": "The maximum amount of a solute that can be dissolved in a given solvent at a specific temperature and pressure.",
+      "formulae": [],
+      "examples": [
+        "At room temperature, 100 grams of water can dissolve approximately 20 grams of sugar",
+        "In a saturated solution of salt, no more salt will dissolve even if additional salt is added"
+      ],
+      "related_concepts": [
+        "CHE_SOL_004"
+      ],
+      "importance": "high",
+      "chapter_weightage": "medium",
+      "concept_category": "Core Concept",
+      "concept_type": "Conceptual",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "learning_outcomes": [
+        {
+          "verb": "Explain",
+          "object": "Solubility"
+        },
+        {
+          "verb": "Calculate",
+          "object": "Solubility"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Short Answer",
+          "Numerical"
+        ],
+        "recommended_marks": [
+          3,
+          4
+        ],
+        "blooms_levels": [
+          "Understand",
+          "Apply"
+        ],
+        "competencies": [
+          "Conceptual Understanding",
+          "Application"
+        ],
+        "board_frequency": {
+          "ncert": "medium",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Solubility",
+          "maximum solute",
+          "dissolution limit",
+          "Maximum Solubility"
+        ],
+        "chunk_ids": [],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      }
+    },
+    {
+      "concept_id": "CHE_SOL_004",
+      "concept_name": "Solid Solutions",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Solid Solutions",
+      "aliases": [
+        "Uniformly Distributed Solids"
+      ],
+      "search_terms": [
+        "solid solution",
+        "uniform distribution"
+      ],
+      "abbreviations": [],
+      "definition": "A solid solution where the solute atoms are uniformly distributed within the solvent lattice, leading to a homogeneous mixture.",
+      "formulae": [],
+      "examples": [
+        "In stainless steel, iron is the solvent and chromium and nickel are the solutes",
+        "In brass, copper is the solvent with zinc as one of its solutes"
+      ],
+      "related_concepts": [
+        "CHE_SOL_003"
+      ],
+      "importance": "low",
+      "chapter_weightage": "low",
+      "concept_category": "Core Concept",
+      "concept_type": "Conceptual",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "learning_outcomes": [
+        {
+          "verb": "Describe",
+          "object": "Solid Solutions"
+        },
+        {
+          "verb": "Differentiate",
+          "object": "Types of Solid Solutions"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Short Answer",
+          "Long Answer"
+        ],
+        "recommended_marks": [
+          3,
+          4
+        ],
+        "blooms_levels": [
+          "Understand",
+          "Apply"
+        ],
+        "competencies": [
+          "Conceptual Understanding",
+          "Application"
+        ],
+        "board_frequency": {
+          "ncert": "low",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Solid Solutions",
+          "Uniformly Distributed Solids",
+          "solid solution",
+          "uniform distribution"
+        ],
+        "chunk_ids": [],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      }
+    },
+    {
+      "concept_id": "CHE_SOL_005",
+      "concept_name": "Substitutional Solid Solution",
+      "parent_concept": "Solid Solutions",
+      "is_grouping_node": false,
+      "official_name": "Substitutional Solid Solution",
+      "aliases": [],
+      "search_terms": [
+        "solute atoms replace solvent atoms"
+      ],
+      "abbreviations": [],
+      "definition": "A type of solid solution where solute atoms replace some or all of the solvent atoms in a crystal lattice.",
+      "formulae": [],
+      "examples": [
+        "Iron-carbon alloy",
+        "Silver-gold alloy"
+      ],
+      "related_concepts": [
+        "CHE_SOL_006"
+      ],
+      "importance": "low",
+      "chapter_weightage": "low",
+      "concept_category": "Core Concept",
+      "concept_type": "Conceptual",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "learning_outcomes": [
+        {
+          "verb": "Describe",
+          "object": "substitutional solid solution"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Short Answer",
+          "Very Short Answer"
+        ],
+        "recommended_marks": [
+          2,
+          3
+        ],
+        "blooms_levels": [
+          "Understand"
+        ],
+        "competencies": [
+          "Conceptual Understanding"
+        ],
+        "board_frequency": {
+          "ncert": "low",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Substitutional Solid Solution",
+          "solute atoms replace solvent atoms",
+          "Crystal Lattice",
+          "Solute Atoms"
+        ],
+        "chunk_ids": [],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      }
+    },
+    {
+      "concept_id": "CHE_SOL_006",
+      "concept_name": "Interstitial Solid Solution",
+      "parent_concept": "Solid Solutions",
+      "is_grouping_node": false,
+      "official_name": "Interstitial Solid Solution",
+      "aliases": [],
+      "search_terms": [
+        "smaller atoms occupy voids between larger atoms"
+      ],
+      "abbreviations": [],
+      "definition": "A type of solid solution where solute atoms occupy interstitial spaces in the crystal lattice of a solvent.",
+      "formulae": [],
+      "examples": [
+        "Copper-zinc alloy",
+        "Titanium-aluminum alloy"
+      ],
+      "related_concepts": [
+        "CHE_SOL_005"
+      ],
+      "importance": "low",
+      "chapter_weightage": "low",
+      "concept_category": "Core Concept",
+      "concept_type": "Conceptual",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "learning_outcomes": [
+        {
+          "verb": "Describe",
+          "object": "Interstitial Solid Solution"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Short Answer",
+          "Very Short Answer"
+        ],
+        "recommended_marks": [
+          2,
+          3
+        ],
+        "blooms_levels": [
+          "Understand"
+        ],
+        "competencies": [
+          "Conceptual Understanding"
+        ],
+        "board_frequency": {
+          "ncert": "low",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Interstitial Solid Solution",
+          "smaller atoms occupy voids between larger atoms",
+          "Crystal Lattice",
+          "Interstitial Spaces"
+        ],
+        "chunk_ids": [],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      }
+    },
+    {
+      "concept_id": "CHE_SOL_007",
+      "concept_name": "Mass Percentage",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Mass Percentage",
+      "aliases": [],
+      "search_terms": [
+        "mass of solute in 100 grams"
+      ],
+      "abbreviations": [],
+      "definition": "The mass of the solute expressed as a percentage of the total mass of solution.",
+      "formulae": [],
+      "examples": [
+        "A 15% NaCl solution in water",
+        "A 20% glucose solution"
+      ],
+      "related_concepts": [
+        "CHE_SOL_008"
+      ],
+      "importance": "low",
+      "chapter_weightage": "low",
+      "concept_category": "Measurement",
+      "concept_type": "Conceptual",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "learning_outcomes": [
+        {
+          "verb": "Explain",
+          "object": "Mass Percentage"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Short Answer",
+          "Very Short Answer"
+        ],
+        "recommended_marks": [
+          2,
+          3
+        ],
+        "blooms_levels": [
+          "Understand"
+        ],
+        "competencies": [
+          "Conceptual Understanding"
+        ],
+        "board_frequency": {
+          "ncert": "low",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Mass Percentage",
+          "mass of solute in 100 grams",
+          "Solution Mass",
+          "Solute Mass"
+        ],
+        "chunk_ids": [],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      }
+    },
+    {
+      "concept_id": "CHE_SOL_008",
+      "concept_name": "Mole Fraction",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Mole Fraction",
+      "aliases": [],
+      "search_terms": [
+        "ratio of moles",
+        "total number of moles"
+      ],
+      "abbreviations": [],
+      "definition": "The fraction of the total number of moles that a particular component occupies in a solution.",
+      "formulae": [],
+      "examples": [
+        "A 1:3 mole ratio of NaCl to water",
+        "A 2:5 mole ratio of glucose to water"
+      ],
+      "related_concepts": [
+        "CHE_SOL_007"
+      ],
+      "importance": "low",
+      "chapter_weightage": "low",
+      "concept_category": "Measurement",
+      "concept_type": "Conceptual",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "learning_outcomes": [
+        {
+          "verb": "Describe",
+          "object": "Mole Fraction"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Short Answer",
+          "Very Short Answer"
+        ],
+        "recommended_marks": [
+          2,
+          3
+        ],
+        "blooms_levels": [
+          "Understand"
+        ],
+        "competencies": [
+          "Conceptual Understanding"
+        ],
+        "board_frequency": {
+          "ncert": "low",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Mole Fraction",
+          "ratio of moles",
+          "total number of moles",
+          "Total Moles",
+          "Component Moles"
+        ],
+        "chunk_ids": [],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      }
+    },
+    {
+      "concept_id": "CHE_SOL_009",
+      "concept_name": "Molarity (M)",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Molarity (M)",
+      "aliases": [],
+      "search_terms": [
+        "moles per liter"
+      ],
+      "abbreviations": [
+        "M"
+      ],
+      "definition": "Molarity (M) is the number of moles of solute per liter of solution.",
+      "formulae": [
+        "M = n_solute / V_solution (L)"
+      ],
+      "examples": [
+        "A 1 M NaCl solution contains one mole of NaCl in a volume of one liter.",
+        "If you have 2 moles of glucose dissolved in 5 liters of water, the molarity is 0.4 M."
+      ],
+      "related_concepts": [
+        "CHE_SOL_010"
+      ],
+      "importance": "high",
+      "chapter_weightage": "high",
+      "concept_category": "Measurement",
+      "concept_type": "Factual",
+      "prerequisites": [],
+      "difficulty_hint": "medium",
+      "learning_outcomes": [
+        {
+          "verb": "Calculate",
+          "object": "Molarity"
+        },
+        {
+          "verb": "Interpret",
+          "object": "Molarity"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Numerical",
+          "Short Answer"
+        ],
+        "recommended_marks": [
+          2,
+          3
+        ],
+        "blooms_levels": [
+          "Apply",
+          "Analyze"
+        ],
+        "competencies": [
+          "Problem Solving",
+          "Application"
+        ],
+        "board_frequency": {
+          "ncert": "high",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Molarity (M)",
+          "moles per liter",
+          "M",
+          "Molarity",
+          "Concentration",
+          "Solution"
+        ],
+        "chunk_ids": [],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      }
+    },
+    {
+      "concept_id": "CHE_SOL_010",
+      "concept_name": "Molality (m)",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Molality (m)",
+      "aliases": [],
+      "search_terms": [
+        "moles per kilogram of solvent"
+      ],
+      "abbreviations": [
+        "m"
+      ],
+      "definition": "Molality (m) is the number of moles of solute per kilogram of solvent.",
+      "formulae": [
+        "m = n_solute / m_solvent (kg)"
+      ],
+      "examples": [
+        "A 2 m NaCl solution contains two moles of NaCl dissolved in one kilogram of water.",
+        "If you have 3 moles of glucose dissolved in 5 kg of water, the molality is 0.6 m."
+      ],
+      "related_concepts": [
+        "CHE_SOL_009"
+      ],
+      "importance": "low",
+      "chapter_weightage": "low",
+      "concept_category": "Measurement",
+      "concept_type": "Factual",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "learning_outcomes": [
+        {
+          "verb": "Calculate",
+          "object": "Molality"
+        },
+        {
+          "verb": "Interpret",
+          "object": "Molality"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Numerical",
+          "Short Answer"
+        ],
+        "recommended_marks": [
+          2,
+          3
+        ],
+        "blooms_levels": [
+          "Apply",
+          "Analyze"
+        ],
+        "competencies": [
+          "Problem Solving",
+          "Application"
+        ],
+        "board_frequency": {
+          "ncert": "low",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Molality (m)",
+          "moles per kilogram of solvent",
+          "m",
+          "Molality",
+          "Concentration",
+          "Solution"
+        ],
+        "chunk_ids": [],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      }
+    },
+    {
+      "concept_id": "CHE_SOL_011",
+      "concept_name": "Parts per million (ppm)",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Parts per million (ppm)",
+      "aliases": [],
+      "search_terms": [
+        "concentration measure",
+        "very dilute solutions"
+      ],
+      "abbreviations": [],
+      "definition": "Parts per million (ppm) is a unit of concentration that expresses the number of parts of solute in one million parts of solution.",
+      "formulae": [
+        "ppm = (mass_solute / mass_solution) * 1,000,000"
+      ],
+      "examples": [
+        "If you have 5 grams of NaCl dissolved in 1 liter of water, the concentration is approximately 538 ppm.",
+        "A solution with a concentration of 200 ppm has 2 milligrams of solute per liter."
+      ],
+      "related_concepts": [
+        "CHE_SOL_012"
+      ],
+      "importance": "low",
+      "chapter_weightage": "low",
+      "concept_category": "Measurement",
+      "concept_type": "Factual",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "learning_outcomes": [
+        {
+          "verb": "Calculate",
+          "object": "Concentration in ppm"
+        },
+        {
+          "verb": "Interpret",
+          "object": "Concentration in ppm"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Numerical",
+          "Short Answer"
+        ],
+        "recommended_marks": [
+          2,
+          3
+        ],
+        "blooms_levels": [
+          "Apply",
+          "Analyze"
+        ],
+        "competencies": [
+          "Problem Solving",
+          "Application"
+        ],
+        "board_frequency": {
+          "ncert": "low",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Parts per million (ppm)",
+          "concentration measure",
+          "very dilute solutions",
+          "Parts per million",
+          "Concentration",
+          "Solution"
+        ],
+        "chunk_ids": [],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      }
+    },
+    {
+      "concept_id": "CHE_SOL_012",
+      "concept_name": "Vapour Pressure",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Vapour Pressure",
+      "aliases": [],
+      "search_terms": [
+        "pressure exerted by vapour",
+        "liquid equilibrium"
+      ],
+      "abbreviations": [],
+      "definition": "Vapour pressure is the pressure exerted by a vapour in equilibrium with its liquid or solid phase.",
+      "formulae": [],
+      "examples": [
+        "The vapour pressure of water at 37°C (98.6°F) is approximately 47 mmHg.",
+        "The boiling point of a solution decreases as the concentration of solute increases due to the decrease in vapour pressure."
+      ],
+      "related_concepts": [
+        "CHE_SOL_011"
+      ],
+      "importance": "low",
+      "chapter_weightage": "low",
+      "concept_category": "Core Concept",
+      "concept_type": "Factual",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "learning_outcomes": [
+        {
+          "verb": "Define",
+          "object": "Vapour Pressure"
+        },
+        {
+          "verb": "Relate",
+          "object": "Temperature and Vapour Pressure"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Short Answer",
+          "Long Answer"
+        ],
+        "recommended_marks": [
+          3,
+          4
+        ],
+        "blooms_levels": [
+          "Understand",
+          "Apply"
+        ],
+        "competencies": [
+          "Conceptual Understanding",
+          "Application"
+        ],
+        "board_frequency": {
+          "ncert": "low",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Vapour Pressure",
+          "pressure exerted by vapour",
+          "liquid equilibrium",
+          "Boiling Point",
+          "Solution"
+        ],
+        "chunk_ids": [],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      }
+    },
+    {
+      "concept_id": "CHE_SOL_013",
+      "concept_name": "Raoult’s Law",
+      "parent_concept": "Vapour Pressure",
+      "is_grouping_node": false,
+      "official_name": "Raoult’s Law",
+      "aliases": [],
+      "search_terms": [
+        "vapour pressure proportionality",
+        "mole fraction of solvent"
+      ],
+      "abbreviations": [],
+      "definition": "Raoult’s Law states that the vapor pressure of a solution is directly proportional to the mole fraction of the solvent.",
+      "formulae": [
+        "P_solution = X_solvent * P_solvent"
+      ],
+      "examples": [
+        "In a 50% (by mass) ethanol-water solution at 298 K, if the pure water's vapor pressure is 17.5 kPa, calculate its vapor pressure in this solution.",
+        "A 40% (by volume) benzene-toluene solution has a vapor pressure of 30 mmHg at 30°C. If the pure toluene’s vapor pressure is 28 mmHg, find the mole fraction of benzene."
+      ],
+      "related_concepts": [
+        "CHE_SOL_014"
+      ],
+      "importance": "low",
+      "chapter_weightage": "low",
+      "concept_category": "Law",
+      "concept_type": "Factual",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "learning_outcomes": [
+        {
+          "verb": "Apply",
+          "object": "Raoult’s Law"
+        },
+        {
+          "verb": "Calculate",
+          "object": "Vapor pressure in a solution"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Numerical",
+          "Short Answer"
+        ],
+        "recommended_marks": [
+          3,
+          4
+        ],
+        "blooms_levels": [
+          "Apply",
+          "Analyze"
+        ],
+        "competencies": [
+          "Problem Solving",
+          "Application"
+        ],
+        "board_frequency": {
+          "ncert": "low",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Raoult’s Law",
+          "vapour pressure proportionality",
+          "mole fraction of solvent",
+          "Vapor pressure",
+          "Mole fraction"
+        ],
+        "chunk_ids": [],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      }
+    },
+    {
+      "concept_id": "CHE_SOL_014",
+      "concept_name": "Ideal Solution",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Ideal Solution",
+      "aliases": [],
+      "search_terms": [
+        "obeys Raoult’s law",
+        "all conditions"
+      ],
+      "abbreviations": [],
+      "definition": "An ideal solution is a mixture where the intermolecular forces between solute and solvent molecules are negligible, leading to no deviation from Raoult's Law.",
+      "formulae": [],
+      "examples": [
+        "Calculate the vapor pressure of an ideal 25% (by mass) ethanol-water solution at 30°C if pure water’s vapor pressure is 18 mmHg."
+      ],
+      "related_concepts": [
+        "CHE_SOL_013"
+      ],
+      "importance": "medium",
+      "chapter_weightage": "high",
+      "concept_category": "Definition",
+      "concept_type": "Factual",
+      "prerequisites": [],
+      "difficulty_hint": "medium",
+      "learning_outcomes": [
+        {
+          "verb": "Define",
+          "object": "Ideal Solution"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Short Answer"
+        ],
+        "recommended_marks": [
+          2
+        ],
+        "blooms_levels": [
+          "Understand"
+        ],
+        "competencies": [
+          "Conceptual Understanding"
+        ],
+        "board_frequency": {
+          "ncert": "high",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Ideal Solution",
+          "obeys Raoult’s law",
+          "all conditions",
+          "Intermolecular forces",
+          "Negligible"
+        ],
+        "chunk_ids": [],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      }
+    },
+    {
+      "concept_id": "CHE_SOL_015",
+      "concept_name": "Non-Ideal Solution",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Non-Ideal Solution",
+      "aliases": [],
+      "search_terms": [
+        "does not obey Raoult’s law"
+      ],
+      "abbreviations": [],
+      "definition": "A non-ideal solution is a mixture where the intermolecular forces between solute and solvent molecules are significant, leading to deviations from Raoult's Law.",
+      "formulae": [],
+      "examples": [
+        "Calculate the vapor pressure of a 30% (by mass) ethanol-water solution at 298 K if pure water’s vapor pressure is 17.5 kPa and it shows a positive deviation."
+      ],
+      "related_concepts": [
+        "CHE_SOL_016"
+      ],
+      "importance": "medium",
+      "chapter_weightage": "high",
+      "concept_category": "Definition",
+      "concept_type": "Factual",
+      "prerequisites": [],
+      "difficulty_hint": "medium",
+      "learning_outcomes": [
+        {
+          "verb": "Define",
+          "object": "Non-Ideal Solution"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Short Answer"
+        ],
+        "recommended_marks": [
+          2
+        ],
+        "blooms_levels": [
+          "Understand"
+        ],
+        "competencies": [
+          "Conceptual Understanding"
+        ],
+        "board_frequency": {
+          "ncert": "high",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Non-Ideal Solution",
+          "does not obey Raoult’s law",
+          "Significant intermolecular forces"
+        ],
+        "chunk_ids": [],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      }
+    },
+    {
+      "concept_id": "CHE_SOL_016",
+      "concept_name": "Azeotrope",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Azeotrope",
+      "aliases": [],
+      "search_terms": [
+        "constant boiling point",
+        "pure liquid behavior"
+      ],
+      "abbreviations": [],
+      "definition": "An azeotrope is a mixture of two or more components that has a constant boiling point and composition, which cannot be separated by simple distillation.",
+      "formulae": [],
+      "examples": [
+        "Identify the azeotropic mixture in benzene-toluene system at 100°C with a vapor pressure of 76 mmHg."
+      ],
+      "related_concepts": [
+        "CHE_SOL_015"
+      ],
+      "importance": "high",
+      "chapter_weightage": "high",
+      "concept_category": "Phenomenon",
+      "concept_type": "Factual",
+      "prerequisites": [],
+      "difficulty_hint": "medium",
+      "learning_outcomes": [
+        {
+          "verb": "Identify",
+          "object": "Azeotrope"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Short Answer"
+        ],
+        "recommended_marks": [
+          2
+        ],
+        "blooms_levels": [
+          "Understand"
+        ],
+        "competencies": [
+          "Conceptual Understanding"
+        ],
+        "board_frequency": {
+          "ncert": "high",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Azeotrope",
+          "constant boiling point",
+          "pure liquid behavior"
+        ],
+        "chunk_ids": [],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      }
+    },
+    {
+      "concept_id": "CHE_SOL_017",
+      "concept_name": "Colligative Properties",
+      "parent_concept": "",
+      "is_grouping_node": true,
+      "official_name": "Colligative Properties",
+      "aliases": [],
+      "search_terms": [
+        "number of solute particles"
+      ],
+      "abbreviations": [],
+      "definition": "Colligative properties are physical properties of solutions that depend on the number of solute particles in a given solvent, not their chemical identity.",
+      "formulae": [],
+      "examples": [
+        "The freezing point depression observed when salt is added to water can be used to determine the concentration of dissolved salts.",
+        "Elevation in boiling point of a solution containing sugar compared to pure water indicates the number of solute particles present."
+      ],
+      "related_concepts": [],
+      "importance": "high",
+      "chapter_weightage": "medium",
+      "concept_category": "Core Concept",
+      "concept_type": "Conceptual",
+      "prerequisites": [
+        "CHE_SOL_018"
+      ],
+      "difficulty_hint": "medium",
+      "learning_outcomes": [
+        {
+          "verb": "Explain",
+          "object": "colligative properties"
+        },
+        {
+          "verb": "Differentiate",
+          "object": "dependence on the number of solute particles"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Short Answer",
+          "Numerical"
+        ],
+        "recommended_marks": [
+          3,
+          4
+        ],
+        "blooms_levels": [
+          "Understand",
+          "Apply"
+        ],
+        "competencies": [
+          "Conceptual Understanding",
+          "Problem Solving"
+        ],
+        "board_frequency": {
+          "ncert": "medium",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Colligative Properties",
+          "number of solute particles",
+          "Depression in Freezing Point",
+          "Elevation in Boiling Point"
+        ],
+        "chunk_ids": [],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      }
+    },
+    {
+      "concept_id": "CHE_SOL_018",
+      "concept_name": "Relative Lowering of Vapour Pressure",
+      "parent_concept": "Colligative Properties",
+      "is_grouping_node": false,
+      "official_name": "Relative Lowering of Vapour Pressure",
+      "aliases": [],
+      "search_terms": [
+        "decrease in vapour pressure",
+        "solvent due to solute"
+      ],
+      "abbreviations": [],
+      "definition": "Relative lowering of vapour pressure is the decrease in vapor pressure of a solvent when a non-volatile solute is dissolved in it, which depends on the number of solute particles.",
+      "formulae": [],
+      "examples": [
+        "When ethanol is added to water, the vapor pressure of pure water decreases due to the presence of ethanol molecules.",
+        "The relative lowering of vapour pressure can be used to determine the molar mass of a dissolved substance."
+      ],
+      "related_concepts": [
+        "CHE_SOL_017"
+      ],
+      "importance": "high",
+      "chapter_weightage": "low",
+      "concept_category": "Core Concept",
+      "concept_type": "Conceptual",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "learning_outcomes": [
+        {
+          "verb": "Define",
+          "object": "relative lowering of vapour pressure"
+        },
+        {
+          "verb": "Calculate",
+          "object": "vapour pressure"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Short Answer",
+          "Numerical"
+        ],
+        "recommended_marks": [
+          2,
+          3
+        ],
+        "blooms_levels": [
+          "Understand",
+          "Apply"
+        ],
+        "competencies": [
+          "Conceptual Understanding",
+          "Problem Solving"
+        ],
+        "board_frequency": {
+          "ncert": "low",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Relative Lowering of Vapour Pressure",
+          "decrease in vapour pressure",
+          "solvent due to solute",
+          "Vapour Pressure"
+        ],
+        "chunk_ids": [],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      }
+    },
+    {
+      "concept_id": "CHE_SOL_019",
+      "concept_name": "Depression in Freezing Point",
+      "parent_concept": "Colligative Properties",
+      "is_grouping_node": false,
+      "official_name": "Depression in Freezing Point",
+      "aliases": [],
+      "search_terms": [
+        "decrease in freezing point",
+        "solvent due to solute"
+      ],
+      "abbreviations": [],
+      "definition": "Depression in freezing point is the decrease in the freezing point of a solvent when a non-volatile solute is dissolved in it, which depends on the number of solute particles.",
+      "formulae": [],
+      "examples": [
+        "Adding salt to water lowers its freezing point.",
+        "The depression in freezing point can be used to determine the concentration of dissolved solutes."
+      ],
+      "related_concepts": [
+        "CHE_SOL_020"
+      ],
+      "importance": "high",
+      "chapter_weightage": "medium",
+      "concept_category": "Core Concept",
+      "concept_type": "Conceptual",
+      "prerequisites": [
+        "CHE_SOL_018"
+      ],
+      "difficulty_hint": "medium",
+      "learning_outcomes": [
+        {
+          "verb": "Explain",
+          "object": "depression in freezing point"
+        },
+        {
+          "verb": "Calculate",
+          "object": "freezing point"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Short Answer",
+          "Numerical"
+        ],
+        "recommended_marks": [
+          2,
+          3
+        ],
+        "blooms_levels": [
+          "Understand",
+          "Apply"
+        ],
+        "competencies": [
+          "Conceptual Understanding",
+          "Problem Solving"
+        ],
+        "board_frequency": {
+          "ncert": "medium",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Depression in Freezing Point",
+          "decrease in freezing point",
+          "solvent due to solute",
+          "Freezing Point"
+        ],
+        "chunk_ids": [],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      }
+    },
+    {
+      "concept_id": "CHE_SOL_020",
+      "concept_name": "Elevation in Boiling Point",
+      "parent_concept": "Colligative Properties",
+      "is_grouping_node": false,
+      "official_name": "Elevation in Boiling Point",
+      "aliases": [],
+      "search_terms": [
+        "increase in boiling point",
+        "solvent due to solute"
+      ],
+      "abbreviations": [],
+      "definition": "Elevation in boiling point is the increase in the boiling point of a solvent when a non-volatile solute is dissolved in it, which depends on the number of solute particles.",
+      "formulae": [],
+      "examples": [
+        "Adding sugar to water increases its boiling point.",
+        "The elevation in boiling point can be used to determine the concentration of dissolved solutes."
+      ],
+      "related_concepts": [
+        "CHE_SOL_019"
+      ],
+      "importance": "high",
+      "chapter_weightage": "low",
+      "concept_category": "Core Concept",
+      "concept_type": "Conceptual",
+      "prerequisites": [
+        "CHE_SOL_018"
+      ],
+      "difficulty_hint": "easy",
+      "learning_outcomes": [
+        {
+          "verb": "Explain",
+          "object": "elevation in boiling point"
+        },
+        {
+          "verb": "Calculate",
+          "object": "boiling point"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Short Answer",
+          "Numerical"
+        ],
+        "recommended_marks": [
+          2,
+          3
+        ],
+        "blooms_levels": [
+          "Understand",
+          "Apply"
+        ],
+        "competencies": [
+          "Conceptual Understanding",
+          "Problem Solving"
+        ],
+        "board_frequency": {
+          "ncert": "low",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Elevation in Boiling Point",
+          "increase in boiling point",
+          "solvent due to solute",
+          "Boiling Point"
+        ],
+        "chunk_ids": [],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      }
+    },
+    {
+      "concept_id": "CHE_SOL_021",
+      "concept_name": "Osmotic Pressure",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Osmotic Pressure",
+      "aliases": [],
+      "search_terms": [
+        "minimum external pressure",
+        "stop solvent flow"
+      ],
+      "abbreviations": [],
+      "definition": "Osmotic pressure is the pressure exerted by a solution on its surroundings to prevent further entry of water through a semipermeable membrane.",
+      "formulae": [
+        "π = iMRT"
+      ],
+      "examples": [
+        "A 0.5 M sucrose solution has an osmotic pressure of approximately 1 atm at room temperature (25°C).",
+        "In the human body, red blood cells maintain isotonicity with plasma to prevent swelling or shrinkage."
+      ],
+      "related_concepts": [
+        "CHE_SOL_022"
+      ],
+      "importance": "high",
+      "chapter_weightage": "medium",
+      "concept_category": "Core Concept",
+      "concept_type": "Conceptual",
+      "prerequisites": [
+        "CHE_SOL_018"
+      ],
+      "difficulty_hint": "medium",
+      "learning_outcomes": [
+        {
+          "verb": "Calculate",
+          "object": "Osmotic Pressure"
+        },
+        {
+          "verb": "Explain",
+          "object": "Relation between Osmotic Pressure and Solute Concentration"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Short Answer",
+          "Numerical"
+        ],
+        "recommended_marks": [
+          3,
+          4
+        ],
+        "blooms_levels": [
+          "Apply",
+          "Analyze"
+        ],
+        "competencies": [
+          "Problem Solving",
+          "Application"
+        ],
+        "board_frequency": {
+          "ncert": "medium",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Osmotic Pressure",
+          "minimum external pressure",
+          "stop solvent flow",
+          "Solute Concentration",
+          "Semipermeable Membrane"
+        ],
+        "chunk_ids": [],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      }
+    },
+    {
+      "concept_id": "CHE_SOL_022",
+      "concept_name": "Isotonic Solutions",
+      "parent_concept": "Osmotic Pressure",
+      "is_grouping_node": false,
+      "official_name": "Isotonic Solutions",
+      "aliases": [],
+      "search_terms": [
+        "same osmotic pressure"
+      ],
+      "abbreviations": [],
+      "definition": "Isotonic solutions are those in which the solute concentration is equal to that of another solution, resulting in no net movement of water across a semipermeable membrane.",
+      "formulae": [],
+      "examples": [
+        "A 0.5 M NaCl solution and a 0.5 M glucose solution have similar osmotic pressures."
+      ],
+      "related_concepts": [],
+      "importance": "high",
+      "chapter_weightage": "low",
+      "concept_category": "Core Concept",
+      "concept_type": "Conceptual",
+      "prerequisites": [
+        "CHE_SOL_021"
+      ],
+      "difficulty_hint": "easy",
+      "learning_outcomes": [
+        {
+          "verb": "Describe",
+          "object": "Isotonic Solutions"
+        },
+        {
+          "verb": "Compare",
+          "object": "Osmotic Pressure of Isotonic Solutions"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Short Answer"
+        ],
+        "recommended_marks": [
+          2
+        ],
+        "blooms_levels": [
+          "Understand"
+        ],
+        "competencies": [
+          "Conceptual Understanding",
+          "Application"
+        ],
+        "board_frequency": {
+          "ncert": "low",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Isotonic Solutions",
+          "same osmotic pressure",
+          "Solute Concentration"
+        ],
+        "chunk_ids": [],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      }
+    },
+    {
+      "concept_id": "CHE_SOL_023",
+      "concept_name": "Hypertonic Solutions",
+      "parent_concept": "Osmotic Pressure",
+      "is_grouping_node": false,
+      "official_name": "Hypertonic Solutions",
+      "aliases": [],
+      "search_terms": [
+        "higher osmotic pressure"
+      ],
+      "abbreviations": [],
+      "definition": "Hypertonic solutions are those in which the solute concentration is higher than that of another solution, leading to a net movement of water out of cells into the hypertonic solution.",
+      "formulae": [],
+      "examples": [
+        "A 1 M NaCl solution has a higher osmotic pressure compared to a 0.5 M NaCl solution."
+      ],
+      "related_concepts": [
+        "CHE_SOL_024"
+      ],
+      "importance": "high",
+      "chapter_weightage": "low",
+      "concept_category": "Core Concept",
+      "concept_type": "Conceptual",
+      "prerequisites": [
+        "CHE_SOL_021"
+      ],
+      "difficulty_hint": "easy",
+      "learning_outcomes": [
+        {
+          "verb": "Explain",
+          "object": "Hypertonic Solutions"
+        },
+        {
+          "verb": "Calculate",
+          "object": "Osmotic Pressure Difference"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Short Answer",
+          "Numerical"
+        ],
+        "recommended_marks": [
+          3,
+          4
+        ],
+        "blooms_levels": [
+          "Apply",
+          "Analyze"
+        ],
+        "competencies": [
+          "Problem Solving",
+          "Application"
+        ],
+        "board_frequency": {
+          "ncert": "low",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Hypertonic Solutions",
+          "higher osmotic pressure",
+          "Solute Concentration"
+        ],
+        "chunk_ids": [],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      }
+    },
+    {
+      "concept_id": "CHE_SOL_024",
+      "concept_name": "Hypotonic Solutions",
+      "parent_concept": "Osmotic Pressure",
+      "is_grouping_node": false,
+      "official_name": "Hypotonic Solutions",
+      "aliases": [],
+      "search_terms": [
+        "lower osmotic pressure"
+      ],
+      "abbreviations": [],
+      "definition": "Hypotonic solutions are those in which the solute concentration is lower than that of another solution, resulting in a net movement of water into cells from the hypotonic solution.",
+      "formulae": [],
+      "examples": [
+        "A 0.5 M NaCl solution has a lower osmotic pressure compared to a 1 M NaCl solution."
+      ],
+      "related_concepts": [
+        "CHE_SOL_023"
+      ],
+      "importance": "high",
+      "chapter_weightage": "low",
+      "concept_category": "Core Concept",
+      "concept_type": "Conceptual",
+      "prerequisites": [
+        "CHE_SOL_021"
+      ],
+      "difficulty_hint": "easy",
+      "learning_outcomes": [
+        {
+          "verb": "Describe",
+          "object": "Hypotonic Solutions"
+        },
+        {
+          "verb": "Compare",
+          "object": "Osmotic Pressure of Hypotonic Solutions"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Short Answer"
+        ],
+        "recommended_marks": [
+          2
+        ],
+        "blooms_levels": [
+          "Understand"
+        ],
+        "competencies": [
+          "Conceptual Understanding",
+          "Application"
+        ],
+        "board_frequency": {
+          "ncert": "low",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Hypotonic Solutions",
+          "lower osmotic pressure",
+          "Solute Concentration"
+        ],
+        "chunk_ids": [],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      }
+    },
+    {
+      "concept_id": "CHE_SOL_025",
+      "concept_name": "Abnormal Molar Mass",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Abnormal Molar Mass",
+      "aliases": [],
+      "search_terms": [
+        "molar mass in solution",
+        "normal molar mass"
+      ],
+      "abbreviations": [],
+      "definition": "The molar mass of a solution that is different from the expected value based on its composition, indicating an abnormal behavior.",
+      "formulae": [],
+      "examples": [
+        "Calcium chloride in water shows an abnormal increase in molar mass due to hydrogen bonding between calcium ions and water molecules."
+      ],
+      "related_concepts": [
+        "CHE_SOL_026"
+      ],
+      "importance": "low",
+      "chapter_weightage": "low",
+      "concept_category": "Definition",
+      "concept_type": "Conceptual",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "learning_outcomes": [
+        {
+          "verb": "Define",
+          "object": "Abnormal Molar Mass"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Short Answer"
+        ],
+        "recommended_marks": [
+          2,
+          3
+        ],
+        "blooms_levels": [
+          "Understand"
+        ],
+        "competencies": [
+          "Conceptual Understanding"
+        ],
+        "board_frequency": {
+          "ncert": "low",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Abnormal Molar Mass",
+          "molar mass in solution",
+          "normal molar mass",
+          "Solution Behavior",
+          "Composition"
+        ],
+        "chunk_ids": [],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      }
+    },
+    {
+      "concept_id": "CHE_SOL_026",
+      "concept_name": "Degree of Association",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Degree of Association",
+      "aliases": [],
+      "search_terms": [
+        "extent of association"
+      ],
+      "abbreviations": [],
+      "definition": "The extent to which a solute molecules associate with each other in solution, leading to a decrease in the number of solute particles available for interaction.",
+      "formulae": [],
+      "examples": [
+        "Ethanol molecules form dimers and trimers in solution, reducing their effective concentration.",
+        "In polymer solutions, chains may associate, affecting the overall behavior."
+      ],
+      "related_concepts": [
+        "CHE_SOL_025"
+      ],
+      "importance": "medium",
+      "chapter_weightage": "high",
+      "concept_category": "Definition",
+      "concept_type": "Conceptual",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "learning_outcomes": [
+        {
+          "verb": "Define",
+          "object": "Degree of Association"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Short Answer"
+        ],
+        "recommended_marks": [
+          2,
+          3
+        ],
+        "blooms_levels": [
+          "Understand"
+        ],
+        "competencies": [
+          "Conceptual Understanding"
+        ],
+        "board_frequency": {
+          "ncert": "high",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Degree of Association",
+          "extent of association",
+          "Association",
+          "Solvent-Solute Interaction",
+          "Molecular Behavior"
+        ],
+        "chunk_ids": [],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      }
+    },
+    {
+      "concept_id": "CHE_SOL_027",
+      "concept_name": "Degree of Dissociation",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Degree of Dissociation",
+      "aliases": [],
+      "search_terms": [
+        "extent of dissociation"
+      ],
+      "abbreviations": [],
+      "definition": "The fraction of solute molecules that dissociate into ions in solution, which is a measure of the extent to which an electrolyte dissolves.",
+      "formulae": [],
+      "examples": [
+        "In dilute solutions of strong acids like HCl, 100% dissociation occurs.",
+        "For weak bases like ammonia (NH3), only a small fraction dissociates in water."
+      ],
+      "related_concepts": [
+        "CHE_SOL_028"
+      ],
+      "importance": "high",
+      "chapter_weightage": "medium",
+      "concept_category": "Definition",
+      "concept_type": "Conceptual",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "learning_outcomes": [
+        {
+          "verb": "Define",
+          "object": "Degree of Dissociation"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Short Answer"
+        ],
+        "recommended_marks": [
+          2,
+          3
+        ],
+        "blooms_levels": [
+          "Understand"
+        ],
+        "competencies": [
+          "Conceptual Understanding"
+        ],
+        "board_frequency": {
+          "ncert": "medium",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Degree of Dissociation",
+          "extent of dissociation",
+          "Dissociation",
+          "Electrolyte Behavior",
+          "Ionization"
+        ],
+        "chunk_ids": [],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      }
+    },
+    {
+      "concept_id": "CHE_SOL_028",
+      "concept_name": "Henry’s Law",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Henry’s Law",
+      "aliases": [
+        "Gas Solubility Law",
+        "Partial Pressure Law"
+      ],
+      "search_terms": [
+        "partial pressure",
+        "mole fraction at temperature"
+      ],
+      "abbreviations": [
+        "KH"
+      ],
+      "definition": "The law that states the solubility of a gas in a liquid is directly proportional to the partial pressure of the gas above the solution.",
+      "formulae": [
+        "P = K * C",
+        "where P is the partial pressure, K is Henry's Law constant, and C is the concentration of the dissolved gas."
+      ],
+      "examples": [
+        "At 25°C, the solubility of oxygen in water at a partial pressure of 0.1 atm is approximately 0.003 M.",
+        "The solubility of carbon dioxide in water increases with an increase in atmospheric CO2 levels."
+      ],
+      "related_concepts": [
+        "CHE_SOL_027"
+      ],
+      "importance": "medium",
+      "chapter_weightage": "high",
+      "concept_category": "Law",
+      "concept_type": "Conceptual",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "learning_outcomes": [
+        {
+          "verb": "Apply",
+          "object": "Henry’s Law"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Short Answer",
+          "Numerical"
+        ],
+        "recommended_marks": [
+          3,
+          4
+        ],
+        "blooms_levels": [
+          "Apply"
+        ],
+        "competencies": [
+          "Problem Solving",
+          "Application"
+        ],
+        "board_frequency": {
+          "ncert": "high",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Henry’s Law",
+          "Gas Solubility Law",
+          "Partial Pressure Law",
+          "partial pressure",
+          "mole fraction at temperature",
+          "KH",
+          "Gas Solubility"
+        ],
+        "chunk_ids": [],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      }
+    },
+    {
+      "concept_id": "CHE_SOL_029",
+      "concept_name": "Vant Hoff Factor (i)",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Vant Hoff Factor (i)",
+      "aliases": [],
+      "search_terms": [
+        "ratio of normal molecular mass to observed molecular mass"
+      ],
+      "abbreviations": [],
+      "definition": "The Vant Hoff Factor (i) is a measure of the extent to which an electrolyte dissociates into ions in solution.",
+      "formulae": [],
+      "examples": [
+        "NaCl dissolving in water results in two Na+ and one Cl- ions, thus i = 2.",
+        "MgSO4 dissolving in water results in three Mg2+ and four SO4^2- ions, hence i = 3."
+      ],
+      "related_concepts": [],
+      "importance": "low",
+      "chapter_weightage": "low",
+      "concept_category": "Definition",
+      "concept_type": "Conceptual",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "learning_outcomes": [
+        {
+          "verb": "Define",
+          "object": "Vant Hoff Factor (i)"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Short Answer"
+        ],
+        "recommended_marks": [
+          2,
+          3
+        ],
+        "blooms_levels": [
+          "Understand"
+        ],
+        "competencies": [
+          "Conceptual Understanding"
+        ],
+        "board_frequency": {
+          "ncert": "low",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Vant Hoff Factor (i)",
+          "ratio of normal molecular mass to observed molecular mass",
+          "Vant Hoff Factor",
+          "Electrolyte Dissociation",
+          "Colligative Properties"
+        ],
+        "chunk_ids": [],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source_concept_id": "CHE_SOL_001",
+      "relationship_type": "depends_on",
+      "target_concept_id": "CHE_SOL_002"
+    },
+    {
+      "source_concept_id": "CHE_SOL_003",
+      "relationship_type": "used_in",
+      "target_concept_id": "CHE_SOL_004"
+    },
+    {
+      "source_concept_id": "CHE_SOL_005",
+      "relationship_type": "example_of",
+      "target_concept_id": "CHE_SOL_006"
+    },
+    {
+      "source_concept_id": "CHE_SOL_007",
+      "relationship_type": "related_to",
+      "target_concept_id": "CHE_SOL_008"
+    },
+    {
+      "source_concept_id": "CHE_SOL_009",
+      "relationship_type": "used_in",
+      "target_concept_id": "CHE_SOL_010"
+    },
+    {
+      "source_concept_id": "CHE_SOL_011",
+      "relationship_type": "related_to",
+      "target_concept_id": "CHE_SOL_012"
+    },
+    {
+      "source_concept_id": "CHE_SOL_013",
+      "relationship_type": "used_in",
+      "target_concept_id": "CHE_SOL_014"
+    },
+    {
+      "source_concept_id": "CHE_SOL_015",
+      "relationship_type": "related_to",
+      "target_concept_id": "CHE_SOL_016"
+    },
+    {
+      "source_concept_id": "CHE_SOL_017",
+      "relationship_type": "depends_on",
+      "target_concept_id": "CHE_SOL_018"
+    },
+    {
+      "source_concept_id": "CHE_SOL_019",
+      "relationship_type": "related_to",
+      "target_concept_id": "CHE_SOL_020"
+    },
+    {
+      "source_concept_id": "CHE_SOL_021",
+      "relationship_type": "used_in",
+      "target_concept_id": "CHE_SOL_022"
+    },
+    {
+      "source_concept_id": "CHE_SOL_023",
+      "relationship_type": "related_to",
+      "target_concept_id": "CHE_SOL_024"
+    },
+    {
+      "source_concept_id": "CHE_SOL_025",
+      "relationship_type": "used_in",
+      "target_concept_id": "CHE_SOL_026"
+    },
+    {
+      "source_concept_id": "CHE_SOL_027",
+      "relationship_type": "related_to",
+      "target_concept_id": "CHE_SOL_028"
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "RQ001",
+      "question": "What do you mean by Henry’s Law?",
+      "answer": "",
+      "question_type": "important",
+      "linked_concepts": [
+        "CHE_SOL_028"
+      ],
+      "source_question_ids": [
+        "TN_Q001"
+      ]
+    },
+    {
+      "question_id": "RQ002",
+      "question": "The Henry’s Law constant for oxygen dissolved in water is 4.34×104 atm at 25°C. If the partial pressure of oxygen in air is 0.2 atm, under atmospheric pressure conditions. Calculate the concentration in moles per Litre of dissolved oxygen in water in equilibrium with water air at 25°C.",
+      "answer": "",
+      "question_type": "numerical",
+      "linked_concepts": [
+        "CHE_SOL_028"
+      ],
+      "source_question_ids": [
+        "TN_Q002"
+      ]
+    },
+    {
+      "question_id": "RQ003",
+      "question": "What is Vant Hoff factor?",
+      "answer": "",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_019",
+        "CHE_SOL_027"
+      ],
+      "source_question_ids": [
+        "TN_Q003"
+      ]
+    },
+    {
+      "question_id": "RQ004",
+      "question": "Ans. It is the ratio of normal molecular mass to observed molecular mass .It is denoted as ‘i’ i = Theoretical Molar mass / observed molar mass = Observed no. of particles / Actual no. of particles = Observed colligative property/Theoretical colligative property",
+      "answer": "",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_019",
+        "CHE_SOL_027"
+      ],
+      "source_question_ids": [
+        "TN_Q004"
+      ]
+    },
+    {
+      "question_id": "RQ005",
+      "question": "What is the Vant Hoff factor in K4[Fe(CN)6] and BaCl2 ?",
+      "answer": "5 and 3",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_019",
+        "CHE_SOL_027"
+      ],
+      "source_question_ids": [
+        "TN_Q005",
+        "TN_Q006"
+      ]
+    },
+    {
+      "question_id": "RQ006",
+      "question": "Why the molecular mass becomes abnormal?",
+      "answer": "",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_026",
+        "CHE_SOL_027"
+      ],
+      "source_question_ids": [
+        "TN_Q007"
+      ]
+    },
+    {
+      "question_id": "RQ007",
+      "question": "Ans. Due to association or dissociation of solute in given solvent.",
+      "answer": "A – A and B – B type interactions are more than A – B type interactions. Positive deviation from ideal behaviour is observed.",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_026",
+        "CHE_SOL_027",
+        "CHE_SOL_015"
+      ],
+      "source_question_ids": [
+        "TN_Q008",
+        "TN_Q013"
+      ]
+    },
+    {
+      "question_id": "RQ008",
+      "question": "Define molarity?",
+      "answer": "",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_009"
+      ],
+      "source_question_ids": [
+        "TN_Q009"
+      ]
+    },
+    {
+      "question_id": "RQ009",
+      "question": "How molarity is related with percentage and density of solution ?",
+      "answer": "M = P x Percentage of density x 10/molar mass",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_009",
+        "CHE_SOL_001"
+      ],
+      "source_question_ids": [
+        "TN_Q010",
+        "TN_Q011"
+      ]
+    },
+    {
+      "question_id": "RQ010",
+      "question": "What role does the molecular interaction play in the solution of alcohol and water?",
+      "answer": "",
+      "question_type": "important",
+      "linked_concepts": [
+        "CHE_SOL_015",
+        "CHE_SOL_027",
+        "CHE_SOL_001"
+      ],
+      "source_question_ids": [
+        "TN_Q012"
+      ]
+    },
+    {
+      "question_id": "RQ011",
+      "question": "What is Vant Hoff factor, how is it related with a. degree of dissociation b. degree of association",
+      "answer": "a. α=i – 1/n-1 b. α = i -1 / 1/n -1",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_019",
+        "CHE_SOL_027",
+        "CHE_SOL_026"
+      ],
+      "source_question_ids": [
+        "TN_Q014",
+        "TN_Q015"
+      ]
+    },
+    {
+      "question_id": "RQ012",
+      "question": "Why is NaCl used to clear snow from roads?",
+      "answer": "It lowers f.p of water",
+      "question_type": "important",
+      "linked_concepts": [
+        "CHE_SOL_019",
+        "CHE_SOL_027"
+      ],
+      "source_question_ids": [
+        "TN_Q016",
+        "TN_Q017"
+      ]
+    },
+    {
+      "question_id": "RQ013",
+      "question": "Why is the boiling point of solution higher than pure liquid?",
+      "answer": "Due to lowering in V.P.",
+      "question_type": "important",
+      "linked_concepts": [
+        "CHE_SOL_019",
+        "CHE_SOL_027",
+        "CHE_SOL_001"
+      ],
+      "source_question_ids": [
+        "TN_Q018",
+        "TN_Q019"
+      ]
+    },
+    {
+      "question_id": "RQ014",
+      "question": "Out of 1M and 1m aqueous solution which is more concentrated?",
+      "answer": "1M as density of water is 1gm/ml",
+      "question_type": "important",
+      "linked_concepts": [
+        "CHE_SOL_009",
+        "CHE_SOL_001"
+      ],
+      "source_question_ids": [
+        "TN_Q020",
+        "TN_Q021"
+      ]
+    },
+    {
+      "question_id": "RQ015",
+      "question": "Henry’s law constant for two gases are 21.5 and 49.5 atm, which gas is more soluble?",
+      "answer": "KH is inversely proportional to solubility. Hence gas with KH = 21.5 atm is more soluble.",
+      "question_type": "important",
+      "linked_concepts": [
+        "CHE_SOL_028",
+        "CHE_SOL_003"
+      ],
+      "source_question_ids": [
+        "TN_Q022",
+        "TN_Q023"
+      ]
+    },
+    {
+      "question_id": "RQ016",
+      "question": "Define azeotrope. Give an example of maximum boiling azeotrope.",
+      "answer": "5 and 3",
+      "question_type": "important",
+      "linked_concepts": [
+        "CHE_SOL_016",
+        "CHE_SOL_027"
+      ],
+      "source_question_ids": [
+        "TN_Q024",
+        "TN_Q025"
+      ]
+    },
+    {
+      "question_id": "RQ017",
+      "question": "Calculate the volume of 75% of H2SO4 by weight (d=1.8 gm/ml) required to prepare 1L of 0.2M solution.",
+      "answer": "M1 = P x d x 10 /98 M1 V1 = M2V2 14.5ml",
+      "question_type": "numerical",
+      "linked_concepts": [
+        "CHE_SOL_009",
+        "CHE_SOL_001"
+      ],
+      "source_question_ids": [
+        "TN_Q026",
+        "TN_Q027"
+      ]
+    },
+    {
+      "question_id": "RQ018",
+      "question": "What is the full form of R.O. Purifier?",
+      "answer": "",
+      "question_type": "self_assessment",
+      "linked_concepts": [
+        "CHE_SOL_027"
+      ],
+      "source_question_ids": [
+        "TN_Q028",
+        "TN_Q029"
+      ]
+    },
+    {
+      "question_id": "RQ019",
+      "question": "What is the function of Porous membrane?",
+      "answer": "",
+      "question_type": "self_assessment",
+      "linked_concepts": [
+        "CHE_SOL_027"
+      ],
+      "source_question_ids": [
+        "TN_Q030"
+      ]
+    },
+    {
+      "question_id": "RQ020",
+      "question": "Ans.",
+      "answer": "",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_027"
+      ],
+      "source_question_ids": [
+        "TN_Q031"
+      ]
+    },
+    {
+      "question_id": "RQ021",
+      "question": "Which method of purification is more economical for countries using sea water, flash distillation or reverse osmosis for getting potable water. Why?",
+      "answer": "",
+      "question_type": "self_assessment",
+      "linked_concepts": [
+        "CHE_SOL_027"
+      ],
+      "source_question_ids": [
+        "TN_Q032"
+      ]
+    },
+    {
+      "question_id": "RQ022",
+      "question": "Ans.",
+      "answer": "",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_027"
+      ],
+      "source_question_ids": [
+        "TN_Q033"
+      ]
+    },
+    {
+      "question_id": "RQ023",
+      "question": "Water is used as coolant in vehicles. In cars, ethylene glycol is used as coolant. In cold countries, water gets frozen so it cannot act as coolant. Ethylene glycol is added to water so that its freezing point is lower and it does not freeze.",
+      "answer": "",
+      "question_type": "self_assessment",
+      "linked_concepts": [
+        "CHE_SOL_019",
+        "CHE_SOL_027"
+      ],
+      "source_question_ids": [
+        "TN_Q034"
+      ]
+    },
+    {
+      "question_id": "RQ024",
+      "question": "At hill station snow fall takes place. Clearing the snow from the road is essential for smooth running of traffic- (a)What is the role of ethylene glycol when added to water? (b)Why does sprinkling of salt help in clearing snow covered roads in hilly areas? Explain the phenomenon involved in the process. (c)How is life of people affected by snow fall?",
+      "answer": "",
+      "question_type": "self_assessment",
+      "linked_concepts": [
+        "CHE_SOL_019",
+        "CHE_SOL_027"
+      ],
+      "source_question_ids": [
+        "TN_Q035"
+      ]
+    },
+    {
+      "question_id": "RQ025",
+      "question": "(a) What is the role of ethylene glycol when added to water? (b) Why does sprinkling of salt help in clearing snow covered roads in hilly areas? Explain the phenomenon involved in the process. (c) How is life of people affected by snow fall?",
+      "answer": "",
+      "question_type": "self_assessment",
+      "linked_concepts": [
+        "CHE_SOL_019",
+        "CHE_SOL_027"
+      ],
+      "source_question_ids": [
+        "TN_Q036"
+      ]
+    },
+    {
+      "question_id": "RQ026",
+      "question": "(a) Define the following terms. 3.Mole fraction 4.Ideal solution (b) 15 g of an unknown molecular material is dissolved in 450 g of water. The resulting solution frrezez at -8.00C (kf = 1.86 K kg /mol). What is the molar mass of material?",
+      "answer": "",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_003",
+        "CHE_SOL_014",
+        "CHE_SOL_001",
+        "CHE_SOL_008"
+      ],
+      "source_question_ids": [
+        "TN_Q037"
+      ]
+    },
+    {
+      "question_id": "RQ027",
+      "question": "Ans. Since KCl dissociate in water completely L=2 ∆𝑇𝑓=𝑖𝑘𝑓 ×𝑚 ; m =∆𝑇𝑓/𝑖𝑘𝑓 m= 8 / 2X1.86 = 2.15mol/kg. Grams of KCl= 2.15 X 74.5 = 160.2 g.",
+      "answer": "",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_003",
+        "CHE_SOL_014"
+      ],
+      "source_question_ids": [
+        "TN_Q038"
+      ]
+    },
+    {
+      "question_id": "RQ028",
+      "question": "(a) Explain the following : 1.Henry’s law about dissolution of a gas in a liquid. 2.Boling point elevation constant for a solvent (b) A solution of glycerol (C3H8O3) in water was prepared by dissolving some glycerol in in 500 g of water. The solution has a boiling point of 100.42 0C . What mass of glycerol was dissolved to make this solution? Kb for water = 0.512 K Kg mol-1 (hint: Tb = KB x WB x 1000 MB x WA)",
+      "answer": "",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_028",
+        "CHE_SOL_019",
+        "CHE_SOL_001"
+      ],
+      "source_question_ids": [
+        "TN_Q039"
+      ]
+    },
+    {
+      "question_id": "RQ029",
+      "question": "Ans. 37.73 g",
+      "answer": "",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_028",
+        "CHE_SOL_019"
+      ],
+      "source_question_ids": [
+        "TN_Q040"
+      ]
+    },
+    {
+      "question_id": "RQ030",
+      "question": "2 g of benzoic acid (C6H5COOH) dissolved in 25 g of benzene shows a depression in freezing point equal to 1.62 K .Kf for benzene is 4.9 K Kg mol-1. What is the percentage association of acid if it forms dimer in solution.",
+      "answer": "",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_027",
+        "CHE_SOL_026",
+        "CHE_SOL_001",
+        "CHE_SOL_019"
+      ],
+      "source_question_ids": [
+        "TN_Q041"
+      ]
+    },
+    {
+      "question_id": "RQ031",
+      "question": "Ans. 99.2%",
+      "answer": "",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_027",
+        "CHE_SOL_026"
+      ],
+      "source_question_ids": [
+        "TN_Q042"
+      ]
+    },
+    {
+      "question_id": "RQ032",
+      "question": "Osmotic pressure of a 0.0103 molar solution of an electrolyte is found to be 0.70 atm at 270C. Calculate Vant Hoff factor.( R=0.082 L atom mol-1 K-1)",
+      "answer": "",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_021",
+        "CHE_SOL_019",
+        "CHE_SOL_001"
+      ],
+      "source_question_ids": [
+        "TN_Q043"
+      ]
+    },
+    {
+      "question_id": "RQ033",
+      "question": "Ans. 2.76",
+      "answer": "",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_021",
+        "CHE_SOL_019"
+      ],
+      "source_question_ids": [
+        "TN_Q044"
+      ]
+    }
+  ]
+}

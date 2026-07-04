@@ -1,0 +1,18 @@
+{
+  "total_questions": 14,
+  "flagged_count": 2,
+  "flagged": [
+    {
+      "question_id": "Q006",
+      "reasons": [
+        "Diagram generation unavailable."
+      ]
+    },
+    {
+      "question_id": "Q010",
+      "reasons": [
+        "[Moderator] The answer cannot be determined without additional information such as the molecular weight or molar mass of the solute."
+      ]
+    }
+  ]
+}

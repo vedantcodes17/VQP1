@@ -1,0 +1,214 @@
+{
+  "subject": "Chemistry",
+  "class": "12",
+  "chapter": "Solutions",
+  "total_marks": 30,
+  "instructions": [
+    "All questions are compulsory.",
+    "Marks for each question are indicated against it.",
+    "Section A consists of 5 question(s) of 1 mark(s) each (MCQ).",
+    "Section B consists of 5 question(s) of 2 mark(s) each (Short Answer).",
+    "Section C consists of 3 question(s) of 3 mark(s) each (Long Answer).",
+    "Section D consists of 1 question(s) of 6 mark(s) each (Numerical)."
+  ],
+  "sections": [
+    {
+      "section": "A",
+      "marks_per_question": 1,
+      "question_type": "MCQ",
+      "questions": [
+        {
+          "q_no": 1,
+          "question": "Which component in a solution is dissolved?",
+          "marks": 1,
+          "type": "MCQ",
+          "difficulty": "easy",
+          "concept_id": "CHE_SOL_002"
+        },
+        {
+          "q_no": 2,
+          "question": "Which statement best describes solubility?",
+          "marks": 1,
+          "type": "MCQ",
+          "difficulty": "easy",
+          "concept_id": "CHE_SOL_003"
+        },
+        {
+          "q_no": 3,
+          "question": "Which statement best describes an ideal solution?",
+          "marks": 1,
+          "type": "MCQ",
+          "difficulty": "easy",
+          "concept_id": "CHE_SOL_014"
+        },
+        {
+          "q_no": 4,
+          "question": "Which statement correctly describes the degree of dissociation for an electrolyte?",
+          "marks": 1,
+          "type": "MCQ",
+          "difficulty": "easy",
+          "concept_id": "CHE_SOL_027"
+        },
+        {
+          "q_no": 5,
+          "question": "Which statement correctly describes the effect of a non-volatile solute on the solvent's freezing point?",
+          "marks": 1,
+          "type": "MCQ",
+          "difficulty": "easy",
+          "concept_id": "CHE_SOL_019"
+        }
+      ]
+    },
+    {
+      "section": "B",
+      "marks_per_question": 2,
+      "question_type": "Short Answer",
+      "questions": [
+        {
+          "q_no": 6,
+          "question": "Explain how the Berkeley and Hartley method measures osmotic pressure by discussing the role of a semi-permeable membrane in this process.",
+          "marks": 2,
+          "type": "Short Answer",
+          "difficulty": "medium",
+          "concept_id": "CHE_SOL_026"
+        },
+        {
+          "q_no": 7,
+          "question": "At what temperature does Henry's Law hold true?",
+          "marks": 2,
+          "type": "Short Answer",
+          "difficulty": "medium",
+          "concept_id": "CHE_SOL_028"
+        },
+        {
+          "q_no": 8,
+          "question": "What is an azeotrope?",
+          "marks": 2,
+          "type": "Short Answer",
+          "difficulty": "medium",
+          "concept_id": "CHE_SOL_016"
+        },
+        {
+          "q_no": 9,
+          "question": "What does 'abnormal molar mass' indicate about a solution?",
+          "marks": 2,
+          "type": "Short Answer",
+          "difficulty": "medium",
+          "concept_id": "CHE_SOL_025"
+        },
+        {
+          "q_no": 10,
+          "question": "If 2 moles of a non-volatile solute are added to 1 liter of solvent, causing the vapor pressure of the solution to decrease by 50 mmHg compared to pure solvent at the same temperature, calculate the relative lowering of vapor pressure.",
+          "marks": 2,
+          "type": "Short Answer",
+          "difficulty": "medium",
+          "concept_id": "CHE_SOL_018"
+        }
+      ]
+    },
+    {
+      "section": "C",
+      "marks_per_question": 3,
+      "question_type": "Long Answer",
+      "questions": [
+        {
+          "q_no": 11,
+          "question": "Compare and explain why a 0.5 M NaCl solution is hypotonic to a 1 M NaCl solution.",
+          "marks": 3,
+          "type": "Long Answer",
+          "difficulty": "hard",
+          "concept_id": "CHE_SOL_024"
+        },
+        {
+          "q_no": 12,
+          "question": "Compare and contrast hypertonic, isotonic, and hypotonic solutions in terms of solute concentration and water movement between cells.",
+          "marks": 3,
+          "type": "Long Answer",
+          "difficulty": "hard",
+          "concept_id": "CHE_SOL_023"
+        },
+        {
+          "q_no": 13,
+          "question": "Explain why a non-ideal solution shows positive deviation from Raoult's Law and calculate the vapor pressure of a 30% (by mass) ethanol-water solution at 298 K if pure water’s vapor pressure is 17.5 kPa.",
+          "marks": 3,
+          "type": "Long Answer",
+          "difficulty": "hard",
+          "concept_id": "CHE_SOL_015"
+        }
+      ]
+    },
+    {
+      "section": "D",
+      "marks_per_question": 6,
+      "question_type": "Numerical",
+      "questions": [
+        {
+          "q_no": 14,
+          "question": "A chemist has prepared a solution by dissolving 3 moles of potassium chloride (KCl) in enough water to make 2 liters of solution. Calculate the molarity of this KCl solution.",
+          "marks": 6,
+          "type": "Numerical",
+          "difficulty": "medium",
+          "concept_id": "CHE_SOL_009"
+        }
+      ]
+    }
+  ],
+  "answer_key": [
+    {
+      "q_no": 1,
+      "answer": "a. Solute\nThe solute is the substance being dissolved."
+    },
+    {
+      "q_no": 2,
+      "answer": "(b) The maximum amount of a solute that can be dissolved in a given solvent at a specific temperature and pressure."
+    },
+    {
+      "q_no": 3,
+      "answer": "(a) An ideal solution has negligible intermolecular forces between solute and solvent molecules, leading to no deviation from Raoult's Law."
+    },
+    {
+      "q_no": 4,
+      "answer": "(a) It is always equal to one."
+    },
+    {
+      "q_no": 5,
+      "answer": "Adding salt to water lowers its freezing point."
+    },
+    {
+      "q_no": 6,
+      "answer": "In the Berkeley and Hartley method, a semi-permeable membrane allows solvent molecules to pass through but not solute particles. By applying external pressure on one side of the membrane while keeping the other side at atmospheric pressure, the osmotic pressure is determined by measuring the pressure required to prevent further flow of solvent across the membrane."
+    },
+    {
+      "q_no": 7,
+      "answer": "Henry's Law holds true at a constant temperature."
+    },
+    {
+      "q_no": 8,
+      "answer": "An azeotrope is a mixture of two or more components that has a constant boiling point and composition, which cannot be separated by simple distillation."
+    },
+    {
+      "q_no": 9,
+      "answer": "It indicates that the actual molar mass of the solution is different from its expected value based on composition, suggesting an abnormal behavior."
+    },
+    {
+      "q_no": 10,
+      "answer": "The relative lowering of vapor pressure is calculated as (ΔP / P_initial) * 100%, where ΔP is the change in vapor pressure and P_initial is the initial vapor pressure. Here, it would be (50 mmHg / 750 mmHg) * 100%."
+    },
+    {
+      "q_no": 11,
+      "answer": "A 0.5 M NaCl solution has a lower solute concentration compared to the 1 M NaCl solution, leading to water moving from the higher osmotic pressure (1 M) into the lower osmotic pressure (0.5 M), thus making it hypotonic."
+    },
+    {
+      "q_no": 12,
+      "answer": "- Hypertonic: Solute concentration is higher than another solution; water moves out of cells into the hypertonic solution.\n- Isotonic: Solute concentrations are equal; no net movement of water occurs.\n- Hypotonic: Solute concentration is lower than another solution; water moves into cells from the hypotonic solution."
+    },
+    {
+      "q_no": 13,
+      "answer": "- A non-ideal solution shows positive deviation because solute-solute interactions are stronger than solvent-solvent or solvent-solute interactions, leading to a higher vapor pressure compared to the ideal case.\n\n- Calculation: Using Raoult's Law for positive deviation (P = P°x + b(x - x°)), where P is partial vapor pressure, P° is pure component’s vapor pressure, x is mole fraction of ethanol, and b is a constant. For 30% by mass ethanol-water solution at 298 K:\n\n- Mass of ethanol (m1) = 0.3 kg; Mass of water (m2) = 0.7 kg.\n\n- Moles of ethanol (n1) = m1 / M1, where M1 is the molar mass of ethanol (46 g/mol).\n\n- Moles of water (n2) = m2 / M2, where M2 is the molar mass of water (18 g/mol).\n\n- Calculate mole fractions: x1 = n1/(n1 + n2), x2 = 1 - x1.\n\n- Using Raoult's Law for positive deviation:\nP = P°x1 + b(x1 - x°)\n\n- Substitute values and calculate the vapor pressure."
+    },
+    {
+      "q_no": 14,
+      "answer": "M = n_solute / V_solution\n= 3 mol / 2 L\n= 1.5 M\nAnswer: The molarity of the KCl solution is 1.5 M."
+    }
+  ]
+}

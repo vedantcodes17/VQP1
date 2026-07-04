@@ -1,0 +1,86 @@
+[
+  {
+    "slot_id": "A1",
+    "concept_id": "CH01_001",
+    "concept_name": "Molarity",
+    "rationale": ""
+  },
+  {
+    "slot_id": "A2",
+    "concept_id": "CH01_002",
+    "concept_name": "Normality",
+    "rationale": ""
+  },
+  {
+    "slot_id": "A3",
+    "concept_id": "CH01_003",
+    "concept_name": "Hardness Measurement (ppm)",
+    "rationale": ""
+  },
+  {
+    "slot_id": "A4",
+    "concept_id": "CH01_004",
+    "concept_name": "Osmotic Pressure Measurement",
+    "rationale": ""
+  },
+  {
+    "slot_id": "A5",
+    "concept_id": "CH01_001",
+    "concept_name": "Molarity",
+    "rationale": ""
+  },
+  {
+    "slot_id": "B1",
+    "concept_id": "CH01_002",
+    "concept_name": "Normality",
+    "rationale": ""
+  },
+  {
+    "slot_id": "B2",
+    "concept_id": "CH01_003",
+    "concept_name": "Hardness Measurement (ppm)",
+    "rationale": ""
+  },
+  {
+    "slot_id": "B3",
+    "concept_id": "CH01_004",
+    "concept_name": "Osmotic Pressure Measurement",
+    "rationale": ""
+  },
+  {
+    "slot_id": "B4",
+    "concept_id": "CH01_002",
+    "concept_name": "Normality",
+    "rationale": ""
+  },
+  {
+    "slot_id": "B5",
+    "concept_id": "CH01_003",
+    "concept_name": "Hardness Measurement (ppm)",
+    "rationale": ""
+  },
+  {
+    "slot_id": "C1",
+    "concept_id": "CH01_004",
+    "concept_name": "Osmotic Pressure Measurement",
+    "rationale": ""
+  },
+  {
+    "slot_id": "C2",
+    "concept_id": "CH01_003",
+    "concept_name": "Hardness Measurement (ppm)",
+    "rationale": ""
+  },
+  {
+    "slot_id": "C3",
+    "concept_id": "CH01_002",
+    "concept_name": "Normality",
+    "rationale": ""
+  },
+  {
+    "slot_id": "D1",
+    "concept_id": "CH01_004",
+    "concept_name": "Osmotic Pressure Measurement",
+    "rationale": ""
+  }
+]

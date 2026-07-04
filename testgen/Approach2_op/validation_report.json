@@ -1,0 +1,94 @@
+{
+  "total_questions": 14,
+  "flagged_count": 14,
+  "flagged": [
+    {
+      "question_id": "Q013",
+      "reasons": [
+        "Duplicate question text (same as Q006)",
+        "Concept 'CH01_002' reused across questions ['Q002', 'Q006', 'Q009', 'Q013']",
+        "[Moderator] The answer is factually inconsistent with the question. The calculated normality should be 0.5 N, not 5 N."
+      ]
+    },
+    {
+      "question_id": "Q006",
+      "reasons": [
+        "Duplicate question text (same as Q013)",
+        "Concept 'CH01_002' reused across questions ['Q002', 'Q006', 'Q009', 'Q013']"
+      ]
+    },
+    {
+      "question_id": "Q001",
+      "reasons": [
+        "Concept 'CH01_001' reused across questions ['Q001', 'Q005']"
+      ]
+    },
+    {
+      "question_id": "Q005",
+      "reasons": [
+        "Concept 'CH01_001' reused across questions ['Q001', 'Q005']"
+      ]
+    },
+    {
+      "question_id": "Q002",
+      "reasons": [
+        "Concept 'CH01_002' reused across questions ['Q002', 'Q006', 'Q009', 'Q013']"
+      ]
+    },
+    {
+      "question_id": "Q009",
+      "reasons": [
+        "Concept 'CH01_002' reused across questions ['Q002', 'Q006', 'Q009', 'Q013']"
+      ]
+    },
+    {
+      "question_id": "Q003",
+      "reasons": [
+        "Concept 'CH01_003' reused across questions ['Q003', 'Q007', 'Q010', 'Q012']"
+      ]
+    },
+    {
+      "question_id": "Q007",
+      "reasons": [
+        "Concept 'CH01_003' reused across questions ['Q003', 'Q007', 'Q010', 'Q012']"
+      ]
+    },
+    {
+      "question_id": "Q010",
+      "reasons": [
+        "Concept 'CH01_003' reused across questions ['Q003', 'Q007', 'Q010', 'Q012']"
+      ]
+    },
+    {
+      "question_id": "Q012",
+      "reasons": [
+        "Concept 'CH01_003' reused across questions ['Q003', 'Q007', 'Q010', 'Q012']",
+        "Diagram generation unavailable."
+      ]
+    },
+    {
+      "question_id": "Q004",
+      "reasons": [
+        "Concept 'CH01_004' reused across questions ['Q004', 'Q008', 'Q011', 'Q014']"
+      ]
+    },
+    {
+      "question_id": "Q008",
+      "reasons": [
+        "Concept 'CH01_004' reused across questions ['Q004', 'Q008', 'Q011', 'Q014']"
+      ]
+    },
+    {
+      "question_id": "Q011",
+      "reasons": [
+        "Concept 'CH01_004' reused across questions ['Q004', 'Q008', 'Q011', 'Q014']"
+      ]
+    },
+    {
+      "question_id": "Q014",
+      "reasons": [
+        "Concept 'CH01_004' reused across questions ['Q004', 'Q008', 'Q011', 'Q014']"
+      ]
+    }
+  ]
+}

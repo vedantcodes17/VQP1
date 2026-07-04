@@ -1,0 +1,210 @@
+{
+  "chapter": "Solutions",
+  "total_marks": 30,
+  "sections": [
+    {
+      "section": "A",
+      "num_questions": 5,
+      "marks_each": 1,
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "bloom_levels": [
+        "Remember",
+        "Understand"
+      ],
+      "concept_count": 3
+    },
+    {
+      "section": "B",
+      "num_questions": 5,
+      "marks_each": 2,
+      "question_type": "Short Answer",
+      "difficulty": "medium",
+      "bloom_levels": [
+        "Apply",
+        "Analyze"
+      ],
+      "concept_count": 4
+    },
+    {
+      "section": "C",
+      "num_questions": 3,
+      "marks_each": 3,
+      "question_type": "Long Answer",
+      "difficulty": "hard",
+      "bloom_levels": [
+        "Evaluate",
+        "Create"
+      ],
+      "concept_count": 2
+    },
+    {
+      "section": "D",
+      "num_questions": 1,
+      "marks_each": 6,
+      "question_type": "Numerical",
+      "difficulty": "medium",
+      "bloom_levels": [
+        "Apply",
+        "Analyze"
+      ],
+      "concept_count": 3
+    }
+  ],
+  "slots": [
+    {
+      "slot_id": "A1",
+      "section": "A",
+      "marks": 1,
+      "difficulty": "easy",
+      "question_type": "MCQ",
+      "bloom_levels": [
+        "Remember",
+        "Understand"
+      ]
+    },
+    {
+      "slot_id": "A2",
+      "section": "A",
+      "marks": 1,
+      "difficulty": "easy",
+      "question_type": "MCQ",
+      "bloom_levels": [
+        "Remember",
+        "Understand"
+      ]
+    },
+    {
+      "slot_id": "A3",
+      "section": "A",
+      "marks": 1,
+      "difficulty": "easy",
+      "question_type": "MCQ",
+      "bloom_levels": [
+        "Remember",
+        "Understand"
+      ]
+    },
+    {
+      "slot_id": "A4",
+      "section": "A",
+      "marks": 1,
+      "difficulty": "easy",
+      "question_type": "MCQ",
+      "bloom_levels": [
+        "Remember",
+        "Understand"
+      ]
+    },
+    {
+      "slot_id": "A5",
+      "section": "A",
+      "marks": 1,
+      "difficulty": "easy",
+      "question_type": "MCQ",
+      "bloom_levels": [
+        "Remember",
+        "Understand"
+      ]
+    },
+    {
+      "slot_id": "B1",
+      "section": "B",
+      "marks": 2,
+      "difficulty": "medium",
+      "question_type": "Short Answer",
+      "bloom_levels": [
+        "Apply",
+        "Analyze"
+      ]
+    },
+    {
+      "slot_id": "B2",
+      "section": "B",
+      "marks": 2,
+      "difficulty": "medium",
+      "question_type": "Short Answer",
+      "bloom_levels": [
+        "Apply",
+        "Analyze"
+      ]
+    },
+    {
+      "slot_id": "B3",
+      "section": "B",
+      "marks": 2,
+      "difficulty": "medium",
+      "question_type": "Short Answer",
+      "bloom_levels": [
+        "Apply",
+        "Analyze"
+      ]
+    },
+    {
+      "slot_id": "B4",
+      "section": "B",
+      "marks": 2,
+      "difficulty": "medium",
+      "question_type": "Short Answer",
+      "bloom_levels": [
+        "Apply",
+        "Analyze"
+      ]
+    },
+    {
+      "slot_id": "B5",
+      "section": "B",
+      "marks": 2,
+      "difficulty": "medium",
+      "question_type": "Short Answer",
+      "bloom_levels": [
+        "Apply",
+        "Analyze"
+      ]
+    },
+    {
+      "slot_id": "C1",
+      "section": "C",
+      "marks": 3,
+      "difficulty": "hard",
+      "question_type": "Long Answer",
+      "bloom_levels": [
+        "Evaluate",
+        "Create"
+      ]
+    },
+    {
+      "slot_id": "C2",
+      "section": "C",
+      "marks": 3,
+      "difficulty": "hard",
+      "question_type": "Long Answer",
+      "bloom_levels": [
+        "Evaluate",
+        "Create"
+      ]
+    },
+    {
+      "slot_id": "C3",
+      "section": "C",
+      "marks": 3,
+      "difficulty": "hard",
+      "question_type": "Long Answer",
+      "bloom_levels": [
+        "Evaluate",
+        "Create"
+      ]
+    },
+    {
+      "slot_id": "D1",
+      "section": "D",
+      "marks": 6,
+      "difficulty": "medium",
+      "question_type": "Numerical",
+      "bloom_levels": [
+        "Apply",
+        "Analyze"
+      ]
+    }
+  ]
+}

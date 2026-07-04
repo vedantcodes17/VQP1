@@ -1,0 +1,86 @@
+[
+  {
+    "slot_id": "A1",
+    "concept_id": "CHE_SOL_002",
+    "concept_name": "Components of Solution",
+    "rationale": "Easy difficulty, MCQ type, Remember/Understand bloom levels"
+  },
+  {
+    "slot_id": "A2",
+    "concept_id": "CHE_SOL_003",
+    "concept_name": "Solubility",
+    "rationale": "Easy difficulty, MCQ type, Remember/Understand bloom levels"
+  },
+  {
+    "slot_id": "A3",
+    "concept_id": "CHE_SOL_014",
+    "concept_name": "Ideal Solution",
+    "rationale": "Medium difficulty, MCQ type, Remember/Understand bloom levels"
+  },
+  {
+    "slot_id": "A4",
+    "concept_id": "CHE_SOL_027",
+    "concept_name": "Degree of Dissociation",
+    "rationale": "Easy difficulty, MCQ type, Remember/Understand bloom levels"
+  },
+  {
+    "slot_id": "A5",
+    "concept_id": "CHE_SOL_019",
+    "concept_name": "Depression in Freezing Point",
+    "rationale": "Medium difficulty, MCQ type, Remember/Understand bloom levels"
+  },
+  {
+    "slot_id": "B1",
+    "concept_id": "CHE_SOL_026",
+    "concept_name": "Degree of Association",
+    "rationale": "Medium difficulty, Short Answer type, Apply/Analyze bloom levels"
+  },
+  {
+    "slot_id": "B2",
+    "concept_id": "CHE_SOL_028",
+    "concept_name": "Henry’s Law",
+    "rationale": "Medium difficulty, Short Answer type, Apply/Analyze bloom levels"
+  },
+  {
+    "slot_id": "B3",
+    "concept_id": "CHE_SOL_016",
+    "concept_name": "Azeotrope",
+    "rationale": "Medium difficulty, Short Answer type, Apply/Analyze bloom levels"
+  },
+  {
+    "slot_id": "B4",
+    "concept_id": "CHE_SOL_025",
+    "concept_name": "Abnormal Molar Mass",
+    "rationale": "Medium difficulty, Short Answer type, Apply/Analyze bloom levels"
+  },
+  {
+    "slot_id": "B5",
+    "concept_id": "CHE_SOL_018",
+    "concept_name": "Relative Lowering of Vapour Pressure",
+    "rationale": "Medium difficulty, Short Answer type, Apply/Analyze bloom levels"
+  },
+  {
+    "slot_id": "C1",
+    "concept_id": "CHE_SOL_024",
+    "concept_name": "Hypotonic Solutions",
+    "rationale": "Hard difficulty, Long Answer type, Evaluate/Create bloom levels"
+  },
+  {
+    "slot_id": "C2",
+    "concept_id": "CHE_SOL_023",
+    "concept_name": "Hypertonic Solutions",
+    "rationale": "Hard difficulty, Long Answer type, Evaluate/Create bloom levels"
+  },
+  {
+    "slot_id": "C3",
+    "concept_id": "CHE_SOL_015",
+    "concept_name": "Non-Ideal Solution",
+    "rationale": "Hard difficulty, Long Answer type, Evaluate/Create bloom levels"
+  },
+  {
+    "slot_id": "D1",
+    "concept_id": "CHE_SOL_009",
+    "concept_name": "Molarity (M)",
+    "rationale": "Medium difficulty, Numerical type, Apply/Analyze bloom levels (de-duplicated)"
+  }
+]

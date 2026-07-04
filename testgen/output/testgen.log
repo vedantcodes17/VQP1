@@ -1,0 +1,71 @@
+10:45:38 | INFO     | testgen.blueprint_service | Requesting blueprint from LLM...
+10:46:01 | INFO     | testgen.blueprint_service | Blueprint ready: 4 section(s), 14 slot(s), 30 marks total
+10:46:01 | INFO     | testgen.concept_selector | Requesting concept assignments from LLM...
+10:47:02 | INFO     | testgen.concept_selector | Slot D1: reassigning duplicate concept 'CHE_SOL_028' -> 'CHE_SOL_009'
+10:47:02 | INFO     | testgen.concept_selector | Concept selection complete: 14 assignment(s), 14 distinct concept(s)
+10:47:02 | INFO     | testgen.question_generator | Generating question 1/14 (slot=A1, concept='Components of Solution')
+10:47:09 | INFO     | testgen.question_generator | Generating question 2/14 (slot=A2, concept='Solubility')
+10:47:16 | INFO     | testgen.question_generator | Generating question 3/14 (slot=A3, concept='Ideal Solution')
+10:47:23 | INFO     | testgen.question_generator | Generating question 4/14 (slot=A4, concept='Degree of Dissociation')
+10:47:29 | INFO     | testgen.question_generator | Generating question 5/14 (slot=A5, concept='Depression in Freezing Point')
+10:47:36 | INFO     | testgen.question_generator | Generating question 6/14 (slot=B1, concept='Degree of Association')
+10:47:43 | INFO     | testgen.question_generator | Generating question 7/14 (slot=B2, concept='Henry’s Law')
+10:47:49 | INFO     | testgen.question_generator | Generating question 8/14 (slot=B3, concept='Azeotrope')
+10:47:56 | INFO     | testgen.question_generator | Generating question 9/14 (slot=B4, concept='Abnormal Molar Mass')
+10:48:03 | INFO     | testgen.question_generator | Generating question 10/14 (slot=B5, concept='Relative Lowering of Vapour Pressure')
+10:48:13 | INFO     | testgen.question_generator | Generating question 11/14 (slot=C1, concept='Hypotonic Solutions')
+10:48:31 | WARNING  | testgen.question_generator | LLM call attempt 1/3 failed: Invalid control character at: line 3 column 236 (char 424)
+10:48:45 | INFO     | testgen.question_generator | Generating question 12/14 (slot=C2, concept='Hypertonic Solutions')
+10:48:57 | INFO     | testgen.question_generator | Generating question 13/14 (slot=C3, concept='Non-Ideal Solution')
+10:49:40 | WARNING  | testgen.question_generator | LLM call attempt 1/3 failed: Invalid \escape: line 3 column 551 (char 922)
+10:50:13 | INFO     | testgen.question_generator | Generating question 14/14 (slot=D1, concept='Molarity (M)')
+10:50:24 | INFO     | testgen.question_generator | Generated 14 question(s)
+10:50:24 | INFO     | testgen.diagram_injector | Injected diagram question 'EXTRA_002' into slot B1 (question Q006)
+10:50:24 | INFO     | testgen.question_validator | Deterministic checks: 1 question(s) flagged
+10:50:28 | INFO     | testgen.question_validator | Validation complete: 2/14 question(s) flagged
+10:50:28 | INFO     | testgen.question_regenerator | Regenerating Q006 (slot=B1, reasons=['Diagram generation unavailable.'])
+10:50:41 | INFO     | testgen.question_regenerator | Regenerating Q010 (slot=B5, reasons=['[Moderator] The answer cannot be determined without additional information such as the molecular weight or molar mass of the solute.'])
+10:50:54 | INFO     | testgen.question_regenerator | Regeneration complete: 2 question(s) replaced
+10:50:54 | INFO     | testgen.paper_builder | Paper built: 4 section(s), 14 question(s), 30 marks
+10:50:54 | INFO     | testgen.main | Pipeline complete in 316.7s
+10:58:44 | INFO     | testgen.run_approach2 | Loaded 4 concept(s) from chapter_kb_approach2.json
+10:58:44 | INFO     | testgen.blueprint_service | Requesting blueprint from LLM...
+10:59:06 | INFO     | testgen.blueprint_service | Blueprint ready: 4 section(s), 14 slot(s), 30 marks total
+10:59:06 | INFO     | testgen.concept_selector | Requesting concept assignments from LLM...
+10:59:36 | INFO     | testgen.concept_selector | Concept selection complete: 14 assignment(s), 4 distinct concept(s)
+10:59:36 | INFO     | testgen.question_generator | Generating question 1/14 (slot=A1, concept='Molarity')
+10:59:43 | INFO     | testgen.question_generator | Generating question 2/14 (slot=A2, concept='Normality')
+10:59:53 | INFO     | testgen.question_generator | Generating question 3/14 (slot=A3, concept='Hardness Measurement (ppm)')
+11:00:00 | INFO     | testgen.question_generator | Generating question 4/14 (slot=A4, concept='Osmotic Pressure Measurement')
+11:00:08 | INFO     | testgen.question_generator | Generating question 5/14 (slot=A5, concept='Molarity')
+11:00:17 | INFO     | testgen.question_generator | Generating question 6/14 (slot=B1, concept='Normality')
+11:00:28 | INFO     | testgen.question_generator | Generating question 7/14 (slot=B2, concept='Hardness Measurement (ppm)')
+11:00:36 | INFO     | testgen.question_generator | Generating question 8/14 (slot=B3, concept='Osmotic Pressure Measurement')
+11:00:42 | INFO     | testgen.question_generator | Generating question 9/14 (slot=B4, concept='Normality')
+11:00:53 | INFO     | testgen.question_generator | Generating question 10/14 (slot=B5, concept='Hardness Measurement (ppm)')
+11:00:59 | INFO     | testgen.question_generator | Generating question 11/14 (slot=C1, concept='Osmotic Pressure Measurement')
+11:01:31 | INFO     | testgen.question_generator | Generating question 12/14 (slot=C2, concept='Hardness Measurement (ppm)')
+11:01:40 | INFO     | testgen.question_generator | Generating question 13/14 (slot=C3, concept='Normality')
+11:01:51 | INFO     | testgen.question_generator | Generating question 14/14 (slot=D1, concept='Osmotic Pressure Measurement')
+11:02:10 | INFO     | testgen.question_generator | Generated 14 question(s)
+11:02:10 | INFO     | testgen.diagram_injector | Injected diagram question 'EXTRA_004' into slot C2 (question Q012)
+11:02:10 | INFO     | testgen.question_validator | Deterministic checks: 14 question(s) flagged
+11:02:15 | INFO     | testgen.question_validator | Validation complete: 14/14 question(s) flagged
+11:02:15 | INFO     | testgen.question_regenerator | Regenerating Q001 (slot=A1, reasons=["Concept 'CH01_001' reused across questions ['Q001', 'Q005']"])
+11:02:23 | INFO     | testgen.question_regenerator | Regenerating Q002 (slot=A2, reasons=["Concept 'CH01_002' reused across questions ['Q002', 'Q006', 'Q009', 'Q013']"])
+11:02:34 | INFO     | testgen.question_regenerator | Regenerating Q003 (slot=A3, reasons=["Concept 'CH01_003' reused across questions ['Q003', 'Q007', 'Q010', 'Q012']"])
+11:02:41 | INFO     | testgen.question_regenerator | Regenerating Q004 (slot=A4, reasons=["Concept 'CH01_004' reused across questions ['Q004', 'Q008', 'Q011', 'Q014']"])
+11:02:45 | WARNING  | testgen.question_regenerator | LLM call attempt 1/3 failed: missing 'marks'
+11:02:56 | INFO     | testgen.question_regenerator | Regenerating Q005 (slot=A5, reasons=["Concept 'CH01_001' reused across questions ['Q001', 'Q005']"])
+11:03:03 | INFO     | testgen.question_regenerator | Regenerating Q006 (slot=B1, reasons=['Duplicate question text (same as Q013)', "Concept 'CH01_002' reused across questions ['Q002', 'Q006', 'Q009', 'Q013']"])
+11:04:16 | INFO     | testgen.question_regenerator | Regenerating Q007 (slot=B2, reasons=["Concept 'CH01_003' reused across questions ['Q003', 'Q007', 'Q010', 'Q012']"])
+11:04:24 | INFO     | testgen.question_regenerator | Regenerating Q008 (slot=B3, reasons=["Concept 'CH01_004' reused across questions ['Q004', 'Q008', 'Q011', 'Q014']"])
+11:04:31 | INFO     | testgen.question_regenerator | Regenerating Q009 (slot=B4, reasons=["Concept 'CH01_002' reused across questions ['Q002', 'Q006', 'Q009', 'Q013']"])
+11:04:42 | INFO     | testgen.question_regenerator | Regenerating Q010 (slot=B5, reasons=["Concept 'CH01_003' reused across questions ['Q003', 'Q007', 'Q010', 'Q012']"])
+11:04:50 | INFO     | testgen.question_regenerator | Regenerating Q011 (slot=C1, reasons=["Concept 'CH01_004' reused across questions ['Q004', 'Q008', 'Q011', 'Q014']"])
+11:05:24 | INFO     | testgen.question_regenerator | Regenerating Q012 (slot=C2, reasons=["Concept 'CH01_003' reused across questions ['Q003', 'Q007', 'Q010', 'Q012']", 'Diagram generation unavailable.'])
+11:05:33 | INFO     | testgen.question_regenerator | Regenerating Q013 (slot=C3, reasons=['Duplicate question text (same as Q006)', "Concept 'CH01_002' reused across questions ['Q002', 'Q006', 'Q009', 'Q013']", '[Moderator] The answer is factually inconsistent with the question. The calculated normality should be 0.5 N, not 5 N.'])
+11:05:45 | INFO     | testgen.question_regenerator | Regenerating Q014 (slot=D1, reasons=["Concept 'CH01_004' reused across questions ['Q004', 'Q008', 'Q011', 'Q014']"])
+11:06:02 | INFO     | testgen.question_regenerator | Regeneration complete: 14 question(s) replaced
+11:06:02 | INFO     | testgen.paper_builder | Paper built: 4 section(s), 14 question(s), 30 marks
+11:06:02 | INFO     | testgen.run_approach2 | Approach2 pipeline complete in 437.6s

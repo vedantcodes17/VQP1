@@ -1,0 +1,46 @@
+[
+  {
+    "id": "EXTRA_001",
+    "question": "Draw a labelled graph showing the vapour pressure of an ideal solution as a function of mole fraction of solute, illustrating Raoult's Law.",
+    "answer": "Graph: X-axis = mole fraction of solute (x2), Y-axis = vapour pressure (p). Two straight lines from p1(pure solvent) and p2(pure solute) to the intersection point representing the solution's total vapour pressure, per Raoult's Law: p = p1*x1 + p2*x2.",
+    "marks": 3,
+    "difficulty": "medium",
+    "bloom": "Understand",
+    "type": "Long Answer",
+    "concept_id": "",
+    "requires_diagram": true
+  },
+  {
+    "id": "EXTRA_002",
+    "question": "Draw a neat labelled diagram of the apparatus used to measure the osmotic pressure of a solution by the Berkeley and Hartley method.",
+    "answer": "Diagram should show: outer metal cylinder, inner porous pot with semi-permeable membrane deposited on its walls, capillary tube connected to solvent side, piston for applying external pressure, and solution inside the porous pot.",
+    "marks": 4,
+    "difficulty": "hard",
+    "bloom": "Understand",
+    "type": "Long Answer",
+    "concept_id": "",
+    "requires_diagram": true
+  },
+  {
+    "id": "EXTRA_003",
+    "question": "Draw a diagram/graph showing the elevation in boiling point of a solution versus molality of a non-volatile solute, and label the slope as Kb.",
+    "answer": "Graph: X-axis = molality (m), Y-axis = boiling point elevation (Delta Tb). A straight line through the origin with slope Kb, consistent with Delta Tb = Kb * m.",
+    "marks": 2,
+    "difficulty": "medium",
+    "bloom": "Understand",
+    "type": "Short Answer",
+    "concept_id": "",
+    "requires_diagram": true
+  },
+  {
+    "id": "EXTRA_004",
+    "question": "Draw a labelled diagram of the experimental setup demonstrating osmosis using a thistle funnel, semi-permeable membrane, and a beaker of water.",
+    "answer": "Diagram should show: thistle funnel covered with semi-permeable membrane (e.g. parchment) containing concentrated sugar solution, funnel stem fitted with a graduated capillary, funnel bulb immersed in a beaker of pure water, and rise of liquid level in the capillary due to osmosis.",
+    "marks": 3,
+    "difficulty": "medium",
+    "bloom": "Understand",
+    "type": "Long Answer",
+    "concept_id": "",
+    "requires_diagram": true
+  }
+]

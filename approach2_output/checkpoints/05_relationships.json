@@ -1,0 +1,17 @@
+[
+  {
+    "source_concept": "CH01_001",
+    "target_concept": "CH01_002",
+    "relationship": "related_to"
+  },
+  {
+    "source_concept": "CH01_003",
+    "target_concept": "CH01_004",
+    "relationship": "application_of"
+  },
+  {
+    "source_concept": "CH01_001",
+    "target_concept": "CH01_002",
+    "relationship": "example_of"
+  }
+]

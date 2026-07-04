@@ -1,0 +1,120 @@
+[
+  {
+    "concept_id": "CH01_001",
+    "concept_name": "Molarity",
+    "parent_concept": "",
+    "is_grouping_node": false,
+    "official_name": "Molarity",
+    "aliases": [
+      "Concentration"
+    ],
+    "search_terms": [],
+    "abbreviations": [],
+    "definition": "The number of moles of a substance dissolved in 1 liter (L) of solution.",
+    "formulae": [],
+    "examples": [
+      "{'example': 'Calculate the molarity of a solution obtained by mixing 50 mL of 5 M K₂Cr₂O₇ and 50 mL of 2 M K₂Cr₂O₇ in acidic medium.', 'solution': 'v.f. of K₂Cr₂O₇ = 6\\nN_f = (N₁ V₁ + N₂ V₂) / (V₁ + V₂) = ((5 × 6 × 50) + (2 × 6 × 50)) / (50 + 50) = 21 M'}",
+      "{'example': 'Calculate the normality of a solution containing 13.4 g of Sodium oxalate in 100 mL.', 'solution': 'N = (wt. in g/eq. wt.) / vol. of solution in litre\\nHere, eq. wt. of Na₂C₂O₄ = 67 so N = (13.4/67) / (100/1000) = 2 N'}"
+    ],
+    "related_concepts": [],
+    "importance": "",
+    "chapter_weightage": "",
+    "concept_category": "",
+    "concept_type": "",
+    "prerequisites": [],
+    "difficulty_hint": "",
+    "learning_outcomes": [],
+    "_category_hint": "Concentration",
+    "_topic": "Solutions",
+    "_source_chunk_ids": [
+      "Equivalent Concept _ Titration Theory_combined_output_chunked.xml_28"
+    ]
+  },
+  {
+    "concept_id": "CH01_002",
+    "concept_name": "Normality",
+    "parent_concept": "",
+    "is_grouping_node": false,
+    "official_name": "Normality",
+    "aliases": [
+      "Equivalent Concentration"
+    ],
+    "search_terms": [],
+    "abbreviations": [],
+    "definition": "The number of equivalents of a substance dissolved in 1 liter (L) of solution.",
+    "formulae": [],
+    "examples": [
+      "{'example': 'Calculate the normality of a solution obtained by mixing 50 mL of 5 M K₂Cr₂O₇ and 50 mL of 2 M K₂Cr₂O₇ in acidic medium.', 'solution': 'N_f = (N₁ V₁ + N₂ V₂) / (V₁ + V₂) = ((5 × 6 × 50) + (2 × 6 × 50)) / (50 + 50) = 21 N'}",
+      "{'example': 'Calculate the normality of a solution containing 13.4 g of Sodium oxalate in 100 mL.', 'solution': 'N = (wt. in g/eq. wt.) / vol. of solution in litre\\nHere, eq. wt. of Na₂C₂O₄ = 67 so N = (13.4/67) / (100/1000) = 2 N'}"
+    ],
+    "related_concepts": [],
+    "importance": "",
+    "chapter_weightage": "",
+    "concept_category": "",
+    "concept_type": "",
+    "prerequisites": [],
+    "difficulty_hint": "",
+    "learning_outcomes": [],
+    "_category_hint": "Concentration",
+    "_topic": "Solutions",
+    "_source_chunk_ids": [
+      "Equivalent Concept _ Titration Theory_combined_output_chunked.xml_28"
+    ]
+  },
+  {
+    "concept_id": "CH01_003",
+    "concept_name": "Hardness Measurement (ppm)",
+    "parent_concept": "",
+    "is_grouping_node": false,
+    "official_name": "Hardness Measurement (ppm)",
+    "aliases": [],
+    "search_terms": [],
+    "abbreviations": [],
+    "definition": "Measurement of hardness in terms of parts per million (ppm) of CaCO₃ or equivalent to it.",
+    "formulae": [
+      "{'formula': 'Hardness in ppm = (mass of CaCO₃ / Total mass of solution) × 10^6'}"
+    ],
+    "examples": [],
+    "related_concepts": [],
+    "importance": "",
+    "chapter_weightage": "",
+    "concept_category": "",
+    "concept_type": "",
+    "prerequisites": [],
+    "difficulty_hint": "",
+    "learning_outcomes": [],
+    "_category_hint": "Solutions",
+    "_topic": "Solutions",
+    "_source_chunk_ids": [
+      "Equivalent Concept _ Titration Theory_combined_output_chunked.xml_23"
+    ]
+  },
+  {
+    "concept_id": "CH01_004",
+    "concept_name": "Osmotic Pressure Measurement",
+    "parent_concept": "",
+    "is_grouping_node": false,
+    "official_name": "Osmotic Pressure Measurement",
+    "aliases": [],
+    "search_terms": [],
+    "abbreviations": [],
+    "definition": "A method of determining molar masses of solutes using osmotic pressure.",
+    "formulae": [],
+    "examples": [
+      "{'example': 'Measurement of osmotic pressure provides another method of determining molar masses of solutes. This method is widely used to determine molar masses of proteins, polymers and other macromolecules.', 'solution': ''}"
+    ],
+    "related_concepts": [],
+    "importance": "",
+    "chapter_weightage": "",
+    "concept_category": "",
+    "concept_type": "",
+    "prerequisites": [],
+    "difficulty_hint": "",
+    "learning_outcomes": [],
+    "_category_hint": "Colligative Properties",
+    "_topic": "Solutions",
+    "_source_chunk_ids": [
+      "lech101_combined_output_chunked.xml_49"
+    ]
+  }
+]

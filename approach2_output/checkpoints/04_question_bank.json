@@ -1,0 +1,18 @@
+[
+  {
+    "question": "An aqueous solution containing 0.1 g KIO₃ (formula weight = 214) and an excess of KI was acidified with HCl. The liberated I₂ consumed 45 mL of thiosulphate. The molarity of sodium thiosulphate solution is:",
+    "answer": "0.0623 M",
+    "type": "MCQ",
+    "linked_concepts": [
+      "CH01_001"
+    ],
+    "_source_chunk_id": "Equivalent Concept _ Titration Theory_combined_output_chunked.xml_33"
+  },
+  {
+    "question": "The oxidation state of chromium in the final product formed by the reaction between KI and acidified potassium dichromate solution is:",
+    "answer": "",
+    "type": "Short Answer",
+    "linked_concepts": [],
+    "_source_chunk_id": "Equivalent Concept _ Titration APSP_combined_output_chunked.xml_50"
+  }
+]

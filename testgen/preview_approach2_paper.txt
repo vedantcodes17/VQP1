@@ -1,0 +1,22 @@
+subject/class/chapter: Chemistry 12 Solutions total_marks: 30
+Section A (1 marks each, MCQ):
+  Q1. [1m, easy] concept=CH01_001 What does molarity represent in a solution?
+  Q2. [1m, easy] concept=CH01_002 Calculate the normality of a solution containing 15 g of Ca(OH)_2 in 200 mL.
+  Q3. [1m, easy] concept=CH01_003 What does a hardness measurement of 50 ppm indicate in terms of CaCO₃ or its equivalent?
+  Q4. [1m, easy] concept=CH01_004 Which of these techniques does not rely on osmotic pressure to measure molar mass?
+  Q5. [1m, easy] concept=CH01_001 Calculate the molarity of a solution prepared by mixing equal volumes of 3 M HCl and 6 M HCl.
+
+Section B (2 marks each, Short Answer):
+  Q6. [2m, medium] concept=CH01_002 Determine the normality of a solution prepared by dissolving 8 g of NaCl in 500 mL.
+  Q7. [2m, medium] concept=CH01_003 If a water sample has a hardness level that corresponds to 5 grams of CaCO₃ in every liter, what is its hardne
+  Q8. [2m, medium] concept=CH01_004 How can osmotic pressure measurements be utilized to estimate the molecular weight of a solute in solution?
+  Q9. [2m, medium] concept=CH01_002 Determine the normality of a solution prepared by dissolving 8 grams of NaCl in 500 mL.
+  Q10. [2m, medium] concept=CH01_003 Calculate the hardness measurement in parts per million (ppm) for a water sample that contains 5 grams of CaCO
+
+Section C (3 marks each, Numerical):
+  Q11. [3m, hard] concept=CH01_004 A solution with a concentration of 0.02 mol/L has an osmotic pressure of 1 atm at 300 K. If the volume of the 
+  Q12. [3m, hard] concept=CH01_003 Calculate the hardness in parts per million (ppm) for a water sample that contains 2.5 grams of CaCO₃ dissolve
+  Q13. [3m, hard] concept=CH01_002 Determine the normality of a solution prepared by dissolving 8 g of NaCl in 500 mL.
+
+Section D (6 marks each, Long Answer):
+  Q14. [6m, medium] concept=CH01_004 Describe a scenario where osmotic pressure measurement can be particularly useful in determining the molecular

@@ -1,0 +1,214 @@
+{
+  "subject": "Chemistry",
+  "class": "12",
+  "chapter": "Solutions",
+  "total_marks": 30,
+  "instructions": [
+    "All questions are compulsory.",
+    "Marks for each question are indicated against it.",
+    "Section A consists of 5 question(s) of 1 mark(s) each (MCQ).",
+    "Section B consists of 5 question(s) of 2 mark(s) each (Short Answer).",
+    "Section C consists of 3 question(s) of 3 mark(s) each (Numerical).",
+    "Section D consists of 1 question(s) of 6 mark(s) each (Long Answer)."
+  ],
+  "sections": [
+    {
+      "section": "A",
+      "marks_per_question": 1,
+      "question_type": "MCQ",
+      "questions": [
+        {
+          "q_no": 1,
+          "question": "What does molarity represent in a solution?",
+          "marks": 1,
+          "type": "MCQ",
+          "difficulty": "easy",
+          "concept_id": "CH01_001"
+        },
+        {
+          "q_no": 2,
+          "question": "Calculate the normality of a solution containing 15 g of Ca(OH)_2 in 200 mL.",
+          "marks": 1,
+          "type": "MCQ",
+          "difficulty": "easy",
+          "concept_id": "CH01_002"
+        },
+        {
+          "q_no": 3,
+          "question": "What does a hardness measurement of 50 ppm indicate in terms of CaCO₃ or its equivalent?",
+          "marks": 1,
+          "type": "MCQ",
+          "difficulty": "easy",
+          "concept_id": "CH01_003"
+        },
+        {
+          "q_no": 4,
+          "question": "Which of these techniques does not rely on osmotic pressure to measure molar mass?",
+          "marks": 1,
+          "type": "MCQ",
+          "difficulty": "easy",
+          "concept_id": "CH01_004"
+        },
+        {
+          "q_no": 5,
+          "question": "Calculate the molarity of a solution prepared by mixing equal volumes of 3 M HCl and 6 M HCl.",
+          "marks": 1,
+          "type": "MCQ",
+          "difficulty": "easy",
+          "concept_id": "CH01_001"
+        }
+      ]
+    },
+    {
+      "section": "B",
+      "marks_per_question": 2,
+      "question_type": "Short Answer",
+      "questions": [
+        {
+          "q_no": 6,
+          "question": "Determine the normality of a solution prepared by dissolving 8 g of NaCl in 500 mL.",
+          "marks": 2,
+          "type": "Short Answer",
+          "difficulty": "medium",
+          "concept_id": "CH01_002"
+        },
+        {
+          "q_no": 7,
+          "question": "If a water sample has a hardness level that corresponds to 5 grams of CaCO₃ in every liter, what is its hardness value in parts per million (ppm)?",
+          "marks": 2,
+          "type": "Short Answer",
+          "difficulty": "medium",
+          "concept_id": "CH01_003"
+        },
+        {
+          "q_no": 8,
+          "question": "How can osmotic pressure measurements be utilized to estimate the molecular weight of a solute in solution?",
+          "marks": 2,
+          "type": "Short Answer",
+          "difficulty": "medium",
+          "concept_id": "CH01_004"
+        },
+        {
+          "q_no": 9,
+          "question": "Determine the normality of a solution prepared by dissolving 8 grams of NaCl in 500 mL.",
+          "marks": 2,
+          "type": "Short Answer",
+          "difficulty": "medium",
+          "concept_id": "CH01_002"
+        },
+        {
+          "q_no": 10,
+          "question": "Calculate the hardness measurement in parts per million (ppm) for a water sample that contains 5 grams of CaCO₃ dissolved in 2 liters of solution.",
+          "marks": 2,
+          "type": "Short Answer",
+          "difficulty": "medium",
+          "concept_id": "CH01_003"
+        }
+      ]
+    },
+    {
+      "section": "C",
+      "marks_per_question": 3,
+      "question_type": "Numerical",
+      "questions": [
+        {
+          "q_no": 11,
+          "question": "A solution with a concentration of 0.02 mol/L has an osmotic pressure of 1 atm at 300 K. If the volume of the solution is 5 liters and the temperature remains constant, what would be the molar mass of the solute if it is assumed to behave ideally?",
+          "marks": 3,
+          "type": "Numerical",
+          "difficulty": "hard",
+          "concept_id": "CH01_004"
+        },
+        {
+          "q_no": 12,
+          "question": "Calculate the hardness in parts per million (ppm) for a water sample that contains 2.5 grams of CaCO₃ dissolved in 500 mL of solution.",
+          "marks": 3,
+          "type": "Numerical",
+          "difficulty": "hard",
+          "concept_id": "CH01_003"
+        },
+        {
+          "q_no": 13,
+          "question": "Determine the normality of a solution prepared by dissolving 8 g of NaCl in 500 mL.",
+          "marks": 3,
+          "type": "Numerical",
+          "difficulty": "hard",
+          "concept_id": "CH01_002"
+        }
+      ]
+    },
+    {
+      "section": "D",
+      "marks_per_question": 6,
+      "question_type": "Long Answer",
+      "questions": [
+        {
+          "q_no": 14,
+          "question": "Describe a scenario where osmotic pressure measurement can be particularly useful in determining the molecular weight of a polymer. Explain how this method helps in characterizing the polymer's properties.",
+          "marks": 6,
+          "type": "Long Answer",
+          "difficulty": "medium",
+          "concept_id": "CH01_004"
+        }
+      ]
+    }
+  ],
+  "answer_key": [
+    {
+      "q_no": 1,
+      "answer": "(a) The number of moles of solute per liter of solution"
+    },
+    {
+      "q_no": 2,
+      "answer": "(a) 0.4 M, (b) 0.8 M, (c) 1.6 M, (d) 3.2 M; Option (c), as N = wt./eq.wt., and the equivalent weight of Ca(OH)_2 is 50."
+    },
+    {
+      "q_no": 3,
+      "answer": "(a)"
+    },
+    {
+      "q_no": 4,
+      "answer": "a) Dialysis\nb) Gel permeation chromatography\nc) Viscosity measurement\nd) Sedimentation equilibrium"
+    },
+    {
+      "q_no": 5,
+      "answer": "(a) 4.5 M"
+    },
+    {
+      "q_no": 6,
+      "answer": "N = (wt. in g/eq. wt.) / vol. of solution in litre\\nHere, eq. wt. of NaCl is 58 so N = (8/58) / (500/1000) = 0.276 N"
+    },
+    {
+      "q_no": 7,
+      "answer": "Hardness = 500 ppm"
+    },
+    {
+      "q_no": 8,
+      "answer": "The molar mass"
+    },
+    {
+      "q_no": 9,
+      "answer": "N = (wt. in g/equivalent weight) / volume of solution in liters\\nHere, equivalent weight of NaCl is 58 so N = (8/58) / (500/1000) = 0.276 N"
+    },
+    {
+      "q_no": 10,
+      "answer": ""
+    },
+    {
+      "q_no": 11,
+      "answer": "The molar mass of the solute can be calculated using the formula for osmotic pressure: \\(\\Pi = MRT\\), where \\(\\Pi\\) is the osmotic pressure, \\(M\\) is the molar concentration, \\(R\\) is the gas constant (0.0821 L·atm/(mol·K)), and \\(T\\) is the temperature in Kelvin. Rearranging for \\(M\\), we get: \\(M = \\frac{\\Pi}{RT}\\). Plugging in the values, \\(M = \\frac{1 atm}{(0.0821 L·atm/(mol·K)) * 300 K} = 0.04 mol/L\\). The molar mass of the solute is therefore calculated as: \\(M_{solute} = C × M_{solution}\\), where \\(C\\) is the concentration and \\(M_{solution}\\) is the molar mass of water (18 g/mol for dilute solutions at room temperature). Assuming a dilute solution, we can approximate that \\(M_{solute} ≈ 0.04 mol/L × 18 g/mol = 0.72 g/mol\\), which simplifies to approximately 3600 g/mol."
+    },
+    {
+      "q_no": 12,
+      "answer": "Hardness in ppm = (2.5 / 500) × 10^6"
+    },
+    {
+      "q_no": 13,
+      "answer": "N = (wt. in g/eq. wt.) / vol. of solution in litre\\nHere, eq. wt. of NaCl is 58 so N = (8/58) / (500/1000) = 0.276 N"
+    },
+    {
+      "q_no": 14,
+      "answer": "- Osmotic pressure measurement is especially valuable for determining the molecular weight of polymers because it allows for the estimation of the number-average molar mass (Mn) without needing to know the exact chemical structure or concentration of the polymer solution. This technique can be particularly useful in industries such as pharmaceuticals, where precise knowledge of a polymer's molecular weight is crucial for product quality and safety.\n- By measuring osmotic pressure at different concentrations of the polymer solution, one can plot these values against each other to determine the slope of the curve. The slope provides an indication of the number-average molar mass (Mn) of the polymer."
+    }
+  ]
+}

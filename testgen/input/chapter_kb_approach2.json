@@ -1,0 +1,434 @@
+{
+  "chapter": "Unit 1: Solutions",
+  "chapter_id": "CH01",
+  "subject": "CHEMISTRY",
+  "grade": "CLASS-12",
+  "concept_tree": [
+    {
+      "concept_id": "CH01_001",
+      "concept_name": "Molarity",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Molarity",
+      "aliases": [
+        "Concentration"
+      ],
+      "search_terms": [],
+      "abbreviations": [],
+      "definition": "The number of moles of a substance dissolved in 1 liter (L) of solution.",
+      "formulae": [],
+      "examples": [
+        "{'example': 'Calculate the molarity of a solution obtained by mixing 50 mL of 5 M K₂Cr₂O₇ and 50 mL of 2 M K₂Cr₂O₇ in acidic medium.', 'solution': 'v.f. of K₂Cr₂O₇ = 6\\nN_f = (N₁ V₁ + N₂ V₂) / (V₁ + V₂) = ((5 × 6 × 50) + (2 × 6 × 50)) / (50 + 50) = 21 M'}",
+        "{'example': 'Calculate the normality of a solution containing 13.4 g of Sodium oxalate in 100 mL.', 'solution': 'N = (wt. in g/eq. wt.) / vol. of solution in litre\\nHere, eq. wt. of Na₂C₂O₄ = 67 so N = (13.4/67) / (100/1000) = 2 N'}"
+      ],
+      "related_concepts": [
+        "CH01_002"
+      ],
+      "importance": "high",
+      "chapter_weightage": "medium",
+      "concept_category": "Definition",
+      "concept_type": "Factual",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "learning_outcomes": [
+        {
+          "verb": "Define",
+          "object": "Molarity"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Short Answer"
+        ],
+        "recommended_marks": [
+          1,
+          2
+        ],
+        "blooms_levels": [
+          "Remember",
+          "Understand"
+        ],
+        "competencies": [
+          "Conceptual Understanding"
+        ],
+        "board_frequency": {
+          "ncert": "medium",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Molarity",
+          "Concentration",
+          "moles per liter"
+        ],
+        "chunk_ids": [
+          "Equivalent Concept _ Titration Theory_combined_output_chunked.xml_28"
+        ],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      },
+      "source_chunk_ids": [
+        "Equivalent Concept _ Titration Theory_combined_output_chunked.xml_28"
+      ],
+      "source_chunks": [
+        {
+          "summary": "This chapter provides a comprehensive overview of the Equivalent Concept in Chemistry, covering definitions of equivalent weight, n-factor (valency factor) calculation for elements, acids, bases, and salts, and the concept of Normality. It extensively details various types of titrations, including acid-base, redox (Permanganate), and Iodometric/Iodimetric methods, emphasizing the Law of Equivalence. The chapter also addresses advanced topics like the drawbacks of the equivalent concept, volume strength of hydrogen peroxide, water hardness measurement, and oleum strength calculation, supported by numerous solved examples.",
+          "document_name": "Equivalent Concept _ Titration Theory",
+          "grade": "CLASS-12",
+          "subject": "CHEMISTRY",
+          "chapter": "Unit 1: Solutions",
+          "source": "Resonance",
+          "topic": "Equivalent Concept and Titration",
+          "total_pages": "12",
+          "source_file": "Equivalent Concept _ Titration Theory_combined_output_chunked.xml",
+          "context": "Miscellaneous Problems: Normality Calculations (Q5-Q6)",
+          "content_type": "example",
+          "page_no": "10",
+          "document": "Subject: CHEMISTRY\nTopic: Equivalent Concept and Titration\nContext: Miscellaneous Problems: Normality Calculations (Q5-Q6)\nContent: 5. Calculate the normality of a solution obtained by mixing 50 mL of 5 M solution of  $ K_{2}Cr_{2}O_{7} $  and 50 mL of 2 M  $ K_{2}Cr_{2}O_{7} $  in acidic medium.\nSol. v.f. of  $ K_{2}Cr_{2}O_{7}=6 $\n$$ N_{f} = \\frac{N_{1} V_{1} + N_{2} V_{2}}{V_{1} + V_{2}} = \\frac{5 \\times 6 \\times 50 + 2 \\times 6 \\times 50}{50 + 50} = 21 N $$\n6. Calculate the normality of a solution containing 13.4 g of Sodium oxalate in 100 mL Sol.\nSol. Normality =  $ \\frac{wt. in g/eq. wt}{vol. of solution in litre} $\nHere, eq. wt. of  $ Na_{2}C_{2}O_{4} = 134/2 = 67 $\nso  $ N = \\frac{13.4/67}{100/1000} = 2N $",
+          "original_id": "Equivalent Concept _ Titration Theory_combined_output_chunked.xml_28",
+          "chapter_id": "class12_che_u01"
+        }
+      ]
+    },
+    {
+      "concept_id": "CH01_002",
+      "concept_name": "Normality",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Normality",
+      "aliases": [
+        "Equivalent Concentration"
+      ],
+      "search_terms": [],
+      "abbreviations": [],
+      "definition": "The number of equivalents of a substance dissolved in 1 liter (L) of solution.",
+      "formulae": [],
+      "examples": [
+        "{'example': 'Calculate the normality of a solution obtained by mixing 50 mL of 5 M K₂Cr₂O₇ and 50 mL of 2 M K₂Cr₂O₇ in acidic medium.', 'solution': 'N_f = (N₁ V₁ + N₂ V₂) / (V₁ + V₂) = ((5 × 6 × 50) + (2 × 6 × 50)) / (50 + 50) = 21 N'}",
+        "{'example': 'Calculate the normality of a solution containing 13.4 g of Sodium oxalate in 100 mL.', 'solution': 'N = (wt. in g/eq. wt.) / vol. of solution in litre\\nHere, eq. wt. of Na₂C₂O₄ = 67 so N = (13.4/67) / (100/1000) = 2 N'}"
+      ],
+      "related_concepts": [
+        "CH01_001"
+      ],
+      "importance": "high",
+      "chapter_weightage": "medium",
+      "concept_category": "Definition",
+      "concept_type": "Factual",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "learning_outcomes": [
+        {
+          "verb": "Define",
+          "object": "Normality"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Short Answer"
+        ],
+        "recommended_marks": [
+          1,
+          2
+        ],
+        "blooms_levels": [
+          "Remember",
+          "Understand"
+        ],
+        "competencies": [
+          "Conceptual Understanding"
+        ],
+        "board_frequency": {
+          "ncert": "medium",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Normality",
+          "Equivalent Concentration",
+          "Concentration",
+          "equivalents per liter"
+        ],
+        "chunk_ids": [
+          "Equivalent Concept _ Titration Theory_combined_output_chunked.xml_28"
+        ],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      },
+      "source_chunk_ids": [
+        "Equivalent Concept _ Titration Theory_combined_output_chunked.xml_28"
+      ],
+      "source_chunks": [
+        {
+          "summary": "This chapter provides a comprehensive overview of the Equivalent Concept in Chemistry, covering definitions of equivalent weight, n-factor (valency factor) calculation for elements, acids, bases, and salts, and the concept of Normality. It extensively details various types of titrations, including acid-base, redox (Permanganate), and Iodometric/Iodimetric methods, emphasizing the Law of Equivalence. The chapter also addresses advanced topics like the drawbacks of the equivalent concept, volume strength of hydrogen peroxide, water hardness measurement, and oleum strength calculation, supported by numerous solved examples.",
+          "document_name": "Equivalent Concept _ Titration Theory",
+          "grade": "CLASS-12",
+          "subject": "CHEMISTRY",
+          "chapter": "Unit 1: Solutions",
+          "source": "Resonance",
+          "topic": "Equivalent Concept and Titration",
+          "total_pages": "12",
+          "source_file": "Equivalent Concept _ Titration Theory_combined_output_chunked.xml",
+          "context": "Miscellaneous Problems: Normality Calculations (Q5-Q6)",
+          "content_type": "example",
+          "page_no": "10",
+          "document": "Subject: CHEMISTRY\nTopic: Equivalent Concept and Titration\nContext: Miscellaneous Problems: Normality Calculations (Q5-Q6)\nContent: 5. Calculate the normality of a solution obtained by mixing 50 mL of 5 M solution of  $ K_{2}Cr_{2}O_{7} $  and 50 mL of 2 M  $ K_{2}Cr_{2}O_{7} $  in acidic medium.\nSol. v.f. of  $ K_{2}Cr_{2}O_{7}=6 $\n$$ N_{f} = \\frac{N_{1} V_{1} + N_{2} V_{2}}{V_{1} + V_{2}} = \\frac{5 \\times 6 \\times 50 + 2 \\times 6 \\times 50}{50 + 50} = 21 N $$\n6. Calculate the normality of a solution containing 13.4 g of Sodium oxalate in 100 mL Sol.\nSol. Normality =  $ \\frac{wt. in g/eq. wt}{vol. of solution in litre} $\nHere, eq. wt. of  $ Na_{2}C_{2}O_{4} = 134/2 = 67 $\nso  $ N = \\frac{13.4/67}{100/1000} = 2N $",
+          "original_id": "Equivalent Concept _ Titration Theory_combined_output_chunked.xml_28",
+          "chapter_id": "class12_che_u01"
+        }
+      ]
+    },
+    {
+      "concept_id": "CH01_003",
+      "concept_name": "Hardness Measurement (ppm)",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Hardness Measurement (ppm)",
+      "aliases": [],
+      "search_terms": [],
+      "abbreviations": [],
+      "definition": "Measurement of hardness in terms of parts per million (ppm) of CaCO₃ or equivalent to it.",
+      "formulae": [
+        "{'formula': 'Hardness in ppm = (mass of CaCO₃ / Total mass of solution) × 10^6'}"
+      ],
+      "examples": [],
+      "related_concepts": [
+        "CH01_004"
+      ],
+      "importance": "high",
+      "chapter_weightage": "medium",
+      "concept_category": "Measurement",
+      "concept_type": "Factual",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "learning_outcomes": [
+        {
+          "verb": "Calculate",
+          "object": "Hardness in ppm"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Short Answer"
+        ],
+        "recommended_marks": [
+          1,
+          2
+        ],
+        "blooms_levels": [
+          "Remember",
+          "Apply"
+        ],
+        "competencies": [
+          "Application",
+          "Problem Solving"
+        ],
+        "board_frequency": {
+          "ncert": "medium",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Hardness Measurement (ppm)",
+          "Hardness Measurement",
+          "ppm",
+          "CaCO₃"
+        ],
+        "chunk_ids": [
+          "Equivalent Concept _ Titration Theory_combined_output_chunked.xml_23"
+        ],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      },
+      "source_chunk_ids": [
+        "Equivalent Concept _ Titration Theory_combined_output_chunked.xml_23"
+      ],
+      "source_chunks": [
+        {
+          "summary": "This chapter provides a comprehensive overview of the Equivalent Concept in Chemistry, covering definitions of equivalent weight, n-factor (valency factor) calculation for elements, acids, bases, and salts, and the concept of Normality. It extensively details various types of titrations, including acid-base, redox (Permanganate), and Iodometric/Iodimetric methods, emphasizing the Law of Equivalence. The chapter also addresses advanced topics like the drawbacks of the equivalent concept, volume strength of hydrogen peroxide, water hardness measurement, and oleum strength calculation, supported by numerous solved examples.",
+          "document_name": "Equivalent Concept _ Titration Theory",
+          "grade": "CLASS-12",
+          "subject": "CHEMISTRY",
+          "chapter": "Unit 1: Solutions",
+          "source": "Resonance",
+          "topic": "Equivalent Concept and Titration",
+          "total_pages": "12",
+          "source_file": "Equivalent Concept _ Titration Theory_combined_output_chunked.xml",
+          "context": "Hardness Measurement (ppm)",
+          "content_type": "formula",
+          "page_no": "8",
+          "document": "Subject: CHEMISTRY\nTopic: Equivalent Concept and Titration\nContext: Hardness Measurement (ppm)\nContent: Measurement of Hardness :\nHardness is measured in terms of ppm (parts per million) of  $ CaCO_{3} $  or equivalent to it.\nHardness in ppm =  $ \\frac{mass of CaCO_{3}}{Total mass of solution} \\times 10^{6} $",
+          "original_id": "Equivalent Concept _ Titration Theory_combined_output_chunked.xml_23",
+          "chapter_id": "class12_che_u01"
+        }
+      ]
+    },
+    {
+      "concept_id": "CH01_004",
+      "concept_name": "Osmotic Pressure Measurement",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Osmotic Pressure Measurement",
+      "aliases": [],
+      "search_terms": [],
+      "abbreviations": [],
+      "definition": "A method of determining molar masses of solutes using osmotic pressure.",
+      "formulae": [],
+      "examples": [
+        "{'example': 'Measurement of osmotic pressure provides another method of determining molar masses of solutes. This method is widely used to determine molar masses of proteins, polymers and other macromolecules.', 'solution': ''}"
+      ],
+      "related_concepts": [
+        "CH01_003"
+      ],
+      "importance": "high",
+      "chapter_weightage": "medium",
+      "concept_category": "Process",
+      "concept_type": "Factual",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "learning_outcomes": [
+        {
+          "verb": "Describe",
+          "object": "Osmotic Pressure Measurement"
+        }
+      ],
+      "assessment": {
+        "preferred_question_types": [
+          "Short Answer"
+        ],
+        "recommended_marks": [
+          1,
+          2
+        ],
+        "blooms_levels": [
+          "Remember",
+          "Understand"
+        ],
+        "competencies": [
+          "Conceptual Understanding"
+        ],
+        "board_frequency": {
+          "ncert": "medium",
+          "exemplar": "NA",
+          "pyq": "NA"
+        }
+      },
+      "retrieval": {
+        "keywords": [
+          "Osmotic Pressure Measurement",
+          "Osmotic Pressure",
+          "Colligative Properties",
+          "molar mass"
+        ],
+        "chunk_ids": [
+          "lech101_combined_output_chunked.xml_49"
+        ],
+        "formula_ids": [],
+        "example_ids": [],
+        "pyq_ids": []
+      },
+      "source_chunk_ids": [
+        "lech101_combined_output_chunked.xml_49"
+      ],
+      "source_chunks": [
+        {
+          "summary": "This chapter covers the fundamental concepts of chemical solutions, including their types, methods for expressing concentration (mass %, mole fraction, molarity, molality), gas solubility governed by Henry's Law, vapor pressure lowering and Raoult's Law, colligative properties (boiling point elevation, freezing point depression, osmotic pressure), and the concept of abnormal molar masses using the van't Hoff factor.",
+          "document_name": "lech101",
+          "grade": "CLASS-12",
+          "subject": "CHEMISTRY",
+          "chapter": "Unit 1: Solutions",
+          "source": "NCERT_Textbooks",
+          "total_pages": "30",
+          "source_file": "lech101_combined_output_chunked.xml",
+          "context": "Applications of Osmotic Pressure Measurement",
+          "content_type": "text",
+          "page_no": "25",
+          "document": "Subject: CHEMISTRY\nTopic: \nContext: Applications of Osmotic Pressure Measurement\nContent: Measurement of osmotic pressure provides another method of determining molar masses of solutes. This method is widely used to determine molar masses of proteins, polymers and other\nmacromolecules. The osmotic pressure method has the advantage over other methods as pressure measurement is around the room temperature and the molarity of the solution is used instead of molarity. As compared to other colligative properties, its magnitude is large even for very dilute solutions. The technique of osmotic pressure for determination of molar mass of solutes is particularly useful for biomolecules as they are generally not stable at higher temperatures and polymers have poor solubility.",
+          "original_id": "lech101_combined_output_chunked.xml_49",
+          "chapter_id": "class12_che_u01"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source_concept": "CH01_001",
+      "target_concept": "CH01_002",
+      "relationship": "related_to"
+    },
+    {
+      "source_concept": "CH01_003",
+      "target_concept": "CH01_004",
+      "relationship": "application_of"
+    },
+    {
+      "source_concept": "CH01_001",
+      "target_concept": "CH01_002",
+      "relationship": "example_of"
+    }
+  ],
+  "question_bank": [
+    {
+      "question_id": "Q001",
+      "question": "An aqueous solution containing 0.1 g KIO₃ (formula weight = 214) and an excess of KI was acidified with HCl. The liberated I₂ consumed 45 mL of thiosulphate. The molarity of sodium thiosulphate solution is:",
+      "answer": "0.0623 M",
+      "type": "MCQ",
+      "linked_concepts": [
+        "CH01_001"
+      ],
+      "source_chunk_id": "Equivalent Concept _ Titration Theory_combined_output_chunked.xml_33",
+      "source_chunk": {
+        "summary": "This chapter provides a comprehensive overview of the Equivalent Concept in Chemistry, covering definitions of equivalent weight, n-factor (valency factor) calculation for elements, acids, bases, and salts, and the concept of Normality. It extensively details various types of titrations, including acid-base, redox (Permanganate), and Iodometric/Iodimetric methods, emphasizing the Law of Equivalence. The chapter also addresses advanced topics like the drawbacks of the equivalent concept, volume strength of hydrogen peroxide, water hardness measurement, and oleum strength calculation, supported by numerous solved examples.",
+        "document_name": "Equivalent Concept _ Titration Theory",
+        "grade": "CLASS-12",
+        "subject": "CHEMISTRY",
+        "chapter": "Unit 1: Solutions",
+        "source": "Resonance",
+        "topic": "Equivalent Concept and Titration",
+        "total_pages": "12",
+        "source_file": "Equivalent Concept _ Titration Theory_combined_output_chunked.xml",
+        "context": "Miscellaneous Problems: Iodometric Titration Molarity (Q12)",
+        "content_type": "question",
+        "page_no": "",
+        "document": "Subject: CHEMISTRY\nTopic: Equivalent Concept and Titration\nContext: Miscellaneous Problems: Iodometric Titration Molarity (Q12)\nContent: 12. An aqueous solution containing 0.1 g KIO₃ (formula weight = 214) and an excess of KI was acidified with HCl. The liberated I₂ consumed 45 mL of thiosulphate. The molarity of sodium thiosulphate solution is :\nThe reaction involved is :  $ IO_{3}^{-} + I^{-} + H^{+} \\longrightarrow I_{2} + H_{2}O $\n(A) 0.0623 M (B) 0.0313 M (C) 0.126 M (D) 0.252 M\nSol.  $ IO_{3}^{-} + 5I^{-} + H^{+} \\longrightarrow 3I_{2} + H_{2}O $\n$ 2Na_{2}S_{2}O_{3} + I_{2} \\longrightarrow 2NaI + Na_{2}S_{4}O_{6} $\nNow, Moles of KIO₃ =  $ \\frac{0.1}{214} $\nSo, Moles of I₂ = 3 ×  $ \\frac{0.1}{214} $\nNow, Moles of Na₂S₂O₃ = 2 × 3 ×  $ \\frac{0.1}{214} $\n∴  $ M \\times V_{L} = 2 \\times 3 \\times \\frac{0.1}{214} $  ∴  $ M \\times \\frac{45}{1000} = 2 \\times 3 \\times \\frac{0.1}{214} $\nNow, Molarity of hypo solution =  $ 2 \\times 3 \\times \\frac{0.1}{214} \\times \\frac{1000}{45} = 0.0623 $  M Ans. (A)",
+        "original_id": "Equivalent Concept _ Titration Theory_combined_output_chunked.xml_33",
+        "chapter_id": "class12_che_u01"
+      }
+    },
+    {
+      "question_id": "Q002",
+      "question": "The oxidation state of chromium in the final product formed by the reaction between KI and acidified potassium dichromate solution is:",
+      "answer": "",
+      "type": "Short Answer",
+      "linked_concepts": [
+        "CH01_001"
+      ],
+      "source_chunk_id": "Equivalent Concept _ Titration APSP_combined_output_chunked.xml_50",
+      "source_chunk": {
+        "summary": "This document contains a comprehensive set of practice problems and solutions covering the concept of Equivalents and Titration in Chemistry, sourced from various competitive exams (APSP, JEE Main/Offline, NSEC, JEE Advanced). The problems test understanding of redox reactions, normality calculations, indicator usage in acid-base titrations, and stoichiometry in redox titrations.",
+        "document_name": "Equivalent Concept _ Titration APSP",
+        "grade": "CLASS-12",
+        "subject": "CHEMISTRY",
+        "chapter": "Unit 1: Solutions",
+        "source": "Resonance",
+        "topic": "Equivalent Concept and Titration",
+        "total_pages": "20",
+        "source_file": "Equivalent Concept _ Titration APSP_combined_output_chunked.xml",
+        "context": "JEE Offline Q1: Oxidation state of Cr in reaction product",
+        "content_type": "question",
+        "page_no": "",
+        "document": "Subject: CHEMISTRY\nTopic: Equivalent Concept and Titration\nContext: JEE Offline Q1: Oxidation state of Cr in reaction product\nContent: 1. The oxidation state of chromium in the final product formed by the reaction between KI and acidified potassium dichromate solution is : [AIEEE 2005, 3/225]",
+        "original_id": "Equivalent Concept _ Titration APSP_combined_output_chunked.xml_50",
+        "chapter_id": "class12_che_u01"
+      }
+    }
+  ]
+}
