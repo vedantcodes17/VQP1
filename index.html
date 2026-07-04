@@ -1,0 +1,1696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ZEQO TestGen V1</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#F8FAFC;
+  --surface:#FFFFFF;
+  --surface-hover:#F1F5F9;
+  --primary:#6366F1;
+  --primary-light:#818CF8;
+  --secondary:#A855F7;
+  --accent:#3B82F6;
+  --gradient:linear-gradient(135deg,#6366F1,#A855F7);
+  --gradient-blue:linear-gradient(135deg,#3B82F6,#6366F1);
+  --text:#0F172A;
+  --text-muted:#64748B;
+  --text-light:#94A3B8;
+  --success:#10B981;
+  --success-bg:#ECFDF5;
+  --warning:#F59E0B;
+  --warning-bg:#FFFBEB;
+  --error:#EF4444;
+  --error-bg:#FEF2F2;
+  --border:#E2E8F0;
+  --radius-sm:12px;
+  --radius-md:20px;
+  --radius-lg:28px;
+  --shadow-sm:0 1px 3px rgba(0,0,0,0.04);
+  --shadow:0 4px 24px rgba(0,0,0,0.06);
+  --shadow-lg:0 12px 48px -8px rgba(99,102,241,0.15);
+  --transition:all 0.35s cubic-bezier(0.4,0,0.2,1);
+}
+body{
+  font-family:'Inter',-apple-system,sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  height:100vh;
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+  -webkit-font-smoothing:antialiased;
+}
+
+/* HEADER */
+.header{
+  padding:20px 40px;
+  background:var(--surface);
+  border-bottom:1px solid var(--border);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-shrink:0;
+}
+.header-left{
+  display:flex;
+  align-items:center;
+  gap:16px;
+}
+.logo{
+  font-size:22px;
+  font-weight:800;
+  letter-spacing:-0.04em;
+  background:var(--gradient);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+.logo-sub{
+  font-size:13px;
+  font-weight:500;
+  color:var(--text-muted);
+  background:var(--surface-hover);
+  padding:4px 12px;
+  border-radius:20px;
+}
+.header-right{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  font-size:13px;
+  color:var(--text-muted);
+  font-weight:500;
+}
+.header-dot{
+  width:8px;height:8px;
+  border-radius:50%;
+  background:var(--success);
+  animation:pulse 2s infinite;
+}
+@keyframes pulse{
+  0%,100%{opacity:1}
+  50%{opacity:0.4}
+}
+
+/* PROGRESS */
+.progress-bar{
+  padding:24px 40px 0;
+  background:var(--bg);
+  flex-shrink:0;
+}
+.progress-track{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  max-width:900px;
+  margin:0 auto;
+  position:relative;
+  padding:0 4px;
+}
+.progress-track::before{
+  content:'';
+  position:absolute;
+  left:20px;
+  right:20px;
+  top:50%;
+  height:2px;
+  background:var(--border);
+  transform:translateY(-50%);
+  z-index:0;
+}
+.progress-track::after{
+  content:'';
+  position:absolute;
+  left:20px;
+  top:50%;
+  height:2px;
+  background:var(--gradient);
+  transform:translateY(-50%);
+  z-index:0;
+  transition:width 0.6s cubic-bezier(0.4,0,0.2,1);
+}
+.step-dot{
+  position:relative;
+  z-index:1;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:8px;
+  cursor:default;
+}
+.step-circle{
+  width:36px;
+  height:36px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:13px;
+  font-weight:700;
+  background:var(--surface);
+  border:2px solid var(--border);
+  color:var(--text-light);
+  transition:var(--transition);
+}
+.step-dot.completed .step-circle{
+  background:var(--gradient);
+  border-color:transparent;
+  color:#fff;
+  box-shadow:0 4px 12px rgba(99,102,241,0.3);
+}
+.step-dot.active .step-circle{
+  border-color:var(--primary);
+  color:var(--primary);
+  box-shadow:0 0 0 4px rgba(99,102,241,0.12);
+}
+.step-label{
+  font-size:10px;
+  font-weight:600;
+  color:var(--text-light);
+  text-transform:uppercase;
+  letter-spacing:0.5px;
+  transition:var(--transition);
+}
+.step-dot.active .step-label{color:var(--primary)}
+.step-dot.completed .step-label{color:var(--text-muted)}
+
+/* MAIN LAYOUT */
+.main{
+  display:flex;
+  flex:1;
+  overflow:hidden;
+  padding:24px 40px 40px;
+  gap:32px;
+}
+.left-panel{
+  flex:65;
+  background:var(--surface);
+  border-radius:var(--radius-lg);
+  box-shadow:var(--shadow);
+  padding:36px 40px;
+  overflow-y:auto;
+  position:relative;
+  border:1px solid rgba(255,255,255,0.8);
+}
+.right-panel{
+  flex:35;
+  background:var(--surface);
+  border-radius:var(--radius-lg);
+  box-shadow:var(--shadow);
+  padding:36px 32px;
+  overflow-y:auto;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  border:1px solid rgba(255,255,255,0.8);
+}
+.panel-title{
+  font-size:11px;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  color:var(--text-light);
+  margin-bottom:4px;
+}
+
+/* STEP CONTENT */
+.step-content{display:none;animation:fadeUp 0.4s ease forwards}
+.step-content.active{display:block}
+@keyframes fadeUp{
+  from{opacity:0;transform:translateY(12px)}
+  to{opacity:1;transform:translateY(0)}
+}
+.step-heading{
+  font-size:26px;
+  font-weight:800;
+  letter-spacing:-0.03em;
+  margin-bottom:4px;
+}
+.step-sub{
+  font-size:15px;
+  color:var(--text-muted);
+  font-weight:500;
+  margin-bottom:28px;
+}
+.step-action{
+  margin-top:28px;
+  display:flex;
+  gap:12px;
+}
+
+/* FORM ELEMENTS */
+.chk-group{display:flex;flex-direction:column;gap:12px}
+.chk-item{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  padding:14px 18px;
+  border-radius:var(--radius-sm);
+  border:1px solid var(--border);
+  cursor:pointer;
+  transition:var(--transition);
+  background:var(--surface-hover);
+}
+.chk-item:hover{border-color:var(--primary-light)}
+.chk-item.checked{
+  border-color:var(--primary);
+  background:#F5F3FF;
+}
+.chk-item input[type="checkbox"]{
+  width:20px;height:20px;
+  accent-color:var(--primary);
+  cursor:pointer;
+}
+.chk-label{
+  font-size:15px;
+  font-weight:600;
+  flex:1;
+}
+.chk-badge{
+  font-size:11px;
+  font-weight:600;
+  padding:3px 10px;
+  border-radius:20px;
+  background:var(--border);
+  color:var(--text-muted);
+}
+
+.btn{
+  font-family:inherit;
+  font-size:15px;
+  font-weight:600;
+  padding:14px 28px;
+  border-radius:var(--radius-sm);
+  border:none;
+  cursor:pointer;
+  transition:var(--transition);
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+}
+.btn-primary{
+  background:var(--gradient);
+  color:#fff;
+  box-shadow:0 4px 16px rgba(99,102,241,0.25);
+}
+.btn-primary:hover:not(:disabled){
+  box-shadow:0 8px 28px rgba(99,102,241,0.35);
+  transform:translateY(-2px);
+}
+.btn-primary:disabled{
+  opacity:0.4;
+  cursor:not-allowed;
+  transform:none;
+}
+.btn-outline{
+  background:transparent;
+  color:var(--text);
+  border:1px solid var(--border);
+}
+.btn-outline:hover{background:var(--surface-hover);border-color:var(--text-muted)}
+.btn-success{
+  background:var(--success);
+  color:#fff;
+  box-shadow:0 4px 16px rgba(16,185,129,0.25);
+}
+.btn-success:hover{box-shadow:0 8px 24px rgba(16,185,129,0.35);transform:translateY(-2px)}
+.btn-sm{padding:10px 18px;font-size:13px}
+
+input[type="number"]{
+  font-family:inherit;
+  font-size:18px;
+  font-weight:700;
+  padding:12px 16px;
+  border:2px solid var(--border);
+  border-radius:var(--radius-sm);
+  width:100px;
+  outline:none;
+  transition:var(--transition);
+  background:var(--surface-hover);
+}
+input[type="number"]:focus{border-color:var(--primary);box-shadow:0 0 0 4px rgba(99,102,241,0.1)}
+
+/* CONCEPT DISPLAY */
+.concept-group{margin-bottom:20px}
+.concept-tier{
+  font-size:13px;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:0.5px;
+  color:var(--text-muted);
+  margin-bottom:10px;
+}
+.concept-list{display:flex;flex-direction:column;gap:8px}
+.concept-item{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  padding:12px 16px;
+  border-radius:var(--radius-sm);
+  background:var(--surface-hover);
+  border:1px solid var(--border);
+}
+.concept-item .chk-label{font-size:14px}
+.concept-item .btn{padding:6px 14px;font-size:12px}
+
+/* BLUEPRINT SECTIONS */
+.blueprint-grid{display:flex;flex-direction:column;gap:12px}
+.blueprint-row{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  padding:16px 20px;
+  background:var(--surface-hover);
+  border-radius:var(--radius-sm);
+  border:1px solid var(--border);
+}
+.blueprint-row .section-name{
+  font-weight:700;
+  font-size:15px;
+  min-width:100px;
+}
+.blueprint-row .section-count{
+  font-size:28px;
+  font-weight:800;
+  color:var(--primary);
+  min-width:40px;
+}
+.blueprint-row .section-label{font-size:13px;color:var(--text-muted);flex:1}
+.blueprint-row input[type="number"]{
+  font-size:16px;
+  width:70px;
+  padding:8px 12px;
+}
+
+/* QUESTIONS LIST */
+.q-list{display:flex;flex-direction:column;gap:8px;margin-top:8px}
+.q-item{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  padding:12px 16px;
+  border-radius:var(--radius-sm);
+  background:var(--surface-hover);
+  border:1px solid var(--border);
+  transition:var(--transition);
+}
+.q-num{
+  width:28px;
+  height:28px;
+  border-radius:50%;
+  background:var(--border);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:12px;
+  font-weight:700;
+  color:var(--text-muted);
+  flex-shrink:0;
+}
+.q-text{font-size:14px;font-weight:500;flex:1;line-height:1.4}
+.q-badge{
+  font-size:11px;
+  font-weight:600;
+  padding:3px 10px;
+  border-radius:20px;
+  flex-shrink:0;
+}
+.q-badge.success{background:var(--success-bg);color:var(--success)}
+.q-badge.warning{background:var(--warning-bg);color:var(--warning)}
+.q-badge.error{background:var(--error-bg);color:var(--error)}
+.q-regenerate{
+  background:var(--warning-bg);
+  color:var(--warning);
+  border:1px solid var(--warning);
+}
+.q-regenerate:hover{background:var(--warning);color:#fff}
+
+/* PROGRESS BAR FOR QUESTIONS */
+.progress-bar-q{
+  height:8px;
+  background:var(--border);
+  border-radius:4px;
+  overflow:hidden;
+  margin:16px 0;
+}
+.progress-fill{
+  height:100%;
+  background:var(--gradient);
+  border-radius:4px;
+  transition:width 0.5s ease;
+  width:0%;
+}
+
+/* CHECKMARKS LIST */
+.check-grid{display:flex;flex-direction:column;gap:10px}
+.check-row{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  padding:10px 16px;
+  border-radius:var(--radius-sm);
+  background:var(--surface-hover);
+  border:1px solid var(--border);
+  font-size:14px;
+  font-weight:500;
+}
+.check-icon{
+  width:24px;height:24px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:12px;
+  flex-shrink:0;
+  transition:var(--transition);
+}
+.check-icon.pending{background:var(--border);color:var(--text-light)}
+.check-icon.success{background:var(--success-bg);color:var(--success)}
+.check-icon.error{background:var(--error-bg);color:var(--error)}
+
+/* BACKEND CARDS */
+.be-card{
+  background:var(--surface-hover);
+  border:1px solid var(--border);
+  border-radius:var(--radius-md);
+  padding:18px 20px;
+  display:none;
+  animation:slideIn 0.4s ease forwards;
+  transition:var(--transition);
+}
+.be-card.visible{display:block}
+.be-card.active{border-color:var(--primary);box-shadow:0 0 0 2px rgba(99,102,241,0.08)}
+.be-card-header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-bottom:10px;
+}
+.be-card-title{
+  font-size:13px;
+  font-weight:700;
+  color:var(--text-muted);
+  text-transform:uppercase;
+  letter-spacing:0.3px;
+}
+.be-card-status{
+  font-size:10px;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:0.5px;
+  padding:3px 10px;
+  border-radius:20px;
+  transition:var(--transition);
+}
+.be-card-status.running{background:rgba(99,102,241,0.1);color:var(--primary)}
+.be-card-status.success{background:var(--success-bg);color:var(--success)}
+.be-card-status.warning{background:var(--warning-bg);color:var(--warning)}
+.be-card-status.error{background:var(--error-bg);color:var(--error)}
+.be-card-body{display:flex;flex-direction:column;gap:6px}
+.be-card-line{
+  font-size:13px;
+  font-weight:500;
+  display:flex;
+  align-items:center;
+  gap:8px;
+  color:var(--text-muted);
+  opacity:0;
+  animation:fadeLine 0.3s ease forwards;
+}
+.be-card-line .be-icon{font-size:12px;width:16px;text-align:center}
+.be-card-line .be-icon.success{color:var(--success)}
+.be-card-line .be-icon.running{color:var(--primary)}
+.be-card-line .be-icon.warning{color:var(--warning)}
+.be-card-line .be-icon.error{color:var(--error)}
+@keyframes slideIn{
+  from{opacity:0;transform:translateY(10px)}
+  to{opacity:1;transform:translateY(0)}
+}
+@keyframes fadeLine{
+  to{opacity:1}
+}
+
+/* SPINNER */
+.spinner{
+  display:inline-block;
+  width:14px;height:14px;
+  border:2px solid var(--border);
+  border-top-color:var(--primary);
+  border-radius:50%;
+  animation:spin 0.6s linear infinite;
+}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* EMPTY STATE */
+.empty-state{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  flex:1;
+  text-align:center;
+  color:var(--text-light);
+  gap:8px;
+}
+.empty-state .icon{font-size:32px;opacity:0.3}
+.empty-state .text{font-size:14px;font-weight:500}
+
+/* SCROLLBAR */
+.left-panel::-webkit-scrollbar,.right-panel::-webkit-scrollbar{width:6px}
+.left-panel::-webkit-scrollbar-track,.right-panel::-webkit-scrollbar-track{background:transparent}
+.left-panel::-webkit-scrollbar-thumb,.right-panel::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
+
+/* CHAPTER HEADER */
+.chapter-header{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  padding:14px 18px;
+  background:var(--gradient);
+  color:#fff;
+  border-radius:var(--radius-sm);
+  margin-bottom:16px;
+}
+.chapter-header span{font-size:15px;font-weight:700}
+
+/* RESPONSIVE FALLBACK */
+@media(max-width:960px){
+  .main{flex-direction:column;padding:16px;gap:16px}
+  .left-panel,.right-panel{flex:none;max-height:50vh}
+  .progress-bar{padding:16px 16px 0}
+  .header{padding:16px}
+  .step-circle{width:28px;height:28px;font-size:11px}
+  .step-label{display:none}
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-left">
+    <span class="logo">ZEQO</span>
+    <span class="logo-sub">TestGen V1</span>
+  </div>
+  <div class="header-right">
+    <span class="header-dot"></span>
+    <span>System Online</span>
+  </div>
+</div>
+
+<!-- PROGRESS -->
+<div class="progress-bar">
+  <div class="progress-track" id="progressTrack">
+  </div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+  <div class="left-panel" id="teacherPanel"></div>
+  <div class="right-panel" id="backendPanel">
+    <div class="empty-state" id="emptyBackend">
+      <div class="icon">&#9679;&#9679;&#9679;</div>
+      <div class="text">Waiting for your first action</div>
+    </div>
+  </div>
+</div>
+
+<script>
+const STEPS = [
+  { id: 1, label: 'Chapters' },
+  { id: 2, label: 'Concepts' },
+  { id: 3, label: 'Configure' },
+  { id: 4, label: 'Blueprint' },
+  { id: 5, label: 'Generate' },
+  { id: 6, label: 'Validate' },
+  { id: 7, label: 'Recovery' },
+  { id: 8, label: 'Export' }
+];
+
+const chaptersList = [
+  { id: 1, name: 'Chapter 1', desc: 'Physical World & Units' },
+  { id: 2, name: 'Chapter 2', desc: 'Laws of Motion' },
+  { id: 3, name: 'Chapter 3', desc: 'Work, Energy & Power' }
+];
+
+const tier1Concepts = [
+  "Newton's First Law",
+  "Newton's Second Law",
+  "Newton's Third Law"
+];
+const tier2Concepts = [
+  { name: 'Friction', promoted: false },
+  { name: 'Types of Forces', promoted: false }
+];
+
+// STATE
+const state = {
+  currentStep: 1,
+  selectedChapters: [false, false, false],
+  tier2Promoted: [false, false],
+  paperMarks: 40,
+  patterns: { mcq: true, short: true, long: true },
+  blueprint: { mcq: 6, short: 6, long: 3 },
+  marksPerQuestion: { mcq: 1, short: 2, long: 5 },
+  questions: [],
+  flaggedQuestion: 7,
+  diagramFlaggedQuestion: 10,
+  regeneratedQuestions: {},
+  generationPhase: null,
+  questionsGenerated: false,
+  questionProgress: 0,
+  validated: false,
+  validationChecks: { marks: false, chapters: false, concepts: false, difficulty: false, diagram: false },
+  q8Regenerated: false,
+  exported: false,
+  backendCards: {} // id -> { visible, status, lines[] }
+};
+
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+// Progress dots
+function renderProgress() {
+  const track = document.getElementById('progressTrack');
+  track.innerHTML = '';
+  const filled = state.currentStep - 1;
+  const total = STEPS.length;
+  const pct = Math.min(100, (filled / (total - 1)) * 100);
+  track.style.setProperty('--progress', pct + '%');
+
+  STEPS.forEach(s => {
+    const dot = document.createElement('div');
+    dot.className = 'step-dot';
+    if (s.id < state.currentStep) dot.classList.add('completed');
+    if (s.id === state.currentStep) dot.classList.add('active');
+    dot.innerHTML = `
+      <div class="step-circle">${s.id < state.currentStep ? '✓' : s.id}</div>
+      <div class="step-label">${s.label}</div>
+    `;
+    track.appendChild(dot);
+  });
+
+  // Update the pseudo element width
+  const pctAfter = ((state.currentStep - 1) / (STEPS.length - 1)) * 100;
+  track.style.setProperty('--progress-width', pctAfter + '%');
+}
+
+// Inject style for dynamic progress width
+const styleSheet = document.createElement('style');
+styleSheet.textContent = `
+  .progress-track::after { width: var(--progress-width, 0%); }
+`;
+document.head.appendChild(styleSheet);
+
+// Backend card system
+function showBackendCard(id) {
+  state.backendCards[id] = state.backendCards[id] || { visible: true, status: 'running', lines: [] };
+  state.backendCards[id].visible = true;
+  renderBackend();
+}
+
+function setBackendStatus(id, status) {
+  if (!state.backendCards[id]) return;
+  state.backendCards[id].status = status;
+  renderBackend();
+}
+
+function addBackendLine(id, icon, text) {
+  if (!state.backendCards[id]) return;
+  state.backendCards[id].lines.push({ icon, text });
+  renderBackend();
+}
+
+function clearBackendLines(id) {
+  if (!state.backendCards[id]) return;
+  state.backendCards[id].lines = [];
+  renderBackend();
+}
+
+const CARD_META = {
+  'knowledge': { title: 'Knowledge Engine', order: 0 },
+  'preferences': { title: 'Teacher Preferences', order: 1 },
+  'blueprint': { title: 'Blueprint Engine', order: 2 },
+  'questions': { title: 'Question Engine', order: 3 },
+  'validation': { title: 'Validation Engine', order: 4 },
+  'pdf': { title: 'PDF Generator', order: 5 }
+};
+
+function renderBackend() {
+  const panel = document.getElementById('backendPanel');
+
+  // Collect visible cards in order
+  const visible = Object.entries(state.backendCards)
+    .filter(([id, c]) => c.visible)
+    .sort((a, b) => CARD_META[a[0]].order - CARD_META[b[0]].order);
+
+  if (visible.length === 0) {
+    panel.innerHTML = `
+      <div class="empty-state" id="emptyBackend">
+        <div class="icon">&#9679;&#9679;&#9679;</div>
+        <div class="text">Waiting for your first action</div>
+      </div>
+    `;
+    return;
+  }
+
+  let html = '';
+  visible.forEach(([id, card]) => {
+    const meta = CARD_META[id];
+    const active = card.status === 'running';
+    const statusClass = card.status || 'running';
+    let statusText = card.status ? card.status.charAt(0).toUpperCase() + card.status.slice(1) : 'Running';
+    if (card.status === 'running') statusText = 'Running';
+
+    html += `<div class="be-card visible ${active ? 'active' : ''}" data-card="${id}">
+      <div class="be-card-header">
+        <div class="be-card-title">${meta.title}</div>
+        <div class="be-card-status ${statusClass}">${statusText}</div>
+      </div>
+      <div class="be-card-body">`;
+
+    if (card.lines.length === 0 && card.status === 'running') {
+      html += `<div class="be-card-line" style="opacity:1">
+        <span class="be-icon running"><span class="spinner"></span></span>
+        Initializing...
+      </div>`;
+    }
+
+    card.lines.forEach(line => {
+      html += `<div class="be-card-line" style="opacity:1">
+        <span class="be-icon ${line.icon}">${line.icon === 'success' ? '✓' : line.icon === 'running' ? '○' : line.icon === 'warning' ? '⚠' : line.icon === 'error' ? '✗' : '○'}</span>
+        ${line.text}
+      </div>`;
+    });
+
+    html += `</div></div>`;
+  });
+
+  panel.innerHTML = html;
+}
+
+// STEP RENDERERS
+function renderStep() {
+  const panel = document.getElementById('teacherPanel');
+  const step = state.currentStep;
+  renderProgress();
+
+  switch (step) {
+    case 1: renderStep1(panel); break;
+    case 2: renderStep2(panel); break;
+    case 3: renderStep3(panel); break;
+    case 4: renderStep4(panel); break;
+    case 5: renderStep5(panel); break;
+    case 6: renderStep6(panel); break;
+    case 7: renderStep7(panel); break;
+    case 8: renderStep8(panel); break;
+  }
+
+  // Scroll to top of panel
+  panel.scrollTop = 0;
+}
+
+// Step 1: Select Chapters
+function renderStep1(panel) {
+  const anySelected = state.selectedChapters.some(Boolean);
+  panel.innerHTML = `
+    <div class="step-content active">
+      <div class="step-heading">Select Chapters</div>
+      <div class="step-sub">Choose the chapters for your question paper</div>
+      <div class="chk-group">
+        ${chaptersList.map((ch, i) => `
+          <label class="chk-item ${state.selectedChapters[i] ? 'checked' : ''}">
+            <input type="checkbox" ${state.selectedChapters[i] ? 'checked' : ''} onchange="toggleChapter(${i})" />
+            <span class="chk-label">${ch.name}</span>
+            <span class="chk-badge">${ch.desc}</span>
+          </label>
+        `).join('')}
+      </div>
+      <div class="step-action">
+        <button class="btn btn-primary" ${!anySelected ? 'disabled' : ''} onclick="handleStep1()">
+          Continue → <span style="font-size:18px">&#10132;</span>
+        </button>
+      </div>
+    </div>
+  `;
+}
+
+function toggleChapter(i) {
+  state.selectedChapters[i] = !state.selectedChapters[i];
+  renderStep();
+}
+
+async function handleStep1() {
+  const btn = document.querySelector('#teacherPanel .btn-primary');
+  btn.disabled = true;
+  btn.textContent = 'Processing...';
+
+  const selected = chaptersList.filter((_, i) => state.selectedChapters[i]);
+  const names = selected.map(c => c.name).join(', ');
+
+  showBackendCard('knowledge');
+  setBackendStatus('knowledge', 'running');
+  addBackendLine('knowledge', 'running', 'Loading Knowledge Base...');
+  await sleep(600);
+  addBackendLine('knowledge', 'success', `Retrieved: ${names}`);
+  await sleep(500);
+  addBackendLine('knowledge', 'success', 'Loaded 12 concepts from selected chapters');
+  setBackendStatus('knowledge', 'success');
+  await sleep(400);
+  nextStep();
+}
+
+// Step 2: Concept Selection
+function renderStep2(panel) {
+  panel.innerHTML = `
+    <div class="step-content active">
+      <div class="step-heading">Concept Selection</div>
+      <div class="step-sub">Review concepts for <strong>Chapter 2 — Laws of Motion</strong></div>
+
+      <div class="concept-group">
+        <div class="concept-tier">Tier 1 Concepts (Core)</div>
+        <div class="concept-list">
+          ${tier1Concepts.map(c => `
+            <label class="chk-item checked" style="background:#F5F3FF;border-color:var(--primary)">
+              <input type="checkbox" checked disabled />
+              <span class="chk-label">${c}</span>
+              <span class="chk-badge" style="background:#6366F1;color:#fff">Core</span>
+            </label>
+          `).join('')}
+        </div>
+      </div>
+
+      <div class="concept-group">
+        <div class="concept-tier">Tier 2 Concepts (Additional)</div>
+        <div class="concept-list">
+          ${tier2Concepts.map((c, i) => `
+            <div class="concept-item ${c.promoted ? 'checked' : ''}" style="border-color:${c.promoted ? 'var(--primary)' : 'var(--border)'}">
+              <span class="chk-label">${c.name}</span>
+              ${c.promoted
+                ? '<span class="chk-badge" style="background:var(--success-bg);color:var(--success)">Promoted ✓</span>'
+                : `<button class="btn btn-outline btn-sm" onclick="promoteConcept(${i})">Promote</button>`
+              }
+            </div>
+          `).join('')}
+        </div>
+      </div>
+
+      <div class="step-action">
+        <button class="btn btn-primary" onclick="handleStep2()">Continue →</button>
+      </div>
+    </div>
+  `;
+}
+
+async function promoteConcept(i) {
+  if (state.tier2Promoted[i]) return;
+  state.tier2Promoted[i] = true;
+  tier2Concepts[i].promoted = true;
+  renderStep();
+
+  showBackendCard('preferences');
+  setBackendStatus('preferences', 'running');
+  addBackendLine('preferences', 'running', 'Teacher Preference Updated...');
+  await sleep(400);
+  addBackendLine('preferences', 'success', `Added "${tier2Concepts[i].name}" to Core Concepts`);
+  await sleep(400);
+  addBackendLine('preferences', 'success', 'Database Updated ✓');
+  setBackendStatus('preferences', 'success');
+}
+
+async function handleStep2() {
+  const btn = document.querySelector('#teacherPanel .btn-primary');
+  btn.disabled = true;
+  btn.textContent = 'Processing...';
+
+  if (!state.backendCards['preferences']) {
+    showBackendCard('preferences');
+    setBackendStatus('preferences', 'success');
+    addBackendLine('preferences', 'success', 'All Tier 1 concepts confirmed');
+    await sleep(400);
+  }
+
+  nextStep();
+}
+
+// Step 3: Paper Configuration
+function renderStep3(panel) {
+  panel.innerHTML = `
+    <div class="step-content active">
+      <div class="step-heading">Paper Configuration</div>
+      <div class="step-sub">Set marks and question pattern</div>
+
+      <div style="margin-bottom:24px">
+        <div style="font-size:13px;font-weight:600;color:var(--text-muted);margin-bottom:8px">Total Marks</div>
+        <input type="number" value="${state.paperMarks}" min="10" max="100" onchange="state.paperMarks=+this.value" />
+      </div>
+
+      <div style="margin-bottom:16px">
+        <div style="font-size:13px;font-weight:600;color:var(--text-muted);margin-bottom:10px">Question Pattern</div>
+        <div class="chk-group">
+          ${[
+            { key: 'mcq', label: 'MCQ', badge: 'Multiple Choice' },
+            { key: 'short', label: 'Short', badge: '2-3 marks each' },
+            { key: 'long', label: 'Long', badge: '5 marks each' }
+          ].map(p => `
+            <label class="chk-item ${state.patterns[p.key] ? 'checked' : ''}">
+              <input type="checkbox" ${state.patterns[p.key] ? 'checked' : ''} onchange="togglePattern('${p.key}')" />
+              <span class="chk-label">${p.label}</span>
+              <span class="chk-badge">${p.badge}</span>
+            </label>
+          `).join('')}
+        </div>
+      </div>
+
+      <div class="step-action">
+        <button class="btn btn-primary" onclick="handleStep3()">Generate Blueprint</button>
+      </div>
+    </div>
+  `;
+}
+
+function togglePattern(key) {
+  state.patterns[key] = !state.patterns[key];
+  renderStep();
+}
+
+async function handleStep3() {
+  const btn = document.querySelector('#teacherPanel .btn-primary');
+  btn.disabled = true;
+  btn.textContent = 'Processing...';
+
+  showBackendCard('blueprint');
+  setBackendStatus('blueprint', 'running');
+  addBackendLine('blueprint', 'running', 'Calculating Chapter Weightage...');
+  await sleep(700);
+  addBackendLine('blueprint', 'running', 'Generating Blueprint...');
+  await sleep(800);
+  addBackendLine('blueprint', 'success', `Marks: ${state.paperMarks} | Patterns: ${Object.entries(state.patterns).filter(([,v]) => v).map(([k]) => k.toUpperCase()).join(', ')}`);
+  addBackendLine('blueprint', 'success', 'Blueprint Saved ✓');
+  setBackendStatus('blueprint', 'success');
+  await sleep(400);
+  nextStep();
+}
+
+function calcSectionMarks() {
+  const mcqMarks = state.blueprint.mcq * state.marksPerQuestion.mcq;
+  const shortMarks = state.blueprint.short * state.marksPerQuestion.short;
+  const longMarks = state.blueprint.long * state.marksPerQuestion.long;
+  return { mcqMarks, shortMarks, longMarks, total: mcqMarks + shortMarks + longMarks };
+}
+
+// Step 4: Blueprint Review
+function renderStep4(panel) {
+  const { mcqMarks, shortMarks, longMarks, total } = calcSectionMarks();
+  panel.innerHTML = `
+    <div class="step-content active">
+      <div class="step-heading">Blueprint Review</div>
+      <div class="step-sub">Review and edit the generated blueprint — adjust counts and marks per question</div>
+
+      <div class="blueprint-grid">
+        <div class="blueprint-row" style="flex-wrap:wrap">
+          <span class="section-name">Section A</span>
+          <span class="section-count">${state.blueprint.mcq}</span>
+          <div style="display:flex;align-items:center;gap:8px;flex:1;flex-wrap:wrap">
+            <span class="section-label">MCQ × </span>
+            <input type="number" value="${state.marksPerQuestion.mcq}" min="1" max="5" style="font-size:14px;width:60px;padding:6px 8px" onchange="state.marksPerQuestion.mcq=+this.value;renderStep()" />
+            <span class="section-label">= <strong style="color:var(--primary);font-size:18px">${mcqMarks}</strong> marks</span>
+          </div>
+          <input type="number" value="${state.blueprint.mcq}" min="2" max="20" style="font-size:14px;width:60px;padding:6px 8px" onchange="state.blueprint.mcq=+this.value;renderStep()" />
+        </div>
+        <div class="blueprint-row" style="flex-wrap:wrap">
+          <span class="section-name">Section B</span>
+          <span class="section-count">${state.blueprint.short}</span>
+          <div style="display:flex;align-items:center;gap:8px;flex:1;flex-wrap:wrap">
+            <span class="section-label">Short × </span>
+            <input type="number" value="${state.marksPerQuestion.short}" min="1" max="5" style="font-size:14px;width:60px;padding:6px 8px" onchange="state.marksPerQuestion.short=+this.value;renderStep()" />
+            <span class="section-label">= <strong style="color:var(--primary);font-size:18px">${shortMarks}</strong> marks</span>
+          </div>
+          <input type="number" value="${state.blueprint.short}" min="2" max="20" style="font-size:14px;width:60px;padding:6px 8px" onchange="state.blueprint.short=+this.value;renderStep()" />
+        </div>
+        <div class="blueprint-row" style="flex-wrap:wrap">
+          <span class="section-name">Section C</span>
+          <span class="section-count">${state.blueprint.long}</span>
+          <div style="display:flex;align-items:center;gap:8px;flex:1;flex-wrap:wrap">
+            <span class="section-label">Long × </span>
+            <input type="number" value="${state.marksPerQuestion.long}" min="1" max="10" style="font-size:14px;width:60px;padding:6px 8px" onchange="state.marksPerQuestion.long=+this.value;renderStep()" />
+            <span class="section-label">= <strong style="color:var(--primary);font-size:18px">${longMarks}</strong> marks</span>
+          </div>
+          <input type="number" value="${state.blueprint.long}" min="1" max="10" style="font-size:14px;width:60px;padding:6px 8px" onchange="state.blueprint.long=+this.value;renderStep()" />
+        </div>
+      </div>
+
+      <div style="margin-top:16px;padding:12px 16px;background:var(--surface-hover);border-radius:var(--radius-sm);border:1px solid var(--border)">
+        <div style="font-size:13px;color:var(--text-muted)">
+          Total Questions: <strong style="color:var(--text)">${state.blueprint.mcq + state.blueprint.short + state.blueprint.long}</strong> &middot;
+          Total Marks: <strong style="color:var(--text)">${total}</strong>
+        </div>
+      </div>
+
+      <div class="step-action">
+        <button class="btn btn-primary" onclick="handleStep4()">Confirm Blueprint →</button>
+      </div>
+    </div>
+  `;
+}
+
+async function handleStep4() {
+  const btn = document.querySelector('#teacherPanel .btn-primary');
+  btn.disabled = true;
+  btn.textContent = 'Processing...';
+
+  const { total } = calcSectionMarks();
+  state.paperMarks = total;
+
+  showBackendCard('blueprint');
+  setBackendStatus('blueprint', 'running');
+  addBackendLine('blueprint', 'running', 'Finalizing Blueprint...');
+  await sleep(500);
+  addBackendLine('blueprint', 'success', `Blueprint Locked ✓ (${state.blueprint.mcq + state.blueprint.short + state.blueprint.long} Qs, ${total} marks)`);
+  setBackendStatus('blueprint', 'success');
+  await sleep(300);
+  nextStep();
+}
+
+const MOCK_QUESTIONS_BANK = {
+  chapter1: {
+    conceptQuestions: [
+      { text: 'What is the SI unit of length?', type: 'mcq', options: ['A) Meter', 'B) Kilometer', 'C) Centimeter', 'D) Millimeter'], answer: 'A', marks: 1 },
+      { text: 'Which of the following is a scalar quantity?', type: 'mcq', options: ['A) Force', 'B) Velocity', 'C) Mass', 'D) Acceleration'], answer: 'C', marks: 1 },
+      { text: 'The dimensions of velocity are:', type: 'mcq', options: ['A) [LT⁻¹]', 'B) [LT⁻²]', 'C) [L²T⁻¹]', 'D) [L⁰T⁰]'], answer: 'A', marks: 1 }
+    ],
+    chapterQuestions: [
+      { text: 'A car travels 100 km in 2 hours. Calculate its average velocity.', type: 'short', marks: 2 },
+      { text: 'Explain the difference between precision and accuracy with examples.', type: 'short', marks: 2 }
+    ]
+  },
+  chapter2: {
+    conceptQuestions: [
+      { text: "Newton's First Law of Motion is also known as:", type: 'mcq', options: ['A) Law of Inertia', 'B) Law of Acceleration', 'C) Law of Reaction', 'D) Law of Gravitation'], answer: 'A', marks: 1 },
+      { text: 'Which of the following forces is a contact force?', type: 'mcq', options: ['A) Gravitational', 'B) Electrostatic', 'C) Friction', 'D) Magnetic'], answer: 'C', marks: 1 },
+      { text: 'A 5 kg object accelerates at 2 m/s². The net force applied is:', type: 'mcq', options: ['A) 5 N', 'B) 10 N', 'C) 2.5 N', 'D) 7 N'], answer: 'B', marks: 1 },
+      { text: 'Action and reaction forces act on:', type: 'mcq', options: ['A) Same body', 'B) Different bodies', 'C) Same direction', 'D) No specific rule'], answer: 'B', marks: 1 },
+      { text: 'The coefficient of friction depends on:', type: 'mcq', options: ['A) Area of contact', 'B) Nature of surfaces', 'C) Speed of object', 'D) Mass of object'], answer: 'B', marks: 1 }
+    ],
+    chapterQuestions: [
+      { text: 'State and explain Newton\'s Second Law of Motion. Derive F = ma.', type: 'short', marks: 2 },
+      { text: 'Draw the free body diagram of a block on an inclined plane and calculate the acceleration.', type: 'short', marks: 2, hasDiagram: true },
+      { text: 'Calculate the momentum of a 0.5 kg ball moving at 20 m/s.', type: 'short', marks: 2 }
+    ]
+  },
+  chapter3: {
+    conceptQuestions: [
+      { text: 'Work done by a force is zero when:', type: 'mcq', options: ['A) Force is parallel', 'B) Force is perpendicular', 'C) Force is opposite', 'D) Force is variable'], answer: 'B', marks: 1 }
+    ],
+    chapterQuestions: [
+      { text: 'A 2 kg ball is dropped from 10 m. Find its velocity just before impact. (g = 10 m/s²)', type: 'long', marks: 5 },
+      { text: 'Explain conservation of mechanical energy with an example.', type: 'long', marks: 5 },
+      { text: 'State work-energy theorem. A 5 kg block slides 4 m on a rough surface (μ = 0.2). Find work done by friction.', type: 'long', marks: 5 }
+    ]
+  }
+};
+
+function buildQuestionsFromBlueprint() {
+  const qs = [];
+  const selected = chaptersList.filter((_, i) => state.selectedChapters[i]);
+  const { mcq, short, long } = state.blueprint;
+  let mcqCount = 0, shortCount = 0, longCount = 0;
+
+  for (let ci = 0; ci < selected.length; ci++) {
+    const chKey = `chapter${selected[ci].id}`;
+    const data = MOCK_QUESTIONS_BANK[chKey];
+
+    // Pull MCQ questions from conceptQuestions
+    for (const cq of data.conceptQuestions) {
+      if (mcqCount >= mcq) break;
+      mcqCount++;
+      qs.push({ ...cq, num: mcqCount, section: 'A', sectionName: 'Section A (MCQ)', chapter: selected[ci].name, fromConcept: true });
+    }
+
+    // Pull short/long from chapterQuestions
+    for (const chq of data.chapterQuestions) {
+      if (chq.type === 'short' && shortCount < short) {
+        shortCount++;
+        qs.push({ ...chq, num: shortCount, section: 'B', sectionName: 'Section B (Short)', chapter: selected[ci].name, fromConcept: false });
+      } else if (chq.type === 'long' && longCount < long) {
+        longCount++;
+        qs.push({ ...chq, num: longCount, section: 'C', sectionName: 'Section C (Long)', chapter: selected[ci].name, fromConcept: false });
+      }
+    }
+  }
+
+  // Fill remaining with fallback questions
+  const fallbacks = {
+    mcq: [
+      { text: 'Which physical quantity has dimensions of energy?', type: 'mcq', options: ['A) Force', 'B) Power', 'C) Work', 'D) Momentum'], answer: 'C', marks: 1 },
+      { text: 'A body at rest can have:', type: 'mcq', options: ['A) Speed', 'B) Velocity', 'C) Energy', 'D) Momentum'], answer: 'C', marks: 1 }
+    ],
+    short: [
+      { text: 'Define the term "force" and give its SI unit.', type: 'short', marks: 2 },
+      { text: 'What is the difference between mass and weight?', type: 'short', marks: 2 },
+      { text: 'Explain the concept of impulse with an example.', type: 'short', marks: 2 }
+    ],
+    long: [
+      { text: 'Derive equations of motion for uniformly accelerated motion.', type: 'long', marks: 5 }
+    ]
+  };
+
+  while (mcqCount < mcq) {
+    mcqCount++;
+    const fb = fallbacks.mcq.shift() || { text: 'Sample MCQ placeholder question?', type: 'mcq', options: ['A) Option A', 'B) Option B', 'C) Option C', 'D) Option D'], answer: 'A', marks: 1 };
+    qs.push({ ...fb, num: mcqCount, section: 'A', sectionName: 'Section A (MCQ)', chapter: 'General', fromConcept: true });
+  }
+  while (shortCount < short) {
+    shortCount++;
+    const fb = fallbacks.short.shift() || { text: 'Sample short answer question.', type: 'short', marks: 2 };
+    qs.push({ ...fb, num: shortCount, section: 'B', sectionName: 'Section B (Short)', chapter: 'General', fromConcept: false });
+  }
+  while (longCount < long) {
+    longCount++;
+    const fb = fallbacks.long.shift() || { text: 'Sample long answer question with detailed explanation required.', type: 'long', marks: 5 };
+    qs.push({ ...fb, num: longCount, section: 'C', sectionName: 'Section C (Long)', chapter: 'General', fromConcept: false });
+  }
+
+  return qs;
+}
+
+// Step 5: Generate Questions
+function renderStep5(panel) {
+  const total = state.blueprint.mcq + state.blueprint.short + state.blueprint.long;
+  const generationActive = state.questionProgress > 0 || !!state.generationPhase;
+
+  const selected = chaptersList.filter((_, i) => state.selectedChapters[i]);
+
+  // Flow diagram data — estimate questions per chapter
+  const chFlow = selected.map((ch, i) => {
+    const perCh = Math.floor(total / selected.length);
+    const extra = i < (total % selected.length) ? 1 : 0;
+    const qCount = perCh + extra;
+    const concepts = ch.id === 1 ? 3 : ch.id === 2 ? 5 : 4;
+    return { ...ch, concepts, questions: qCount };
+  });
+
+  const qs = [];
+  for (let i = 1; i <= total; i++) {
+    const done = i <= state.questionProgress;
+    let section = 'Section A (MCQ)';
+    if (i > state.blueprint.mcq && i <= state.blueprint.mcq + state.blueprint.short) section = 'Section B (Short)';
+    if (i > state.blueprint.mcq + state.blueprint.short) section = 'Section C (Long)';
+    qs.push({ num: i, label: section, done });
+  }
+
+  panel.innerHTML = `
+    <div class="step-content active">
+      <div class="step-heading">Generate Questions</div>
+      <div class="step-sub">The engine will generate ${total} questions based on your blueprint</div>
+
+      ${!generationActive ? `
+        <!-- Flow diagram: Chapters → Concepts → Questions -->
+        <div style="margin:16px 0 20px;padding:20px;background:var(--surface-hover);border-radius:var(--radius-md);border:1px solid var(--border)">
+          <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--text-light);margin-bottom:16px">Generation Plan</div>
+          ${chFlow.map((ch, i) => `
+            <div style="display:flex;align-items:center;gap:12px;padding:10px 0;border-bottom:${i < chFlow.length - 1 ? '1px solid var(--border)' : 'none'}">
+              <div style="width:20px;height:20px;border-radius:50%;background:var(--gradient);color:#fff;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;flex-shrink:0">${i+1}</div>
+              <span style="font-weight:700;font-size:14px;min-width:90px">${ch.name}</span>
+              <span style="color:var(--text-muted);font-size:13px">${ch.concepts} concepts</span>
+              <span style="color:var(--text-light);font-size:16px">→</span>
+              <span style="font-weight:700;font-size:16px;color:var(--primary)">${ch.questions}</span>
+              <span style="color:var(--text-muted);font-size:13px">questions</span>
+            </div>
+          `).join('')}
+          <div style="margin-top:12px;padding:12px 16px;background:var(--surface);border-radius:var(--radius-sm);border:1px dashed var(--primary-light);font-size:12px;color:var(--text-muted);display:flex;align-items:center;gap:8px">
+            <span style="font-size:16px">⚡</span>
+            <span><strong style="color:var(--text)">Tier 1:</strong> Questions via NCERT chunks + Concept + LLM · <strong style="color:var(--text)">Tier 2:</strong> Questions via selected chapters chunk + LLM</span>
+          </div>
+        </div>
+
+        <div class="step-action">
+          <button class="btn btn-primary" onclick="handleStep5()">Generate Questions</button>
+        </div>
+      ` : `
+        <div style="margin-top:8px">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+            <span style="font-size:14px;font-weight:600">${state.questionProgress} / ${total} Generated</span>
+            <span style="font-size:13px;color:var(--text-muted)">${state.questionProgress > 0 ? Math.round((state.questionProgress / total) * 100) + '%' : 'Preparing...'}</span>
+          </div>
+          <div class="progress-bar-q">
+            <div class="progress-fill" style="width:${state.questionProgress > 0 ? Math.round((state.questionProgress / total) * 100) : 5}%"></div>
+          </div>
+          ${state.generationPhase ? `
+            <div style="margin:12px 0;padding:10px 14px;background:${state.generationPhase === 'concept' ? 'var(--success-bg)' : 'var(--warning-bg)'};border-radius:var(--radius-sm);border:1px solid ${state.generationPhase === 'concept' ? 'var(--success)' : 'var(--warning)'};font-size:13px;font-weight:500;display:flex;align-items:center;gap:8px">
+              <span style="font-size:16px">${state.generationPhase === 'concept' ? '🧠' : '📘'}</span>
+              ${state.generationPhase === 'concept'
+                ? 'Phase 1: Generating questions with <strong>NCERT chunks + Concept + LLM</strong>'
+                : 'Phase 2: Generating other questions using <strong>selected chapters chunk + LLM</strong>'}
+            </div>
+          ` : ''}
+          <div class="q-list">
+            ${state.questionProgress > 0
+              ? qs.slice(0, Math.max(state.questionProgress, 3)).map(q => `
+                  <div class="q-item" style="opacity:${q.done ? 1 : 0.4}">
+                    <div class="q-num" style="background:${q.done ? 'var(--success)' : 'var(--border)'};color:${q.done ? '#fff' : 'var(--text-muted)'}">${q.num}</div>
+                    <span class="q-text">${q.label}</span>
+                    ${q.done ? '<span class="q-badge success">✓</span>' : '<span class="spinner"></span>'}
+                  </div>
+                `).join('')
+              : `<div style="padding:16px;text-align:center;color:var(--text-muted);font-size:14px"><span class="spinner"></span> Initializing question pipeline...</div>`
+            }
+          </div>
+        </div>
+      `}
+
+      ${state.questionProgress === total ? `
+        <div class="step-action">
+          <button class="btn btn-primary" onclick="handleStep5Done()">Continue →</button>
+        </div>
+      ` : ''}
+    </div>
+  `;
+}
+
+async function handleStep5() {
+  showBackendCard('knowledge');
+  setBackendStatus('knowledge', 'running');
+  addBackendLine('knowledge', 'running', 'Retrieving NCERT Chunks...');
+  await sleep(400);
+  addBackendLine('knowledge', 'success', 'Chapter chunks loaded');
+  await sleep(300);
+
+  showBackendCard('questions');
+  setBackendStatus('questions', 'running');
+
+  // Phase 1: Tier 1 concept-based generation
+  state.generationPhase = 'concept';
+  clearBackendLines('questions');
+  addBackendLine('questions', 'running', 'Phase 1: Generating via NCERT chunks + Concept + LLM...');
+  await sleep(600);
+  addBackendLine('questions', 'success', 'Tier 1 concept questions generated');
+  renderStep();
+  await sleep(300);
+
+  // Phase 2: Chapter-based generation (Tier 2)
+  state.generationPhase = 'chapter';
+  addBackendLine('questions', 'running', 'Phase 2: Generating via selected chapters chunk + LLM...');
+  await sleep(600);
+  addBackendLine('questions', 'success', 'Tier 2 / chapter context questions generated');
+  renderStep();
+  await sleep(300);
+
+  // Build actual questions
+  state.questions = buildQuestionsFromBlueprint();
+
+  const total = state.blueprint.mcq + state.blueprint.short + state.blueprint.long;
+  for (let i = 1; i <= total; i++) {
+    state.questionProgress = i;
+    addBackendLine('questions', 'running', `Assembling Question ${i}/${total}...`);
+    renderStep();
+    await sleep(200);
+  }
+
+  clearBackendLines('questions');
+  addBackendLine('questions', 'success', `${total} Questions Generated ✓`);
+  setBackendStatus('questions', 'success');
+  state.questionsGenerated = true;
+  state.generationPhase = null;
+  renderStep();
+}
+
+function handleStep5Done() {
+  nextStep();
+}
+
+// Step 6: Validation
+function renderStep6(panel) {
+  const checks = [
+    { key: 'marks', label: 'Marks Distribution' },
+    { key: 'chapters', label: 'Chapter Coverage' },
+    { key: 'concepts', label: 'Concept Boundaries' },
+    { key: 'difficulty', label: 'Difficulty Balance' },
+    { key: 'diagram', label: 'Diagram Support' }
+  ];
+
+  const allDone = checks.every(c => state.validationChecks[c.key]);
+
+  panel.innerHTML = `
+    <div class="step-content active">
+      <div class="step-heading">Validation</div>
+      <div class="step-sub">The engine validates every question against constraints</div>
+
+      <div class="check-grid">
+        ${checks.map(c => `
+          <div class="check-row">
+            <div class="check-icon ${state.validationChecks[c.key] ? 'success' : 'pending'}">
+              ${state.validationChecks[c.key] ? '✓' : '○'}
+            </div>
+            <span style="flex:1">${c.label}</span>
+            ${state.validationChecks[c.key] ? '<span style="font-size:12px;color:var(--success);font-weight:600">Passed</span>' : ''}
+          </div>
+        `).join('')}
+      </div>
+
+      ${!state.validated ? `
+        <div class="step-action">
+          <button class="btn btn-primary" onclick="handleStep6()">Validate All Questions</button>
+        </div>
+      ` : `
+        <div style="margin-top:20px;padding:16px 20px;background:var(--success-bg);border-radius:var(--radius-sm);border:1px solid var(--success);display:flex;align-items:center;gap:12px">
+          <span style="font-size:20px;color:var(--success)">&#10003;</span>
+          <div>
+            <div style="font-weight:700;color:var(--success)">Validation Successful</div>
+            <div style="font-size:13px;color:var(--text-muted)">All ${state.blueprint.mcq + state.blueprint.short + state.blueprint.long} questions pass every constraint</div>
+          </div>
+        </div>
+        <div class="step-action">
+          <button class="btn btn-primary" onclick="handleStep6Done()">Continue →</button>
+        </div>
+      `}
+    </div>
+  `;
+}
+
+async function handleStep6() {
+  showBackendCard('validation');
+  setBackendStatus('validation', 'running');
+  addBackendLine('validation', 'running', 'Validating questions...');
+
+  const checks = ['marks', 'chapters', 'concepts', 'difficulty', 'diagram'];
+  for (const c of checks) {
+    await sleep(400);
+    state.validationChecks[c] = true;
+    addBackendLine('validation', 'success', `✓ ${c.charAt(0).toUpperCase() + c.slice(1)}`);
+    renderStep();
+  }
+
+  state.validated = true;
+  addBackendLine('validation', 'success', 'Validation Successful ✓');
+  setBackendStatus('validation', 'success');
+  renderStep();
+  await sleep(300);
+}
+
+function handleStep6Done() {
+  nextStep();
+}
+
+const REGENERATION_BANK = {
+  mcq: [
+    { text: 'Which of the following is a derived quantity?', type: 'mcq', options: ['A) Length', 'B) Mass', 'C) Velocity', 'D) Time'], answer: 'C', marks: 1 },
+    { text: 'The dimensional formula of force is:', type: 'mcq', options: ['A) [MLT⁻²]', 'B) [ML²T⁻²]', 'C) [MLT⁻¹]', 'D) [M⁰L⁰T⁰]'], answer: 'A', marks: 1 },
+    { text: 'A vector quantity is one which has:', type: 'mcq', options: ['A) Only magnitude', 'B) Only direction', 'C) Both magnitude and direction', 'D) Neither'], answer: 'C', marks: 1 }
+  ],
+  short: [
+    { text: 'Explain how friction affects the motion of a block on an inclined plane.', type: 'short', marks: 2 },
+    { text: 'State the law of conservation of linear momentum and give an example.', type: 'short', marks: 2 },
+    { text: 'Derive the relationship between kinetic energy and momentum.', type: 'short', marks: 2 }
+  ],
+  diagram: [
+    { text: 'A block of mass 2 kg is placed on a smooth inclined plane making an angle of 30° with the horizontal. The only forces acting are its weight vertically downward and the normal reaction perpendicular to the plane. Using this information, calculate the acceleration of the block.', type: 'short', marks: 2 }
+  ],
+  long: [
+    { text: 'A 5 kg block is placed on a 30° incline with μ = 0.3. Determine whether it slides and calculate acceleration if it does.', type: 'long', marks: 5 },
+    { text: 'Explain the work-energy theorem. A 2 kg object is thrown vertically at 15 m/s. Find maximum height using energy conservation.', type: 'long', marks: 5 },
+    { text: 'Derive an expression for the centripetal acceleration of a body moving in uniform circular motion.', type: 'long', marks: 5 }
+  ]
+};
+
+function getFlaggedQuestionNum() {
+  const total = state.questions.length;
+  if (state.flaggedQuestion && state.flaggedQuestion <= total) return state.flaggedQuestion;
+  return Math.min(7, total);
+}
+
+// Step 7: Review & Recovery
+function renderStep7(panel) {
+  const qs = state.questions.length > 0 ? state.questions : buildQuestionsFromBlueprint();
+  const flagged = getFlaggedQuestionNum();
+  const diagramFlag = state.diagramFlaggedQuestion;
+
+  panel.innerHTML = `
+    <div class="step-content active">
+      <div class="step-heading">Review & Recovery</div>
+      <div class="step-sub">Two questions flagged — demonstrating targeted regeneration for concept and diagram issues</div>
+
+      <div class="q-list">
+          ${qs.map((q, idx) => {
+            const num = idx + 1;
+            const isWrongConcept = num === flagged && !state.regeneratedQuestions[num];
+            const isDiagramIssue = num === diagramFlag && q.hasDiagram && !state.regeneratedQuestions[num];
+            const isFlagged = isWrongConcept || isDiagramIssue;
+            const isRegen = !!state.regeneratedQuestions[num];
+            const eff = isRegen ? state.regeneratedQuestions[num] : q;
+            const displayText = eff.text;
+            const displayOptions = eff.options || q.options || [];
+            return `
+              <div class="q-item" style="border-color:${isFlagged ? (isWrongConcept ? 'var(--error)' : 'var(--warning)') : isRegen ? 'var(--success)' : 'var(--border)'};background:${isFlagged ? (isWrongConcept ? 'var(--error-bg)' : 'var(--warning-bg)') : isRegen ? 'var(--success-bg)' : 'var(--surface-hover)'}">
+                <div class="q-num" style="background:${isFlagged ? (isWrongConcept ? 'var(--error)' : 'var(--warning)') : 'var(--success)'};color:#fff">${num}</div>
+                <span class="q-text" style="flex:1">${displayText}</span>
+                ${q.type === 'mcq' && !isFlagged ? `<span style="font-size:11px;color:var(--text-muted);margin-right:8px">${displayOptions.join(' · ')}</span>` : ''}
+                ${isWrongConcept ? '<span class="q-badge error">⚠ Wrong Concept</span>' : ''}
+                ${isDiagramIssue ? '<span class="q-badge warning">⚠ Diagram detected</span>' : ''}
+                ${isRegen ? '<span class="q-badge success">Regenerated ✓</span>' : ''}
+                ${!isFlagged && !isRegen ? '<span class="q-badge success">✓</span>' : ''}
+                ${!isRegen ? `<button class="btn btn-sm q-regenerate" onclick="regenerateQuestion(${num})" ${isFlagged ? '' : 'style="background:var(--surface-hover);color:var(--text-muted);border:1px solid var(--border)"'}>Regenerate</button>` : ''}
+              </div>
+            `;
+          }).join('')}
+      </div>
+
+      <div class="step-action">
+        <button class="btn btn-primary" onclick="handleStep7()">Continue →</button>
+      </div>
+    </div>
+  `;
+}
+
+async function regenerateQuestion(num) {
+  const q = state.questions[num - 1];
+  if (!q) return;
+
+  showBackendCard('questions');
+  setBackendStatus('questions', 'running');
+  addBackendLine('questions', 'running', `Targeting Question ${num} — ${q.sectionName || ''}...`);
+  await sleep(400);
+
+  const isDiagramQuestion = num === state.diagramFlaggedQuestion && q.hasDiagram;
+  let replacement;
+
+  if (isDiagramQuestion) {
+    addBackendLine('questions', 'running', 'Diagram detected — generating text-only equivalent...');
+    await sleep(500);
+    const diagramBank = REGENERATION_BANK.diagram;
+    replacement = diagramBank[Math.floor(Math.random() * diagramBank.length)];
+    addBackendLine('questions', 'running', 'No diagram required — Same concept, text-only format');
+    await sleep(400);
+  } else {
+    addBackendLine('questions', 'running', 'Generating replacement...');
+    await sleep(600);
+    const bank = q.type === 'mcq' ? REGENERATION_BANK.mcq
+      : q.type === 'short' ? REGENERATION_BANK.short
+      : REGENERATION_BANK.long;
+    replacement = bank[Math.floor(Math.random() * bank.length)];
+  }
+
+  addBackendLine('questions', 'running', `Replacing Question ${num}...`);
+  await sleep(400);
+
+  state.regeneratedQuestions[num] = { ...replacement };
+  clearBackendLines('questions');
+  addBackendLine('questions', 'success', `Targeted Regeneration Complete — Question ${num} replaced ✓`);
+  setBackendStatus('questions', 'success');
+
+  showBackendCard('validation');
+  setBackendStatus('validation', 'success');
+  addBackendLine('validation', 'success', 'Re-validation Passed ✓');
+
+  renderStep();
+}
+
+async function handleStep7() {
+  nextStep();
+}
+
+function getEffectiveQuestion(num) {
+  if (state.regeneratedQuestions[num]) return state.regeneratedQuestions[num];
+  return state.questions[num - 1] || null;
+}
+
+// Step 8: Export
+function renderStep8(panel) {
+  const qs = state.questions.length > 0 ? state.questions : buildQuestionsFromBlueprint();
+  const total = qs.length;
+  const mcqCount = state.blueprint.mcq;
+  const shortCount = state.blueprint.short;
+  const { mcqMarks, shortMarks, longMarks, total: totalMarks } = calcSectionMarks();
+
+  panel.innerHTML = `
+    <div class="step-content active">
+      <div class="step-heading">Export Test Paper</div>
+      <div class="step-sub">Finalize and download your question paper</div>
+
+      ${!state.exported ? `
+        <div class="step-action" style="margin-bottom:16px">
+          <button class="btn btn-success" onclick="handleStep8()">Generate Test Paper</button>
+        </div>
+      ` : ''}
+
+      ${state.exported ? `
+        <!-- Test Paper Preview -->
+        <div style="border:2px solid var(--border);border-radius:var(--radius-md);overflow:hidden">
+
+          <!-- Paper Header -->
+          <div style="padding:24px 28px;background:var(--gradient);color:#fff;text-align:center">
+            <div style="font-size:20px;font-weight:800;letter-spacing:-0.03em">ZEQO TestGen V1</div>
+            <div style="font-size:13px;opacity:0.8;margin-top:4px">Midterm Examination — Physics</div>
+            <div style="display:flex;justify-content:center;gap:32px;margin-top:12px;font-size:13px;font-weight:500">
+              <span>Marks: <strong>${totalMarks}</strong></span>
+              <span>Questions: <strong>${total}</strong></span>
+              <span>Time: <strong>1 Hour</strong></span>
+            </div>
+          </div>
+
+          <div style="padding:24px 28px">
+
+            <!-- Section A: MCQs -->
+            <div style="margin-bottom:24px">
+              <div style="display:flex;align-items:center;gap:12px;margin-bottom:14px">
+                <div style="width:32px;height:32px;border-radius:50%;background:var(--primary);color:#fff;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700">A</div>
+                <div>
+                  <div style="font-weight:700;font-size:16px">Multiple Choice Questions</div>
+                  <div style="font-size:12px;color:var(--text-muted)">${mcqCount} questions × ${state.marksPerQuestion.mcq} mark each = ${mcqMarks} marks</div>
+                </div>
+              </div>
+              ${qs.slice(0, mcqCount).map((q, idx) => {
+                const eff = getEffectiveQuestion(idx + 1);
+                return `
+                  <div style="padding:14px 16px;background:var(--surface-hover);border-radius:var(--radius-sm);border:1px solid var(--border);margin-bottom:8px">
+                    <div style="display:flex;align-items:flex-start;gap:10px">
+                      <span style="font-weight:700;color:var(--primary);min-width:24px">${idx + 1}.</span>
+                      <div style="flex:1">
+                        <div style="font-weight:500;font-size:14px">${eff.text || q.text}</div>
+                        <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px;margin-top:8px;font-size:13px;color:var(--text-muted)">
+                          ${(eff.options || q.options || []).map(o => `<span>${o}</span>`).join('')}
+                        </div>
+                      </div>
+                      <span style="font-size:11px;font-weight:600;color:var(--text-light);min-width:30px;text-align:right">[${eff.marks || q.marks || 1}M]</span>
+                    </div>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+
+            <!-- Section B: Short -->
+            <div style="margin-bottom:24px">
+              <div style="display:flex;align-items:center;gap:12px;margin-bottom:14px">
+                <div style="width:32px;height:32px;border-radius:50%;background:var(--secondary);color:#fff;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700">B</div>
+                <div>
+                  <div style="font-weight:700;font-size:16px">Short Answer Questions</div>
+                  <div style="font-size:12px;color:var(--text-muted)">${shortCount} questions × ${state.marksPerQuestion.short} marks each = ${shortMarks} marks</div>
+                </div>
+              </div>
+              ${qs.slice(mcqCount, mcqCount + shortCount).map((q, idx) => {
+                const num = mcqCount + idx + 1;
+                const eff = getEffectiveQuestion(num);
+                return `
+                  <div style="padding:14px 16px;background:var(--surface-hover);border-radius:var(--radius-sm);border:1px solid var(--border);margin-bottom:8px">
+                    <div style="display:flex;align-items:flex-start;gap:10px">
+                      <span style="font-weight:700;color:var(--secondary);min-width:24px">${num}.</span>
+                      <div style="flex:1">
+                        <div style="font-weight:500;font-size:14px">${eff.text || q.text}</div>
+                      </div>
+                      <span style="font-size:11px;font-weight:600;color:var(--text-light);min-width:30px;text-align:right">[${eff.marks || q.marks || state.marksPerQuestion.short}M]</span>
+                    </div>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+
+            <!-- Section C: Long -->
+            <div>
+              <div style="display:flex;align-items:center;gap:12px;margin-bottom:14px">
+                <div style="width:32px;height:32px;border-radius:50%;background:var(--success);color:#fff;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700">C</div>
+                <div>
+                  <div style="font-weight:700;font-size:16px">Long Answer Questions</div>
+                  <div style="font-size:12px;color:var(--text-muted)">${state.blueprint.long} questions × ${state.marksPerQuestion.long} marks each = ${longMarks} marks</div>
+                </div>
+              </div>
+              ${qs.slice(mcqCount + shortCount).map((q, idx) => {
+                const num = mcqCount + shortCount + idx + 1;
+                const eff = getEffectiveQuestion(num);
+                return `
+                  <div style="padding:14px 16px;background:var(--surface-hover);border-radius:var(--radius-sm);border:1px solid var(--border);margin-bottom:8px">
+                    <div style="display:flex;align-items:flex-start;gap:10px">
+                      <span style="font-weight:700;color:var(--success);min-width:24px">${num}.</span>
+                      <div style="flex:1">
+                        <div style="font-weight:500;font-size:14px">${eff.text || q.text}</div>
+                      </div>
+                      <span style="font-size:11px;font-weight:600;color:var(--text-light);min-width:30px;text-align:right">[${eff.marks || q.marks || state.marksPerQuestion.long}M]</span>
+                    </div>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+
+            ${Object.keys(state.regeneratedQuestions).length > 0 ? `
+              <div style="margin-top:20px;padding:12px 16px;background:var(--warning-bg);border-radius:var(--radius-sm);border:1px dashed var(--warning);font-size:12px;color:var(--text-muted)">
+                ⚡ Regenerated Questions: ${Object.keys(state.regeneratedQuestions).map(n => `Q${n}`).join(', ')} — replaced with new variants
+              </div>
+            ` : ''}
+
+          </div>
+        </div>
+
+        <div style="margin-top:16px;padding:16px;background:var(--success-bg);border-radius:var(--radius-sm);text-align:center;font-size:14px;color:var(--text-muted)">
+          ✦ Test paper generated with ${Object.keys(state.regeneratedQuestions).length} regenerated question(s) ✦
+        </div>
+      ` : ''}
+    </div>
+  `;
+}
+
+async function handleStep8() {
+  const btn = document.querySelector('#teacherPanel .btn-success');
+  if (btn) btn.disabled = true;
+
+  showBackendCard('pdf');
+  setBackendStatus('pdf', 'running');
+  addBackendLine('pdf', 'running', 'Assembling test paper...');
+  await sleep(600);
+  addBackendLine('pdf', 'running', 'Applying regenerated questions...');
+  await sleep(500);
+  addBackendLine('pdf', 'running', 'Generating PDF layout...');
+  await sleep(500);
+
+  state.exported = true;
+  clearBackendLines('pdf');
+  addBackendLine('pdf', 'success', 'Test Paper Generated ✓');
+  addBackendLine('pdf', 'success', `Questions: ${state.questions.length} total · ${Object.keys(state.regeneratedQuestions).length} regenerated`);
+  addBackendLine('pdf', 'success', 'Completed ✓');
+  setBackendStatus('pdf', 'success');
+
+  renderStep();
+}
+
+// Navigation
+function nextStep() {
+  if (state.currentStep < 8) {
+    state.currentStep++;
+    renderStep();
+  }
+}
+
+// Init
+function init() {
+  // Initialize backend cards structure
+  Object.keys(CARD_META).forEach(id => {
+    state.backendCards[id] = { visible: false, status: 'waiting', lines: [] };
+  });
+  renderStep();
+}
+
+init();
+</script>
+</body>
+</html>

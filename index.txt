@@ -1,0 +1,816 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZEQO TestGen V1 - Architecture Simulator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --bg: #F8FAFC;
+            --surface: #FFFFFF;
+            --surface-hover: #F1F5F9;
+            --primary: #6366F1;
+            --secondary: #A855F7;
+            --gradient: linear-gradient(135deg, var(--primary), var(--secondary));
+            --text-main: #0F172A;
+            --text-muted: #64748B;
+            --success: #10B981;
+            --warning: #F59E0B;
+            --danger: #EF4444;
+            --border: #E2E8F0;
+            --radius-sm: 12px;
+            --radius-md: 24px;
+            --radius-lg: 30px;
+            --shadow-soft: 0 10px 40px -10px rgba(0, 0, 0, 0.08);
+            --shadow-hover: 0 20px 40px -10px rgba(99, 102, 241, 0.15);
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Typography */
+        h1,
+        h2,
+        h3 {
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 1.6;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 280px;
+            background: var(--surface);
+            border-right: 1px solid var(--border);
+            padding: 32px 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            z-index: 10;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 40px;
+            padding-left: 12px;
+        }
+
+        .nav-item {
+            padding: 16px 20px;
+            border-radius: var(--radius-sm);
+            color: var(--text-muted);
+            text-decoration: none;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            transition: var(--transition);
+            cursor: pointer;
+        }
+
+        .nav-item:hover {
+            background: var(--surface-hover);
+            color: var(--text-main);
+        }
+
+        .nav-item.active {
+            background: var(--gradient);
+            color: white;
+            box-shadow: 0 8px 20px rgba(99, 102, 241, 0.25);
+        }
+
+        /* Main Content */
+        .main-content {
+            flex: 1;
+            padding: 40px;
+            overflow-y: auto;
+            position: relative;
+        }
+
+        .view {
+            display: none;
+            height: 100%;
+            animation: fadeIn 0.4s ease forwards;
+        }
+
+        .view.active {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Split View (Simulator) */
+        .split-view {
+            display: flex;
+            gap: 40px;
+            height: 100%;
+        }
+
+        .panel {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        /* Cards */
+        .card {
+            background: var(--surface);
+            border-radius: var(--radius-md);
+            padding: 32px;
+            box-shadow: var(--shadow-soft);
+            border: 1px solid rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            transition: var(--transition);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+        }
+
+        /* Controls */
+        select,
+        .btn {
+            font-family: inherit;
+            font-size: 15px;
+            font-weight: 600;
+            border-radius: var(--radius-sm);
+            padding: 14px 24px;
+            outline: none;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        select {
+            width: 100%;
+            border: 1px solid var(--border);
+            background: var(--surface);
+            color: var(--text-main);
+            appearance: none;
+            padding-right: 40px;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%2364748B'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 16px center;
+            background-size: 16px;
+        }
+
+        .btn-primary {
+            background: var(--gradient);
+            color: white;
+            border: none;
+            box-shadow: 0 4px 15px rgba(99, 102, 241, 0.2);
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-primary:hover {
+            box-shadow: var(--shadow-hover);
+            transform: translateY(-2px);
+        }
+
+        /* Context Area (Left Panel dynamic content) */
+        .context-box {
+            background: var(--surface-hover);
+            border-radius: var(--radius-sm);
+            padding: 24px;
+            margin-bottom: 24px;
+            border: 1px dashed var(--border);
+        }
+
+        /* Backend Logs (Right Panel) */
+        .timeline {
+            position: relative;
+            padding-left: 32px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 11px;
+            top: 10px;
+            bottom: 10px;
+            width: 2px;
+            background: var(--border);
+            border-radius: 2px;
+        }
+
+        .log-item {
+            position: relative;
+            background: var(--surface);
+            border-radius: var(--radius-sm);
+            padding: 16px 20px;
+            border: 1px solid var(--border);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            animation: slideIn 0.3s ease forwards;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .log-icon {
+            position: absolute;
+            left: -42px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: var(--surface);
+            border: 2px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            z-index: 2;
+            transition: var(--transition);
+        }
+
+        .log-content {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .log-title {
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .log-desc {
+            font-size: 12px;
+            color: var(--text-muted);
+        }
+
+        .badge {
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Log States */
+        .state-waiting .log-icon {
+            border-color: var(--border);
+            color: var(--text-muted);
+        }
+
+        .state-waiting .badge {
+            background: var(--surface-hover);
+            color: var(--text-muted);
+        }
+
+        .state-running .log-icon {
+            border-color: var(--primary);
+            color: var(--primary);
+            box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.1);
+        }
+
+        .state-running .badge {
+            background: rgba(99, 102, 241, 0.1);
+            color: var(--primary);
+        }
+
+        .state-running .log-icon i {
+            animation: spin 1s linear infinite;
+        }
+
+        .state-success .log-icon {
+            border-color: var(--success);
+            color: var(--success);
+            background: #ecfdf5;
+        }
+
+        .state-success .badge {
+            background: #ecfdf5;
+            color: var(--success);
+        }
+
+        .state-warning .log-icon {
+            border-color: var(--warning);
+            color: var(--warning);
+            background: #fffbeb;
+        }
+
+        .state-warning .badge {
+            background: #fffbeb;
+            color: var(--warning);
+        }
+
+        .state-error .log-icon {
+            border-color: var(--danger);
+            color: var(--danger);
+            background: #fef2f2;
+        }
+
+        .state-error .badge {
+            background: #fef2f2;
+            color: var(--danger);
+        }
+
+        /* Other Views */
+        .diagram-container {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 40px;
+        }
+
+        .node {
+            background: var(--surface);
+            padding: 20px 32px;
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-soft);
+            font-weight: 600;
+            text-align: center;
+            border: 2px solid transparent;
+            cursor: pointer;
+            transition: var(--transition);
+            min-width: 180px;
+        }
+
+        .node:hover {
+            border-color: var(--primary);
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .arrow {
+            color: var(--text-muted);
+            font-size: 24px;
+        }
+
+        .meta-panel {
+            margin-top: 40px;
+            background: var(--surface);
+            border-radius: var(--radius-md);
+            padding: 32px;
+            box-shadow: var(--shadow-soft);
+            display: none;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes spin {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <nav class="sidebar">
+        <div class="logo">ZEQO<span style="font-weight: 400; font-size:16px;">TestGen</span></div>
+        <a class="nav-item active" onclick="switchView('simulator', this)"><i class="fas fa-desktop"></i> Simulator</a>
+        <a class="nav-item" onclick="switchView('preprocessing', this)"><i class="fas fa-database"></i>
+            Preprocessing</a>
+        <a class="nav-item" onclick="switchView('architecture', this)"><i class="fas fa-project-diagram"></i>
+            Architecture</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <!-- View: Simulator -->
+        <div id="simulator" class="view active">
+            <div class="split-view">
+                <!-- Left Panel: Teacher UI -->
+                <div class="panel">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>Teacher Interface</h2>
+                        </div>
+                        <p style="margin-bottom: 24px;">Select a scenario to configure the frontend state.</p>
+
+                        <select id="scenarioSelect" onchange="loadScenarioContext()">
+                            <option value="1">1. Normal Paper Generation</option>
+                            <option value="2">2. Teacher promotes Tier 2 concept</option>
+                            <option value="3">3. Blueprint generation</option>
+                            <option value="4">4. Question generation logic</option>
+                            <option value="5">5. Concept not available in KB</option>
+                            <option value="6">6. Validation: Wrong Concept Generated</option>
+                            <option value="7">7. Validation: Wrong Marks</option>
+                            <option value="8">8. Validation: Wrong Chapter</option>
+                            <option value="9">9. Validation: Diagram Question Generated</option>
+                            <option value="10">10. Teacher manually regenerates Q7</option>
+                            <option value="11">11. Blueprint reuse</option>
+                        </select>
+
+                        <div id="dynamicContext" class="context-box" style="margin-top: 24px;">
+                            <!-- Populated by JS -->
+                        </div>
+
+                        <button id="triggerBtn" class="btn btn-primary" onclick="executeScenario()">
+                            <i class="fas fa-play"></i> Trigger Action
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Right Panel: Backend Architecture -->
+                <div class="panel">
+                    <div class="card" style="height: 100%; display: flex; flex-direction: column;">
+                        <div class="card-header">
+                            <h2>Backend Logs</h2>
+                            <span class="badge" style="background: var(--surface-hover); color: var(--text-main);">Live
+                                System</span>
+                        </div>
+                        <div id="backendLogs" class="timeline" style="flex: 1; overflow-y: auto; padding-right: 10px;">
+                            <!-- Populated by JS -->
+                            <p style="text-align: center; color: var(--text-muted); margin-top: 40px; font-size: 14px;">
+                                Waiting for teacher interaction...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- View: Preprocessing -->
+        <div id="preprocessing" class="view">
+            <h2>Offline Preprocessing Pipeline</h2>
+            <p style="margin-bottom: 40px;">How NCERT books are transformed into the Knowledge Base before generation.
+            </p>
+
+            <div class="diagram-container">
+                <div class="node" onclick="showMeta('ncert')">NCERT Book</div>
+                <i class="fas fa-arrow-right arrow"></i>
+                <div class="node" onclick="showMeta('chunking')">Chunking Engine</div>
+                <i class="fas fa-arrow-right arrow"></i>
+                <div class="node" onclick="showMeta('concept')">Concept Extraction</div>
+                <i class="fas fa-arrow-right arrow"></i>
+                <div class="node" onclick="showMeta('enrichment')">Metadata Enrichment</div>
+                <i class="fas fa-arrow-right arrow"></i>
+                <div class="node" style="border-color: var(--primary); background: #f5f3ff;" onclick="showMeta('kb')">
+                    Knowledge Base</div>
+            </div>
+
+            <div id="preprocMeta" class="meta-panel">
+                <h3 id="metaTitle" style="margin-bottom: 16px;">Step Details</h3>
+                <div id="metaContent"
+                    style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; background: var(--bg); padding: 24px; border-radius: var(--radius-sm);">
+                    <!-- Dynamic -->
+                </div>
+            </div>
+        </div>
+
+        <!-- View: Architecture -->
+        <div id="architecture" class="view">
+            <h2>System Architecture</h2>
+            <p style="margin-bottom: 40px;">Interactive block diagram of the ZEQO TestGen V1 Engine.</p>
+
+            <div style="display: flex; flex-direction: column; gap: 20px; max-width: 800px; margin: 0 auto;">
+                <div class="node" style="background: #eff6ff;" onclick="showArch('teacher')">1. Teacher Configuration UI
+                </div>
+                <div style="text-align: center;"><i class="fas fa-arrow-down arrow"></i></div>
+                <div class="node" style="background: #fdf4ff;" onclick="showArch('blueprint')">2. Blueprint Engine &
+                    Knowledge Base</div>
+                <div style="text-align: center;"><i class="fas fa-arrow-down arrow"></i></div>
+                <div class="node" style="background: #f5f3ff;" onclick="showArch('llm')">3. Question Generation (LLM)
+                </div>
+                <div style="text-align: center;"><i class="fas fa-arrow-down arrow"></i></div>
+                <div class="node" style="background: #fffbeb;" onclick="showArch('validation')">4. Validation & Targeted
+                    Regeneration Engine</div>
+                <div style="text-align: center;"><i class="fas fa-arrow-down arrow"></i></div>
+                <div class="node" style="background: #ecfdf5;" onclick="showArch('final')">5. Final Test Artifact</div>
+            </div>
+
+            <div id="archMeta" class="meta-panel">
+                <h3 id="archTitle">Module Responsibilities</h3>
+                <p id="archContent" style="margin-top: 12px;"></p>
+            </div>
+        </div>
+
+    </main>
+
+    <script>
+        // --- Navigation Logic ---
+        function switchView(viewId, el) {
+            document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+            document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+            document.getElementById(viewId).classList.add('active');
+            el.classList.add('active');
+        }
+
+        // --- Data & Scenarios ---
+        const scenarios = {
+            "1": {
+                context: "<h3>Configuration</h3><p>Chapter: Thermodynamics<br>Total Marks: 50<br>Difficulty: Medium</p>",
+                btnText: "Generate Test Paper",
+                icon: "fa-magic",
+                steps: [
+                    { name: "Load Teacher Preferences", time: 600, status: 'success' },
+                    { name: "Retrieve Knowledge Base", time: 800, status: 'success' },
+                    { name: "Generate Blueprint", time: 1200, status: 'success' },
+                    { name: "Call LLM - Generate Questions", time: 2000, status: 'success' },
+                    { name: "Validate Blueprint constraints", time: 1000, status: 'success' },
+                    { name: "Finalize PDF/UI Artifact", time: 500, status: 'success' }
+                ]
+            },
+            "2": {
+                context: "<h3>Concept Configuration</h3><p>Current Tier: Tier 2<br>Concept: Entropy Change</p>",
+                btnText: "Promote to Tier 1",
+                icon: "fa-arrow-up",
+                steps: [
+                    { name: "Receive Promotion Request", time: 400, status: 'success' },
+                    { name: "Update Teacher Preferences DB", time: 800, status: 'success' },
+                    { name: "Re-calculate Chapter Weightage", time: 900, status: 'success' }
+                ]
+            },
+            "3": {
+                context: "<h3>Blueprint Settings</h3><p>Exam Type: Unit Test<br>Duration: 1 Hour</p>",
+                btnText: "Generate Blueprint",
+                icon: "fa-sitemap",
+                steps: [
+                    { name: "Load Chapter Weightage Rules", time: 500, status: 'success' },
+                    { name: "Calculate Marks Distribution", time: 1000, status: 'success' },
+                    { name: "Map Bloom's Taxonomy limits", time: 800, status: 'success' },
+                    { name: "Save Blueprint to DB", time: 600, status: 'success' }
+                ]
+            },
+            "4": {
+                context: "<h3>Generation Strategy Trigger</h3><p>Blueprint Ready. Starting generation phase.</p>",
+                btnText: "Start Question Engine",
+                icon: "fa-cogs",
+                steps: [
+                    { name: "Generate: 1 Question per Tier 1 Concept", time: 1500, status: 'success' },
+                    { name: "Generate: Remaining using Tier 2 Concepts", time: 1200, status: 'success' },
+                    { name: "Generate: Fallback to Chapter-level context", time: 900, status: 'success' },
+                    { name: "Assemble Draft Paper", time: 400, status: 'success' }
+                ]
+            },
+            "5": {
+                context: "<h3>Edge Case</h3><p>Target concept missing from structured KB.</p>",
+                btnText: "Generate Questions",
+                icon: "fa-exclamation-circle",
+                steps: [
+                    { name: "Search Knowledge Base", time: 800, status: 'error', errorDesc: "Concept Not Found" },
+                    { name: "Fallback: Retrieve Raw Chapter Chunks", time: 1000, status: 'warning', errorDesc: "Using Vector DB" },
+                    { name: "Generate using Chapter Context", time: 1800, status: 'success' }
+                ]
+            },
+            "6": {
+                context: "<h3>Validation Simulation</h3><p>LLM hallucinates a concept outside the curriculum.</p>",
+                btnText: "Run Generation & Validation",
+                icon: "fa-shield-alt",
+                steps: [
+                    { name: "Generate Question (Q4)", time: 1500, status: 'success' },
+                    { name: "Run Concept Validation", time: 1200, status: 'error', errorDesc: "Mismatch Detected! (Out of scope)" },
+                    { name: "Flag Question 4", time: 400, status: 'warning' },
+                    { name: "Targeted Regeneration (Only Q4)", time: 1600, status: 'success' },
+                    { name: "Replace Question & Re-validate", time: 800, status: 'success' }
+                ]
+            },
+            "7": {
+                context: "<h3>Validation Simulation</h3><p>LLM generates a 5-mark question for a 3-mark slot.</p>",
+                btnText: "Run Validation",
+                icon: "fa-check-double",
+                steps: [
+                    { name: "Check Marks Distribution", time: 900, status: 'error', errorDesc: "Expected: 3, Got: 5" },
+                    { name: "Regenerate specific question", time: 1400, status: 'success' },
+                    { name: "Update Blueprint state", time: 500, status: 'success' }
+                ]
+            },
+            "8": {
+                context: "<h3>Validation Simulation</h3><p>LLM pulls content from Chapter 4 instead of Chapter 3.</p>",
+                btnText: "Run Validation",
+                icon: "fa-book-open",
+                steps: [
+                    { name: "Check Source Mapping", time: 1000, status: 'error', errorDesc: "Source: Ch4. Target: Ch3." },
+                    { name: "Strict prompt enforcement applied", time: 600, status: 'warning' },
+                    { name: "Regenerate Question", time: 1500, status: 'success' }
+                ]
+            },
+            "9": {
+                context: "<h3>V1 Limitation Check</h3><p>Engine V1 cannot render complex diagrams yet.</p>",
+                btnText: "Process Question",
+                icon: "fa-image",
+                steps: [
+                    { name: "Generate Question", time: 1200, status: 'success' },
+                    { name: "Check KB Metadata", time: 600, status: 'warning', errorDesc: "Supports Diagram = TRUE" },
+                    { name: "System Check: Version 1 capabilities", time: 500, status: 'error', errorDesc: "Diagrams not supported in V1" },
+                    { name: "Auto-regenerate equivalent text question", time: 1600, status: 'success' }
+                ]
+            },
+            "10": {
+                context: "<h3>Teacher Manual Override</h3><p>Reviewing generated paper. Question 7 is poorly worded.</p>",
+                btnText: "Regenerate Question 7",
+                icon: "fa-sync",
+                steps: [
+                    { name: "Isolate Question 7 configuration", time: 500, status: 'success' },
+                    { name: "Call LLM with new seed", time: 1800, status: 'success' },
+                    { name: "Validate new Q7", time: 800, status: 'success' },
+                    { name: "Hot-swap in UI (Nothing else changes)", time: 400, status: 'success' }
+                ]
+            },
+            "11": {
+                context: "<h3>Reusability</h3><p>Teacher selects previously saved Class 11 Midterm blueprint.</p>",
+                btnText: "Load & Generate",
+                icon: "fa-copy",
+                steps: [
+                    { name: "Fetch Saved Blueprint ID: 8842", time: 600, status: 'success' },
+                    { name: "Apply Teacher Edits", time: 400, status: 'success' },
+                    { name: "Bypass Blueprint Generation Phase", time: 300, status: 'warning', errorDesc: "Skipped" },
+                    { name: "Start Question Engine directly", time: 1500, status: 'success' }
+                ]
+            }
+        };
+
+        // --- Simulator Logic ---
+        function loadScenarioContext() {
+            const val = document.getElementById('scenarioSelect').value;
+            const data = scenarios[val];
+            document.getElementById('dynamicContext').innerHTML = data.context;
+
+            const btn = document.getElementById('triggerBtn');
+            btn.innerHTML = `<i class="fas ${data.icon}"></i> ${data.btnText}`;
+
+            // Reset logs
+            document.getElementById('backendLogs').innerHTML = '<p style="text-align: center; color: var(--text-muted); margin-top: 40px; font-size: 14px;">Waiting for teacher interaction...</p>';
+        }
+
+        const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+        async function executeScenario() {
+            const val = document.getElementById('scenarioSelect').value;
+            const data = scenarios[val];
+            const logsContainer = document.getElementById('backendLogs');
+
+            // Disable button during run
+            const btn = document.getElementById('triggerBtn');
+            btn.disabled = true;
+            btn.style.opacity = '0.5';
+
+            logsContainer.innerHTML = '';
+
+            for (let step of data.steps) {
+                // Create Node (Waiting State)
+                const logEl = document.createElement('div');
+                logEl.className = 'log-item state-waiting';
+
+                const timeStr = new Date().toLocaleTimeString('en-US', { hour12: false, hour: "numeric", minute: "numeric", second: "numeric" });
+
+                logEl.innerHTML = `
+                    <div class="log-icon"><i class="fas fa-circle"></i></div>
+                    <div class="log-content">
+                        <div class="log-title">${step.name}</div>
+                        <div class="log-desc" id="desc-${Math.random()}">Initializing...</div>
+                    </div>
+                    <div class="badge">Waiting</div>
+                `;
+
+                logsContainer.appendChild(logEl);
+                logsContainer.scrollTop = logsContainer.scrollHeight;
+
+                await sleep(300); // brief pause before running
+
+                // Transition to Running
+                logEl.className = 'log-item state-running';
+                logEl.querySelector('.log-icon i').className = 'fas fa-spinner';
+                logEl.querySelector('.badge').innerText = 'Running';
+                logEl.querySelector('.log-desc').innerText = 'Executing operation...';
+
+                await sleep(step.time); // Simulate processing
+
+                // Transition to Final State
+                logEl.className = `log-item state-${step.status}`;
+
+                let iconClass = 'fa-check';
+                if (step.status === 'error') iconClass = 'fa-times';
+                if (step.status === 'warning') iconClass = 'fa-exclamation';
+
+                logEl.querySelector('.log-icon i').className = `fas ${iconClass}`;
+                logEl.querySelector('.badge').innerText = step.status.toUpperCase();
+                logEl.querySelector('.log-desc').innerText = step.errorDesc || `Completed at ${timeStr}`;
+            }
+
+            btn.disabled = false;
+            btn.style.opacity = '1';
+        }
+
+        // --- Preprocessing Metadata Logic ---
+        const preprocData = {
+            'ncert': { title: "Raw Input", data: { "Source": "NCERT Class 11 Physics", "Format": "PDF / Text", "Status": "Unstructured" } },
+            'chunking': { title: "Chunking Engine", data: { "Algorithm": "Semantic Split", "Chunk Size": "~500 tokens", "Overlap": "50 tokens" } },
+            'concept': { title: "Concept Extraction", data: { "LLM Model": "GPT-4o / Claude 3.5", "Task": "Identify core distinct topics", "Output": "List of Concepts" } },
+            'enrichment': { title: "Enrichment & Tagging", data: { "Tier Assign": "Tier 1 (Core), Tier 2 (Sub)", "Bloom's": "Remember, Understand, Apply...", "Difficulty": "Easy, Medium, Hard" } },
+            'kb': {
+                title: "Structured Knowledge Base Entry",
+                data: {
+                    "Concept": "Newton's Second Law",
+                    "Tier": "Tier 1",
+                    "Bloom Mapping": "Apply",
+                    "Difficulty": "Medium",
+                    "Supports Diagram": "<span style='color:var(--success)'>Yes</span>",
+                    "Diagram Type": "Free Body Diagram"
+                }
+            }
+        };
+
+        function showMeta(key) {
+            const panel = document.getElementById('preprocMeta');
+            const title = document.getElementById('metaTitle');
+            const content = document.getElementById('metaContent');
+
+            panel.style.display = 'block';
+            title.innerText = preprocData[key].title;
+
+            content.innerHTML = Object.entries(preprocData[key].data).map(([k, v]) => `
+                <div style="background: white; padding: 12px; border-radius: 8px; border: 1px solid var(--border);">
+                    <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 4px;">${k}</div>
+                    <div style="font-weight: 600; font-size: 14px;">${v}</div>
+                </div>
+            `).join('');
+        }
+
+        // --- Architecture Metadata Logic ---
+        const archData = {
+            'teacher': { title: "Teacher Configuration UI", text: "<strong>Inputs:</strong> Chapter, Marks, Difficulty, Blueprint Overrides.<br><strong>Output:</strong> JSON Config Object sent to Backend." },
+            'blueprint': { title: "Blueprint & Knowledge Engine", text: "<strong>Responsibilities:</strong> Retrieves structured concepts from KB. Calculates exact marks distribution. Maps constraints.<br><strong>Output:</strong> Locked Exam Blueprint JSON." },
+            'llm': { title: "Question Generation Engine", text: "<strong>Responsibilities:</strong> Iteratively calls LLM with specific prompt templates based on Blueprint constraints. Implements Tier 1 / Tier 2 fallback logic." },
+            'validation': { title: "Validation Engine", text: "<strong>Responsibilities:</strong> Acts as an automated auditor. Checks every generated question against concept boundaries, marks, and chapter constraints.<br><strong>Action:</strong> Triggers isolated regeneration if checks fail." },
+            'final': { title: "Final Test Artifact", text: "<strong>Responsibilities:</strong> Assembles the validated JSON into UI components and exports as a formatted PDF for the teacher." }
+        };
+
+        function showArch(key) {
+            const panel = document.getElementById('archMeta');
+            panel.style.display = 'block';
+            document.getElementById('archTitle').innerText = archData[key].title;
+            document.getElementById('archContent').innerHTML = archData[key].text;
+        }
+
+        // Initialize default view
+        window.onload = loadScenarioContext;
+    </script>
+</body>
+
+</html>
+
+```
