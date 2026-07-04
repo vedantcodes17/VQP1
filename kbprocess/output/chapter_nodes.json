@@ -1,0 +1,368 @@
+{
+  "knowledge_nodes": [
+    {
+      "concept_id": "CHE_SOL_001",
+      "concept_name": "Solution",
+      "definition": "A homogeneous mixture of two or more substances in which the components are uniformly distributed into each other.",
+      "formulae": [],
+      "important_points": [
+        "Most solutions are binary, consisting of a solute and solvent.",
+        "Ternary solutions consist of three components.",
+        "Solubility is defined as the maximum amount of solute that can be dissolved per unit mass or volume of solvent at a given temperature."
+      ],
+      "related_concepts": []
+    },
+    {
+      "concept_id": "CHE_SOL_002",
+      "concept_name": "Components of Solution",
+      "definition": "The substances which make up the solution, including solute and solvent.",
+      "formulae": [],
+      "important_points": [
+        "Solute is the substance being dissolved.",
+        "Solvent is the medium in which the solute is dissolved."
+      ],
+      "related_concepts": []
+    },
+    {
+      "concept_id": "CHE_SOL_003",
+      "concept_name": "Solubility",
+      "definition": "The maximum amount of a solute that can be dissolved per unit mass or volume of solvent at a given temperature.",
+      "formulae": [],
+      "important_points": [
+        "Solubility is dependent on the nature of both solute and solvent.",
+        "It varies with temperature, typically increasing as temperature rises for many substances."
+      ],
+      "related_concepts": []
+    },
+    {
+      "concept_id": "CHE_SOL_004",
+      "concept_name": "Solid Solutions",
+      "definition": "A homogeneous mixture where the components are uniformly distributed.",
+      "formulae": [],
+      "important_points": [
+        "There are two types: substitutional and interstitial.",
+        "Substitutional solid solutions form when solute atoms replace solvent atoms in a crystal lattice.",
+        "Interstitial solid solutions occur when smaller atoms occupy voids between larger atoms."
+      ],
+      "related_concepts": []
+    },
+    {
+      "concept_id": "CHE_SOL_005",
+      "concept_name": "Substitutional Solid Solution",
+      "definition": "A type of solid solution where solute atoms replace solvent atoms in a crystal lattice.",
+      "formulae": [],
+      "important_points": [
+        "Examples include brass and bronze.",
+        "Components have similar sizes, allowing substitution without significant distortion."
+      ],
+      "related_concepts": []
+    },
+    {
+      "concept_id": "CHE_SOL_006",
+      "concept_name": "Interstitial Solid Solution",
+      "definition": "A type of solid solution where smaller atoms occupy voids between larger atoms in a crystal lattice.",
+      "formulae": [],
+      "important_points": [
+        "Examples include steel and tungsten carbide.",
+        "Smaller component occupies interstitial voids."
+      ],
+      "related_concepts": []
+    },
+    {
+      "concept_id": "CHE_SOL_007",
+      "concept_name": "Mass Percentage",
+      "definition": "The mass of solute present in 100 grams of solution.",
+      "formulae": [
+        "Mass Percentage = (mass of solute / total mass of solution) × 100"
+      ],
+      "important_points": [
+        "Expressed as a percentage.",
+        "Used for liquid-liquid solutions."
+      ],
+      "related_concepts": []
+    },
+    {
+      "concept_id": "CHE_SOL_008",
+      "concept_name": "Mole Fraction",
+      "definition": "The ratio of the number of moles of one component to the total number of moles in a solution.",
+      "formulae": [
+        "For two-component system: XA = nA / (nA + nB), XB = nB / (nA + nB)"
+      ],
+      "important_points": [
+        "Sum of mole fractions equals 1.",
+        "Expressed as 'x'."
+      ],
+      "related_concepts": []
+    },
+    {
+      "concept_id": "CHE_SOL_009",
+      "concept_name": "Molarity (M)",
+      "definition": "The number of moles of solute per liter of solution.",
+      "formulae": [
+        "M = n / V"
+      ],
+      "important_points": [
+        "Decreases with temperature due to increased volume.",
+        "Expressed as 'M'."
+      ],
+      "related_concepts": []
+    },
+    {
+      "concept_id": "CHE_SOL_010",
+      "concept_name": "Molality (m)",
+      "definition": "The number of moles of solute per kilogram of solvent.",
+      "formulae": [
+        "m = n / kg"
+      ],
+      "important_points": [
+        "Temperature-independent.",
+        "Expressed as 'm'."
+      ],
+      "related_concepts": []
+    },
+    {
+      "concept_id": "CHE_SOL_011",
+      "concept_name": "Parts per million (ppm)",
+      "definition": "A measure of concentration for very dilute solutions.",
+      "formulae": [
+        "ppm = (mass of solute / mass of solution) × 10^6"
+      ],
+      "important_points": [
+        "Expressed as parts per million.",
+        "Used for very dilute solutions."
+      ],
+      "related_concepts": []
+    },
+    {
+      "concept_id": "CHE_SOL_012",
+      "concept_name": "Vapour Pressure",
+      "definition": "The pressure exerted by the vapour of a liquid over the liquid in equilibrium with it at a particular temperature.",
+      "formulae": [],
+      "important_points": [
+        "Depends on nature and temperature.",
+        "Expressed as 'P'."
+      ],
+      "related_concepts": []
+    },
+    {
+      "concept_id": "CHE_SOL_013",
+      "concept_name": "Raoult’s Law",
+      "definition": "The vapour pressure of a solution containing non-volatile solute is directly proportional to the mole fraction of solvent at that temperature.",
+      "formulae": [
+        "PA XA = P0A.XA"
+      ],
+      "important_points": [
+        "Applicable for solutions with non-volatile solutes.",
+        "Expressed as 'PA' and 'P0A'.",
+        "Sum of partial pressures equals total vapour pressure."
+      ],
+      "related_concepts": []
+    },
+    {
+      "concept_id": "CHE_SOL_014",
+      "concept_name": "Ideal Solution",
+      "definition": "A solution that obeys Raoult’s law under all conditions of temperature and concentration.",
+      "formulae": [
+        "PA = P0A.XA, PB = P0B.XB"
+      ],
+      "important_points": [
+        "No change in enthalpy or volume on mixing.",
+        "No interaction between components differs from A-A and B-B interactions.",
+        "Examples: benzene-toluene, chlorobenzene-bromobenzene."
+      ],
+      "related_concepts": []
+    },
+    {
+      "concept_id": "CHE_SOL_015",
+      "concept_name": "Non-Ideal Solution",
+      "definition": "A solution that does not obey Raoult’s law.",
+      "formulae": [
+        "PA ≠ P0A.XA, PB ≠ P0B.XB"
+      ],
+      "important_points": [
+        "Different A-B interaction from A-A and B-B interactions.",
+        "Positive deviation: PA > P0A.XA, PB > P0B.XB; negative deviation: PA < P0A.XA, PB < P0B.XB."
+      ],
+      "related_concepts": []
+    },
+    {
+      "concept_id": "CHE_SOL_016",
+      "concept_name": "Azeotrope",
+      "definition": "A mixture of liquids at a particular composition that has a constant boiling point and behaves like a pure liquid, which cannot be separated by simple distillation.",
+      "formulae": [],
+      "important_points": [
+        "Two types: minimum boiling (positive deviation) and maximum boiling (negative deviation).",
+        "Examples include alcohol-water and acetone-chloroform."
+      ],
+      "related_concepts": []
+    },
+    {
+      "concept_id": "CHE_SOL_017",
+      "concept_name": "Colligative Properties",
+      "definition": "Properties of solutions that depend on the number of solute particles irrespective of their nature.",
+      "formulae": [],
+      "important_points": [
+        "Four properties: relative lowering of vapour pressure, depression in freezing point, elevation in boiling point, and osmotic pressure.",
+        "Expressed as 'relative lowering', 'depression', 'elevation', and 'osmotic pressure' respectively."
+      ],
+      "related_concepts": []
+    },
+    {
+      "concept_id": "CHE_SOL_018",
+      "concept_name": "Relative Lowering of Vapour Pressure",
+      "definition": "The decrease in vapour pressure of a solvent due to the presence of solute.",
+      "formulae": [
+        "(PoA – PA) / PoA = 𝜒஻; where 𝜒஻= mole fraction of solute"
+      ],
+      "important_points": [
+        "Expressed as 'relative lowering' and 'mole fraction'.",
+        "Used for determining molar mass."
+      ],
+      "related_concepts": []
+    },
+    {
+      "concept_id": "CHE_SOL_019",
+      "concept_name": "Depression in Freezing Point",
+      "definition": "The decrease in freezing point of a solvent due to the presence of solute.",
+      "formulae": [
+        "∆Tf = kf. m"
+      ],
+      "important_points": [
+        "Expressed as 'depression' and 'molal depression constant'.",
+        "Used for determining molality."
+      ],
+      "related_concepts": []
+    },
+    {
+      "concept_id": "CHE_SOL_020",
+      "concept_name": "Elevation in Boiling Point",
+      "definition": "The increase in boiling point of a solvent due to the presence of solute.",
+      "formulae": [
+        "∆TB = Kb. m"
+      ],
+      "important_points": [
+        "Expressed as 'elevation' and 'molal elevation constant'.",
+        "Used for determining molality."
+      ],
+      "related_concepts": []
+    },
+    {
+      "concept_id": "CHE_SOL_021",
+      "concept_name": "Osmotic Pressure",
+      "definition": "The minimum external pressure applied on a concentrated solution to stop the flow of solvent from dilute solutions.",
+      "formulae": [
+        "π = nRT / V"
+      ],
+      "important_points": [
+        "Expressed as 'osmotic pressure' and 'Vant Hoff factor'.",
+        "Isotonic, hypertonic, hypotonic solutions.",
+        "Blood fluid osmotic pressure is 0.91% NaCl."
+      ],
+      "related_concepts": []
+    },
+    {
+      "concept_id": "CHE_SOL_022",
+      "concept_name": "Isotonic Solutions",
+      "definition": "Solutions having the same osmotic pressure.",
+      "formulae": [],
+      "important_points": [
+        "Expressed as 'isotonic'.",
+        "No net flow of solvent.",
+        "Examples include 0.91% NaCl solution."
+      ],
+      "related_concepts": []
+    },
+    {
+      "concept_id": "CHE_SOL_023",
+      "concept_name": "Hypertonic Solutions",
+      "definition": "Solutions having a higher osmotic pressure than the reference solution.",
+      "formulae": [],
+      "important_points": [
+        "Expressed as 'hypertonic'.",
+        "Solvent flows from dilute to concentrated solutions.",
+        "Examples include 0.91% NaCl + glucose."
+      ],
+      "related_concepts": []
+    },
+    {
+      "concept_id": "CHE_SOL_024",
+      "concept_name": "Hypotonic Solutions",
+      "definition": "Solutions having a lower osmotic pressure than the reference solution.",
+      "formulae": [],
+      "important_points": [
+        "Expressed as 'hypotonic'.",
+        "Solvent flows from concentrated to dilute solutions.",
+        "Examples include 0.91% NaCl + urea."
+      ],
+      "related_concepts": []
+    },
+    {
+      "concept_id": "CHE_SOL_025",
+      "concept_name": "Abnormal Molar Mass",
+      "definition": "The molar mass of solute in solution is either less or more than the normal molar mass.",
+      "formulae": [],
+      "important_points": [
+        "Arises due to association or dissociation.",
+        "Expressed as 'abnormal'.",
+        "Van’t Hoff factor (i) helps overcome abnormality."
+      ],
+      "related_concepts": []
+    },
+    {
+      "concept_id": "CHE_SOL_026",
+      "concept_name": "Degree of Association",
+      "definition": "The extent to which solute particles associate in solution.",
+      "formulae": [
+        "α = i - 1 / n - 1"
+      ],
+      "important_points": [
+        "Expressed as 'degree of association'.",
+        "Used for calculating molecular mass.",
+        "Example: K4[Fe(CN)6] has a degree of association of 5."
+      ],
+      "related_concepts": []
+    },
+    {
+      "concept_id": "CHE_SOL_027",
+      "concept_name": "Degree of Dissociation",
+      "definition": "The extent to which solute particles dissociate in solution.",
+      "formulae": [
+        "α = i - 1 / n - 1"
+      ],
+      "important_points": [
+        "Expressed as 'degree of dissociation'.",
+        "Used for calculating molecular mass.",
+        "Example: BaCl2 has a degree of dissociation of 3."
+      ],
+      "related_concepts": []
+    },
+    {
+      "concept_id": "CHE_SOL_028",
+      "concept_name": "Henry’s Law",
+      "definition": "The partial pressure of a gas in solution is directly proportional to its mole fraction at a particular temperature.",
+      "formulae": [
+        "PA α XA; KH = Henry's Law constant"
+      ],
+      "important_points": [
+        "Expressed as 'partial pressure', 'mole fraction', and 'Henry’s Law constant'.",
+        "Example: Oxygen dissolved in water.",
+        "Calculation of concentration given partial pressure."
+      ],
+      "related_concepts": []
+    },
+    {
+      "concept_id": "CHE_SOL_029",
+      "concept_name": "Vant Hoff Factor (i)",
+      "definition": "The ratio of normal molecular mass to observed molecular mass.",
+      "formulae": [
+        "i = Theoretical Molar Mass / Observed Molar Mass"
+      ],
+      "important_points": [
+        "Expressed as 'i'.",
+        "Used for calculating colligative properties.",
+        "Examples: i=5 and 3 for K4[Fe(CN)6] and BaCl2 respectively."
+      ],
+      "related_concepts": []
+    }
+  ]
+}

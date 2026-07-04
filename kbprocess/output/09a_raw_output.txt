@@ -1,0 +1,35 @@
+{
+    "chapter": "Solutions",
+    "concept_tree": [
+        {
+            "concept_name": "Solution",
+            "parent_concept": ""
+        },
+        {
+            "concept_name": "Components of Solution",
+            "parent_concept": "Solution"
+        },
+        {
+            "concept_name": "Solubility",
+            "parent_concept": ""
+        },
+        {
+            "concept_name": "Solid Solutions",
+            "parent_concept": ""
+        },
+        {
+            "concept_name": "Substitutional Solid Solution",
+            "parent_concept": "Solid Solutions"
+        },
+        {
+            "concept_name": "Interstitial Solid Solution",
+            "parent_concept": "Solid Solutions"
+        },
+        {
+            "concept_name": "Mass Percentage",
+            "parent_concept": ""
+        },
+        {
+            "concept_name": "Mole Fraction",
+            "parent_concept": ""
+        },

@@ -1,0 +1,205 @@
+2026-07-03 04:43:23 | INFO     | run_kb_pipeline | ================================================================================
+2026-07-03 04:43:23 | INFO     | run_kb_pipeline | CHAPTER KNOWLEDGE BASE PIPELINE
+2026-07-03 04:43:23 | INFO     | run_kb_pipeline | ================================================================================
+2026-07-03 04:43:23 | INFO     | run_kb_pipeline | --------------------------------------------------------------------------------
+2026-07-03 04:43:23 | INFO     | run_kb_pipeline | RUNNING STAGE: 09a_concept_tree_builder.py
+2026-07-03 04:43:23 | INFO     | run_kb_pipeline | --------------------------------------------------------------------------------
+2026-07-03 04:43:23 | INFO     | 09a_concept_tree_builder | ================================================================================
+2026-07-03 04:43:23 | INFO     | 09a_concept_tree_builder | CONCEPT TREE BUILDER
+2026-07-03 04:43:23 | INFO     | 09a_concept_tree_builder | ================================================================================
+2026-07-03 04:43:23 | INFO     | 09a_concept_tree_builder | Loading input file: C:\CODES\VQP1\kbprocess\data\solution.txt
+2026-07-03 04:43:23 | INFO     | 09a_concept_tree_builder | Loaded 11,930 characters
+2026-07-03 04:43:23 | INFO     | 09a_concept_tree_builder | Preprocessed to 11,590 characters
+2026-07-03 04:43:23 | INFO     | 09a_concept_tree_builder | Calling LLM to extract concept tree...
+2026-07-03 04:43:23 | INFO     | 09a_concept_tree_builder | LLM call attempt 1/3
+2026-07-03 04:43:54 | WARNING  | 09a_concept_tree_builder | Attempt 1 failed: Could not parse JSON: Expecting ',' delimiter: line 39 column 10 (char 1062)
+2026-07-03 04:43:57 | INFO     | 09a_concept_tree_builder | LLM call attempt 2/3
+2026-07-03 04:44:18 | WARNING  | 09a_concept_tree_builder | Attempt 2 failed: Could not parse JSON: Expecting ',' delimiter: line 31 column 10 (char 831)
+2026-07-03 04:44:21 | INFO     | 09a_concept_tree_builder | LLM call attempt 3/3
+2026-07-03 04:44:41 | WARNING  | 09a_concept_tree_builder | Attempt 3 failed: Could not parse JSON: Expecting ',' delimiter: line 31 column 10 (char 831)
+2026-07-03 04:44:41 | ERROR    | 09a_concept_tree_builder | All 3 attempts failed. Saving raw response for inspection.
+2026-07-03 04:44:41 | ERROR    | 09a_concept_tree_builder | Raw response saved to C:\CODES\VQP1\kbprocess\output\09a_raw_output.txt
+2026-07-03 04:44:41 | ERROR    | run_kb_pipeline | Pipeline aborted at stage '09a_concept_tree_builder.py': Stage '09a_concept_tree_builder.py' failed with exit code 1
+2026-07-03 04:46:31 | INFO     | run_kb_pipeline | ================================================================================
+2026-07-03 04:46:31 | INFO     | run_kb_pipeline | CHAPTER KNOWLEDGE BASE PIPELINE
+2026-07-03 04:46:31 | INFO     | run_kb_pipeline | ================================================================================
+2026-07-03 04:46:31 | INFO     | run_kb_pipeline | --------------------------------------------------------------------------------
+2026-07-03 04:46:31 | INFO     | run_kb_pipeline | RUNNING STAGE: 09a_concept_tree_builder.py
+2026-07-03 04:46:31 | INFO     | run_kb_pipeline | --------------------------------------------------------------------------------
+2026-07-03 04:46:31 | INFO     | 09a_concept_tree_builder | ================================================================================
+2026-07-03 04:46:31 | INFO     | 09a_concept_tree_builder | CONCEPT TREE BUILDER
+2026-07-03 04:46:31 | INFO     | 09a_concept_tree_builder | ================================================================================
+2026-07-03 04:46:31 | INFO     | 09a_concept_tree_builder | Loading input file: C:\CODES\VQP1\kbprocess\data\solution.txt
+2026-07-03 04:46:31 | INFO     | 09a_concept_tree_builder | Loaded 11,930 characters
+2026-07-03 04:46:31 | INFO     | 09a_concept_tree_builder | Preprocessed to 11,590 characters
+2026-07-03 04:46:31 | INFO     | 09a_concept_tree_builder | Calling LLM to extract concept tree...
+2026-07-03 04:46:31 | INFO     | 09a_concept_tree_builder | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 04:47:00 | WARNING  | 09a_concept_tree_builder | Response was truncated at max_tokens=8192 (finish_reason=length)
+2026-07-03 04:47:00 | WARNING  | 09a_concept_tree_builder | Attempt 1 failed: Could not parse JSON: Expecting ',' delimiter: line 39 column 10 (char 1062)
+2026-07-03 04:47:03 | INFO     | 09a_concept_tree_builder | LLM call attempt 2/3 (max_tokens=16384)
+2026-07-03 04:47:24 | WARNING  | 09a_concept_tree_builder | Response was truncated at max_tokens=16384 (finish_reason=length)
+2026-07-03 04:47:24 | WARNING  | 09a_concept_tree_builder | Attempt 2 failed: Could not parse JSON: Expecting ',' delimiter: line 31 column 10 (char 831)
+2026-07-03 04:47:27 | INFO     | 09a_concept_tree_builder | LLM call attempt 3/3 (max_tokens=32768)
+2026-07-03 04:47:48 | WARNING  | 09a_concept_tree_builder | Response was truncated at max_tokens=32768 (finish_reason=length)
+2026-07-03 04:47:48 | WARNING  | 09a_concept_tree_builder | Attempt 3 failed: Could not parse JSON: Expecting ',' delimiter: line 35 column 10 (char 915)
+2026-07-03 04:47:48 | ERROR    | 09a_concept_tree_builder | All 3 attempts failed. Saving raw response for inspection.
+2026-07-03 04:47:48 | ERROR    | 09a_concept_tree_builder | Raw response saved to C:\CODES\VQP1\kbprocess\output\09a_raw_output.txt
+2026-07-03 04:47:48 | ERROR    | run_kb_pipeline | Pipeline aborted at stage '09a_concept_tree_builder.py': Stage '09a_concept_tree_builder.py' failed with exit code 1
+2026-07-03 05:04:12 | INFO     | run_kb_pipeline | ================================================================================
+2026-07-03 05:04:12 | INFO     | run_kb_pipeline | CHAPTER KNOWLEDGE BASE PIPELINE
+2026-07-03 05:04:12 | INFO     | run_kb_pipeline | ================================================================================
+2026-07-03 05:04:12 | INFO     | run_kb_pipeline | --------------------------------------------------------------------------------
+2026-07-03 05:04:12 | INFO     | run_kb_pipeline | RUNNING STAGE: 09a_concept_tree_builder.py
+2026-07-03 05:04:12 | INFO     | run_kb_pipeline | --------------------------------------------------------------------------------
+2026-07-03 05:04:12 | INFO     | 09a_concept_tree_builder | ================================================================================
+2026-07-03 05:04:12 | INFO     | 09a_concept_tree_builder | CONCEPT TREE BUILDER
+2026-07-03 05:04:12 | INFO     | 09a_concept_tree_builder | ================================================================================
+2026-07-03 05:04:12 | INFO     | 09a_concept_tree_builder | Loading input file: C:\CODES\VQP1\kbprocess\data\solution.txt
+2026-07-03 05:04:12 | INFO     | 09a_concept_tree_builder | Loaded 11,930 characters
+2026-07-03 05:04:12 | INFO     | 09a_concept_tree_builder | Preprocessed to 11,590 characters
+2026-07-03 05:04:12 | INFO     | 09a_concept_tree_builder | Calling LLM to extract concept tree...
+2026-07-03 05:04:12 | INFO     | 09a_concept_tree_builder | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 05:05:21 | INFO     | 09a_concept_tree_builder | LLM response parsed and validated successfully
+2026-07-03 05:05:21 | INFO     | 09a_concept_tree_builder | Received 22 raw concept entries; deduping...
+2026-07-03 05:05:21 | INFO     | 09a_concept_tree_builder | Final concept count after dedupe: 22
+2026-07-03 05:05:21 | INFO     | 09a_concept_tree_builder | Saved: C:\CODES\VQP1\kbprocess\output\chapter_concepts.json
+2026-07-03 05:05:21 | INFO     | 09a_concept_tree_builder | Summary
+2026-07-03 05:05:21 | INFO     | 09a_concept_tree_builder |   Chapter        : Solutions and Colligative Properties
+2026-07-03 05:05:21 | INFO     | 09a_concept_tree_builder |   Concept Count  : 22
+2026-07-03 05:05:21 | INFO     | run_kb_pipeline | Stage complete: 09a_concept_tree_builder.py
+2026-07-03 05:05:21 | INFO     | run_kb_pipeline | --------------------------------------------------------------------------------
+2026-07-03 05:05:21 | INFO     | run_kb_pipeline | RUNNING STAGE: 09b_knowledge_node_builder.py
+2026-07-03 05:05:21 | INFO     | run_kb_pipeline | --------------------------------------------------------------------------------
+2026-07-03 05:05:22 | INFO     | 09b_knowledge_node_builder | ================================================================================
+2026-07-03 05:05:22 | INFO     | 09b_knowledge_node_builder | KNOWLEDGE NODE BUILDER
+2026-07-03 05:05:22 | INFO     | 09b_knowledge_node_builder | ================================================================================
+2026-07-03 05:05:22 | INFO     | 09b_knowledge_node_builder | Loading concept tree: C:\CODES\VQP1\kbprocess\output\chapter_concepts.json
+2026-07-03 05:05:22 | INFO     | 09b_knowledge_node_builder | 22 concepts loaded
+2026-07-03 05:05:22 | INFO     | 09b_knowledge_node_builder | Loading input file: C:\CODES\VQP1\kbprocess\data\solution.txt
+2026-07-03 05:05:22 | INFO     | 09b_knowledge_node_builder | Preprocessed to 11,590 characters
+2026-07-03 05:05:22 | INFO     | 09b_knowledge_node_builder | Round 1: requesting 22 concept(s)
+2026-07-03 05:05:22 | INFO     | 09b_knowledge_node_builder | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 05:11:02 | INFO     | 09b_knowledge_node_builder | LLM response parsed and validated successfully
+2026-07-03 05:11:02 | INFO     | 09b_knowledge_node_builder | Saved: C:\CODES\VQP1\kbprocess\output\chapter_nodes.json
+2026-07-03 05:11:02 | INFO     | 09b_knowledge_node_builder | Summary
+2026-07-03 05:11:02 | INFO     | 09b_knowledge_node_builder |   Knowledge Nodes : 22
+2026-07-03 05:11:02 | INFO     | run_kb_pipeline | Stage complete: 09b_knowledge_node_builder.py
+2026-07-03 05:11:02 | INFO     | run_kb_pipeline | --------------------------------------------------------------------------------
+2026-07-03 05:11:02 | INFO     | run_kb_pipeline | RUNNING STAGE: 09c_question_bank_builder.py
+2026-07-03 05:11:02 | INFO     | run_kb_pipeline | --------------------------------------------------------------------------------
+2026-07-03 05:11:02 | INFO     | 09c_question_bank_builder | ================================================================================
+2026-07-03 05:11:02 | INFO     | 09c_question_bank_builder | QUESTION BANK BUILDER
+2026-07-03 05:11:02 | INFO     | 09c_question_bank_builder | ================================================================================
+2026-07-03 05:11:02 | INFO     | 09c_question_bank_builder | Loading concept tree: C:\CODES\VQP1\kbprocess\output\chapter_concepts.json
+2026-07-03 05:11:02 | INFO     | 09c_question_bank_builder | 22 concepts loaded
+2026-07-03 05:11:02 | INFO     | 09c_question_bank_builder | Loading input file: C:\CODES\VQP1\kbprocess\data\solution.txt
+2026-07-03 05:11:02 | INFO     | 09c_question_bank_builder | Preprocessed to 11,590 characters
+2026-07-03 05:11:02 | INFO     | 09c_question_bank_builder | Calling LLM to extract question bank...
+2026-07-03 05:11:02 | INFO     | 09c_question_bank_builder | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 05:15:53 | INFO     | 09c_question_bank_builder | LLM response parsed and validated successfully
+2026-07-03 05:15:53 | INFO     | 09c_question_bank_builder | Saved: C:\CODES\VQP1\kbprocess\output\chapter_questions.json
+2026-07-03 05:15:53 | INFO     | 09c_question_bank_builder | Summary
+2026-07-03 05:15:53 | INFO     | 09c_question_bank_builder |   Total Questions : 28
+2026-07-03 05:15:53 | INFO     | 09c_question_bank_builder |     important_question   : 8
+2026-07-03 05:15:53 | INFO     | 09c_question_bank_builder |     self_assessment      : 3
+2026-07-03 05:15:53 | INFO     | 09c_question_bank_builder |     short_answer         : 17
+2026-07-03 05:15:53 | INFO     | run_kb_pipeline | Stage complete: 09c_question_bank_builder.py
+2026-07-03 05:15:53 | INFO     | run_kb_pipeline | --------------------------------------------------------------------------------
+2026-07-03 05:15:53 | INFO     | run_kb_pipeline | RUNNING STAGE: 09d_merge_kb.py
+2026-07-03 05:15:53 | INFO     | run_kb_pipeline | --------------------------------------------------------------------------------
+2026-07-03 05:15:54 | INFO     | 09d_merge_kb | ================================================================================
+2026-07-03 05:15:54 | INFO     | 09d_merge_kb | MERGE KNOWLEDGE BASE
+2026-07-03 05:15:54 | INFO     | 09d_merge_kb | ================================================================================
+2026-07-03 05:15:54 | INFO     | 09d_merge_kb | Loading C:\CODES\VQP1\kbprocess\output\chapter_concepts.json
+2026-07-03 05:15:54 | INFO     | 09d_merge_kb | Loading C:\CODES\VQP1\kbprocess\output\chapter_nodes.json
+2026-07-03 05:15:54 | INFO     | 09d_merge_kb | Loading C:\CODES\VQP1\kbprocess\output\chapter_questions.json
+2026-07-03 05:15:54 | INFO     | 09d_merge_kb | Saved: C:\CODES\VQP1\kbprocess\output\chapter_kb.json
+2026-07-03 05:15:54 | INFO     | 09d_merge_kb | Summary
+2026-07-03 05:15:54 | INFO     | 09d_merge_kb |   Chapter         : Solutions and Colligative Properties
+2026-07-03 05:15:54 | INFO     | 09d_merge_kb |   Concept Tree    : 22
+2026-07-03 05:15:54 | INFO     | 09d_merge_kb |   Knowledge Nodes : 22
+2026-07-03 05:15:54 | INFO     | 09d_merge_kb |   Question Bank   : 28
+2026-07-03 05:15:54 | INFO     | run_kb_pipeline | Stage complete: 09d_merge_kb.py
+2026-07-03 05:15:54 | INFO     | run_kb_pipeline | ================================================================================
+2026-07-03 05:15:54 | INFO     | run_kb_pipeline | PIPELINE COMPLETE
+2026-07-03 05:15:54 | INFO     | run_kb_pipeline | Final output: C:\CODES\VQP1\kbprocess\output\chapter_kb.json
+2026-07-03 05:15:54 | INFO     | run_kb_pipeline | ================================================================================
+2026-07-03 05:18:55 | INFO     | run_kb_pipeline | ================================================================================
+2026-07-03 05:18:55 | INFO     | run_kb_pipeline | CHAPTER KNOWLEDGE BASE PIPELINE
+2026-07-03 05:18:55 | INFO     | run_kb_pipeline | ================================================================================
+2026-07-03 05:18:55 | INFO     | run_kb_pipeline | --------------------------------------------------------------------------------
+2026-07-03 05:18:55 | INFO     | run_kb_pipeline | RUNNING STAGE: 09a_concept_tree_builder.py
+2026-07-03 05:18:55 | INFO     | run_kb_pipeline | --------------------------------------------------------------------------------
+2026-07-03 05:18:55 | INFO     | 09a_concept_tree_builder | ================================================================================
+2026-07-03 05:18:55 | INFO     | 09a_concept_tree_builder | CONCEPT TREE BUILDER
+2026-07-03 05:18:55 | INFO     | 09a_concept_tree_builder | ================================================================================
+2026-07-03 05:18:55 | INFO     | 09a_concept_tree_builder | Loading input file: C:\CODES\VQP1\kbprocess\data\solution.txt
+2026-07-03 05:18:55 | INFO     | 09a_concept_tree_builder | Loaded 11,930 characters
+2026-07-03 05:18:55 | INFO     | 09a_concept_tree_builder | Preprocessed to 11,590 characters
+2026-07-03 05:18:55 | INFO     | 09a_concept_tree_builder | Calling LLM to extract concept tree...
+2026-07-03 05:18:55 | INFO     | 09a_concept_tree_builder | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 05:20:22 | INFO     | 09a_concept_tree_builder | LLM response parsed and validated successfully
+2026-07-03 05:20:22 | INFO     | 09a_concept_tree_builder | Received 29 raw concept entries; deduping...
+2026-07-03 05:20:22 | INFO     | 09a_concept_tree_builder | Final concept count after dedupe: 29
+2026-07-03 05:20:22 | INFO     | 09a_concept_tree_builder | Saved: C:\CODES\VQP1\kbprocess\output\chapter_concepts.json
+2026-07-03 05:20:22 | INFO     | 09a_concept_tree_builder | Summary
+2026-07-03 05:20:22 | INFO     | 09a_concept_tree_builder |   Chapter        : Solutions and Colligative Properties
+2026-07-03 05:20:22 | INFO     | 09a_concept_tree_builder |   Concept Count  : 29
+2026-07-03 05:20:22 | INFO     | run_kb_pipeline | Stage complete: 09a_concept_tree_builder.py
+2026-07-03 05:20:22 | INFO     | run_kb_pipeline | --------------------------------------------------------------------------------
+2026-07-03 05:20:22 | INFO     | run_kb_pipeline | RUNNING STAGE: 09b_knowledge_node_builder.py
+2026-07-03 05:20:22 | INFO     | run_kb_pipeline | --------------------------------------------------------------------------------
+2026-07-03 05:20:22 | INFO     | 09b_knowledge_node_builder | ================================================================================
+2026-07-03 05:20:22 | INFO     | 09b_knowledge_node_builder | KNOWLEDGE NODE BUILDER
+2026-07-03 05:20:22 | INFO     | 09b_knowledge_node_builder | ================================================================================
+2026-07-03 05:20:22 | INFO     | 09b_knowledge_node_builder | Loading concept tree: C:\CODES\VQP1\kbprocess\output\chapter_concepts.json
+2026-07-03 05:20:22 | INFO     | 09b_knowledge_node_builder | 29 concepts loaded
+2026-07-03 05:20:22 | INFO     | 09b_knowledge_node_builder | Loading input file: C:\CODES\VQP1\kbprocess\data\solution.txt
+2026-07-03 05:20:22 | INFO     | 09b_knowledge_node_builder | Preprocessed to 11,590 characters
+2026-07-03 05:20:22 | INFO     | 09b_knowledge_node_builder | Round 1: requesting 29 concept(s)
+2026-07-03 05:20:22 | INFO     | 09b_knowledge_node_builder | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 05:27:57 | INFO     | 09b_knowledge_node_builder | LLM response parsed and validated successfully
+2026-07-03 05:27:57 | INFO     | 09b_knowledge_node_builder | Saved: C:\CODES\VQP1\kbprocess\output\chapter_nodes.json
+2026-07-03 05:27:57 | INFO     | 09b_knowledge_node_builder | Summary
+2026-07-03 05:27:57 | INFO     | 09b_knowledge_node_builder |   Knowledge Nodes : 29
+2026-07-03 05:27:57 | INFO     | run_kb_pipeline | Stage complete: 09b_knowledge_node_builder.py
+2026-07-03 05:27:57 | INFO     | run_kb_pipeline | --------------------------------------------------------------------------------
+2026-07-03 05:27:57 | INFO     | run_kb_pipeline | RUNNING STAGE: 09c_question_bank_builder.py
+2026-07-03 05:27:57 | INFO     | run_kb_pipeline | --------------------------------------------------------------------------------
+2026-07-03 05:27:57 | INFO     | 09c_question_bank_builder | ================================================================================
+2026-07-03 05:27:57 | INFO     | 09c_question_bank_builder | QUESTION BANK BUILDER
+2026-07-03 05:27:57 | INFO     | 09c_question_bank_builder | ================================================================================
+2026-07-03 05:27:57 | INFO     | 09c_question_bank_builder | Loading concept tree: C:\CODES\VQP1\kbprocess\output\chapter_concepts.json
+2026-07-03 05:27:57 | INFO     | 09c_question_bank_builder | 29 concepts loaded
+2026-07-03 05:27:57 | INFO     | 09c_question_bank_builder | Loading input file: C:\CODES\VQP1\kbprocess\data\solution.txt
+2026-07-03 05:27:57 | INFO     | 09c_question_bank_builder | Preprocessed to 11,590 characters
+2026-07-03 05:27:57 | INFO     | 09c_question_bank_builder | Calling LLM to extract question bank...
+2026-07-03 05:27:57 | INFO     | 09c_question_bank_builder | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 05:34:14 | INFO     | 09c_question_bank_builder | LLM response parsed and validated successfully
+2026-07-03 05:34:14 | INFO     | 09c_question_bank_builder | Saved: C:\CODES\VQP1\kbprocess\output\chapter_questions.json
+2026-07-03 05:34:14 | INFO     | 09c_question_bank_builder | Summary
+2026-07-03 05:34:14 | INFO     | 09c_question_bank_builder |   Total Questions : 44
+2026-07-03 05:34:14 | INFO     | 09c_question_bank_builder |     important_question   : 10
+2026-07-03 05:34:14 | INFO     | 09c_question_bank_builder |     self_assessment      : 5
+2026-07-03 05:34:14 | INFO     | 09c_question_bank_builder |     short_answer         : 29
+2026-07-03 05:34:14 | INFO     | run_kb_pipeline | Stage complete: 09c_question_bank_builder.py
+2026-07-03 05:34:14 | INFO     | run_kb_pipeline | --------------------------------------------------------------------------------
+2026-07-03 05:34:14 | INFO     | run_kb_pipeline | RUNNING STAGE: 09d_merge_kb.py
+2026-07-03 05:34:14 | INFO     | run_kb_pipeline | --------------------------------------------------------------------------------
+2026-07-03 05:34:14 | INFO     | 09d_merge_kb | ================================================================================
+2026-07-03 05:34:14 | INFO     | 09d_merge_kb | MERGE KNOWLEDGE BASE
+2026-07-03 05:34:14 | INFO     | 09d_merge_kb | ================================================================================
+2026-07-03 05:34:14 | INFO     | 09d_merge_kb | Loading C:\CODES\VQP1\kbprocess\output\chapter_concepts.json
+2026-07-03 05:34:14 | INFO     | 09d_merge_kb | Loading C:\CODES\VQP1\kbprocess\output\chapter_nodes.json
+2026-07-03 05:34:14 | INFO     | 09d_merge_kb | Loading C:\CODES\VQP1\kbprocess\output\chapter_questions.json
+2026-07-03 05:34:14 | INFO     | 09d_merge_kb | Saved: C:\CODES\VQP1\kbprocess\output\chapter_kb.json
+2026-07-03 05:34:14 | INFO     | 09d_merge_kb | Summary
+2026-07-03 05:34:14 | INFO     | 09d_merge_kb |   Chapter         : Solutions and Colligative Properties
+2026-07-03 05:34:14 | INFO     | 09d_merge_kb |   Concept Tree    : 29
+2026-07-03 05:34:14 | INFO     | 09d_merge_kb |   Knowledge Nodes : 29
+2026-07-03 05:34:14 | INFO     | 09d_merge_kb |   Question Bank   : 44
+2026-07-03 05:34:14 | INFO     | run_kb_pipeline | Stage complete: 09d_merge_kb.py
+2026-07-03 05:34:14 | INFO     | run_kb_pipeline | ================================================================================
+2026-07-03 05:34:14 | INFO     | run_kb_pipeline | PIPELINE COMPLETE
+2026-07-03 05:34:14 | INFO     | run_kb_pipeline | Final output: C:\CODES\VQP1\kbprocess\output\chapter_kb.json
+2026-07-03 05:34:14 | INFO     | run_kb_pipeline | ================================================================================
