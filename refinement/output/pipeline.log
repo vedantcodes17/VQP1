@@ -1,0 +1,551 @@
+2026-07-03 06:04:38 | INFO     | 00_concept_validator | ================================================================================
+2026-07-03 06:04:38 | INFO     | 00_concept_validator | CONCEPT VALIDATOR (PASS 0)
+2026-07-03 06:04:38 | INFO     | 00_concept_validator | ================================================================================
+2026-07-03 06:04:38 | INFO     | 00_concept_validator | Saved: C:\CODES\VQP1\kbprocess\refinement\output\validation_report.json
+2026-07-03 06:04:38 | INFO     | 00_concept_validator | Summary
+2026-07-03 06:04:38 | INFO     | 00_concept_validator |   Status : PASS
+2026-07-03 06:04:38 | INFO     | 00_concept_validator |   total_concepts                        : 29
+2026-07-03 06:04:38 | INFO     | 00_concept_validator |   schema_errors                         : 0
+2026-07-03 06:04:38 | INFO     | 00_concept_validator |   duplicate_ids                         : 0
+2026-07-03 06:04:38 | INFO     | 00_concept_validator |   duplicate_concepts                    : 0
+2026-07-03 06:04:38 | INFO     | 00_concept_validator |   dangling_parents                      : 0
+2026-07-03 06:04:38 | INFO     | 00_concept_validator |   circular_hierarchies                  : 0
+2026-07-03 06:04:38 | INFO     | 00_concept_validator |   orphan_concepts                       : 0
+2026-07-03 06:04:38 | INFO     | 00_concept_validator |   concepts_missing_knowledge_nodes      : 0
+2026-07-03 06:04:38 | INFO     | 00_concept_validator |   questions_with_no_linked_concepts     : 0
+2026-07-03 06:06:05 | INFO     | 01_hierarchy_refiner | ================================================================================
+2026-07-03 06:06:05 | INFO     | 01_hierarchy_refiner | HIERARCHY REFINER (PASS 1)
+2026-07-03 06:06:05 | INFO     | 01_hierarchy_refiner | ================================================================================
+2026-07-03 06:06:05 | INFO     | 01_hierarchy_refiner | 29 concepts loaded from Phase 1
+2026-07-03 06:06:05 | INFO     | 01_hierarchy_refiner | Calling LLM to refine hierarchy...
+2026-07-03 06:06:05 | INFO     | 01_hierarchy_refiner | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 06:07:57 | INFO     | 01_hierarchy_refiner | LLM response parsed and validated successfully
+2026-07-03 06:07:57 | WARNING  | 01_hierarchy_refiner | Dropped 14 unflagged new concept(s) the model tried to invent: ['Components of Solution (current parent: Solution)', 'Substitutional Solid Solution (current parent: Solid Solutions)', 'Interstitial Solid Solution (current parent: Solid Solutions)', 'Raoult’s Law (current parent: Vapour Pressure)', 'Ideal Solution (current parent: Vapour Pressure)', 'Non-Ideal Solution (current parent: Vapour Pressure)', 'Relative Lowering of Vapour Pressure (current parent: Colligative Properties)', 'Depression in Freezing Point (current parent: Colligative Properties)', 'Elevation in Boiling Point (current parent: Colligative Properties)', 'Isotonic Solutions (current parent: Osmotic Pressure)', 'Hypertonic Solutions (current parent: Osmotic Pressure)', 'Hypotonic Solutions (current parent: Osmotic Pressure)', 'Degree of Association (current parent: Abnormal Molar Mass)', 'Degree of Dissociation (current parent: Abnormal Molar Mass)']
+2026-07-03 06:07:57 | WARNING  | 01_hierarchy_refiner | Restored 14 concept(s) the model dropped: ['Components of Solution', 'Substitutional Solid Solution', 'Interstitial Solid Solution', 'Raoult’s Law', 'Ideal Solution', 'Non-Ideal Solution', 'Relative Lowering of Vapour Pressure', 'Depression in Freezing Point', 'Elevation in Boiling Point', 'Isotonic Solutions', 'Hypertonic Solutions', 'Hypotonic Solutions', 'Degree of Association', 'Degree of Dissociation']
+2026-07-03 06:07:57 | INFO     | 01_hierarchy_refiner | Saved: C:\CODES\VQP1\kbprocess\refinement\output\chapter_concepts_hierarchy.json
+2026-07-03 06:07:57 | INFO     | 01_hierarchy_refiner | Summary
+2026-07-03 06:07:57 | INFO     | 01_hierarchy_refiner |   Total concepts (incl. grouping) : 29
+2026-07-03 06:07:57 | INFO     | 01_hierarchy_refiner |   Grouping nodes added             : 0
+2026-07-03 06:07:57 | INFO     | 01_hierarchy_refiner |   Parent changes                    : 0
+2026-07-03 06:08:48 | INFO     | 01_hierarchy_refiner | ================================================================================
+2026-07-03 06:08:48 | INFO     | 01_hierarchy_refiner | HIERARCHY REFINER (PASS 1)
+2026-07-03 06:08:48 | INFO     | 01_hierarchy_refiner | ================================================================================
+2026-07-03 06:08:48 | INFO     | 01_hierarchy_refiner | 29 concepts loaded from Phase 1
+2026-07-03 06:08:48 | INFO     | 01_hierarchy_refiner | Calling LLM to refine hierarchy...
+2026-07-03 06:08:48 | INFO     | 01_hierarchy_refiner | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 06:11:09 | INFO     | 01_hierarchy_refiner | LLM response parsed and validated successfully
+2026-07-03 06:11:09 | INFO     | 01_hierarchy_refiner | Saved: C:\CODES\VQP1\kbprocess\refinement\output\chapter_concepts_hierarchy.json
+2026-07-03 06:11:09 | INFO     | 01_hierarchy_refiner | Summary
+2026-07-03 06:11:09 | INFO     | 01_hierarchy_refiner |   Total concepts (incl. grouping) : 29
+2026-07-03 06:11:09 | INFO     | 01_hierarchy_refiner |   Grouping nodes added             : 0
+2026-07-03 06:11:09 | INFO     | 01_hierarchy_refiner |   Parent changes                    : 4
+2026-07-03 06:14:58 | INFO     | 02_concept_normalizer | ================================================================================
+2026-07-03 06:14:58 | INFO     | 02_concept_normalizer | CONCEPT NORMALIZER (PASS 2)
+2026-07-03 06:14:58 | INFO     | 02_concept_normalizer | ================================================================================
+2026-07-03 06:14:58 | INFO     | 02_concept_normalizer | 29 concepts loaded from Pass 1 hierarchy
+2026-07-03 06:14:58 | INFO     | 02_concept_normalizer | Round 1: requesting normalization for 29 concept(s)
+2026-07-03 06:14:58 | INFO     | 02_concept_normalizer | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 06:17:03 | INFO     | 02_concept_normalizer | LLM response parsed and validated successfully
+2026-07-03 06:17:03 | INFO     | 02_concept_normalizer | Saved: C:\CODES\VQP1\kbprocess\refinement\output\chapter_concepts_normalized.json
+2026-07-03 06:17:03 | INFO     | 02_concept_normalizer | Summary
+2026-07-03 06:17:03 | INFO     | 02_concept_normalizer |   Normalized concepts : 29
+2026-07-03 06:24:16 | INFO     | 02_concept_normalizer | ================================================================================
+2026-07-03 06:24:16 | INFO     | 02_concept_normalizer | CONCEPT NORMALIZER (PASS 2)
+2026-07-03 06:24:16 | INFO     | 02_concept_normalizer | ================================================================================
+2026-07-03 06:24:16 | INFO     | 02_concept_normalizer | 29 concepts loaded from Pass 1 hierarchy
+2026-07-03 06:24:16 | INFO     | 02_concept_normalizer | Round 1: requesting normalization for 29 concept(s)
+2026-07-03 06:24:16 | INFO     | 02_concept_normalizer | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 06:27:00 | INFO     | 02_concept_normalizer | LLM response parsed and validated successfully
+2026-07-03 06:27:00 | INFO     | 02_concept_normalizer | Saved: C:\CODES\VQP1\kbprocess\refinement\output\chapter_concepts_normalized.json
+2026-07-03 06:27:00 | INFO     | 02_concept_normalizer | Summary
+2026-07-03 06:27:00 | INFO     | 02_concept_normalizer |   Normalized concepts : 29
+2026-07-03 06:28:13 | INFO     | 03_relationship_builder | ================================================================================
+2026-07-03 06:28:13 | INFO     | 03_relationship_builder | RELATIONSHIP BUILDER (PASS 3)
+2026-07-03 06:28:13 | INFO     | 03_relationship_builder | ================================================================================
+2026-07-03 06:28:13 | INFO     | 03_relationship_builder | 29 concepts loaded from Pass 2 normalization
+2026-07-03 06:28:13 | INFO     | 03_relationship_builder | Calling LLM to build relationships...
+2026-07-03 06:28:13 | INFO     | 03_relationship_builder | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 06:28:22 | INFO     | 03_relationship_builder | LLM response parsed and validated successfully
+2026-07-03 06:28:22 | INFO     | 03_relationship_builder | Saved: C:\CODES\VQP1\kbprocess\refinement\output\chapter_relationships.json
+2026-07-03 06:28:22 | INFO     | 03_relationship_builder | Summary
+2026-07-03 06:28:22 | INFO     | 03_relationship_builder |   Relationships : 2
+2026-07-03 06:28:22 | INFO     | 03_relationship_builder |     example_of      : 2
+2026-07-03 06:29:59 | INFO     | 03_relationship_builder | ================================================================================
+2026-07-03 06:29:59 | INFO     | 03_relationship_builder | RELATIONSHIP BUILDER (PASS 3)
+2026-07-03 06:29:59 | INFO     | 03_relationship_builder | ================================================================================
+2026-07-03 06:29:59 | INFO     | 03_relationship_builder | 29 concepts loaded from Pass 2 normalization
+2026-07-03 06:29:59 | INFO     | 03_relationship_builder | Calling LLM to build relationships...
+2026-07-03 06:29:59 | INFO     | 03_relationship_builder | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 06:30:52 | WARNING  | 03_relationship_builder | Attempt 1 failed: Only 15 relationship(s) returned; expected at least 29 for this many concepts. Be more thorough -- check every concept pair for a plausible connection.
+2026-07-03 06:30:55 | INFO     | 03_relationship_builder | LLM call attempt 2/3 (max_tokens=16384)
+2026-07-03 06:32:28 | WARNING  | 03_relationship_builder | Attempt 2 failed: Only 22 relationship(s) returned; expected at least 29 for this many concepts. Be more thorough -- check every concept pair for a plausible connection.
+2026-07-03 06:32:31 | INFO     | 03_relationship_builder | LLM call attempt 3/3 (max_tokens=32768)
+2026-07-03 06:34:08 | WARNING  | 03_relationship_builder | Attempt 3 failed: Only 23 relationship(s) returned; expected at least 29 for this many concepts. Be more thorough -- check every concept pair for a plausible connection.
+2026-07-03 06:34:08 | ERROR    | 03_relationship_builder | All 3 attempts failed. Saving raw response for inspection.
+2026-07-03 06:34:08 | ERROR    | 03_relationship_builder | Raw response saved to C:\CODES\VQP1\kbprocess\refinement\output\03_raw_output.txt
+2026-07-03 06:34:30 | INFO     | 03_relationship_builder | ================================================================================
+2026-07-03 06:34:30 | INFO     | 03_relationship_builder | RELATIONSHIP BUILDER (PASS 3)
+2026-07-03 06:34:30 | INFO     | 03_relationship_builder | ================================================================================
+2026-07-03 06:34:30 | INFO     | 03_relationship_builder | 29 concepts loaded from Pass 2 normalization
+2026-07-03 06:34:30 | INFO     | 03_relationship_builder | Calling LLM to build relationships...
+2026-07-03 06:34:30 | INFO     | 03_relationship_builder | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 06:35:09 | WARNING  | 03_relationship_builder | Attempt 1 failed: Only 11 relationship(s) returned; expected at least 14 for this many concepts. Be more thorough -- check every concept pair for a plausible connection.
+2026-07-03 06:35:12 | INFO     | 03_relationship_builder | LLM call attempt 2/3 (max_tokens=16384)
+2026-07-03 06:37:47 | INFO     | 05_question_refiner | ================================================================================
+2026-07-03 06:37:47 | INFO     | 05_question_refiner | QUESTION REFINER (PASS 5)
+2026-07-03 06:37:47 | INFO     | 05_question_refiner | ================================================================================
+2026-07-03 06:37:47 | INFO     | 05_question_refiner | 44 original question_bank entries loaded
+2026-07-03 06:37:47 | INFO     | 05_question_refiner | Round 1: requesting grouping for 44 entries
+2026-07-03 06:37:47 | INFO     | 05_question_refiner | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 06:42:18 | WARNING  | 05_question_refiner | Attempt 1 failed: id 'TN_Q006' is used in more than one group
+2026-07-03 06:42:21 | INFO     | 05_question_refiner | LLM call attempt 2/3 (max_tokens=16384)
+2026-07-03 06:45:01 | INFO     | 05_question_refiner | LLM response parsed and validated successfully
+2026-07-03 06:45:01 | WARNING  | 05_question_refiner | 21 id(s) still ungrouped after round 1: ['TN_Q006', 'TN_Q008', 'TN_Q010', 'TN_Q011', 'TN_Q013', 'TN_Q015', 'TN_Q017', 'TN_Q019', 'TN_Q021', 'TN_Q023', 'TN_Q025', 'TN_Q027', 'TN_Q029', 'TN_Q031', 'TN_Q033', 'TN_Q035', 'TN_Q038', 'TN_Q039', 'TN_Q040', 'TN_Q042', 'TN_Q044']
+2026-07-03 06:45:01 | INFO     | 05_question_refiner | Round 2: requesting grouping for 21 entries
+2026-07-03 06:45:01 | INFO     | 05_question_refiner | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 06:45:12 | WARNING  | 03_relationship_builder | Attempt 2 failed: HTTPConnectionPool(host='127.0.0.1', port=1234): Read timed out. (read timeout=600)
+2026-07-03 06:45:15 | INFO     | 03_relationship_builder | LLM call attempt 3/3 (max_tokens=32768)
+2026-07-03 06:46:07 | INFO     | 05_question_refiner | LLM response parsed and validated successfully
+2026-07-03 06:46:07 | WARNING  | 05_question_refiner | 1 id(s) still ungrouped after round 2: ['TN_Q029']
+2026-07-03 06:46:07 | INFO     | 05_question_refiner | Round 3: requesting grouping for 1 entries
+2026-07-03 06:46:07 | INFO     | 05_question_refiner | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 06:46:12 | INFO     | 05_question_refiner | LLM response parsed and validated successfully
+2026-07-03 06:46:12 | INFO     | 05_question_refiner | Saved: C:\CODES\VQP1\kbprocess\refinement\output\chapter_questions_refined.json
+2026-07-03 06:46:12 | INFO     | 05_question_refiner | Summary
+2026-07-03 06:46:12 | INFO     | 05_question_refiner |   Refined questions : 38
+2026-07-03 06:46:12 | INFO     | 05_question_refiner |   With an answer     : 5
+2026-07-03 06:46:12 | INFO     | 05_question_refiner |     important        : 7
+2026-07-03 06:46:12 | INFO     | 05_question_refiner |     numerical        : 2
+2026-07-03 06:46:12 | INFO     | 05_question_refiner |     self_assessment  : 4
+2026-07-03 06:46:12 | INFO     | 05_question_refiner |     short_answer     : 25
+2026-07-03 06:47:09 | INFO     | 03_relationship_builder | LLM response parsed and validated successfully
+2026-07-03 06:47:09 | INFO     | 03_relationship_builder | Saved: C:\CODES\VQP1\kbprocess\refinement\output\chapter_relationships.json
+2026-07-03 06:47:09 | INFO     | 03_relationship_builder | Summary
+2026-07-03 06:47:09 | INFO     | 03_relationship_builder |   Relationships : 23
+2026-07-03 06:47:09 | INFO     | 03_relationship_builder |     depends_on      : 5
+2026-07-03 06:47:09 | INFO     | 03_relationship_builder |     example_of      : 1
+2026-07-03 06:47:09 | INFO     | 03_relationship_builder |     related_to      : 11
+2026-07-03 06:47:09 | INFO     | 03_relationship_builder |     used_in         : 6
+2026-07-03 11:05:43 | INFO     | run_concept_pipeline | ================================================================================
+2026-07-03 11:05:43 | INFO     | run_concept_pipeline | CONCEPT INTELLIGENCE ENGINE PIPELINE
+2026-07-03 11:05:43 | INFO     | run_concept_pipeline | ================================================================================
+2026-07-03 11:05:43 | INFO     | run_concept_pipeline | --------------------------------------------------------------------------------
+2026-07-03 11:05:43 | INFO     | run_concept_pipeline | RUNNING STAGE: 00_concept_validator.py
+2026-07-03 11:05:43 | INFO     | run_concept_pipeline | --------------------------------------------------------------------------------
+2026-07-03 11:05:44 | INFO     | 00_concept_validator | ================================================================================
+2026-07-03 11:05:44 | INFO     | 00_concept_validator | CONCEPT VALIDATOR (PASS 0)
+2026-07-03 11:05:44 | INFO     | 00_concept_validator | ================================================================================
+2026-07-03 11:05:44 | INFO     | 00_concept_validator | Saved: C:\CODES\VQP1\kbprocess\refinement\output\validation_report.json
+2026-07-03 11:05:44 | INFO     | 00_concept_validator | Summary
+2026-07-03 11:05:44 | INFO     | 00_concept_validator |   Status : PASS
+2026-07-03 11:05:44 | INFO     | 00_concept_validator |   total_concepts                        : 29
+2026-07-03 11:05:44 | INFO     | 00_concept_validator |   schema_errors                         : 0
+2026-07-03 11:05:44 | INFO     | 00_concept_validator |   duplicate_ids                         : 0
+2026-07-03 11:05:44 | INFO     | 00_concept_validator |   duplicate_concepts                    : 0
+2026-07-03 11:05:44 | INFO     | 00_concept_validator |   dangling_parents                      : 0
+2026-07-03 11:05:44 | INFO     | 00_concept_validator |   circular_hierarchies                  : 0
+2026-07-03 11:05:44 | INFO     | 00_concept_validator |   orphan_concepts                       : 0
+2026-07-03 11:05:44 | INFO     | 00_concept_validator |   concepts_missing_knowledge_nodes      : 0
+2026-07-03 11:05:44 | INFO     | 00_concept_validator |   questions_with_no_linked_concepts     : 0
+2026-07-03 11:05:44 | INFO     | run_concept_pipeline | Stage complete: 00_concept_validator.py
+2026-07-03 11:05:44 | INFO     | run_concept_pipeline | --------------------------------------------------------------------------------
+2026-07-03 11:05:44 | INFO     | run_concept_pipeline | RUNNING STAGE: 01_hierarchy_refiner.py
+2026-07-03 11:05:44 | INFO     | run_concept_pipeline | --------------------------------------------------------------------------------
+2026-07-03 11:05:44 | INFO     | 01_hierarchy_refiner | ================================================================================
+2026-07-03 11:05:44 | INFO     | 01_hierarchy_refiner | HIERARCHY REFINER (PASS 1)
+2026-07-03 11:05:44 | INFO     | 01_hierarchy_refiner | ================================================================================
+2026-07-03 11:05:44 | INFO     | 01_hierarchy_refiner | 29 concepts loaded from Phase 1
+2026-07-03 11:05:44 | INFO     | 01_hierarchy_refiner | Calling LLM to refine hierarchy...
+2026-07-03 11:05:44 | INFO     | 01_hierarchy_refiner | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 11:08:10 | INFO     | 01_hierarchy_refiner | LLM response parsed and validated successfully
+2026-07-03 11:08:10 | INFO     | 01_hierarchy_refiner | Saved: C:\CODES\VQP1\kbprocess\refinement\output\chapter_concepts_hierarchy.json
+2026-07-03 11:08:10 | INFO     | 01_hierarchy_refiner | Summary
+2026-07-03 11:08:10 | INFO     | 01_hierarchy_refiner |   Total concepts (incl. grouping) : 29
+2026-07-03 11:08:10 | INFO     | 01_hierarchy_refiner |   Grouping nodes added             : 0
+2026-07-03 11:08:10 | INFO     | 01_hierarchy_refiner |   Parent changes                    : 4
+2026-07-03 11:08:10 | INFO     | run_concept_pipeline | Stage complete: 01_hierarchy_refiner.py
+2026-07-03 11:08:10 | INFO     | run_concept_pipeline | --------------------------------------------------------------------------------
+2026-07-03 11:08:10 | INFO     | run_concept_pipeline | RUNNING STAGE: 02_concept_normalizer.py
+2026-07-03 11:08:10 | INFO     | run_concept_pipeline | --------------------------------------------------------------------------------
+2026-07-03 11:08:10 | INFO     | 02_concept_normalizer | ================================================================================
+2026-07-03 11:08:10 | INFO     | 02_concept_normalizer | CONCEPT NORMALIZER (PASS 2)
+2026-07-03 11:08:10 | INFO     | 02_concept_normalizer | ================================================================================
+2026-07-03 11:08:10 | INFO     | 02_concept_normalizer | 29 concepts loaded from Pass 1 hierarchy
+2026-07-03 11:08:10 | INFO     | 02_concept_normalizer | Round 1: requesting normalization for 29 concept(s)
+2026-07-03 11:08:10 | INFO     | 02_concept_normalizer | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 11:11:16 | INFO     | 02_concept_normalizer | LLM response parsed and validated successfully
+2026-07-03 11:11:16 | INFO     | 02_concept_normalizer | Saved: C:\CODES\VQP1\kbprocess\refinement\output\chapter_concepts_normalized.json
+2026-07-03 11:11:16 | INFO     | 02_concept_normalizer | Summary
+2026-07-03 11:11:16 | INFO     | 02_concept_normalizer |   Normalized concepts : 29
+2026-07-03 11:11:16 | INFO     | run_concept_pipeline | Stage complete: 02_concept_normalizer.py
+2026-07-03 11:11:16 | INFO     | run_concept_pipeline | --------------------------------------------------------------------------------
+2026-07-03 11:11:16 | INFO     | run_concept_pipeline | RUNNING STAGE: 03_relationship_builder.py
+2026-07-03 11:11:16 | INFO     | run_concept_pipeline | --------------------------------------------------------------------------------
+2026-07-03 11:11:17 | INFO     | 03_relationship_builder | ================================================================================
+2026-07-03 11:11:17 | INFO     | 03_relationship_builder | RELATIONSHIP BUILDER (PASS 3)
+2026-07-03 11:11:17 | INFO     | 03_relationship_builder | ================================================================================
+2026-07-03 11:11:17 | INFO     | 03_relationship_builder | 29 concepts loaded from Pass 2 normalization
+2026-07-03 11:11:17 | INFO     | 03_relationship_builder | Calling LLM to build relationships...
+2026-07-03 11:11:17 | INFO     | 03_relationship_builder | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 11:12:13 | INFO     | 03_relationship_builder | LLM response parsed and validated successfully
+2026-07-03 11:12:13 | WARNING  | 03_relationship_builder | Dropped 1 invalid/duplicate/self-referencing relationship(s)
+2026-07-03 11:12:13 | INFO     | 03_relationship_builder | Saved: C:\CODES\VQP1\kbprocess\refinement\output\chapter_relationships.json
+2026-07-03 11:12:13 | INFO     | 03_relationship_builder | Summary
+2026-07-03 11:12:13 | INFO     | 03_relationship_builder |   Relationships : 14
+2026-07-03 11:12:13 | INFO     | 03_relationship_builder |     depends_on      : 2
+2026-07-03 11:12:13 | INFO     | 03_relationship_builder |     example_of      : 1
+2026-07-03 11:12:13 | INFO     | 03_relationship_builder |     related_to      : 6
+2026-07-03 11:12:13 | INFO     | 03_relationship_builder |     used_in         : 5
+2026-07-03 11:12:13 | INFO     | run_concept_pipeline | Stage complete: 03_relationship_builder.py
+2026-07-03 11:12:13 | INFO     | run_concept_pipeline | --------------------------------------------------------------------------------
+2026-07-03 11:12:13 | INFO     | run_concept_pipeline | RUNNING STAGE: 04_metadata_builder.py
+2026-07-03 11:12:13 | INFO     | run_concept_pipeline | --------------------------------------------------------------------------------
+2026-07-03 11:12:13 | INFO     | 04_metadata_builder | ================================================================================
+2026-07-03 11:12:13 | INFO     | 04_metadata_builder | METADATA BUILDER (PASS 4)
+2026-07-03 11:12:13 | INFO     | 04_metadata_builder | ================================================================================
+2026-07-03 11:12:13 | INFO     | 04_metadata_builder | 29 real concepts, 0 grouping node(s)
+2026-07-03 11:12:13 | INFO     | 04_metadata_builder | Round 1: requesting metadata for 29 concept(s)
+2026-07-03 11:12:13 | INFO     | 04_metadata_builder | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 11:16:40 | WARNING  | 04_metadata_builder | Response was truncated at max_tokens=8192 (finish_reason=length)
+2026-07-03 11:16:40 | WARNING  | 04_metadata_builder | Attempt 1 failed: Could not parse JSON: Extra data: line 10 column 6 (char 394)
+2026-07-03 11:16:43 | INFO     | 04_metadata_builder | LLM call attempt 2/3 (max_tokens=16384)
+2026-07-03 11:20:57 | WARNING  | 04_metadata_builder | Response was truncated at max_tokens=16384 (finish_reason=length)
+2026-07-03 11:20:57 | WARNING  | 04_metadata_builder | Attempt 2 failed: Could not parse JSON: Expecting ',' delimiter: line 272 column 10 (char 10724)
+2026-07-03 11:21:00 | INFO     | 04_metadata_builder | LLM call attempt 3/3 (max_tokens=32768)
+2026-07-03 11:25:23 | WARNING  | 04_metadata_builder | Response was truncated at max_tokens=32768 (finish_reason=length)
+2026-07-03 11:25:23 | WARNING  | 04_metadata_builder | Attempt 3 failed: Could not parse JSON: Expecting ',' delimiter: line 282 column 10 (char 11201)
+2026-07-03 11:25:23 | ERROR    | 04_metadata_builder | All 3 attempts failed. Saving raw response for inspection.
+2026-07-03 11:25:23 | ERROR    | 04_metadata_builder | Raw response saved to C:\CODES\VQP1\kbprocess\refinement\output\04_raw_output_round1.txt
+2026-07-03 11:25:23 | ERROR    | run_concept_pipeline | Pipeline aborted at stage '04_metadata_builder.py': Stage '04_metadata_builder.py' failed with exit code 1
+2026-07-03 11:29:39 | INFO     | run_concept_pipeline | ================================================================================
+2026-07-03 11:29:39 | INFO     | run_concept_pipeline | CONCEPT INTELLIGENCE ENGINE PIPELINE
+2026-07-03 11:29:39 | INFO     | run_concept_pipeline | ================================================================================
+2026-07-03 11:29:39 | INFO     | run_concept_pipeline | --------------------------------------------------------------------------------
+2026-07-03 11:29:39 | INFO     | run_concept_pipeline | RUNNING STAGE: 00_concept_validator.py
+2026-07-03 11:29:39 | INFO     | run_concept_pipeline | --------------------------------------------------------------------------------
+2026-07-03 11:29:39 | INFO     | 00_concept_validator | ================================================================================
+2026-07-03 11:29:39 | INFO     | 00_concept_validator | CONCEPT VALIDATOR (PASS 0)
+2026-07-03 11:29:39 | INFO     | 00_concept_validator | ================================================================================
+2026-07-03 11:29:39 | INFO     | 00_concept_validator | Saved: C:\CODES\VQP1\kbprocess\refinement\output\validation_report.json
+2026-07-03 11:29:39 | INFO     | 00_concept_validator | Summary
+2026-07-03 11:29:39 | INFO     | 00_concept_validator |   Status : PASS
+2026-07-03 11:29:39 | INFO     | 00_concept_validator |   total_concepts                        : 29
+2026-07-03 11:29:39 | INFO     | 00_concept_validator |   schema_errors                         : 0
+2026-07-03 11:29:39 | INFO     | 00_concept_validator |   duplicate_ids                         : 0
+2026-07-03 11:29:39 | INFO     | 00_concept_validator |   duplicate_concepts                    : 0
+2026-07-03 11:29:39 | INFO     | 00_concept_validator |   dangling_parents                      : 0
+2026-07-03 11:29:39 | INFO     | 00_concept_validator |   circular_hierarchies                  : 0
+2026-07-03 11:29:39 | INFO     | 00_concept_validator |   orphan_concepts                       : 0
+2026-07-03 11:29:39 | INFO     | 00_concept_validator |   concepts_missing_knowledge_nodes      : 0
+2026-07-03 11:29:39 | INFO     | 00_concept_validator |   questions_with_no_linked_concepts     : 0
+2026-07-03 11:29:39 | INFO     | run_concept_pipeline | Stage complete: 00_concept_validator.py
+2026-07-03 11:29:39 | INFO     | run_concept_pipeline | --------------------------------------------------------------------------------
+2026-07-03 11:29:39 | INFO     | run_concept_pipeline | RUNNING STAGE: 01_hierarchy_refiner.py
+2026-07-03 11:29:39 | INFO     | run_concept_pipeline | --------------------------------------------------------------------------------
+2026-07-03 11:29:40 | INFO     | 01_hierarchy_refiner | ================================================================================
+2026-07-03 11:29:40 | INFO     | 01_hierarchy_refiner | HIERARCHY REFINER (PASS 1)
+2026-07-03 11:29:40 | INFO     | 01_hierarchy_refiner | ================================================================================
+2026-07-03 11:29:40 | INFO     | 01_hierarchy_refiner | 29 concepts loaded from Phase 1
+2026-07-03 11:29:40 | INFO     | 01_hierarchy_refiner | Calling LLM to refine hierarchy...
+2026-07-03 11:29:40 | INFO     | 01_hierarchy_refiner | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 11:31:35 | INFO     | 01_hierarchy_refiner | LLM response parsed and validated successfully
+2026-07-03 11:31:35 | INFO     | 01_hierarchy_refiner | Saved: C:\CODES\VQP1\kbprocess\refinement\output\chapter_concepts_hierarchy.json
+2026-07-03 11:31:35 | INFO     | 01_hierarchy_refiner | Summary
+2026-07-03 11:31:35 | INFO     | 01_hierarchy_refiner |   Total concepts (incl. grouping) : 29
+2026-07-03 11:31:35 | INFO     | 01_hierarchy_refiner |   Grouping nodes added             : 0
+2026-07-03 11:31:35 | INFO     | 01_hierarchy_refiner |   Parent changes                    : 4
+2026-07-03 11:31:35 | INFO     | run_concept_pipeline | Stage complete: 01_hierarchy_refiner.py
+2026-07-03 11:31:35 | INFO     | run_concept_pipeline | --------------------------------------------------------------------------------
+2026-07-03 11:31:35 | INFO     | run_concept_pipeline | RUNNING STAGE: 02_concept_normalizer.py
+2026-07-03 11:31:35 | INFO     | run_concept_pipeline | --------------------------------------------------------------------------------
+2026-07-03 11:31:35 | INFO     | 02_concept_normalizer | ================================================================================
+2026-07-03 11:31:35 | INFO     | 02_concept_normalizer | CONCEPT NORMALIZER (PASS 2)
+2026-07-03 11:31:35 | INFO     | 02_concept_normalizer | ================================================================================
+2026-07-03 11:31:35 | INFO     | 02_concept_normalizer | 29 concepts loaded from Pass 1 hierarchy
+2026-07-03 11:31:35 | INFO     | 02_concept_normalizer | Round 1: requesting normalization for 29 concept(s)
+2026-07-03 11:31:35 | INFO     | 02_concept_normalizer | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 11:34:21 | INFO     | 02_concept_normalizer | LLM response parsed and validated successfully
+2026-07-03 11:34:21 | INFO     | 02_concept_normalizer | Saved: C:\CODES\VQP1\kbprocess\refinement\output\chapter_concepts_normalized.json
+2026-07-03 11:34:21 | INFO     | 02_concept_normalizer | Summary
+2026-07-03 11:34:21 | INFO     | 02_concept_normalizer |   Normalized concepts : 29
+2026-07-03 11:34:21 | INFO     | run_concept_pipeline | Stage complete: 02_concept_normalizer.py
+2026-07-03 11:34:21 | INFO     | run_concept_pipeline | --------------------------------------------------------------------------------
+2026-07-03 11:34:21 | INFO     | run_concept_pipeline | RUNNING STAGE: 03_relationship_builder.py
+2026-07-03 11:34:21 | INFO     | run_concept_pipeline | --------------------------------------------------------------------------------
+2026-07-03 11:34:21 | INFO     | 03_relationship_builder | ================================================================================
+2026-07-03 11:34:21 | INFO     | 03_relationship_builder | RELATIONSHIP BUILDER (PASS 3)
+2026-07-03 11:34:21 | INFO     | 03_relationship_builder | ================================================================================
+2026-07-03 11:34:21 | INFO     | 03_relationship_builder | 29 concepts loaded from Pass 2 normalization
+2026-07-03 11:34:21 | INFO     | 03_relationship_builder | Calling LLM to build relationships...
+2026-07-03 11:34:21 | INFO     | 03_relationship_builder | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 11:35:21 | INFO     | 03_relationship_builder | LLM response parsed and validated successfully
+2026-07-03 11:35:21 | WARNING  | 03_relationship_builder | Dropped 1 invalid/duplicate/self-referencing relationship(s)
+2026-07-03 11:35:21 | INFO     | 03_relationship_builder | Saved: C:\CODES\VQP1\kbprocess\refinement\output\chapter_relationships.json
+2026-07-03 11:35:21 | INFO     | 03_relationship_builder | Summary
+2026-07-03 11:35:21 | INFO     | 03_relationship_builder |   Relationships : 14
+2026-07-03 11:35:21 | INFO     | 03_relationship_builder |     depends_on      : 2
+2026-07-03 11:35:21 | INFO     | 03_relationship_builder |     example_of      : 1
+2026-07-03 11:35:21 | INFO     | 03_relationship_builder |     related_to      : 6
+2026-07-03 11:35:21 | INFO     | 03_relationship_builder |     used_in         : 5
+2026-07-03 11:35:21 | INFO     | run_concept_pipeline | Stage complete: 03_relationship_builder.py
+2026-07-03 11:35:21 | INFO     | run_concept_pipeline | --------------------------------------------------------------------------------
+2026-07-03 11:35:21 | INFO     | run_concept_pipeline | RUNNING STAGE: 04_metadata_builder.py
+2026-07-03 11:35:21 | INFO     | run_concept_pipeline | --------------------------------------------------------------------------------
+2026-07-03 11:35:21 | INFO     | 04_metadata_builder | ================================================================================
+2026-07-03 11:35:21 | INFO     | 04_metadata_builder | METADATA BUILDER (PASS 4)
+2026-07-03 11:35:21 | INFO     | 04_metadata_builder | ================================================================================
+2026-07-03 11:35:21 | INFO     | 04_metadata_builder | 29 real concepts, 0 grouping node(s)
+2026-07-03 11:35:21 | INFO     | 04_metadata_builder | Processing 29 concept(s) in 4 batch(es) of up to 8
+2026-07-03 11:35:21 | INFO     | 04_metadata_builder | Batch 1/4, round 1: requesting metadata for 8 concept(s)
+2026-07-03 11:35:21 | INFO     | 04_metadata_builder | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 11:36:27 | WARNING  | 04_metadata_builder | Attempt 1 failed: Could not parse JSON: Extra data: line 10 column 6 (char 394)
+2026-07-03 11:36:30 | INFO     | 04_metadata_builder | LLM call attempt 2/3 (max_tokens=16384)
+2026-07-03 11:37:31 | INFO     | 04_metadata_builder | LLM response parsed and validated successfully
+2026-07-03 11:37:31 | INFO     | 04_metadata_builder | Batch 2/4, round 1: requesting metadata for 8 concept(s)
+2026-07-03 11:37:31 | INFO     | 04_metadata_builder | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 11:38:42 | WARNING  | 04_metadata_builder | Attempt 1 failed: Could not parse JSON: Extra data: line 10 column 6 (char 367)
+2026-07-03 11:38:45 | INFO     | 04_metadata_builder | LLM call attempt 2/3 (max_tokens=16384)
+2026-07-03 11:39:53 | INFO     | 04_metadata_builder | LLM response parsed and validated successfully
+2026-07-03 11:39:53 | INFO     | 04_metadata_builder | Batch 3/4, round 1: requesting metadata for 8 concept(s)
+2026-07-03 11:39:53 | INFO     | 04_metadata_builder | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 11:41:02 | WARNING  | 04_metadata_builder | Attempt 1 failed: Could not parse JSON: Extra data: line 10 column 6 (char 386)
+2026-07-03 11:41:05 | INFO     | 04_metadata_builder | LLM call attempt 2/3 (max_tokens=16384)
+2026-07-03 11:42:26 | INFO     | 04_metadata_builder | LLM response parsed and validated successfully
+2026-07-03 11:42:26 | INFO     | 04_metadata_builder | Batch 4/4, round 1: requesting metadata for 5 concept(s)
+2026-07-03 11:42:26 | INFO     | 04_metadata_builder | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 11:43:16 | WARNING  | 04_metadata_builder | Attempt 1 failed: Could not parse JSON: Extra data: line 10 column 6 (char 369)
+2026-07-03 11:43:19 | INFO     | 04_metadata_builder | LLM call attempt 2/3 (max_tokens=16384)
+2026-07-03 11:44:10 | INFO     | 04_metadata_builder | LLM response parsed and validated successfully
+2026-07-03 11:44:10 | INFO     | 04_metadata_builder | Saved: C:\CODES\VQP1\kbprocess\refinement\output\chapter_metadata.json
+2026-07-03 11:44:10 | INFO     | 04_metadata_builder | Summary
+2026-07-03 11:44:10 | INFO     | 04_metadata_builder |   Concepts with metadata : 29
+2026-07-03 11:44:10 | INFO     | 04_metadata_builder |     importance=high     : 14
+2026-07-03 11:44:10 | INFO     | 04_metadata_builder |     importance=low      : 11
+2026-07-03 11:44:10 | INFO     | 04_metadata_builder |     importance=medium   : 4
+2026-07-03 11:44:10 | INFO     | run_concept_pipeline | Stage complete: 04_metadata_builder.py
+2026-07-03 11:44:10 | INFO     | run_concept_pipeline | --------------------------------------------------------------------------------
+2026-07-03 11:44:10 | INFO     | run_concept_pipeline | RUNNING STAGE: 05_question_refiner.py
+2026-07-03 11:44:10 | INFO     | run_concept_pipeline | --------------------------------------------------------------------------------
+2026-07-03 11:44:10 | INFO     | 05_question_refiner | ================================================================================
+2026-07-03 11:44:10 | INFO     | 05_question_refiner | QUESTION REFINER (PASS 5)
+2026-07-03 11:44:10 | INFO     | 05_question_refiner | ================================================================================
+2026-07-03 11:44:10 | INFO     | 05_question_refiner | 44 original question_bank entries loaded
+2026-07-03 11:44:10 | INFO     | 05_question_refiner | Round 1: requesting grouping for 44 entries
+2026-07-03 11:44:10 | INFO     | 05_question_refiner | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 11:46:16 | WARNING  | 05_question_refiner | Attempt 1 failed: id 'TN_Q023' is used in more than one group
+2026-07-03 11:46:19 | INFO     | 05_question_refiner | LLM call attempt 2/3 (max_tokens=16384)
+2026-07-03 11:48:21 | INFO     | 05_question_refiner | LLM response parsed and validated successfully
+2026-07-03 11:48:21 | WARNING  | 05_question_refiner | 3 id(s) still ungrouped after round 1: ['TN_Q029', 'TN_Q031', 'TN_Q033']
+2026-07-03 11:48:21 | INFO     | 05_question_refiner | Round 2: requesting grouping for 3 entries
+2026-07-03 11:48:21 | INFO     | 05_question_refiner | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 11:48:30 | WARNING  | 05_question_refiner | Attempt 1 failed: id 'TN_Q031' is used in more than one group
+2026-07-03 11:48:33 | INFO     | 05_question_refiner | LLM call attempt 2/3 (max_tokens=16384)
+2026-07-03 11:48:41 | WARNING  | 05_question_refiner | Attempt 2 failed: id 'TN_Q033' is used in more than one group
+2026-07-03 11:48:44 | INFO     | 05_question_refiner | LLM call attempt 3/3 (max_tokens=32768)
+2026-07-03 11:48:51 | WARNING  | 05_question_refiner | Attempt 3 failed: id 'TN_Q031' is used in more than one group
+2026-07-03 11:48:51 | ERROR    | 05_question_refiner | All 3 attempts failed. Saving raw response for inspection.
+2026-07-03 11:48:51 | ERROR    | 05_question_refiner | Raw response saved to C:\CODES\VQP1\kbprocess\refinement\output\05_raw_output_round2.txt
+2026-07-03 11:48:51 | ERROR    | run_concept_pipeline | Pipeline aborted at stage '05_question_refiner.py': Stage '05_question_refiner.py' failed with exit code 1
+2026-07-03 11:51:33 | INFO     | 05_question_refiner | ================================================================================
+2026-07-03 11:51:33 | INFO     | 05_question_refiner | QUESTION REFINER (PASS 5)
+2026-07-03 11:51:33 | INFO     | 05_question_refiner | ================================================================================
+2026-07-03 11:51:33 | INFO     | 05_question_refiner | 44 original question_bank entries loaded
+2026-07-03 11:51:33 | INFO     | 05_question_refiner | Round 1: requesting grouping for 44 entries
+2026-07-03 11:51:33 | INFO     | 05_question_refiner | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 11:54:29 | WARNING  | 05_question_refiner | Attempt 1 failed: id 'TN_Q006' is used in more than one group
+2026-07-03 11:54:32 | INFO     | 05_question_refiner | LLM call attempt 2/3 (max_tokens=16384)
+2026-07-03 11:56:22 | WARNING  | 05_question_refiner | Attempt 2 failed: id 'TN_Q006' is used in more than one group
+2026-07-03 11:56:25 | INFO     | 05_question_refiner | LLM call attempt 3/3 (max_tokens=32768)
+2026-07-03 11:59:12 | WARNING  | 05_question_refiner | Attempt 3 failed: id 'TN_Q006' is used in more than one group
+2026-07-03 11:59:12 | ERROR    | 05_question_refiner | All 3 attempts failed. Saving raw response for inspection.
+2026-07-03 11:59:12 | ERROR    | 05_question_refiner | Raw response saved to C:\CODES\VQP1\kbprocess\refinement\output\05_raw_output_round1.txt
+2026-07-03 11:59:12 | WARNING  | 05_question_refiner | Round 1 failed entirely, will retry/fallback: LLM call failed after 3 attempts: id 'TN_Q006' is used in more than one group
+2026-07-03 11:59:12 | INFO     | 05_question_refiner | Round 2: requesting grouping for 44 entries
+2026-07-03 11:59:12 | INFO     | 05_question_refiner | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 12:00:59 | WARNING  | 05_question_refiner | Attempt 1 failed: id 'TN_Q023' is used in more than one group
+2026-07-03 12:01:02 | INFO     | 05_question_refiner | LLM call attempt 2/3 (max_tokens=16384)
+2026-07-03 12:03:04 | WARNING  | 05_question_refiner | Attempt 2 failed: id 'TN_Q006' is used in more than one group
+2026-07-03 12:03:07 | INFO     | 05_question_refiner | LLM call attempt 3/3 (max_tokens=32768)
+2026-07-03 12:05:03 | WARNING  | 05_question_refiner | Attempt 3 failed: id 'TN_Q006' is used in more than one group
+2026-07-03 12:05:03 | ERROR    | 05_question_refiner | All 3 attempts failed. Saving raw response for inspection.
+2026-07-03 12:05:03 | ERROR    | 05_question_refiner | Raw response saved to C:\CODES\VQP1\kbprocess\refinement\output\05_raw_output_round2.txt
+2026-07-03 12:05:03 | WARNING  | 05_question_refiner | Round 2 failed entirely, will retry/fallback: LLM call failed after 3 attempts: id 'TN_Q006' is used in more than one group
+2026-07-03 12:05:03 | INFO     | 05_question_refiner | Round 3: requesting grouping for 44 entries
+2026-07-03 12:05:03 | INFO     | 05_question_refiner | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 12:07:10 | WARNING  | 05_question_refiner | Attempt 1 failed: id 'TN_Q006' is used in more than one group
+2026-07-03 12:07:13 | INFO     | 05_question_refiner | LLM call attempt 2/3 (max_tokens=16384)
+2026-07-03 12:08:35 | WARNING  | 05_question_refiner | Attempt 2 failed: id 'TN_Q006' is used in more than one group
+2026-07-03 12:08:38 | INFO     | 05_question_refiner | LLM call attempt 3/3 (max_tokens=32768)
+2026-07-03 12:10:21 | WARNING  | 05_question_refiner | Attempt 3 failed: id 'TN_Q006' is used in more than one group
+2026-07-03 12:10:21 | ERROR    | 05_question_refiner | All 3 attempts failed. Saving raw response for inspection.
+2026-07-03 12:10:21 | ERROR    | 05_question_refiner | Raw response saved to C:\CODES\VQP1\kbprocess\refinement\output\05_raw_output_round3.txt
+2026-07-03 12:10:21 | WARNING  | 05_question_refiner | Round 3 failed entirely, will retry/fallback: LLM call failed after 3 attempts: id 'TN_Q006' is used in more than one group
+2026-07-03 12:10:21 | WARNING  | 05_question_refiner | Wrapping 44 leftover id(s) as standalone groups after 2 reconciliation round(s)
+2026-07-03 12:10:21 | INFO     | 05_question_refiner | Saved: C:\CODES\VQP1\kbprocess\refinement\output\chapter_questions_refined.json
+2026-07-03 12:10:21 | INFO     | 05_question_refiner | Summary
+2026-07-03 12:10:21 | INFO     | 05_question_refiner |   Refined questions : 44
+2026-07-03 12:10:21 | INFO     | 05_question_refiner |   With an answer     : 0
+2026-07-03 12:10:21 | INFO     | 05_question_refiner |     important        : 10
+2026-07-03 12:10:21 | INFO     | 05_question_refiner |     self_assessment  : 5
+2026-07-03 12:10:21 | INFO     | 05_question_refiner |     short_answer     : 29
+2026-07-03 12:10:22 | INFO     | 06_merge_final_kb | ================================================================================
+2026-07-03 12:10:22 | INFO     | 06_merge_final_kb | MERGE FINAL KNOWLEDGE BASE (PASS 6)
+2026-07-03 12:10:22 | INFO     | 06_merge_final_kb | ================================================================================
+2026-07-03 12:10:22 | INFO     | 06_merge_final_kb | 44/44 refined question(s) have no answer text available
+2026-07-03 12:10:22 | INFO     | 06_merge_final_kb | Saved: C:\CODES\VQP1\kbprocess\refinement\output\chapter_kb_final.json
+2026-07-03 12:10:22 | INFO     | 06_merge_final_kb | Summary
+2026-07-03 12:10:22 | INFO     | 06_merge_final_kb |   Chapter       : Solutions and Colligative Properties
+2026-07-03 12:10:22 | INFO     | 06_merge_final_kb |   Concept Tree  : 29
+2026-07-03 12:10:22 | INFO     | 06_merge_final_kb |   Relationships : 14
+2026-07-03 12:10:22 | INFO     | 06_merge_final_kb |   Question Bank : 44
+2026-07-03 12:33:31 | INFO     | 05_question_refiner | ================================================================================
+2026-07-03 12:33:31 | INFO     | 05_question_refiner | QUESTION REFINER (PASS 5)
+2026-07-03 12:33:31 | INFO     | 05_question_refiner | ================================================================================
+2026-07-03 12:33:31 | INFO     | 05_question_refiner | 44 original question_bank entries loaded
+2026-07-03 12:33:31 | INFO     | 05_question_refiner | Processing 44 entries in 3 batch(es) of up to 15
+2026-07-03 12:33:31 | INFO     | 05_question_refiner | Batch 1/3, round 1: requesting grouping for 15 entries
+2026-07-03 12:33:31 | INFO     | 05_question_refiner | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 12:34:02 | WARNING  | 05_question_refiner | Attempt 1 failed: id 'TN_Q006' is used in more than one group
+2026-07-03 12:34:05 | INFO     | 05_question_refiner | LLM call attempt 2/3 (max_tokens=16384)
+2026-07-03 12:34:38 | WARNING  | 05_question_refiner | Attempt 2 failed: id 'TN_Q006' is used in more than one group
+2026-07-03 12:34:41 | INFO     | 05_question_refiner | LLM call attempt 3/3 (max_tokens=32768)
+2026-07-03 12:35:16 | WARNING  | 05_question_refiner | Attempt 3 failed: id 'TN_Q006' is used in more than one group
+2026-07-03 12:35:16 | ERROR    | 05_question_refiner | All 3 attempts failed. Saving raw response for inspection.
+2026-07-03 12:35:16 | ERROR    | 05_question_refiner | Raw response saved to C:\CODES\VQP1\kbprocess\refinement\output\05_raw_output_batch1_round1.txt
+2026-07-03 12:35:16 | WARNING  | 05_question_refiner | Batch 1, round 1 failed entirely, will retry/fallback: LLM call failed after 3 attempts: id 'TN_Q006' is used in more than one group
+2026-07-03 12:35:16 | INFO     | 05_question_refiner | Batch 1/3, round 2: requesting grouping for 15 entries
+2026-07-03 12:35:16 | INFO     | 05_question_refiner | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 12:35:50 | WARNING  | 05_question_refiner | Attempt 1 failed: id 'TN_Q006' is used in more than one group
+2026-07-03 12:35:53 | INFO     | 05_question_refiner | LLM call attempt 2/3 (max_tokens=16384)
+2026-07-03 12:36:20 | INFO     | 05_question_refiner | LLM response parsed and validated successfully
+2026-07-03 12:36:20 | WARNING  | 05_question_refiner | Batch 1: 2 id(s) still ungrouped after round 2: ['TN_Q008', 'TN_Q013']
+2026-07-03 12:36:20 | INFO     | 05_question_refiner | Batch 1/3, round 3: requesting grouping for 2 entries
+2026-07-03 12:36:20 | INFO     | 05_question_refiner | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 12:36:24 | INFO     | 05_question_refiner | LLM response parsed and validated successfully
+2026-07-03 12:36:24 | INFO     | 05_question_refiner | Batch 2/3, round 1: requesting grouping for 15 entries
+2026-07-03 12:36:24 | INFO     | 05_question_refiner | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 12:36:48 | INFO     | 05_question_refiner | LLM response parsed and validated successfully
+2026-07-03 12:36:48 | INFO     | 05_question_refiner | Batch 3/3, round 1: requesting grouping for 14 entries
+2026-07-03 12:36:48 | INFO     | 05_question_refiner | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 12:37:27 | INFO     | 05_question_refiner | LLM response parsed and validated successfully
+2026-07-03 12:37:27 | INFO     | 05_question_refiner | Saved: C:\CODES\VQP1\kbprocess\refinement\output\chapter_questions_refined.json
+2026-07-03 12:37:27 | INFO     | 05_question_refiner | Summary
+2026-07-03 12:37:27 | INFO     | 05_question_refiner |   Refined questions : 33
+2026-07-03 12:37:27 | INFO     | 05_question_refiner |   With an answer     : 10
+2026-07-03 12:37:27 | INFO     | 05_question_refiner |     important        : 7
+2026-07-03 12:37:27 | INFO     | 05_question_refiner |     numerical        : 2
+2026-07-03 12:37:27 | INFO     | 05_question_refiner |     self_assessment  : 6
+2026-07-03 12:37:27 | INFO     | 05_question_refiner |     short_answer     : 18
+2026-07-03 12:37:27 | INFO     | 06_merge_final_kb | ================================================================================
+2026-07-03 12:37:27 | INFO     | 06_merge_final_kb | MERGE FINAL KNOWLEDGE BASE (PASS 6)
+2026-07-03 12:37:27 | INFO     | 06_merge_final_kb | ================================================================================
+2026-07-03 12:37:27 | INFO     | 06_merge_final_kb | 23/33 refined question(s) have no answer text available
+2026-07-03 12:37:27 | INFO     | 06_merge_final_kb | Saved: C:\CODES\VQP1\kbprocess\refinement\output\chapter_kb_final.json
+2026-07-03 12:37:27 | INFO     | 06_merge_final_kb | Summary
+2026-07-03 12:37:27 | INFO     | 06_merge_final_kb |   Chapter       : Solutions and Colligative Properties
+2026-07-03 12:37:27 | INFO     | 06_merge_final_kb |   Concept Tree  : 29
+2026-07-03 12:37:27 | INFO     | 06_merge_final_kb |   Relationships : 14
+2026-07-03 12:37:27 | INFO     | 06_merge_final_kb |   Question Bank : 33
+2026-07-03 23:04:43 | INFO     | final_refinement | ================================================================================
+2026-07-03 23:04:43 | INFO     | final_refinement | FINAL REFINEMENT -- ASSESSMENT & RETRIEVAL ENRICHMENT
+2026-07-03 23:04:43 | INFO     | final_refinement | ================================================================================
+2026-07-03 23:04:43 | INFO     | final_refinement | 29 real concept(s), 0 grouping node(s)
+2026-07-03 23:04:43 | INFO     | final_refinement | Processing 29 concept(s) in 5 batch(es) of up to 6
+2026-07-03 23:04:43 | INFO     | final_refinement | Batch 1/5, round 1: requesting enrichment for 6 concept(s)
+2026-07-03 23:04:43 | INFO     | final_refinement | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 23:05:41 | INFO     | final_refinement | LLM response parsed and validated successfully
+2026-07-03 23:05:41 | INFO     | final_refinement | Batch 2/5, round 1: requesting enrichment for 6 concept(s)
+2026-07-03 23:05:41 | INFO     | final_refinement | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 23:06:40 | INFO     | final_refinement | LLM response parsed and validated successfully
+2026-07-03 23:06:40 | INFO     | final_refinement | Batch 3/5, round 1: requesting enrichment for 6 concept(s)
+2026-07-03 23:06:40 | INFO     | final_refinement | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 23:07:51 | INFO     | final_refinement | LLM response parsed and validated successfully
+2026-07-03 23:07:51 | INFO     | final_refinement | Batch 4/5, round 1: requesting enrichment for 6 concept(s)
+2026-07-03 23:07:51 | INFO     | final_refinement | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 23:09:05 | INFO     | final_refinement | LLM response parsed and validated successfully
+2026-07-03 23:09:05 | INFO     | final_refinement | Batch 5/5, round 1: requesting enrichment for 5 concept(s)
+2026-07-03 23:09:05 | INFO     | final_refinement | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 23:10:07 | INFO     | final_refinement | LLM response parsed and validated successfully
+2026-07-03 23:10:07 | INFO     | final_refinement | Saved: C:\CODES\VQP1\kbprocess\refinement\output\chapter_kb_enriched.json
+2026-07-03 23:10:07 | INFO     | final_refinement | Summary
+2026-07-03 23:10:07 | INFO     | final_refinement |   Concepts enriched : 29
+2026-07-03 23:10:07 | INFO     | final_refinement |     ncert_emphasis=high     : 8
+2026-07-03 23:10:07 | INFO     | final_refinement |     ncert_emphasis=low      : 16
+2026-07-03 23:10:07 | INFO     | final_refinement |     ncert_emphasis=medium   : 5
+2026-07-03 23:20:44 | INFO     | final_refinement | ================================================================================
+2026-07-03 23:20:44 | INFO     | final_refinement | FINAL REFINEMENT -- KNOWLEDGE, ASSESSMENT & RETRIEVAL ENRICHMENT
+2026-07-03 23:20:44 | INFO     | final_refinement | ================================================================================
+2026-07-03 23:20:44 | INFO     | final_refinement | Processing 29 concept(s) in 8 batch(es) of up to 4
+2026-07-03 23:20:44 | INFO     | final_refinement | Batch 1/8, round 1: requesting enrichment for 4 concept(s)
+2026-07-03 23:20:44 | INFO     | final_refinement | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 23:22:18 | INFO     | final_refinement | LLM response parsed and validated successfully
+2026-07-03 23:22:18 | INFO     | final_refinement | Batch 2/8, round 1: requesting enrichment for 4 concept(s)
+2026-07-03 23:22:18 | INFO     | final_refinement | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 23:23:26 | INFO     | final_refinement | LLM response parsed and validated successfully
+2026-07-03 23:23:26 | INFO     | final_refinement | Batch 3/8, round 1: requesting enrichment for 4 concept(s)
+2026-07-03 23:23:26 | INFO     | final_refinement | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 23:24:57 | INFO     | final_refinement | LLM response parsed and validated successfully
+2026-07-03 23:24:57 | INFO     | final_refinement | Batch 4/8, round 1: requesting enrichment for 4 concept(s)
+2026-07-03 23:24:57 | INFO     | final_refinement | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 23:26:41 | INFO     | final_refinement | LLM response parsed and validated successfully
+2026-07-03 23:26:41 | INFO     | final_refinement | Batch 5/8, round 1: requesting enrichment for 4 concept(s)
+2026-07-03 23:26:41 | INFO     | final_refinement | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 23:28:24 | INFO     | final_refinement | LLM response parsed and validated successfully
+2026-07-03 23:28:24 | INFO     | final_refinement | Batch 6/8, round 1: requesting enrichment for 4 concept(s)
+2026-07-03 23:28:24 | INFO     | final_refinement | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 23:30:22 | INFO     | final_refinement | LLM response parsed and validated successfully
+2026-07-03 23:30:22 | INFO     | final_refinement | Batch 7/8, round 1: requesting enrichment for 4 concept(s)
+2026-07-03 23:30:22 | INFO     | final_refinement | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 23:31:57 | INFO     | final_refinement | LLM response parsed and validated successfully
+2026-07-03 23:31:57 | INFO     | final_refinement | Batch 8/8, round 1: requesting enrichment for 1 concept(s)
+2026-07-03 23:31:57 | INFO     | final_refinement | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 23:32:31 | INFO     | final_refinement | LLM response parsed and validated successfully
+2026-07-03 23:32:31 | INFO     | final_refinement | Saved: C:\CODES\VQP1\kbprocess\refinement\output\chapter_kb_enriched.json
+2026-07-03 23:32:31 | INFO     | final_refinement | Summary
+2026-07-03 23:32:31 | INFO     | final_refinement |   Concepts enriched : 29
+2026-07-03 23:32:31 | INFO     | final_refinement |   Grouping nodes    : 1 -- ['Colligative Properties']
+2026-07-03 23:32:31 | INFO     | final_refinement |     concept_category=Core Concept   : 23
+2026-07-03 23:32:31 | INFO     | final_refinement |     concept_category=Definition     : 5
+2026-07-03 23:32:31 | INFO     | final_refinement |     concept_category=Law            : 1
+2026-07-03 23:32:31 | INFO     | final_refinement |     ncert_emphasis=high     : 8
+2026-07-03 23:32:31 | INFO     | final_refinement |     ncert_emphasis=low      : 16
+2026-07-03 23:32:31 | INFO     | final_refinement |     ncert_emphasis=medium   : 5
+2026-07-03 23:49:42 | INFO     | final_refinement | ================================================================================
+2026-07-03 23:49:42 | INFO     | final_refinement | FINAL REFINEMENT -- KNOWLEDGE, ASSESSMENT & RETRIEVAL ENRICHMENT
+2026-07-03 23:49:42 | INFO     | final_refinement | ================================================================================
+2026-07-03 23:49:42 | INFO     | final_refinement | Processing 29 concept(s) in 8 batch(es) of up to 4
+2026-07-03 23:49:42 | INFO     | final_refinement | Batch 1/8, round 1: requesting enrichment for 4 concept(s)
+2026-07-03 23:49:42 | INFO     | final_refinement | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 23:51:27 | INFO     | final_refinement | LLM response parsed and validated successfully
+2026-07-03 23:51:27 | INFO     | final_refinement | Batch 2/8, round 1: requesting enrichment for 4 concept(s)
+2026-07-03 23:51:27 | INFO     | final_refinement | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 23:52:42 | INFO     | final_refinement | LLM response parsed and validated successfully
+2026-07-03 23:52:42 | INFO     | final_refinement | Batch 3/8, round 1: requesting enrichment for 4 concept(s)
+2026-07-03 23:52:42 | INFO     | final_refinement | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 23:54:28 | INFO     | final_refinement | LLM response parsed and validated successfully
+2026-07-03 23:54:28 | INFO     | final_refinement | Batch 4/8, round 1: requesting enrichment for 4 concept(s)
+2026-07-03 23:54:28 | INFO     | final_refinement | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 23:56:21 | INFO     | final_refinement | LLM response parsed and validated successfully
+2026-07-03 23:56:21 | INFO     | final_refinement | Batch 5/8, round 1: requesting enrichment for 4 concept(s)
+2026-07-03 23:56:21 | INFO     | final_refinement | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 23:58:02 | INFO     | final_refinement | LLM response parsed and validated successfully
+2026-07-03 23:58:02 | INFO     | final_refinement | Batch 6/8, round 1: requesting enrichment for 4 concept(s)
+2026-07-03 23:58:02 | INFO     | final_refinement | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-03 23:59:42 | INFO     | final_refinement | LLM response parsed and validated successfully
+2026-07-03 23:59:42 | INFO     | final_refinement | Batch 7/8, round 1: requesting enrichment for 4 concept(s)
+2026-07-03 23:59:42 | INFO     | final_refinement | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-04 00:01:11 | INFO     | final_refinement | LLM response parsed and validated successfully
+2026-07-04 00:01:11 | INFO     | final_refinement | Batch 8/8, round 1: requesting enrichment for 1 concept(s)
+2026-07-04 00:01:11 | INFO     | final_refinement | LLM call attempt 1/3 (max_tokens=8192)
+2026-07-04 00:01:32 | INFO     | final_refinement | LLM response parsed and validated successfully
+2026-07-04 00:01:32 | INFO     | final_refinement | Saved: C:\CODES\VQP1\kbprocess\refinement\output\chapter_kb_enriched.json
+2026-07-04 00:01:32 | INFO     | final_refinement | Summary
+2026-07-04 00:01:32 | INFO     | final_refinement |   Concepts enriched : 29
+2026-07-04 00:01:32 | INFO     | final_refinement |   Grouping nodes    : 1 -- ['Colligative Properties']
+2026-07-04 00:01:32 | INFO     | final_refinement |     concept_category=Core Concept   : 19
+2026-07-04 00:01:32 | INFO     | final_refinement |     concept_category=Definition     : 7
+2026-07-04 00:01:32 | INFO     | final_refinement |     concept_category=Law            : 2
+2026-07-04 00:01:32 | INFO     | final_refinement |     concept_category=Phenomenon     : 1
+2026-07-04 00:01:32 | INFO     | final_refinement |     ncert_emphasis=high     : 8
+2026-07-04 00:01:32 | INFO     | final_refinement |     ncert_emphasis=low      : 16
+2026-07-04 00:01:32 | INFO     | final_refinement |     ncert_emphasis=medium   : 5

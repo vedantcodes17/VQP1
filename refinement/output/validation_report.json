@@ -1,0 +1,27 @@
+{
+  "chapter": "Solutions and Colligative Properties",
+  "status": "PASS",
+  "summary": {
+    "total_concepts": 29,
+    "schema_errors": 0,
+    "duplicate_ids": 0,
+    "duplicate_concepts": 0,
+    "dangling_parents": 0,
+    "circular_hierarchies": 0,
+    "orphan_concepts": 0,
+    "concepts_missing_knowledge_nodes": 0,
+    "questions_with_no_linked_concepts": 0
+  },
+  "schema_errors": [],
+  "duplicate_ids": [],
+  "duplicate_concepts": [],
+  "dangling_parents": [],
+  "circular_hierarchies": [],
+  "orphan_concepts": [],
+  "cross_reference_issues": {
+    "concepts_missing_knowledge_nodes": [],
+    "knowledge_nodes_with_unknown_concept_id": [],
+    "questions_linking_unknown_concepts": [],
+    "questions_with_no_linked_concepts": []
+  }
+}

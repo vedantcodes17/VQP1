@@ -1,0 +1,64 @@
+{
+    "refined_questions": [
+        {
+            "question_source_ids": ["TN_Q001"],
+            "answer_source_ids": [],
+            "question_type": "important"
+        },
+        {
+            "question_source_ids": ["TN_Q002"],
+            "answer_source_ids": ["TN_Q006"],
+            "question_type": "numerical"
+        },
+        {
+            "question_source_ids": ["TN_Q003"],
+            "answer_source_ids": [],
+            "question_type": "short_answer"
+        },
+        {
+            "question_source_ids": ["TN_Q004"],
+            "answer_source_ids": [],
+            "question_type": "short_answer"
+        },
+        {
+            "question_source_ids": ["TN_Q005"],
+            "answer_source_ids": ["TN_Q006"],
+            "question_type": "short_answer"
+        },
+        {
+            "question_source_ids": ["TN_Q007"],
+            "answer_source_ids": [],
+            "question_type": "short_answer"
+        },
+        {
+            "question_source_ids": ["TN_Q008"],
+            "answer_source_ids": [],
+            "question_type": "short_answer"
+        },
+        {
+            "question_source_ids": ["TN_Q009"],
+            "answer_source_ids": [],
+            "question_type": "short_answer"
+        },
+        {
+            "question_source_ids": ["TN_Q010"],
+            "answer_source_ids": [],
+            "question_type": "short_answer"
+        },
+        {
+            "question_source_ids": ["TN_Q011"],
+            "answer_source_ids": [],
+            "question_type": "short_answer"
+        },
+        {
+            "question_source_ids": ["TN_Q012"],
+            "answer_source_ids": ["TN_Q013"],
+            "question_type": "important"
+        },
+        {
+            "question_source_ids": ["TN_Q014"],
+            "answer_source_ids": ["TN_Q015"],
+            "question_type": "short_answer"
+        }
+    ]
+}

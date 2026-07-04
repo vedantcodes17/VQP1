@@ -1,0 +1,205 @@
+{
+  "chapter": "Solutions and Colligative Properties",
+  "concept_tree": [
+    {
+      "concept_id": "CHE_SOL_001",
+      "concept_name": "Solution",
+      "parent_concept": "",
+      "is_grouping_node": false
+    },
+    {
+      "concept_id": "CHE_SOL_002",
+      "concept_name": "Components of Solution",
+      "parent_concept": "Solution",
+      "is_grouping_node": false
+    },
+    {
+      "concept_id": "CHE_SOL_003",
+      "concept_name": "Solubility",
+      "parent_concept": "",
+      "is_grouping_node": false
+    },
+    {
+      "concept_id": "CHE_SOL_004",
+      "concept_name": "Solid Solutions",
+      "parent_concept": "",
+      "is_grouping_node": false
+    },
+    {
+      "concept_id": "CHE_SOL_005",
+      "concept_name": "Substitutional Solid Solution",
+      "parent_concept": "Solid Solutions",
+      "is_grouping_node": false
+    },
+    {
+      "concept_id": "CHE_SOL_006",
+      "concept_name": "Interstitial Solid Solution",
+      "parent_concept": "Solid Solutions",
+      "is_grouping_node": false
+    },
+    {
+      "concept_id": "CHE_SOL_007",
+      "concept_name": "Mass Percentage",
+      "parent_concept": "",
+      "is_grouping_node": false
+    },
+    {
+      "concept_id": "CHE_SOL_008",
+      "concept_name": "Mole Fraction",
+      "parent_concept": "",
+      "is_grouping_node": false
+    },
+    {
+      "concept_id": "CHE_SOL_009",
+      "concept_name": "Molarity (M)",
+      "parent_concept": "",
+      "is_grouping_node": false
+    },
+    {
+      "concept_id": "CHE_SOL_010",
+      "concept_name": "Molality (m)",
+      "parent_concept": "",
+      "is_grouping_node": false
+    },
+    {
+      "concept_id": "CHE_SOL_011",
+      "concept_name": "Parts per million (ppm)",
+      "parent_concept": "",
+      "is_grouping_node": false
+    },
+    {
+      "concept_id": "CHE_SOL_012",
+      "concept_name": "Vapour Pressure",
+      "parent_concept": "",
+      "is_grouping_node": false
+    },
+    {
+      "concept_id": "CHE_SOL_013",
+      "concept_name": "Raoult’s Law",
+      "parent_concept": "Vapour Pressure",
+      "is_grouping_node": false
+    },
+    {
+      "concept_id": "CHE_SOL_014",
+      "concept_name": "Ideal Solution",
+      "parent_concept": "",
+      "is_grouping_node": false
+    },
+    {
+      "concept_id": "CHE_SOL_015",
+      "concept_name": "Non-Ideal Solution",
+      "parent_concept": "",
+      "is_grouping_node": false
+    },
+    {
+      "concept_id": "CHE_SOL_016",
+      "concept_name": "Azeotrope",
+      "parent_concept": "",
+      "is_grouping_node": false
+    },
+    {
+      "concept_id": "CHE_SOL_017",
+      "concept_name": "Colligative Properties",
+      "parent_concept": "",
+      "is_grouping_node": false
+    },
+    {
+      "concept_id": "CHE_SOL_018",
+      "concept_name": "Relative Lowering of Vapour Pressure",
+      "parent_concept": "Colligative Properties",
+      "is_grouping_node": false
+    },
+    {
+      "concept_id": "CHE_SOL_019",
+      "concept_name": "Depression in Freezing Point",
+      "parent_concept": "Colligative Properties",
+      "is_grouping_node": false
+    },
+    {
+      "concept_id": "CHE_SOL_020",
+      "concept_name": "Elevation in Boiling Point",
+      "parent_concept": "Colligative Properties",
+      "is_grouping_node": false
+    },
+    {
+      "concept_id": "CHE_SOL_021",
+      "concept_name": "Osmotic Pressure",
+      "parent_concept": "",
+      "is_grouping_node": false
+    },
+    {
+      "concept_id": "CHE_SOL_022",
+      "concept_name": "Isotonic Solutions",
+      "parent_concept": "Osmotic Pressure",
+      "is_grouping_node": false
+    },
+    {
+      "concept_id": "CHE_SOL_023",
+      "concept_name": "Hypertonic Solutions",
+      "parent_concept": "Osmotic Pressure",
+      "is_grouping_node": false
+    },
+    {
+      "concept_id": "CHE_SOL_024",
+      "concept_name": "Hypotonic Solutions",
+      "parent_concept": "Osmotic Pressure",
+      "is_grouping_node": false
+    },
+    {
+      "concept_id": "CHE_SOL_025",
+      "concept_name": "Abnormal Molar Mass",
+      "parent_concept": "",
+      "is_grouping_node": false
+    },
+    {
+      "concept_id": "CHE_SOL_026",
+      "concept_name": "Degree of Association",
+      "parent_concept": "",
+      "is_grouping_node": false
+    },
+    {
+      "concept_id": "CHE_SOL_027",
+      "concept_name": "Degree of Dissociation",
+      "parent_concept": "",
+      "is_grouping_node": false
+    },
+    {
+      "concept_id": "CHE_SOL_028",
+      "concept_name": "Henry’s Law",
+      "parent_concept": "",
+      "is_grouping_node": false
+    },
+    {
+      "concept_id": "CHE_SOL_029",
+      "concept_name": "Vant Hoff Factor (i)",
+      "parent_concept": "",
+      "is_grouping_node": false
+    }
+  ],
+  "hierarchy_changes": [
+    {
+      "concept_id": "CHE_SOL_014",
+      "concept_name": "Ideal Solution",
+      "old_parent": "Vapour Pressure",
+      "new_parent": ""
+    },
+    {
+      "concept_id": "CHE_SOL_015",
+      "concept_name": "Non-Ideal Solution",
+      "old_parent": "Vapour Pressure",
+      "new_parent": ""
+    },
+    {
+      "concept_id": "CHE_SOL_026",
+      "concept_name": "Degree of Association",
+      "old_parent": "Abnormal Molar Mass",
+      "new_parent": ""
+    },
+    {
+      "concept_id": "CHE_SOL_027",
+      "concept_name": "Degree of Dissociation",
+      "old_parent": "Abnormal Molar Mass",
+      "new_parent": ""
+    }
+  ]
+}

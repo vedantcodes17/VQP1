@@ -1,0 +1,75 @@
+{
+  "chapter": "Solutions and Colligative Properties",
+  "relationships": [
+    {
+      "source_concept_id": "CHE_SOL_001",
+      "relationship_type": "depends_on",
+      "target_concept_id": "CHE_SOL_002"
+    },
+    {
+      "source_concept_id": "CHE_SOL_003",
+      "relationship_type": "used_in",
+      "target_concept_id": "CHE_SOL_004"
+    },
+    {
+      "source_concept_id": "CHE_SOL_005",
+      "relationship_type": "example_of",
+      "target_concept_id": "CHE_SOL_006"
+    },
+    {
+      "source_concept_id": "CHE_SOL_007",
+      "relationship_type": "related_to",
+      "target_concept_id": "CHE_SOL_008"
+    },
+    {
+      "source_concept_id": "CHE_SOL_009",
+      "relationship_type": "used_in",
+      "target_concept_id": "CHE_SOL_010"
+    },
+    {
+      "source_concept_id": "CHE_SOL_011",
+      "relationship_type": "related_to",
+      "target_concept_id": "CHE_SOL_012"
+    },
+    {
+      "source_concept_id": "CHE_SOL_013",
+      "relationship_type": "used_in",
+      "target_concept_id": "CHE_SOL_014"
+    },
+    {
+      "source_concept_id": "CHE_SOL_015",
+      "relationship_type": "related_to",
+      "target_concept_id": "CHE_SOL_016"
+    },
+    {
+      "source_concept_id": "CHE_SOL_017",
+      "relationship_type": "depends_on",
+      "target_concept_id": "CHE_SOL_018"
+    },
+    {
+      "source_concept_id": "CHE_SOL_019",
+      "relationship_type": "related_to",
+      "target_concept_id": "CHE_SOL_020"
+    },
+    {
+      "source_concept_id": "CHE_SOL_021",
+      "relationship_type": "used_in",
+      "target_concept_id": "CHE_SOL_022"
+    },
+    {
+      "source_concept_id": "CHE_SOL_023",
+      "relationship_type": "related_to",
+      "target_concept_id": "CHE_SOL_024"
+    },
+    {
+      "source_concept_id": "CHE_SOL_025",
+      "relationship_type": "used_in",
+      "target_concept_id": "CHE_SOL_026"
+    },
+    {
+      "source_concept_id": "CHE_SOL_027",
+      "relationship_type": "related_to",
+      "target_concept_id": "CHE_SOL_028"
+    }
+  ]
+}

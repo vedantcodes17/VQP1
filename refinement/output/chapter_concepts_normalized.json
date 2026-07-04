@@ -1,0 +1,384 @@
+{
+  "chapter": "Solutions and Colligative Properties",
+  "concept_tree": [
+    {
+      "concept_id": "CHE_SOL_001",
+      "concept_name": "Solution",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Solution",
+      "aliases": [
+        "Homogeneous Mixture"
+      ],
+      "search_terms": [
+        "solution",
+        "homogeneous mixture"
+      ],
+      "abbreviations": []
+    },
+    {
+      "concept_id": "CHE_SOL_002",
+      "concept_name": "Components of Solution",
+      "parent_concept": "Solution",
+      "is_grouping_node": false,
+      "official_name": "Components of Solution",
+      "aliases": [
+        "Solute and Solvent"
+      ],
+      "search_terms": [
+        "solute",
+        "solvent"
+      ],
+      "abbreviations": []
+    },
+    {
+      "concept_id": "CHE_SOL_003",
+      "concept_name": "Solubility",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Solubility",
+      "aliases": [],
+      "search_terms": [
+        "maximum solute",
+        "dissolution limit"
+      ],
+      "abbreviations": []
+    },
+    {
+      "concept_id": "CHE_SOL_004",
+      "concept_name": "Solid Solutions",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Solid Solutions",
+      "aliases": [
+        "Uniformly Distributed Solids"
+      ],
+      "search_terms": [
+        "solid solution",
+        "uniform distribution"
+      ],
+      "abbreviations": []
+    },
+    {
+      "concept_id": "CHE_SOL_005",
+      "concept_name": "Substitutional Solid Solution",
+      "parent_concept": "Solid Solutions",
+      "is_grouping_node": false,
+      "official_name": "Substitutional Solid Solution",
+      "aliases": [],
+      "search_terms": [
+        "solute atoms replace solvent atoms"
+      ],
+      "abbreviations": []
+    },
+    {
+      "concept_id": "CHE_SOL_006",
+      "concept_name": "Interstitial Solid Solution",
+      "parent_concept": "Solid Solutions",
+      "is_grouping_node": false,
+      "official_name": "Interstitial Solid Solution",
+      "aliases": [],
+      "search_terms": [
+        "smaller atoms occupy voids between larger atoms"
+      ],
+      "abbreviations": []
+    },
+    {
+      "concept_id": "CHE_SOL_007",
+      "concept_name": "Mass Percentage",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Mass Percentage",
+      "aliases": [],
+      "search_terms": [
+        "mass of solute in 100 grams"
+      ],
+      "abbreviations": []
+    },
+    {
+      "concept_id": "CHE_SOL_008",
+      "concept_name": "Mole Fraction",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Mole Fraction",
+      "aliases": [],
+      "search_terms": [
+        "ratio of moles",
+        "total number of moles"
+      ],
+      "abbreviations": []
+    },
+    {
+      "concept_id": "CHE_SOL_009",
+      "concept_name": "Molarity (M)",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Molarity (M)",
+      "aliases": [],
+      "search_terms": [
+        "moles per liter"
+      ],
+      "abbreviations": [
+        "M"
+      ]
+    },
+    {
+      "concept_id": "CHE_SOL_010",
+      "concept_name": "Molality (m)",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Molality (m)",
+      "aliases": [],
+      "search_terms": [
+        "moles per kilogram of solvent"
+      ],
+      "abbreviations": [
+        "m"
+      ]
+    },
+    {
+      "concept_id": "CHE_SOL_011",
+      "concept_name": "Parts per million (ppm)",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Parts per million (ppm)",
+      "aliases": [],
+      "search_terms": [
+        "concentration measure",
+        "very dilute solutions"
+      ],
+      "abbreviations": []
+    },
+    {
+      "concept_id": "CHE_SOL_012",
+      "concept_name": "Vapour Pressure",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Vapour Pressure",
+      "aliases": [],
+      "search_terms": [
+        "pressure exerted by vapour",
+        "liquid equilibrium"
+      ],
+      "abbreviations": []
+    },
+    {
+      "concept_id": "CHE_SOL_013",
+      "concept_name": "Raoult’s Law",
+      "parent_concept": "Vapour Pressure",
+      "is_grouping_node": false,
+      "official_name": "Raoult’s Law",
+      "aliases": [],
+      "search_terms": [
+        "vapour pressure proportionality",
+        "mole fraction of solvent"
+      ],
+      "abbreviations": []
+    },
+    {
+      "concept_id": "CHE_SOL_014",
+      "concept_name": "Ideal Solution",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Ideal Solution",
+      "aliases": [],
+      "search_terms": [
+        "obeys Raoult’s law",
+        "all conditions"
+      ],
+      "abbreviations": []
+    },
+    {
+      "concept_id": "CHE_SOL_015",
+      "concept_name": "Non-Ideal Solution",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Non-Ideal Solution",
+      "aliases": [],
+      "search_terms": [
+        "does not obey Raoult’s law"
+      ],
+      "abbreviations": []
+    },
+    {
+      "concept_id": "CHE_SOL_016",
+      "concept_name": "Azeotrope",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Azeotrope",
+      "aliases": [],
+      "search_terms": [
+        "constant boiling point",
+        "pure liquid behavior"
+      ],
+      "abbreviations": []
+    },
+    {
+      "concept_id": "CHE_SOL_017",
+      "concept_name": "Colligative Properties",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Colligative Properties",
+      "aliases": [],
+      "search_terms": [
+        "number of solute particles"
+      ],
+      "abbreviations": []
+    },
+    {
+      "concept_id": "CHE_SOL_018",
+      "concept_name": "Relative Lowering of Vapour Pressure",
+      "parent_concept": "Colligative Properties",
+      "is_grouping_node": false,
+      "official_name": "Relative Lowering of Vapour Pressure",
+      "aliases": [],
+      "search_terms": [
+        "decrease in vapour pressure",
+        "solvent due to solute"
+      ],
+      "abbreviations": []
+    },
+    {
+      "concept_id": "CHE_SOL_019",
+      "concept_name": "Depression in Freezing Point",
+      "parent_concept": "Colligative Properties",
+      "is_grouping_node": false,
+      "official_name": "Depression in Freezing Point",
+      "aliases": [],
+      "search_terms": [
+        "decrease in freezing point",
+        "solvent due to solute"
+      ],
+      "abbreviations": []
+    },
+    {
+      "concept_id": "CHE_SOL_020",
+      "concept_name": "Elevation in Boiling Point",
+      "parent_concept": "Colligative Properties",
+      "is_grouping_node": false,
+      "official_name": "Elevation in Boiling Point",
+      "aliases": [],
+      "search_terms": [
+        "increase in boiling point",
+        "solvent due to solute"
+      ],
+      "abbreviations": []
+    },
+    {
+      "concept_id": "CHE_SOL_021",
+      "concept_name": "Osmotic Pressure",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Osmotic Pressure",
+      "aliases": [],
+      "search_terms": [
+        "minimum external pressure",
+        "stop solvent flow"
+      ],
+      "abbreviations": []
+    },
+    {
+      "concept_id": "CHE_SOL_022",
+      "concept_name": "Isotonic Solutions",
+      "parent_concept": "Osmotic Pressure",
+      "is_grouping_node": false,
+      "official_name": "Isotonic Solutions",
+      "aliases": [],
+      "search_terms": [
+        "same osmotic pressure"
+      ],
+      "abbreviations": []
+    },
+    {
+      "concept_id": "CHE_SOL_023",
+      "concept_name": "Hypertonic Solutions",
+      "parent_concept": "Osmotic Pressure",
+      "is_grouping_node": false,
+      "official_name": "Hypertonic Solutions",
+      "aliases": [],
+      "search_terms": [
+        "higher osmotic pressure"
+      ],
+      "abbreviations": []
+    },
+    {
+      "concept_id": "CHE_SOL_024",
+      "concept_name": "Hypotonic Solutions",
+      "parent_concept": "Osmotic Pressure",
+      "is_grouping_node": false,
+      "official_name": "Hypotonic Solutions",
+      "aliases": [],
+      "search_terms": [
+        "lower osmotic pressure"
+      ],
+      "abbreviations": []
+    },
+    {
+      "concept_id": "CHE_SOL_025",
+      "concept_name": "Abnormal Molar Mass",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Abnormal Molar Mass",
+      "aliases": [],
+      "search_terms": [
+        "molar mass in solution",
+        "normal molar mass"
+      ],
+      "abbreviations": []
+    },
+    {
+      "concept_id": "CHE_SOL_026",
+      "concept_name": "Degree of Association",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Degree of Association",
+      "aliases": [],
+      "search_terms": [
+        "extent of association"
+      ],
+      "abbreviations": []
+    },
+    {
+      "concept_id": "CHE_SOL_027",
+      "concept_name": "Degree of Dissociation",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Degree of Dissociation",
+      "aliases": [],
+      "search_terms": [
+        "extent of dissociation"
+      ],
+      "abbreviations": []
+    },
+    {
+      "concept_id": "CHE_SOL_028",
+      "concept_name": "Henry’s Law",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Henry’s Law",
+      "aliases": [
+        "Gas Solubility Law",
+        "Partial Pressure Law"
+      ],
+      "search_terms": [
+        "partial pressure",
+        "mole fraction at temperature"
+      ],
+      "abbreviations": [
+        "KH"
+      ]
+    },
+    {
+      "concept_id": "CHE_SOL_029",
+      "concept_name": "Vant Hoff Factor (i)",
+      "parent_concept": "",
+      "is_grouping_node": false,
+      "official_name": "Vant Hoff Factor (i)",
+      "aliases": [],
+      "search_terms": [
+        "ratio of normal molecular mass to observed molecular mass"
+      ],
+      "abbreviations": []
+    }
+  ]
+}

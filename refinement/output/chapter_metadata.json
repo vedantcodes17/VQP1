@@ -1,0 +1,340 @@
+{
+  "chapter": "Solutions and Colligative Properties",
+  "concept_metadata": [
+    {
+      "concept_id": "CHE_SOL_001",
+      "importance": "high",
+      "chapter_weightage": "high",
+      "concept_category": "Core Concept",
+      "concept_type": "Conceptual",
+      "learning_objective": "Students should be able to define and describe a solution.",
+      "prerequisites": [
+        "CHE_SOL_002"
+      ],
+      "difficulty_hint": "medium",
+      "concept_name": "Solution"
+    },
+    {
+      "concept_id": "CHE_SOL_002",
+      "importance": "high",
+      "chapter_weightage": "high",
+      "concept_category": "Definition",
+      "concept_type": "Factual",
+      "learning_objective": "Students should be able to identify the components of a solution.",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "concept_name": "Components of Solution"
+    },
+    {
+      "concept_id": "CHE_SOL_003",
+      "importance": "high",
+      "chapter_weightage": "medium",
+      "concept_category": "Core Concept",
+      "concept_type": "Conceptual",
+      "learning_objective": "Students should be able to explain the concept of solubility.",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "concept_name": "Solubility"
+    },
+    {
+      "concept_id": "CHE_SOL_004",
+      "importance": "low",
+      "chapter_weightage": "low",
+      "concept_category": "Core Concept",
+      "concept_type": "Conceptual",
+      "learning_objective": "Students should be able to describe solid solutions.",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "concept_name": "Solid Solutions"
+    },
+    {
+      "concept_id": "CHE_SOL_005",
+      "importance": "low",
+      "chapter_weightage": "low",
+      "concept_category": "Core Concept",
+      "concept_type": "Conceptual",
+      "learning_objective": "Students should be able to describe substitutional solid solutions.",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "concept_name": "Substitutional Solid Solution"
+    },
+    {
+      "concept_id": "CHE_SOL_006",
+      "importance": "low",
+      "chapter_weightage": "low",
+      "concept_category": "Core Concept",
+      "concept_type": "Conceptual",
+      "learning_objective": "Students should be able to describe interstitial solid solutions.",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "concept_name": "Interstitial Solid Solution"
+    },
+    {
+      "concept_id": "CHE_SOL_007",
+      "importance": "low",
+      "chapter_weightage": "low",
+      "concept_category": "Core Concept",
+      "concept_type": "Conceptual",
+      "learning_objective": "Students should be able to explain mass percentage.",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "concept_name": "Mass Percentage"
+    },
+    {
+      "concept_id": "CHE_SOL_008",
+      "importance": "low",
+      "chapter_weightage": "low",
+      "concept_category": "Core Concept",
+      "concept_type": "Conceptual",
+      "learning_objective": "Students should be able to describe mole fraction.",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "concept_name": "Mole Fraction"
+    },
+    {
+      "concept_id": "CHE_SOL_009",
+      "importance": "high",
+      "chapter_weightage": "high",
+      "concept_category": "Core Concept",
+      "concept_type": "Factual",
+      "learning_objective": "Students should be able to calculate and interpret molarity (M) of a solution.",
+      "prerequisites": [],
+      "difficulty_hint": "medium",
+      "concept_name": "Molarity (M)"
+    },
+    {
+      "concept_id": "CHE_SOL_010",
+      "importance": "low",
+      "chapter_weightage": "low",
+      "concept_category": "Core Concept",
+      "concept_type": "Factual",
+      "learning_objective": "Students should be able to understand the concept of molality (m) and its application.",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "concept_name": "Molality (m)"
+    },
+    {
+      "concept_id": "CHE_SOL_011",
+      "importance": "low",
+      "chapter_weightage": "low",
+      "concept_category": "Core Concept",
+      "concept_type": "Factual",
+      "learning_objective": "Students should be able to understand the concept of parts per million (ppm) and its application.",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "concept_name": "Parts per million (ppm)"
+    },
+    {
+      "concept_id": "CHE_SOL_012",
+      "importance": "low",
+      "chapter_weightage": "low",
+      "concept_category": "Core Concept",
+      "concept_type": "Factual",
+      "learning_objective": "Students should be able to understand the concept of vapour pressure and its relation with temperature.",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "concept_name": "Vapour Pressure"
+    },
+    {
+      "concept_id": "CHE_SOL_013",
+      "importance": "low",
+      "chapter_weightage": "low",
+      "concept_category": "Core Concept",
+      "concept_type": "Factual",
+      "learning_objective": "Students should be able to understand Raoult’s Law and its application.",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "concept_name": "Raoult’s Law"
+    },
+    {
+      "concept_id": "CHE_SOL_014",
+      "importance": "medium",
+      "chapter_weightage": "high",
+      "concept_category": "Core Concept",
+      "concept_type": "Factual",
+      "learning_objective": "Students should be able to understand the concept of an ideal solution and its properties.",
+      "prerequisites": [],
+      "difficulty_hint": "medium",
+      "concept_name": "Ideal Solution"
+    },
+    {
+      "concept_id": "CHE_SOL_015",
+      "importance": "medium",
+      "chapter_weightage": "high",
+      "concept_category": "Core Concept",
+      "concept_type": "Factual",
+      "learning_objective": "Students should be able to understand the concept of a non-ideal solution and its properties.",
+      "prerequisites": [],
+      "difficulty_hint": "medium",
+      "concept_name": "Non-Ideal Solution"
+    },
+    {
+      "concept_id": "CHE_SOL_016",
+      "importance": "high",
+      "chapter_weightage": "high",
+      "concept_category": "Core Concept",
+      "concept_type": "Factual",
+      "learning_objective": "Students should be able to understand the concept of an azeotrope and its properties.",
+      "prerequisites": [],
+      "difficulty_hint": "medium",
+      "concept_name": "Azeotrope"
+    },
+    {
+      "concept_id": "CHE_SOL_017",
+      "importance": "high",
+      "chapter_weightage": "medium",
+      "concept_category": "Core Concept",
+      "concept_type": "Conceptual",
+      "learning_objective": "Students should be able to explain colligative properties and their dependence on the number of solute particles.",
+      "prerequisites": [
+        "CHE_SOL_018"
+      ],
+      "difficulty_hint": "medium",
+      "concept_name": "Colligative Properties"
+    },
+    {
+      "concept_id": "CHE_SOL_018",
+      "importance": "high",
+      "chapter_weightage": "low",
+      "concept_category": "Core Concept",
+      "concept_type": "Conceptual",
+      "learning_objective": "Students should be able to describe the concept of relative lowering of vapour pressure and its relation with solute concentration.",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "concept_name": "Relative Lowering of Vapour Pressure"
+    },
+    {
+      "concept_id": "CHE_SOL_019",
+      "importance": "high",
+      "chapter_weightage": "medium",
+      "concept_category": "Core Concept",
+      "concept_type": "Conceptual",
+      "learning_objective": "Students should be able to explain the concept of depression in freezing point and its relation with solute concentration.",
+      "prerequisites": [
+        "CHE_SOL_018"
+      ],
+      "difficulty_hint": "medium",
+      "concept_name": "Depression in Freezing Point"
+    },
+    {
+      "concept_id": "CHE_SOL_020",
+      "importance": "high",
+      "chapter_weightage": "low",
+      "concept_category": "Core Concept",
+      "concept_type": "Conceptual",
+      "learning_objective": "Students should be able to describe the concept of elevation in boiling point and its relation with solute concentration.",
+      "prerequisites": [
+        "CHE_SOL_018"
+      ],
+      "difficulty_hint": "easy",
+      "concept_name": "Elevation in Boiling Point"
+    },
+    {
+      "concept_id": "CHE_SOL_021",
+      "importance": "high",
+      "chapter_weightage": "medium",
+      "concept_category": "Core Concept",
+      "concept_type": "Conceptual",
+      "learning_objective": "Students should be able to explain the concept of osmotic pressure and its relation with solute concentration.",
+      "prerequisites": [
+        "CHE_SOL_018"
+      ],
+      "difficulty_hint": "medium",
+      "concept_name": "Osmotic Pressure"
+    },
+    {
+      "concept_id": "CHE_SOL_022",
+      "importance": "high",
+      "chapter_weightage": "low",
+      "concept_category": "Core Concept",
+      "concept_type": "Conceptual",
+      "learning_objective": "Students should be able to describe the concept of isotonic solutions and their osmotic pressure.",
+      "prerequisites": [
+        "CHE_SOL_021"
+      ],
+      "difficulty_hint": "easy",
+      "concept_name": "Isotonic Solutions"
+    },
+    {
+      "concept_id": "CHE_SOL_023",
+      "importance": "high",
+      "chapter_weightage": "low",
+      "concept_category": "Core Concept",
+      "concept_type": "Conceptual",
+      "learning_objective": "Students should be able to explain the concept of hypertonic solutions and their osmotic pressure.",
+      "prerequisites": [
+        "CHE_SOL_021"
+      ],
+      "difficulty_hint": "easy",
+      "concept_name": "Hypertonic Solutions"
+    },
+    {
+      "concept_id": "CHE_SOL_024",
+      "importance": "high",
+      "chapter_weightage": "low",
+      "concept_category": "Core Concept",
+      "concept_type": "Conceptual",
+      "learning_objective": "Students should be able to describe the concept of hypotonic solutions and their osmotic pressure.",
+      "prerequisites": [
+        "CHE_SOL_021"
+      ],
+      "difficulty_hint": "easy",
+      "concept_name": "Hypotonic Solutions"
+    },
+    {
+      "concept_id": "CHE_SOL_025",
+      "importance": "low",
+      "chapter_weightage": "low",
+      "concept_category": "Definition",
+      "concept_type": "Conceptual",
+      "learning_objective": "Students should be able to understand the concept of abnormal molar mass in solutions.",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "concept_name": "Abnormal Molar Mass"
+    },
+    {
+      "concept_id": "CHE_SOL_026",
+      "importance": "medium",
+      "chapter_weightage": "high",
+      "concept_category": "Definition",
+      "concept_type": "Conceptual",
+      "learning_objective": "Students should be able to explain the concept of degree of association in solution.",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "concept_name": "Degree of Association"
+    },
+    {
+      "concept_id": "CHE_SOL_027",
+      "importance": "high",
+      "chapter_weightage": "medium",
+      "concept_category": "Definition",
+      "concept_type": "Conceptual",
+      "learning_objective": "Students should be able to describe the concept of degree of dissociation in solution.",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "concept_name": "Degree of Dissociation"
+    },
+    {
+      "concept_id": "CHE_SOL_028",
+      "importance": "medium",
+      "chapter_weightage": "high",
+      "concept_category": "Law/Formula",
+      "concept_type": "Conceptual",
+      "learning_objective": "Students should be able to apply Henry’s Law in solving problems related to gas solubility.",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "concept_name": "Henry’s Law"
+    },
+    {
+      "concept_id": "CHE_SOL_029",
+      "importance": "low",
+      "chapter_weightage": "low",
+      "concept_category": "Definition",
+      "concept_type": "Conceptual",
+      "learning_objective": "Students should be able to understand the concept of Vant Hoff Factor (i) in solution.",
+      "prerequisites": [],
+      "difficulty_hint": "easy",
+      "concept_name": "Vant Hoff Factor (i)"
+    }
+  ]
+}

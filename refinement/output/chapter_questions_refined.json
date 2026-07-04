@@ -1,0 +1,447 @@
+{
+  "chapter": "Solutions and Colligative Properties",
+  "question_bank": [
+    {
+      "question_id": "RQ001",
+      "question": "What do you mean by Henry’s Law?",
+      "answer": "",
+      "question_type": "important",
+      "linked_concepts": [
+        "CHE_SOL_028"
+      ],
+      "source_question_ids": [
+        "TN_Q001"
+      ]
+    },
+    {
+      "question_id": "RQ002",
+      "question": "The Henry’s Law constant for oxygen dissolved in water is 4.34×104 atm at 25°C. If the partial pressure of oxygen in air is 0.2 atm, under atmospheric pressure conditions. Calculate the concentration in moles per Litre of dissolved oxygen in water in equilibrium with water air at 25°C.",
+      "answer": "",
+      "question_type": "numerical",
+      "linked_concepts": [
+        "CHE_SOL_028"
+      ],
+      "source_question_ids": [
+        "TN_Q002"
+      ]
+    },
+    {
+      "question_id": "RQ003",
+      "question": "What is Vant Hoff factor?",
+      "answer": "",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_019",
+        "CHE_SOL_027"
+      ],
+      "source_question_ids": [
+        "TN_Q003"
+      ]
+    },
+    {
+      "question_id": "RQ004",
+      "question": "Ans. It is the ratio of normal molecular mass to observed molecular mass .It is denoted as ‘i’ i = Theoretical Molar mass / observed molar mass = Observed no. of particles / Actual no. of particles = Observed colligative property/Theoretical colligative property",
+      "answer": "",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_019",
+        "CHE_SOL_027"
+      ],
+      "source_question_ids": [
+        "TN_Q004"
+      ]
+    },
+    {
+      "question_id": "RQ005",
+      "question": "What is the Vant Hoff factor in K4[Fe(CN)6] and BaCl2 ?",
+      "answer": "5 and 3",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_019",
+        "CHE_SOL_027"
+      ],
+      "source_question_ids": [
+        "TN_Q005",
+        "TN_Q006"
+      ]
+    },
+    {
+      "question_id": "RQ006",
+      "question": "Why the molecular mass becomes abnormal?",
+      "answer": "",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_026",
+        "CHE_SOL_027"
+      ],
+      "source_question_ids": [
+        "TN_Q007"
+      ]
+    },
+    {
+      "question_id": "RQ007",
+      "question": "Ans. Due to association or dissociation of solute in given solvent.",
+      "answer": "A – A and B – B type interactions are more than A – B type interactions. Positive deviation from ideal behaviour is observed.",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_026",
+        "CHE_SOL_027",
+        "CHE_SOL_015"
+      ],
+      "source_question_ids": [
+        "TN_Q008",
+        "TN_Q013"
+      ]
+    },
+    {
+      "question_id": "RQ008",
+      "question": "Define molarity?",
+      "answer": "",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_009"
+      ],
+      "source_question_ids": [
+        "TN_Q009"
+      ]
+    },
+    {
+      "question_id": "RQ009",
+      "question": "How molarity is related with percentage and density of solution ?",
+      "answer": "M = P x Percentage of density x 10/molar mass",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_009",
+        "CHE_SOL_001"
+      ],
+      "source_question_ids": [
+        "TN_Q010",
+        "TN_Q011"
+      ]
+    },
+    {
+      "question_id": "RQ010",
+      "question": "What role does the molecular interaction play in the solution of alcohol and water?",
+      "answer": "",
+      "question_type": "important",
+      "linked_concepts": [
+        "CHE_SOL_015",
+        "CHE_SOL_027",
+        "CHE_SOL_001"
+      ],
+      "source_question_ids": [
+        "TN_Q012"
+      ]
+    },
+    {
+      "question_id": "RQ011",
+      "question": "What is Vant Hoff factor, how is it related with a. degree of dissociation b. degree of association",
+      "answer": "a. α=i – 1/n-1 b. α = i -1 / 1/n -1",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_019",
+        "CHE_SOL_027",
+        "CHE_SOL_026"
+      ],
+      "source_question_ids": [
+        "TN_Q014",
+        "TN_Q015"
+      ]
+    },
+    {
+      "question_id": "RQ012",
+      "question": "Why is NaCl used to clear snow from roads?",
+      "answer": "It lowers f.p of water",
+      "question_type": "important",
+      "linked_concepts": [
+        "CHE_SOL_019",
+        "CHE_SOL_027"
+      ],
+      "source_question_ids": [
+        "TN_Q016",
+        "TN_Q017"
+      ]
+    },
+    {
+      "question_id": "RQ013",
+      "question": "Why is the boiling point of solution higher than pure liquid?",
+      "answer": "Due to lowering in V.P.",
+      "question_type": "important",
+      "linked_concepts": [
+        "CHE_SOL_019",
+        "CHE_SOL_027",
+        "CHE_SOL_001"
+      ],
+      "source_question_ids": [
+        "TN_Q018",
+        "TN_Q019"
+      ]
+    },
+    {
+      "question_id": "RQ014",
+      "question": "Out of 1M and 1m aqueous solution which is more concentrated?",
+      "answer": "1M as density of water is 1gm/ml",
+      "question_type": "important",
+      "linked_concepts": [
+        "CHE_SOL_009",
+        "CHE_SOL_001"
+      ],
+      "source_question_ids": [
+        "TN_Q020",
+        "TN_Q021"
+      ]
+    },
+    {
+      "question_id": "RQ015",
+      "question": "Henry’s law constant for two gases are 21.5 and 49.5 atm, which gas is more soluble?",
+      "answer": "KH is inversely proportional to solubility. Hence gas with KH = 21.5 atm is more soluble.",
+      "question_type": "important",
+      "linked_concepts": [
+        "CHE_SOL_028",
+        "CHE_SOL_003"
+      ],
+      "source_question_ids": [
+        "TN_Q022",
+        "TN_Q023"
+      ]
+    },
+    {
+      "question_id": "RQ016",
+      "question": "Define azeotrope. Give an example of maximum boiling azeotrope.",
+      "answer": "5 and 3",
+      "question_type": "important",
+      "linked_concepts": [
+        "CHE_SOL_016",
+        "CHE_SOL_027"
+      ],
+      "source_question_ids": [
+        "TN_Q024",
+        "TN_Q025"
+      ]
+    },
+    {
+      "question_id": "RQ017",
+      "question": "Calculate the volume of 75% of H2SO4 by weight (d=1.8 gm/ml) required to prepare 1L of 0.2M solution.",
+      "answer": "M1 = P x d x 10 /98 M1 V1 = M2V2 14.5ml",
+      "question_type": "numerical",
+      "linked_concepts": [
+        "CHE_SOL_009",
+        "CHE_SOL_001"
+      ],
+      "source_question_ids": [
+        "TN_Q026",
+        "TN_Q027"
+      ]
+    },
+    {
+      "question_id": "RQ018",
+      "question": "What is the full form of R.O. Purifier?",
+      "answer": "",
+      "question_type": "self_assessment",
+      "linked_concepts": [
+        "CHE_SOL_027"
+      ],
+      "source_question_ids": [
+        "TN_Q028",
+        "TN_Q029"
+      ]
+    },
+    {
+      "question_id": "RQ019",
+      "question": "What is the function of Porous membrane?",
+      "answer": "",
+      "question_type": "self_assessment",
+      "linked_concepts": [
+        "CHE_SOL_027"
+      ],
+      "source_question_ids": [
+        "TN_Q030"
+      ]
+    },
+    {
+      "question_id": "RQ020",
+      "question": "Ans.",
+      "answer": "",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_027"
+      ],
+      "source_question_ids": [
+        "TN_Q031"
+      ]
+    },
+    {
+      "question_id": "RQ021",
+      "question": "Which method of purification is more economical for countries using sea water, flash distillation or reverse osmosis for getting potable water. Why?",
+      "answer": "",
+      "question_type": "self_assessment",
+      "linked_concepts": [
+        "CHE_SOL_027"
+      ],
+      "source_question_ids": [
+        "TN_Q032"
+      ]
+    },
+    {
+      "question_id": "RQ022",
+      "question": "Ans.",
+      "answer": "",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_027"
+      ],
+      "source_question_ids": [
+        "TN_Q033"
+      ]
+    },
+    {
+      "question_id": "RQ023",
+      "question": "Water is used as coolant in vehicles. In cars, ethylene glycol is used as coolant. In cold countries, water gets frozen so it cannot act as coolant. Ethylene glycol is added to water so that its freezing point is lower and it does not freeze.",
+      "answer": "",
+      "question_type": "self_assessment",
+      "linked_concepts": [
+        "CHE_SOL_019",
+        "CHE_SOL_027"
+      ],
+      "source_question_ids": [
+        "TN_Q034"
+      ]
+    },
+    {
+      "question_id": "RQ024",
+      "question": "At hill station snow fall takes place. Clearing the snow from the road is essential for smooth running of traffic- (a)What is the role of ethylene glycol when added to water? (b)Why does sprinkling of salt help in clearing snow covered roads in hilly areas? Explain the phenomenon involved in the process. (c)How is life of people affected by snow fall?",
+      "answer": "",
+      "question_type": "self_assessment",
+      "linked_concepts": [
+        "CHE_SOL_019",
+        "CHE_SOL_027"
+      ],
+      "source_question_ids": [
+        "TN_Q035"
+      ]
+    },
+    {
+      "question_id": "RQ025",
+      "question": "(a) What is the role of ethylene glycol when added to water? (b) Why does sprinkling of salt help in clearing snow covered roads in hilly areas? Explain the phenomenon involved in the process. (c) How is life of people affected by snow fall?",
+      "answer": "",
+      "question_type": "self_assessment",
+      "linked_concepts": [
+        "CHE_SOL_019",
+        "CHE_SOL_027"
+      ],
+      "source_question_ids": [
+        "TN_Q036"
+      ]
+    },
+    {
+      "question_id": "RQ026",
+      "question": "(a) Define the following terms. 3.Mole fraction 4.Ideal solution (b) 15 g of an unknown molecular material is dissolved in 450 g of water. The resulting solution frrezez at -8.00C (kf = 1.86 K kg /mol). What is the molar mass of material?",
+      "answer": "",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_003",
+        "CHE_SOL_014",
+        "CHE_SOL_001",
+        "CHE_SOL_008"
+      ],
+      "source_question_ids": [
+        "TN_Q037"
+      ]
+    },
+    {
+      "question_id": "RQ027",
+      "question": "Ans. Since KCl dissociate in water completely L=2 ∆𝑇𝑓=𝑖𝑘𝑓 ×𝑚 ; m =∆𝑇𝑓/𝑖𝑘𝑓 m= 8 / 2X1.86 = 2.15mol/kg. Grams of KCl= 2.15 X 74.5 = 160.2 g.",
+      "answer": "",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_003",
+        "CHE_SOL_014"
+      ],
+      "source_question_ids": [
+        "TN_Q038"
+      ]
+    },
+    {
+      "question_id": "RQ028",
+      "question": "(a) Explain the following : 1.Henry’s law about dissolution of a gas in a liquid. 2.Boling point elevation constant for a solvent (b) A solution of glycerol (C3H8O3) in water was prepared by dissolving some glycerol in in 500 g of water. The solution has a boiling point of 100.42 0C . What mass of glycerol was dissolved to make this solution? Kb for water = 0.512 K Kg mol-1 (hint: Tb = KB x WB x 1000 MB x WA)",
+      "answer": "",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_028",
+        "CHE_SOL_019",
+        "CHE_SOL_001"
+      ],
+      "source_question_ids": [
+        "TN_Q039"
+      ]
+    },
+    {
+      "question_id": "RQ029",
+      "question": "Ans. 37.73 g",
+      "answer": "",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_028",
+        "CHE_SOL_019"
+      ],
+      "source_question_ids": [
+        "TN_Q040"
+      ]
+    },
+    {
+      "question_id": "RQ030",
+      "question": "2 g of benzoic acid (C6H5COOH) dissolved in 25 g of benzene shows a depression in freezing point equal to 1.62 K .Kf for benzene is 4.9 K Kg mol-1. What is the percentage association of acid if it forms dimer in solution.",
+      "answer": "",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_027",
+        "CHE_SOL_026",
+        "CHE_SOL_001",
+        "CHE_SOL_019"
+      ],
+      "source_question_ids": [
+        "TN_Q041"
+      ]
+    },
+    {
+      "question_id": "RQ031",
+      "question": "Ans. 99.2%",
+      "answer": "",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_027",
+        "CHE_SOL_026"
+      ],
+      "source_question_ids": [
+        "TN_Q042"
+      ]
+    },
+    {
+      "question_id": "RQ032",
+      "question": "Osmotic pressure of a 0.0103 molar solution of an electrolyte is found to be 0.70 atm at 270C. Calculate Vant Hoff factor.( R=0.082 L atom mol-1 K-1)",
+      "answer": "",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_021",
+        "CHE_SOL_019",
+        "CHE_SOL_001"
+      ],
+      "source_question_ids": [
+        "TN_Q043"
+      ]
+    },
+    {
+      "question_id": "RQ033",
+      "question": "Ans. 2.76",
+      "answer": "",
+      "question_type": "short_answer",
+      "linked_concepts": [
+        "CHE_SOL_021",
+        "CHE_SOL_019"
+      ],
+      "source_question_ids": [
+        "TN_Q044"
+      ]
+    }
+  ]
+}
