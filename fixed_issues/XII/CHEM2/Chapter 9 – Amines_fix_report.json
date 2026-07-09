@@ -1,0 +1,48 @@
+{
+    "chapter": "Chapter 9 – Amines",
+    "total_formulas": 149,
+    "repaired": 7,
+    "failed": 0,
+    "ocr_fixes": 93,
+    "latex_fixes": 7,
+    "markdown_fixes": 17,
+    "processing_time_sec": 0.021,
+    "changes": [
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{\\underline{{A r N H}}_{2}},",
+            "after": "\\mathrm{\\underline{A r N H}_{2}},"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\begin{array}{l}\\mathrm{RNH_2\\xrightarrow{RX}R_2NH\\xrightarrow{RX}R_3N\\xrightarrow{RX}R_4\\xrightarrow{RX}R_4\\xrightarrow{RX}}\\\\\\mathrm{(1^{\\circ})\\quad(2^{\\circ})\\quad(3^{\\circ})\\quad}\\mathrm{ammonium\\;salt}\\end{array}",
+            "after": "\\begin{array}{l}\\mathrm{RNH_2\\xrightarrow{RX}R_2NH\\xrightarrow{RX}R_3N\\xrightarrow{RX}R_4\\xrightarrow{RX}R_4\\xrightarrow{RX}}\\\\mathrm{(1^{\\circ})\\quad(2^{\\circ})\\quad(3^{\\circ})\\quad}\\mathrm{ammonium\\;salt}\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\begin{array}{l}\\text{(ii)}\\mathrm{CH_3-CH_2-Cl into CH_3-CH_2-CH_2-NH_2}\\\\\\text{(ii)}\\mathrm{C_6H_5-CH_2-Cl into C_6H_5-CH_2-CH_2-NH_2}\\end{array}",
+            "after": "\\begin{array}{l}\\text{(ii)}\\mathrm{CH_3-CH_2-Cl into CH_3-CH_2-CH_2-NH_2}\\\\text{(ii)}\\mathrm{C_6H_5-CH_2-Cl into C_6H_5-CH_2-CH_2-NH_2}\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "Write chemical equations for the following conversions:\\begin{array}{l}\\text{(ii)}\\mathrm{CH_3-CH_2-Cl into CH_3-CH_2-CH_2-NH_2}\\\\\\text{(ii)}\\mathrm{C_6H_5-CH_2-Cl into C_6H_5-CH_2-CH_2-NH_2}\\end{array}",
+            "after": "Write chemical equations for the following conversions:\\begin{array}{l}\\text{(ii)}\\mathrm{CH_3-CH_2-Cl into CH_3-CH_2-CH_2-NH_2}\\\\text{(ii)}\\mathrm{C_6H_5-CH_2-Cl into C_6H_5-CH_2-CH_2-NH_2}\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\begin{array}{c}\\mathrm{C}_{0}\\mathrm{H}_{5}-\\mathrm{\\dot{N}}-\\mathrm{H}+\\mathrm{CH}_{3}-\\mathrm{C}-\\mathrm{O}-\\mathrm{C}-\\mathrm{CH}_{3}\\xrightarrow{\\mathrm{C}_{0}\\mathrm{H}_{5}-\\mathrm{\\dot{N}}-\\mathrm{C}-\\mathrm{CH}_{3}+\\mathrm{CH}_{3}\\mathrm{COOH}}\\\\\\mathrm{H}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{C}_{0}\\mathrm{H}_{5}-\\mathrm{\\dot{N}}-\\mathrm{H}+\\mathrm{CH}_{3}-\\mathrm{C}-\\mathrm{O}-\\mathrm{C}-\\mathrm{CH}_{3}\\xrightarrow{\\mathrm{C}_{0}\\mathrm{H}_{5}-\\mathrm{\\dot{N}}-\\mathrm{C}-\\mathrm{CH}_{3}+\\mathrm{CH}_{3}\\mathrm{COOH}}\\\\mathrm{H}\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\begin{array}{c}\\textcircled{O}\\underbrace{\\overset{\\textcircled{1}}{\\underset{\\textcircled{1}}{\\longrightarrow}}}_{\\textcircled{O}}\\underbrace{\\overset{\\textcircled{1}}{\\underset{\\textcircled{1}}{\\longrightarrow}}}_{\\textcircled{1}}+\\underbrace{\\overset{\\textcircled{1}}{\\underset{\\textcircled{1}}{\\longrightarrow}}}_{\\textcircled{1}}\\underbrace{\\overset{\\textcircled{1}}{\\longrightarrow}}_{\\textcircled{1}}\\underbrace{\\overset{\\textcircled{1}}{\\underset{\\textcircled{1}}{\\longrightarrow}}}_{N-Ethylbenzenesulphonamide}+\\underbrace{\\overset{\\textcircled{1}}{\\underset{\\textcircled{1}}{\\longrightarrow}}}_{(soluble in allkil)}\\\\\\end{array}",
+            "after": "\\begin{array}{c}\\textcircled{O}\\underbrace{\\overset{\\textcircled{1}}{\\underset{\\textcircled{1}}{\\longrightarrow}}}_{\\textcircled{O}}\\underbrace{\\overset{\\textcircled{1}}{\\underset{\\textcircled{1}}{\\longrightarrow}}}_{\\textcircled{1}}+\\underbrace{\\overset{\\textcircled{1}}{\\underset{\\textcircled{1}}{\\longrightarrow}}}_{\\textcircled{1}}\\underbrace{\\overset{\\textcircled{1}}{\\longrightarrow}}_{\\textcircled{1}}\\underbrace{\\overset{\\textcircled{1}}{\\underset{\\textcircled{1}}{\\longrightarrow}}}_{N-Ethylbenzenesulphonamide}+\\underbrace{\\overset{\\textcircled{1}}{\\underset{\\textcircled{1}}{\\longrightarrow}}}_{(soluble in allkil)}\\\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\begin{array}{l}\\mathrm{Ar\\overset{+}{N_{2}}\\overset{-}{Cl}~+~H_{3}PO_{2}+~H_{2}O\\longrightarrow~ArH~+~N_{2}~+~H_{3}PO_{3}+~HCl}\\\\\\mathrm{Ar\\overset{+}{N_{2}}\\overset{-}{Cl}~+~CH_{3}CH_{2}OH\\longrightarrow~ArH~+~N_{2}~+~CH_{3}CHO~+~HCl}\\end{array}",
+            "after": "\\begin{array}{l}\\mathrm{Ar\\overset{+}{N_{2}}\\overset{-}{Cl}~+~H_{3}PO_{2}+~H_{2}O\\longrightarrow~ArH~+~N_{2}~+~H_{3}PO_{3}+~HCl}\\\\mathrm{Ar\\overset{+}{N_{2}}\\overset{-}{Cl}~+~CH_{3}CH_{2}OH\\longrightarrow~ArH~+~N_{2}~+~CH_{3}CHO~+~HCl}\\end{array}"
+        }
+    ],
+    "failed_equations": []
+}

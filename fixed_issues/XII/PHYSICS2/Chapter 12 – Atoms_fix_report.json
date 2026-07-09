@@ -1,0 +1,43 @@
+{
+    "chapter": "Chapter 12 – Atoms",
+    "total_formulas": 115,
+    "repaired": 6,
+    "failed": 0,
+    "ocr_fixes": 100,
+    "latex_fixes": 6,
+    "markdown_fixes": 8,
+    "processing_time_sec": 0.014,
+    "changes": [
+        {
+            "type": "brace_fix",
+            "before": "10^{-15}\\mathrm{m})",
+            "after": "10^{-15}\\mathrm{m}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\stackrel{\\sim}{(\\mathrm{r a d i u s}}\\approx10^{-10}",
+            "after": "\\stackrel{\\sim}{(\\mathrm{r a d i u s}}\\approx10^{-10})"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\left\\{\\begin{aligned}\\overline{F_{_e}}&=\\overline{F_{_c}}\\\\ \\frac{1}{4\\pi\\varepsilon_{_0}}&\\frac{e^{^2}}{r^{^2}}=\\frac{m v^{^2}}{r}\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}\\overline{F_{_e}}&=\\overline{F_{_c}}\\\\ \\frac{1}{4\\pi\\varepsilon_{_0}}&\\frac{e^{^2}}{r^{^2}}=\\frac{m v^{^2}}{r}\\end{aligned}\\right.}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\left\\{\\begin{aligned}E=K+U&=\\frac{e^{2}}{8\\pi\\varepsilon_{0}r}-\\frac{e^{2}}{4\\pi\\varepsilon_{0}r}\\\\ &\\cdot\\\\ &=-\\frac{e^{2}}{8\\pi\\varepsilon_{0}r}\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}E=K+U&=\\frac{e^{2}}{8\\pi\\varepsilon_{0}r}-\\frac{e^{2}}{4\\pi\\varepsilon_{0}r}\\\\ &\\cdot\\\\ &=-\\frac{e^{2}}{8\\pi\\varepsilon_{0}r}\\end{aligned}\\right.}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "=5.3\\times10^{\\mathrm{{-11}}}\\;\\mathrm{{m}.}",
+            "after": "=5.3\\times10^{\\mathrm{-11}}\\;\\mathrm{{m}.}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\left\\{\\begin{aligned}{E_{_n}}&{{}=-\\frac{m e^{^4}}{8n^{^2}\\varepsilon_{^0}^{^2}h^{^2}}}\\\\ {}&{{}=-13.6~\\mathrm{e V/}n^{^2}}\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}{E_{_n}}&{{}=-\\frac{m e^{^4}}{8n^{^2}\\varepsilon_{^0}^{^2}h^{^2}}}\\\\ {}&{{}=-13.6~\\mathrm{e V/}n^{^2}}\\end{aligned}\\right.}"
+        }
+    ],
+    "failed_equations": []
+}

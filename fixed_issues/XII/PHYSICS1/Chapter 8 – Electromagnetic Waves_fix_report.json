@@ -1,0 +1,23 @@
+{
+    "chapter": "Chapter 8 – Electromagnetic Waves",
+    "total_formulas": 99,
+    "repaired": 2,
+    "failed": 0,
+    "ocr_fixes": 98,
+    "latex_fixes": 2,
+    "markdown_fixes": 12,
+    "processing_time_sec": 0.013,
+    "changes": [
+        {
+            "type": "brace_fix",
+            "before": "3\\times10^{8}\\:\\mathrm{m/s)}",
+            "after": "3\\times10^{8}\\:\\mathrm{m/s}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "i_{\\mathrm{d}}^{\\mathrm{~}}\\left(=\\varepsilon_{0}^{\\mathrm{~}}\\right.",
+            "after": "i_{\\mathrm{d}}^{\\mathrm{~}}\\left(=\\varepsilon_{0}^{\\mathrm{~}}\\right.)"
+        }
+    ],
+    "failed_equations": []
+}

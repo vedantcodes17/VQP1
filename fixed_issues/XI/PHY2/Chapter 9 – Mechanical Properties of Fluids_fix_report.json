@@ -1,0 +1,83 @@
+{
+    "chapter": "Chapter 9 – Mechanical Properties of Fluids",
+    "total_formulas": 234,
+    "repaired": 14,
+    "failed": 0,
+    "ocr_fixes": 176,
+    "latex_fixes": 14,
+    "markdown_fixes": 12,
+    "processing_time_sec": 0.029,
+    "changes": [
+        {
+            "type": "brace_fix",
+            "before": "g=10\\mathrm{~m~}\\mathrm{s^{-2}})",
+            "after": "g=10\\mathrm{~m~}\\mathrm{s^{-2}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "P_{\\mathrm{{r}}}",
+            "after": "P_{\\mathrm{r}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\varrho=10\\mathrm{m s^{-2}}.)",
+            "after": "\\varrho=10\\mathrm{m s^{-2}}."
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\uprho=1.03\\times10^{3}\\mathrm{k g}\\mathrm{m^{-3}}{\\begin{array}{r l}{{\\tt~(a)}}&{\\operatorname{F r o m}\\operatorname{E q.~(9.6)}\\operatorname{m r a i d}\\operatorname{p}=1.05\\times10^{5}\\mathrm{k g}\\mathrm{m}^{3}}\\\\ {\\operatorname{F r o m}\\operatorname{E q.~(9.6)},{\\mathrm{a b s o l u t e~p r e s s u r e}}}\\\\ &{P=P_{\\mathrm{a}}+\\uprho g h}\\\\ &{=1.01\\times10^{5}\\mathrm{P a}}\\\\ &{\\quad+1.03\\times10^{3}\\mathrm{k g}\\mathrm{m}^{-3}\\times10\\mathrm{m}\\mathrm{s}^{-2}\\times1000\\mathrm{m}}\\\\ &{=104.01\\times10^{5}\\mathrm{P a}}\\\\ &{\\approx104\\mathrm{a t m}}\\end{array}}",
+            "after": "\\uprho=1.03\\times10^{3}\\mathrm{k g}\\mathrm{m^{-3}}{\\begin{array}{r l}{\\tt~(a)}&{\\operatorname{F r o m}\\operatorname{E q.~(9.6)}\\operatorname{m r a i d}\\operatorname{p}=1.05\\times10^{5}\\mathrm{k g}\\mathrm{m}^{3}}\\\\ {\\operatorname{F r o m}\\operatorname{E q.~(9.6)},{\\mathrm{a b s o l u t e~p r e s s u r e}}}\\\\ &{P=P_{\\mathrm{a}}+\\uprho g h}\\\\ &{=1.01\\times10^{5}\\mathrm{P a}}\\\\ &{\\quad+1.03\\times10^{3}\\mathrm{k g}\\mathrm{m}^{-3}\\times10\\mathrm{m}\\mathrm{s}^{-2}\\times1000\\mathrm{m}}\\\\ &{=104.01\\times10^{5}\\mathrm{P a}}\\\\ &{\\approx104\\mathrm{a t m}}\\end{array}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "m and \\uprho=1.03\\times10^{3}\\mathrm{k g}\\mathrm{m^{-3}}{\\begin{array}{r l}{{\\tt~(a)}}&{\\operatorname{F r o m}\\operatorname{E q.~(9.6)}\\operatorname{m r a i d}\\operatorname{p}=1.05\\times10^{5}\\mathrm{k g}\\mathrm{m}^{3}}\\\\ {\\operatorname{F r o m}\\operatorname{E q.~(9.6)},{\\mathrm{a b s o l u t e~p r e s s u r e}}}\\\\ &{P=P_{\\mathrm{a}}+\\uprho g h}\\\\ &{=1.01\\times10^{5}\\mathrm{P a}}\\\\ &{\\quad+1.03\\times10^{3}\\mathrm{k g}\\mathrm{m}^{-3}\\times10\\mathrm{m}\\mathrm{s}^{-2}\\times1000\\mathrm{m}}\\\\ &{=104.01\\times10^{5}\\mathrm{P a}}\\\\ &{\\approx104\\mathrm{a t m}}\\end{array}}",
+            "after": "m and \\uprho=1.03\\times10^{3}\\mathrm{k g}\\mathrm{m^{-3}}{\\begin{array}{r l}{\\tt~(a)}&{\\operatorname{F r o m}\\operatorname{E q.~(9.6)}\\operatorname{m r a i d}\\operatorname{p}=1.05\\times10^{5}\\mathrm{k g}\\mathrm{m}^{3}}\\\\ {\\operatorname{F r o m}\\operatorname{E q.~(9.6)},{\\mathrm{a b s o l u t e~p r e s s u r e}}}\\\\ &{P=P_{\\mathrm{a}}+\\uprho g h}\\\\ &{=1.01\\times10^{5}\\mathrm{P a}}\\\\ &{\\quad+1.03\\times10^{3}\\mathrm{k g}\\mathrm{m}^{-3}\\times10\\mathrm{m}\\mathrm{s}^{-2}\\times1000\\mathrm{m}}\\\\ &{=104.01\\times10^{5}\\mathrm{P a}}\\\\ &{\\approx104\\mathrm{a t m}}\\end{array}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\nu_{_1}\\Delta t\\mathbin{\\mathrm{t o}}\\mathbb{C}\\left(\\nu_{_1}\\Delta\\right.",
+            "after": "\\nu_{_1}\\Delta t\\mathbin{\\mathrm{t o}}\\mathbb{C}\\left(\\nu_{_1}\\Delta\\right.)"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\left\\{\\begin{aligned}&\\nu_{_{I}}A_{_{I}}=\\nu_{_{2}}A_{_{2}}\\\\ &\\nu_{_{2}}=\\frac{A_{_{I}}}{A_{_{2}}}v_{_{1}}\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}&\\nu_{_{I}}A_{_{I}}=\\nu_{_{2}}A_{_{2}}\\\\ &\\nu_{_{2}}=\\frac{A_{_{I}}}{A_{_{2}}}v_{_{1}}\\end{aligned}\\right.}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "=1.2\\;\\mathrm{k g}\\;\\mathrm{m}^{-3}]",
+            "after": "=1.2\\;\\mathrm{k g}\\;\\mathrm{m}^{-3}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\begin{aligned}\\eta&=\\frac{2}{9}\\times\\frac{\\left(2\\times10^{-3}\\right)^{2}m^{2}\\times9.8m s^{-2}}{6.5\\times10^{-2}m s^{-1}}\\times7.4\\times10^{3}kg m^{-3}\\\\&=9.9\\times10^{-1}kg m^{-1}s^{-1}\\quad 或 \\quad 或 \\end{aligned}(\n",
+            "after": "\\begin{aligned}\\eta&=\\frac{2}{9}\\times\\frac{\\left(2\\times10^{-3}\\right)^{2}m^{2}\\times9.8m s^{-2}}{6.5\\times10^{-2}m s^{-1}}\\times7.4\\times10^{3}kg m^{-3}\\\\&=9.9\\times10^{-1}kg m^{-1}s^{-1}\\quad 或 \\quad 或 \\end{aligned}(\n)"
+        },
+        {
+            "type": "brace_fix",
+            "before": "S(2d\\hbar=F d ",
+            "after": "S(2d\\hbar=F d )"
+        },
+        {
+            "type": "brace_fix",
+            "before": "h\\rho g=(P_{\\mathrm{{,}}}-P_{\\mathrm{{,}}})=(2S\\cos\\theta)/a U \n",
+            "after": "h\\rho g=(P_{\\mathrm{,}}-P_{\\mathrm{,}})=(2S\\cos\\theta)/a U \n"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\begin{aligned}&\\bar{P}=\\frac{1.01784\\times10^{5}Pa+(2\\times7.3\\times10^{2}Pa\\times10^{-3}m)}{(1.01784+0.00146)\\times10^{5}Pa}\\\\ &=\\frac{1.02\\times10^{5}Pa}{(1.02\\times10^{5}Pa}\\\\ \\end{aligned}",
+            "after": "\\begin{aligned}&\\bar{P}=\\frac{1.01784\\times10^{5}Pa+(2\\times7.3\\times10^{2}Pa\\times10^{-3}m)}{(1.01784+0.00146)\\times10^{5}Pa}\\\\ &=\\frac{1.02\\times10^{5}Pa}{(1.02\\times10^{5}Pa}\\\\ \\end{aligned})"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{m e r c u r y}=13.6)",
+            "after": "\\mathrm{m e r c u r y}=13.6"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\bar{1.01}\\times10^{5}\\mathrm{P a}]",
+            "after": "\\bar{1.01}\\times10^{5}\\mathrm{P a}"
+        }
+    ],
+    "failed_equations": []
+}

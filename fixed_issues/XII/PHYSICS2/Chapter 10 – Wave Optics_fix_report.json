@@ -1,0 +1,73 @@
+{
+    "chapter": "Chapter 10 – Wave Optics",
+    "total_formulas": 210,
+    "repaired": 12,
+    "failed": 0,
+    "ocr_fixes": 110,
+    "latex_fixes": 12,
+    "markdown_fixes": 5,
+    "processing_time_sec": 0.017,
+    "changes": [
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{B C}=\\underline{{v}}_{1}\\tau ",
+            "after": "\\mathrm{B C}=\\underline{v}_{1}\\tau "
+        },
+        {
+            "type": "brace_fix",
+            "before": "V_{2})",
+            "after": "V_{2}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "r<i(\\mathbf{i}.\\mathbf{e}",
+            "after": "r<i(\\mathbf{i}.\\mathbf{e})"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\tau)",
+            "after": "\\tau"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\left[\\frac{\\lambda_{1}}{\\lambda_{2}}\\right.=\\left.\\frac{\\mathbf{B}\\mathbf{C}}{\\mathbf{A}\\mathbf{E}}\\right.=\\left.\\frac{v_{1}}{v_{2}}\\right.",
+            "after": "\\left[\\frac{\\lambda_{1}}{\\lambda_{2}}\\right.=\\left.\\frac{\\mathbf{B}\\mathbf{C}}{\\mathbf{A}\\mathbf{E}}\\right.=\\left.\\frac{v_{1}}{v_{2}}\\right.]"
+        },
+        {
+            "type": "brace_fix",
+            "before": "n_{\\mathrm{{r}}}",
+            "after": "n_{\\mathrm{r}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{S_{2})}",
+            "after": "\\mathrm{S_{2}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "{\\overline{{n}}}=0",
+            "after": "{\\overline{n}}=0"
+        },
+        {
+            "type": "brace_fix",
+            "before": "y_{\\mathrm{{_1}}}=a\\cos\\omega t then, the displacement produced by  would be ",
+            "after": "y_{\\mathrm{_1}}=a\\cos\\omega t then, the displacement produced by  would be "
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\overline{{x}}=\\Delta x,",
+            "after": "\\overline{x}=\\Delta x,"
+        },
+        {
+            "type": "brace_fix",
+            "before": "P_{2})",
+            "after": "P_{2}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\overline{{P}}_{2}",
+            "after": "\\overline{P}_{2}"
+        }
+    ],
+    "failed_equations": []
+}

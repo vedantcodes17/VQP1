@@ -1,0 +1,31 @@
+{
+    "chapter": "Chapter 1 – Some Basic Concepts of Chemistry",
+    "total_formulas": 260,
+    "repaired": 2,
+    "failed": 1,
+    "ocr_fixes": 297,
+    "latex_fixes": 2,
+    "markdown_fixes": 15,
+    "processing_time_sec": 0.034,
+    "changes": [
+        {
+            "type": "brace_fix",
+            "before": "(3\\times2=6",
+            "after": "(3\\times2=6)"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{C H}_{4}(\\mathrm{g})]",
+            "after": "\\mathrm{C H}_{4}(\\mathrm{g})"
+        }
+    ],
+    "failed_equations": [
+        {
+            "equation": "\\begin{aligned}&\\overline{\\hspace{1cm}}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad}&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad&\\text{}\\quad}&\\text{}\\quad\\quad&\\text{}\\quad&\\text{}\\quad\\quad&\\text{}\\quad&\\text{}\\quad\\quad&\\text{}\\quad\\quad&\\text{}\\quad}\\quad&\\text{}\\quad\\quad&\\text{}\\quad\\quad&\\text{}\\quad\\quad&\\text{}\\quad\\quad&\\text{}\\quad\\quad&\\text{}\\quad\\quad\\quad&\\text{}\\quad\\quad&\\text{}\\quad\\quad\\quad&\\quad\\text{}\\quad\\quad&\\quad\\quad}&\\text{}\\quad\\quad&\\quad\\quad\\text{}\\quad\\quad&\\quad\\quad&\\text{}\\quad\\quad\\quad&\\quad\\quad&\\text{}\\quad\\quad\\quad&\\quad\\quad\\quad&\\text{}\\quad\\quad&\\quad\\quad\\quad&\\text{}\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad{\\quad\\quad\\quad}&\\quad\\quad&\\text\\quad\\quad&\\quad\\quad\\quad{\\quad\\quad\\quad}&\\quad\\quad&\\quad\\quad\\quad&\\text\\quad\\quad\\quad&\\quad\\quad{\\quad\\quad\\quad\\quad}&\\quad\\quad&\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad&\\quad\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad&\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad\\quad&\\quad&\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad&\\quad&\\quad\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad\\quad ",
+            "delimiter": "$$",
+            "reasons": [
+                "unbalanced \\begin/\\end environment"
+            ]
+        }
+    ]
+}

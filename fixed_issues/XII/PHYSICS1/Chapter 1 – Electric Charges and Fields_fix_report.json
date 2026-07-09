@@ -1,0 +1,123 @@
+{
+    "chapter": "Chapter 1 – Electric Charges and Fields",
+    "total_formulas": 513,
+    "repaired": 22,
+    "failed": 0,
+    "ocr_fixes": 257,
+    "latex_fixes": 22,
+    "markdown_fixes": 21,
+    "processing_time_sec": 0.044,
+    "changes": [
+        {
+            "type": "brace_fix",
+            "before": "6\\;\\overline{{\\times}}\\;10^{18}",
+            "after": "6\\;\\overline{\\times}\\;10^{18}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{c o u l o m b})=10^{-6}\\mathrm{C}\\;\\mathrm{o r}\\;1",
+            "after": "\\mathrm{c o u l o m b}=10^{-6}\\mathrm{C}\\;\\mathrm{o r}\\;1"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{c o u l o m b)}=10^{-3}\\mathrm{C}",
+            "after": "\\mathrm{c o u l o m b}=10^{-3}\\mathrm{C}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\left[{\\bf F}_{21}=\\frac{1}{4\\pi\\varepsilon_{o}}\\quad\\frac{q_{1}\\quad q_{2}}{r_{21}^{2}}\\quad\\hat{\\bf r}_{21}\\right.",
+            "after": "\\left[{\\bf F}_{21}=\\frac{1}{4\\pi\\varepsilon_{o}}\\quad\\frac{q_{1}\\quad q_{2}}{r_{21}^{2}}\\quad\\hat{\\bf r}_{21}\\right.]"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathring{A}~(=~10^{\\cdot^{-10}}",
+            "after": "\\mathring{A}~(=~10^{\\cdot^{-10}})"
+        },
+        {
+            "type": "brace_fix",
+            "before": " is present.Ta]",
+            "after": " is present.Ta"
+        },
+        {
+            "type": "brace_fix",
+            "before": "q_{\\mathrm{{1}}}=q ",
+            "after": "q_{\\mathrm{1}}=q "
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathbf{F}_{\\mathrm{{1}}}=F\\hat{\\mathbf{r}}_{\\mathrm{{1}}}",
+            "after": "\\mathbf{F}_{\\mathrm{1}}=F\\hat{\\mathbf{r}}_{\\mathrm{1}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\left[\\hat{\\bar{\\mathbf{x}}}_{2\\mathrm{P}}\\right.",
+            "after": "\\left[\\hat{\\bar{\\mathbf{x}}}_{2\\mathrm{P}}\\right.]"
+        },
+        {
+            "type": "brace_fix",
+            "before": "due to the system of charges is (as shown in Fig. 1.9)\\begin{aligned}\\mathbf{E}(\\mathbf{r})=\\frac{1}{\\mathbf{E}_1(\\mathbf{r})+\\mathbf{E}_2(\\mathbf{r})+\\ldots+\\mathbf{E}_n(\\mathbf{r})}\\\\=\\frac{1}{4\\pi\\varepsilon_0}\\frac{q_1}{r_{\\mathrm{1P}}^2}\\hat{\\mathbf{r}}_{\\mathrm{1P}}+\\frac{1}{4\\pi\\varepsilon_0}\\frac{q_2}{r_{\\mathrm{2P}}^2}\\hat{\\mathbf{r}}_{\\mathrm{2P}}+\\ldots+\\frac{1}{4\\pi\\varepsilon_0}\\frac{q_n}{r_{\\mathrm{nP}}^2}\\hat{\\mathbf{r}}_{\\mathrm{nP}}\\\\\\mathbf{E}(\\mathbf{r})=\\frac{1}{4\\pi\\varepsilon_0}\\sum_{i=1}^{n}\\frac{q_i}{r_{\\mathrm{iP}}^2}\\hat{\\mathbf{r}}_{\\mathrm{iP}}\\end{aligned}",
+            "after": "due to the system of charges is (as shown in Fig. 1.9)\\begin{aligned}\\mathbf{E}(\\mathbf{r})=\\frac{1}{\\mathbf{E}_1(\\mathbf{r})+\\mathbf{E}_2(\\mathbf{r})+\\ldots+\\mathbf{E}_n(\\mathbf{r})}\\\\=\\frac{1}{4\\pi\\varepsilon_0}\\frac{q_1}{r_{\\mathrm{1P}}^2}\\hat{\\mathbf{r}}_{\\mathrm{1P}}+\\frac{1}{4\\pi\\varepsilon_0}\\frac{q_2}{r_{\\mathrm{2P}}^2}\\hat{\\mathbf{r}}_{\\mathrm{2P}}+\\ldots+\\frac{1}{4\\pi\\varepsilon_0}\\frac{q_n}{r_{\\mathrm{nP}}^2}\\hat{\\mathbf{r}}_{\\mathrm{nP}}\\\\mathbf{E}(\\mathbf{r})=\\frac{1}{4\\pi\\varepsilon_0}\\sum_{i=1}^{n}\\frac{q_i}{r_{\\mathrm{iP}}^2}\\hat{\\mathbf{r}}_{\\mathrm{iP}}\\end{aligned}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "q_{2})",
+            "after": "q_{2}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "q_{1})",
+            "after": "q_{1}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\begin{aligned}&\\left\\{\\begin{aligned}\\boldsymbol{a}_{p}=\\frac{e E}{m_{p}}\\quad&\\\\ =\\frac{\\left(1.6\\times10^{-19}\\mathrm{~C}\\right)\\times\\left(2.0\\times10^{4}\\mathrm{~N}\\mathrm{C}^{-1}\\right)}{1.67\\times10^{-27}\\mathrm{~kg}}\\end{aligned}\\right.\\\\ &=1.9\\times10^{12}\\mathrm{~m}\\mathrm{s}^{-2}\\\\ \\end{aligned}",
+            "after": "\\begin{aligned}&\\left\\{\\begin{aligned}\\boldsymbol{a}_{p}=\\frac{e E}{m_{p}}\\quad&\\\\ =\\frac{\\left(1.6\\times10^{-19}\\mathrm{~C}\\right)\\times\\left(2.0\\times10^{4}\\mathrm{~N}\\mathrm{C}^{-1}\\right)}{1.67\\times10^{-27}\\mathrm{~kg}}\\end{aligned}\\right.\\\\ &=1.9\\times10^{12}\\mathrm{~m}\\mathrm{s}^{-2}\\\\ \\end{aligned}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathbf{E}_{\\mathrm{{1A}}}",
+            "after": "\\mathbf{E}_{\\mathrm{1A}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathbf{E}_{\\mathrm{{1B}}}",
+            "after": "\\mathbf{E}_{\\mathrm{1B}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathbf{E}_{\\mathrm{{B}}}",
+            "after": "\\mathbf{E}_{\\mathrm{B}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "r_{\\mathrm{{o}}}",
+            "after": "r_{\\mathrm{o}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "q,-q)",
+            "after": "q,-q"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\left[\\hat{\\mathbf{r}}'\\right.",
+            "after": "\\left[\\hat{\\mathbf{r}}'\\right.]"
+        },
+        {
+            "type": "brace_fix",
+            "before": "(x=2a",
+            "after": "(x=2a)"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\lambda<0\\}",
+            "after": "\\lambda<0\\"
+        },
+        {
+            "type": "brace_fix",
+            "before": "(0,0,\\pm15",
+            "after": "(0,0,\\pm15)"
+        }
+    ],
+    "failed_equations": []
+}

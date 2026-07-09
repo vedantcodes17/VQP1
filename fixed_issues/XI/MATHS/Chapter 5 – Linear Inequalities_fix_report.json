@@ -1,0 +1,61 @@
+{
+    "chapter": "Chapter 5 – Linear Inequalities",
+    "total_formulas": 131,
+    "repaired": 8,
+    "failed": 1,
+    "ocr_fixes": 56,
+    "latex_fixes": 8,
+    "markdown_fixes": 2,
+    "processing_time_sec": 0.008,
+    "changes": [
+        {
+            "type": "brace_fix",
+            "before": "{\\mathrm{a n d}}\\geq({\\mathrm{g r e a t e r}}",
+            "after": "{\\mathrm{a n d}}\\geq({\\mathrm{g r e a t e r}})"
+        },
+        {
+            "type": "brace_fix",
+            "before": "a\\neq0)",
+            "after": "a\\neq0"
+        },
+        {
+            "type": "brace_fix",
+            "before": "(\\mathrm{i.e.,~`\\mathrm{<`b e c o m e s~`\\mathrm{>',\\mathrm{\\leq'}}}}",
+            "after": "(\\mathrm{i.e.,~`\\mathrm{<`b e c o m e s~`\\mathrm{>',\\mathrm{\\leq'}}}})"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\left[\\ldots,-4,-3,-2,-1,0,1\\right.",
+            "after": "\\left[\\ldots,-4,-3,-2,-1,0,1\\right.]"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\begin{array}{l}\\text{S0luti1011We have,}\\quad4x+3<6x+7\\\\\\text{or}\\quad4x-6x<6x+4-6x\\\\\\text{or}\\quad-2x<4\\quad\\text{or}x>-2\\end{array}",
+            "after": "\\begin{array}{l}\\text{S0luti1011We have,}\\quad4x+3<6x+7\\\\text{or}\\quad4x-6x<6x+4-6x\\\\text{or}\\quad-2x<4\\quad\\text{or}x>-2\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "x\\in[8,\\infty)",
+            "after": "x\\in[8,\\infty]"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\left\\{\\begin{aligned}\\frac{3x-4}{2}&\\geq\\frac{x+1}{4}-1\\\\ &\\frac{3x-4}{2}\\geq\\frac{x-3}{4}\\\\ &2(3x-4)\\geq(x-3)\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}\\frac{3x-4}{2}&\\geq\\frac{x+1}{4}-1\\\\ &\\frac{3x-4}{2}\\geq\\frac{x-3}{4}\\\\ &2(3x-4)\\geq(x-3)\\end{aligned}\\right.}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "2x\\geq(x+3)+5]",
+            "after": "2x\\geq(x+3)+5"
+        }
+    ],
+    "failed_equations": [
+        {
+            "equation": "\\begin{aligned}&\\text{∵}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\\\&\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\\\&\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\quad\\text{∴}\\quad\\text{∴}\\quad\\text{∴}\\quad\\quad\\text{∴}\\quad\\text{∴}\\quad\\quad\\text{∴}\\quad\\text{∴}\\quad\\quad\\text{∴}\\quad\\quad\\text{∴}\\quad\\quad\\text{∴}\\quad\\quad\\text{}\\quad\\text{∴}\\quad\\quad\\text{\\quad\\text{∴}\\quad\\quad\\quad\\text{}\\quad\\text{}\\quad\\quad\\text{}\\quad\\text{\\quad\\text{∴}\\quad\\quad\\quad\\text{}\\quad\\quad\\text{}\\quad\\quad\\text{\\quad}\\quad\\quad\\text{\\quad\\text{}\\quad\\quad\\quad\\text{}\\quad\\quad\\quad\\text{\\quad}\\quad\\quad\\text{}\\quad\\quad\\quad\\text{\\quad\\quad}\\quad\\text{\\quad\\quad\\quad\\text{}\\quad\\quad\\quad\\quad\\text{}\\quad\\quad\\quad\\quad\\text{\\quad}\\quad\\quad\\quad\\quad\\text{\\quad\\quad\\quad}\\quad\\quad\\text{\\quad\\quad\\quad\\quad\\text{}\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\text{\\quad}\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\text{\\quad\\quad\\quad}\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\text{\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\text{\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\",
+            "delimiter": "$$",
+            "reasons": [
+                "unbalanced \\begin/\\end environment"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,333 @@
+{
+    "chapter": "Chapter 1 – Sets",
+    "total_formulas": 473,
+    "repaired": 64,
+    "failed": 0,
+    "ocr_fixes": 141,
+    "latex_fixes": 64,
+    "markdown_fixes": 40,
+    "processing_time_sec": 0.022,
+    "changes": [
+        {
+            "type": "brace_fix",
+            "before": "V=\\{x:x",
+            "after": "V=\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "A=\\{x:x",
+            "after": "A=\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "A=\\{x:x",
+            "after": "A=\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\{x:x",
+            "after": "\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "x^{2}<40\\}",
+            "after": "x^{2}<40\\"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{A}=\\{x:x",
+            "after": "\\mathrm{A}=\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "A=\\{x:x",
+            "after": "A=\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "-3\\leq x\\leq7\\}",
+            "after": "-3\\leq x\\leq7\\"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{B}=\\{x:x",
+            "after": "\\mathrm{B}=\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{C}=\\{x:x",
+            "after": "\\mathrm{C}=\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{D}=\\{x:x",
+            "after": "\\mathrm{D}=\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "(3,6,9,12\\}",
+            "after": "(3,6,9,12\\)"
+        },
+        {
+            "type": "brace_fix",
+            "before": "A=\\{x:x",
+            "after": "A=\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{B}=\\{x:x",
+            "after": "\\mathrm{B}=\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "C=\\{x:x",
+            "after": "C=\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{D}=\\{x:x",
+            "after": "\\mathrm{D}=\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": " ``\\mathrm{L O Y A L''}\\}",
+            "after": " ``\\mathrm{L O Y A L''}\\"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{E}=\\{x:x",
+            "after": "\\mathrm{E}=\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{F}=\\{x:x",
+            "after": "\\mathrm{F}=\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "A=\\{x:x",
+            "after": "A=\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{B}=\\{x:x",
+            "after": "\\mathrm{B}=\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "A=\\{x:1<x<2",
+            "after": "A=\\{x:1<x<2}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "C=\\{x:x",
+            "after": "C=\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{D}=\\left\\{x:x^{2}=4\\right.",
+            "after": "\\mathrm{D}=\\left\\{x:x^{2}=4\\right.}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{C}=\\left\\{\\begin{array}{l}\\end{array}\\right.",
+            "after": "\\mathrm{C}=\\left\\{\\begin{array}{l}\\end{array}\\right.}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\begin{array}{l}\\mathrm{A}=\\{0\\},\\quad\\mathrm{B}=\\{x:x>15\\text{and}x<5\\},\\\\\\mathrm{C}=\\{x:x-5=0\\},\\quad\\mathrm{D}=\\{x:x^{2}=25\\},\\\\\\mathrm{E}=\\{x:x\\text{is an integral positive root of the equation}x^{2}-2x-15=0\\}.\\end{array}",
+            "after": "\\begin{array}{l}\\mathrm{A}=\\{0\\},\\quad\\mathrm{B}=\\{x:x>15\\text{and}x<5\\},\\\\mathrm{C}=\\{x:x-5=0\\},\\quad\\mathrm{D}=\\{x:x^{2}=25\\},\\\\mathrm{E}=\\{x:x\\text{is an integral positive root of the equation}x^{2}-2x-15=0\\}.\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{{`l e t t e r s~i n~`L O Y A L}}",
+            "after": "\\mathrm{`l e t t e r s~i n~`L O Y A L}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{{`l e t t e r s~i n~`L O Y A L}}\\mathrm{A}=\\left\\{n:n\\in\\mathrm{Z}\\text{and}n^{2}\\leq4\\right\\}\\text{and}\\mathrm{B}=\\left\\{x:x\\in\\mathrm{R}\\text{and}x^{2}=3x+2=0\\right\\}",
+            "after": "\\mathrm{`l e t t e r s~i n~`L O Y A L}\\mathrm{A}=\\left\\{n:n\\in\\mathrm{Z}\\text{and}n^{2}\\leq4\\right\\}\\text{and}\\mathrm{B}=\\left\\{x:x\\in\\mathrm{R}\\text{and}x^{2}=3x+2=0\\right\\}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "equal sets as repetition of elements in a set do not change a set. Thus,\\underline{X}=\\{A,I,O,Y\\}=B \\mathrm{ii)A=\\{-2,-1,0,1,2\\},B=\\{1,2\\}.Since0\\in A and0\\notin B.}",
+            "after": "equal sets as repetition of elements in a set do not change a set. Thus,\\underline{X}=\\{A,I,O,Y\\}=B \\mathrm{iiA=\\{-2,-1,0,1,2\\},B=\\{1,2\\}.Since0\\in A and0\\notin B.}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{ii)A=\\{-2,-1,0,1,2\\},B=\\{1,2\\}.Since0\\in A and0\\notin B.}",
+            "after": "\\mathrm{iiA=\\{-2,-1,0,1,2\\},B=\\{1,2\\}.Since0\\in A and0\\notin B.}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\{y\\colon y",
+            "after": "\\{y\\colon y}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "A=\\{x:x",
+            "after": "A=\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{B}=\\{y:y",
+            "after": "\\mathrm{B}=\\{y:y}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\begin{array}{l}\\mathrm{A}=\\{2,4,8,12\\},\\mathrm{B}=\\{1,2,3,4\\},\\mathrm{C}=\\{4,8,12,14\\},\\mathrm{D}=\\{3,1,4,2\\}\\\\\\mathrm{E}=\\{-1,1\\},\\mathrm{F}=\\{0,a\\},\\mathrm{G}=\\{1,-1\\},\\mathrm{H}=\\{0,1\\}\\end{array} ed ",
+            "after": "\\begin{array}{l}\\mathrm{A}=\\{2,4,8,12\\},\\mathrm{B}=\\{1,2,3,4\\},\\mathrm{C}=\\{4,8,12,14\\},\\mathrm{D}=\\{3,1,4,2\\}\\\\mathrm{E}=\\{-1,1\\},\\mathrm{F}=\\{0,a\\},\\mathrm{G}=\\{1,-1\\},\\mathrm{H}=\\{0,1\\}\\end{array} ed "
+        },
+        {
+            "type": "brace_fix",
+            "before": " ``\\mathrm{iff}'')",
+            "after": " ``\\mathrm{iff}''"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\left[-\\frac{5}{1}\\right),\\frac{5}{7},3\\frac{1}{2}",
+            "after": "\\left[-\\frac{5}{1}\\right,\\frac{5}{7},3\\frac{1}{2}]"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathbf{T}=\\{x:x\\in\\mathbf{R}",
+            "after": "\\mathbf{T}=\\{x:x\\in\\mathbf{R}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "x\\not\\in\\mathbb{Q}\\}",
+            "after": "x\\not\\in\\mathbb{Q}\\"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\left[\\sqrt{2}\\right.,\\sqrt{5}",
+            "after": "\\left[\\sqrt{2}\\right.,\\sqrt{5}]"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\left[a,b\\right)=\\left\\{x:a\\leq x<b\\right\\}",
+            "after": "\\left[a,b\\right=\\left\\{x:a\\leq x<b\\right\\}]"
+        },
+        {
+            "type": "brace_fix",
+            "before": "(a,b]=\\{x:a<x\\leq b\\}",
+            "after": "(a,b=\\{x:a<x\\leq b\\})"
+        },
+        {
+            "type": "brace_fix",
+            "before": "[0,\\infty)",
+            "after": "[0,\\infty]"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\left\\{a,e\\right\\}\\subset\\left\\{x:x\\right.",
+            "after": "\\left\\{a,e\\right\\}\\subset\\left\\{x:x\\right.}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "6\\subset\\{x:x",
+            "after": "6\\subset\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "Write the following as intervals :\\begin{array}{ll}(ii)&\\{x:x\\in\\mathbb{R},-4<x\\leq6\\}\\\\(ii)&\\{x:x\\in\\mathbb{R},-4<x\\leq6\\}\\\\(iii)&\\{x:x\\in\\mathbb{R},0\\leq x<7\\}\\\\\\end{array}\\quad(ii)\\quad\\{x:x\\in\\mathbb{R},-12<x<-10\\}",
+            "after": "Write the following as intervals :\\begin{array}{ll}(ii)&\\{x:x\\in\\mathbb{R},-4<x\\leq6\\}\\\\(ii)&\\{x:x\\in\\mathbb{R},-4<x\\leq6\\}\\\\(iii)&\\{x:x\\in\\mathbb{R},0\\leq x<7\\}\\\\end{array}\\quad(ii)\\quad\\{x:x\\in\\mathbb{R},-12<x<-10\\}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\cap\\mathrm{B}=\\{x:x\\in\\mathrm{A}",
+            "after": "\\cap\\mathrm{B}=\\{x:x\\in\\mathrm{A}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\underline{x}\\in B\\}",
+            "after": "\\underline{x}\\in B\\"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{A}=\\left[a,e,i,o,u\\right\\}\\mathrm{B}=\\left\\{a,b,c\\right\\} 2",
+            "after": "\\mathrm{A}=\\left[a,e,i,o,u\\right\\\\mathrm{B}=\\left\\{a,b,c\\right\\} 2]"
+        },
+        {
+            "type": "brace_fix",
+            "before": "A=\\{x:x",
+            "after": "A=\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{B}=\\{x:x",
+            "after": "\\mathrm{B}=\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "A=\\{x:x",
+            "after": "A=\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{B}=\\{x:x",
+            "after": "\\mathrm{B}=\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{A}=\\left\\{a,b\\right\\}_{\\mathrm{B}}\\mathrm{B}=\\left\\{\\bar{a},\\right.",
+            "after": "\\mathrm{A}=\\left\\{a,b\\right\\}_{\\mathrm{B}}\\mathrm{B}=\\left\\{\\bar{a},\\right.}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "A=\\{x:x",
+            "after": "A=\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{B}=\\{x:x",
+            "after": "\\mathrm{B}=\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{C}=\\{x:x",
+            "after": "\\mathrm{C}=\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{D}=\\{x:x",
+            "after": "\\mathrm{D}=\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\{x:x",
+            "after": "\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\{x:x",
+            "after": "\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\{x:x",
+            "after": "\\{x:x}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "a,e,i,o,u\\}",
+            "after": "a,e,i,o,u\\"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\{3,7,11",
+            "after": "\\{3,7,11}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "x\\not\\in\\mathrm{A}\\}",
+            "after": "x\\not\\in\\mathrm{A}\\"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{)A'~(ii)~B'~(iii)~(A\\cup C)'~(iv)~(A\\cup B)'~(v)~(A')'}",
+            "after": "\\mathrm{A'~(ii)~B'~(iii)~(A\\cup C)'~(iv)~(A\\cup B)'~(v)~(A')'}"
+        }
+    ],
+    "failed_equations": []
+}

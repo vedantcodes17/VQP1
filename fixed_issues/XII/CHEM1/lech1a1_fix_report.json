@@ -1,0 +1,38 @@
+{
+    "chapter": "lech1a1",
+    "total_formulas": 176,
+    "repaired": 5,
+    "failed": 0,
+    "ocr_fixes": 39,
+    "latex_fixes": 5,
+    "markdown_fixes": 3,
+    "processing_time_sec": 0.021,
+    "changes": [
+        {
+            "type": "brace_fix",
+            "before": "E^{/v",
+            "after": "E^{/v}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "E^{/V",
+            "after": "E^{/V}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "E{/",
+            "after": "E{/}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "E^{",
+            "after": "E^{}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{\\boldmath~m~}=\\mathrm{\\boldmath~\\overline{{~}}}_{2.4123}^{-}",
+            "after": "\\mathrm{\\boldmath~m~}=\\mathrm{\\boldmath~\\overline{~}}_{2.4123}^{-}"
+        }
+    ],
+    "failed_equations": []
+}

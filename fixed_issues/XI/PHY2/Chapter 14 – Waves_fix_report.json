@@ -1,0 +1,38 @@
+{
+    "chapter": "Chapter 14 – Waves",
+    "total_formulas": 258,
+    "repaired": 5,
+    "failed": 0,
+    "ocr_fixes": 145,
+    "latex_fixes": 5,
+    "markdown_fixes": 22,
+    "processing_time_sec": 0.025,
+    "changes": [
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{S}^{-1}]",
+            "after": "\\mathrm{S}^{-1}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mu(T",
+            "after": "\\mu(T)"
+        },
+        {
+            "type": "brace_fix",
+            "before": "(\\phi=\\pi/2",
+            "after": "(\\phi=\\pi/2)"
+        },
+        {
+            "type": "brace_fix",
+            "before": "[2\\pi",
+            "after": "[2\\pi]"
+        },
+        {
+            "type": "brace_fix",
+            "before": "y/x,t)=3.0\\mathrm{s i n}\\left(36\\mathrm{t}+0.018x+\\pi/4\\right)",
+            "after": "y/x,t=3.0\\mathrm{s i n}\\left(36\\mathrm{t}+0.018x+\\pi/4\\right)"
+        }
+    ],
+    "failed_equations": []
+}

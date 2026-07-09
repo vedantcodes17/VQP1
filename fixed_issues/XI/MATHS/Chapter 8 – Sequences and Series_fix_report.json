@@ -1,0 +1,33 @@
+{
+    "chapter": "Chapter 8 – Sequences and Series",
+    "total_formulas": 229,
+    "repaired": 4,
+    "failed": 0,
+    "ocr_fixes": 69,
+    "latex_fixes": 4,
+    "markdown_fixes": 14,
+    "processing_time_sec": 0.011,
+    "changes": [
+        {
+            "type": "brace_fix",
+            "before": "\\begin{array}{l}a_{1}=2=2\\times1\\quad a_{2}=4=2\\times2\\\\a_{3}=6=2\\times3\\quad a_{4}=8=2\\times4\\\\\\cdots\\quad\\cdots\\quad\\cdots\\quad\\cdots\\quad\\cdots\\quad\\cdots\\\\\\cdots\\quad\\cdots\\quad\\cdots\\quad\\cdots\\quad\\cdots\\quad\\cdots\\\\a_{23}=46=2\\times23,a_{24}=48=2\\times24\\end{array} a_{23}=46=2\\times23,a_{24}=48=2\\times24,\\text{and so on.}",
+            "after": "\\begin{array}{l}a_{1}=2=2\\times1\\quad a_{2}=4=2\\times2\\\\a_{3}=6=2\\times3\\quad a_{4}=8=2\\times4\\\\cdots\\quad\\cdots\\quad\\cdots\\quad\\cdots\\quad\\cdots\\quad\\cdots\\\\cdots\\quad\\cdots\\quad\\cdots\\quad\\cdots\\quad\\cdots\\quad\\cdots\\\\a_{23}=46=2\\times23,a_{24}=48=2\\times24\\end{array} a_{23}=46=2\\times23,a_{24}=48=2\\times24,\\text{and so on.}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\underline{{r}}\\not\\equiv1",
+            "after": "\\underline{r}\\not\\equiv1"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\sqrt[n]{7},\\sqrt[n]{21},3\\sqrt[n]{7},\\ldots n",
+            "after": "\\sqrt[n]_{7},\\sqrt[n]_{21},3\\sqrt[n]_{7},\\ldots n"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\left[\\frac{39}{10}\\right.",
+            "after": "\\left[\\frac{39}{10}\\right.]"
+        }
+    ],
+    "failed_equations": []
+}

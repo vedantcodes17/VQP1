@@ -1,0 +1,53 @@
+{
+    "chapter": "Chapter 5 – Coordination Compounds",
+    "total_formulas": 346,
+    "repaired": 8,
+    "failed": 0,
+    "ocr_fixes": 131,
+    "latex_fixes": 7,
+    "markdown_fixes": 36,
+    "processing_time_sec": 0.025,
+    "changes": [
+        {
+            "type": "brace_fix",
+            "before": "o f P t\\left[N H_{3}\\right]_{2}C l_{2}]",
+            "after": "o f P t\\left[N H_{3}\\right]_{2}C l_{2}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{[}e.g.\\mathrm{,~N H_{2}\\;C H_{2}\\;C H_{2}\\;N H_{2}}",
+            "after": "\\mathrm{[}e.g.\\mathrm{,~N H_{2}\\;C H_{2}\\;C H_{2}\\;N H_{2}}]"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{K}[\\mathrm{C r}(\\mathrm{H}_{2}\\mathrm{O})_{2}(\\mathrm{C}_{2}\\mathrm{O}_{4})_{2}",
+            "after": "\\mathrm{K}[\\mathrm{C r}(\\mathrm{H}_{2}\\mathrm{O})_{2}(\\mathrm{C}_{2}\\mathrm{O}_{4})_{2}]"
+        },
+        {
+            "type": "brace_fix",
+            "before": "(sp^{3}",
+            "after": "(sp^{3})"
+        },
+        {
+            "type": "brace_fix",
+            "before": "(d s p^{2}",
+            "after": "(d s p^{2})"
+        },
+        {
+            "type": "ocr_typo",
+            "before": "\\begin{array}{c}\\mathrm{I^{-}<Br^{-}<SCN^{-}<Cl^{-}<S^{2-}<F^{-}<OH^{-}<C_{2}O_{4}^{2-}<H_{2}O<NCS^{-}}\\\\<\\mathrm{edfa^{4-}<NH_{3}<en<CN^{-}<CO}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{I^{-}<Br^{-}<SCN^{-}<Cl^{-}<S^{2-}<F^{-}<OH^{-}<C_{2}O_{4}^{2-}<H_{2}O<NCS^{-}}\\\\<\\mathrm{EDTA^{4-}<NH_{3}<en<CN^{-}<CO}\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{{(T i}^{3+}}",
+            "after": "\\mathrm{{(T i}^{3+}})"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\begin{array}{l}\\left[\\mathrm{Co}(\\mathrm{NH_{3}})_{5}\\mathrm{Br}\\right]\\mathrm{SO_{4}}+\\mathrm{Ba^{2+}}\\rightarrow\\mathrm{BaSO_{4}}(\\mathrm{s})\\\\\\left[\\mathrm{Co}(\\mathrm{NH_{3}})_{5}\\mathrm{SO_{4}}\\right]\\mathrm{Br}+\\mathrm{Ba^{2+}}\\rightarrow\\mathrm{No\\ reaction}\\\\\\left[\\mathrm{Co}(\\mathrm{NH_{3}})_{5}\\mathrm{Br}\\right]\\mathrm{SO_{4}}+\\mathrm{Ag^{+}}\\rightarrow\\mathrm{No\\ reaction}\\\\\\left[\\mathrm{Co}(\\mathrm{NH_{3}})_{5}\\mathrm{SO_{4}}\\right]\\mathrm{Br}+\\mathrm{Ag^{+}}\\rightarrow\\mathrm{AgBr}(\\mathrm{s})\\end{array}",
+            "after": "\\begin{array}{l}\\left[\\mathrm{Co}(\\mathrm{NH_{3}})_{5}\\mathrm{Br}\\right]\\mathrm{SO_{4}}+\\mathrm{Ba^{2+}}\\rightarrow\\mathrm{BaSO_{4}}(\\mathrm{s})\\\\left[\\mathrm{Co}(\\mathrm{NH_{3}})_{5}\\mathrm{SO_{4}}\\right]\\mathrm{Br}+\\mathrm{Ba^{2+}}\\rightarrow\\mathrm{No\\ reaction}\\\\left[\\mathrm{Co}(\\mathrm{NH_{3}})_{5}\\mathrm{Br}\\right]\\mathrm{SO_{4}}+\\mathrm{Ag^{+}}\\rightarrow\\mathrm{No\\ reaction}\\\\left[\\mathrm{Co}(\\mathrm{NH_{3}})_{5}\\mathrm{SO_{4}}\\right]\\mathrm{Br}+\\mathrm{Ag^{+}}\\rightarrow\\mathrm{AgBr}(\\mathrm{s})\\end{array}"
+        }
+    ],
+    "failed_equations": []
+}

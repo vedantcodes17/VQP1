@@ -1,0 +1,103 @@
+{
+    "chapter": "Chapter 14 – Probability",
+    "total_formulas": 282,
+    "repaired": 18,
+    "failed": 0,
+    "ocr_fixes": 106,
+    "latex_fixes": 18,
+    "markdown_fixes": 20,
+    "processing_time_sec": 0.02,
+    "changes": [
+        {
+            "type": "brace_fix",
+            "before": "[\\omega\\not\\in\\mathrm{E}",
+            "after": "[\\omega\\not\\in\\mathrm{E}]"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{{}^{\\mathrm{{}^{\\mathrm{{}^{\\mathrm{{}^{\\mathrm{{A}}}}}}}}\\cup\\mathrm{{B}}^{\\mathrm{{}^{\\mathrm{{}^{\\mathrm{{}^{\\mathrm{{}}^{\\mathrm{{}}^{\\mathrm{{}}^{\\mathrm{}}}}}}}}}}}}}",
+            "after": "\\mathrm{{}^{\\mathrm{{}^{\\mathrm{{}^{\\mathrm{{}^{\\mathrm{A}}}}}}}\\cup\\mathrm{B}^{\\mathrm{{}^{\\mathrm{{}^{\\mathrm{{}^{\\mathrm{}^{\\mathrm{}^{\\mathrm{}^{\\mathrm{}}}}}}}}}}}}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{~A~}^{\\mathrm{{`}}}\\mathrm{{\\tt{a n}}}",
+            "after": "\\mathrm{~A~}^{\\mathrm{`}}\\mathrm{{\\tt{a n}}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{H T T}_{*}\\mathrm{T H T}_{*}\\mathrm{T H}_{*}\\mathrm{T T}_{*}\\}",
+            "after": "\\mathrm{H T T}_{*}\\mathrm{T H T}_{*}\\mathrm{T H}_{*}\\mathrm{T T}_{*}\\"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{T T H}\\}",
+            "after": "\\mathrm{T T H}\\"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{H H H}\\}=\\mathrm{S}",
+            "after": "\\mathrm{H H H}\\=\\mathrm{S}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\begin{pmatrix}\\omega_{1}&\\omega_{2}&\\omega_{3}&\\omega_{4}&\\omega_{5}&\\omega_{6}\\\\\\frac{1}{6}&\\frac{1}{6}&\\frac{1}{6}&\\frac{1}{6}&\\frac{1}{6}&\\frac{1}{6}\\\\1&0&0&0&0&0\\\\\\frac{1}{8}&\\frac{2}{3}&\\frac{1}{3}&\\frac{1}{3}&-\\frac{1}{4}&-\\frac{1}{3}\\\\\\frac{1}{12}&\\frac{1}{12}&\\frac{1}{6}&\\frac{1}{6}&\\frac{3}{2}\\\\0.1&0.2&0.3&0.4&0.5&0.6\\\\\\end{pmatrix}",
+            "after": "\\begin{pmatrix}\\omega_{1}&\\omega_{2}&\\omega_{3}&\\omega_{4}&\\omega_{5}&\\omega_{6}\\\\frac{1}{6}&\\frac{1}{6}&\\frac{1}{6}&\\frac{1}{6}&\\frac{1}{6}&\\frac{1}{6}\\\\1&0&0&0&0&0\\\\frac{1}{8}&\\frac{2}{3}&\\frac{1}{3}&\\frac{1}{3}&-\\frac{1}{4}&-\\frac{1}{3}\\\\frac{1}{12}&\\frac{1}{12}&\\frac{1}{6}&\\frac{1}{6}&\\frac{3}{2}\\\\0.1&0.2&0.3&0.4&0.5&0.6\\\\end{pmatrix}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\begin{aligned}\\mathrm{P}(\\mathrm{A})&=\\sum\\mathrm{P}(\\omega_{i}),\\forall\\omega_{i}\\in\\mathrm{A}\\\\&=\\mathrm{P}(\\mathrm{BGG})+\\mathrm{P}(\\mathrm{GBG})+\\mathrm{P}(\\mathrm{GBB})=\\frac{1}{8}+\\frac{1}{8}+\\frac{1}{8}=\\frac{3}{8}\\\\\\mathrm{P}(\\mathrm{B})&=\\sum\\mathrm{P}(\\omega_{i})\\forall\\omega_{i}\\in B\\\\&=\\mathrm{P}(\\mathrm{BBG})+\\mathrm{P}(\\mathrm{BBB})+\\mathrm{P}(\\mathrm{GBB})+\\mathrm{P}(\\mathrm{BBB})=\\frac{1}{8}+\\frac{1}{8}+\\frac{1}{8}+\\frac{1}{8}=\\frac{4}{8}=\\frac{1}{2}\\end{aligned}",
+            "after": "\\begin{aligned}\\mathrm{P}(\\mathrm{A})&=\\sum\\mathrm{P}(\\omega_{i}),\\forall\\omega_{i}\\in\\mathrm{A}\\\\&=\\mathrm{P}(\\mathrm{BGG})+\\mathrm{P}(\\mathrm{GBG})+\\mathrm{P}(\\mathrm{GBB})=\\frac{1}{8}+\\frac{1}{8}+\\frac{1}{8}=\\frac{3}{8}\\\\mathrm{P}(\\mathrm{B})&=\\sum\\mathrm{P}(\\omega_{i})\\forall\\omega_{i}\\in B\\\\&=\\mathrm{P}(\\mathrm{BBG})+\\mathrm{P}(\\mathrm{BBB})+\\mathrm{P}(\\mathrm{GBB})+\\mathrm{P}(\\mathrm{BBB})=\\frac{1}{8}+\\frac{1}{8}+\\frac{1}{8}+\\frac{1}{8}=\\frac{4}{8}=\\frac{1}{2}\\end{aligned}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "Als(\\begin{align*}\\mathrm{p}\\;\\mathrm{P}(\\mathrm{A})+\\mathrm{P}(\\mathrm{B})=&\\left[\\sum\\mathrm{p}(\\omega_i)\\;\\forall\\omega_i\\in A\\right]+\\left[\\sum\\mathrm{p}(\\omega_i)\\;\\forall\\omega_i\\in B\\right]\\\\=&\\left[\\sum\\mathrm{P}(\\omega_i)\\forall\\omega_i\\in(A-B)\\cup(A-B)\\right]+\\left[\\sum\\mathrm{P}(\\omega_i)\\forall\\omega_i\\in(B-A)\\cup(A\\cap B)\\right]\\\\=&\\left[\\sum\\mathrm{P}(\\omega_i)\\forall\\omega_i\\in(A-B)\\right]+\\left[\\sum\\mathrm{P}(\\omega_i)\\forall\\omega_i\\in(A\\cap B)\\right]+\\left[\\sum\\mathrm{P}(\\omega_i)\\forall\\omega_i\\in(B-A)\\right]+\\\\&\\left[\\sum\\mathrm{P}(\\omega_i)\\forall\\omega_i\\in(A-B)\\right]\\\\=&\\left[\\mathrm{P}(\\mathrm{A}\\cup\\mathrm{B})+\\left[\\sum\\mathrm{P}(\\omega_i)\\forall\\omega_i\\in A\\cap B\\right]\\quad[\\mathrm{using}(1)]\\right.\\\\=&\\left.\\mathrm{P}(\\mathrm{A}\\cup\\mathrm{B})+\\mathrm{P}(\\mathrm{A}\\cap\\mathrm{B})\\right].\\end{align*}",
+            "after": "Als(\\begin{align*}\\mathrm{p}\\;\\mathrm{P}(\\mathrm{A})+\\mathrm{P}(\\mathrm{B})=&\\left[\\sum\\mathrm{p}(\\omega_i)\\;\\forall\\omega_i\\in A\\right]+\\left[\\sum\\mathrm{p}(\\omega_i)\\;\\forall\\omega_i\\in B\\right]\\\\=&\\left[\\sum\\mathrm{P}(\\omega_i)\\forall\\omega_i\\in(A-B)\\cup(A-B)\\right]+\\left[\\sum\\mathrm{P}(\\omega_i)\\forall\\omega_i\\in(B-A)\\cup(A\\cap B)\\right]\\\\=&\\left[\\sum\\mathrm{P}(\\omega_i)\\forall\\omega_i\\in(A-B)\\right]+\\left[\\sum\\mathrm{P}(\\omega_i)\\forall\\omega_i\\in(A\\cap B)\\right]+\\left[\\sum\\mathrm{P}(\\omega_i)\\forall\\omega_i\\in(B-A)\\right]+\\\\&\\left[\\sum\\mathrm{P}(\\omega_i)\\forall\\omega_i\\in(A-B)\\right]\\\\=&\\left[\\mathrm{P}(\\mathrm{A}\\cup\\mathrm{B})+\\left[\\sum\\mathrm{P}(\\omega_i)\\forall\\omega_i\\in A\\cap B\\right]\\quad[\\mathrm{using}(1)]\\right.\\\\=&\\left.\\mathrm{P}(\\mathrm{A}\\cup\\mathrm{B})+\\mathrm{P}(\\mathrm{A}\\cap\\mathrm{B})\\right].\\end{align*})"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\begin{array}{l}\\mathrm{P}\\left(\\mathrm{A}\\cup\\mathrm{B}\\right)=\\mathrm{P}\\left(\\mathrm{A}\\right)+\\mathrm{P}\\left(\\mathrm{B}-\\mathrm{A}\\right)\\\\\\mathrm{P}(\\mathrm{B})=\\mathrm{P}\\left(\\mathrm{A}\\cap\\mathrm{B}\\right)+\\mathrm{P}\\left(\\mathrm{B}-\\mathrm{A}\\right)\\end{array}",
+            "after": "\\begin{array}{l}\\mathrm{P}\\left(\\mathrm{A}\\cup\\mathrm{B}\\right)=\\mathrm{P}\\left(\\mathrm{A}\\right)+\\mathrm{P}\\left(\\mathrm{B}-\\mathrm{A}\\right)\\\\mathrm{P}(\\mathrm{B})=\\mathrm{P}\\left(\\mathrm{A}\\cap\\mathrm{B}\\right)+\\mathrm{P}\\left(\\mathrm{B}-\\mathrm{A}\\right)\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\begin{array}{l}\\mathrm{P}(\\mathrm{A}\\cup\\mathrm{B})-\\mathrm{P}(\\mathrm{B})=\\mathrm{P}(\\mathrm{A})-\\mathrm{P}(\\mathrm{A}\\cap\\mathrm{B})\\\\\\mathrm{P}(\\mathrm{A}\\cup\\mathrm{B})=\\mathrm{P}(\\mathrm{A})+\\mathrm{P}(\\mathrm{B})-\\mathrm{P}(\\mathrm{A}\\cap\\mathrm{B})\\end{array}",
+            "after": "\\begin{array}{l}\\mathrm{P}(\\mathrm{A}\\cup\\mathrm{B})-\\mathrm{P}(\\mathrm{B})=\\mathrm{P}(\\mathrm{A})-\\mathrm{P}(\\mathrm{A}\\cap\\mathrm{B})\\\\mathrm{P}(\\mathrm{A}\\cup\\mathrm{B})=\\mathrm{P}(\\mathrm{A})+\\mathrm{P}(\\mathrm{B})-\\mathrm{P}(\\mathrm{A}\\cap\\mathrm{B})\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{or},\\mathrm{a}\\mathrm{spade})\\quad(\\mathrm{iv})",
+            "after": "\\mathrm{or},\\mathrm{a}\\mathrm{spade}\\quad(\\mathrm{iv})"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{C})=1-\\mathrm{P}(\\mathrm{C})=1-\\frac{1}{2}=\\frac{1}{2}",
+            "after": "\\mathrm{C}=1-\\mathrm{P}(\\mathrm{C})=1-\\frac{1}{2}=\\frac{1}{2}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{E'\\cap F'=(E\\cup F)'(\\bar{by}\\;Demo}\\;\\mathrm{T}\\;\\mathrm{]}",
+            "after": "\\mathrm{E'\\cap F'=(E\\cup F)'(\\bar{by}\\;Demo}\\;\\mathrm{T}\\;\\mathrm{})"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\left[\\frac{1}{3}\\right.",
+            "after": "\\left[\\frac{1}{3}\\right.]"
+        },
+        {
+            "type": "brace_fix",
+            "before": "S=\\{ABCD",
+            "after": "S=\\{ABCD}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{E}=\\{\\mathrm{ABCD}",
+            "after": "\\mathrm{E}=\\{\\mathrm{ABCD}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{F}=\\{\\mathrm{ABCD}",
+            "after": "\\mathrm{F}=\\{\\mathrm{ABCD}}"
+        }
+    ],
+    "failed_equations": []
+}

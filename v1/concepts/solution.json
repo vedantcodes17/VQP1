@@ -1,0 +1,65 @@
+[
+  {
+    "concept_id": "solution_concepts",
+    "concept_name": "Solution",
+    "definition": "A homogeneous mixture of two or more substances in which the components are uniformly distributed into each other.",
+    "aliases_and_keywords": {
+      "aliases": [
+        "Mixture"
+      ],
+      "keywords": [
+        "Components",
+        "Solvent",
+        "Solute",
+        "Homogeneous",
+        "Uniform Distribution",
+        "Solution",
+        "Binary Solution",
+        "Ternary Solution",
+        "Solid Solutions",
+        "Substitutional Solid Solution",
+        "Interstitial Solid Solution"
+      ]
+    },
+    "learning_outcomes": [
+      {
+        "verb": "Explain",
+        "object": "Solution"
+      },
+      {
+        "verb": "Apply",
+        "object": "Solution in various contexts and calculations"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing molarity with molality",
+      "Forgetting to convert units correctly (e.g., volume, mass)"
+    ],
+    "relationships": [],
+    "assessment_hint": {
+      "preferred_question_types": [
+        "Numerical Problems",
+        "Conceptual Questions",
+        "Application-Based Questions"
+      ],
+      "recommended_marks": [
+        5,
+        10,
+        20
+      ],
+      "blooms_levels": [
+        "Apply",
+        "Analyze",
+        "Evaluate"
+      ]
+    },
+    "retrieval": {
+      "chunk_ids": [
+        "solution_concepts"
+      ],
+      "pyq_ids": [
+        "Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10, Q11, Q12"
+      ]
+    }
+  }
+]
