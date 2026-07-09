@@ -1,0 +1,301 @@
+{
+    "chapter": "Chapter 5 – Work, Energy, and Power",
+    "total_formulas": 308,
+    "repaired": 57,
+    "failed": 0,
+    "ocr_fixes": 174,
+    "latex_fixes": 57,
+    "markdown_fixes": 7,
+    "orphaned_latex_wrapped": 278,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.111,
+    "changes": [
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}\\mathbf{A}\\cdot\\mathbf{B}=&\\left(A_{x}\\hat{\\mathbf{i}}+A_{y}\\hat{\\mathbf{j}}+A_{z}\\hat{\\mathbf{k}}\\right)\\cdot\\left(B_{x}\\hat{\\mathbf{i}}+B_{y}\\hat{\\mathbf{j}}+B_{z}\\hat{\\mathbf{k}}\\right)\\\\ =&A_{x}B_{x}+A_{y}B_{y}+A_{z}B_{z}\\quad(5)\\end{aligned}\\right. .1b)",
+            "after": "\\left\\{\\begin{aligned}\\mathbf{A}\\cdot\\mathbf{B}=&\\left(A_{x}\\hat{\\mathbf{i}}+A_{y}\\hat{\\mathbf{j}}+A_{z}\\hat{\\mathbf{k}}\\right)\\cdot\\left(B_{x}\\hat{\\mathbf{i}}+B_{y}\\hat{\\mathbf{j}}+B_{z}\\hat{\\mathbf{k}}\\right)\\\\ =&A_{x}B_{x}+A_{y}B_{y}+A_{z}B_{z}\\quad(5)\\end{aligned}\\right. .1b}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "{\\begin{array}{r l}{\\underbrace{\\scriptstyle\\left({\\boldsymbol{A}}_{A A S W{\\mathcal{O}}{\\mathcal{C}}^{\\top}}{\\boldsymbol{F}}{\\cdot}{\\boldsymbol{d}}\\right.}}&{={\\boldsymbol{F}}_{x}d_{x}+{\\boldsymbol{F}}_{y}d_{y}+{\\boldsymbol{F}}_{z}d_{z}}\\\\ &{=3\\;(5)+4\\;(4)+(-\\;5)\\;(3)}\\\\ &{=16\\;\\mathrm{u n i t}}\\\\ {\\mathrm{H e n c e}{\\boldsymbol{F}}{\\cdot}{\\boldsymbol{d}}}&{={\\boldsymbol{F}}d\\;\\cos\\theta=16\\;\\mathrm{u n i t}}\\\\ {\\mathrm{N o w}{\\boldsymbol{F}}{\\cdot}{\\boldsymbol{F}}}&{={\\boldsymbol{F}}^{2}={\\boldsymbol{F}}_{x}^{2}+{\\boldsymbol{F}}_{y}^{2}+{\\boldsymbol{F}}_{z}^{2}}\\\\ &{=9+16+25}\\\\ &{=50\\;\\mathrm{u n i t}}\\\\ {\\mathrm{a n d}{\\boldsymbol{d}}{\\cdot}{\\boldsymbol{d}}}&{=d^{2}=d_{x}^{2}+d_{y}^{2}+d_{z}^{2}}\\\\ &{=25+16+9}\\\\ &{=50\\;\\mathrm{u n i t}}\\\\ {\\therefore\\;\\cos^{\\cdot}\\theta}&{={\\frac{16}{\\sqrt{50}\\sqrt{50}}}={\\frac{16}{50}}=0.32,}\\\\ &{\\theta=\\cos^{-1}0.32}\\end{array}}",
+            "after": "{\\begin{array}{r l}{\\underbrace{\\scriptstyle\\left({\\boldsymbol{A}}_{A A S W{\\mathcal{O}}{\\mathcal{C}}^{\\top}}{\\boldsymbol{F}}{\\cdot}{\\boldsymbol{d}}\\right.}}&{={\\boldsymbol{F}}_{x}d_{x}+{\\boldsymbol{F}}_{y}d_{y}+{\\boldsymbol{F}}_{z}d_{z}}\\\\ &{=3\\;(5)+4\\;(4)+(-\\;5)\\;(3)}\\\\ &{=16\\;\\mathrm{unit}}\\\\ {\\mathrm{Hence}{\\boldsymbol{F}}{\\cdot}{\\boldsymbol{d}}}&{={\\boldsymbol{F}}d\\;\\cos\\theta=16\\;\\mathrm{unit}}\\\\ {\\mathrm{Now}{\\boldsymbol{F}}{\\cdot}{\\boldsymbol{F}}}&{={\\boldsymbol{F}}^{2}={\\boldsymbol{F}}_{x}^{2}+{\\boldsymbol{F}}_{y}^{2}+{\\boldsymbol{F}}_{z}^{2}}\\\\ &{=9+16+25}\\\\ &{=50\\;\\mathrm{unit}}\\\\ {\\mathrm{and}{\\boldsymbol{d}}{\\cdot}{\\boldsymbol{d}}}&{=d^{2}=d_{x}^{2}+d_{y}^{2}+d_{z}^{2}}\\\\ &{=25+16+9}\\\\ &{=50\\;\\mathrm{unit}}\\\\ {\\therefore\\;\\cos^{\\cdot}\\theta}&{={\\frac{16}{\\sqrt{50}\\sqrt{50}}}={\\frac{16}{50}}=0.32,}\\\\ &{\\theta=\\cos^{-1}0.32}\\end{array}})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "180^{\\mathrm{o}}{=}{-}1]",
+            "after": "180^{\\mathrm{o}}{=}{-}1"
+        },
+        {
+            "type": "script_fix",
+            "before": "3.6\\times10^{^6}\\mathrm{J}",
+            "after": "3.6\\times10^{6}\\mathrm{J}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{aligned}&\\left\\{\\begin{aligned}\\frac{1}{2}mv_{f}^{2}=&100J\\\\ v_{f}=&\\sqrt{\\frac{2\\times100J}{0.05kg}}\\end{aligned}\\right.\\\\ &\\\\ &\\left\\{\\begin{aligned}&1\\\\ &2\\end{aligned}\\right.=63.2m s^{-1}\\\\ \\end{aligned}",
+            "after": "\\begin{aligned}&\\left\\{\\begin{aligned}\\frac{1}{2}mv_{f}^{2}=&100J\\\\ v_{f}=&\\sqrt{\\frac{2\\times100J}{0.05kg}}\\end{aligned}\\right.\\\\ &\\\\ &\\left\\{\\begin{aligned}&1\\\\ &2\\end{aligned}\\right.=63.2m s^{-1}\\\\ \\end{aligned}}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{A B C D}+\\mathrm{a r e a}",
+            "after": "\\mathrm{ABCD}+\\mathrm{area}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}W_{F}&=100\\times10+\\frac{1}{2}(100+50)\\times10\\\\ &=1000+750\\\\ &=1750J\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}W_{F}&=100\\times10+\\frac{1}{2}(100+50)\\times10\\\\ &=1000+750\\\\ &=1750J\\end{aligned}\\right.}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\frac{\\mathrm{d}K}{\\mathrm{d}t}=&\\frac{\\mathrm{d}}{\\mathrm{d}t}\\left(\\frac{1}{2}m v^{2}\\right)\\\\=&m\\frac{\\mathrm{d}v}{\\mathrm{d}t}v\\\\=&F v\\left(\\mathrm{from Newton's Second Law}\\right)\\\\=&F\\frac{\\mathrm{d}x}{\\mathrm{d}t}\\\\\\mathrm{d}K=&F\\mathrm{d}v\\end{aligned}\\mathrm{d}K=F\\mathrm{d}x \n",
+            "after": "\\begin{aligned}\\frac{\\mathrm{d}K}{\\mathrm{d}t}=&\\frac{\\mathrm{d}}{\\mathrm{d}t}\\left(\\frac{1}{2}m v^{2}\\right)\\\\=&m\\frac{\\mathrm{d}v}{\\mathrm{d}t}v\\\\=&F v\\left(\\mathrm{from Newton's Second Law}\\right)\\\\=&F\\frac{\\mathrm{d}x}{\\mathrm{d}t}\\\\mathrm{d}K=&F\\mathrm{d}v\\end{aligned}\\mathrm{d}K=F\\mathrm{d}x \n"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "&{F",
+            "after": "&{F}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\\\ &{=0\\;",
+            "after": "\\\\ &{=0\\;}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}",
+            "after": ""
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{1}{2}",
+            "after": "\\left[\\frac{1}{2}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{l}{\\Delta K+\\Delta V=0}",
+            "after": "\\begin{array}{l}{\\Delta K+\\Delta V=0}\\end{array}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "_{_i}\\mathrm{t o}",
+            "after": "_{_i}\\mathrm{to}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "environment_close",
+            "before": "_{_f}=\\sqrt{2gH}\\end{aligned}\\right",
+            "after": "_{_f}=\\sqrt{2gH}\\right"
+        },
+        {
+            "type": "script_fix",
+            "before": "mv_{_B}^{^2}+mgL=",
+            "after": "mv_{_B}^{2}+mgL="
+        },
+        {
+            "type": "script_fix",
+            "before": "mv_{_0}^{^2}\\\\&",
+            "after": "mv_{_0}^{2}\\\\&"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{\\mathrm{c}}\\left(",
+            "after": "_{\\mathrm{c}}\\left()"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{1}{2}",
+            "after": "\\left[\\frac{1}{2}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathbf{S}^{-1}$ [It is useful to remember that 36 km ",
+            "after": "\\mathbf{S}^{-1}$ [It is useful to remember that 36 km ]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\\\ &{\\qquad F",
+            "after": "\\\\ &{\\qquad F}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " x=-\\Delta V}\\\\ &{\\qquad\\Delta\\big(K+V\\big)=F",
+            "after": " x=-\\Delta V\\\\ &{\\qquad\\Delta\\big(K+V\\big)=F}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " x}\\\\ &{\\qquad\\Delta E\\quad=F",
+            "after": " x\\\\ &{\\qquad\\Delta E\\quad=F}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " x}",
+            "after": " x"
+        },
+        {
+            "type": "latex_fix",
+            "before": "1\\;$\\mathrm{h p}=746$\\;$\\mathrm{W}",
+            "after": "1\\;$\\mathrm{hp}=746$\\;$\\mathrm{W}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "$\\begin{array}{r l}$&{$\\quad100(\\mathrm{w a t t})\\times10(\\mathrm{h o u r})$}\\\\ &{=1000$\\mathrm{w a t t}\\mathrm{h o u r}$}\\\\ &{=1$\\mathrm{k i l o w a t t}\\mathrm{h o u r}(\\mathrm{k W h})$}\\\\ &{=10$^{\\mathrm{3}}(\\mathrm{W})\\times3600(\\mathrm{s})$}\\\\ &{=3.6$\\times10^{\\mathrm{6}}\\mathrm{J}$}$\\end{array}",
+            "after": "$\\begin{array}{r l}$&{$\\quad100(\\mathrm{watt})\\times10(\\mathrm{hour})$}\\\\ &{=1000$\\mathrm{watt}\\mathrm{hour}$}\\\\ &{=1$\\mathrm{kilowatt}\\mathrm{hour}(\\mathrm{kWh})$}\\\\ &{=10$^{\\mathrm{3}}(\\mathrm{W})\\times3600(\\mathrm{s})$}\\\\ &{=3.6$\\times10^{\\mathrm{6}}\\mathrm{J}$}$\\end{array}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "&\\left\\{",
+            "after": "&\\left\\{}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}{}",
+            "after": "\\begin{aligned}{}\\end{aligned}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{aligned}\\right",
+            "after": "\\right"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\\\ {=",
+            "after": "\\\\ {=}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}",
+            "after": ""
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\{",
+            "after": "\\{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\}",
+            "after": "\\"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\{m_{_1},\\;m_{_2},\\;",
+            "after": "\\{m_{_1},\\;m_{_2},\\;}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\}",
+            "after": "\\"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\{V_{_{I f}},~V_{_{2f}},~",
+            "after": "\\{V_{_{I f}},~V_{_{2f}},~}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\}",
+            "after": "\\"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}",
+            "after": ""
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "K$_{\\mathrm{r e f}}=$W$_{\\mathrm{r e f}}",
+            "after": "K$_{\\mathrm{ref}}=$W$_{\\mathrm{ref}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "$\\hat{\\mathbb{i}}\\cdot\\hat{\\mathbb{i}}=\\hat{\\mathbb{j}}\\cdot\\hat{\\mathbb{j}}=\\hat{\\mathbb{k}}\\cdot\\hat{\\mathbb{k}}=1\\quad\\mathrm{a n d}\\quad\\hat{\\mathbb{i}}\\cdot\\hat{\\mathbb{j}}=\\hat{\\mathbb{j}}\\cdot\\hat{\\mathbb{k}}=\\hat{\\mathbb{k}}\\cdot\\hat{\\mathbb{j}}=()",
+            "after": "$\\hat{\\mathbb{i}}\\cdot\\hat{\\mathbb{i}}=\\hat{\\mathbb{j}}\\cdot\\hat{\\mathbb{j}}=\\hat{\\mathbb{k}}\\cdot\\hat{\\mathbb{k}}=1\\quad\\mathrm{and}\\quad\\hat{\\mathbb{i}}\\cdot\\hat{\\mathbb{j}}=\\hat{\\mathbb{j}}\\cdot\\hat{\\mathbb{k}}=\\hat{\\mathbb{k}}\\cdot\\hat{\\mathbb{j}}=()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "[",
+            "after": "[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "[",
+            "after": "[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{M L}^{2}\\mathrm{T}^{-2}]",
+            "after": "\\mathrm{ML}^{2}\\mathrm{T}^{-2}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{M L}^{2}\\mathrm{T}^{-2}]",
+            "after": "\\mathrm{ML}^{2}\\mathrm{T}^{-2}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "[",
+            "after": "[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "V(x)={",
+            "after": "V(x)={}"
+        },
+        {
+            "type": "script_fix",
+            "before": "}k x^{^2}",
+            "after": "k x^{2}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "[",
+            "after": "[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\hat{\\mathbf{i}},\\hat{\\mathbf{j}},\\hat{\\mathbf{k}}\\right.",
+            "after": "\\left[\\hat{\\mathbf{i}},\\hat{\\mathbf{j}},\\hat{\\mathbf{k}}\\right.]"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{m a s s}=9.11{\\times}10^{-31}",
+            "after": "\\mathrm{mass}=9.11{\\times}10^{-31}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

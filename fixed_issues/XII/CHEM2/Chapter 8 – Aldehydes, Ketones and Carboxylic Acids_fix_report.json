@@ -1,0 +1,101 @@
+{
+    "chapter": "Chapter 8 – Aldehydes, Ketones and Carboxylic Acids",
+    "total_formulas": 166,
+    "repaired": 17,
+    "failed": 0,
+    "ocr_fixes": 159,
+    "latex_fixes": 17,
+    "markdown_fixes": 9,
+    "orphaned_latex_wrapped": 88,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.112,
+    "changes": [
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{{^\\mathrm{{\\prime}}C H}_{3}}",
+            "after": "\\mathrm{{^\\mathrm{\\prime}C H}_{3}}"
+        },
+        {
+            "type": "script_fix",
+            "before": "s p^{^2}",
+            "after": "s p^{2}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "Z=\\mathrm{A l k y l}",
+            "after": "Z=\\mathrm{Alkyl}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{R}{\\mathrm{-}}\\mathrm{C H O}\\xrightarrow{\\quad[\\mathrm{O}]\\quad}\\mathrm{R}{\\mathrm{-}}\\mathrm{C O O H}",
+            "after": "\\mathrm{R}{\\mathrm{-}}\\mathrm{CHO}\\xrightarrow{\\quad[\\mathrm{O}]\\quad}\\mathrm{R}{\\mathrm{-}}\\mathrm{COOH}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\overset{1}{\\underset{\\mathrm{R}}{\\longrightarrow}}\\overset{2}{\\underset{\\mathrm{CH_2}}{\\longrightarrow}}\\overset{3}{\\underset{\\mathrm{C}}{\\longrightarrow}}\\overset{1}{\\underset{\\mathrm{C_2}}{\\longrightarrow}}\\overset{\\mathrm{[O]}}{\\underset{\\mathrm{O}}{\\longrightarrow}}\\overset{\\mathrm{[O]}}{\\underset{\\mathrm{R}}{\\longrightarrow}}\\overset{\\mathrm{R}}{\\underset{\\mathrm{C}}{\\longrightarrow}}\\overset{\\mathrm{C}}{\\underset{\\mathrm{OOH}}{\\longrightarrow}}+\\overset{\\mathrm{R}}{\\underset{\\mathrm{R}}{\\longrightarrow}}\\overset{\\mathrm{-C}}{\\underset{\\mathrm{C_2}}{\\longrightarrow}}\\overset{\\mathrm{C}}{\\underset{\\mathrm{COOH}}{\\longrightarrow}}\\\\\\overset{\\mathrm{(By~leavage~of~C_1-C_2~bond)}}{+}\\\\\\overset{\\mathrm{R}}{\\underset{\\mathrm{C}}{\\longrightarrow}}\\overset{\\mathrm{C}}{\\underset{\\mathrm{H_2}}{\\longrightarrow}}\\overset{\\mathrm{C}}{\\underset{\\mathrm{COOH}}{\\longrightarrow}}+\\overset{\\mathrm{R}}{\\underset{\\mathrm{R}}{\\longrightarrow}}\\overset{\\mathrm{-C}}{\\underset{\\mathrm{COOH}}{\\longrightarrow}}\\\\\\overset{\\mathrm{(By~leavage~of~C_2-C_3~bond)}}{\\longrightarrow}\\end{array}",
+            "after": "\\begin{array}{c}\\overset{1}{\\underset{\\mathrm{R}}{\\longrightarrow}}\\overset{2}{\\underset{\\mathrm{CH_2}}{\\longrightarrow}}\\overset{3}{\\underset{\\mathrm{C}}{\\longrightarrow}}\\overset{1}{\\underset{\\mathrm{C_2}}{\\longrightarrow}}\\overset{\\mathrm{[O]}}{\\underset{\\mathrm{O}}{\\longrightarrow}}\\overset{\\mathrm{[O]}}{\\underset{\\mathrm{R}}{\\longrightarrow}}\\overset{\\mathrm{R}}{\\underset{\\mathrm{C}}{\\longrightarrow}}\\overset{\\mathrm{C}}{\\underset{\\mathrm{OOH}}{\\longrightarrow}}+\\overset{\\mathrm{R}}{\\underset{\\mathrm{R}}{\\longrightarrow}}\\overset{\\mathrm{-C}}{\\underset{\\mathrm{C_2}}{\\longrightarrow}}\\overset{\\mathrm{C}}{\\underset{\\mathrm{COOH}}{\\longrightarrow}}\\\\overset{\\mathrm{(By~leavage~of~C_1-C_2~bond)}}{+}\\\\overset{\\mathrm{R}}{\\underset{\\mathrm{C}}{\\longrightarrow}}\\overset{\\mathrm{C}}{\\underset{\\mathrm{H_2}}{\\longrightarrow}}\\overset{\\mathrm{C}}{\\underset{\\mathrm{COOH}}{\\longrightarrow}}+\\overset{\\mathrm{R}}{\\underset{\\mathrm{R}}{\\longrightarrow}}\\overset{\\mathrm{-C}}{\\underset{\\mathrm{COOH}}{\\longrightarrow}}\\\\overset{\\mathrm{(By~leavage~of~C_2-C_3~bond)}}{\\longrightarrow}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\overset{\\mathrm{CH_3CHO}}{\\underset{+}{\\longrightarrow}}\\xrightarrow[\\mathrm{2.\\quad\\triangle}]{\\mathrm{~1.~NaOH}}\\overset{\\mathrm{CH_3-CH=CH-CHO+CH_3CH_2-CH=C-CHO}}{\\underset{\\mathrm{But-2-enal}}{\\longrightarrow}}\\overset{\\mathrm{CH_3}}{\\underset{\\mathrm{CH_3}}{\\longrightarrow}}\\\\\\overset{\\mathrm{from~two~molecules~of~channel~2-Methylpen+2-enal}}{\\underset{\\mathrm{from~two~molecules}}{\\longrightarrow}}\\\\\\end{array}",
+            "after": "\\begin{array}{c}\\overset{\\mathrm{CH_3CHO}}{\\underset{+}{\\longrightarrow}}\\xrightarrow[\\mathrm{2.\\quad\\triangle}]{\\mathrm{~1.~NaOH}}\\overset{\\mathrm{CH_3-CH=CH-CHO+CH_3CH_2-CH=C-CHO}}{\\underset{\\mathrm{But-2-enal}}{\\longrightarrow}}\\overset{\\mathrm{CH_3}}{\\underset{\\mathrm{CH_3}}{\\longrightarrow}}\\\\overset{\\mathrm{from~two~molecules~of~channel~2-Methylpen+2-enal}}{\\underset{\\mathrm{from~two~molecules}}{\\longrightarrow}}\\\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}RCH_2OH\\xrightarrow[2.H_3\\dot{O}]{1.allline KMnO_4}RCOOH\\\\ CH_3(CH_2)_8CH_2OH\\xrightarrow[Jones represent]{1.CrO_3-H_2SO_4}CH_3(CH_2)_8COOH\\\\ Decanoic acid\\\\\\end{array}",
+            "after": "\\begin{array}{c}RCH_2OH\\xrightarrow[2.H_3\\dot{O}]{1.allline KMnO_4}RCOOH\\\\ CH_3(CH_2)_8CH_2OH\\xrightarrow[Jones represent]{1.CrO_3-H_2SO_4}CH_3(CH_2)_8COOH\\\\ Decanoic acid\\\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{CH_{3}CH_{2}CH_{2}CH_{2}OH\\xrightarrow[Jones represent]{CrO_{3}-H_{2}SO_{4}}CH_{3}CH_{2}COOH}\\\\\\mathrm{Butan-1-ol}\\\\\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{CH_{3}CH_{2}CH_{2}CH_{2}OH\\xrightarrow[Jones represent]{CrO_{3}-H_{2}SO_{4}}CH_{3}CH_{2}COOH}\\\\mathrm{Butan-1-ol}\\\\end{array}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\begin{array}{r l r}{\\mathrm{(i i)}}&{\\underset{\\mathrm{B e n z y l~a l c o h o l}}{\\mathrm{C_{6}H_{5}C H_{2}O H}}\\xrightarrow{\\quad\\mathrm{H B r}\\quad}\\underset{\\mathrm{B e n z y l~b r o m i d e}}{\\mathrm{C_{6}H_{5}C H_{2}B r}}\\xrightarrow{\\quad\\mathrm{K C N}\\quad}\\underset{\\mathrm{B e n z y l~c y a n i d e}}{\\mathrm{C_{6}H_{5}C H_{2}C N}}}\\\\ &{}&{\\quad\\left.\\begin{array}{c}{\\quad\\bigtriangleup}\\\\ {\\quad\\bigtriangleup}\\end{array}\\right|\\underset{\\mathrm{C_{6}H_{5}C H_{2}C O O H}}{\\mathrm{H_{5}O^{*}}}}\\\\ &{}&{\\quad\\underset{\\mathrm{P h e n y l e t h a n o i c~a c i d}}{\\mathrm{C_{6}H_{5}C H_{2}C O O H}}}\\end{array}",
+            "after": "\\begin{array}{r l r}{\\mathrm{(i i)}}&{\\underset{\\mathrm{B e n z y l~a l c o h o l}}{\\mathrm{C_{6}H_{5}C H_{2}O H}}\\xrightarrow{\\quad\\mathrm{HBr}\\quad}\\underset{\\mathrm{B e n z y l~b r o m i d e}}{\\mathrm{C_{6}H_{5}C H_{2}B r}}\\xrightarrow{\\quad\\mathrm{KCN}\\quad}\\underset{\\mathrm{B e n z y l~c y a n i d e}}{\\mathrm{C_{6}H_{5}C H_{2}C N}}}\\\\ &{}&{\\quad\\left.\\begin{array}{c}{\\quad\\bigtriangleup}\\\\ {\\quad\\bigtriangleup}\\end{array}\\right|\\underset{\\mathrm{C_{6}H_{5}C H_{2}C O O H}}{\\mathrm{H_{5}O^{*}}}}\\\\ &{}&{\\quad\\underset{\\mathrm{P h e n y l e t h a n o i c~a c i d}}{\\mathrm{C_{6}H_{5}C H_{2}C O O H}}}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\mathrm{C_{6}H_{5}COOH>C_{6}H_{5}CH_{2}COOH>CH_{3}COOH>CH_{3}CH_{2}COOH}\\\\\\text{(continuous)}\\end{array}",
+            "after": "\\begin{array}{l}\\mathrm{C_{6}H_{5}COOH>C_{6}H_{5}CH_{2}COOH>CH_{3}COOH>CH_{3}CH_{2}COOH}\\\\text{(continuous)}\\end{array}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{S O C l}_{2}$ . Thionyl chloride ",
+            "after": "\\mathrm{SOCl}_{2}$ . Thionyl chloride "
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{l}",
+            "after": "\\begin{array}{l}\\end{array}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{L i A l H}_{4}$, tio The carbonyl group of aldehydes and ketones can be reduced to a methylene group by Clemmensen reduction or Wolff-Kishner reduction. Aldehydes are easily oxidised to carboxylic acids by mild oxidising reagents such as Tollens'reagent and Fehling's reagent. These oxidation reactions are used to distinguish aldehydes from ketones. Carboxylic acids are prepared by the oxidation of primary alcohols, aldehydes and alkenes by hydrolysis of nitriles, and by treatment of Grignard reagents with carbon dioxide. Aromatic carboxylic acids are also prepared by side-chain oxidation of alkylbenzenes. Carboxylic acids are considerably more acidic than alcohols and most of simple phenols. Carboxylic acids are reduced to primary alcohols with ",
+            "after": "\\mathrm{LiAlH}_{4}$, tio The carbonyl group of aldehydes and ketones can be reduced to a methylene group by Clemmensen reduction or Wolff-Kishner reduction. Aldehydes are easily oxidised to carboxylic acids by mild oxidising reagents such as Tollens'reagent and Fehling's reagent. These oxidation reactions are used to distinguish aldehydes from ketones. Carboxylic acids are prepared by the oxidation of primary alcohols, aldehydes and alkenes by hydrolysis of nitriles, and by treatment of Grignard reagents with carbon dioxide. Aromatic carboxylic acids are also prepared by side-chain oxidation of alkylbenzenes. Carboxylic acids are considerably more acidic than alcohols and most of simple phenols. Carboxylic acids are reduced to primary alcohols with "
+        },
+        {
+            "type": "latex_fix",
+            "before": " \"a cse re e a e $$\\mathrm{C l}_{2}",
+            "after": " \"a cse re e a e $$\\mathrm{Cl}_{2}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\scriptstyle-{\\mathrm{C h l o r o p e n t a n-}}2{\\scriptstyle-{\\mathrm{o n e}}}",
+            "after": "\\scriptstyle-{\\mathrm{C h l o r o p e n t a n-}}2{\\scriptstyle-{\\mathrm{one}}}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "$\\begin{array}{c}\\mathrm{CH_{3}O}\\quad\\mathrm{O}$\\\\\\mid\\quad\\parallel\\\\$\\mathrm{H_{3}C-CH-C-H}\\end{array}",
+            "after": "$\\begin{array}{c}\\mathrm{CH_{3}O}\\quad\\mathrm{O}$\\\\mid\\quad\\parallel\\\\$\\mathrm{H_{3}C-CH-C-H}\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "$\\overset{\\overset{\\frown}{\\underset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}}}{\\underset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}}}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\underset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\underset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\underset{\\cdot\\cdot}{\\vert\\cdot}}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\underset{\\cdot\\cdot}{\\vert\\cdot}}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\underset{\\cdot\\cdot}{\\vert\\cdot}}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\underset{\\cdot\\cdot}{\\vert\\cdot}}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\vert\\cdot}$}{$\\overset{\\vert\\vert\\cdot}$}{$\\vert\\overset{\\vert\\cdot\\cdot}{\\vert\\vert\\cdot}$}$\\overset{\\vert\\vert}{\\vert\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\vert\\cdot}$}",
+            "after": "$\\overset{\\overset{\\frown}{\\underset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}}}{\\underset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}}}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\underset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\underset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\underset{\\cdot\\cdot}{\\vert\\cdot}}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\underset{\\cdot\\cdot}{\\vert\\cdot}}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\underset{\\cdot\\cdot}{\\vert\\cdot}}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\underset{\\cdot\\cdot}{\\vert\\cdot}}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\vert\\cdot}${$\\overset{\\vert\\vert\\cdot}$}{$\\vert\\overset{\\vert\\cdot\\cdot}{\\vert\\vert\\cdot}$}$\\overset{\\vert\\vert}{\\vert\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\vert\\cdot}$"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

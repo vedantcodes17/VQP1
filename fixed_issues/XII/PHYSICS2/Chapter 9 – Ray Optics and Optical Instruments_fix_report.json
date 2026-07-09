@@ -1,0 +1,176 @@
+{
+    "chapter": "Chapter 9 – Ray Optics and Optical Instruments",
+    "total_formulas": 256,
+    "repaired": 32,
+    "failed": 0,
+    "ocr_fixes": 196,
+    "latex_fixes": 32,
+    "markdown_fixes": 6,
+    "orphaned_latex_wrapped": 9,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.097,
+    "changes": [
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{F D}=f\\mathrm{a n d}\\;\\mathrm{C D}=R",
+            "after": "\\mathrm{FD}=f\\mathrm{and}\\;\\mathrm{CD}=R"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[{\\frac{-v+f}{-f}}={\\frac{-v}{-u}}\\right.",
+            "after": "\\left[{\\frac{-v+f}{-f}}={\\frac{-v}{-u}}\\right.]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{\\mathbf{B}'\\mathbf{A}'}{\\mathbf{B}\\mathbf{A}}=\\frac{\\mathbf{B}'\\mathbf{P}}{\\mathbf{B}\\mathbf{P}}\\right.",
+            "after": "\\left[\\frac{\\mathbf{B}'\\mathbf{A}'}{\\mathbf{B}\\mathbf{A}}=\\frac{\\mathbf{B}'\\mathbf{P}}{\\mathbf{B}\\mathbf{P}}\\right.]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{-h'}{h}=\\frac{-v}{-u}\\right.",
+            "after": "\\left[\\frac{-h'}{h}=\\frac{-v}{-u}\\right.]"
+        },
+        {
+            "type": "latex_fix",
+            "before": "f=-15/2\\mathrm{c m}=-7.5",
+            "after": "f=-15/2\\mathrm{cm}=-7.5"
+        },
+        {
+            "type": "latex_fix",
+            "before": "u=-5~\\mathrm{c m}",
+            "after": "u=-5~\\mathrm{cm}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "u=-39+5=-34)",
+            "after": "u=-39+5=-34"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{\\sin i}{\\sin r}=n_{21}\\right.",
+            "after": "\\left[\\frac{\\sin i}{\\sin r}=n_{21}\\right.]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "Ta]",
+            "after": "Ta"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{A O_{4})}",
+            "after": "\\mathrm{A O_{4}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "i_{_c}=\\underline{{n}}_{21}",
+            "after": "i_{_c}=\\underline{n}_{21}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "n_{\\mathrm{12}}=1/\\mathrm{s i n}i_{\\mathrm{c}}.",
+            "after": "n_{\\mathrm{12}}=1/\\mathrm{sin}i_{\\mathrm{c}}."
+        },
+        {
+            "type": "latex_fix",
+            "before": "n_{\\mathrm{1}}\\;\\mathrm{s i n}\\;i{=}\\;n_{\\mathrm{2}}\\;\\mathrm{s i n}\\;r or for small angles ",
+            "after": "n_{\\mathrm{1}}\\;\\mathrm{sin}\\;i{=}\\;n_{\\mathrm{2}}\\;\\mathrm{sin}\\;r or for small angles "
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{n_{_2}}{v}-\\frac{n_{_1}}{u}=\\frac{n_{_2}-n_{_1}}{R}\\right.",
+            "after": "\\left[\\frac{n_{_2}}{v}-\\frac{n_{_1}}{u}=\\frac{n_{_2}-n_{_1}}{R}\\right.]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "(n=1.5",
+            "after": "(n=1.5)"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{c u r v a t u r e}=20",
+            "after": "\\mathrm{curvature}=20"
+        },
+        {
+            "type": "latex_fix",
+            "before": "u=-100\\mathrm{c m}",
+            "after": "u=-100\\mathrm{cm}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "v=\\pm100~\\mathrm{c m}",
+            "after": "v=\\pm100~\\mathrm{cm}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{aligned}&\\mathrm{BO}=-u,\\mathrm{DI}=+v,\\mathrm{we}\\ \\mathrm{get}\\\\ &\\left[\\frac{1}{v}-\\frac{1}{u}=\\frac{1}{f}\\right.\\\\ \\end{aligned}",
+            "after": "\\begin{aligned}&\\mathrm{BO}=-u,\\mathrm{DI}=+v,\\mathrm{we}\\ \\mathrm{get}\\\\ &\\left[\\frac{1}{v}-\\frac{1}{u}=\\frac{1}{f}\\right.\\\\ \\end{aligned}]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "optical centre of the lens. Applying the sign convention,\\begin{aligned}&\\mathrm{BO}=-u,\\mathrm{DI}=+v,\\mathrm{we}\\ \\mathrm{get}\\\\ &\\left[\\frac{1}{v}-\\frac{1}{u}=\\frac{1}{f}\\right.\\\\ \\end{aligned}",
+            "after": "optical centre of the lens. Applying the sign convention,\\begin{aligned}&\\mathrm{BO}=-u,\\mathrm{DI}=+v,\\mathrm{we}\\ \\mathrm{get}\\\\ &\\left[\\frac{1}{v}-\\frac{1}{u}=\\frac{1}{f}\\right.\\\\ \\end{aligned}]"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{p o w e r}+2.5\\mathrm{D}",
+            "after": "\\mathrm{power}+2.5\\mathrm{D}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{l e n g t h}+40",
+            "after": "\\mathrm{length}+40"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{-g l a s s}=1.5.)",
+            "after": "\\mathrm{-g l a s s}=1.5."
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{P o w e r}=+2",
+            "after": "\\mathrm{Power}=+2"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{1}{v}-\\frac{1}{u}=\\frac{1}{f}\\right.",
+            "after": "\\left[\\frac{1}{v}-\\frac{1}{u}=\\frac{1}{f}\\right.]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}&\\frac{1}{v_{i}}-\\frac{1}{u_{i}}=\\frac{1}{f_{i}}\\\\&\\frac{1}{v_{i}}-\\frac{1}{-30}=\\frac{1}{10}\\\\&or\\quad v_{i}=15cm\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}&\\frac{1}{v_{i}}-\\frac{1}{u_{i}}=\\frac{1}{f_{i}}\\\\&\\frac{1}{v_{i}}-\\frac{1}{-30}=\\frac{1}{10}\\\\&or\\quad v_{i}=15cm\\end{aligned}\\right.}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "D_{\\mathrm{m}}=2i-A,\\mathrm{o r}i=(A+D_{\\mathrm{m}})/2",
+            "after": "D_{\\mathrm{m}}=2i-A,\\mathrm{or}i=(A+D_{\\mathrm{m}})/2"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "D\\simeq25\\:\\mathrm{c m})",
+            "after": "D\\simeq25\\:\\mathrm{cm}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "h/u)",
+            "after": "h/u"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f_{e})",
+            "after": "f_{e}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{s i n}",
+            "after": "\\mathrm{sin}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left(i",
+            "after": "\\left(i)"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

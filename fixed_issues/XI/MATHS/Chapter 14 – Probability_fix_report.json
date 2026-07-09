@@ -1,0 +1,171 @@
+{
+    "chapter": "Chapter 14 – Probability",
+    "total_formulas": 276,
+    "repaired": 31,
+    "failed": 0,
+    "ocr_fixes": 106,
+    "latex_fixes": 31,
+    "markdown_fixes": 13,
+    "orphaned_latex_wrapped": 188,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.121,
+    "changes": [
+        {
+            "type": "latex_fix",
+            "before": "\\begin{array}{l}{\\mathrm{S}=\\{\\mathrm{H H},\\mathrm{H T},\\mathrm{T H},\\mathrm{T T}\\}}\\\\ {\\phi}\\end{array}",
+            "after": "\\begin{array}{l}{\\mathrm{S}=\\{\\mathrm{HH},\\mathrm{HT},\\mathrm{TH},\\mathrm{TT}\\}}\\\\ {\\phi}\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "[\\omega\\not\\in\\mathrm{E}",
+            "after": "[\\omega\\not\\in\\mathrm{E}]"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathbb{S}=\\{\\mathrm{H H},\\mathrm{H T},\\mathrm{T H},\\mathrm{T T}\\}",
+            "after": "\\mathbb{S}=\\{\\mathrm{HH},\\mathrm{HT},\\mathrm{TH},\\mathrm{TT}\\}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{{}^{\\mathrm{{}^{\\mathrm{{}^{\\mathrm{{}^{\\mathrm{{A}}}}}}}}\\cup\\mathrm{{B}}^{\\mathrm{{}^{\\mathrm{{}^{\\mathrm{{}^{\\mathrm{{}}^{\\mathrm{{}}^{\\mathrm{{}}^{\\mathrm{}}}}}}}}}}}}}",
+            "after": "\\mathrm{{}^{\\mathrm{{}^{\\mathrm{{}^{\\mathrm{{}^{\\mathrm{A}}}}}}}\\cup\\mathrm{B}^{\\mathrm{{}^{\\mathrm{{}^{\\mathrm{{}^{\\mathrm{}^{\\mathrm{}^{\\mathrm{}^{\\mathrm{}}}}}}}}}}}}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{~A~}^{\\mathrm{{`}}}\\mathrm{{\\tt{a n}}}",
+            "after": "\\mathrm{~A~}^{\\mathrm{`}}\\mathrm{{\\tt{a n}}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\}",
+            "after": "\\"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\}",
+            "after": "\\"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\{",
+            "after": "\\{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\}",
+            "after": "\\"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{rl}(",
+            "after": "\\begin{array}{rl}(\\end{array})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " is called elementary event and for notational convenience, we write $$\\mathrm{P}(\\omega_{i})\\mathrm{forP}(",
+            "after": " is called elementary event and for notational convenience, we write $$\\mathrm{P}(\\omega_{i})\\mathrm{forP}()"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{aligned}",
+            "after": ""
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{P}(\\mathrm{E})=\\Sigma\\mathrm{P}(",
+            "after": "\\mathrm{P}(\\mathrm{E})=\\Sigma\\mathrm{P}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{i}),\\text{for all}",
+            "after": "_{i},\\text{for all}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\{",
+            "after": "\\{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\}",
+            "after": "\\"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " ,HTH, THH} and $$\\mathrm{B}=",
+            "after": " ,HTH, THH and $$\\mathrm{B}="
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "Als(\\begin{align*}\\mathrm{p}\\;\\mathrm{P}(\\mathrm{A})+\\mathrm{P}(\\mathrm{B})=&\\left[\\sum\\mathrm{p}(\\omega_i)\\;\\forall\\omega_i\\in A\\right]+\\left[\\sum\\mathrm{p}(\\omega_i)\\;\\forall\\omega_i\\in B\\right]\\\\=&\\left[\\sum\\mathrm{P}(\\omega_i)\\forall\\omega_i\\in(A-B)\\cup(A-B)\\right]+\\left[\\sum\\mathrm{P}(\\omega_i)\\forall\\omega_i\\in(B-A)\\cup(A\\cap B)\\right]\\\\=&\\left[\\sum\\mathrm{P}(\\omega_i)\\forall\\omega_i\\in(A-B)\\right]+\\left[\\sum\\mathrm{P}(\\omega_i)\\forall\\omega_i\\in(A\\cap B)\\right]+\\left[\\sum\\mathrm{P}(\\omega_i)\\forall\\omega_i\\in(B-A)\\right]+\\\\&\\left[\\sum\\mathrm{P}(\\omega_i)\\forall\\omega_i\\in(A-B)\\right]\\\\=&\\left[\\mathrm{P}(\\mathrm{A}\\cup\\mathrm{B})+\\left[\\sum\\mathrm{P}(\\omega_i)\\forall\\omega_i\\in A\\cap B\\right]\\quad[\\mathrm{using}(1)]\\right.\\\\=&\\left.\\mathrm{P}(\\mathrm{A}\\cup\\mathrm{B})+\\mathrm{P}(\\mathrm{A}\\cap\\mathrm{B})\\right].\\end{align*}",
+            "after": "Als(\\begin{align*}\\mathrm{p}\\;\\mathrm{P}(\\mathrm{A})+\\mathrm{P}(\\mathrm{B})=&\\left[\\sum\\mathrm{p}(\\omega_i)\\;\\forall\\omega_i\\in A\\right]+\\left[\\sum\\mathrm{p}(\\omega_i)\\;\\forall\\omega_i\\in B\\right]\\\\=&\\left[\\sum\\mathrm{P}(\\omega_i)\\forall\\omega_i\\in(A-B)\\cup(A-B)\\right]+\\left[\\sum\\mathrm{P}(\\omega_i)\\forall\\omega_i\\in(B-A)\\cup(A\\cap B)\\right]\\\\=&\\left[\\sum\\mathrm{P}(\\omega_i)\\forall\\omega_i\\in(A-B)\\right]+\\left[\\sum\\mathrm{P}(\\omega_i)\\forall\\omega_i\\in(A\\cap B)\\right]+\\left[\\sum\\mathrm{P}(\\omega_i)\\forall\\omega_i\\in(B-A)\\right]+\\\\&\\left[\\sum\\mathrm{P}(\\omega_i)\\forall\\omega_i\\in(A-B)\\right]\\\\=&\\left[\\mathrm{P}(\\mathrm{A}\\cup\\mathrm{B})+\\left[\\sum\\mathrm{P}(\\omega_i)\\forall\\omega_i\\in A\\cap B\\right]\\quad[\\mathrm{using}(1)]\\right.\\\\=&\\left.\\mathrm{P}(\\mathrm{A}\\cup\\mathrm{B})+\\mathrm{P}(\\mathrm{A}\\cap\\mathrm{B})\\right].\\end{align*})"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\mathrm{P}\\left(\\mathrm{A}\\cup\\mathrm{B}\\right)=\\mathrm{P}\\left(\\mathrm{A}\\right)+\\mathrm{P}\\left(\\mathrm{B}-\\mathrm{A}\\right)\\\\\\mathrm{P}(\\mathrm{B})=\\mathrm{P}\\left(\\mathrm{A}\\cap\\mathrm{B}\\right)+\\mathrm{P}\\left(\\mathrm{B}-\\mathrm{A}\\right)\\end{array}",
+            "after": "\\begin{array}{l}\\mathrm{P}\\left(\\mathrm{A}\\cup\\mathrm{B}\\right)=\\mathrm{P}\\left(\\mathrm{A}\\right)+\\mathrm{P}\\left(\\mathrm{B}-\\mathrm{A}\\right)\\\\mathrm{P}(\\mathrm{B})=\\mathrm{P}\\left(\\mathrm{A}\\cap\\mathrm{B}\\right)+\\mathrm{P}\\left(\\mathrm{B}-\\mathrm{A}\\right)\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\mathrm{P}(\\mathrm{A}\\cup\\mathrm{B})-\\mathrm{P}(\\mathrm{B})=\\mathrm{P}(\\mathrm{A})-\\mathrm{P}(\\mathrm{A}\\cap\\mathrm{B})\\\\\\mathrm{P}(\\mathrm{A}\\cup\\mathrm{B})=\\mathrm{P}(\\mathrm{A})+\\mathrm{P}(\\mathrm{B})-\\mathrm{P}(\\mathrm{A}\\cap\\mathrm{B})\\end{array}",
+            "after": "\\begin{array}{l}\\mathrm{P}(\\mathrm{A}\\cup\\mathrm{B})-\\mathrm{P}(\\mathrm{B})=\\mathrm{P}(\\mathrm{A})-\\mathrm{P}(\\mathrm{A}\\cap\\mathrm{B})\\\\mathrm{P}(\\mathrm{A}\\cup\\mathrm{B})=\\mathrm{P}(\\mathrm{A})+\\mathrm{P}(\\mathrm{B})-\\mathrm{P}(\\mathrm{A}\\cap\\mathrm{B})\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{or},\\mathrm{a}\\mathrm{spade})\\quad(\\mathrm{iv})",
+            "after": "\\mathrm{or},\\mathrm{a}\\mathrm{spade}\\quad(\\mathrm{iv})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{C})=1-\\mathrm{P}(\\mathrm{C})=1-\\frac{1}{2}=\\frac{1}{2}",
+            "after": "\\mathrm{C}=1-\\mathrm{P}(\\mathrm{C})=1-\\frac{1}{2}=\\frac{1}{2}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{E'\\cap F'=(E\\cup F)'(\\bar{by}\\;Demo}\\;\\mathrm{T}\\;\\mathrm{]}",
+            "after": "\\mathrm{E'\\cap F'=(E\\cup F)'(\\bar{by}\\;Demo}\\;\\mathrm{T}\\;\\mathrm{})"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{E}\\cap\\mathrm{F}^{\\prime}\\mathrm{o r}\\mathrm{E}^{\\prime}\\cap\\mathrm{F}",
+            "after": "\\mathrm{E}\\cap\\mathrm{F}^{\\prime}\\mathrm{or}\\mathrm{E}^{\\prime}\\cap\\mathrm{F}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " (i)$$\\left[\\frac{1}{3}\\right",
+            "after": " (i)$$\\left[\\frac{1}{3}\\right]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "n(",
+            "after": "n()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{E}=$\\{$\\mathrm{ABCD}$ , CABD, DABC, ABDC, CADB, DACB ",
+            "after": "\\mathrm{E}=$\\{$\\mathrm{ABCD}$ , CABD, DABC, ABDC, CADB, DACB }"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\{",
+            "after": "\\{}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

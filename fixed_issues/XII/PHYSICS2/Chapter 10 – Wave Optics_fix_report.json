@@ -1,0 +1,106 @@
+{
+    "chapter": "Chapter 10 – Wave Optics",
+    "total_formulas": 141,
+    "repaired": 18,
+    "failed": 0,
+    "ocr_fixes": 110,
+    "latex_fixes": 18,
+    "markdown_fixes": 5,
+    "orphaned_latex_wrapped": 110,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.048,
+    "changes": [
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{B C}=\\underline{{v}}_{1}\\tau",
+            "after": "\\mathrm{BC}=\\underline{v}_{1}\\tau"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "V_{2})",
+            "after": "V_{2}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left(V",
+            "after": "\\left(V)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{1}\\right)",
+            "after": "_{1}\\right"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "(1629",
+            "after": "(1629)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\tau)",
+            "after": "\\tau"
+        },
+        {
+            "type": "brace_fix",
+            "before": "_{\\mathrm{{r}}}",
+            "after": "_{\\mathrm{r}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "$\\mathrm{B C}=$v\\tau ",
+            "after": "$\\mathrm{BC}=$v\\tau "
+        },
+        {
+            "type": "latex_fix",
+            "before": "$\\mathrm{A E}=\\mathrm{B C}=$v\\tau ",
+            "after": "$\\mathrm{AE}=\\mathrm{BC}=$v\\tau "
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\overline{{n}}",
+            "after": "\\overline{n}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "y$_{\\mathrm{{_1}}}=$a\\cos\\omega t then, the displacement produced by would be ",
+            "after": "y$_{\\mathrm{_1}}=$a\\cos\\omega t then, the displacement produced by would be "
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{n}=\\left(",
+            "after": "_{n}=\\left()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{1}{2}\\right)^{\\frac{1}{2}}\\frac{\\lambda D}{d}",
+            "after": "\\frac{1}{2}\\right^{\\frac{1}{2}}\\frac{\\lambda D}{d}"
+        },
+        {
+            "type": "brace_fix",
+            "before": " when a sinusoidal wave is propagating in the +x-direction.At $$\\overline{{x}}=\\Delta",
+            "after": " when a sinusoidal wave is propagating in the +x-direction.At $$\\overline{x}=\\Delta"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " , the component E cos θ (along the pass-axis of ",
+            "after": " , the component E cos θ (along the pass-axis of )"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{\\mathrm{1}}(\\mathrm{o r}",
+            "after": "_{\\mathrm{1}}(\\mathrm{or})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{\\mathrm{2}})",
+            "after": "_{\\mathrm{2}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " 0.18a)Passagof ligtthroughtwopolaroids risationi h taw)to0°Nt ",
+            "after": " 0.18aPassagof ligtthroughtwopolaroids risationi h tawto0°Nt "
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

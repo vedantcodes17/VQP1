@@ -1,0 +1,56 @@
+{
+    "chapter": "Proofs in Mathematics",
+    "total_formulas": 133,
+    "repaired": 8,
+    "failed": 0,
+    "ocr_fixes": 29,
+    "latex_fixes": 8,
+    "markdown_fixes": 0,
+    "orphaned_latex_wrapped": 0,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.039,
+    "changes": [
+        {
+            "type": "latex_fix",
+            "before": "b=0,\\mathrm{f o r}a,b\\in\\mathbb{R}",
+            "after": "b=0,\\mathrm{for}a,b\\in\\mathbb{R}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\frac{2}{2}x_{1}=\\frac{2}{2}x_{2}(dividing by the same non zero quantity)\\right.",
+            "after": "\\left\\{\\frac{2}{2}x_{1}=\\frac{2}{2}x_{2}(dividing by the same non zero quantity)\\right.}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "{}^{\\mathrm{{}^{\\mathrm{{}^{\\mathrm{{}^{\\mathrm{{}^{\\mathrm{}{S}}}}}}}}}}\\mathrm{{S}}(n)",
+            "after": "{}^{\\mathrm{{}^{\\mathrm{{}^{\\mathrm{{}^{\\mathrm{{}^{\\mathrm{}{S}}}}}}}}}}\\mathrm{S}(n)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{aligned}\\mathrm{A}^{\\mathrm{k}+1}=&\\begin{bmatrix}\\cos k\\;0&\\sin k\\;0\\\\-\\sin k\\;0&\\cos k\\;0\\end{bmatrix}\\begin{bmatrix}\\cos\\theta&\\sin\\theta\\\\-\\sin\\theta&\\cos\\theta\\end{bmatrix}\\\\=&\\begin{bmatrix}\\cos k\\;0\\cos\\theta-\\sin k\\;0\\sin\\theta&\\cos k\\;0\\sin\\theta+\\sin k\\;0\\cos\\theta\\\\-\\sin k\\;0\\cos\\theta-\\cos k\\;0\\sin\\theta&-\\sin k\\;0\\sin\\theta+\\cos k\\;0\\cos\\theta\\end{bmatrix}\\\\&(by matrix multiplication)\\\\=&\\begin{bmatrix}\\cos(\\;k+1)\\;0&\\sin(\\;k+1)\\;0\\\\-\\sin(\\;k+1)\\;0&\\cos\\;(\\;k+1\\;0\\;\\end{bmatrix}\\end{aligned}",
+            "after": "\\begin{aligned}\\mathrm{A}^{\\mathrm{k}+1}=&\\begin{bmatrix}\\cos k\\;0&\\sin k\\;0\\\\-\\sin k\\;0&\\cos k\\;0\\end{bmatrix}\\begin{bmatrix}\\cos\\theta&\\sin\\theta\\\\-\\sin\\theta&\\cos\\theta\\end{bmatrix}\\\\=&\\begin{bmatrix}\\cos k\\;0\\cos\\theta-\\sin k\\;0\\sin\\theta&\\cos k\\;0\\sin\\theta+\\sin k\\;0\\cos\\theta\\\\-\\sin k\\;0\\cos\\theta-\\cos k\\;0\\sin\\theta&-\\sin k\\;0\\sin\\theta+\\cos k\\;0\\cos\\theta\\end{bmatrix}\\\\&(by matrix multiplication)\\\\=&\\begin{bmatrix}\\cos(\\;k+1)\\;0&\\sin(\\;k+1)\\;0\\\\-\\sin(\\;k+1)\\;0&\\cos\\;(\\;k+1\\;0\\;\\end{bmatrix}\\end{aligned})"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\frac{\\mathrm{CD}}{\\mathrm{AC}}&=\\cos\\mathrm{C}\\\\\\mathrm{CD}&=\\mathrm{AC}\\cos\\mathrm{C}\\\\&=b\\cos\\mathrm{C}\\\\a&=\\mathrm{BD}+\\mathrm{CD}\\\\&=c\\cos\\mathrm{B}+b\\cos\\mathrm{C}\\end{aligned}",
+            "after": "\\begin{aligned}\\frac{\\mathrm{CD}}{\\mathrm{AC}}&=\\cos\\mathrm{C}\\\\mathrm{CD}&=\\mathrm{AC}\\cos\\mathrm{C}\\\\&=b\\cos\\mathrm{C}\\\\a&=\\mathrm{BD}+\\mathrm{CD}\\\\&=c\\cos\\mathrm{B}+b\\cos\\mathrm{C}\\end{aligned}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\frac{\\mathrm{BD}}{\\mathrm{AB}}&=\\cos\\mathrm{B}\\\\\\mathrm{BD}&=\\mathrm{AB}\\cos\\mathrm{B}\\\\&=c\\cos\\mathrm{B}\\end{aligned}",
+            "after": "\\begin{aligned}\\frac{\\mathrm{BD}}{\\mathrm{AB}}&=\\cos\\mathrm{B}\\\\mathrm{BD}&=\\mathrm{AB}\\cos\\mathrm{B}\\\\&=c\\cos\\mathrm{B}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}\\frac{BC}{AB}&=\\cos B\\\\ BC&=AB\\cos B\\\\ a&=c\\cos B,\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}\\frac{BC}{AB}&=\\cos B\\\\ BC&=AB\\cos B\\\\ a&=c\\cos B,\\end{aligned}\\right.}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}Now\\quad x_{1}\\neq x_{2}\\\\\\Rightarrow\\quad2x_{1}\\neq2x_{2}\\\\\\Rightarrow\\quad2x_{1}+5\\neq2x_{2}+5\\\\\\Rightarrow\\quad f(x_{1})\\neq f(x_{2}).\\end{array}",
+            "after": "\\begin{array}{l}Now\\quad x_{1}\\neq x_{2}\\\\Rightarrow\\quad2x_{1}\\neq2x_{2}\\\\Rightarrow\\quad2x_{1}+5\\neq2x_{2}+5\\\\Rightarrow\\quad f(x_{1})\\neq f(x_{2}).\\end{array}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

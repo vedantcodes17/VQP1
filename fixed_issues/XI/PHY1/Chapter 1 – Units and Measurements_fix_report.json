@@ -1,0 +1,206 @@
+{
+    "chapter": "Chapter 1 – Units and Measurements",
+    "total_formulas": 142,
+    "repaired": 38,
+    "failed": 0,
+    "ocr_fixes": 106,
+    "latex_fixes": 38,
+    "markdown_fixes": 10,
+    "orphaned_latex_wrapped": 133,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.052,
+    "changes": [
+        {
+            "type": "delimiter_balance",
+            "before": "10^{3kg</td></tr><tr><td>carat</td><td>c</td><td>200mg</td></tr><tr><td>bar</td><td>bar</td><td>",
+            "after": "10^{3kg</td></tr><tr><td>carat</td><td>c</td><td>200mg</td></tr><tr><td>bar</td><td>bar</td><td>}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{M P a}=10^{5}\\mathrm{P a}",
+            "after": "\\mathrm{MPa}=10^{5}\\mathrm{Pa}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{P a}=1.013",
+            "after": "\\mathrm{Pa}=1.013"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{P a}",
+            "after": "\\mathrm{Pa}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " ',where a is a number between l and 10, and b is any positive or negative exponent (or power) of 10. In order to get an approximate idea of the number, we may round off the number a to 1 (for ",
+            "after": " ',where a is a number between l and 10, and b is any positive or negative exponent (or power) of 10. In order to get an approximate idea of the number, we may round off the number a to 1 (for )"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " |and to 10(for ",
+            "after": " |and to 10(for )"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{i s}",
+            "after": "\\mathrm{is}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left(1\\mathrm{y}=365.25\\right",
+            "after": "\\left(1\\mathrm{y}=365.25\\right)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " d) has 3.1557 107s (five significant figures), the light year is 9.47",
+            "after": " d has 3.1557 107s (five significant figures), the light year is 9.47"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\quad10^{\\mathrm{{\\scriptstyle-3}}}",
+            "after": "\\quad10^{\\mathrm{\\scriptstyle-3}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "$\\begin{aligned}$&\\left\\{$\\begin{aligned}$&Density=$\\frac{5.74}{1.2}$g cm^{-3}\\\\&=4.8g cm$^{-3}.\\end{aligned}\\right$.\\\\ $\\end{aligned}",
+            "after": "$\\begin{aligned}$&\\left\\{$\\begin{aligned}$&Density=$\\frac{5.74}{1.2}$g cm^{-3}\\\\&=4.8g cm$^{-3}.\\end{aligned}\\right$.\\\\ $\\end{aligned}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "=16.2$\\mathrm{c m}\\pm0.6$\\%.",
+            "after": "=16.2$\\mathrm{cm}\\pm0.6$\\%."
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "&{\\quad =\\left(\\pm\\quad 0.01/1.02\\right)\\times100\\quad \\%}\\\\&{\\quad =\\pm\\quad 1\\%}\\\\&{",
+            "after": "&{\\quad =\\left(\\pm\\quad 0.01/1.02\\right)\\times100\\quad \\%}\\\\&{\\quad =\\pm\\quad 1\\%}\\\\&{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " g\\quad is}\\\\&{\\quad =\\left(\\pm\\quad 0.01/9.89\\right)\\times100\\quad \\%}\\\\&{\\quad =\\pm\\quad 0.1\\quad \\%}",
+            "after": " g\\quad is\\\\&{\\quad =\\left(\\pm\\quad 0.01/9.89\\right)\\times100\\quad \\%}\\\\&{\\quad =\\pm\\quad 0.1\\quad \\%}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "[",
+            "after": "[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{M^{\\circ}~L^{3}~T^{\\circ}}]",
+            "after": "\\mathrm{M^{\\circ}~L^{3}~T^{\\circ}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " ], and that of speed or velocity is ",
+            "after": " , and that of speed or velocity is "
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{M^{\\circ}L T^{\\cdot1}}]",
+            "after": "\\mathrm{M^{\\circ}L T^{\\cdot1}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " .Similaly, [M L T] s te dmensonal formula of acceleration and [M ",
+            "after": " .Similaly, [M L T] s te dmensonal formula of acceleration and [M ]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\scriptstyle\\mathrm{\\vec{L}}^{-3}\\mathrm{\\vec{T}}^{\\circ}]",
+            "after": "\\scriptstyle\\mathrm{\\vec{L}}^{-3}\\mathrm{\\vec{T}}^{\\circ}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\\\ {{[x",
+            "after": "\\\\ {{[x}}]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}}\\\\ {{[v_{_{o}}t]=[",
+            "after": "\\\\ {{[v_{_{o}}t]=[}}]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}}\\\\ {{=[",
+            "after": "\\\\ {{=[}}]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}}\\\\ {{[(1/2)~a~t",
+            "after": "\\\\ {{[(1/2)~a~t}}]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "~[",
+            "after": "~[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}}\\\\ {{=[",
+            "after": "\\\\ {{=[}}]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}}",
+            "after": ""
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\\\ {{",
+            "after": "\\\\ {{}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}}\\\\ {{",
+            "after": "\\\\ {{}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": ".}}",
+            "after": "."
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{r}{\\left[\\mathrm{M}\\right]\\left[\\mathrm{L}\\mathrm{T}^{-2}\\right]\\left[\\mathrm{L}\\right]=\\left[\\mathrm{M}\\right]\\left[\\mathrm{L}^{2}\\mathrm{T}^{-2}\\right]}",
+            "after": "\\begin{array}{r}{\\left[\\mathrm{M}\\right]\\left[\\mathrm{L}\\mathrm{T}^{-2}\\right]\\left[\\mathrm{L}\\right]=\\left[\\mathrm{M}\\right]\\left[\\mathrm{L}^{2}\\mathrm{T}^{-2}\\right]}\\end{array}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{aligned}",
+            "after": ""
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "[",
+            "after": "[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{k g})^{-2}=\\ldots",
+            "after": "\\mathrm{kg}^{-2}=\\ldots"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{c m})^{3}",
+            "after": "\\mathrm{cm}^{3}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\times10^{24}\\mathrm{k g}",
+            "after": "\\times10^{24}\\mathrm{kg}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{S u n}=7.0\\times10^{8}\\mathrm{m}",
+            "after": "\\mathrm{Sun}=7.0\\times10^{8}\\mathrm{m}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

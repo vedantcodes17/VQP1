@@ -1,0 +1,466 @@
+{
+    "chapter": "Chapter 4 – Chemical Bonding and Molecular Structure",
+    "total_formulas": 426,
+    "repaired": 90,
+    "failed": 0,
+    "ocr_fixes": 280,
+    "latex_fixes": 90,
+    "markdown_fixes": 12,
+    "orphaned_latex_wrapped": 164,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.292,
+    "changes": [
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C l}_{2},\\mathrm{H}_{2},\\mathrm{F}_{2}",
+            "after": "\\mathrm{Cl}_{2},\\mathrm{H}_{2},\\mathrm{F}_{2}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\begin{array}{r l r l}&{\\mathrm{\\boldmath~N a~}}&{\\rightarrow}&{\\mathrm{\\boldmath~N a^+~}^{+}\\mathrm{\\boldmath~+~}\\mathrm{\\boldmath~e^-~}}\\\\ &{[\\mathrm{N e}]\\mathrm{\\boldmath~3s^1~}}&&{[\\mathrm{N e}]}\\\\ &{\\mathrm{\\boldmath~C l~}^{+}\\mathrm{\\boldmath~e^-~}}&{\\rightarrow}&{\\mathrm{\\boldmath~C l^-~}}\\\\ &{[\\mathrm{N e}]\\mathrm{\\boldmath~3s^2~}3p^{5}}&&{[\\mathrm{N e}]\\mathrm{\\boldmath~3s^2~}3p^{6}\\mathrm{\\boldmath~o r~}[\\mathrm{A r}]}\\\\ &{\\mathrm{\\boldmath~N a^+~}^{+}\\mathrm{\\boldmath~C l^-~}^{-}\\rightarrow}&&{\\mathrm{\\boldmath~N a C l~o r~}\\mathrm{\\boldmath~N a^+C l^-~}}\\end{array}",
+            "after": "\\begin{array}{r l r l}&{\\mathrm{\\boldmath~N a~}}&{\\rightarrow}&{\\mathrm{\\boldmath~N a^+~}^{+}\\mathrm{\\boldmath~+~}\\mathrm{\\boldmath~e^-~}}\\\\ &{[\\mathrm{Ne}]\\mathrm{\\boldmath~3s^1~}}&&{[\\mathrm{Ne}]}\\\\ &{\\mathrm{\\boldmath~C l~}^{+}\\mathrm{\\boldmath~e^-~}}&{\\rightarrow}&{\\mathrm{\\boldmath~C l^-~}}\\\\ &{[\\mathrm{Ne}]\\mathrm{\\boldmath~3s^2~}3p^{5}}&&{[\\mathrm{Ne}]\\mathrm{\\boldmath~3s^2~}3p^{6}\\mathrm{\\boldmath~o r~}[\\mathrm{Ar}]}\\\\ &{\\mathrm{\\boldmath~N a^+~}^{+}\\mathrm{\\boldmath~C l^-~}^{-}\\rightarrow}&&{\\mathrm{\\boldmath~N a C l~o r~}\\mathrm{\\boldmath~N a^+C l^-~}}\\end{array}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C a F}_{2}",
+            "after": "\\mathrm{CaF}_{2}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\begin{array}{l l l}{{\\mathrm{C a}\\quad\\rightarrow\\quad}}&{{\\mathrm{C a^{2+}~+~2e^{-}}}}\\\\ {{\\mathrm{[A r]}4s^{2}}}&{{\\mathrm{[A r]}}}\\\\ {{\\mathrm{F~+e^{-}}\\quad\\rightarrow\\quad}}&{{\\mathrm{F^{-}}}}\\\\ {{\\mathrm{[H e]~}2s^{2}2p^{5}}}&{{\\mathrm{[H e]~}2s^{2}2p^{6}\\quad\\mathrm{o r~[N e]}}}\\\\ {{\\mathrm{C a^{2+}+2F^{-}\\quad\\rightarrow\\quad}}}&{{\\mathrm{C a F_{2}\\quad o r\\quad C a^{2+}(F^{-})_{2}}}}\\end{array}",
+            "after": "\\begin{array}{l l l}{{\\mathrm{Ca}\\quad\\rightarrow\\quad}}&{{\\mathrm{C a^{2+}~+~2e^{-}}}}\\\\ {{\\mathrm{[A r]}4s^{2}}}&{{\\mathrm{[A r]}}}\\\\ {{\\mathrm{F~+e^{-}}\\quad\\rightarrow\\quad}}&{{\\mathrm{F^{-}}}}\\\\ {{\\mathrm{[H e]~}2s^{2}2p^{5}}}&{{\\mathrm{[H e]~}2s^{2}2p^{6}\\quad\\mathrm{o r~[N e]}}}\\\\ {{\\mathrm{C a^{2+}+2F^{-}\\quad\\rightarrow\\quad}}}&{{\\mathrm{C a F_{2}\\quad o r\\quad C a^{2+}(F^{-})_{2}}}}\\end{array}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C l}_{2}",
+            "after": "\\mathrm{Cl}_{2}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{C}\\underline{{1}}_{2}",
+            "after": "\\mathrm{C}\\underline{1}_{2}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C H}_{4}",
+            "after": "\\mathrm{CH}_{4}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\dot\\dot{{}\\dot\\dot{}\\dot\\dot\\cdot{}\\dot\\dot{}\\dot\\dot{}\\dot\\dot\\dot{}\\dot\\dot{}\\dot\\dot{\\cdot}\\dot\\dot{\\cdot}\\dot{",
+            "after": "\\dot\\dot{{}\\dot\\dot{}\\dot\\dot\\cdot{}\\dot\\dot{}\\dot\\dot{}\\dot\\dot\\dot{}\\dot\\dot{}\\dot\\dot{\\cdot}\\dot\\dot{\\cdot}\\dot{}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C O}_{3}^{2-}",
+            "after": "\\mathrm{CO}_{3}^{2-}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{H N O}_{3}",
+            "after": "\\mathrm{HNO}_{3}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "O \\begin{array}{r l r}{\\underset{\\mathrm{L i:C l}}{\\mathrm{C l}}}&{{}\\underset{\\mathrm{H:B e:H}}{\\mathrm{H:B e:H}}}&{\\underset{\\mathrm{C l:\\dot{B}:C l}}{\\mathrm{C l}}}\\end{array}",
+            "after": "O \\begin{array}{r l r}{\\underset{\\mathrm{L i:C l}}{\\mathrm{Cl}}}&{{}\\underset{\\mathrm{H:B e:H}}{\\mathrm{H:B e:H}}}&{\\underset{\\mathrm{C l:\\dot{B}:C l}}{\\mathrm{Cl}}}\\end{array}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{N O}_{2}",
+            "after": "\\mathrm{NO}_{2}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{P F}_{5},~\\mathrm{S F}_{6},~\\mathrm{H}_{2}\\mathrm{S O}_{4}",
+            "after": "\\mathrm{PF}_{5},~\\mathrm{SF}_{6},~\\mathrm{H}_{2}\\mathrm{SO}_{4}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\begin{array}{r}{\\stackrel{\\bullet}{\\underset{\\bullet}{\\mathrm{C l}}}\\stackrel{\\bullet}{\\underset{\\bullet}{\\mathrm{C l}}}\\stackrel{\\bullet}{\\underset{\\bullet}{\\mathrm{S}}}\\stackrel{\\bullet}{\\underset{\\bullet}{\\mathrm{C l}}}\\stackrel{\\bullet}{\\underset{\\bullet}{\\mathrm{o r}}}\\stackrel{\\bullet}{\\underset{\\bullet}{\\mathrm{C l}}}\\stackrel{\\bullet}{\\underset{\\bullet}{\\mathrm{S}}}\\stackrel{\\bullet}{\\underset{\\bullet}{\\mathrm{C l}}}\\stackrel{\\bullet}{\\underset{\\bullet}{\\mathrm{C l}}}}\\\\ {O t h e r\\:d r a w b a c k s\\:o f\\:t h e\\:o c t e t\\:t h e o r y}\\end{array}",
+            "after": "\\begin{array}{r}{\\stackrel{\\bullet}{\\underset{\\bullet}{\\mathrm{Cl}}}\\stackrel{\\bullet}{\\underset{\\bullet}{\\mathrm{Cl}}}\\stackrel{\\bullet}{\\underset{\\bullet}{\\mathrm{S}}}\\stackrel{\\bullet}{\\underset{\\bullet}{\\mathrm{Cl}}}\\stackrel{\\bullet}{\\underset{\\bullet}{\\mathrm{or}}}\\stackrel{\\bullet}{\\underset{\\bullet}{\\mathrm{Cl}}}\\stackrel{\\bullet}{\\underset{\\bullet}{\\mathrm{S}}}\\stackrel{\\bullet}{\\underset{\\bullet}{\\mathrm{Cl}}}\\stackrel{\\bullet}{\\underset{\\bullet}{\\mathrm{Cl}}}}\\\\ {O t h e r\\:d r a w b a c k s\\:o f\\:t h e\\:o c t e t\\:t h e o r y}\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "(r_{_{\\nu d w}}a n d r_{_{c}}",
+            "after": "(r_{_{\\nu d w}}a n d r_{_{c}})"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{m o l}^{-1}.",
+            "after": "\\mathrm{mol}^{-1}."
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{O}_{2}^{2}(\\mathrm{O}=\\mathrm{O})(\\mathrm{g})\\rightarrow\\mathrm{O}(\\mathrm{g})+\\mathrm{O}(\\mathrm{g});\\\\\\Delta_{\\mathrm{a}}H^{\\mathrm{e}}=498\\mathrm{kJ}\\mathrm{mol}^{-1};\\\\\\mathrm{N}_{2}(\\mathrm{N}=\\mathrm{N})(\\mathrm{g})\\rightarrow\\mathrm{N}(\\mathrm{g})+\\mathrm{N}(\\mathrm{g});\\\\\\Delta_{\\mathrm{a}}H^{\\mathrm{e}}=946.0\\mathrm{kJ}\\mathrm{mol}^{-1};\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{O}_{2}^{2}(\\mathrm{O}=\\mathrm{O})(\\mathrm{g})\\rightarrow\\mathrm{O}(\\mathrm{g})+\\mathrm{O}(\\mathrm{g});\\\\Delta_{\\mathrm{a}}H^{\\mathrm{e}}=498\\mathrm{kJ}\\mathrm{mol}^{-1};\\\\mathrm{N}_{2}(\\mathrm{N}=\\mathrm{N})(\\mathrm{g})\\rightarrow\\mathrm{N}(\\mathrm{g})+\\mathrm{N}(\\mathrm{g});\\\\Delta_{\\mathrm{a}}H^{\\mathrm{e}}=946.0\\mathrm{kJ}\\mathrm{mol}^{-1};\\end{array}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{B r}_{2}\\left(\\mathrm{B r}-\\mathrm{B r}\\right)",
+            "after": "\\mathrm{Br}_{2}\\left(\\mathrm{Br}-\\mathrm{Br}\\right)"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{\\underline{{N}}}_{2}\\;(\\mathrm{N}=\\mathrm{N})",
+            "after": "\\mathrm{\\underline{N}}_{2}\\;(\\mathrm{N}=\\mathrm{N})"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\underline{{\\mathrm{H F}}}(\\mathrm{H}-\\mathrm{F})",
+            "after": "\\underline{{\\mathrm{HF}}}(\\mathrm{H}-\\mathrm{F})"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{H C l}(\\mathrm{H}-\\mathrm{C l})",
+            "after": "\\mathrm{HCl}(\\mathrm{H}-\\mathrm{Cl})"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{H B r}~(\\mathrm{H}-\\mathrm{B r})",
+            "after": "\\mathrm{HBr}~(\\mathrm{H}-\\mathrm{Br})"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\star_{\\mathfrak{T}_{\\mathrm{c o v}}}/(\\mathrm{p m})",
+            "after": "\\star_{\\mathfrak{T}_{\\mathrm{cov}}}/(\\mathrm{pm})"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C O}_{2}",
+            "after": "\\mathrm{CO}_{2}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C O}_{2}",
+            "after": "\\mathrm{CO}_{2}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C O}_{2}",
+            "after": "\\mathrm{CO}_{2}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C O}_{2}",
+            "after": "\\mathrm{CO}_{2}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C l}_{2},\\mathrm{~N}_{2}\\mathrm{~o r~}\\mathrm{F}_{2},",
+            "after": "\\mathrm{Cl}_{2},\\mathrm{~N}_{2}\\mathrm{~o r~}\\mathrm{F}_{2},"
+        },
+        {
+            "type": "latex_fix",
+            "before": "(\\upmu)=\\mathrm{c h a r g e}(\\mathbb{Q})\\times",
+            "after": "(\\upmu)=\\mathrm{charge}(\\mathbb{Q})\\times"
+        },
+        {
+            "type": "brace_fix",
+            "before": "104.5^{\\mathrm{{o}}}",
+            "after": "104.5^{\\mathrm{o}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "6.17\\times10^{-30}C m(1D=3.33564",
+            "after": "6.17\\times10^{-30}C m(1D=3.33564)"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\times~10^{-30}~\\mathrm{{C}}~\\mathrm{{m})}",
+            "after": "\\times~10^{-30}~\\mathrm{C}~\\mathrm{{m}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{B e F}_{2}",
+            "after": "\\mathrm{BeF}_{2}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\underset{\\text{}}{\\mathrm{F}}\\underset{\\text{}}{\\xlongequal{\\quad}}\\mathrm{Be}\\underset{\\text{}}{\\xlongequal{\\quad}}\\mathrm{F}\\\\\\underset{\\text{}}{\\Longleftrightarrow}\\underset{\\text{}}{\\longleftrightarrow}\\underset{\\text{}}{\\Longleftrightarrow}\\underset{\\text{}}{\\longleftrightarrow}\\underset{\\text{}}{\\longleftrightarrow}\\underset{\\text{}}{\\longleftrightarrow}\\underset{\\text{}}{\\longleftrightarrow}\\underset{\\text{}}{\\longleftrightarrow}\\\\\\underset{\\text{}}{\\operatorname{Bond}\\operatorname{dipoles}}\\underset{\\text{}}{\\operatorname{in}}\\underset{\\text{}}{\\operatorname{Total}\\operatorname{dipole moment}}\\\\\\underset{\\text{}}{\\operatorname{BeF}_{2}}\\underset{\\text{}}{\\longleftrightarrow}\\underset{\\text{}}{\\operatorname{in}}\\underset{\\text{}}{\\operatorname{BeF}_{2}}\\end{array}",
+            "after": "\\begin{array}{c}\\underset{\\text{}}{\\mathrm{F}}\\underset{\\text{}}{\\xlongequal{\\quad}}\\mathrm{Be}\\underset{\\text{}}{\\xlongequal{\\quad}}\\mathrm{F}\\\\underset{\\text{}}{\\Longleftrightarrow}\\underset{\\text{}}{\\longleftrightarrow}\\underset{\\text{}}{\\Longleftrightarrow}\\underset{\\text{}}{\\longleftrightarrow}\\underset{\\text{}}{\\longleftrightarrow}\\underset{\\text{}}{\\longleftrightarrow}\\underset{\\text{}}{\\longleftrightarrow}\\underset{\\text{}}{\\longleftrightarrow}\\\\underset{\\text{}}{\\mathrm{Bond}\\mathrm{dipoles}}\\underset{\\text{}}{\\mathrm{in}}\\underset{\\text{}}{\\mathrm{Total}\\mathrm{dipole moment}}\\\\underset{\\text{}}{\\mathrm{BeF}_{2}}\\underset{\\text{}}{\\longleftrightarrow}\\underset{\\text{}}{\\mathrm{in}}\\underset{\\text{}}{\\mathrm{BeF}_{2}}\\end{array}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{B F}_{3},",
+            "after": "\\mathrm{BF}_{3},"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{N H}_{3}",
+            "after": "\\mathrm{NH}_{3}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "(0.8\\times10^{-30}\\mathrm{C m})",
+            "after": "(0.8\\times10^{-30}\\mathrm{Cm})"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{N H}_{3}=4.90\\times10^{-30}\\mathrm{C}\\mathrm{m}",
+            "after": "\\mathrm{NH}_{3}=4.90\\times10^{-30}\\mathrm{C}\\mathrm{m}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\begin{array}{r}{\\mathrm{N H}_{3}}\\\\ {\\mathrm{N F}_{3}}\\\\ {\\mathrm{B F}_{3}}\\end{array}",
+            "after": "\\begin{array}{r}{\\mathrm{NH}_{3}}\\\\ {\\mathrm{NF}_{3}}\\\\ {\\mathrm{BF}_{3}}\\end{array}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C H}_{\\circ}",
+            "after": "\\mathrm{CH}_{\\circ}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\overset{\\mathrm{C H\\tilde{C}l}_{3}}{\\mathrm{C C l}_{4}}",
+            "after": "\\overset{\\mathrm{C H\\tilde{C}l}_{3}}{\\mathrm{CCl}_{4}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "(\\mathrm{b p})\\;>\\;\\mathrm{B o\\underline{{n}}d}",
+            "after": "(\\mathrm{bp})\\;>\\;\\mathrm{B o\\underline{n}d}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{B F}_{3}",
+            "after": "\\mathrm{BF}_{3}"
+        },
+        {
+            "type": "script_fix",
+            "before": "\\mathrm{C H}_{4},\\mathrm{N H}_{4}^{^+}",
+            "after": "\\mathrm{CH}_{4},\\mathrm{NH}_{4}^{+}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{P C l}_{5}",
+            "after": "\\mathrm{PCl}_{5}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{S F}_{6}",
+            "after": "\\mathrm{SF}_{6}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{S O}^{2}\\mathrm{O}_{3}",
+            "after": "\\mathrm{SO}^{2}\\mathrm{O}_{3}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\scriptstyle{\\mathrm{T r i g o n a l}}\\atop{\\mathrm{b i-p y r a m i d a l}}",
+            "after": "\\scriptstyle{\\mathrm{Trigonal}}\\atop{\\mathrm{b i-p y r a m i d a l}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C l F}_{3}",
+            "after": "\\mathrm{ClF}_{3}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathbf{e}_{\\mathrm{{A}}}",
+            "after": "\\mathbf{e}_{\\mathrm{A}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C H}_{4}",
+            "after": "\\mathrm{CH}_{4}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C H}_{4}",
+            "after": "\\mathrm{CH}_{4}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\underline{{\\mathrm{N H}}}_{3}",
+            "after": "\\underline{{\\mathrm{NH}}}_{3}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\underline{{\\mathrm{B C l}}}_{3}",
+            "after": "\\underline{{\\mathrm{BCl}}}_{3}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "2p)",
+            "after": "2p"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "{}^{[N}H_{_3}",
+            "after": "{}^{[N}H_{_3}]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "2p)",
+            "after": "2p"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left(2p_{x}\\right.",
+            "after": "\\left(2p_{x}\\right.)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "2p_{y})",
+            "after": "2p_{y}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{B r F}_{5}",
+            "after": "\\mathrm{BrF}_{5}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "[\\mathrm{P t}(\\mathrm{C l})_{4}]^{2-}",
+            "after": "[\\mathrm{Pt}(\\mathrm{Cl})_{4}]^{2-}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\begin{array}{r l}&{\\mathrm{S F}_{6},[\\mathrm{C r F}_{6}]^{3-}}\\\\ &{[\\mathrm{C o}(\\mathrm{N H}_{3})_{6}]^{3+}}\\end{array}",
+            "after": "\\begin{array}{r l}&{\\mathrm{SF}_{6},[\\mathrm{CrF}_{6}]^{3-}}\\\\ &{[\\mathrm{Co}(\\mathrm{NH}_{3})_{6}]^{3+}}\\end{array}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "[\\mathrm{N i}(\\mathrm{C N})_{4}]^{2-},",
+            "after": "[\\mathrm{Ni}(\\mathrm{CN})_{4}]^{2-},"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{P F}_{_5},\\mathrm{P C l}_{_5}",
+            "after": "\\mathrm{PF}_{_5},\\mathrm{PCl}_{_5}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "(s p^{3}d",
+            "after": "(s p^{3}d)"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{P C l}_{5}",
+            "after": "\\mathrm{PCl}_{5}"
+        },
+        {
+            "type": "latex_fix",
+            "before": " midal geometry are midal geometry are not with the singly u ll te the five sp3d orbital ,p orbitals of chlorine atoms to form five P-Cl sigma bonds. Three P-Cl bond lie in one plane and make an angle of 120 with each other; these bonds are termed as equatorial bonds. The remaining two P-Cl bonds-one lying above and the other lying below the equatorial plane, make an angle of 90°with the plane. These bonds are called axial bonds.As the axial bond pairs suffer more repulsive interaction from the equatorial bond pairs,therefore axial bonds have been found to be slightly longer and hence slightly weaker than the equatorial bonds; which makes $$\\mathrm{P C l}_{5}",
+            "after": " midal geometry are midal geometry are not with the singly u ll te the five sp3d orbital ,p orbitals of chlorine atoms to form five P-Cl sigma bonds. Three P-Cl bond lie in one plane and make an angle of 120 with each other; these bonds are termed as equatorial bonds. The remaining two P-Cl bonds-one lying above and the other lying below the equatorial plane, make an angle of 90°with the plane. These bonds are called axial bonds.As the axial bond pairs suffer more repulsive interaction from the equatorial bond pairs,therefore axial bonds have been found to be slightly longer and hence slightly weaker than the equatorial bonds; which makes $$\\mathrm{PCl}_{5}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "o f S F_{6}(s p^{3}d^{2}",
+            "after": "o f S F_{6}(s p^{3}d^{2})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\\\ {",
+            "after": "\\\\ {}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}",
+            "after": ""
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " J,page 124].If internuclear axis is taken to be in the z-direction, it can be seen that a linear combination of ",
+            "after": " J,page 124.If internuclear axis is taken to be in the z-direction, it can be seen that a linear combination of "
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{aligned}",
+            "after": ""
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " means a stable molecule while a negative (i.e.,",
+            "after": " means a stable molecule while a negative (i.e.,)"
+        },
+        {
+            "type": "latex_fix",
+            "before": "$\\mathrm{H e}_{2}:(\\sigma^{\\prime}$s)$^{2}(\\sigma^{\\prime\\prime}$s)^{2}",
+            "after": "$\\mathrm{He}_{2}:(\\sigma^{\\prime}$s)$^{2}(\\sigma^{\\prime\\prime}$s)^{2}"
+        },
+        {
+            "type": "latex_fix",
+            "before": " . The electronic configuration of $$\\mathrm{L i}_{2}",
+            "after": " . The electronic configuration of $$\\mathrm{Li}_{2}"
+        },
+        {
+            "type": "latex_fix",
+            "before": " molecule is stable and since it has no unpaired electrons it should be diamagnetic. Indeed diamagnetic $$\\mathrm{L i}_{2}",
+            "after": " molecule is stable and since it has no unpaired electrons it should be diamagnetic. Indeed diamagnetic $$\\mathrm{Li}_{2}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "s)",
+            "after": "s"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "s)",
+            "after": "s"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "s)",
+            "after": "s"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{2}(\\sigma^{*}2",
+            "after": "^{2}(\\sigma^{*}2)"
+        },
+        {
+            "type": "escape_fix",
+            "before": "$\\begin{aligned}$&$\\mathrm{O_{2}:(\\sigma1s)^{2}\\ (\\sigma*1s)^{2}\\ (\\sigma2s)^{2}\\ (\\sigma*2s)^{2}\\ (\\sigma*2s)^{2}\\ (\\sigma2p_{z})^{2}}$\\\\ &$\\mathrm{(\\pi2p_{x}^{2}=\\pi2p_{y}^{2})\\ (\\pi*2p_{x}^{1}=\\pi*2p_{y}^{1})}$\\\\ &$\\mathrm{O^{2}:\\left[\\begin{array}{c}\\mathrm{KK\\ (\\sigma2s)^{2}\\ (\\sigma2p_{z})^{2}\\ (\\sigma2p_{y})^{2}}\\\\\\mathrm{(\\pi2p_{x}^{2}=\\pi2p_{y}^{2})},\\end{array}(\\pi*2p_{x}^{1}=\\pi*2p_{y}^{1})\\right]}$\\\\ $\\end{aligned}",
+            "after": "$\\begin{aligned}$&$\\mathrm{O_{2}:(\\sigma1s)^{2}\\ (\\sigma*1s)^{2}\\ (\\sigma2s)^{2}\\ (\\sigma*2s)^{2}\\ (\\sigma*2s)^{2}\\ (\\sigma2p_{z})^{2}}$\\\\ &$\\mathrm{(\\pi2p_{x}^{2}=\\pi2p_{y}^{2})\\ (\\pi*2p_{x}^{1}=\\pi*2p_{y}^{1})}$\\\\ &$\\mathrm{O^{2}:\\left[\\begin{array}{c}\\mathrm{KK\\ (\\sigma2s)^{2}\\ (\\sigma2p_{z})^{2}\\ (\\sigma2p_{y})^{2}}\\\\mathrm{(\\pi2p_{x}^{2}=\\pi2p_{y}^{2})},\\end{array}(\\pi*2p_{x}^{1}=\\pi*2p_{y}^{1})\\right]}$\\\\ $\\end{aligned}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "_{x}\\mathrm{a n d}\\pi^{*}2",
+            "after": "_{x}\\mathrm{and}\\pi^{*}2"
+        },
+        {
+            "type": "latex_fix",
+            "before": "$\\mathrm{B e C l}_{2},\\mathrm{B C l}_{3},\\mathrm{S i C l}_{4},\\mathrm{A s F}_{5},\\mathrm{H}_{2}\\mathrm{S},\\mathrm{P H}_{3}",
+            "after": "$\\mathrm{BeCl}_{2},\\mathrm{BCl}_{3},\\mathrm{SiCl}_{4},\\mathrm{AsF}_{5},\\mathrm{H}_{2}\\mathrm{S},\\mathrm{PH}_{3}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C H}_{4}",
+            "after": "\\mathrm{CH}_{4}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{\\underline{{B e H}}_{2}}",
+            "after": "\\mathrm{\\underline{B e H}_{2}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{N H}_{3}",
+            "after": "\\mathrm{NH}_{3}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{A l C l}_{3}+\\mathrm{C l}^{-}\\rightarrow\\mathrm{A l C l}_{4}^{-}",
+            "after": "\\mathrm{AlCl}_{3}+\\mathrm{Cl}^{-}\\rightarrow\\mathrm{AlCl}_{4}^{-}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{B e}_{2}",
+            "after": "\\mathrm{Be}_{2}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{O_{2},O_{2}^{+},O_{2}^{-}~(s u p e r o x i d e),~O_{2}^{2-}~(\\overline{{\\mathrm{p e r o x i d e}}})}",
+            "after": "\\mathrm{O_{2},O_{2}^{+},O_{2}^{-}~(s u p e r o x i d e),~O_{2}^{2-}~(\\overline{{\\mathrm{peroxide}}})}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

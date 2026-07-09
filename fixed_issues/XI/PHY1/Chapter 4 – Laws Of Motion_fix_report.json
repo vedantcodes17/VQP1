@@ -1,0 +1,141 @@
+{
+    "chapter": "Chapter 4 – Laws Of Motion",
+    "total_formulas": 211,
+    "repaired": 25,
+    "failed": 0,
+    "ocr_fixes": 159,
+    "latex_fixes": 25,
+    "markdown_fixes": 19,
+    "orphaned_latex_wrapped": 5,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.14,
+    "changes": [
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{\\Delta\\pmb{p}}{\\Delta t}\\right.",
+            "after": "\\left[\\frac{\\Delta\\pmb{p}}{\\Delta t}\\right.]"
+        },
+        {
+            "type": "latex_fix",
+            "before": "1\\;\\mathrm{N}=1\\;\\mathrm{k g}\\;\\mathrm{m}\\;\\mathrm{s}^{-2}",
+            "after": "1\\;\\mathrm{N}=1\\;\\mathrm{kg}\\;\\mathrm{m}\\;\\mathrm{s}^{-2}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}{F_{x}=}&{{}\\frac{\\mathrm{d}p_{x}}{\\mathrm{d}t}=m a_{x}}\\\\ {F_{y}=}&{{}\\frac{\\mathrm{d}p_{y}}{\\mathrm{d}t}=m a_{y}}\\\\ {F_{z}=}&{{}\\frac{\\mathrm{d}p_{z}}{\\mathrm{d}t}=m a_{z}}\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}{F_{x}=}&{{}\\frac{\\mathrm{d}p_{x}}{\\mathrm{d}t}=m a_{x}}\\\\ {F_{y}=}&{{}\\frac{\\mathrm{d}p_{y}}{\\mathrm{d}t}=m a_{y}}\\\\ {F_{z}=}&{{}\\frac{\\mathrm{d}p_{z}}{\\mathrm{d}t}=m a_{z}}\\end{aligned}\\right.}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "=0.04\\;\\mathrm{k g}\\quad6750\\;\\mathrm{m}\\;\\mathrm{s}^{-2}=270\\;\\mathrm{N}",
+            "after": "=0.04\\;\\mathrm{kg}\\quad6750\\;\\mathrm{m}\\;\\mathrm{s}^{-2}=270\\;\\mathrm{N}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\begin{array}{c}{{\\mathbf{F}_{_{A B}}\\;=\\;-\\mathbf{F}_{_{B A}}}}\\\\ {{\\mathrm{(f o r c e~o n}\\;A\\;\\mathrm{b y}\\;B)\\;=\\;-\\mathrm{(f o r c e~o n}\\;B\\;\\mathrm{b y}\\;A)}}\\end{array}",
+            "after": "\\begin{array}{c}{{\\mathbf{F}_{_{A B}}\\;=\\;-\\mathbf{F}_{_{B A}}}}\\\\ {{\\mathrm{(f o r c e~o n}\\;A\\;\\mathrm{by}\\;B)\\;=\\;-\\mathrm{(f o r c e~o n}\\;B\\;\\mathrm{by}\\;A)}}\\end{array}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\left(p_{x}\\right)_{\\mathrm{i n i t i a l}}=m u\\quad\\left(p_{y}\\right)_{\\mathrm{i n i t i a l}}=0.\\quad\\left(p_{x}\\right)_{\\mathrm{f i n a l}}=-m u\\quad\\left(p_{y}\\right)_{\\mathrm{f i n a l}}=0.",
+            "after": "\\left(p_{x}\\right)_{\\mathrm{initial}}=m u\\quad\\left(p_{y}\\right)_{\\mathrm{initial}}=0.\\quad\\left(p_{x}\\right)_{\\mathrm{final}}=-m u\\quad\\left(p_{y}\\right)_{\\mathrm{final}}=0."
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{array}{r}{\\pmb{\\mathbf{F}}_{A B}\\Delta t=\\pmb{\\mathbf{p}}_{A}^{\\prime}-\\pmb{\\mathbf{p}}_{A}\\quad\\mathrm{a n d}\\quad}\\\\ {\\left[\\pmb{\\mathbf{F}}_{B A}\\Delta t=\\pmb{\\mathbf{p}}_{B}^{\\prime}-\\pmb{\\mathbf{p}}_{B}\\right.\\quad}\\end{array}",
+            "after": "\\begin{array}{r}{\\pmb{\\mathbf{F}}_{A B}\\Delta t=\\pmb{\\mathbf{p}}_{A}^{\\prime}-\\pmb{\\mathbf{p}}_{A}\\quad\\mathrm{and}\\quad}\\\\ {\\left[\\pmb{\\mathbf{F}}_{B A}\\Delta t=\\pmb{\\mathbf{p}}_{B}^{\\prime}-\\pmb{\\mathbf{p}}_{B}\\right.\\quad}\\end{array}]"
+        },
+        {
+            "type": "duplicate_command_fix",
+            "before": "}\\mathbf\\mathbf\\mathbf{\\mathbf\\mathbf\\mathbf{\\nabla}\\mathbf\\mathbf\\mathbf\\mathbf\\mathbf\\mathbf{\\nabla}\\mathbf\\mathbf\\mathbf{\\nabla\\nabla\\nabla}\\mathbf\\mathbf\\mathbf{\\mathbf\\mathbf}\\mathbf\\mathbf\\mathbf\\mathbf\\mathbf{\\mathbf\\mathbf}\\mathbf\\mathbf\\mathbf{\\nabla\\mathbf\\mathbf}\\mathbf\\mathbf{\\mathbf\\mathbf\\nabla\\mathbf}\\mathbf\\mathbf{\\mathbf\\mathbf\\mathbf\\nabla}\\mathbf{\\mathbf\\mathbf\\mathbf}\\mathbf\\mathbf\\mathbf{",
+            "after": "\\mathbf{\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla\\nabla\\nabla}\\mathbf{\\mathbf}\\mathbf{\\mathbf}\\mathbf{\\nabla\\mathbf}\\mathbf{\\mathbf\\nabla\\mathbf}\\mathbf{\\mathbf\\nabla}\\mathbf{\\mathbf}\\mathbf{}}"
+        },
+        {
+            "type": "duplicate_command_fix",
+            "before": "}\\mathbf\\mathbf\\mathbf{",
+            "after": "\\mathbf{}"
+        },
+        {
+            "type": "duplicate_command_fix",
+            "before": "}\\mathbf\\mathbf\\mathbf{\\mathbf\\mathbf\\mathbf{\\nabla\\mathbf}\\mathbf\\mathbf\\mathbf\\mathbf{\\mathbf\\mathbf}\\mathbf\\mathbf\\mathbf\\mathbf{\\mathbf\\mathbf\\mathbf}\\mathbf\\mathbf\\mathbf{",
+            "after": "\\mathbf{\\mathbf{\\nabla\\mathbf}\\mathbf{\\mathbf}\\mathbf{\\mathbf}\\mathbf{}}"
+        },
+        {
+            "type": "duplicate_command_fix",
+            "before": "}\\mathbf\\mathbf\\mathbf{",
+            "after": "\\mathbf{}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\pmb{p}_{A}^{\\prime}-\\pmb{p}_{A}&=-\\left(\\pmb{p}_{B}^{\\prime}-\\pmb{p}_{B}\\right)\\\\\\pmb{p}_{A}^{\\prime}+\\pmb{p}_{B}^{\\prime}&=\\pmb{p}_{A}+\\pmb{p}_{B}\\end{aligned}",
+            "after": "\\begin{aligned}\\pmb{p}_{A}^{\\prime}-\\pmb{p}_{A}&=-\\left(\\pmb{p}_{B}^{\\prime}-\\pmb{p}_{B}\\right)\\\\pmb{p}_{A}^{\\prime}+\\pmb{p}_{B}^{\\prime}&=\\pmb{p}_{A}+\\pmb{p}_{B}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\left(f_{s}\\right.\\right)_{\\mathrm{m a x}}",
+            "after": "\\left[\\left(f_{s}\\right.\\right)_{\\mathrm{max}}]"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\left(f_{s}\\right)_{\\mathrm{m a x}}=\\mu_{s}N ",
+            "after": "\\left(f_{s}\\right)_{\\mathrm{max}}=\\mu_{s}N "
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\left(f_{s}\\right)_{\\max}\\right.",
+            "after": "\\left[\\left(f_{s}\\right)_{\\max}\\right.]"
+        },
+        {
+            "type": "latex_fix",
+            "before": "m g\\mathrm{s i n}\\quad\\theta=f_{_{\\mathrm{s}}}\\quad,\\quad m g\\quad\\mathrm{c o s}\\quad\\theta\\quad=N ",
+            "after": "m g\\mathrm{sin}\\quad\\theta=f_{_{\\mathrm{s}}}\\quad,\\quad m g\\quad\\mathrm{cos}\\quad\\theta\\quad=N "
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\left(f_{s}\\right)_{\\mathrm{m a x}}=\\mu_{_{s}}N_{s}\\right.",
+            "after": "\\left[\\left(f_{s}\\right)_{\\mathrm{max}}=\\mu_{_{s}}N_{s}\\right.]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}f=&\\frac{mv^{2}}{R}\\leq\\mu_{s}N\\\\ v^{2}\\leq&\\frac{\\mu_{s}RN}{m}=\\mu_{s}Rg\\quad&[\\because N=mg]\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}f=&\\frac{mv^{2}}{R}\\leq\\mu_{s}N\\\\ v^{2}\\leq&\\frac{\\mu_{s}RN}{m}=\\mu_{s}Rg\\quad&[\\because N=mg]\\end{aligned}\\right.}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "v_{\\mathrm{m a x}}{=}\\sqrt{\\mu_{s}R g}",
+            "after": "v_{\\mathrm{max}}{=}\\sqrt{\\mu_{s}R g}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{t o r}v_{\\mathrm{m a x}}=\\left(R g\\frac{\\mu_{s}+t a n\\theta}{1-\\mu_{s}t a n\\theta}\\right)^{\\frac{1}{2}}",
+            "after": "\\mathrm{tor}v_{\\mathrm{max}}=\\left(R g\\frac{\\mu_{s}+t a n\\theta}{1-\\mu_{s}t a n\\theta}\\right)^{\\frac{1}{2}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\begin{array}{l}{\\mu_{\\mathrm{s}}=O\\mathrm{i n}\\mathrm{E q.}(4.21),}\\\\ {v_{\\mathrm{o}}=(R g\\tan\\theta)^{\\%}}\\end{array}",
+            "after": "\\begin{array}{l}{\\mu_{\\mathrm{s}}=O\\mathrm{in}\\mathrm{E q.}(4.21),}\\\\ {v_{\\mathrm{o}}=(R g\\tan\\theta)^{\\%}}\\end{array}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "f_{S}\\leq\\left(f_{S}\\right)_{\\operatorname*{m a x}}=\\mu_{S}R ",
+            "after": "f_{S}\\leq\\left(f_{S}\\right)_{\\mathrm*{m a x}}=\\mu_{S}R "
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{I m p u l s e}=\\mathrm{f o r c e}\\times\\mathrm{t i m e}",
+            "after": "\\mathrm{Impulse}=\\mathrm{force}\\times\\mathrm{time}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\varrho=10\\mathrm{m s^{-2}})",
+            "after": "\\varrho=10\\mathrm{m s^{-2}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "T,\\quad(\\mathrm{i i})\\quad T-\\frac{m v^{2}}{l},\\quad(\\mathrm{i i i})\\quad T+\\frac{m v^{2}}{l},\\quad(\\mathrm{i v})\\quad0",
+            "after": "T,\\quad(\\mathrm{ii})\\quad T-\\frac{m v^{2}}{l},\\quad(\\mathrm{iii})\\quad T+\\frac{m v^{2}}{l},\\quad(\\mathrm{iv})\\quad0"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

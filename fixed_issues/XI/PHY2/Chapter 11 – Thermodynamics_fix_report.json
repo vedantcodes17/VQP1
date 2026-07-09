@@ -1,0 +1,96 @@
+{
+    "chapter": "Chapter 11 – Thermodynamics",
+    "total_formulas": 205,
+    "repaired": 16,
+    "failed": 0,
+    "ocr_fixes": 111,
+    "latex_fixes": 16,
+    "markdown_fixes": 13,
+    "orphaned_latex_wrapped": 0,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.074,
+    "changes": [
+        {
+            "type": "latex_fix",
+            "before": "-\\mathrm{i t s}",
+            "after": "-\\mathrm{its}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "(e.g.",
+            "after": "(e.g.)"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\Delta Q\\quad=\\quad\\mathrm{H e a t}",
+            "after": "\\Delta Q\\quad=\\quad\\mathrm{Heat}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\Delta W=\\mathrm{W o r k}",
+            "after": "\\Delta W=\\mathrm{Work}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\overline{{\\cdots}}\\overline{{\\cdots}}\\overline{{\\cdots}}",
+            "after": "\\overline{\\cdots}\\overline{\\cdots}\\overline{\\cdots}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "P V=\\mathrm{c o n s t a n t}",
+            "after": "P V=\\mathrm{constant}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "V+\\bar{\\Delta V}(\\Delta V\\mathrm{s m a l l})",
+            "after": "V+\\bar{\\Delta V}(\\Delta V\\mathrm{small})"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{g a s}:Q=W.",
+            "after": "\\mathrm{gas}:Q=W."
+        },
+        {
+            "type": "latex_fix",
+            "before": "P V^{\\gamma}=\\mathrm{c o n s t}",
+            "after": "P V^{\\gamma}=\\mathrm{const}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "P_{1}V_{1}^{\\gamma}\\mathrm{o r}P_{2}V_{2}^{\\gamma}",
+            "after": "P_{1}V_{1}^{\\gamma}\\mathrm{or}P_{2}V_{2}^{\\gamma}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\left(P_{3},V_{3},T_{2}\\right)\\mathrm{t o}\\left(P_{4},V_{4},T_{2}\\right)",
+            "after": "\\left(P_{3},V_{3},T_{2}\\right)\\mathrm{to}\\left(P_{4},V_{4},T_{2}\\right)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{aligned}W=W_{1\\rightarrow2}+W_{2\\rightarrow3}-W_{3\\rightarrow4}-W_{4\\rightarrow1}\\\\=\\mu RT_{1}\\ln\\left(\\frac{V_{2}}{V_{l}}\\right)-\\mu RT_{2}\\ln\\left(\\frac{V_{3}}{V_{4}}\\right)\\quad(1)\\end{aligned} 1.22)",
+            "after": "\\begin{aligned}W=W_{1\\rightarrow2}+W_{2\\rightarrow3}-W_{3\\rightarrow4}-W_{4\\rightarrow1}\\\\=\\mu RT_{1}\\ln\\left(\\frac{V_{2}}{V_{l}}\\right)-\\mu RT_{2}\\ln\\left(\\frac{V_{3}}{V_{4}}\\right)\\quad(1)\\end{aligned} 1.22"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathit{I f}W^{\\prime}>\\underline{{W}},",
+            "after": "\\mathit{I f}W^{\\prime}>\\underline{W},"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "P V=\\mu R T)",
+            "after": "P V=\\mu R T"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\{P_{_1},\\;V_{_1},\\;T_{_1}\\}\\;\\mathrm{t o}\\;\\{P_{_2},\\;V_{_2},\\;T_{_2}\\}",
+            "after": "\\{P_{_1},\\;V_{_1},\\;T_{_1}\\}\\;\\mathrm{to}\\;\\{P_{_2},\\;V_{_2},\\;T_{_2}\\}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{c a l}=4.19\\;\\mathrm{J})",
+            "after": "\\mathrm{cal}=4.19\\;\\mathrm{J}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

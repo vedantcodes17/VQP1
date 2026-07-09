@@ -1,0 +1,236 @@
+{
+    "chapter": "Chapter 13 – Statistics",
+    "total_formulas": 281,
+    "repaired": 44,
+    "failed": 0,
+    "ocr_fixes": 118,
+    "latex_fixes": 44,
+    "markdown_fixes": 5,
+    "orphaned_latex_wrapped": 318,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.1,
+    "changes": [
+        {
+            "type": "delimiter_balance",
+            "before": "(",
+            "after": "()"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{l}",
+            "after": "\\begin{array}{l}\\end{array}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\f_{_i}\\end{array}\\quad\\begin{array}{l}2",
+            "after": "\\f_{_i}\\quad\\begin{array}{l}2\\end{array}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{array}\\quad\\begin{array}{l}5",
+            "after": "\\quad\\begin{array}{l}5\\end{array}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{array}\\quad\\begin{array}{l}6",
+            "after": "\\quad\\begin{array}{l}6\\end{array}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{array}\\quad\\begin{array}{l}8",
+            "after": "\\quad\\begin{array}{l}8\\end{array}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{array}\\quad\\begin{array}{l}10",
+            "after": "\\quad\\begin{array}{l}10\\end{array}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{array}\\quad\\begin{array}{l}12",
+            "after": "\\quad\\begin{array}{l}12\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "[",
+            "after": "[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " be n observations and $$\\left[\\bar{x}\\right",
+            "after": " be n observations and $$\\left[\\bar{x}\\right]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "(x",
+            "after": "(x)"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\sum_{i=1}^{n}\\left($x$_{i}-\\bar{x}\\right)^{2}$ is small , this indicates that the observations $x_{1},x_{2},x_{3},....,x_{n}$ are close to the mean $[$\\overline{{x}}$ and therefore,thereisalowedegof dispersionOth contrary, if this sum is large, there is a higher degree of dispersion of the observations from the mean ",
+            "after": "\\sum_{i=1}^{n}\\left($x$_{i}-\\bar{x}\\right)^{2}$ is small , this indicates that the observations $x_{1},x_{2},x_{3},....,x_{n}$ are close to the mean $[$\\overline{x}$ and therefore,thereisalowedegof dispersionOth contrary, if this sum is large, there is a higher degree of dispersion of the observations from the mean ]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": ". .Can we thus say that the sum $$\\sum_{i=1}^{n}(",
+            "after": ". .Can we thus say that the sum $$\\sum_{i=1}^{n}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{i}-\\bar{x})^{2}",
+            "after": "_{i}-\\bar{x}^{2}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{i}-\\bar{x})^{2}",
+            "after": "_{i}-\\bar{x}^{2}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "(x",
+            "after": "(x)"
+        },
+        {
+            "type": "brace_fix",
+            "before": "_{i}-{\\overline{{x}}})",
+            "after": "_{i}-{\\overline{x}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "(",
+            "after": "()"
+        },
+        {
+            "type": "brace_fix",
+            "before": "x_{i}-\\overline{{x}}",
+            "after": "x_{i}-\\overline{x}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " h y_{i})\\\\&=",
+            "after": " h y_{i}\\\\&="
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f_{i}(x",
+            "after": "f_{i}(x)"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{2}\\left(",
+            "after": "^{2}\\left()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{i}-\\overline{y}\\right)^{2}",
+            "after": "_{i}-\\overline{y}\\right^{2}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{i}\\left(",
+            "after": "_{i}\\left()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{i}-\\overline{y}\\right)^{2}=",
+            "after": "_{i}-\\overline{y}\\right^{2}="
+        },
+        {
+            "type": "brace_fix",
+            "before": " and $$\\left[{\\overline{{x}}}\\right",
+            "after": " and $$\\left[{\\overline{x}}\\right]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\sum_{i=1}^{20}\\left(\\frac{1}{2}",
+            "after": "\\sum_{i=1}^{20}\\left(\\frac{1}{2})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{1}{2}\\bar{y}\\right)^2=100",
+            "after": "\\frac{1}{2}\\bar{y}\\right^2=100"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\sum_{i=1}^{20}\\left(",
+            "after": "\\sum_{i=1}^{20}\\left()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\bar{y}\\right)^2=400",
+            "after": "\\bar{y}\\right^2=400"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{1}{n}\\sum_{i=1}^{5}(",
+            "after": "\\frac{1}{n}\\sum_{i=1}^{5}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x-y)^{2}=25\\\\x-y=",
+            "after": "x-y^{2}=25\\\\x-y="
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{l}",
+            "after": "\\begin{array}{l}\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\sigma_{1}^{2}=\\frac{1}{n}\\sum_{i=1}^{n}(",
+            "after": "\\sigma_{1}^{2}=\\frac{1}{n}\\sum_{i=1}^{n}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "$\\begin{aligned}\\left[\\sigma_{2}^{2}\\right$.&=$\\frac{1}{n}\\sum_{i=1}^{n}($y$_{i}-\\overline{y})^{2}=\\frac{1}{n}\\sum_{i=1}^{n}($x_{i}+a-$\\overline{x}-$a)$^{2}\\quad\\text{[Using(1)and(2)]}$\\\\&=$\\frac{1}{n}\\sum_{i=1}^{n}($x$_{i}-\\overline{x})^{2}=\\sigma_{1}^{2}\\end{aligned}",
+            "after": "$\\begin{aligned}\\left[\\sigma_{2}^{2}\\right$.&=$\\frac{1}{n}\\sum_{i=1}^{n}($y$_{i}-\\overline{y})^{2}=\\frac{1}{n}\\sum_{i=1}^{n}($x_{i}+a-$\\overline{x}-$a)$^{2}\\quad\\text{[Using(1)and(2)]}$\\\\&=$\\frac{1}{n}\\sum_{i=1}^{n}($x$_{i}-\\overline{x})^{2}=\\sigma_{1}^{2}\\end{aligned}]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "(",
+            "after": "()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "&n=\\sqrt[n]{",
+            "after": "&n=\\sqrt[n]{}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "}\\\\ &=\\sqrt[n]{1617.01-1592.01}=\\sqrt[n]{25}=5\\\\ ",
+            "after": "\\\\ &=\\sqrt[n]{1617.01-1592.01}=\\sqrt[n]_{25}=5\\\\ "
+        },
+        {
+            "type": "brace_fix",
+            "before": ". is the mean and $$\\overline{{\\upsigma}}^{2}",
+            "after": ". is the mean and $$\\overline{\\upsigma}^{2}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{i}\\left(",
+            "after": "_{i}\\left()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\sigma^{2}=\\frac{h^{2}}{N^{2}}\\left[",
+            "after": "\\sigma^{2}=\\frac{h^{2}}{N^{2}}\\left[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{i}^{2}-\\left(\\sum",
+            "after": "_{i}^{2}-\\left(\\sum)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{i}\\right)^{2}\\right],\\sigma=\\frac{h}{N}\\sqrt{N\\sum f_{i}y_{i}^{2}-\\left(\\sum f_{i}y_{i}\\right)^{2}}",
+            "after": "_{i}\\right^{2}\\right,\\sigma=\\frac{h}{N}\\sqrt{N\\sum f_{i}y_{i}^{2}-\\left(\\sum f_{i}y_{i}\\right)^{2}}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

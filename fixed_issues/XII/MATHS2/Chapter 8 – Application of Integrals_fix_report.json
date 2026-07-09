@@ -1,0 +1,371 @@
+{
+    "chapter": "Chapter 8 – Application of Integrals",
+    "total_formulas": 270,
+    "repaired": 71,
+    "failed": 0,
+    "ocr_fixes": 99,
+    "latex_fixes": 71,
+    "markdown_fixes": 7,
+    "orphaned_latex_wrapped": 242,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.093,
+    "changes": [
+        {
+            "type": "latex_fix",
+            "before": "{\\mathrm{s t r i p}}=y d x",
+            "after": "{\\mathrm{strip}}=y d x"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x=a)",
+            "after": "x=a"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "{\\begin{array}{r l r}&{}&{y=~x}\\\\ &{{\\mathrm{a n d}}\\qquad x^{2}+y^{2}=~32.}\\end{array}}",
+            "after": "{\\begin{array}{r l r}&{}&{y=~x}\\\\ &{{\\mathrm{and}}\\qquad x^{2}+y^{2}=~32.}\\end{array}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "x=a e,\\mathrm{w h e r e},b^{2}=a^{2}(1-e^{2})\\mathrm{a n d}e<1",
+            "after": "x=a e,\\mathrm{where},b^{2}=a^{2}(1-e^{2})\\mathrm{and}e<1"
+        },
+        {
+            "type": "latex_fix",
+            "before": "x=0\\;{\\mathrm{a n d}}\\;x=a e",
+            "after": "x=0\\;{\\mathrm{and}}\\;x=a e"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": ". (C)$$\\left[{\\frac{9}{3}}\\right",
+            "after": ". (C)$$\\left[{\\frac{9}{3}}\\right]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{A}=\\int_{a}^{b}[",
+            "after": "\\mathrm{A}=\\int_{a}^{b}[]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}\\mathrm{A}=",
+            "after": "\\begin{aligned}\\mathrm{A}=\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\mathrm{area}\\right.\\mathrm{bounded}\\mathrm{by}",
+            "after": "\\left[\\mathrm{area}\\right.\\mathrm{bounded}\\mathrm{by}]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\mathrm{area}\\right.\\mathrm{bounded}\\mathrm{by}",
+            "after": "\\left[\\mathrm{area}\\right.\\mathrm{bounded}\\mathrm{by}]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\right.=\\left.\\int_{a}^{b}\\left[",
+            "after": "\\right.=\\left.\\int_{a}^{b}\\left[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{in}[",
+            "after": "\\mathrm{in}[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\int_{a}^{c}\\left[",
+            "after": "\\int_{a}^{c}\\left[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\int_{c}^{b}\\left[",
+            "after": "\\int_{c}^{b}\\left[]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\int_{0}^{1}\\left[",
+            "after": "\\int_{0}^{1}\\left[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\int_{0}^{1}\\left[\\sqrt[3]{x}-",
+            "after": "\\int_{0}^{1}\\left[\\sqrt[3]{x}-]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{2}{3}",
+            "after": "\\left[\\frac{2}{3}]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\frac{3}{2}}-\\frac{x^3}{3}\\right]_{0}^{1}",
+            "after": "^{\\frac{3}{2}}-\\frac{x^3}{3}\\right_{0}^{1}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "&{=({",
+            "after": "&{=({}})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "})+({",
+            "after": "+({})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "})}\\\\ &{=",
+            "after": "\\\\ &{=}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "y d x}\\\\ &{=2{",
+            "after": "y d x\\\\ &{=2{}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}d x+{",
+            "after": "d x+{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}d x",
+            "after": "d x"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}",
+            "after": ""
+        },
+        {
+            "type": "latex_fix",
+            "before": "$\\begin{array}{r}{=\\mathrm{A r e a~o f~}\\Delta\\mathrm{A B D~}+\\mathrm{A r e a~o f~t r a p e z i u m}}$\\\\ {$\\mathrm{B D E C}-\\mathrm{A r e a~o f~}\\Delta\\mathrm{A E C}$}$\\end{array}",
+            "after": "$\\begin{array}{r}{=\\mathrm{A r e a~o f~}\\Delta\\mathrm{A B D~}+\\mathrm{A r e a~o f~t r a p e z i u m}}$\\\\ {$\\mathrm{BDEC}-\\mathrm{A r e a~o f~}\\Delta\\mathrm{AEC}$}$\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x-1\\right)dx+",
+            "after": "x-1\\rightdx+"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x)dx-",
+            "after": "xdx-"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x-{",
+            "after": "x-{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}",
+            "after": ""
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}",
+            "after": ""
+        },
+        {
+            "type": "brace_fix",
+            "before": "$\\begin{aligned}($x-2)^{2}+y^{2}&=x^{2}+y^{2}\\$\\x^{2}-4$x+4+y^{2}&=x^{2}+y^{2}\\\\x=1which gives y&=$\\pm\\sqrt[\\cdot]{3}\\end{aligned}",
+            "after": "$\\begin{aligned}($x-2)^{2}+y^{2}&=x^{2}+y^{2}\\$\\x^{2}-4$x+4+y^{2}&=x^{2}+y^{2}\\\\x=1which gives y&=$\\pm\\sqrt[\\cdot]_{3}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "&=2\\left[area of the region ODCAO",
+            "after": "&=2\\left[area of the region ODCAO]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "Why?)\\\\&=2\\left[area of the region ODAO+area of the region DCAD\\right]\\\\&=2",
+            "after": "Why?\\\\&=2\\left[area of the region ODAO+area of the region DCAD\\right]\\\\&=2"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "y dx\\right]\\\\&=2",
+            "after": "y dx\\right\\\\&=2"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "dx\\right]\\quad(Why?)\\\\&=2",
+            "after": "dx\\right\\quad(Why?)\\\\&=2"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\\\&=\\left[(x-2)",
+            "after": "\\\\&=\\left[(x-2)]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x=-1{",
+            "after": "x=-1{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}x=1",
+            "after": "x=1"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\int_{-1}^{\\frac{-2}{3}}(3",
+            "after": "\\int_{-1}^{\\frac{-2}{3}}(3)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\int_{\\frac{-2}{3}}^{1}(3",
+            "after": "\\int_{\\frac{-2}{3}}^{1}(3)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{3x^{2}}{2}+2",
+            "after": "\\left[\\frac{3x^{2}}{2}+2]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\right]^{\\frac{-2}{3}}\\right",
+            "after": "\\right^{\\frac{-2}{3}}\\right"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{3x^{2}}{2}+2",
+            "after": "\\left[\\frac{3x^{2}}{2}+2]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "|\\left[\\sin x",
+            "after": "|\\left[\\sin x]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "|+\\left[\\sin x",
+            "after": "|+\\left[\\sin x]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[2\\times\\frac{2}{3}",
+            "after": "\\left[2\\times\\frac{2}{3}]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{1}{12}\\left[",
+            "after": "\\frac{1}{12}\\left[]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\int_{0}^{1}(",
+            "after": "\\int_{0}^{1}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\int_{1}^{2}(",
+            "after": "\\int_{1}^{2}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\quad(\\mathrm{Why}",
+            "after": "\\quad(\\mathrm{Why})"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\left(\\frac{x^3}{3}+",
+            "after": "\\left[\\left(\\frac{x^3}{3}+])"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\right)\\right]_1^1+\\left[\\left(\\frac{x^2}{2}+",
+            "after": "\\right\\right_1^1+\\left[\\left(\\frac{x^2}{2}+])"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "i)y=x^{2},x=1,x=2and x-axis;\\\\ (ii)y=x^{4},x=1,x=5and x-axis;",
+            "after": "iy=x^{2},x=1,x=2and x-axis;\\\\ (ii)y=x^{4},x=1,x=5and x-axis;"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x=0\\;{",
+            "after": "x=0\\;{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\;x=2\\pi",
+            "after": "\\;x=2\\pi"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\pi-{\\sqrt{3}})",
+            "after": "\\pi-{\\sqrt{3}}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}\\mathrm{Area}=",
+            "after": "\\begin{aligned}\\mathrm{Area}=\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\int_{a}^{b}\\left[",
+            "after": "\\int_{a}^{b}\\left[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\quad\\mathrm{in}[",
+            "after": "\\quad\\mathrm{in}[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\quad\\mathrm{in}[",
+            "after": "\\quad\\mathrm{in}[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\quad\\mathrm{in}[",
+            "after": "\\quad\\mathrm{in}[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\int_{a}^{c}\\left[",
+            "after": "\\int_{a}^{c}\\left[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\int_{c}^{b}\\left[",
+            "after": "\\int_{c}^{b}\\left[]"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

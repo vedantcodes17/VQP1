@@ -1,0 +1,247 @@
+{
+    "chapter": "Chapter 1 – Some Basic Concepts of Chemistry",
+    "total_formulas": 262,
+    "repaired": 45,
+    "failed": 0,
+    "ocr_fixes": 285,
+    "latex_fixes": 45,
+    "markdown_fixes": 16,
+    "orphaned_latex_wrapped": 402,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.193,
+    "changes": [
+        {
+            "type": "phantom_strip",
+            "before": "\\Delta_{\\phantom{V}C s}^{V}.",
+            "after": "\\Delta_{C s}^{V}."
+        },
+        {
+            "type": "phantom_strip",
+            "before": "6.62\\overset{\\smile}{60}\\vphantom{0}^{7}\\vphantom{0}^{7}\\vphantom{0}^{15}\\times10\\vphantom{0}^{-34}",
+            "after": "6.62\\overset{\\smile}{60}^{7715}\\times10^{-34}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "K_{\\mathrm{c d}},",
+            "after": "K_{\\mathrm{cd}},"
+        },
+        {
+            "type": "latex_fix",
+            "before": "540\\times10^{12}\\mathrm{H z}",
+            "after": "540\\times10^{12}\\mathrm{Hz}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{c d}\\cdot\\mathrm{s r}\\cdot\\mathrm{W}^{-1}",
+            "after": "\\mathrm{cd}\\cdot\\mathrm{sr}\\cdot\\mathrm{W}^{-1}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\times10^{4})+(0.895\\times10^{4})",
+            "after": "\\times10^{4}+(0.895\\times10^{4})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "&(2.5",
+            "after": "&(2.5)"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{u})+12",
+            "after": "\\mathrm{u}+12"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{u})+",
+            "after": "\\mathrm{u}+"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{u})+(12.096",
+            "after": "\\mathrm{u}+(12.096)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{u})+",
+            "after": "\\mathrm{u}+"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{array}",
+            "after": ""
+        },
+        {
+            "type": "environment_close",
+            "before": "$\\begin{aligned}$&$\\overline{\\hspace{1cm}}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$}&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$}&$\\text{}\\quad\\quad$&$\\text{}\\quad$&$\\text{}\\quad\\quad$&$\\text{}\\quad$&$\\text{}\\quad\\quad$&$\\text{}\\quad\\quad$&$\\text{}\\quad$}\\quad&$\\text{}\\quad\\quad$&$\\text{}\\quad\\quad$&$\\text{}\\quad\\quad$&$\\text{}\\quad\\quad$&$\\text{}\\quad\\quad$&$\\text{}\\quad\\quad\\quad$&$\\text{}\\quad\\quad$&$\\text{}\\quad\\quad\\quad$&$\\quad\\text{}\\quad\\quad$&\\quad\\quad}&$\\text{}\\quad\\quad$&$\\quad\\quad\\text{}\\quad\\quad$&\\quad\\quad&$\\text{}\\quad\\quad\\quad$&\\quad\\quad&$\\text{}\\quad\\quad\\quad$&\\quad\\quad\\quad&$\\text{}\\quad\\quad$&\\quad\\quad\\quad&$\\text{}\\quad\\quad\\quad$&\\quad\\quad\\quad&$\\quad\\quad\\quad{\\quad\\quad\\quad}$&\\quad\\quad&\\text\\quad\\quad&$\\quad\\quad\\quad{\\quad\\quad\\quad}$&\\quad\\quad&\\quad\\quad\\quad&\\text\\quad\\quad\\quad&$\\quad\\quad{\\quad\\quad\\quad\\quad}$&\\quad\\quad&\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad&\\quad\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad&\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad\\quad&\\quad&\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad&\\quad&\\quad\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad\\quad ",
+            "after": "$\\begin{aligned}$&$\\overline{\\hspace{1cm}}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad$&$\\text{}\\quad\\quad$&$\\text{}\\quad$&$\\text{}\\quad\\quad$&$\\text{}\\quad$&$\\text{}\\quad\\quad$&$\\text{}\\quad\\quad$&$\\text{}\\quad$\\quad&$\\text{}\\quad\\quad$&$\\text{}\\quad\\quad$&$\\text{}\\quad\\quad$&$\\text{}\\quad\\quad$&$\\text{}\\quad\\quad$&$\\text{}\\quad\\quad\\quad$&$\\text{}\\quad\\quad$&$\\text{}\\quad\\quad\\quad$&$\\quad\\text{}\\quad\\quad$&\\quad\\quad&$\\text{}\\quad\\quad$&$\\quad\\quad\\text{}\\quad\\quad$&\\quad\\quad&$\\text{}\\quad\\quad\\quad$&\\quad\\quad&$\\text{}\\quad\\quad\\quad$&\\quad\\quad\\quad&$\\text{}\\quad\\quad$&\\quad\\quad\\quad&$\\text{}\\quad\\quad\\quad$&\\quad\\quad\\quad&$\\quad\\quad\\quad{\\quad\\quad\\quad}$&\\quad\\quad&\\text\\quad\\quad&$\\quad\\quad\\quad{\\quad\\quad\\quad}$&\\quad\\quad&\\quad\\quad\\quad&\\text\\quad\\quad\\quad&$\\quad\\quad{\\quad\\quad\\quad\\quad}$&\\quad\\quad&\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad&\\quad\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad&\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad\\quad&\\quad&\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad&\\quad&\\quad\\quad\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad&\\quad\\quad\\quad&\\quad\\quad\\quad\\quad\\quad\\quad \\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}={",
+            "after": "={}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}={",
+            "after": "={}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}={",
+            "after": "={}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C H}_{4}",
+            "after": "\\mathrm{CH}_{4}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C O}_{2}(\\mathrm{g})",
+            "after": "\\mathrm{CO}_{2}(\\mathrm{g})"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C O}_{2}",
+            "after": "\\mathrm{CO}_{2}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C O}_{2}",
+            "after": "\\mathrm{CO}_{2}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\frac{\\mathrm{M a s s}}{\\mathrm{V o l u m e}}",
+            "after": "\\frac{\\mathrm{Mass}}{\\mathrm{Volume}}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{array}",
+            "after": ""
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C O}_{2}",
+            "after": "\\mathrm{CO}_{2}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " in water). Therefore,five ",
+            "after": " in water. Therefore,five "
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C O}_{2}",
+            "after": "\\mathrm{CO}_{2}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " in water). Therefore, five ",
+            "after": " in water. Therefore, five "
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " (g) is obtained from 16g CH4 (g).[∴1 mol ",
+            "after": " (g) is obtained from 16g CH_{4} (g).[∴1 mol ]"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C O}_{2}(\\mathrm{g})",
+            "after": "\\mathrm{CO}_{2}(\\mathrm{g})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{C H}_{4}(\\mathrm{g})]",
+            "after": "\\mathrm{CH}_{4}(\\mathrm{g})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{2}\\left(",
+            "after": "_{2}\\left()"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C H}_{4}",
+            "after": "\\mathrm{CH}_{4}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\widetilde{\\mathrm{C O}}_{2}",
+            "after": "\\widetilde{\\mathrm{CO}}_{2}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{N H}_{3}",
+            "after": "\\mathrm{NH}_{3}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{N H}_{3}",
+            "after": "\\mathrm{NH}_{3}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{N H}_{3}",
+            "after": "\\mathrm{NH}_{3}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{N H}_{_3}(\\mathrm{g})",
+            "after": "\\mathrm{NH}_{_3}(\\mathrm{g})"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{N H}_{_3}(\\mathrm{g})",
+            "after": "\\mathrm{NH}_{_3}(\\mathrm{g})"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{N H}_{3}",
+            "after": "\\mathrm{NH}_{3}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " )mL and,",
+            "after": " mL and,"
+        },
+        {
+            "type": "escape_fix",
+            "before": " \n1.3Determine the empirical formula of an oxide of iron, which has 69.9% iron and 30.1% dioxygen by mass.\n1.4Calculate the amount of carbon dioxide that could be produced when (i)1 mole of carbon is burnt in air.\n(ii)1 mole of carbon is burnt in 16 g of dioxygen.\n(iii)2 moles of carbon are burnt in 16 g of dioxygen.\n1.5Calculate the mass of sodium acetate ",
+            "after": " \n1.3Determine the empirical formula of an oxide of iron, which has 69.9\\% iron and 30.1\\% dioxygen by mass.\n1.4Calculate the amount of carbon dioxide that could be produced when (i)1 mole of carbon is burnt in air.\n(ii)1 mole of carbon is burnt in 16 g of dioxygen.\n(iii)2 moles of carbon are burnt in 16 g of dioxygen.\n1.5Calculate the mass of sodium acetate "
+        },
+        {
+            "type": "latex_fix",
+            "before": "1$\\mathrm{P a}=1\\mathrm{N m^{-2}}",
+            "after": "1$\\mathrm{Pa}=1\\mathrm{N m^{-2}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "^{38}\\mathrm{A r}",
+            "after": "^{38}\\mathrm{Ar}"
+        },
+        {
+            "type": "escape_fix",
+            "before": " nass 0.337%0.063%nc ,",
+            "after": " nass 0.337\\%0.063\\%nc ,"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C O}_{2}",
+            "after": "\\mathrm{CO}_{2}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": [
+        {
+            "equation": "6.62\\overset{\\smile}{60}^{7715}\\times10^{-34}",
+            "delimiter": "$",
+            "reason": "adjacent scripts were merged after removing an OCR-inserted \\phantom - digits are preserved but the split point was a guess; needs manual review"
+        }
+    ]
+}

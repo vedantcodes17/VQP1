@@ -1,0 +1,211 @@
+{
+    "chapter": "Chapter 6 – Permutations and Combinations",
+    "total_formulas": 224,
+    "repaired": 39,
+    "failed": 0,
+    "ocr_fixes": 108,
+    "latex_fixes": 39,
+    "markdown_fixes": 7,
+    "orphaned_latex_wrapped": 161,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.115,
+    "changes": [
+        {
+            "type": "latex_fix",
+            "before": "\\begin{array}{r l r l}{n!}&{=n(n-1)!}\\\\ &{=n(n-1)(n-2)!}&&{[\\mathrm{p r o v i d e d}(n\\geq2)]}\\\\ &{=n(n-1)(n-2)(n-3)!}&&{[\\mathrm{p r o v i d e d}(n\\geq3)]}\\end{array}",
+            "after": "\\begin{array}{r l r l}{n!}&{=n(n-1)!}\\\\ &{=n(n-1)(n-2)!}&&{[\\mathrm{provided}(n\\geq2)]}\\\\ &{=n(n-1)(n-2)(n-3)!}&&{[\\mathrm{provided}(n\\geq3)]}\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{5!}{2!(5-2)!}=\\frac{5!}{2!\\times3!}=\\frac{5\\times4}{2}=10(",
+            "after": "\\frac{5!}{2!(5-2)!}=\\frac{5!}{2!\\times3!}=\\frac{5\\times4}{2}=10()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{i})",
+            "after": "\\mathrm{i}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "4{",
+            "after": "4{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}",
+            "after": ""
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{c}\\begin{array}{c}\\text{Permutations when}\\mathrm{O}_{1},\\mathrm{O}_{2}\\text{are}",
+            "after": "\\begin{array}{c}\\begin{array}{c}\\text{Permutations when}\\mathrm{O}_{1},\\mathrm{O}_{2}\\text{are}\\end{array}\\end{array}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\text{different}\\end{array}\\begin{array}{c}\\text{Permutations when}\\mathrm{O}_{1},\\mathrm{O}_{2}\\text{are}",
+            "after": "\\text{different}\\begin{array}{c}\\text{Permutations when}\\mathrm{O}_{1},\\mathrm{O}_{2}\\text{are}\\end{array}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\text{the same}\\mathrm{O}.\\end{array}",
+            "after": "\\text{the same}\\mathrm{O}."
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{c}\\mathrm{RO}_{1}\\mathrm{O}_{2}\\mathrm{T}",
+            "after": "\\begin{array}{c}\\mathrm{RO}_{1}\\mathrm{O}_{2}\\mathrm{T}\\end{array}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{ccc}\\left[\\begin{array}{c}\\mathrm{RO}_{1}\\mathrm{T}\\mathrm{O}_{2}",
+            "after": "\\begin{array}{ccc}\\left[\\begin{array}{c}\\mathrm{RO}_{1}\\mathrm{T}\\mathrm{O}_{2}\\end{array}\\end{array}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{R}_{\\mathrm{O}}\\mathrm{T}\\mathrm{O}_{1}\\end{array}\\right]",
+            "after": "\\mathrm{R}_{\\mathrm{O}}\\mathrm{T}\\mathrm{O}_{1}\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\left[\\begin{array}{c}\\mathrm{T}\\mathrm{O}_{1}\\mathrm{R}\\mathrm{O}_{2}",
+            "after": "\\left[\\begin{array}{c}\\mathrm{T}\\mathrm{O}_{1}\\mathrm{R}\\mathrm{O}_{2}\\end{array}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{R}_{\\mathrm{O}}\\mathrm{R}_{\\mathrm{O}}\\end{array}\\right]",
+            "after": "\\mathrm{R}_{\\mathrm{O}}\\mathrm{R}_{\\mathrm{O}}\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\left[\\begin{array}{c}\\mathrm{R}\\mathrm{T}\\mathrm{O}_{1}\\mathrm{O}_{2}",
+            "after": "\\left[\\begin{array}{c}\\mathrm{R}\\mathrm{T}\\mathrm{O}_{1}\\mathrm{O}_{2}\\end{array}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{R}_{\\mathrm{T}}\\mathrm{O}_{2}\\mathrm{O}_{1}\\end{array}\\right]",
+            "after": "\\mathrm{R}_{\\mathrm{T}}\\mathrm{O}_{2}\\mathrm{O}_{1}\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\left[\\begin{array}{c}\\mathrm{R}\\mathrm{T}\\mathrm{O}_{1}\\mathrm{O}_{2}",
+            "after": "\\left[\\begin{array}{c}\\mathrm{R}\\mathrm{T}\\mathrm{O}_{1}\\mathrm{O}_{2}\\end{array}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{R}_{\\mathrm{T}}\\mathrm{R}_{\\mathrm{O}}\\mathrm{O}_{1}\\end{array}\\right]",
+            "after": "\\mathrm{R}_{\\mathrm{T}}\\mathrm{R}_{\\mathrm{O}}\\mathrm{O}_{1}\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\left[\\begin{array}{c}\\mathrm{R}\\mathrm{O}_{1}\\mathrm{O}_{2}\\mathrm{~R}\\mathrm{T}",
+            "after": "\\left[\\begin{array}{c}\\mathrm{R}\\mathrm{O}_{1}\\mathrm{O}_{2}\\mathrm{~R}\\mathrm{T}\\end{array}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{O}_{2}\\mathrm{~O}_{1}\\mathrm{~R}\\mathrm{T}\\end{array}\\right]",
+            "after": "\\mathrm{O}_{2}\\mathrm{~O}_{1}\\mathrm{~R}\\mathrm{T}\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\left[\\begin{array}{c}\\mathrm{R}\\mathrm{O}_{1}\\mathrm{R}_{\\mathrm{O}}\\mathrm{T}",
+            "after": "\\left[\\begin{array}{c}\\mathrm{R}\\mathrm{O}_{1}\\mathrm{R}_{\\mathrm{O}}\\mathrm{T}\\end{array}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{O}_{2}\\mathrm{R}_{\\mathrm{O}}\\mathrm{O}_{1}\\mathrm{T}\\end{array}\\right]",
+            "after": "\\mathrm{O}_{2}\\mathrm{R}_{\\mathrm{O}}\\mathrm{O}_{1}\\mathrm{T}\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\left[\\begin{array}{c}\\mathrm{R}\\mathrm{O}_{1}\\mathrm{T}\\mathrm{O}_{2}",
+            "after": "\\left[\\begin{array}{c}\\mathrm{R}\\mathrm{O}_{1}\\mathrm{T}\\mathrm{O}_{2}\\end{array}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{R}_{\\mathrm{T}}\\mathrm{O}_{1}\\mathrm{R}\\end{array}\\right]",
+            "after": "\\mathrm{R}_{\\mathrm{T}}\\mathrm{O}_{1}\\mathrm{R}\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\left[\\begin{array}{c}\\mathrm{R}\\mathrm{T}\\mathrm{O}_{2}",
+            "after": "\\left[\\begin{array}{c}\\mathrm{R}\\mathrm{T}\\mathrm{O}_{2}\\end{array}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{O}_{2}\\mathrm{~R}\\mathrm{T}\\mathrm{O}_{1}\\end{array}\\right]",
+            "after": "\\mathrm{O}_{2}\\mathrm{~R}\\mathrm{T}\\mathrm{O}_{1}\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\left[\\begin{array}{c}\\mathrm{R}\\mathrm{T}\\mathrm{O}_{2}",
+            "after": "\\left[\\begin{array}{c}\\mathrm{R}\\mathrm{T}\\mathrm{O}_{2}\\end{array}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{O}_{2}\\mathrm{~R}\\mathrm{T}\\mathrm{O}_{1}\\end{array}\\right]",
+            "after": "\\mathrm{O}_{2}\\mathrm{~R}\\mathrm{T}\\mathrm{O}_{1}\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\left[\\begin{array}{c}\\mathrm{R}\\mathrm{O}_{1}\\mathrm{R}\\mathrm{O}_{2}",
+            "after": "\\left[\\begin{array}{c}\\mathrm{R}\\mathrm{O}_{1}\\mathrm{R}\\mathrm{O}_{2}\\end{array}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{O}_{2}\\mathrm{~R}\\mathrm{T}\\mathrm{O}_{1}\\end{array}\\right]",
+            "after": "\\mathrm{O}_{2}\\mathrm{~R}\\mathrm{T}\\mathrm{O}_{1}\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{O}\\mathrm{~R}\\mathrm{~0}\\mathrm{~T}\\mathrm{O}\\end{array}",
+            "after": "\\mathrm{O}\\mathrm{~R}\\mathrm{~0}\\mathrm{~T}\\mathrm{O}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{I}_{1}\\mathrm{N T}_{1}\\mathrm{S I}_{2}\\mathrm{T}_{2}\\mathrm{U E T}_{3}$ Here $ if$\\mathrm{I}_{1},\\mathrm{I}_{2}$ are not same and ",
+            "after": "\\mathrm{I}_{1}\\mathrm{NT}_{1}\\mathrm{SI}_{2}\\mathrm{T}_{2}\\mathrm{UET}_{3}$ Here $ if$\\mathrm{I}_{1},\\mathrm{I}_{2}$ are not same and "
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\begin{array}{l l}{{\\mathrm{c o r}}}&{{\\begin{array}{l}{{5\\times\\cfrac{4!}{\\left(4-r\\right)!}=6\\times\\cfrac{5!}{\\left(5-r+1\\right)!}}}\\\\ {{5\\times\\cfrac{5!}{\\left(4-r\\right)!}=\\cfrac{6\\times5!}{\\left(5-r+1\\right)\\left(5-r\\right)\\left(5-r-1\\right)!}}}\\end{array}}}\\\\ {{\\mathrm{c o r}}}&{{\\begin{array}{l}{{\\cfrac{5!}{\\left(4-r\\right)!}=\\cfrac{6\\times5!}{\\left(5-r+1\\right)\\left(5-r\\right)\\left(5-r-1\\right)!}}}\\\\ {{\\mathrm{c o r}}}\\\\ {{\\mathrm{c o r}}}\\\\ {{\\mathrm{c o r}}}\\\\ {{\\mathrm{c o r}}}\\\\ {{\\mathrm{c o r}}}\\\\ {{\\mathrm{c o r}}}\\\\ {{\\mathrm{c o r}}}\\\\ {{\\mathrm{c o r}}}\\\\ {{\\mathrm{c o r}}}\\\\ {{\\mathrm{c o r}}}\\\\ {{\\mathrm{H e n c e}}}\\end{array}}}\\end{array}",
+            "after": "\\begin{array}{l l}{{\\mathrm{cor}}}&{{\\begin{array}{l}{{5\\times\\cfrac{4!}{\\left(4-r\\right)!}=6\\times\\cfrac{5!}{\\left(5-r+1\\right)!}}}\\\\ {{5\\times\\cfrac{5!}{\\left(4-r\\right)!}=\\cfrac{6\\times5!}{\\left(5-r+1\\right)\\left(5-r\\right)\\left(5-r-1\\right)!}}}\\end{array}}}\\\\ {{\\mathrm{cor}}}&{{\\begin{array}{l}{{\\cfrac{5!}{\\left(4-r\\right)!}=\\cfrac{6\\times5!}{\\left(5-r+1\\right)\\left(5-r\\right)\\left(5-r-1\\right)!}}}\\\\ {{\\mathrm{cor}}}\\\\ {{\\mathrm{cor}}}\\\\ {{\\mathrm{cor}}}\\\\ {{\\mathrm{cor}}}\\\\ {{\\mathrm{cor}}}\\\\ {{\\mathrm{cor}}}\\\\ {{\\mathrm{cor}}}\\\\ {{\\mathrm{cor}}}\\\\ {{\\mathrm{cor}}}\\\\ {{\\mathrm{cor}}}\\\\ {{\\mathrm{Hence}}}\\end{array}}}\\end{array}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "{\\begin{array}{r l}{{\\mathrm{T h e r e f o r e}}_{*}{\\mathrm{~t h e~t e q u i r e d~n u m b e r~}}}&{8!-6!\\times3!=}&{6!(7\\times8-6)}\\\\ {}&{=}&{2\\times6!(28-3)}\\\\ {}&{=}&{50\\times6!=50\\times720=36000}\\end{array}}",
+            "after": "{\\begin{array}{r l}{{\\mathrm{Therefore}}_{*}{\\mathrm{~t h e~t e q u i r e d~n u m b e r~}}}&{8!-6!\\times3!=}&{6!(7\\times8-6)}\\\\ {}&{=}&{2\\times6!(28-3)}\\\\ {}&{=}&{50\\times6!=50\\times720=36000}\\end{array}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{P}_{r}=2^{6}\\mathrm{P}_{r-1}\\quad(\\mathrm{i i})^{5}\\mathrm{P}_{r}=^{6}\\mathrm{P}_{r}",
+            "after": "\\mathrm{P}_{r}=2^{6}\\mathrm{P}_{r-1}\\quad(\\mathrm{ii})^{5}\\mathrm{P}_{r}=^{6}\\mathrm{P}_{r}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "^{\\mathrm{t h}}",
+            "after": "^{\\mathrm{th}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{6!}{3!\\;2!}$ (by fixing 0 at the extreme left ",
+            "after": "\\frac{6!}{3!\\;2!}$ (by fixing 0 at the extreme left )"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{l}=5",
+            "after": "\\begin{array}{l}=5\\end{array}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "k^{\\mathrm{t h}}",
+            "after": "k^{\\mathrm{th}}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

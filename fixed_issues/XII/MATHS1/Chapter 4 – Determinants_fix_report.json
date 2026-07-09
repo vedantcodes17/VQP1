@@ -1,0 +1,524 @@
+{
+    "chapter": "Chapter 4 – Determinants",
+    "total_formulas": 467,
+    "repaired": 100,
+    "failed": 1,
+    "ocr_fixes": 53,
+    "latex_fixes": 100,
+    "markdown_fixes": 6,
+    "orphaned_latex_wrapped": 333,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.168,
+    "changes": [
+        {
+            "type": "delimiter_balance",
+            "before": "\\left(\\mathbb{R}_{1},\\mathbb{R}_{2}\\right.",
+            "after": "\\left(\\mathbb{R}_{1},\\mathbb{R}_{2}\\right.)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathbb{R}_{3})",
+            "after": "\\mathbb{R}_{3}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "(C_1,C_2",
+            "after": "(C_1,C_2)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " C_{3})",
+            "after": " C_{3}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "|\\mathrm{A}|=\\left|\\begin{aligned}{}&{{}\\boldsymbol{a}_{\\mathbf{11}}}&{\\boldsymbol{a}_{\\mathbf{12}}}&{{}}&{\\boldsymbol{a}_{\\mathbf{13}}}\\\\ {}&{{}\\boldsymbol{a}_{21}}&{\\boldsymbol{a}_{22}}&{{}}&{\\boldsymbol{a}_{23}}\\\\ {}&{{}\\boldsymbol{a}_{31}}&{\\boldsymbol{a}_{32}}&{{}}&{\\boldsymbol{a}_{33}}\\end{aligned}\\right|.",
+            "after": "|\\mathrm{A}|=\\left|\\begin{aligned}{}&{{}\\boldsymbol{a}_{\\mathbf{11}}}&{\\boldsymbol{a}_{\\mathbf{12}}}&{}&{\\boldsymbol{a}_{\\mathbf{13}}}\\\\ {}&{{}\\boldsymbol{a}_{21}}&{\\boldsymbol{a}_{22}}&{}&{\\boldsymbol{a}_{23}}\\\\ {}&{{}\\boldsymbol{a}_{31}}&{\\boldsymbol{a}_{32}}&{}&{\\boldsymbol{a}_{33}}\\end{aligned}\\right|."
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathbb{R}_{1}\\;\\mathrm{b y}\\;(-1)^{(1\\;+\\;1)}\\;[(-1)^{\\mathrm{s u m\\;o f\\;s u f f i x e s\\;i n\\;}a_{11}}]",
+            "after": "\\mathbb{R}_{1}\\;\\mathrm{by}\\;(-1)^{(1\\;+\\;1)}\\;[(-1)^{\\mathrm{s u m\\;o f\\;s u f f i x e s\\;i n\\;}a_{11}}]"
+        },
+        {
+            "type": "latex_fix",
+            "before": "(\\mathrm{C}_{1})\\;\\mathrm{o f}\\;|\\;\\mathrm{A}\\;|\\;\\mathrm{a s}\\;a_{11}",
+            "after": "(\\mathrm{C}_{1})\\;\\mathrm{of}\\;|\\;\\mathrm{A}\\;|\\;\\mathrm{as}\\;a_{11}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " ]",
+            "after": " "
+        },
+        {
+            "type": "brace_fix",
+            "before": "|\\mathbf{A}|=\\left|\\begin{aligned}{}&{{}\\mathbf{a}_{11}}&{\\mathbf{a}_{12}}&{{}}&{\\mathbf{a}_{13}}\\\\ {}&{{}\\mathbf{a}_{2I}}&{\\mathbf{a}_{22}}&{{}}&{\\mathbf{a}_{23}}\\\\ {}&{{}\\mathbf{a}_{31}}&{\\mathbf{a}_{32}}&{{}}&{\\mathbf{a}_{33}}\\end{aligned}\\right|",
+            "after": "|\\mathbf{A}|=\\left|\\begin{aligned}{}&{{}\\mathbf{a}_{11}}&{\\mathbf{a}_{12}}&{}&{\\mathbf{a}_{13}}\\\\ {}&{{}\\mathbf{a}_{2I}}&{\\mathbf{a}_{22}}&{}&{\\mathbf{a}_{23}}\\\\ {}&{{}\\mathbf{a}_{31}}&{\\mathbf{a}_{32}}&{}&{\\mathbf{a}_{33}}\\end{aligned}\\right|"
+        },
+        {
+            "type": "escape_fix",
+            "before": "d \\begin{aligned}\\left|\\mathbf{A}\\right|=&\\left.(-1)^{2+1}a_{21}\\begin{vmatrix}a_{12}&a_{13}\\\\ a_{32}&a_{33}\\end{vmatrix}+(-1)^{2+2}a_{22}\\begin{vmatrix}a_{11}&a_{13}\\\\ a_{31}&a_{33}\\end{vmatrix}\\right.\\\\&+(-1)^{2+3}a_{23}\\begin{vmatrix}a_{11}&a_{12}\\\\ a_{31}&a_{32}\\end{vmatrix}\\\\=&-a_{21}(a_{12}a_{33}-a_{32}a_{13})+a_{22}(a_{11}a_{33}-a_{31}^3a_{13})\\\\&-a_{23}(a_{11}a_{32}-a_{31}a_{12})\\\\\\left|\\mathbf{A}\\right|=&-a_{21}a_{12}a_{33}+a_{21}a_{32}a_{13}+a_{22}a_{11}a_{33}-a_{22}a_{31}a_{13}-a_{23}a_{11}a_{32}\\\\&+a_{23}a_{31}a_{12}\\\\=&a_{11}a_{22}a_{33}-a_{11}a_{23}a_{32}-a_{12}a_{21}a_{33}+a_{12}a_{23}a_{31}+a_{13}a_{21}a_{32}\\\\&-a_{13}a_{31}a_{22}\\\\&-a_{13}a_{31}a_{22}\\end{aligned} 2)",
+            "after": "d \\begin{aligned}\\left|\\mathbf{A}\\right|=&\\left.(-1)^{2+1}a_{21}\\begin{vmatrix}a_{12}&a_{13}\\\\ a_{32}&a_{33}\\end{vmatrix}+(-1)^{2+2}a_{22}\\begin{vmatrix}a_{11}&a_{13}\\\\ a_{31}&a_{33}\\end{vmatrix}\\right.\\\\&+(-1)^{2+3}a_{23}\\begin{vmatrix}a_{11}&a_{12}\\\\ a_{31}&a_{32}\\end{vmatrix}\\\\=&-a_{21}(a_{12}a_{33}-a_{32}a_{13})+a_{22}(a_{11}a_{33}-a_{31}^3a_{13})\\\\&-a_{23}(a_{11}a_{32}-a_{31}a_{12})\\\\left|\\mathbf{A}\\right|=&-a_{21}a_{12}a_{33}+a_{21}a_{32}a_{13}+a_{22}a_{11}a_{33}-a_{22}a_{31}a_{13}-a_{23}a_{11}a_{32}\\\\&+a_{23}a_{31}a_{12}\\\\=&a_{11}a_{22}a_{33}-a_{11}a_{23}a_{32}-a_{12}a_{21}a_{33}+a_{12}a_{23}a_{31}+a_{13}a_{21}a_{32}\\\\&-a_{13}a_{31}a_{22}\\\\&-a_{13}a_{31}a_{22}\\end{aligned} 2"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{aligned}\\left|\\mathrm{A}\\right|=&a_{11}a_{22}a_{33}-a_{11}a_{23}a_{32}-a_{21}a_{12}a_{33}+a_{21}a_{13}a_{32}+a_{31}a_{12}a_{23}\\\\&-a_{31}a_{13}a_{22}\\\\=&a_{11}a_{22}a_{33}-a_{11}a_{23}a_{32}-a_{12}a_{21}a_{33}+a_{12}a_{23}a_{31}+a_{13}a_{21}a_{32}\\\\&-a_{13}a_{31}a_{22}\\quad\\ldots\\quad(\\end{aligned} (3), (2) and (3) are equal. It is left as an exercise to the ",
+            "after": "\\begin{aligned}\\left|\\mathrm{A}\\right|=&a_{11}a_{22}a_{33}-a_{11}a_{23}a_{32}-a_{21}a_{12}a_{33}+a_{21}a_{13}a_{32}+a_{31}a_{12}a_{23}\\\\&-a_{31}a_{13}a_{22}\\\\=&a_{11}a_{22}a_{33}-a_{11}a_{23}a_{32}-a_{12}a_{21}a_{33}+a_{12}a_{23}a_{31}+a_{13}a_{21}a_{32}\\\\&-a_{13}a_{31}a_{22}\\quad\\ldots\\quad(\\end{aligned} (3), (2) and (3) are equal. It is left as an exercise to the )"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\left|A\\right|\\ln\\left(1\\right)\\right.",
+            "after": "\\left[\\left|A\\right|\\ln\\left(1\\right)\\right.]"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\Delta&=0\\left|\\begin{matrix}0&\\sin\\beta\\\\-\\sin\\beta&0\\end{matrix}\\right|-\\sin\\alpha\\left|\\begin{matrix}-\\sin\\alpha&\\sin\\beta\\\\\\cos\\alpha&0\\end{matrix}\\right|-\\cos\\alpha\\left|\\begin{matrix}-\\sin\\alpha&0\\\\\\cos\\alpha&-\\sin\\beta\\end{matrix}\\right|\\\\&=0-\\sin\\alpha\\left(0-\\sin\\beta\\cos\\alpha\\right)-\\cos\\alpha\\left(\\sin\\alpha\\sin\\beta-0\\right)\\\\&=\\sin\\alpha\\sin\\beta\\cos\\alpha-\\cos\\alpha\\sin\\alpha\\sin\\beta=0\\end{aligned}",
+            "after": "\\begin{aligned}\\Delta&=0\\left|\\begin{matrix}0&\\sin\\beta\\\\-\\sin\\beta&0\\end{matrix}\\right|-\\sin\\alpha\\left|\\begin{matrix}-\\sin\\alpha&\\sin\\beta\\\\cos\\alpha&0\\end{matrix}\\right|-\\cos\\alpha\\left|\\begin{matrix}-\\sin\\alpha&0\\\\cos\\alpha&-\\sin\\beta\\end{matrix}\\right|\\\\&=0-\\sin\\alpha\\left(0-\\sin\\beta\\cos\\alpha\\right)-\\cos\\alpha\\left(\\sin\\alpha\\sin\\beta-0\\right)\\\\&=\\sin\\alpha\\sin\\beta\\cos\\alpha-\\cos\\alpha\\sin\\alpha\\sin\\beta=0\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " 1, is given by the expression $$\\frac{1}{2}\\left[",
+            "after": " 1, is given by the expression $$\\frac{1}{2}\\left[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{1})+\\right",
+            "after": "_{1}+\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}\\frac{1}{2}\\left",
+            "after": "\\begin{aligned}\\frac{1}{2}\\left\\end{aligned}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{matrix}0",
+            "after": "\\begin{matrix}0\\end{matrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{matrix}\\right",
+            "after": "\\right"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{1}{2}(",
+            "after": "\\frac{1}{2}()"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{aligned}\\right",
+            "after": "\\right"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\overline{4,3})",
+            "after": "\\overline{4,3}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "b,c+a),",
+            "after": "b,c+a,"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "c,a+b)",
+            "after": "c,a+b"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{l}\\text{Soluition Minor of the element}",
+            "after": "\\begin{array}{l}\\text{Soluition Minor of the element}\\end{array}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{matrix}",
+            "after": "\\begin{matrix}\\end{matrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "_{33}\\end{matrix}\\right",
+            "after": "_{33}\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{matrix}",
+            "after": "\\begin{matrix}\\end{matrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "_{33}\\end{matrix}\\right",
+            "after": "_{33}\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{matrix}",
+            "after": "\\begin{matrix}\\end{matrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "_{32}\\end{matrix}\\right",
+            "after": "_{32}\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\text{.}(",
+            "after": "\\text{.}()"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{matrix}2",
+            "after": "\\begin{matrix}2\\end{matrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{matrix}\\right",
+            "after": "\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{matrix}",
+            "after": "\\begin{matrix}\\end{matrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{matrix}\\right",
+            "after": "\\right"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\text{.}(",
+            "after": "\\text{.}()"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{matrix}1",
+            "after": "\\begin{matrix}1\\end{matrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{matrix}\\right",
+            "after": "\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{matrix}1",
+            "after": "\\begin{matrix}1\\end{matrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{matrix}\\right",
+            "after": "\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{matrix}5",
+            "after": "\\begin{matrix}5\\end{matrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{matrix}\\right",
+            "after": "\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{vmatrix}",
+            "after": ""
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{l}",
+            "after": "\\begin{array}{l}\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{33}\\quad(",
+            "after": "_{33}\\quad()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{13}\\quad(",
+            "after": "_{13}\\quad()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "A=\\left[a",
+            "after": "A=\\left[a]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathbf{A}=\\begin{bmatrix}",
+            "after": "\\mathbf{A}=\\begin{bmatrix}\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "_{22}=2 \\begin{bmatrix}",
+            "after": "_{22}=2 \\begin{bmatrix}\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{bmatrix}",
+            "after": "\\begin{bmatrix}\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "_{22}\\end{bmatrix}=\\begin{bmatrix}4",
+            "after": "_{22}=\\begin{bmatrix}4\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}\\end{bmatrix}",
+            "after": ""
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{A}=\\begin{bmatrix}",
+            "after": "\\mathrm{A}=\\begin{bmatrix}\\end{bmatrix}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "&{",
+            "after": "&{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\\\ {",
+            "after": "\\\\ {}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}&{",
+            "after": "&{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\\\ {\\downarrow}&{",
+            "after": "\\\\ {\\downarrow}&{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\\\ ",
+            "after": "\\\\ "
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "&{-",
+            "after": "&{-}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\\\ {-",
+            "after": "\\\\ {-}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}&{",
+            "after": "&{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\\\ ",
+            "after": "\\\\ "
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{A}=\\begin{bmatrix}",
+            "after": "\\mathrm{A}=\\begin{bmatrix}\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "_{33}\\end{bmatrix},\\quad\\mathrm{then}\\quad",
+            "after": "_{33},\\quad\\mathrm{then}\\quad"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\quad\\mathrm{A}=\\begin{bmatrix}\\mathrm{A}_{11}",
+            "after": "\\quad\\mathrm{A}=\\begin{bmatrix}\\mathrm{A}_{11}\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{A}=\\begin{bmatrix}1",
+            "after": "\\mathrm{A}=\\begin{bmatrix}1\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}.\\mathrm{Then}\\left",
+            "after": ".\\mathrm{Then}\\left"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{vmatrix}1",
+            "after": "\\begin{vmatrix}1\\end{vmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{vmatrix}=4-6=-2\\neq0",
+            "after": "=4-6=-2\\neq0"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "&{0}&{0}\\\\ {0}&{\\left|",
+            "after": "&{0}&{0}\\\\ {0}&{\\left|}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "|}&{0}\\\\ {0}&{0}&{\\left|",
+            "after": "|&{0}\\\\ {0}&{0}&{\\left|}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "|}",
+            "after": "|"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{A})",
+            "after": "\\mathrm{A}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{B}^{-1}\\mathrm{A}^{-1}=-\\frac{1}{11}\\left[\\begin{matrix}3",
+            "after": "\\mathrm{B}^{-1}\\mathrm{A}^{-1}=-\\frac{1}{11}\\left[\\begin{matrix}3\\end{matrix}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{matrix}\\right]\\left[\\begin{matrix}-4",
+            "after": "\\right\\left[\\begin{matrix}-4\\end{matrix}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{matrix}\\right]=-\\frac{1}{11}\\left[\\begin{matrix}-14",
+            "after": "\\right=-\\frac{1}{11}\\left[\\begin{matrix}-14\\end{matrix}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{matrix}\\right]=\\frac{1}{11}\\left[\\begin{matrix}14",
+            "after": "\\right=\\frac{1}{11}\\left[\\begin{matrix}14\\end{matrix}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{bmatrix}2",
+            "after": "\\begin{bmatrix}2\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}",
+            "after": ""
+        },
+        {
+            "type": "environment_close",
+            "before": " 9.$$\\begin{bmatrix}2",
+            "after": " 9.$$\\begin{bmatrix}2\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}",
+            "after": ""
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{pmatrix}\\left[\\begin{matrix}1",
+            "after": "\\begin{pmatrix}\\left[\\begin{matrix}1\\end{matrix}\\end{pmatrix}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{A}=\\begin{bmatrix}3",
+            "after": "\\mathrm{A}=\\begin{bmatrix}3\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}",
+            "after": ""
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{B}=\\begin{bmatrix}6",
+            "after": "\\mathrm{B}=\\begin{bmatrix}6\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}",
+            "after": ""
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}",
+            "after": ""
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\bar{\\mathrm{AX}}&=\\mathrm{B}\\\\\\mathrm{A}^{-1}(\\mathrm{AX})&=\\mathrm{A}^{-1}\\mathrm{B}\\\\(\\mathrm{A}^{-1}\\mathrm{A})\\mathrm{X}&=\\mathrm{A}^{-1}\\mathrm{B}\\\\\\mathrm{I}\\mathrm{X}&=\\mathrm{A}^{-1}\\mathrm{B}\\\\\\mathrm{X}&=\\mathrm{A}^{-1}\\mathrm{B}\\end{aligned}",
+            "after": "\\begin{aligned}\\bar{\\mathrm{AX}}&=\\mathrm{B}\\\\mathrm{A}^{-1}(\\mathrm{AX})&=\\mathrm{A}^{-1}\\mathrm{B}\\\\(\\mathrm{A}^{-1}\\mathrm{A})\\mathrm{X}&=\\mathrm{A}^{-1}\\mathrm{B}\\\\mathrm{I}\\mathrm{X}&=\\mathrm{A}^{-1}\\mathrm{B}\\\\mathrm{X}&=\\mathrm{A}^{-1}\\mathrm{B}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{A}^{-1})",
+            "after": "\\mathrm{A}^{-1}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\mathrm{A}_{11}=1\\text{(1+6)}=7,\\\\\\mathrm{A}_{22}=\\text{(1+2)}=-3,\\\\\\mathrm{A}_{31}=\\text{(3-1)}=2,\\\\a d j\\mathrm{~A}=\\left[\\begin{array}{ccc}7&-3&2\\\\-1&3&-3\\\\-1&3&1\\end{array}\\right]\\end{array}\\begin{array}{l}\\mathrm{A}_{13}=-1\\\\\\mathrm{A}_{23}=-\\text{(-2-1)}=3,\\\\\\mathrm{A}_{33}=\\text{(1-0)}=1\\\\\\end{array}",
+            "after": "\\begin{array}{l}\\mathrm{A}_{11}=1\\text{(1+6)}=7,\\\\mathrm{A}_{22}=\\text{(1+2)}=-3,\\\\mathrm{A}_{31}=\\text{(3-1)}=2,\\\\a d j\\mathrm{~A}=\\left[\\begin{array}{ccc}7&-3&2\\\\-1&3&-3\\\\-1&3&1\\end{array}\\right]\\end{array}\\begin{array}{l}\\mathrm{A}_{13}=-1\\\\mathrm{A}_{23}=-\\text{(-2-1)}=3,\\\\mathrm{A}_{33}=\\text{(1-0)}=1\\\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{aligned}&\\left\\{\\begin{aligned}\\frac{2}{x}+\\frac{3}{y}+\\frac{10}{z}=4\\end{aligned}\\right.\\\\ &\\left\\{\\begin{aligned}\\frac{4}{x}-\\frac{6}{y}+\\frac{5}{z}=&1\\end{aligned}\\right.\\\\ &\\left\\{\\begin{aligned}\\frac{6}{x}+\\frac{9}{y}-\\frac{20}{z}=&2\\end{aligned}\\right.\\\\ \\end{aligned}",
+            "after": "\\begin{aligned}&\\left\\{\\begin{aligned}\\frac{2}{x}+\\frac{3}{y}+\\frac{10}{z}=4\\end{aligned}\\right.\\\\ &\\left\\{\\begin{aligned}\\frac{4}{x}-\\frac{6}{y}+\\frac{5}{z}=&1\\end{aligned}\\right.\\\\ &\\left\\{\\begin{aligned}\\frac{6}{x}+\\frac{9}{y}-\\frac{20}{z}=&2\\end{aligned}\\right.\\\\ \\end{aligned}}}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "x,y,z\\mathrm{a r e}\\mathrm{n o n}\\mathrm{Z e r o}",
+            "after": "x,y,z\\mathrm{are}\\mathrm{non}\\mathrm{Zero}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\operatorname{D e t}\\left(\\mathrm{A}\\right)\\in\\left(2,\\infty\\right)",
+            "after": "\\mathrm{Det}\\left(\\mathrm{A}\\right)\\in\\left(2,\\infty\\right)"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\operatorname{D e t}(\\mathrm{A})\\in(2,4)",
+            "after": "\\mathrm{Det}(\\mathrm{A})\\in(2,4)"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\operatorname{D e t}\\left(\\mathrm{A}\\right)\\in[2,4]",
+            "after": "\\mathrm{Det}\\left(\\mathrm{A}\\right)\\in[2,4]"
+        },
+        {
+            "type": "latex_fix",
+            "before": "i^{\\mathrm{t h}}",
+            "after": "i^{\\mathrm{th}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "|\\mathrm{A}|=0\\mathrm{o r}|\\mathrm{A}|\\neq0",
+            "after": "|\\mathrm{A}|=0\\mathrm{or}|\\mathrm{A}|\\neq0"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}a_{1}x+b_{1}y+c_{1}z=d_{1}\\\\a_{2}x+b_{2}y+c_{2}z=d_{2}\\\\a_{3}x+b_{3}y+c_{3}z=d_{3}\\\\\\end{array}",
+            "after": "\\begin{array}{l}a_{1}x+b_{1}y+c_{1}z=d_{1}\\\\a_{2}x+b_{2}y+c_{2}z=d_{2}\\\\a_{3}x+b_{3}y+c_{3}z=d_{3}\\\\end{array}"
+        }
+    ],
+    "failed_equations": [
+        {
+            "equation": "ea \\begin{aligned}1.\\quad&Prove that the determinant\\begin{vmatrix}-x&\\sin\\theta&\\cos\\theta\\\\-x&-x&1\\\\\\cos\\theta&1&x\\end{vmatrix}is independent of\\;0.\\\\2.\\quad&Evaluation\\begin{vmatrix}\\cos\\alpha\\cos\\beta&\\cos\\alpha\\sin\\beta&-\\sin\\alpha\\\\-\\sin\\beta&\\cos\\beta&0\\\\\\sin\\alpha\\cos\\beta&\\sin\\alpha\\sin\\beta&\\cos\\alpha\\end{vmatrix}\\\\3.\\quad&If A^{-1}=\\begin{bmatrix}3&1&1\\\\-15&6&-5\\\\5&-2&2\\end{bmatrix}and B=\\begin{bmatrix}1&2&-2\\\\-1&3&0\\\\0&-2&1\\end{bmatrix},find(AB)^{-1}\\\\4.\\quad&Let A=\\begin{bmatrix}1&2&1\\\\2&3&1\\\\1&1&5\\end{bmatrix}.Verify that\\\\&(i)\\begin{bmatrix}adj\\\\ A\\end{bmatrix}^{-1}=adj\\begin{pmatrix}A^{-1}\\\\ -1\\\\ 0\\end{pmatrix}\\quad(ii)\\begin{pmatrix}(A^{-1})^{-1}=A\\\\ \\\\ \\\\ \\\\ &Evevalue\\begin{vmatrix}x&y&x+y\\\\y&x+y&x\\\\x+y&x&y\\end{pmatrix}\\\\&(。Levaluate\\begin{vmatrix}1&x&y\\\\1&x+y&y\\\\1&x&x+y\\end{vmatrix}\\end{aligned}",
+            "delimiter": "$$",
+            "reasons": [
+                "unbalanced \\begin/\\end environment"
+            ]
+        }
+    ],
+    "suspicious_equations": []
+}

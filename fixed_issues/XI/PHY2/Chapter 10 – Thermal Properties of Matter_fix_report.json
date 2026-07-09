@@ -1,0 +1,414 @@
+{
+    "chapter": "Chapter 10 – Thermal Properties of Matter",
+    "total_formulas": 338,
+    "repaired": 78,
+    "failed": 1,
+    "ocr_fixes": 179,
+    "latex_fixes": 78,
+    "markdown_fixes": 10,
+    "orphaned_latex_wrapped": 325,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.133,
+    "changes": [
+        {
+            "type": "latex_fix",
+            "before": "P V={\\mathrm{c o n s t a n t}}",
+            "after": "P V={\\mathrm{constant}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "V/T=\\bar{\\mathrm{c o n s t a n t}}",
+            "after": "V/T=\\bar{\\mathrm{constant}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "P V=\\mathrm{c o n s t a n t}",
+            "after": "P V=\\mathrm{constant}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "V/T=\\mathrm{c o n s t a n t}",
+            "after": "V/T=\\mathrm{constant}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{array}{l}{\\Delta I=\\alpha_{_{\\mathrm{I}}}I\\Delta T}\\\\ {\\mathrm{S}0,\\Delta V=(I/\\Delta I/^{3}-I/^{3}\\simeq3I/\\Delta I}\\end{array}",
+            "after": "\\begin{array}{l}{\\Delta I=\\alpha_{_{\\mathrm{I}}}I\\Delta T}\\\\ {\\mathrm{S}0,\\Delta V=(I/\\Delta I/^{3}-I/^{3}\\simeq3I/\\Delta I}\\end{array})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "a\\Delta T+(",
+            "after": "a\\Delta T+()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "a b\\Delta T(2+",
+            "after": "a b\\Delta T(2+)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " T)=",
+            "after": " T="
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "A\\Delta T(2+",
+            "after": "A\\Delta T(2+)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " T)",
+            "after": " T"
+        },
+        {
+            "type": "brace_fix",
+            "before": ", from Table 10.1, the product $$\\alpha_{\\mathrm{{_1}}}",
+            "after": ", from Table 10.1, the product $$\\alpha_{\\mathrm{_1}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "5.243\\;m=5.231\\;m\\;[1+1.20\\;10^{-5}\\;K^{-1}\\;(T_{2}-27\\;",
+            "after": "5.243\\;m=5.231\\;m\\;[1+1.20\\;10^{-5}\\;K^{-1}\\;(T_{2}-27\\;])"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "C)]",
+            "after": "C"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left(m",
+            "after": "\\left(m)"
+        },
+        {
+            "type": "latex_fix",
+            "before": " L Initial temperature of aluminium:$$\\mathrm{s p h e r e}=100",
+            "after": " L Initial temperature of aluminium:$$\\mathrm{sphere}=100"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{2}\\right)=0.25",
+            "after": "_{2}\\right=0.25"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{\\mathrm{3}}\\right)=0.14",
+            "after": "_{\\mathrm{3}}\\right=0.14"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{k g}",
+            "after": "\\mathrm{kg}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "{",
+            "after": "{}"
+        },
+        {
+            "type": "script_fix",
+            "before": "}=23~{^",
+            "after": "=23~{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}",
+            "after": ""
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{c a l o r i m e t e r}=",
+            "after": "\\mathrm{calorimeter}="
+        },
+        {
+            "type": "latex_fix",
+            "before": "_{_\\mathrm{c u}}\\Delta",
+            "after": "_{_\\mathrm{cu}}\\Delta"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{_\\mathrm{c u}}\\right)\\left(\\Delta",
+            "after": "_{_\\mathrm{cu}}\\right\\left(\\Delta)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{_2}\\right)",
+            "after": "_{_2}\\right"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\quad=\\left(0.25\\mathrm{k g}\\times4.18\\times10^{3}\\mathrm{J}\\mathrm{k g}^{-1}\\mathrm{K}^{-1}+0.14\\mathrm{k g}\\times\\right",
+            "after": "\\quad=\\left(0.25\\mathrm{kg}\\times4.18\\times10^{3}\\mathrm{J}\\mathrm{kg}^{-1}\\mathrm{K}^{-1}+0.14\\mathrm{kg}\\times\\right)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\quad0.386\\times10^{3}\\mathrm{J}\\mathrm{k g}^{-1}\\mathrm{K}^{-1})\\left(23^{\\circ}\\mathrm{C}-20^{\\circ}\\mathrm{C}\\right)",
+            "after": "\\quad0.386\\times10^{3}\\mathrm{J}\\mathrm{kg}^{-1}\\mathrm{K}^{-1}\\left(23^{\\circ}\\mathrm{C}-20^{\\circ}\\mathrm{C}\\right)"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{array}",
+            "after": ""
+        },
+        {
+            "type": "latex_fix",
+            "before": "$\\begin{array}{r l}$&{$\\mathrm{c a l o r i m e t e r}=$m_{_2}s$_{_\\mathrm{w}}\\Delta$ T_{_2}+m_{_3}s$_{_\\mathrm{c u}}\\Delta$ T_{_2}}\\\\ &{\\quad=\\left(m_{_2}s$_{_\\mathrm{w}}+$m_{_3}s$_{_\\mathrm{c u}}\\right)\\left(\\Delta$ T$_{_2}\\right)$}\\\\ &{$\\quad=\\left(0.25\\mathrm{k g}\\times4.18\\times10^{3}\\mathrm{J}\\mathrm{k g}^{-1}\\mathrm{K}^{-1}+0.14\\mathrm{k g}\\times\\right$.}\\\\ &{$\\quad0.386\\times10^{3}\\mathrm{J}\\mathrm{k g}^{-1}\\mathrm{K}^{-1})\\left(23^{\\circ}\\mathrm{C}-20^{\\circ}\\mathrm{C}\\right)$}$\\end{array}",
+            "after": "$\\begin{array}{r l}$&{$\\mathrm{calorimeter}=$m_{_2}s$_{_\\mathrm{w}}\\Delta$ T_{_2}+m_{_3}s$_{_\\mathrm{cu}}\\Delta$ T_{_2}}\\\\ &{\\quad=\\left(m_{_2}s$_{_\\mathrm{w}}+$m_{_3}s$_{_\\mathrm{cu}}\\right)\\left(\\Delta$ T$_{_2}\\right)$}\\\\ &{$\\quad=\\left(0.25\\mathrm{kg}\\times4.18\\times10^{3}\\mathrm{J}\\mathrm{kg}^{-1}\\mathrm{K}^{-1}+0.14\\mathrm{kg}\\times\\right$.}\\\\ &{$\\quad0.386\\times10^{3}\\mathrm{J}\\mathrm{kg}^{-1}\\mathrm{K}^{-1})\\left(23^{\\circ}\\mathrm{C}-20^{\\circ}\\mathrm{C}\\right)$}$\\end{array}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\times10^3\\mathrm{J}\\mathrm{kg}^{-1}\\mathrm{K}^{-1})(3\\mathrm{^{\\circ}C})",
+            "after": "\\times10^3\\mathrm{J}\\mathrm{kg}^{-1}\\mathrm{K}^{-1}(3\\mathrm{^{\\circ}C})"
+        },
+        {
+            "type": "latex_fix",
+            "before": " diagram. The following figure shows the phase diagram of water and $$\\mathrm{C O}_{2}",
+            "after": " diagram. The following figure shows the phase diagram of water and $$\\mathrm{CO}_{2}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "$\\begin{array}{r l}$&{Q=m L}\\\\ {$\\mathrm{o r}$}&{L=Q/m}$\\end{array}",
+            "after": "$\\begin{array}{r l}$&{Q=m L}\\\\ {$\\mathrm{or}$}&{L=Q/m}$\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "&{=\\left(0.30\\;",
+            "after": "&{=\\left(0.30\\;})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\\\ &{=54376.14\\;",
+            "after": "\\\\ &{=54376.14\\;}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}",
+            "after": ""
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{i c e}=",
+            "after": "\\mathrm{ice}="
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{\\mathrm{f}}=(0.15",
+            "after": "_{\\mathrm{f}}=(0.15)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{k g})",
+            "after": "\\mathrm{kg}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{=(}0.15",
+            "after": "\\mathrm{=(}0.15)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{kg)\\;(}4186",
+            "after": "\\mathrm{kg\\;(}4186)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{J\\;kg^{-1}\\;K\\;^{-1})\\;(}6.7",
+            "after": "\\mathrm{J\\;kg^{-1}\\;K\\;^{-1}\\;(}6.7)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\circ}\\mathrm{C)}",
+            "after": "^{\\circ}\\mathrm{C}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{(}54376.14",
+            "after": "\\mathrm{(}54376.14)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{J=(}0.15",
+            "after": "\\mathrm{J=(}0.15)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{kg)\\;}",
+            "after": "\\mathrm{kg\\;}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "_{\\mathrm{f i c e}}",
+            "after": "_{\\mathrm{fice}}"
+        },
+        {
+            "type": "environment_close",
+            "before": " heat required to convert water at 100 C to steam at 100 C.\nmL steam (3kg)(2.256×106J kg−1)\nSo,$$\\begin{array}{r l r}{Q}",
+            "after": " heat required to convert water at 100 C to steam at 100 C.\nmL steam (3kg)(2.256×106J kg−1)\nSo,$$\\begin{array}{r l r}{Q}\\end{array}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{array}",
+            "after": ""
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{\\mathrm{p}})",
+            "after": "_{\\mathrm{p}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{\\mathrm{p}})",
+            "after": "_{\\mathrm{p}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{r o d}=10.0$ cm, temperature of the ",
+            "after": "\\mathrm{rod}=10.0$ cm, temperature of the "
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{J~s^{-1}m^{-1}K^{-1})}",
+            "after": "\\mathrm{J~s^{-1}m^{-1}K^{-1}}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "$\\begin{aligned}$H$^{\\prime}=$&$\\frac{K^{\\prime}A\\ \\left(T_{1}-T_{2}\\right)}{2\\ L}=$H\\\\\\left\\{$\\begin{aligned}$K$^{\\prime}=$&$\\frac{2\\ K_{1}\\ K_{2}}{K_{1}+K_{2}}$\\$\\T_{0}$\\ =&$\\frac{\\left(K_{1}T_{1}+K_{2}T_{2}\\right)}{\\left(K_{1}+K_{2}\\right)}$\\\\$\\end{aligned}\\right$.\\\\\\left\\{$\\begin{aligned}\\left(\\mathbf{i}\\right)^{\\prime}$T_{0}\\ =&$\\frac{\\left(79\\operatorname{W}\\operatorname{m}^{-1}\\operatorname{K}^{-1}\\right)\\left(373\\operatorname{K}\\right)+\\left(109\\operatorname{W}\\operatorname{m}^{-1}\\operatorname{K}^{-1}\\right)\\left(273\\operatorname{K}\\right)}{79\\operatorname{W}\\operatorname{m}^{-1}\\operatorname{K}^{-1}+109\\operatorname{W}\\operatorname{m}^{-1}\\operatorname{K}^{-1}}$\\\\$\\end{aligned}\\right$.\\\\=&315$\\operatorname{K}$\\\\\\left\\{$\\begin{aligned}\\left(\\mathbf{ii}\\right)^{\\prime}$K$^{\\prime}=$&$\\frac{2K_{1}\\ K_{2}}{K_{1}+K_{2}}$\\\\$\\end{aligned}\\right$.\\\\=&$\\frac{2\\times\\left(79\\operatorname{W}\\operatorname{m}^{-1}\\operatorname{K}^{-1}\\right)\\times\\left(109\\operatorname{W}\\operatorname{m}^{-1}\\operatorname{K}^{-1}\\right)}{79\\operatorname{W}\\operatorname{m}^{-1}\\operatorname{K}^{-1}+109\\operatorname{W}\\operatorname{m}^{-1}\\operatorname{K}^{-1}}$\\\\=&91.6$\\operatorname{W}\\operatorname{m}^{-1}\\operatorname{K}^{-1}\\end{aligned}",
+            "after": "$\\begin{aligned}$H$^{\\prime}=$&$\\frac{K^{\\prime}A\\ \\left(T_{1}-T_{2}\\right)}{2\\ L}=$H\\\\left\\{$\\begin{aligned}$K$^{\\prime}=$&$\\frac{2\\ K_{1}\\ K_{2}}{K_{1}+K_{2}}$\\$\\T_{0}$\\ =&$\\frac{\\left(K_{1}T_{1}+K_{2}T_{2}\\right)}{\\left(K_{1}+K_{2}\\right)}$\\\\$\\end{aligned}\\right$.\\\\left\\{$\\begin{aligned}\\left(\\mathbf{i}\\right)^{\\prime}$T_{0}\\ =&$\\frac{\\left(79\\mathrm{W}\\mathrm{m}^{-1}\\mathrm{K}^{-1}\\right)\\left(373\\mathrm{K}\\right)+\\left(109\\mathrm{W}\\mathrm{m}^{-1}\\mathrm{K}^{-1}\\right)\\left(273\\mathrm{K}\\right)}{79\\mathrm{W}\\mathrm{m}^{-1}\\mathrm{K}^{-1}+109\\mathrm{W}\\mathrm{m}^{-1}\\mathrm{K}^{-1}}$\\\\$\\end{aligned}\\right$.\\\\=&315$\\mathrm{K}$\\\\left\\{$\\begin{aligned}\\left(\\mathbf{ii}\\right)^{\\prime}$K$^{\\prime}=$&$\\frac{2K_{1}\\ K_{2}}{K_{1}+K_{2}}$\\\\$\\end{aligned}\\right$.\\\\=&$\\frac{2\\times\\left(79\\mathrm{W}\\mathrm{m}^{-1}\\mathrm{K}^{-1}\\right)\\times\\left(109\\mathrm{W}\\mathrm{m}^{-1}\\mathrm{K}^{-1}\\right)}{79\\mathrm{W}\\mathrm{m}^{-1}\\mathrm{K}^{-1}+109\\mathrm{W}\\mathrm{m}^{-1}\\mathrm{K}^{-1}}$\\\\=&91.6$\\mathrm{W}\\mathrm{m}^{-1}\\mathrm{K}^{-1}\\end{aligned}}}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "k\\left(T_{2}-T",
+            "after": "k\\left(T_{2}-T)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " |[or ",
+            "after": " |[or ]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{n}(",
+            "after": "\\mathrm{n}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "K(70",
+            "after": "K(70)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\;=K(50",
+            "after": "\\;=K(50)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{\\mathrm{F}}=(9",
+            "after": "_{\\mathrm{F}}=(9)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{\\mathrm{c}})",
+            "after": "_{\\mathrm{c}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "(",
+            "after": "()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\alpha_{\\mathrm{v}})",
+            "after": "\\alpha_{\\mathrm{v}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "(L",
+            "after": "(L)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{H=K\\;A\\frac{T_{_C}-T_{_D}}{L}\\right.",
+            "after": "\\left\\{H=K\\;A\\frac{T_{_C}-T_{_D}}{L}\\right.}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "[\\mathrm{M L}^{2}\\mathrm{~T~}^{-2}]",
+            "after": "[\\mathrm{ML}^{2}\\mathrm{~T~}^{-2}]"
+        },
+        {
+            "type": "latex_fix",
+            "before": "1.250\\times10^{5}\\mathrm{P a}",
+            "after": "1.250\\times10^{5}\\mathrm{Pa}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "0.200\\times10^{5}\\mathrm{{P a}}",
+            "after": "0.200\\times10^{5}\\mathrm{Pa}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "1.797\\times10^{5}\\mathrm{P a}",
+            "after": "1.797\\times10^{5}\\mathrm{Pa}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "0.287\\times10^{5}\\mathrm{P a}",
+            "after": "0.287\\times10^{5}\\mathrm{Pa}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{s t e e l}=1.20\\times10^{-5}\\mathrm{K^{-1}}",
+            "after": "\\mathrm{steel}=1.20\\times10^{-5}\\mathrm{K^{-1}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{A t}27^{\\circ}\\mathrm{C}",
+            "after": "\\mathrm{At}27^{\\circ}\\mathrm{C}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\alpha_{\\mathrm{s t e c l}}=1.20\\times10^{-5}\\mathrm{K^{-1}}",
+            "after": "\\alpha_{\\mathrm{stecl}}=1.20\\times10^{-5}\\mathrm{K^{-1}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{i b r a s s}=0.91\\times10^{11}\\mathrm{P a}",
+            "after": "\\mathrm{ibrass}=0.91\\times10^{11}\\mathrm{Pa}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\widetilde{\\mathrm{c o p p e r}}\\quad=\\quad0.39\\quad\\mathrm{J}\\quad\\mathrm{g}^{-1}\\quad\\mathrm{K}^{-1}",
+            "after": "\\widetilde{\\mathrm{copper}}\\quad=\\quad0.39\\quad\\mathrm{J}\\quad\\mathrm{g}^{-1}\\quad\\mathrm{K}^{-1}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "=335\\;\\mathrm{J}\\;\\mathrm{g}^{-1})",
+            "after": "=335\\;\\mathrm{J}\\;\\mathrm{g}^{-1}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " . [Heat of fusion of ",
+            "after": " . [Heat of fusion of ]"
+        }
+    ],
+    "failed_equations": [
+        {
+            "equation": "$\\mathrm{So}$,H=H$_{1}=\\stackrel{\\mathrm{z}}{H}_{2}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}$}{$\\mathrm{z}_{\\mathrm{z}}$}$_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}_{\\mathrm{z}}=\\frac{\\mathrm{z}}{\\mathrm{z}}_{\\mathrm{z}}_{\\mathrm{z}}$}==$\\frac{\\mathrm{z}}{\\mathrm{z}}_{z}_{\\mathrm{z}}=\\frac{z}{\\mathrm{z}}_{\\mathrm{z}}_{\\mathrm{z}}==\\frac{z}$}{$\\mathrm{z}_{z}$}$_{\\mathrm{z}}==\\frac{\\mathrm{z}}_{z}=\\frac{\\mathrm{z}}{z}_{z}_{\\mathrm{z}}==\\frac{z}$}{$\\mathrm{z}_{z}$}$_{\\mathrm{z}}==\\frac{z}_{z}=\\frac{\\mathrm{z}}_{z}=\\mathrm{z}_{z}$}=$\\frac{z}{z}_{z}=\\frac{z}{\\mathrm{z}_{z}}_{\\mathrm{z}}==\\frac{z}_{z}=\\mathrm{z}_{z}$}=$\\frac{z}_{z}=\\frac{z}{z}_{z}_{\\mathrm{z}}==\\frac{z}_{z}=\\frac{z}{z}_{z}==\\frac{z}_{z}=\\frac{z}{z}_{z}_{z}==\\frac{z}_{z}=\\mathrm{z}$}$_{z}==\\frac{z}_{z}=\\frac{z}_{z}=\\frac{z}{z}_{z}_{z}==\\frac{z}_{z}=\\frac{z}_{z}=\\frac{z}_{z}==\\frac{z}{z}_{z}_{z}==\\frac{z}_{z}=\\frac{z}_{z}==\\frac{z}\\frac{z}{z}_{z}_{z}_{z}===\\frac{z}_{z}=\\frac{z}_{z}==\\frac{z}_{z}=\\frac{z}_{z}=\\frac{z}_{z}==\\frac{z}_{z}=\\frac{z}_{z}==\\frac{z}_{z}=\\frac{z}_{z}_{z}==\\frac{z}_{z}==\\frac{z}\\frac{z}_{z}_{z}==\\frac{z}_{z}_{z}==\\frac{z}=\\frac{z}_{z}_{z}==\\frac{z}_{z}==\\frac{z}_{z}=\\frac{z}_{z}_{z}==\\frac{z}_{z}=\\frac{z}_{z}==\\frac{z}_{z}=\\frac{z}_{z}_{z}==\\frac{z}_{z}_{z}===\\frac{z}_{z}=\\frac{z}_{z}_{z}===\\frac{z}_{z}=\\frac{z}_{z}=\\frac{z}_{z}=\\frac{z}_{z}_{z}===\\frac{z}_{z}_{z}==\\frac{z}_{z}=\\frac{z}_{z}_{z}==\\frac{z}_{z}==\\frac{z}_{z}_{z}==\\frac{z}_{z}=\\frac{z}_{z}_{z}==\\frac{z}_{z}==\\frac{z}_{z}_{z}_{z}==\\frac{z}_{z}=\\frac{z}_{z}==\\frac{z}_{z}_{z}_{z}==\\frac{z}_{z}=\\frac{z}_{z}_{z}==\\frac{z}_{z}_{z}==\\frac{z}_{z}==\\frac{z}_{z}_{z}_{z}==\\frac{z}_{z}_{z}_{z}==\\frac{z}_{z}_{z}=\\frac{z}_{z}===\\frac{z}_{z}_{z}_{z}==\\frac{z}_{z}=\\frac{z}_{z}_{z}_{z}==\\frac{z}\\frac{z}_{z}_{z}==\\frac{z}_{z}_{z}==\\frac{z}\\frac{z}_{z}_{z}==\\frac{z}_{z}=\\frac{z}=\\frac{z}_{z}=\\frac{z}_{z}_{z}",
+            "delimiter": "$$",
+            "reasons": [
+                "double subscript ('x_a_b')"
+            ]
+        }
+    ],
+    "suspicious_equations": []
+}

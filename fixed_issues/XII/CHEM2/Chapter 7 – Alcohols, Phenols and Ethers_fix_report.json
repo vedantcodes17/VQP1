@@ -1,0 +1,1022 @@
+{
+    "chapter": "Chapter 7 – Alcohols, Phenols and Ethers",
+    "total_formulas": 471,
+    "repaired": 301,
+    "failed": 0,
+    "ocr_fixes": 171,
+    "latex_fixes": 301,
+    "markdown_fixes": 5,
+    "orphaned_latex_wrapped": 684,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.59,
+    "changes": [
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{CH_2OH}\\\\\\mathrm{C_2H_5OH}\\\\\\mathrm{CH_2OH}\\\\\\end{array}\\quad\\begin{array}{c}\\mathrm{CH_2OH}\\\\\\mathrm{CHOH}\\\\\\mathrm{CH_2OH}\\\\\\mathrm{Dihjdrc}\\\\\\end{array}\\quad\\begin{array}{c}\\mathrm{CH_2OH}\\\\\\mathrm{CHOH}\\\\\\mathrm{CH_2OH}\\\\\\mathrm{Trhdfc}\\\\\\mathrm{Trhdfc}\\\\\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{CH_2OH}\\\\mathrm{C_2H_5OH}\\\\mathrm{CH_2OH}\\\\end{array}\\quad\\begin{array}{c}\\mathrm{CH_2OH}\\\\mathrm{CHOH}\\\\mathrm{CH_2OH}\\\\mathrm{Dihjdrc}\\\\end{array}\\quad\\begin{array}{c}\\mathrm{CH_2OH}\\\\mathrm{CHOH}\\\\mathrm{CH_2OH}\\\\mathrm{Trhdfc}\\\\mathrm{Trhdfc}\\\\end{array}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{ccc}\\uparrow",
+            "after": "\\begin{array}{ccc}\\uparrow\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\\\\\mid\\\\",
+            "after": "\\\\mid\\\\"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{CH_{3}-CH-CH_{3}}$\\\\\\mid\\\\$\\mathrm{OH}\\end{array}$</td><td>Methyl alcohol</td><td>Methanol Propan-1-ol</td></tr><tr><td>n-Propyl alcohol</td><td></td></tr><tr><td>Isopropyl alcohol</td><td>Propan-2-ol</td></tr><tr><td></td><td></td></tr><tr><td>n-Butyl alcohol sec-Butyl alcohol</td><td>Butan-1-ol Butan-2-ol</td></tr><tr><td></td><td></td></tr><tr><td rowspan=\"4\">3 ( OH OH oere ",
+            "after": "\\begin{array}{c}\\mathrm{CH_{3}-CH-CH_{3}}$\\\\mid\\\\$\\mathrm{OH}\\end{array}$</td><td>Methyl alcohol</td><td>Methanol Propan-1-ol</td></tr><tr><td>n-Propyl alcohol</td><td></td></tr><tr><td>Isopropyl alcohol</td><td>Propan-2-ol</td></tr><tr><td></td><td></td></tr><tr><td>n-Butyl alcohol sec-Butyl alcohol</td><td>Butan-1-ol Butan-2-ol</td></tr><tr><td></td><td></td></tr><tr><td rowspan=\"4\">3 ( OH OH oere )"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{CH_{3}-CH-CH_{2}-OH}$\\\\\\mid\\\\$\\mathrm{CH_{3}}\\end{array}$ ",
+            "after": "\\begin{array}{c}\\mathrm{CH_{3}-CH-CH_{2}-OH}$\\\\mid\\\\$\\mathrm{CH_{3}}\\end{array}$ "
+        },
+        {
+            "type": "script_fix",
+            "before": "sp^{^3}",
+            "after": "sp^{3}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{c}\\mathrm{CH_{3}\\bar{-}CH{=}CH_{2}\\ +\\ (H\\bar{-}BH_{2})_{2}\\xrightarrow{\\quad}CH_{3}\\bar{-}CH\\bar{-}CH_{2}}",
+            "after": "\\begin{array}{c}\\mathrm{CH_{3}\\bar{-}CH{=}CH_{2}\\ +\\ (H\\bar{-}BH_{2})_{2}\\xrightarrow{\\quad}CH_{3}\\bar{-}CH\\bar{-}CH_{2}}\\end{array}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{Propan-1-ol}\\end{array}\\begin{array}{c}\\mathrm{CH_{3}\\bar{-}CH\\bar{-}CH_{2}}",
+            "after": "\\mathrm{Propan-1-ol}\\begin{array}{c}\\mathrm{CH_{3}\\bar{-}CH\\bar{-}CH_{2}}\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{L i A l H}_{4})",
+            "after": "\\mathrm{LiAlH}_{4}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "&\\overset{",
+            "after": "&\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{\\overset{",
+            "after": "{\\overset{}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{\\overset{",
+            "after": "{\\overset{}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{\\overset{",
+            "after": "{\\overset{}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{\\longrightarrow}{",
+            "after": "{\\longrightarrow}{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{\\longrightarrow}{",
+            "after": "{\\longrightarrow}{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{c}\\mathrm{CH_{3}-CH_{2}-CH_{2}-CH_{2}-OH}",
+            "after": "\\begin{array}{c}\\mathrm{CH_{3}-CH_{2}-CH_{2}-CH_{2}-OH}\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\underset{}{}{}{}{}{}{}\\underset{}{}{}\\underset{}{}{}{}{}{}{\\underset}{}{}{\\underset",
+            "after": "\\underset{}{}{}{}{}{}{}\\underset{}{}{}\\underset{}{}{}{}{}{}{\\underset}{}{}{\\underset}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{c}",
+            "after": "\\begin{array}{c}\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{CH_{3}-CH_{2}-CH_{2}-\\overset{\\circ}{O}:^{-}H\\sim} )",
+            "after": "\\mathrm{CH_{3}-CH_{2}-CH_{2}-\\overset{\\circ}{O}:^{-}H\\sim} "
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{c}2",
+            "after": "\\begin{array}{c}2\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\xrightarrow{\\quad}2\\left(",
+            "after": "\\xrightarrow{\\quad}2\\left()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\underset{CH_3}{\\overset{CH_3}{\\overset{C}{\\underset{H}{\\overset{C}{\\underset{H}{\\overset{C}{\\underset{H}{\\overset{C}{\\underset{H}{\\cdot}}}}}}}}}}\\right)",
+            "after": "\\underset{CH_3}{\\overset{CH_3}{\\overset{C}{\\underset{H}{\\overset{C}{\\underset{H}{\\overset{C}{\\underset{H}{\\overset{C}{\\underset{H}{\\cdot}}}}}}}}}}\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathit{tert-\\_Butyl\\_alcohold}\\quad\\underset{\\mathit{tert-\\_butoxide}}{\\quad}\\end{array}",
+            "after": "\\mathit{tert-_Butyl_alcohold}\\quad\\underset{\\mathit{tert-_butoxide}}{\\quad}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\overset{",
+            "after": "\\overset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{\\overset{",
+            "after": "{\\overset{}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{\\overset{",
+            "after": "{\\overset{}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{\\overset{",
+            "after": "{\\overset{}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{\\overset{",
+            "after": "{\\overset{}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{\\overset{\\longrightarrow}{",
+            "after": "{\\overset{\\longrightarrow}{}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{\\overset{",
+            "after": "{\\overset{}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{\\overset{\\longrightarrow}{\\longrightarrow}{",
+            "after": "{\\overset{\\longrightarrow}{\\longrightarrow}{}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{\\longrightarrow}{",
+            "after": "{\\longrightarrow}{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{\\overset{\\longrightarrow}{\\longrightarrow}{\\longrightarrow}{",
+            "after": "{\\overset{\\longrightarrow}{\\longrightarrow}{\\longrightarrow}{}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{\\overset{\\longrightarrow}{",
+            "after": "{\\overset{\\longrightarrow}{}}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{c}\\mathrm{H}",
+            "after": "\\begin{array}{c}\\mathrm{H}\\end{array}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{H}\\end{array}\\begin{array}{c}\\mathrm{H}",
+            "after": "\\mathrm{H}\\begin{array}{c}\\mathrm{H}\\end{array}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{H}\\end{array}\\xlongequal{\\quad}\\begin{array}{c}\\mathrm{H}",
+            "after": "\\mathrm{H}\\xlongequal{\\quad}\\begin{array}{c}\\mathrm{H}\\end{array}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{H}\\end{array}\\mathrm{C}=\\mathrm{C}^{\\prime}",
+            "after": "\\mathrm{H}\\mathrm{C}=\\mathrm{C}^{\\prime}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{r l}",
+            "after": "\\begin{array}{r l}\\end{array}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{H}\\xrightarrow[\\mathrm{R C H_{2}O H}]{\\mathrm{H}}\\xrightarrow[\\mathrm{O}]{\\mathrm{O H}}",
+            "after": "\\mathrm{H}\\xrightarrow[\\mathrm{R C H_{2}O H}]{\\mathrm{H}}\\xrightarrow[\\mathrm{O}]{\\mathrm{OH}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{R}\\xrightarrow[\\mathrm{C}]{\\mathrm{I}}\\xrightarrow[\\mathrm{C}]{\\mathrm{I}}\\xrightarrow[\\mathrm{R}]{\\mathrm{O H}}\\xrightarrow[\\mathrm{C}]{\\mathrm{I}}\\xrightarrow[\\mathrm{C}]{\\mathrm{I}}",
+            "after": "\\mathrm{R}\\xrightarrow[\\mathrm{C}]{\\mathrm{I}}\\xrightarrow[\\mathrm{C}]{\\mathrm{I}}\\xrightarrow[\\mathrm{R}]{\\mathrm{OH}}\\xrightarrow[\\mathrm{C}]{\\mathrm{I}}\\xrightarrow[\\mathrm{C}]{\\mathrm{I}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{A l d e h y d e}\\quad\\mathrm{C a r b o x y l i c}",
+            "after": "\\mathrm{Aldehyde}\\quad\\mathrm{Carboxylic}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{a c i d}",
+            "after": "\\mathrm{acid}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{c}",
+            "after": "\\begin{array}{c}\\end{array}"
+        },
+        {
+            "type": "latex_fix",
+            "before": " (b) HBr and (c)$$\\mathrm{S O C l}_{2}",
+            "after": " (b) HBr and (c)$$\\mathrm{SOCl}_{2}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": [
+        {
+            "equation": "$\\begin{array}{c}7.10$\\ $\\mathrm{CH_{3}-CH_{2}-\\underset{1}{\\overset{\\mathrm{H-CH-CH-CH_{3}}}{\\longrightarrow}}\\overset{Na}{\\longrightarrow}CH_{3}-CH_{2}-CH-CH-ONa}$\\\\$\\mathrm{CH_{3}\\quad OH}$\\\\$\\mathrm{CH_{2}H_{3}OH}\\xrightarrow{\\mathrm{HBr}}\\mathrm{C_{2}H_{3}Br}$\\\\$\\mathrm{CH_{3}-CH_{2}-CH-ONa\\quad+C_{2}H_{3}Br}\\xrightarrow{\\quad}\\mathrm{CH_{3}-CH_{2}-CH-CH-OC_{2}H_{3}}$\\\\$\\mathrm{\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad CH_{3}-CH_{2}-CH_{2}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{3}-CH_{2}-CH_{3}-CH_{3}-CH_{2}-CH_{3}-CH_{2}-CH_{2}-CH_{3}-CH_{2}-CH_{2}-CH_{2}-CH_{2}-CH_{2}-CH_{2}-CH_{2}-CH_{2}-CH_{2}-CH_{22}-CH_{2}-CH_{2}-CH_{2}-CH_{22}-CH_{2}-CH_{2}-CH_{2}-CH_{22}-CH_{2}-CH_{2}-CH_{22}-CH_{2}-CH_{222}-CH_{22}-CH_{22}-CH_{2}-CH_{22222}-CH_{2}-CH_{222222}-CH_{222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222}\\end{array}}",
+            "delimiter": "$$",
+            "reason": "adjacent scripts were merged after removing an OCR-inserted \\phantom - digits are preserved but the split point was a guess; needs manual review"
+        }
+    ]
+}

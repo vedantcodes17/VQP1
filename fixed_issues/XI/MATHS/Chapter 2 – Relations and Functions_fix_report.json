@@ -1,0 +1,266 @@
+{
+    "chapter": "Chapter 2 – Relations and Functions",
+    "total_formulas": 299,
+    "repaired": 50,
+    "failed": 0,
+    "ocr_fixes": 126,
+    "latex_fixes": 50,
+    "markdown_fixes": 11,
+    "orphaned_latex_wrapped": 170,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.121,
+    "changes": [
+        {
+            "type": "latex_fix",
+            "before": "(\\mathrm{D L},03),(\\mathrm{M P},01)",
+            "after": "(\\mathrm{DL},03),(\\mathrm{MP},01)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{A}\\times\\mathrm{B}=\\{(\\mathrm{DL},01)",
+            "after": "\\mathrm{A}\\times\\mathrm{B}=\\{(\\mathrm{DL},01)}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "(\\mathrm{M P},01),(\\mathrm{M P},02)",
+            "after": "(\\mathrm{MP},01),(\\mathrm{MP},02)"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\mathrm{B}=\\{b_{1},b_{2},b_{3},b_{4}\\},(\\mathrm{Fig}2.3).\\\\\\mathrm{A}\\times\\mathrm{B}=\\{(a_{1},b_{1}),(a_{1},b_{2}),(a_{1},b_{3}),(a_{1},b_{4}),(a_{2},b_{1}),(a_{2},b_{2}),\\\\\\quad(a_{2},b_{3}),(a_{2},b_{4})\\}.\\end{array}",
+            "after": "\\begin{array}{l}\\mathrm{B}=\\{b_{1},b_{2},b_{3},b_{4}\\},(\\mathrm{Fig}2.3).\\\\mathrm{A}\\times\\mathrm{B}=\\{(a_{1},b_{1}),(a_{1},b_{2}),(a_{1},b_{3}),(a_{1},b_{4}),(a_{2},b_{1}),(a_{2},b_{2}),\\\\quad(a_{2},b_{3}),(a_{2},b_{4})\\}.\\end{array}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\operatorname{A}\\times\\operatorname{B}.",
+            "after": "\\mathrm{A}\\times\\mathrm{B}."
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{P}\\times\\mathrm{Q}_{\\cdot}\\mathrm{a n d}\\mathrm{Q}\\times\\mathrm{P}",
+            "after": "\\mathrm{P}\\times\\mathrm{Q}_{\\cdot}\\mathrm{and}\\mathrm{Q}\\times\\mathrm{P}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\mathrm{A}\\times(\\mathrm{B}\\cap\\overline{\\mathrm{C}})\\\\\\mathrm{A}\\times(\\mathrm{B}\\cup\\mathrm{C})\\end{array}",
+            "after": "\\begin{array}{l}\\mathrm{A}\\times(\\mathrm{B}\\cap\\overline{\\mathrm{C}})\\\\mathrm{A}\\times(\\mathrm{B}\\cup\\mathrm{C})\\end{array}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "(\\operatorname{A}\\times\\operatorname{B})\\cup(\\operatorname{A}\\times\\operatorname{C})",
+            "after": "(\\mathrm{A}\\times\\mathrm{B})\\cup(\\mathrm{A}\\times\\mathrm{C})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{array}{l}\\mathrm{A}\\times(\\mathrm{B}\\cup\\mathrm{C})=\\{(1,3),(1,4),(1,5),(1,6),(2,3),(2,4),(2,5),(2,6),(3,3),\\\\ \\{(3,4),(3,5),(3,6)\\}.\\end{array}",
+            "after": "\\begin{array}{l}\\mathrm{A}\\times(\\mathrm{B}\\cup\\mathrm{C})=\\{(1,3),(1,4),(1,5),(1,6),(2,3),(2,4),(2,5),(2,6),(3,3),\\\\ \\{(3,4),(3,5),(3,6)\\}.\\end{array}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "(\\mathrm{A}\\times\\mathrm{B})\\cup(\\mathrm{A}\\times\\mathrm{C})=\\{(1,3),(1,4),(1,5),(1,6),(2,3),(2,4),(2,5),(2,6),",
+            "after": "(\\mathrm{A}\\times\\mathrm{B})\\cup(\\mathrm{A}\\times\\mathrm{C})=\\{(1,3),(1,4),(1,5),(1,6),(2,3),(2,4),(2,5),(2,6),}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{P}\\times\\mathrm{P}\\times\\mathrm{P}=\\{(1,1,1)",
+            "after": "\\mathrm{P}\\times\\mathrm{P}\\times\\mathrm{P}=\\{(1,1,1)}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\mathrm{A}=\\mathrm{set of first elements}=\\{p,m\\}\\\\\\mathrm{B}=\\mathrm{set of second elements}=\\{q,r\\}\\end{array}",
+            "after": "\\begin{array}{l}\\mathrm{A}=\\mathrm{set of first elements}=\\{p,m\\}\\\\mathrm{B}=\\mathrm{set of second elements}=\\{q,r\\}\\end{array}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "x\\in\\mathrm{A}\\mathrm{a n d}y\\in\\mathrm{B}",
+            "after": "x\\in\\mathrm{A}\\mathrm{and}y\\in\\mathrm{B}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "z\\;{\\mathrm{a r e}}",
+            "after": "z\\;{\\mathrm{are}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{Q}=\\{\\mathrm{Ali}",
+            "after": "\\mathrm{Q}=\\{\\mathrm{Ali}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "(a,\\mathrm{B i n o y}),...,(c,\\mathrm{D i v y a})\\}",
+            "after": "(a,\\mathrm{Binoy}),...,(c,\\mathrm{Divya})\\"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathbb{R}=\\left\\{(x,y)\\right.",
+            "after": "\\mathbb{R}=\\left\\{(x,y)\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x\\in\\mathrm{P},y\\in\\mathrm{Q}\\}",
+            "after": "x\\in\\mathrm{P},y\\in\\mathrm{Q}\\"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "(c,{\\mathrm{C h a n d r a}})\\}",
+            "after": "(c,{\\mathrm{Chandra}})\\"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathbb{R}=\\{(x,y):x",
+            "after": "\\mathbb{R}=\\{(x,y):x}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathbb{R}=\\{(9,3)",
+            "after": "\\mathbb{R}=\\{(9,3)}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathbb{R}=\\{(x,y):3x-y=0",
+            "after": "\\mathbb{R}=\\{(x,y):3x-y=0}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "y\\in\\mathrm{A}\\}",
+            "after": "y\\in\\mathrm{A}\\"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathbb{R}=\\{(x,y):y=x+5",
+            "after": "\\mathbb{R}=\\{(x,y):y=x+5}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "4;x,y\\in\\mathbf{N}\\}",
+            "after": "4;x,y\\in\\mathbf{N}\\"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathbb{R}=\\{(x,y)",
+            "after": "\\mathbb{R}=\\{(x,y)}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x\\in\\mathrm{A},y\\in\\mathrm{B}\\}",
+            "after": "x\\in\\mathrm{A},y\\in\\mathrm{B}\\"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\{(a,b):a,b\\in\\mathrm{A}",
+            "after": "\\{(a,b):a,b\\in\\mathrm{A}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{Write}the relation\\mathbb{R}=\\{(x,\\bar{x}^3)",
+            "after": "\\mathrm{Write}the relation\\mathbb{R}=\\{(x,\\bar{x}^3)}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathbb{R}=\\{(a,b):a,\\;b\\in\\mathbb{Z},a-b",
+            "after": "\\mathbb{R}=\\{(a,b):a,\\;b\\in\\mathbb{Z},a-b}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\operatorname{o f}f\\mathrm{a r e}\\mathbb{R}",
+            "after": "\\mathrm{of}f\\mathrm{are}\\mathbb{R}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "y={",
+            "after": "y={}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}",
+            "after": ""
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x)=",
+            "after": "x="
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x)=",
+            "after": "x="
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x).",
+            "after": "x."
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{iv})",
+            "after": "\\mathrm{iv}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "f$_{\\cdot}\\mathbf{R}\\rightarrow\\mathbf{R}\\mathrm{b y}$f(x)=x+10",
+            "after": "f$_{\\cdot}\\mathbf{R}\\rightarrow\\mathbf{R}\\mathrm{by}$f(x)=x+10"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathbb{L},\\mathbb{I})_{s}(0,-1)\\in\\mathbb{R}",
+            "after": "\\mathbb{L},\\mathbb{I}_{s}(0,-1)\\in\\mathbb{R}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\underline{x})_{\\bar{x}}",
+            "after": "\\underline{x}_{\\bar{x}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)=\\left\\{",
+            "after": "f(x)=\\left\\{}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\leq10\\end{aligned}\\right",
+            "after": "\\leq10\\right"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{x^{2}}{1+x^{2}}\\right)",
+            "after": "\\frac{x^{2}}{1+x^{2}}\\right"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f+g,f-g{",
+            "after": "f+g,f-g{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}",
+            "after": ""
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\{(a,b):a",
+            "after": "\\{(a,b):a}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "n(",
+            "after": "n()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "n(",
+            "after": "n()"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

@@ -1,0 +1,421 @@
+{
+    "chapter": "Chapter 12 – Limits and Derivatives",
+    "total_formulas": 567,
+    "repaired": 81,
+    "failed": 0,
+    "ocr_fixes": 136,
+    "latex_fixes": 81,
+    "markdown_fixes": 8,
+    "orphaned_latex_wrapped": 425,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.158,
+    "changes": [
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{\\mathrm{C}_{1}\\mathrm{B}_{1}}{\\mathrm{AC}_{1}},\\frac{\\mathrm{C}_{2}\\mathrm{B}_{2}}{\\mathrm{AC}_{2}},\\frac{\\mathrm{C}_{3}\\mathrm{B}_{3}}{\\mathrm{AC}_{3}},\\ldots\\right.",
+            "after": "\\left[\\frac{\\mathrm{C}_{1}\\mathrm{B}_{1}}{\\mathrm{AC}_{1}},\\frac{\\mathrm{C}_{2}\\mathrm{B}_{2}}{\\mathrm{AC}_{2}},\\frac{\\mathrm{C}_{3}\\mathrm{B}_{3}}{\\mathrm{AC}_{3}},\\ldots\\right.]"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\operatorname*{l i m}_{x\\to a^{-}}f(x)",
+            "after": "\\mathrm*{l i m}_{x\\to a^{-}}f(x)"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\operatorname*{l i m}_{x\\to a^{+}}f(x)",
+            "after": "\\mathrm*{l i m}_{x\\to a^{+}}f(x)"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\operatorname*{l i m}_{x\\to a}f(x)",
+            "after": "\\mathrm*{l i m}_{x\\to a}f(x)"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{o f}f(x)",
+            "after": "\\mathrm{of}f(x)"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\lim_{x\\to1}x^2&=1,\\quad\\lim_{x\\to1}x=1and\\quad\\lim_{x\\to1}x+1=2\\\\\\lim_{x\\to1}x^2&+\\lim_{x\\to1}x=1+1=2=\\lim_{x\\to1}\\left[x^2+x\\right].\\end{aligned}",
+            "after": "\\begin{aligned}\\lim_{x\\to1}x^2&=1,\\quad\\lim_{x\\to1}x=1and\\quad\\lim_{x\\to1}x+1=2\\\\lim_{x\\to1}x^2&+\\lim_{x\\to1}x=1+1=2=\\lim_{x\\to1}\\left[x^2+x\\right].\\end{aligned}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "x{\\rightarrow}{\\frac{\\pi}{\\overline{{\\sigma}}}}",
+            "after": "x{\\rightarrow}{\\frac{\\pi}{\\overline{\\sigma}}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)=\\left\\{\\begin{aligned}x-2,\\quad&x<0\\\\ 0,\\quad&x=0\\\\ x+2,\\quad&x>0\\end{aligned}\\right.",
+            "after": "f(x)=\\left\\{\\begin{aligned}x-2,\\quad&x<0\\\\ 0,\\quad&x=0\\\\ x+2,\\quad&x>0\\end{aligned}\\right.}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "x-2\\mathrm{a n d}",
+            "after": "x-2\\mathrm{and}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)=\\left\\{\\begin{aligned}x+2x\\neq1\\\\0\\quad x=1\\end{aligned}\\right.",
+            "after": "f(x)=\\left\\{\\begin{aligned}x+2x\\neq1\\\\0\\quad x=1\\end{aligned}\\right.}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{o f}f(x)",
+            "after": "\\mathrm{of}f(x)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\lim_{x\\to a}\\left[",
+            "after": "\\lim_{x\\to a}\\left[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\right]=\\lim_{x\\to a}",
+            "after": "\\right=\\lim_{x\\to a}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\lim_{x\\to a}\\left[",
+            "after": "\\lim_{x\\to a}\\left[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\right]=\\lim_{x\\to a}",
+            "after": "\\right=\\lim_{x\\to a}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\lim_{x\\to a}\\left[",
+            "after": "\\lim_{x\\to a}\\left[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\right]=\\lim_{x\\to a}",
+            "after": "\\right=\\lim_{x\\to a}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f)(x)",
+            "after": "f(x)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\lim_{x\\to a}(",
+            "after": "\\lim_{x\\to a}()"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}\\lim_{x\\to a}",
+            "after": "\\begin{aligned}\\lim_{x\\to a}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\lim_{x\\to a}\\left[",
+            "after": "\\lim_{x\\to a}\\left[]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{aligned}",
+            "after": ""
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "a)=0",
+            "after": "a=0"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x(x+1)\\right]",
+            "after": "x(x+1)\\right"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{0}{0}\\right$. , we try to rewrite the function cancelling the factors which are causing the limit to be of the form ",
+            "after": "\\left[\\frac{0}{0}\\right$. , we try to rewrite the function cancelling the factors which are causing the limit to be of the form ]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left(x^{n}-a",
+            "after": "\\left(x^{n}-a)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x-a)",
+            "after": "x-a"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\leq\\mathrm{g}(",
+            "after": "\\leq\\mathrm{g}()"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\Delta\\operatorname{O A B}",
+            "after": "\\Delta\\mathrm{OAB}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{CD}{OA}\\quad(",
+            "after": "\\frac{CD}{OA}\\quad()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left(\\mathrm{as}",
+            "after": "\\left(\\mathrm{as})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{1}\\left(",
+            "after": "_{1}\\left()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{2}\\left(",
+            "after": "_{2}\\left()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\lim_{x\\to\\pi}\\left(",
+            "after": "\\lim_{x\\to\\pi}\\left()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{22}{7}\\right)",
+            "after": "\\frac{22}{7}\\right"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{where}f(x)=\\left\\{\\begin{aligned}\\frac{x}{|x|},&\\quad x\\neq0\\\\ 0,&\\quad x=0\\end{aligned}\\right.",
+            "after": "\\mathrm{where}f(x)=\\left\\{\\begin{aligned}\\frac{x}{|x|},&\\quad x\\neq0\\\\ 0,&\\quad x=0\\end{aligned}\\right.}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\operatorname*{l i m}_{x\\to a_{1}}f(x)?",
+            "after": "\\mathrm*{l i m}_{x\\to a_{1}}f(x)?"
+        },
+        {
+            "type": "latex_fix",
+            "before": "{\\operatorname*{l i m}_{x\\to a}}f(x){\\mathrm{~e x i s t s?}}",
+            "after": "{\\mathrm*{l i m}_{x\\to a}}f(x){\\mathrm{~e x i s t s?}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "h-1)=2(0)-1=-1\\",
+            "after": "h-1=2(0)-1=-1\\"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\lim_{h\\to0}\\frac{2h^2+3h}{h}=\\lim_{h\\to0}(2",
+            "after": "\\lim_{h\\to0}\\frac{2h^2+3h}{h}=\\lim_{h\\to0}(2)"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\lim_{h\\rightarrow0}\\frac{\\sin(0+h)-\\sin(0)}{h}=\\lim_{h\\rightarrow0}\\frac{\\sin h}{h}=1\\end{aligned}",
+            "after": "\\lim_{h\\rightarrow0}\\frac{\\sin(0+h)-\\sin(0)}{h}=\\lim_{h\\rightarrow0}\\frac{\\sin h}{h}=1"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " be afunction and let $$\\mathbb{P}=(",
+            "after": " be afunction and let $$\\mathbb{P}=()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\prime}(",
+            "after": "^{\\prime}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\prime}(",
+            "after": "^{\\prime}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x)=",
+            "after": "x="
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " ). Further, derivative of ",
+            "after": " . Further, derivative of "
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x)=",
+            "after": "x="
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\prime}(",
+            "after": "^{\\prime}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\lim_{h\\to0}\\frac{(x+h)^2-(x)^2}{h}=\\lim_{h\\to0}(",
+            "after": "\\lim_{h\\to0}\\frac{(x+h)^2-(x)^2}{h}=\\lim_{h\\to0}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{d}{dx}\\left[",
+            "after": "\\frac{d}{dx}\\left[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\right]=\\frac{d}{dx}",
+            "after": "\\right=\\frac{d}{dx}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{d}{dx}\\left[",
+            "after": "\\frac{d}{dx}\\left[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\right]=\\frac{d}{dx}",
+            "after": "\\right=\\frac{d}{dx}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{d}{dx}\\left[",
+            "after": "\\left[\\frac{d}{dx}\\left[]]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\right]=\\frac{d}{dx}",
+            "after": "\\right=\\frac{d}{dx}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x+\\ldots+x)(ten terms)\\\\&=",
+            "after": "x+\\ldots+x(ten terms)\\\\&="
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "n\\right)h^n",
+            "after": "n\\righth^n"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "(x+h)^n-x^n=h(nx",
+            "after": "(x+h)^n-x^n=h(nx)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "h^{n-1})",
+            "after": "h^{n-1}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "[x,",
+            "after": "[x,]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}\\frac{df(x)}{dx}",
+            "after": "\\begin{aligned}\\frac{df(x)}{dx}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\lim_{h\\to0}\\frac{2\\cos\\left(\\frac{2x+h}{2}\\right)\\sin\\left(\\frac{h}{2}\\right)}{h}\\quad(",
+            "after": "\\lim_{h\\to0}\\frac{2\\cos\\left(\\frac{2x+h}{2}\\right)\\sin\\left(\\frac{h}{2}\\right)}{h}\\quad()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\lim_{h\\to0}\\cos\\left(",
+            "after": "\\lim_{h\\to0}\\cos\\left()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{h}{2}\\right)\\lim_{h\\to0}\\frac{\\sin\\frac{h}{2}}{\\frac{h}{2}}=\\cos",
+            "after": "\\frac{h}{2}\\right\\lim_{h\\to0}\\frac{\\sin\\frac{h}{2}}{\\frac{h}{2}}=\\cos"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\lim_{h\\to0}\\frac{\\sin(x+h-x)}{h\\cos(x+h)\\cos x}\\quad(",
+            "after": "\\lim_{h\\to0}\\frac{\\sin(x+h-x)}{h\\cos(x+h)\\cos x}\\quad()"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{aligned}",
+            "after": ""
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}\\frac{df(x)}{dx}=",
+            "after": "\\begin{aligned}\\frac{df(x)}{dx}=\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{d}{dx}(\\sin",
+            "after": "\\frac{d}{dx}(\\sin)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{d}{dx}(\\sin",
+            "after": "\\frac{d}{dx}(\\sin)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left(a x^{2}+b",
+            "after": "\\left(a x^{2}+b)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\prime}(",
+            "after": "^{\\prime}()"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}\\frac{dg}{dx}",
+            "after": "\\begin{aligned}\\frac{dg}{dx}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{d}{dx}(\\cot",
+            "after": "\\frac{d}{dx}(\\cot)"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{aligned}",
+            "after": ""
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{x^{5}-\\cos x}{\\sin x}\\quad(",
+            "after": "\\frac{x^{5}-\\cos x}{\\sin x}\\quad()"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\prime}(",
+            "after": "^{\\prime}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}(u\\pm v)'=u'\\pm v'\\\\ (uv)'=u'v+uv'\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}(u\\pm v)'=u'\\pm v'\\\\ (uv)'=u'v+uv'\\end{aligned}\\right.}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

@@ -1,0 +1,101 @@
+{
+    "chapter": "lech1a1",
+    "total_formulas": 197,
+    "repaired": 17,
+    "failed": 0,
+    "ocr_fixes": 39,
+    "latex_fixes": 17,
+    "markdown_fixes": 1,
+    "orphaned_latex_wrapped": 72,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.079,
+    "changes": [
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{F e^{2+}}+2\\mathrm{e^{-}}\\longrightarrow\\mathrm{F e}",
+            "after": "\\mathrm{F e^{2+}}+2\\mathrm{e^{-}}\\longrightarrow\\mathrm{Fe}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "E{/",
+            "after": "E{/}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "E^{",
+            "after": "E^{}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{L a}^{3+}+3\\mathrm{e}^{-}\\longrightarrow\\mathrm{L a}",
+            "after": "\\mathrm{La}^{3+}+3\\mathrm{e}^{-}\\longrightarrow\\mathrm{La}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{S c}^{3+}+3\\mathrm{e}^{-}\\longrightarrow\\mathrm{S c}",
+            "after": "\\mathrm{Sc}^{3+}+3\\mathrm{e}^{-}\\longrightarrow\\mathrm{Sc}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{M g}^{2+}+2\\mathrm{e}^{-}\\longrightarrow\\mathrm{M g}",
+            "after": "\\mathrm{Mg}^{2+}+2\\mathrm{e}^{-}\\longrightarrow\\mathrm{Mg}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "(a>0\\mathrm{a n d}a\\neq1)",
+            "after": "(a>0\\mathrm{and}a\\neq1)"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\log_{\\mathrm{a}}\\left(\\mathrm{m n}\\right)=\\log_{\\mathrm{a}}\\mathrm{m}+\\log_{\\mathrm{a}}\\mathrm{n}",
+            "after": "\\log_{\\mathrm{a}}\\left(\\mathrm{mn}\\right)=\\log_{\\mathrm{a}}\\mathrm{m}+\\log_{\\mathrm{a}}\\mathrm{n}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{m n}=\\mathrm{a}^{\\mathrm{x}}.\\mathrm{a}^{\\mathrm{y}}=\\mathrm{a}^{\\mathrm{x}+\\mathrm{y}}",
+            "after": "\\mathrm{mn}=\\mathrm{a}^{\\mathrm{x}}.\\mathrm{a}^{\\mathrm{y}}=\\mathrm{a}^{\\mathrm{x}+\\mathrm{y}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\log_{\\mathrm{a}}\\left(\\mathrm{m n}\\right)=\\mathrm{x}+\\mathrm{y}=\\log_{\\mathrm{a}}\\mathrm{m}-\\log_{\\mathrm{a}}\\mathrm{n}",
+            "after": "\\log_{\\mathrm{a}}\\left(\\mathrm{mn}\\right)=\\mathrm{x}+\\mathrm{y}=\\log_{\\mathrm{a}}\\mathrm{m}-\\log_{\\mathrm{a}}\\mathrm{n}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{r l r l}",
+            "after": "\\begin{array}{r l r l}\\end{array}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{array} \\log_{10}1=0 \\begin{array}{r l r l}",
+            "after": " \\log_{10}1=0 \\begin{array}{r l r l}\\end{array}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{array}",
+            "after": ""
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "0.00025=(0.00025",
+            "after": "0.00025=(0.00025)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "{",
+            "after": "{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\;{",
+            "after": "\\;{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{\\scriptstyle-2,}",
+            "after": "{\\scriptstyle-2,}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

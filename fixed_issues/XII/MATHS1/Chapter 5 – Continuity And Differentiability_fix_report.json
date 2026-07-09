@@ -1,0 +1,501 @@
+{
+    "chapter": "Chapter 5 – Continuity And Differentiability",
+    "total_formulas": 635,
+    "repaired": 97,
+    "failed": 0,
+    "ocr_fixes": 124,
+    "latex_fixes": 97,
+    "markdown_fixes": 13,
+    "orphaned_latex_wrapped": 250,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.2,
+    "changes": [
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)=\\left\\{\\begin{aligned}&1,if x\\leq0\\\\ &2,if x>0\\end{aligned}\\right.",
+            "after": "f(x)=\\left\\{\\begin{aligned}&1,if x\\leq0\\\\ &2,if x>0\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)=\\left\\{\\begin{aligned}&1,if x\\neq0\\\\ &2,if x=0\\end{aligned}\\right.",
+            "after": "f(x)=\\left\\{\\begin{aligned}&1,if x\\neq0\\\\ &2,if x=0\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)=\\left\\{\\begin{aligned}-x,&if x<0\\\\x,&if x\\geq0\\end{aligned}\\right. ep ",
+            "after": "f(x)=\\left\\{\\begin{aligned}-x,&if x<0\\\\x,&if x\\geq0\\end{aligned}\\right. ep }"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)=\\left\\{\\begin{aligned}&x^{3}+3,if x\\neq0\\\\ &1,\\quad if x=0\\end{aligned}\\right.",
+            "after": "f(x)=\\left\\{\\begin{aligned}&x^{3}+3,if x\\neq0\\\\ &1,\\quad if x=0\\end{aligned}\\right.}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\operatorname*{l i m}_{x\\to a^{-}}f(x)\\quad a n d\\quad\\operatorname*{l i m}_{x\\to b^{+}}f(x)",
+            "after": "\\mathrm*{l i m}_{x\\to a^{-}}f(x)\\quad a n d\\quad\\mathrm*{l i m}_{x\\to b^{+}}f(x)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)=\\left\\{\\begin{aligned}-x,&if x<0\\\\x,&if x\\geq0\\end{aligned}\\right.",
+            "after": "f(x)=\\left\\{\\begin{aligned}-x,&if x<0\\\\x,&if x\\geq0\\end{aligned}\\right.}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\operatorname{o f}f(x)",
+            "after": "\\mathrm{of}f(x)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)=\\left\\{\\begin{aligned}x+2,&if x\\leq1\\\\x-2,&if x>1\\end{aligned}\\right.",
+            "after": "f(x)=\\left\\{\\begin{aligned}x+2,&if x\\leq1\\\\x-2,&if x>1\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)=\\left\\{\\begin{aligned}x+2,&if x<1\\\\0,&if x=1\\\\x-2,&if x>1\\end{aligned}\\right.",
+            "after": "f(x)=\\left\\{\\begin{aligned}x+2,&if x<1\\\\0,&if x=1\\\\x-2,&if x>1\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)=\\left\\{\\begin{aligned}x+2,&if x<0\\\\-x+2,&if x>0\\end{aligned}\\right.",
+            "after": "f(x)=\\left\\{\\begin{aligned}x+2,&if x<0\\\\-x+2,&if x>0\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)=\\left\\{\\begin{aligned}x,\\quad&if x\\geq0\\\\x^2,\\quad&if x<0\\end{aligned}\\right.",
+            "after": "f(x)=\\left\\{\\begin{aligned}x,\\quad&if x\\geq0\\\\x^2,\\quad&if x<0\\end{aligned}\\right.}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\lim_{x\\to c}f(x)=\\lim_{x\\to c}[x]=[c].\\quad\\operatorname{Also}f(c)=[c]",
+            "after": "\\lim_{x\\to c}f(x)=\\lim_{x\\to c}[x]=[c].\\quad\\mathrm{Also}f(c)=[c]"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{o f}g",
+            "after": "\\mathrm{of}g"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)=\\left\\{\\begin{aligned}x,&if x\\leq1\\\\ 5,&if x>1\\end{aligned}\\right.",
+            "after": "f(x)=\\left\\{\\begin{aligned}x,&if x\\leq1\\\\ 5,&if x>1\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)=\\left\\{\\begin{aligned}&2x+3,if x\\leq2,\\\\ &2x-3,if x>2.\\end{aligned}\\right.",
+            "after": "f(x)=\\left\\{\\begin{aligned}&2x+3,if x\\leq2,\\\\ &2x-3,if x>2.\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)=\\left\\{\\begin{aligned}&|x|+3,if x\\leq-3\\\\ &-2x,if-3<x<3\\\\ &6x+2,if x\\geq3\\end{aligned}\\right.",
+            "after": "f(x)=\\left\\{\\begin{aligned}&|x|+3,if x\\leq-3\\\\ &-2x,if-3<x<3\\\\ &6x+2,if x\\geq3\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)=\\left\\{\\begin{aligned}\\frac{|x|}{x},&\\text{if}x\\neq0\\\\ 0,&\\text{if}x=0\\end{aligned}\\right.",
+            "after": "f(x)=\\left\\{\\begin{aligned}\\frac{|x|}{x},&\\text{if}x\\neq0\\\\ 0,&\\text{if}x=0\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)=\\left\\{\\begin{aligned}&\\frac{x}{|x|},if x<0\\\\&-1,if x\\geq0\\end{aligned}\\right.",
+            "after": "f(x)=\\left\\{\\begin{aligned}&\\frac{x}{|x|},if x<0\\\\&-1,if x\\geq0\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)=\\left\\{\\begin{aligned}x+1,\\ if x\\geq1\\\\x^{2}+1,\\ if x<1\\end{aligned}\\right. v f(x)=\\left\\{\\begin{aligned}x+1,\\ if x\\geq1\\\\x^{2}+1,\\ if x<1\\end{aligned}\\right.",
+            "after": "f(x)=\\left\\{\\begin{aligned}x+1,\\ if x\\geq1\\\\x^{2}+1,\\ if x<1\\end{aligned}\\right. v f(x)=\\left\\{\\begin{aligned}x+1,\\ if x\\geq1\\\\x^{2}+1,\\ if x<1\\end{aligned}\\right.}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)=\\left\\{\\begin{aligned}&x^{3}-3,\\quad if x\\leq2\\\\ &x^{2}+1,\\quad if x>2\\end{aligned}\\right.",
+            "after": "f(x)=\\left\\{\\begin{aligned}&x^{3}-3,\\quad if x\\leq2\\\\ &x^{2}+1,\\quad if x>2\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)=\\left\\{\\begin{aligned}x+5,\\quad&if x\\leq1\\\\x-5,\\quad&if x>1\\end{aligned}\\right.",
+            "after": "f(x)=\\left\\{\\begin{aligned}x+5,\\quad&if x\\leq1\\\\x-5,\\quad&if x>1\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)=\\left\\{\\begin{aligned}&3,if0\\leq x\\leq1\\\\&4,if1<x<3\\\\&5,if3\\leq x\\leq10\\end{aligned}\\right.\\quad 又.\\quad f(x)=\\left\\{\\begin{aligned}&2x,if x<0\\\\&0,\\quad if0\\leq x\\leq1\\\\&4x,if x>1\\end{aligned}\\right.",
+            "after": "f(x)=\\left\\{\\begin{aligned}&3,if0\\leq x\\leq1\\\\&4,if1<x<3\\\\&5,if3\\leq x\\leq10\\end{aligned}\\right.\\quad 又.\\quad f(x)=\\left\\{\\begin{aligned}&2x,if x<0\\\\&0,\\quad if0\\leq x\\leq1\\\\&4x,if x>1\\end{aligned}\\right.}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)=\\left\\{\\begin{aligned}ax+1,\\quad&if x\\leq3\\\\bx+3,\\quad&if x>3\\end{aligned}\\right.",
+            "after": "f(x)=\\left\\{\\begin{aligned}ax+1,\\quad&if x\\leq3\\\\bx+3,\\quad&if x>3\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)=\\left\\{\\begin{aligned}&\\lambda(x^{2}-2x),&if x\\leq0,\\\\&4x+1,&if x>0.\\end{aligned}\\right.",
+            "after": "f(x)=\\left\\{\\begin{aligned}&\\lambda(x^{2}-2x),&if x\\leq0,\\\\&4x+1,&if x>0.\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)=\\left\\{\\begin{aligned}&\\frac{\\sin x}{x},\\quad if x<0\\\\&x+1,\\quad if x\\geq0\\end{aligned}\\right.",
+            "after": "f(x)=\\left\\{\\begin{aligned}&\\frac{\\sin x}{x},\\quad if x<0\\\\&x+1,\\quad if x\\geq0\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)=\\left\\{\\begin{aligned}&x^{2}\\sin\\frac{1}{x},&if x\\neq0\\\\ &0,&if x=0\\end{aligned}\\right.",
+            "after": "f(x)=\\left\\{\\begin{aligned}&x^{2}\\sin\\frac{1}{x},&if x\\neq0\\\\ &0,&if x=0\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)=\\left\\{\\begin{aligned}&\\sin x-\\cos x,\\quad if x\\neq0,\\\\&-1,\\quad if x=0.\\end{aligned}\\right.",
+            "after": "f(x)=\\left\\{\\begin{aligned}&\\sin x-\\cos x,\\quad if x\\neq0,\\\\&-1,\\quad if x=0.\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)=\\left\\{\\begin{aligned}&\\frac{k\\cos x}{\\pi-2x},\\quad if x\\neq\\frac{\\pi}{2}\\\\&3,\\quad if x=\\frac{\\pi}{2}\\end{aligned}\\right.\\quad at x=\\frac{\\pi}{2}",
+            "after": "f(x)=\\left\\{\\begin{aligned}&\\frac{k\\cos x}{\\pi-2x},\\quad if x\\neq\\frac{\\pi}{2}\\\\&3,\\quad if x=\\frac{\\pi}{2}\\end{aligned}\\right.\\quad at x=\\frac{\\pi}{2}}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "f(x)=\\left\\{\\begin{aligned}kx+1,\\quad&if x\\leq\\pi\\\\\\cos x,\\quad&if x>\\pi\\end{aligned}\\right.",
+            "after": "f(x)=\\left\\{\\begin{aligned}kx+1,\\quad&if x\\leq\\pi\\\\cos x,\\quad&if x>\\pi\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)=\\left\\{\\begin{aligned}kx+1,\\quad if\\quad x\\leq5\\\\3x-5,\\quad if\\quad x>5\\end{aligned}\\right.",
+            "after": "f(x)=\\left\\{\\begin{aligned}kx+1,\\quad if\\quad x\\leq5\\\\3x-5,\\quad if\\quad x>5\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)=\\left\\{\\begin{aligned}&5,&if x\\leq2\\\\ &ax+b,&if2<x<10\\\\ &21,&if x\\geq10\\end{aligned}\\right.",
+            "after": "f(x)=\\left\\{\\begin{aligned}&5,&if x\\leq2\\\\ &ax+b,&if2<x<10\\\\ &21,&if x\\geq10\\end{aligned}\\right.}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}f(x)-f(c)&=\\frac{f(x)-f(c)}{x-c}.(x-c)\\\\\\lim_{x\\to c}[f(x)-f(c)]&=\\lim_{x\\to c}\\left[\\frac{f(x)-f(c)}{x-c}.(x-c)\\right]\\\\\\left[\\lim_{x\\to c}[f(x)]-\\lim_{x\\to c}[f(c)]\\right]&=\\lim_{x\\to c}\\left[\\frac{f(x)-f(c)}{x-c}\\right].\\lim_{x\\to c}[(x-c)]\\\\&=f(c).0=0\\\\\\lim_{x\\to c}f(x)&=f(c)\\\\&=f(c).0=0\\end{aligned} ied ",
+            "after": "\\begin{aligned}f(x)-f(c)&=\\frac{f(x)-f(c)}{x-c}.(x-c)\\\\lim_{x\\to c}[f(x)-f(c)]&=\\lim_{x\\to c}\\left[\\frac{f(x)-f(c)}{x-c}.(x-c)\\right]\\\\left[\\lim_{x\\to c}[f(x)]-\\lim_{x\\to c}[f(c)]\\right]&=\\lim_{x\\to c}\\left[\\frac{f(x)-f(c)}{x-c}\\right].\\lim_{x\\to c}[(x-c)]\\\\&=f(c).0=0\\\\lim_{x\\to c}f(x)&=f(c)\\\\&=f(c).0=0\\end{aligned} ied "
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\operatorname{o f}f_{z}",
+            "after": "\\mathrm{of}f_{z}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{o f}_{z}",
+            "after": "\\mathrm{of}_{z}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "v;\\mathrm{i.e.},f=v0u\\mathrm{S u p p o s e}t=u(x)",
+            "after": "v;\\mathrm{i.e.},f=v0u\\mathrm{Suppose}t=u(x)"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{aligned}\\right",
+            "after": "\\right"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x-y)=",
+            "after": "x-y="
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x)-",
+            "after": "x-"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " y)=",
+            "after": " y="
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x\\right)=x",
+            "after": "x\\right=x"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\sin^{-1}\\left(2",
+            "after": "\\sin^{-1}\\left(2)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\sqrt{1-x^2}\\right),\\quad-\\frac{1}{\\sqrt{2}}",
+            "after": "\\sqrt{1-x^2}\\right,\\quad-\\frac{1}{\\sqrt{2}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\log x}\\right)=\\log",
+            "after": "^{\\log x}\\right=\\log"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{d}{dx}(",
+            "after": "\\frac{d}{dx}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{d}{dx}(\\log",
+            "after": "\\frac{d}{dx}(\\log)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\sin\\left(\\log x\\right),x>0\\quad\\left(iii",
+            "after": "\\sin\\left(\\log x\\right),x>0\\quad\\left(iii)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "e^x\\right)",
+            "after": "e^x\\right"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " x)",
+            "after": " x"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " x)=",
+            "after": " x="
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{dy}{dx}=\\frac{-1}{\\sqrt{1-\\left(e^{x}\\right)^{2}}}\\cdot\\frac{d}{dx}\\left(",
+            "after": "\\frac{dy}{dx}=\\frac{-1}{\\sqrt{1-\\left(e^{x}\\right)^{2}}}\\cdot\\frac{d}{dx}\\left()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\cos\\left(\\log x+e",
+            "after": "\\cos\\left(\\log x+e)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{1}{2}\\left[\\log(",
+            "after": "\\frac{1}{2}\\left[\\log(])"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}\\frac{1}{y}\\cdot\\frac{dy}{dx}",
+            "after": "\\begin{aligned}\\frac{1}{y}\\cdot\\frac{dy}{dx}\\end{aligned}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "&=y\\log a\\\\\\left\\{",
+            "after": "&=y\\log a\\\\left\\{}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "a^x)\\right.&=a^x\\log a\\\\\\left\\{",
+            "after": "a^x\\right.&=a^x\\log a\\\\left\\{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "a^x)\\right.&=",
+            "after": "a^x\\right.&="
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x\\log a)\\\\&=e",
+            "after": "x\\log a\\\\&=e"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}\\log",
+            "after": "\\begin{aligned}\\log\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{1}{y}\\cdot\\frac{dy}{dx}\\right",
+            "after": "\\left[\\frac{1}{y}\\cdot\\frac{dy}{dx}\\right]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{d}{dx}\\left(\\log",
+            "after": "\\frac{d}{dx}\\left(\\log)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{d}{dx}\\left(\\sin",
+            "after": "\\frac{d}{dx}\\left(\\sin)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{1}{y}\\frac{dy}{dx}\\right",
+            "after": "\\left[\\frac{1}{y}\\frac{dy}{dx}\\right]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\right)\\frac{1}{x}+\\log",
+            "after": "\\right\\frac{1}{x}+\\log"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{\\sin x}{x}+\\cos",
+            "after": "\\left[\\frac{\\sin x}{x}+\\cos]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\sin x}\\left[\\frac{\\sin x}{x}+\\cos",
+            "after": "^{\\sin x}\\left[\\frac{\\sin x}{x}+\\cos]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\right.\\end{aligned}",
+            "after": "\\right."
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\frac{1}{v}\\cdot\\frac{dv}{dx}&=y\\cdot\\frac{d}{dx}(\\log x)+\\log x\\frac{dy}{dx}\\\\&=y\\cdot\\frac{1}{x}+\\log x\\cdot\\frac{dy}{dx}\\\\\\frac{dv}{dx}&=v\\left[\\frac{y}{x}+\\log x\\frac{dy}{dx}\\right]\\\\&=x^y\\left[\\frac{y}{x}+\\log x\\frac{dy}{dx}\\right]\\end{aligned} `ublished ",
+            "after": "\\begin{aligned}\\frac{1}{v}\\cdot\\frac{dv}{dx}&=y\\cdot\\frac{d}{dx}(\\log x)+\\log x\\frac{dy}{dx}\\\\&=y\\cdot\\frac{1}{x}+\\log x\\cdot\\frac{dy}{dx}\\\\frac{dv}{dx}&=v\\left[\\frac{y}{x}+\\log x\\frac{dy}{dx}\\right]\\\\&=x^y\\left[\\frac{y}{x}+\\log x\\frac{dy}{dx}\\right]\\end{aligned} `ublished "
+        },
+        {
+            "type": "escape_fix",
+            "before": "`ublished \\begin{aligned}\\frac{1}{w}\\cdot\\frac{dw}{dx}&=x\\frac{d}{dx}(\\log x)+\\log x\\cdot\\frac{d}{dx}(x)\\\\&=x\\cdot\\frac{1}{x}+\\log x\\cdot1\\\\\\frac{dw}{dx}&=w(1+\\log x)\\\\&=x^x(1+\\log x)\\end{aligned}",
+            "after": "`ublished \\begin{aligned}\\frac{1}{w}\\cdot\\frac{dw}{dx}&=x\\frac{d}{dx}(\\log x)+\\log x\\cdot\\frac{d}{dx}(x)\\\\&=x\\cdot\\frac{1}{x}+\\log x\\cdot1\\\\frac{dw}{dx}&=w(1+\\log x)\\\\&=x^x(1+\\log x)\\end{aligned}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "Therefore \\begin{aligned}y^{x}\\left(\\frac{x}{y}\\frac{dy}{dx}+\\log y\\right)+x^{y}\\left(\\frac{y}{x}+\\log x\\frac{dy}{dx}\\right)+x^{x}\\left(1+\\log x\\right)=0\\\\\\left(x\\cdot y^{x-1}+x^{y}\\cdot\\log x\\right)\\frac{dy}{dx}=-x^{x}\\left(1+\\log x\\right)-y\\cdot x^{y-1}-y^{x}\\log y\\\\\\frac{dy}{dx}=\\frac{-\\left[y^{x}\\log y+y\\cdot x^{y-1}+x^{x}(1+\\log x)\\right]}{x\\cdot y^{x-1}+x^{y}\\log x}\\end{aligned}",
+            "after": "Therefore \\begin{aligned}y^{x}\\left(\\frac{x}{y}\\frac{dy}{dx}+\\log y\\right)+x^{y}\\left(\\frac{y}{x}+\\log x\\frac{dy}{dx}\\right)+x^{x}\\left(1+\\log x\\right)=0\\\\left(x\\cdot y^{x-1}+x^{y}\\cdot\\log x\\right)\\frac{dy}{dx}=-x^{x}\\left(1+\\log x\\right)-y\\cdot x^{y-1}-y^{x}\\log y\\\\frac{dy}{dx}=\\frac{-\\left[y^{x}\\log y+y\\cdot x^{y-1}+x^{x}(1+\\log x)\\right]}{x\\cdot y^{x-1}+x^{y}\\log x}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\sin x}+(\\sin",
+            "after": "^{\\sin x}+(\\sin)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{y}=(\\cos",
+            "after": "^{y}=(\\cos)"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\frac{dy}{dt}&=\\frac{dy}{dx}\\cdot\\frac{dx}{dt}\\\\\\frac{dy}{dx}&=\\frac{dy}{dx}\\cdot\\frac{dx}{dt}\\\\\\frac{dy}{dx}&=\\frac{dy}{\\frac{dx}{dt}}\\left(whenever\\frac{dx}{dt}\\neq0\\right)\\end{aligned} apublished ",
+            "after": "\\begin{aligned}\\frac{dy}{dt}&=\\frac{dy}{dx}\\cdot\\frac{dx}{dt}\\\\frac{dy}{dx}&=\\frac{dy}{dx}\\cdot\\frac{dx}{dt}\\\\frac{dy}{dx}&=\\frac{dy}{\\frac{dx}{dt}}\\left(whenever\\frac{dx}{dt}\\neq0\\right)\\end{aligned} apublished "
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\left[\\operatorname{provided}f^{\\prime}(t)\\neq0\\right]",
+            "after": "\\left[\\mathrm{provided}f^{\\prime}(t)\\neq0\\right]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\frac{2}{3}}=\\left(",
+            "after": "^{\\frac{2}{3}}=\\left()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\cos^{3}\\theta\\right)^{\\frac{2}{3}}+\\left(",
+            "after": "\\cos^{3}\\theta\\right^{\\frac{2}{3}}+\\left()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\sin^{3}\\theta\\right)^{\\frac{2}{3}}=",
+            "after": "\\sin^{3}\\theta\\right^{\\frac{2}{3}}="
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\frac{2}{3}}\\left(\\cos^{2}\\theta+\\left(\\sin^{2}\\theta\\right)=",
+            "after": "^{\\frac{2}{3}}\\left(\\cos^{2}\\theta+\\left(\\sin^{2}\\theta\\right)=)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\prime}(",
+            "after": "^{\\prime}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x)",
+            "after": "x"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{d^{2}y}{dx^{2}}=\\frac{d}{dx}\\left(",
+            "after": "\\frac{d^{2}y}{dx^{2}}=\\frac{d}{dx}\\left()"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\log y&=\\log\\left(\\sin x\\right)^{\\sin x}=\\sin x\\log\\left(\\sin x\\right)\\\\\\frac{1}{y}\\frac{dy}{dx}&=\\frac{d}{dx}\\left(\\sin x\\log\\left(\\sin x\\right)\\right)\\\\&=\\cos x\\log\\left(\\sin x\\right)+\\sin x\\cdot\\frac{1}{\\sin x}\\cdot\\frac{d}{dx}\\left(\\sin x\\right)\\\\&=\\cos x\\log\\left(\\sin x\\right)+\\cos x\\\\&=\\left(1+\\log\\left(\\sin x\\right)\\right)\\cos x\\\\\\frac{dy}{dx}&=y\\left(\\left(1+\\log\\left(\\sin x\\right)\\right)\\cos x\\right)=\\left(1+\\log\\left(\\sin x\\right)\\right)\\left(\\sin x\\right)^{\\sin x}\\cos x\\end{aligned}",
+            "after": "\\begin{aligned}\\log y&=\\log\\left(\\sin x\\right)^{\\sin x}=\\sin x\\log\\left(\\sin x\\right)\\\\frac{1}{y}\\frac{dy}{dx}&=\\frac{d}{dx}\\left(\\sin x\\log\\left(\\sin x\\right)\\right)\\\\&=\\cos x\\log\\left(\\sin x\\right)+\\sin x\\cdot\\frac{1}{\\sin x}\\cdot\\frac{d}{dx}\\left(\\sin x\\right)\\\\&=\\cos x\\log\\left(\\sin x\\right)+\\cos x\\\\&=\\left(1+\\log\\left(\\sin x\\right)\\right)\\cos x\\\\frac{dy}{dx}&=y\\left(\\left(1+\\log\\left(\\sin x\\right)\\right)\\cos x\\right)=\\left(1+\\log\\left(\\sin x\\right)\\right)\\left(\\sin x\\right)^{\\sin x}\\cos x\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{dx}{dt}=a\\left[t+\\frac{1}{t}\\right]^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-\\frac{1}\\cdot\\cdot\\frac{d}{dt}\\left(t}\\right)^{a-\\cdot\\frac{d}{dt}\\left(t}\\right)^{a-\\cdot\\frac{d}{dt}\\left(t}\\right)^{a\\cdot\\cdot\\cdot\\frac{d}{dt}\\left(t}\\right)^{a\\cdot\\cdot\\cdot\\frac{dt}{dt}\\cdot\\left(t}\\right)^{a\\cdot\\cdot\\cdot\\frac{dt}\\cdot\\cdot\\frac{dt}{dt}\\cdot\\left(t}\\right)^{a\\cdot\\cdot\\cdot\\cdot\\frac{dt}\\cdot\\cdot\\frac{dt}{dt}\\cdot\\cdot\\cdot\\cdot\\frac{dt}\\cdot\\cdot\\cdot\\frac{dt}\\cdot\\cdot\\cdot\\cdot\\frac{dt}\\cdot\\cdot\\cdot\\cdot\\cdot\\frac{dt}\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot ",
+            "after": "\\frac{dx}{dt}=a\\left[t+\\frac{1}{t}\\right]^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-1}\\cdot\\cdot\\frac{d}{dt}\\left(t+\\frac{1}{t}\\right)^{a-\\frac{1}\\cdot\\cdot\\frac{d}{dt}\\left(t}\\right)^{a-\\cdot\\frac{d}{dt}\\left(t}\\right)^{a-\\cdot\\frac{d}{dt}\\left(t}\\right)^{a\\cdot\\cdot\\cdot\\frac{d}{dt}\\left(t}\\right)^{a\\cdot\\cdot\\cdot\\frac{dt}{dt}\\cdot\\left(t}\\right)^{a\\cdot\\cdot\\cdot\\frac{dt}\\cdot\\cdot\\frac{dt}{dt}\\cdot\\left(t}\\right)^{a\\cdot\\cdot\\cdot\\cdot\\frac{dt}\\cdot\\cdot\\frac{dt}{dt}\\cdot\\cdot\\cdot\\cdot\\frac{dt}\\cdot\\cdot\\cdot\\frac{dt}\\cdot\\cdot\\cdot\\cdot\\frac{dt}\\cdot\\cdot\\cdot\\cdot\\cdot\\frac{dt}\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot }"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\prime\\prime}(",
+            "after": "^{\\prime\\prime}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{A}+\\mathrm{B})=\\sin\\mathrm{A}\\cos\\mathrm{B}+\\cos\\mathrm{A}",
+            "after": "\\mathrm{A}+\\mathrm{B}=\\sin\\mathrm{A}\\cos\\mathrm{B}+\\cos\\mathrm{A}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x)=",
+            "after": "x="
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "where g(x)\\neq0)",
+            "after": "where g(x)\\neq0"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{d}{dx}\\left(\\sin^{-1}",
+            "after": "\\frac{d}{dx}\\left(\\sin^{-1})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\right)=\\frac{1}{\\sqrt{1-x^{2}}}\\quad\\frac{d}{dx}\\left(\\cos^{-1}",
+            "after": "\\right=\\frac{1}{\\sqrt{1-x^{2}}}\\quad\\frac{d}{dx}\\left(\\cos^{-1})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\right)=-\\frac{1}{\\sqrt{1-x^{2}}}",
+            "after": "\\right=-\\frac{1}{\\sqrt{1-x^{2}}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{d}{dx}\\left(\\tan^{-1}",
+            "after": "\\frac{d}{dx}\\left(\\tan^{-1})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\right)=\\frac{1}{1+x^{2}}",
+            "after": "\\right=\\frac{1}{1+x^{2}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{d}{dx}\\left(",
+            "after": "\\frac{d}{dx}\\left()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{x}\\right)=",
+            "after": "^{x}\\right="
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{x}\\quad\\frac{d}{dx}\\left(\\log",
+            "after": "^{x}\\quad\\frac{d}{dx}\\left(\\log)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\right)=\\frac{1}{x}",
+            "after": "\\right=\\frac{1}{x}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

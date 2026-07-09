@@ -1,0 +1,436 @@
+{
+    "chapter": "Chapter 6 – Application of Derivatives",
+    "total_formulas": 564,
+    "repaired": 84,
+    "failed": 0,
+    "ocr_fixes": 220,
+    "latex_fixes": 84,
+    "markdown_fixes": 13,
+    "orphaned_latex_wrapped": 259,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.147,
+    "changes": [
+        {
+            "type": "latex_fix",
+            "before": "\\left[{\\frac{d y}{d x}}\\right]_{x=x_{0}}\\;\\left(\\mathrm{o r}f^{\\prime}(x_{_0})\\right)",
+            "after": "\\left[{\\frac{d y}{d x}}\\right]_{x=x_{0}}\\;\\left(\\mathrm{or}f^{\\prime}(x_{_0})\\right)"
+        },
+        {
+            "type": "escape_fix",
+            "before": "not to \\begin{aligned}\\frac{d V}{d t}&=\\frac{d V}{d t}\\cdot\\frac{d V}{d t}\\\\9&=\\frac{d V}{d t}=\\frac{d}{d t}(x^3)=\\frac{d}{d x}(x^3)\\cdot\\frac{d x}{d t}\\quad(By Chain Rule)\\\\&=3x^2\\cdot\\frac{d x}{d t}\\\\\\frac{d x}{d t}&=\\frac{3}{x^2}\\\\\\frac{d S}{d t}&=\\frac{d}{d t}(6x^2)=\\frac{d}{d x}(6x^2)\\cdot\\frac{d x}{d t}\\quad(By Chain Rule)\\\\&=12x\\cdot\\left(\\frac{3}{x^2}\\right)=\\frac{36}{x}\\quad(Using(1))\\end{aligned}",
+            "after": "not to \\begin{aligned}\\frac{d V}{d t}&=\\frac{d V}{d t}\\cdot\\frac{d V}{d t}\\\\9&=\\frac{d V}{d t}=\\frac{d}{d t}(x^3)=\\frac{d}{d x}(x^3)\\cdot\\frac{d x}{d t}\\quad(By Chain Rule)\\\\&=3x^2\\cdot\\frac{d x}{d t}\\\\frac{d x}{d t}&=\\frac{3}{x^2}\\\\frac{d S}{d t}&=\\frac{d}{d t}(6x^2)=\\frac{d}{d x}(6x^2)\\cdot\\frac{d x}{d t}\\quad(By Chain Rule)\\\\&=12x\\cdot\\left(\\frac{3}{x^2}\\right)=\\frac{36}{x}\\quad(Using(1))\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}\\frac{dA}{dt}&=\\frac{dx}{dt}\\cdot y+x\\cdot\\frac{dy}{dt}\\\\ &=-3(6)+10(2)\\quad(as x=10cm and y=6cm)\\\\ &=2cm^2/min\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}\\frac{dA}{dt}&=\\frac{dx}{dt}\\cdot y+x\\cdot\\frac{dy}{dt}\\\\ &=-3(6)+10(2)\\quad(as x=10cm and y=6cm)\\\\ &=2cm^2/min\\end{aligned}\\right.}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "r=4\\mathrm{c m}",
+            "after": "r=4\\mathrm{cm}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "f f_{\\mathcal{C}}(x)>0\\mathrm{f o r}x",
+            "after": "f f_{\\mathcal{C}}(x)>0\\mathrm{for}x"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\left(2,\\infty\\right),f^{\\prime}\\left(x\\right)>0\\right.",
+            "after": "\\left[\\left(2,\\infty\\right),f^{\\prime}\\left(x\\right)>0\\right.]"
+        },
+        {
+            "type": "latex_fix",
+            "before": "(-\\infty,-2)\\mathrm{a n d}(3,\\infty),f^{\\prime}(x)",
+            "after": "(-\\infty,-2)\\mathrm{and}(3,\\infty),f^{\\prime}(x)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "3x=\\frac{\\pi}{2},\\frac{3\\pi}{2}(as x\\in\\left[0,\\frac{\\pi}{2}\\right]",
+            "after": "3x=\\frac{\\pi}{2},\\frac{3\\pi}{2}(as x\\in\\left[0,\\frac{\\pi}{2}\\right])"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[0,\\frac{\\pi}{6}\\right]\\mathrm{a n d}\\left(\\frac{\\pi}{6},\\frac{\\pi}{2}\\right]",
+            "after": "\\left[0,\\frac{\\pi}{6}\\right]\\mathrm{and}\\left(\\frac{\\pi}{6},\\frac{\\pi}{2}\\right)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f^{\\prime}(x)>0for all x\\in\\left[0,\\frac{\\pi}{6}\\right)as0\\leq x<\\frac{\\pi}{6}\\Rightarrow0\\leq3x<\\frac{\\pi}{2}",
+            "after": "f^{\\prime}(x)>0for all x\\in\\left[0,\\frac{\\pi}{6}\\rightas0\\leq x<\\frac{\\pi}{6}\\Rightarrow0\\leq3x<\\frac{\\pi}{2}]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[0,\\frac{\\pi}{6}\\right)",
+            "after": "\\left[0,\\frac{\\pi}{6}\\right]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\left(\\frac{\\pi}{6},\\frac{\\pi}{2}\\right)\\right.",
+            "after": "\\left[\\left(\\frac{\\pi}{6},\\frac{\\pi}{2}\\right)\\right.]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\prime}(",
+            "after": "^{\\prime}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\in\\left[0,\\frac{\\pi}{4}\\right)\\cup\\left(\\frac{5\\pi}{4},2\\pi\\right]",
+            "after": "\\in\\left[0,\\frac{\\pi}{4}\\right\\cup\\left(\\frac{5\\pi}{4},2\\pi\\right])"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\prime}(",
+            "after": "^{\\prime}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\prime}(",
+            "after": "^{\\prime}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "</td><td>Nature of function</td></tr><tr><td>$$\\left[0,{\\frac{\\pi}{4}}\\right)",
+            "after": "</td><td>Nature of function</td></tr><tr><td>$$\\left[0,{\\frac{\\pi}{4}}\\right]"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\operatorname{I f}f^{\\prime}(x)",
+            "after": "\\mathrm{If}f^{\\prime}(x)"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\operatorname{I f}f^{\\prime}(x)",
+            "after": "\\mathrm{If}f^{\\prime}(x)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f (x)   }$\\dot{\\cdot}\\times\\dot{\\cdot}",
+            "after": "f (x)   $\\dot{\\cdot}\\times\\dot{\\cdot}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}f(x)&=2x^{3}-6x^{2}+6x+5\\\\\\begin{cases}f^{\\prime}(x)=6x^{2}-12x+6=6(x-1)^{2}\\\\f^{\\prime\\prime}(x)=12(x-1)\\end{cases}\\end{aligned}",
+            "after": "\\begin{aligned}f(x)&=2x^{3}-6x^{2}+6x+5\\\\begin{cases}f^{\\prime}(x)=6x^{2}-12x+6=6(x-1)^{2}\\\\f^{\\prime\\prime}(x)=12(x-1)\\end{cases}\\end{aligned}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{S}(x)=x^{2}+(15-x)^{2}=2x^{2}-30x+225\\\\\\begin{cases}\\mathrm{S}^{\\prime}(x)=4x-30\\\\\\mathrm{S}^{\\prime\\prime}(x)=4\\end{cases}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{S}(x)=x^{2}+(15-x)^{2}=2x^{2}-30x+225\\\\begin{cases}\\mathrm{S}^{\\prime}(x)=4x-30\\\\mathrm{S}^{\\prime\\prime}(x)=4\\end{cases}\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{S}\\equiv\\mathrm{S}(",
+            "after": "\\mathrm{S}\\equiv\\mathrm{S}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{S}\\equiv\\mathrm{S}(",
+            "after": "\\mathrm{S}\\equiv\\mathrm{S}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "sum of parallel sides)(height)\\\\&=",
+            "after": "sum of parallel sides(height)\\\\&="
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x+10+10)",
+            "after": "x+10+10"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x)=0",
+            "after": "x=0"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x)&=",
+            "after": "x&="
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{S}\\equiv\\mathrm{S}(",
+            "after": "\\mathrm{S}\\equiv\\mathrm{S}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{2\\pi x h(r-x)}{r}=\\frac{2\\pi h}{r}(",
+            "after": "\\frac{2\\pi x h(r-x)}{r}=\\frac{2\\pi h}{r}()"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}\\mathrm{S}",
+            "after": "\\begin{aligned}\\mathrm{S}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{2\\pi h}{r}(",
+            "after": "\\frac{2\\pi h}{r}()"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\frac{-4\\pi h}{r}\\end{aligned}\\right",
+            "after": "\\frac{-4\\pi h}{r}\\right"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "a,b]",
+            "after": "a,b"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "c)=0",
+            "after": "c=0"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "c)=0",
+            "after": "c=0"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x)=0",
+            "after": "x=0"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x)=0",
+            "after": "x=0"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(1)&=2(1^{3})-15(1^{2})+36(1)+1=24,\\\\f(2)&=2(2^{3})-15(2^{2})+36(2)+1=29,\\\\f(3)&=2(3^{3})-15(3^{2})+36(3)+1=28,\\\\f(5)&=2(5",
+            "after": "f(1)&=2(1^{3})-15(1^{2})+36(1)+1=24,\\\\f(2)&=2(2^{3})-15(2^{2})+36(2)+1=29,\\\\f(3)&=2(3^{3})-15(3^{2})+36(3)+1=28,\\\\f(5)&=2(5)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x)&=16x",
+            "after": "x&=16x"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\prime}(",
+            "after": "^{\\prime}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x)",
+            "after": "x"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "(",
+            "after": "()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": ",x^{2}+7)",
+            "after": ",x^{2}+7"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x)=0gives x=1or2x^2+2x+3=0",
+            "after": "x=0gives x=1or2x^2+2x+3=0"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)&=(2x-1)^2+3\\quad&(",
+            "after": "f(x)&=(2x-1)^2+3\\quad&()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)&=9x^2+12x+2\\\\(",
+            "after": "f(x)&=9x^2+12x+2\\\\()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f(x)&=-(x-1)^2+10\\quad&(",
+            "after": "f(x)&=-(x-1)^2+10\\quad&()"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}(",
+            "after": "\\begin{aligned}(\\end{aligned})"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{aligned}(",
+            "after": "()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{2}\\quad(",
+            "after": "^{2}\\quad()"
+        },
+        {
+            "type": "latex_fix",
+            "before": "f(x)=e^{x}\\quad(\\mathrm{i i})\\quad g(x)=\\log x$$\\begin{array}{r}{\\mathrm{(i i i)}\\quad h\\left(x\\right)=x^{3}+x^{2}+x+1}\\end{array}",
+            "after": "f(x)=e^{x}\\quad(\\mathrm{ii})\\quad g(x)=\\log x$$\\begin{array}{r}{\\mathrm{(i i i)}\\quad h\\left(x\\right)=x^{3}+x^{2}+x+1}\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{iv})",
+            "after": "\\mathrm{iv}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\sqrt{2},4)",
+            "after": "\\sqrt{2},4"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "(2",
+            "after": "(2)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x]_{t=4}=4^{2}\\left(2-\\frac{4}{3}\\right)=16\\left(\\frac{2}{3}\\right)=\\frac{32}{3}m ",
+            "after": "x_{t=4}=4^{2}\\left(2-\\frac{4}{3}\\right)=16\\left(\\frac{2}{3}\\right)=\\frac{32}{3}m "
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\Delta\\mathrm{M S N}\\sim\\Delta\\mathrm{A S B}",
+            "after": "\\Delta\\mathrm{MSN}\\sim\\Delta\\mathrm{ASB}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{AS}=3s\\left(\\mathrm{as}\\mathrm{MN}=\\right.",
+            "after": "\\mathrm{AS}=3s\\left(\\mathrm{as}\\mathrm{MN}=\\right.)"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}AM&=3s-s=2s.But AM=l\\\\l&=2s\\\\\\frac{dl}{dt}&=2\\frac{ds}{dt}\\end{aligned}",
+            "after": "\\begin{aligned}AM&=3s-s=2s.But AM=l\\\\l&=2s\\\\frac{dl}{dt}&=2\\frac{ds}{dt}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\prime}(",
+            "after": "^{\\prime}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\prime}(",
+            "after": "^{\\prime}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\tan^{-1}(\\sin",
+            "after": "\\tan^{-1}(\\sin)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " t)=2\\pi r",
+            "after": " t=2\\pi r"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " t\\right)\\\\=2",
+            "after": " t\\right\\\\=2"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}\\mathrm{V}(",
+            "after": "\\begin{aligned}\\mathrm{V}(\\end{aligned})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x)=0",
+            "after": "x=0"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " be the selling price of x items and let $$\\mathrm{C}\\left(",
+            "after": " be the selling price of x items and let $$\\mathrm{C}\\left()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x)=",
+            "after": "x="
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x\\right)",
+            "after": "x\\right"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\frac{2}{3}}\\right)^{\\frac{3}{2}}",
+            "after": "^{\\frac{2}{3}}\\right^{\\frac{3}{2}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\prime}(",
+            "after": "^{\\prime}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f'(x)\\right)",
+            "after": "f'(x)\\right"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " in\\quad(a,b)\\Rightarrow f(x_{1})<f(x",
+            "after": " in\\quad(a,b)\\Rightarrow f(x_{1})<f(x)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\prime}(",
+            "after": "^{\\prime}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "a,b)\\Rightarrow f(x_{1})>f(x",
+            "after": "a,b\\Rightarrow f(x_{1})>f(x)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\prime}(",
+            "after": "^{\\prime}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\prime}(",
+            "after": "^{\\prime}()"
+        },
+        {
+            "type": "latex_fix",
+            "before": " changes sign from positive to negative asincreases through c,i.e.,$$\\operatorname{if}",
+            "after": " changes sign from positive to negative asincreases through c,i.e.,$$\\mathrm{if}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\prime}(",
+            "after": "^{\\prime}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\prime}(",
+            "after": "^{\\prime}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\prime}(",
+            "after": "^{\\prime}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\prime}(",
+            "after": "^{\\prime}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\prime}(",
+            "after": "^{\\prime}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{\\prime}(",
+            "after": "^{\\prime}()"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

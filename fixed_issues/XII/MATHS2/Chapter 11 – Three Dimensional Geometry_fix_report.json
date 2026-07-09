@@ -1,0 +1,446 @@
+{
+    "chapter": "Chapter 11 – Three Dimensional Geometry",
+    "total_formulas": 588,
+    "repaired": 86,
+    "failed": 0,
+    "ocr_fixes": 185,
+    "latex_fixes": 86,
+    "markdown_fixes": 20,
+    "orphaned_latex_wrapped": 249,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.243,
+    "changes": [
+        {
+            "type": "latex_fix",
+            "before": "\\begin{aligned}y&=m r\\operatorname{and}z=n r\\\\x^{2}+y^{2}+z^{2}&=r^{2}\\left(l^{2}+m^{2}+n^{2}\\right)\\\\x^{2}+y^{2}+z^{2}&=r^{2}\\\\l^{2}+m^{2}+n^{2}&=1\\end{aligned}",
+            "after": "\\begin{aligned}y&=m r\\mathrm{and}z=n r\\\\x^{2}+y^{2}+z^{2}&=r^{2}\\left(l^{2}+m^{2}+n^{2}\\right)\\\\x^{2}+y^{2}+z^{2}&=r^{2}\\\\l^{2}+m^{2}+n^{2}&=1\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{[x,y}",
+            "after": "^{[x,y}]"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\frac{x_{2}-x_{1}}{\\mathrm{P Q}},\\frac{y_{2}-y_{1}}{\\mathrm{P Q}},\\frac{z_{2}-z_{1}}{\\mathrm{P Q}}",
+            "after": "\\frac{x_{2}-x_{1}}{\\mathrm{PQ}},\\frac{y_{2}-y_{1}}{\\mathrm{PQ}},\\frac{z_{2}-z_{1}}{\\mathrm{PQ}}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\overrightarrow{AP}&=\\overrightarrow{OP}-\\overrightarrow{OA},\\\\\\lambda\\vec{b}&=\\vec{r}-\\overrightarrow{a}\\end{aligned}",
+            "after": "\\begin{aligned}\\overrightarrow{AP}&=\\overrightarrow{OP}-\\overrightarrow{OA},\\\\lambda\\vec{b}&=\\vec{r}-\\overrightarrow{a}\\end{aligned}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "(\\operatorname{F i g}11.5)",
+            "after": "(\\mathrm{Fig}11.5)"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\overrightarrow{\\mathrm{A P}}\\overrightarrow{\\rightarrow}\\overrightarrow{\\mathrm{~}a}",
+            "after": "\\overrightarrow{\\mathrm{AP}}\\overrightarrow{\\rightarrow}\\overrightarrow{\\mathrm{~}a}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\vec{r}-\\vec{a}=\\vec{\\varphi}\\vec{b}-\\vec{a})",
+            "after": "\\vec{r}-\\vec{a}=\\vec{\\varphi}\\vec{b}-\\vec{a}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\scriptstyle{\\left(x_{v}\\right.}{\\left.y_{v}\\right.}",
+            "after": "\\scriptstyle{\\left(x_{v}\\right.}{\\left.y_{v}\\right.})"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\hat{a}&=\\hat{i}+2\\hat{k}\\\\\\hat{b}&=3\\hat{i}+4\\hat{j}+6\\hat{k}\\\\\\hat{b}&=\\hat{a}=4\\hat{i}+4\\hat{j}+4\\hat{k}\\end{aligned}",
+            "after": "\\begin{aligned}\\hat{a}&=\\hat{i}+2\\hat{k}\\\\hat{b}&=3\\hat{i}+4\\hat{j}+6\\hat{k}\\\\hat{b}&=\\hat{a}=4\\hat{i}+4\\hat{j}+4\\hat{k}\\end{aligned}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\vec{r}&=\\vec{a}_1+\\vec{b}_1and\\vec{r}=\\vec{a}_2+\\vec{b}_2\\\\\\cos\\theta&=\\left|\\frac{\\vec{b}_1\\cdot\\vec{b}_2}{\\left|\\vec{b}_1\\right|\\left|\\vec{b}_2\\right|}\\right|\\end{aligned}",
+            "after": "\\begin{aligned}\\vec{r}&=\\vec{a}_1+\\vec{b}_1and\\vec{r}=\\vec{a}_2+\\vec{b}_2\\\\cos\\theta&=\\left|\\frac{\\vec{b}_1\\cdot\\vec{b}_2}{\\left|\\vec{b}_1\\right|\\left|\\vec{b}_2\\right|}\\right|\\end{aligned}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\vec{b}_{1}=\\hat{i}+2\\hat{j}+2\\hat{k}\\mathrm{a n d}\\vec{b}_{2}=3\\hat{i}+2\\hat{j}+6\\hat{k}",
+            "after": "\\vec{b}_{1}=\\hat{i}+2\\hat{j}+2\\hat{k}\\mathrm{and}\\vec{b}_{2}=3\\hat{i}+2\\hat{j}+6\\hat{k}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\cos\\theta&=\\left|\\frac{\\vec{b}_1\\cdot\\vec{b}_2}{\\left|\\vec{b}_1\\right|\\left|\\vec{b}_2\\right|}\\right|=\\left|\\frac{(\\hat{i}+2\\hat{j}+2\\hat{k})\\cdot(3\\hat{i}+2\\hat{j}+6\\hat{k})}{\\sqrt{1+4+4}\\sqrt{9+4+36}}\\right|\\\\&=\\left|\\frac{3+4+12}{3\\times7}\\right|=\\frac{19}{21}\\\\\\theta&=\\cos^{-1}\\left(\\frac{19}{21}\\right)\\end{aligned} ublishe ",
+            "after": "\\begin{aligned}\\cos\\theta&=\\left|\\frac{\\vec{b}_1\\cdot\\vec{b}_2}{\\left|\\vec{b}_1\\right|\\left|\\vec{b}_2\\right|}\\right|=\\left|\\frac{(\\hat{i}+2\\hat{j}+2\\hat{k})\\cdot(3\\hat{i}+2\\hat{j}+6\\hat{k})}{\\sqrt{1+4+4}\\sqrt{9+4+36}}\\right|\\\\&=\\left|\\frac{3+4+12}{3\\times7}\\right|=\\frac{19}{21}\\\\theta&=\\cos^{-1}\\left(\\frac{19}{21}\\right)\\end{aligned} ublishe "
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\frac{x+3}{3}&=\\frac{y-1}{5}=\\frac{z+3}{4}\\\\\\frac{x+1}{1}&=\\frac{y-4}{1}=\\frac{z-5}{2}\\end{aligned}",
+            "after": "\\begin{aligned}\\frac{x+3}{3}&=\\frac{y-1}{5}=\\frac{z+3}{4}\\\\frac{x+1}{1}&=\\frac{y-4}{1}=\\frac{z-5}{2}\\end{aligned}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\vec{r}&=\\vec{a}_{1}+\\lambda\\vec{b}_{1}\\\\\\vec{r}&=\\vec{a}_{2}+\\mu\\vec{b}_{2}\\end{aligned}",
+            "after": "\\begin{aligned}\\vec{r}&=\\vec{a}_{1}+\\lambda\\vec{b}_{1}\\\\vec{r}&=\\vec{a}_{2}+\\mu\\vec{b}_{2}\\end{aligned}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\vec{\\underline{{b}}}_{1}",
+            "after": "\\vec{\\underline{b}}_{1}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\overrightarrow{\\mathrm{S T}}",
+            "after": "\\overrightarrow{\\mathrm{ST}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\overrightarrow{\\mathrm{P Q}}",
+            "after": "\\overrightarrow{\\mathrm{PQ}}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\overrightarrow{PQ}&=\\overrightarrow{ST}\\mid\\cos\\theta\\mid\\\\\\cos\\theta&=\\left|\\frac{\\overrightarrow{PQ}\\cdot\\overrightarrow{ST}}{\\left|\\overrightarrow{PQ}\\mid\\mid\\overrightarrow{ST}\\mid}\\right|\\right.\\\\&=\\left|\\frac{d\\ \\hat{n}\\cdot(\\vec{a_2}-\\vec{a_1})}{d\\ ST}\\right|\\quad(since\\overrightarrow{ST}=\\vec{a_2}-\\vec{a_1})\\\\&=\\left|\\frac{(\\vec{b_1}\\times\\vec{b_2})\\cdot(\\vec{a_2}-\\vec{a_1})}{ST\\left|\\vec{b_1}\\times\\vec{b_2}\\right|}\\right|\\quad[From(3)]\\end{aligned}",
+            "after": "\\begin{aligned}\\overrightarrow{PQ}&=\\overrightarrow{ST}\\mid\\cos\\theta\\mid\\\\cos\\theta&=\\left|\\frac{\\overrightarrow{PQ}\\cdot\\overrightarrow{ST}}{\\left|\\overrightarrow{PQ}\\mid\\mid\\overrightarrow{ST}\\mid}\\right|\\right.\\\\&=\\left|\\frac{d\\ \\hat{n}\\cdot(\\vec{a_2}-\\vec{a_1})}{d\\ ST}\\right|\\quad(since\\overrightarrow{ST}=\\vec{a_2}-\\vec{a_1})\\\\&=\\left|\\frac{(\\vec{b_1}\\times\\vec{b_2})\\cdot(\\vec{a_2}-\\vec{a_1})}{ST\\left|\\vec{b_1}\\times\\vec{b_2}\\right|}\\right|\\quad[From(3)]\\end{aligned}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\overrightarrow{PQ}&=\\overrightarrow{ST}\\mid\\cos\\theta\\mid\\\\\\cos\\theta&=\\left|\\frac{\\overrightarrow{PQ}\\cdot\\overrightarrow{ST}}{\\left|\\overrightarrow{PQ}\\mid\\mid\\overrightarrow{ST}\\mid}\\right|\\right.\\\\&=\\left|\\frac{d\\ \\hat{n}\\cdot(\\vec{a_2}-\\vec{a_1})}{d\\ ST}\\right|\\quad(since\\overrightarrow{ST}=\\vec{a_2}-\\vec{a_1})\\\\&=\\left|\\frac{(\\vec{b_1}\\times\\vec{b_2})\\cdot(\\vec{a_2}-\\vec{a_1})}{ST\\left|\\vec{b_1}\\times\\vec{b_2}\\right|}\\right|\\quad[From(3)]\\end{aligned}",
+            "after": "\\begin{aligned}\\overrightarrow{PQ}&=\\overrightarrow{ST}\\mid\\cos\\theta\\mid\\\\cos\\theta&=\\left|\\frac{\\overrightarrow{PQ}\\cdot\\overrightarrow{ST}}{\\left|\\overrightarrow{PQ}\\mid\\mid\\overrightarrow{ST}\\mid}\\right|\\right.\\\\&=\\left|\\frac{d\\ \\hat{n}\\cdot(\\vec{a_2}-\\vec{a_1})}{d\\ ST}\\right|\\quad(since\\overrightarrow{ST}=\\vec{a_2}-\\vec{a_1})\\\\&=\\left|\\frac{(\\vec{b_1}\\times\\vec{b_2})\\cdot(\\vec{a_2}-\\vec{a_1})}{ST\\left|\\vec{b_1}\\times\\vec{b_2}\\right|}\\right|\\quad[From(3)]\\end{aligned}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "l_{_2}\\mathrm{F i g}11.9",
+            "after": "l_{_2}\\mathrm{Fig}11.9"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\overrightarrow{\\mathrm{S T}}",
+            "after": "\\overrightarrow{\\mathrm{ST}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "l_{\\mathrm{{_1}}}",
+            "after": "l_{\\mathrm{_1}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\overrightarrow{\\mathrm{S T}}=\\vec{a}_{2}\\overline{{\\overline{{a}}_{1}}}",
+            "after": "\\overrightarrow{\\mathrm{ST}}=\\vec{a}_{2}\\overline{{\\overline{a}_{1}}}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\vec{r}&=\\hat{i}+\\hat{j}+\\lambda(2\\hat{i}-\\hat{j}+\\hat{k})\\\\\\vec{r}&=2\\hat{i}+\\hat{j}-\\hat{k}+\\mu(3\\hat{i}-5\\hat{j}+2\\hat{k})\\end{aligned}",
+            "after": "\\begin{aligned}\\vec{r}&=\\hat{i}+\\hat{j}+\\lambda(2\\hat{i}-\\hat{j}+\\hat{k})\\\\vec{r}&=2\\hat{i}+\\hat{j}-\\hat{k}+\\mu(3\\hat{i}-5\\hat{j}+2\\hat{k})\\end{aligned}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\vec{a}_{1}&=\\hat{i}+\\hat{j},\\vec{b}_{1}=2\\hat{i}-\\hat{j}+\\hat{k}\\\\\\vec{a}_{2}&=2\\hat{i}+\\hat{j}-\\hat{k}and\\vec{b}_{2}=3\\hat{i}-5\\hat{j}+2\\hat{k}\\end{aligned}",
+            "after": "\\begin{aligned}\\vec{a}_{1}&=\\hat{i}+\\hat{j},\\vec{b}_{1}=2\\hat{i}-\\hat{j}+\\hat{k}\\\\vec{a}_{2}&=2\\hat{i}+\\hat{j}-\\hat{k}and\\vec{b}_{2}=3\\hat{i}-5\\hat{j}+2\\hat{k}\\end{aligned}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{a n d}(5,-2,3)",
+            "after": "\\mathrm{and}(5,-2,3)"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{align*}(i)\\quad\\vec{r}&=2\\hat{i}-5\\hat{j}+\\hat{k}+\\lambda(3\\hat{i}+2\\hat{j}+6\\hat{k})\\quad and\\\\\\vec{r}&=7\\hat{i}-6\\hat{k}+\\mu(\\hat{i}+2\\hat{j}+2\\hat{k})\\\\(ii)\\quad\\vec{r}&=3\\hat{i}+\\hat{j}-2\\hat{k}+\\lambda(\\hat{i}-\\hat{j}-2\\hat{k})\\quad and\\\\\\vec{r}&=2\\hat{i}-\\hat{j}-56\\hat{k}+\\mu(3\\hat{i}-5\\hat{j}-4\\hat{k})\\end{align*}",
+            "after": "\\begin{align*}(i)\\quad\\vec{r}&=2\\hat{i}-5\\hat{j}+\\hat{k}+\\lambda(3\\hat{i}+2\\hat{j}+6\\hat{k})\\quad and\\\\vec{r}&=7\\hat{i}-6\\hat{k}+\\mu(\\hat{i}+2\\hat{j}+2\\hat{k})\\\\(ii)\\quad\\vec{r}&=3\\hat{i}+\\hat{j}-2\\hat{k}+\\lambda(\\hat{i}-\\hat{j}-2\\hat{k})\\quad and\\\\vec{r}&=2\\hat{i}-\\hat{j}-56\\hat{k}+\\mu(3\\hat{i}-5\\hat{j}-4\\hat{k})\\end{align*}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\neq0\\right).\\mathrm{Fig}11.10",
+            "after": "\\neq0\\right.\\mathrm{Fig}11.10"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\overrightarrow{\\mathrm{N P}}$ is perpendicular to ",
+            "after": "\\overrightarrow{\\mathrm{NP}}$ is perpendicular to "
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathbf{P}(",
+            "after": "\\mathbf{P}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x_{1},y_{1},z_{1})",
+            "after": "x_{1},y_{1},z_{1}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{1}\\right)\\hat{i}+\\left(",
+            "after": "_{1}\\right\\hat{i}+\\left()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{1}\\right)\\hat{j}+\\left(",
+            "after": "_{1}\\right\\hat{j}+\\left()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{1}\\right)\\hat{k}\\right]\\cdot\\left(\\hat{A}\\hat{i}+\\hat{B}\\hat{j}+\\hat{C}\\hat{k}\\right)=0",
+            "after": "_{1}\\right\\hat{k}\\right\\cdot\\left(\\hat{A}\\hat{i}+\\hat{B}\\hat{j}+\\hat{C}\\hat{k}\\right)=0"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathbf{A}\\left(",
+            "after": "\\mathbf{A}\\left()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{1}\\right)+\\mathbf{B}\\left(",
+            "after": "_{1}\\right+\\mathbf{B}\\left()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{1}\\right)+\\mathbf{C}\\left(",
+            "after": "_{1}\\right+\\mathbf{C}\\left()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{1}\\right)=0",
+            "after": "_{1}\\right=0"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\vec{r}\\vec{\\bar{a}}).\\vec{\\bar{\\mathrm{N}}}\\vec{\\bar{\\bar{a}}}",
+            "after": "\\vec{r}\\vec{\\bar{a}}.\\vec{\\bar{\\mathrm{N}}}\\vec{\\bar{\\bar{a}}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\widetilde{\\mathrm{R S}}\\times\\widetilde{\\mathrm{R T}}",
+            "after": "\\widetilde{\\mathrm{RS}}\\times\\widetilde{\\mathrm{RT}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "(\\vec{r}-\\vec{a})\\cdot(\\vec{\\mathrm{R S}}\\times\\vec{\\mathrm{R T}})=0",
+            "after": "(\\vec{r}-\\vec{a})\\cdot(\\vec{\\mathrm{RS}}\\times\\vec{\\mathrm{RT}})=0"
+        },
+        {
+            "type": "latex_fix",
+            "before": "(x_{1},y_{1},z_{1}),(x_{2},y_{2},z_{2})\\mathrm{a n d}(x_{3},y_{3},z_{3})",
+            "after": "(x_{1},y_{1},z_{1}),(x_{2},y_{2},z_{2})\\mathrm{and}(x_{3},y_{3},z_{3})"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\overrightarrow{\\mathrm{RP}}&=(x-x_{1})\\hat{i}+(y-y_{1})\\hat{j}+(z-z_{1})\\hat{k}\\\\\\overrightarrow{\\mathrm{RS}}&=(x_{2}-x_{1})\\hat{i}+(y_{2}-y_{1})\\hat{j}+(z_{2}-z_{1})\\hat{k}\\\\\\overrightarrow{\\mathrm{RT}}&=(x_{3}-x_{1})\\hat{i}+(y_{3}-y_{1})\\hat{j}+(z_{3}-z_{1})\\hat{k}\\end{aligned}",
+            "after": "\\begin{aligned}\\overrightarrow{\\mathrm{RP}}&=(x-x_{1})\\hat{i}+(y-y_{1})\\hat{j}+(z-z_{1})\\hat{k}\\\\overrightarrow{\\mathrm{RS}}&=(x_{2}-x_{1})\\hat{i}+(y_{2}-y_{1})\\hat{j}+(z_{2}-z_{1})\\hat{k}\\\\overrightarrow{\\mathrm{RT}}&=(x_{3}-x_{1})\\hat{i}+(y_{3}-y_{1})\\hat{j}+(z_{3}-z_{1})\\hat{k}\\end{aligned}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\vec{t}\\cdot\\hat{n}_{1}=d_{1}\\mathrm{a n d}\\vec{t}\\cdot\\hat{n}_{2}=d_{2}",
+            "after": "\\vec{t}\\cdot\\hat{n}_{1}=d_{1}\\mathrm{and}\\vec{t}\\cdot\\hat{n}_{2}=d_{2}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}\\vec{r}\\cdot\\vec{n}_{1}",
+            "after": "\\begin{aligned}\\vec{r}\\cdot\\vec{n}_{1}\\end{aligned}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left(\\mathrm{A}_{1}",
+            "after": "\\left(\\mathrm{A}_{1})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{1}\\right)+\\lambda\\left(\\mathrm{A}_{2}",
+            "after": "_{1}\\right+\\lambda\\left(\\mathrm{A}_{2})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{2}\\right)=0",
+            "after": "_{2}\\right=0"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}\\vec{r}",
+            "after": "\\begin{aligned}\\vec{r}\\end{aligned}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "$\\begin{array}{r l}$&{$\\overline{{\\mathrm{A B}}}=_{(x_{2}-x_{1})}\\hat{i}+_{(y_{2}-y_{1})}\\hat{j}+_{(z_{2}-z_{1})\\hat{k}}$}\\\\ &{$\\vec{b}_{1}=_{a_{1}}\\hat{i}+_{b_{1}}\\hat{j}+_{c_{1}}\\hat{k}\\mathrm{~a n d~}\\vec{b}_{2}=_{a_{2}}\\hat{i}+_{b_{2}}\\hat{j}+_{c_{2}}\\hat{k}$.}$\\end{array}",
+            "after": "$\\begin{array}{r l}$&{$\\overline{{\\mathrm{AB}}}=_{(x_{2}-x_{1})}\\hat{i}+_{(y_{2}-y_{1})}\\hat{j}+_{(z_{2}-z_{1})\\hat{k}}$}\\\\ &{$\\vec{b}_{1}=_{a_{1}}\\hat{i}+_{b_{1}}\\hat{j}+_{c_{1}}\\hat{k}\\mathrm{~a n d~}\\vec{b}_{2}=_{a_{2}}\\hat{i}+_{b_{2}}\\hat{j}+_{c_{2}}\\hat{k}$.}$\\end{array}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{vmatrix}",
+            "after": "\\begin{vmatrix}\\end{vmatrix}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\vec{r}^{\\prime}\\vec{n}_{1}=d_{1}\\mathrm{a n d}\\vec{r}.\\vec{n}_{2}=d_{2}.Then θ isthe angle bet ween thenormals to the planes drawn from some common ",
+            "after": "\\vec{r}^{\\prime}\\vec{n}_{1}=d_{1}\\mathrm{and}\\vec{r}.\\vec{n}_{2}=d_{2}.Then θ isthe angle bet ween thenormals to the planes drawn from some common "
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\vec{r}^{\\prime}\\vec{n}_{1}=d_{1}\\mathrm{a n d}\\vec{r}.\\vec{n}_{2}=d_{2}.",
+            "after": "\\vec{r}^{\\prime}\\vec{n}_{1}=d_{1}\\mathrm{and}\\vec{r}.\\vec{n}_{2}=d_{2}."
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\overrightarrow{\\mathrm{N}}_{1}&=2\\hat{i}+\\hat{j}-2\\hat{k}and\\overrightarrow{\\mathrm{N}}_{2}=3\\hat{i}-6\\hat{j}-2\\hat{k}\\\\\\cos\\theta&=\\left|\\frac{\\overrightarrow{\\mathrm{N}}_{1}\\cdot\\overrightarrow{\\mathrm{N}}_{2}}{\\left|\\overrightarrow{\\mathrm{N}}_{1}\\right|\\left|\\overrightarrow{\\mathrm{N}}_{2}\\right|}\\right|=\\left|\\frac{(2\\hat{i}+\\hat{j}-2\\hat{k})\\cdot(3\\hat{i}-6\\hat{j}-2\\hat{k})}{\\sqrt{4+1+4}\\sqrt{9+36+4}}\\right|=\\left(\\frac{4}{21}\\right)\\\\\\theta&=\\cos^{-1}\\left(\\frac{4}{21}\\right)\\end{aligned}",
+            "after": "\\begin{aligned}\\overrightarrow{\\mathrm{N}}_{1}&=2\\hat{i}+\\hat{j}-2\\hat{k}and\\overrightarrow{\\mathrm{N}}_{2}=3\\hat{i}-6\\hat{j}-2\\hat{k}\\\\cos\\theta&=\\left|\\frac{\\overrightarrow{\\mathrm{N}}_{1}\\cdot\\overrightarrow{\\mathrm{N}}_{2}}{\\left|\\overrightarrow{\\mathrm{N}}_{1}\\right|\\left|\\overrightarrow{\\mathrm{N}}_{2}\\right|}\\right|=\\left|\\frac{(2\\hat{i}+\\hat{j}-2\\hat{k})\\cdot(3\\hat{i}-6\\hat{j}-2\\hat{k})}{\\sqrt{4+1+4}\\sqrt{9+36+4}}\\right|=\\left(\\frac{4}{21}\\right)\\\\theta&=\\cos^{-1}\\left(\\frac{4}{21}\\right)\\end{aligned}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}A_{1}x+B_{1}y+C_{1}z+D_{1}&=0\\quad and\\quad A_{2}x+B_{2}y+C_{2}z+D_{2}=0\\\\A_{1}&=3,B_{1}=-6,C_{1}=2\\\\A_{2}&=2,B_{2}=2,C_{2}=-2\\\\\\cos\\theta&=\\left|\\frac{3\\times2+\\left(-6\\right)\\left(2\\right)+\\left(2\\right)\\left(-2\\right)}{\\sqrt{\\left(3^{2}+\\left(-6\\right)^{2}+\\left(-2\\right)^{2}\\right)\\sqrt{\\left(2^{2}+2^{2}+\\left(-2\\right)^{2}\\right)}}}\\right|\\\\&=\\left|\\frac{-10}{7\\times2\\sqrt{3}}\\right|=\\frac{5}{7\\sqrt{3}}=\\frac{5\\sqrt{3}}{21}\\\\\\theta&=\\cos^{1}\\left(\\frac{5\\sqrt{3}}{21}\\right)\\end{aligned} UL.ish ",
+            "after": "\\begin{aligned}A_{1}x+B_{1}y+C_{1}z+D_{1}&=0\\quad and\\quad A_{2}x+B_{2}y+C_{2}z+D_{2}=0\\\\A_{1}&=3,B_{1}=-6,C_{1}=2\\\\A_{2}&=2,B_{2}=2,C_{2}=-2\\\\cos\\theta&=\\left|\\frac{3\\times2+\\left(-6\\right)\\left(2\\right)+\\left(2\\right)\\left(-2\\right)}{\\sqrt{\\left(3^{2}+\\left(-6\\right)^{2}+\\left(-2\\right)^{2}\\right)\\sqrt{\\left(2^{2}+2^{2}+\\left(-2\\right)^{2}\\right)}}}\\right|\\\\&=\\left|\\frac{-10}{7\\times2\\sqrt{3}}\\right|=\\frac{5}{7\\sqrt{3}}=\\frac{5\\sqrt{3}}{21}\\\\theta&=\\cos^{1}\\left(\\frac{5\\sqrt{3}}{21}\\right)\\end{aligned} UL.ish "
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\vec{r}\\cdot\\hat{n}=d\\left(\\operatorname{Fig}11.19\\right)",
+            "after": "\\vec{r}\\cdot\\hat{n}=d\\left(\\mathrm{Fig}11.19\\right)"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{O N}-\\mathrm{O N}^{\\prime}=|d-\\vec{a}^{\\bullet}\\hat{n}|",
+            "after": "\\mathrm{ON}-\\mathrm{ON}^{\\prime}=|d-\\vec{a}^{\\bullet}\\hat{n}|"
+        },
+        {
+            "type": "latex_fix",
+            "before": "(\\mathrm{s i n c e}\\vec{a}=0)",
+            "after": "(\\mathrm{since}\\vec{a}=0)"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\vec{a}&=x_{1}\\hat{i}+y_{1}\\hat{j}+z_{1}\\hat{k}\\\\\\vec{N}&=\\mathbf{A}\\hat{i}+\\mathbf{B}\\hat{j}+\\mathbf{C}\\hat{k}\\end{aligned}",
+            "after": "\\begin{aligned}\\vec{a}&=x_{1}\\hat{i}+y_{1}\\hat{j}+z_{1}\\hat{k}\\\\vec{N}&=\\mathbf{A}\\hat{i}+\\mathbf{B}\\hat{j}+\\mathbf{C}\\hat{k}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "&(-",
+            "after": "&(-)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "&(10",
+            "after": "&(10)"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\\\\\sin\\phi=&\\left|",
+            "after": "\\\\sin\\phi=&\\left|"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "s-2t)",
+            "after": "s-2t"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "t)",
+            "after": "t"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "s+t)",
+            "after": "s+t"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\vec{r}\\cdot(2",
+            "after": "\\vec{r}\\cdot(2)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\hat{k})=5",
+            "after": "\\hat{k}=5"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\vec{r}\\cdot(3",
+            "after": "\\vec{r}\\cdot(3)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\hat{k})=3",
+            "after": "\\hat{k}=3"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " , respectively.Tal]Let $l,m,n$ AF, G , .h maes angles ",
+            "after": " , respectively.TalLet $l,m,n$ AF, G , .h maes angles "
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\cos\\alpha&=\\frac{1}{\\sqrt{3}}(l+m+n);\\cos\\beta=\\frac{1}{\\sqrt{3}}(-l+m+n);\\\\\\cos\\gamma&=\\frac{1}{\\sqrt{3}}(l-m+n);\\cos\\delta=\\frac{1}{\\sqrt{3}}(l+m-n)\\quad(\\mathrm{Why?})\\end{aligned}",
+            "after": "\\begin{aligned}\\cos\\alpha&=\\frac{1}{\\sqrt{3}}(l+m+n);\\cos\\beta=\\frac{1}{\\sqrt{3}}(-l+m+n);\\\\cos\\gamma&=\\frac{1}{\\sqrt{3}}(l-m+n);\\cos\\delta=\\frac{1}{\\sqrt{3}}(l+m-n)\\quad(\\mathrm{Why?})\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{align*}\\cos^{2}\\alpha&+\\cos^{2}\\beta+\\cos^{2}\\gamma+\\cos^{2}\\delta\\\\&=\\frac{1}{3}\\left[(l+m+n)^{2}+(-l+m+n)^{2}\\right]+(l-m+n)^{2}+(l+m-n)^{2}]\\\\&=\\frac{1}{3}\\left[4\\left(l^{2}+m^{2}+n^{2}\\right)\\right]=\\frac{4}{3}\\left(\\asymp\\frac{1}{2}+m^{2}+n^{2}=1\\right)\\end{align*}",
+            "after": "\\begin{align*}\\cos^{2}\\alpha&+\\cos^{2}\\beta+\\cos^{2}\\gamma+\\cos^{2}\\delta\\\\&=\\frac{1}{3}\\left[(l+m+n)^{2}+(-l+m+n)^{2}\\right]+(l-m+n)^{2}+(l+m-n)^{2}\\\\&=\\frac{1}{3}\\left[4\\left(l^{2}+m^{2}+n^{2}\\right)\\right]=\\frac{4}{3}\\left(\\asymp\\frac{1}{2}+m^{2}+n^{2}=1\\right)\\end{align*}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\overrightarrow{\\mathrm{A P}}\\;\\mathrm{o n}\\;\\overrightarrow{\\mathrm{A B}}\\;\\times\\overrightarrow{\\mathrm{A C}}",
+            "after": "\\overrightarrow{\\mathrm{AP}}\\;\\mathrm{on}\\;\\overrightarrow{\\mathrm{AB}}\\;\\times\\overrightarrow{\\mathrm{AC}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\scriptstyle{\\overrightarrow{\\mathrm{A B}}}\\;\\times\\;{\\overrightarrow{\\mathrm{A C}}}",
+            "after": "\\scriptstyle{\\overrightarrow{\\mathrm{AB}}}\\;\\times\\;{\\overrightarrow{\\mathrm{AC}}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\overrightarrow{\\mathrm{A P}}=3\\hat{i}+6\\hat{j}+7\\hat{k}",
+            "after": "\\overrightarrow{\\mathrm{AP}}=3\\hat{i}+6\\hat{j}+7\\hat{k}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\overrightarrow{\\mathrm{A B}}\\times\\overrightarrow{\\mathrm{A C}}=\\frac{3\\hat{i}-4\\hat{j}+3\\hat{k}}{\\sqrt{34}}",
+            "after": "\\overrightarrow{\\mathrm{AB}}\\times\\overrightarrow{\\mathrm{AC}}=\\frac{3\\hat{i}-4\\hat{j}+3\\hat{k}}{\\sqrt{34}}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "EF \\begin{aligned}\\frac{x-a+d}{\\alpha-\\delta}&=\\frac{y-a}{\\alpha}=\\frac{z-a-d}{\\alpha+\\delta}\\\\\\frac{x-b+c}{\\beta-\\gamma}&=\\frac{y-b}{\\beta}=\\frac{z-b-c}{\\beta+\\gamma}arecapanar\\end{aligned}",
+            "after": "EF \\begin{aligned}\\frac{x-a+d}{\\alpha-\\delta}&=\\frac{y-a}{\\alpha}=\\frac{z-a-d}{\\alpha+\\delta}\\\\frac{x-b+c}{\\beta-\\gamma}&=\\frac{y-b}{\\beta}=\\frac{z-b-c}{\\beta+\\gamma}arecapanar\\end{aligned}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\vec{r}=&3\\hat{i}+4\\hat{j}+\\hat{k}+\\lambda\\left[(5-3)\\hat{i}+(1-4)\\hat{j}+(6-1)\\hat{k}\\right]\\\\\\vec{r}=&3\\hat{i}+4\\hat{j}+\\hat{k}+\\lambda\\left(2\\hat{i}-3\\hat{j}+5\\hat{k}\\right)\\end{aligned}",
+            "after": "\\begin{aligned}\\vec{r}=&3\\hat{i}+4\\hat{j}+\\hat{k}+\\lambda\\left[(5-3)\\hat{i}+(1-4)\\hat{j}+(6-1)\\hat{k}\\right]\\\\vec{r}=&3\\hat{i}+4\\hat{j}+\\hat{k}+\\lambda\\left(2\\hat{i}-3\\hat{j}+5\\hat{k}\\right)\\end{aligned}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\operatorname{I f}\\ell,m,",
+            "after": "\\mathrm{If}\\ell,m,"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\vec{r}=\\vec{a}_{1}+\\lambda\\vec{b}_{1}\\quad\\mathrm{a n d}\\quad\\vec{r}=\\vec{a}_{2}+\\lambda\\vec{b}_{2}",
+            "after": "\\vec{r}=\\vec{a}_{1}+\\lambda\\vec{b}_{1}\\quad\\mathrm{and}\\quad\\vec{r}=\\vec{a}_{2}+\\lambda\\vec{b}_{2}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\frac{\\left|\\begin{array}{ccc}x_{2}-x_{1}&y_{2}-y_{1}&z_{2}-z_{1}\\\\a_{1}&b_{1}&c_{1}\\\\a_{2}&b_{2}&c_{2}\\\\\\end{array}\\right|}{\\sqrt{\\left(b_{1}c_{2}-b_{2}c_{1}\\right)^{2}+\\left(c_{1}a_{2}-c_{2}a_{1}\\right)^{2}+\\left(a_{1}b_{2}-a_{2}b_{1}\\right)^{2}}} \\frac{\\left|\\begin{array}{ccc}x_{2}-x_{1}&y_{2}-y_{1}&z_{2}-z_{1}\\\\a_{1}&b_{1}&c_{1}\\\\a_{2}&b_{2}&c_{2}\\\\\\end{array}\\right|}{\\sqrt{\\left(b_{1}c_{2}-b_{2}c_{1}\\right)^{2}+\\left(c_{1}a_{2}-c_{2}a_{1}\\right)^{2}+\\left(a_{1}b_{2}-a_{2}b_{1}\\right)^{2}}}",
+            "after": "\\frac{\\left|\\begin{array}{ccc}x_{2}-x_{1}&y_{2}-y_{1}&z_{2}-z_{1}\\\\a_{1}&b_{1}&c_{1}\\\\a_{2}&b_{2}&c_{2}\\\\end{array}\\right|}{\\sqrt{\\left(b_{1}c_{2}-b_{2}c_{1}\\right)^{2}+\\left(c_{1}a_{2}-c_{2}a_{1}\\right)^{2}+\\left(a_{1}b_{2}-a_{2}b_{1}\\right)^{2}}} \\frac{\\left|\\begin{array}{ccc}x_{2}-x_{1}&y_{2}-y_{1}&z_{2}-z_{1}\\\\a_{1}&b_{1}&c_{1}\\\\a_{2}&b_{2}&c_{2}\\\\end{array}\\right|}{\\sqrt{\\left(b_{1}c_{2}-b_{2}c_{1}\\right)^{2}+\\left(c_{1}a_{2}-c_{2}a_{1}\\right)^{2}+\\left(a_{1}b_{2}-a_{2}b_{1}\\right)^{2}}}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\left|\\begin{array}{c c c}x-x_{1}&y-y_{1}&z-z_{1}\\\\x_{2}-x_{1}&y_{2}-y_{1}&z_{2}-z_{1}\\\\x_{3}-x_{1}&y_{3}-y_{1}&z_{3}-z_{1}\\\\\\end{array}\\right|=0",
+            "after": "\\left|\\begin{array}{c c c}x-x_{1}&y-y_{1}&z-z_{1}\\\\x_{2}-x_{1}&y_{2}-y_{1}&z_{2}-z_{1}\\\\x_{3}-x_{1}&y_{3}-y_{1}&z_{3}-z_{1}\\\\end{array}\\right|=0"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\frac{y-y_{2}}{b_{2}}=\\frac{z-z_{2}}{C_{2}}\\arctan\\left|\\begin{matrix}x_{2}-x_{1}&y_{2}-y_{1}&z_{2}-z_{1}\\\\a_{1}&b_{1}&c_{1}\\\\a_{2}&b_{2}&c_{2}\\\\\\end{matrix}\\right|=0.",
+            "after": "\\frac{y-y_{2}}{b_{2}}=\\frac{z-z_{2}}{C_{2}}\\arctan\\left|\\begin{matrix}x_{2}-x_{1}&y_{2}-y_{1}&z_{2}-z_{1}\\\\a_{1}&b_{1}&c_{1}\\\\a_{2}&b_{2}&c_{2}\\\\end{matrix}\\right|=0."
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\vec{r}\\cdot\\vec{n}_{2}=d_{2},\\mathrm{t h e n}\\theta=\\cos^{-1}\\frac{\\left|\\vec{n}_{1}\\cdot\\vec{n}_{2}\\right|}{\\left|\\vec{n}_{1}\\right|\\left|\\vec{n}_{2}\\right|}.",
+            "after": "\\vec{r}\\cdot\\vec{n}_{2}=d_{2},\\mathrm{then}\\theta=\\cos^{-1}\\frac{\\left|\\vec{n}_{1}\\cdot\\vec{n}_{2}\\right|}{\\left|\\vec{n}_{1}\\right|\\left|\\vec{n}_{2}\\right|}."
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

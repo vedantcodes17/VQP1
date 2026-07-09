@@ -1,0 +1,341 @@
+{
+    "chapter": "Chapter 9 – Mechanical Properties of Fluids",
+    "total_formulas": 246,
+    "repaired": 65,
+    "failed": 0,
+    "ocr_fixes": 174,
+    "latex_fixes": 65,
+    "markdown_fixes": 6,
+    "orphaned_latex_wrapped": 274,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.083,
+    "changes": [
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{k g}\\mathrm{m}^{-3}",
+            "after": "\\mathrm{kg}\\mathrm{m}^{-3}"
+        },
+        {
+            "type": "script_fix",
+            "before": "1.03\\times10^{^3}",
+            "after": "1.03\\times10^{3}"
+        },
+        {
+            "type": "script_fix",
+            "before": "13.6\\times10^{^3}",
+            "after": "13.6\\times10^{3}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "F=40\\;\\mathrm{k g}\\;\\mathrm{w t}=400\\;\\mathrm{N}",
+            "after": "F=40\\;\\mathrm{kg}\\;\\mathrm{wt}=400\\;\\mathrm{N}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "g=10\\mathrm{~m~}\\mathrm{s^{-2}})",
+            "after": "g=10\\mathrm{~m~}\\mathrm{s^{-2}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "P_{a v}=\\frac{F}{A}=2\\times10^{5}~\\mathrm{N m}^{-2}",
+            "after": "P_{a v}=\\frac{F}{A}=2\\times10^{5}~\\mathrm{Nm}^{-2}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "&{{",
+            "after": "&{{}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}}\\\\ {{A",
+            "after": "\\\\ {{A}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": ",}}&{{A",
+            "after": ",&{{A}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}}",
+            "after": ""
+        },
+        {
+            "type": "brace_fix",
+            "before": "_{\\mathrm{{r}}}",
+            "after": "_{\\mathrm{r}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left(P",
+            "after": "\\left(P)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "A\\right)",
+            "after": "A\\right"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\\\ {=2.01",
+            "after": "\\\\ {=2.01}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\\\ {",
+            "after": "\\\\ {}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}",
+            "after": ""
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\\\ {=2.01",
+            "after": "\\\\ {=2.01}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\\\ {",
+            "after": "\\\\ {}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}",
+            "after": ""
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{r l}",
+            "after": "\\begin{array}{r l}\\end{array}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\quad=103\\times10^{\\mathrm{5}}\\mathrm{P a}",
+            "after": "\\quad=103\\times10^{\\mathrm{5}}\\mathrm{Pa}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\quad\\approx103\\mathrm{a t m}",
+            "after": "\\quad\\approx103\\mathrm{atm}"
+        },
+        {
+            "type": "script_fix",
+            "before": "P\\times A_{_2}^{^2}",
+            "after": "P\\times A_{_2}^{2}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left(\\varrho=9.8~",
+            "after": "\\left(\\varrho=9.8~)"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{r l}",
+            "after": "\\begin{array}{r l}\\end{array}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "_{_{\\mathrm{Q}}}\\mathrm{o r}\\quad\\nu_{_{\\mathrm{R}}}",
+            "after": "_{_{\\mathrm{Q}}}\\mathrm{or}\\quad\\nu_{_{\\mathrm{R}}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\nu_{_1}\\Delta$ t$\\mathbin{\\mathrm{t o}}\\mathbb{C}\\left(\\nu_{_1}\\Delta\\right$. t is small enough to assume constant cross-section along BC). In the same interval ∆t the fluid initially at D moves to E, a distance equal to ",
+            "after": "\\nu_{_1}\\Delta$ t$\\mathbin{\\mathrm{to}}\\mathbb{C}\\left(\\nu_{_1}\\Delta\\right$. t is small enough to assume constant cross-section along BC). In the same interval ∆t the fluid initially at D moves to E, a distance equal to "
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{2}(\\nu_{2}\\Delta",
+            "after": "_{2}(\\nu_{2}\\Delta)"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{o r}",
+            "after": "\\mathrm{or}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "$\\overbrace{v,\\mathrm{a t}}$ NOL ",
+            "after": "$\\overbrace{v,\\mathrm{at}}$ NOL "
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "&{P",
+            "after": "&{P}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " g h_{_{2}}}\\\\ &{\\left(P_{_{1}}-P",
+            "after": " g h_{_{2}}\\\\ &{\\left(P_{_{1}}-P})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " g\\left(h_{_{2}}-h",
+            "after": " g\\left(h_{_{2}}-h)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}",
+            "after": ""
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "environment_close",
+            "before": "_{_{1}}\\end{aligned}\\right",
+            "after": "_{_{1}}\\right"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left(3.3\\times10^{5}",
+            "after": "\\left(3.3\\times10^{5})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{-2}\\right)",
+            "after": "^{-2}\\right"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{\\rho}{2}\\left(",
+            "after": "\\frac{\\rho}{2}\\left()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " is the speed of air over the upper surface and (b ",
+            "after": " is the speed of air over the upper surface and (b )"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{\\mathrm{av}}=\\left(",
+            "after": "_{\\mathrm{av}}=\\left()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{1}\\right)",
+            "after": "_{1}\\right"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "[",
+            "after": "[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\upeta_{_\\mathrm{w a t e r}})",
+            "after": "\\upeta_{_\\mathrm{water}}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{aligned}",
+            "after": ""
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\times10^{3}\\mathrm{k g}\\mathrm{m}^{-3}",
+            "after": "\\times10^{3}\\mathrm{kg}\\mathrm{m}^{-3}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}\\eta",
+            "after": "\\begin{aligned}\\eta\\end{aligned}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{aligned}(",
+            "after": "()"
+        },
+        {
+            "type": "latex_fix",
+            "before": "_{\\mathrm{l a}}",
+            "after": "_{\\mathrm{la}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "_{\\mathrm{s a}}",
+            "after": "_{\\mathrm{sa}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{2}\\right]",
+            "after": "^{2}\\right"
+        },
+        {
+            "type": "latex_fix",
+            "before": "_{\\mathrm{l a}}=8\\pi",
+            "after": "_{\\mathrm{la}}=8\\pi"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "&\\left(P_{i}-P",
+            "after": "&\\left(P_{i}-P)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "S/r\\right)=2S/\\left(a\\sec\\theta\\right)\\\\ &=\\left(2S/a\\right)\\cos\\theta\\\\ ",
+            "after": "S/r\\right=2S/\\left(a\\sec\\theta\\right)\\\\ &=\\left(2S/a\\right)\\cos\\theta\\\\ "
+        },
+        {
+            "type": "brace_fix",
+            "before": "_{\\mathrm{{,}}}-",
+            "after": "_{\\mathrm{,}}-"
+        },
+        {
+            "type": "brace_fix",
+            "before": "_{\\mathrm{{,}}})=(2",
+            "after": "_{\\mathrm{,}}=(2)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{1.02\\times10^{5}Pa}{(1.02\\times10^{5}Pa}",
+            "after": "\\frac{1.02\\times10^{5}Pa}{(1.02\\times10^{5}Pa})"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{aligned}",
+            "after": ""
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{b a r}=10^{5}",
+            "after": "\\mathrm{bar}=10^{5}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\{",
+            "after": "\\{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "/2\\}",
+            "after": "/2\\"
+        },
+        {
+            "type": "latex_fix",
+            "before": "P+$\\rho\\nu^{2}$/2+\\rho g y=$\\mathrm{c o n s t a n t}",
+            "after": "P+$\\rho\\nu^{2}$/2+\\rho g y=$\\mathrm{constant}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{m e r c u r y}=13.6)",
+            "after": "\\mathrm{mercury}=13.6"
+        },
+        {
+            "type": "latex_fix",
+            "before": "4.0\\times{10}^{-3}\\;\\mathrm{k g}\\;\\mathrm{s}^{-1}",
+            "after": "4.0\\times{10}^{-3}\\;\\mathrm{kg}\\;\\mathrm{s}^{-1}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\bar{1.01}\\times10^{5}\\mathrm{P a}]",
+            "after": "\\bar{1.01}\\times10^{5}\\mathrm{Pa}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

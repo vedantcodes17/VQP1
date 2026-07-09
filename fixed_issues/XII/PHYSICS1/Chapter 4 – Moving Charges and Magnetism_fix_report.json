@@ -1,0 +1,176 @@
+{
+    "chapter": "Chapter 4 – Moving Charges and Magnetism",
+    "total_formulas": 223,
+    "repaired": 32,
+    "failed": 0,
+    "ocr_fixes": 202,
+    "latex_fixes": 32,
+    "markdown_fixes": 14,
+    "orphaned_latex_wrapped": 226,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.087,
+    "changes": [
+        {
+            "type": "latex_fix",
+            "before": "20^{\\mathrm{t h}}",
+            "after": "20^{\\mathrm{th}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\pi\\varepsilon_{0})",
+            "after": "\\pi\\varepsilon_{0}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{r l}{\\mathbf{F}}",
+            "after": "\\begin{array}{r l}{\\mathbf{F}}\\end{array}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\left[\\textbf{E}(\\mathbf{r})+\\textbf{v}\\times\\mathbf{B}(\\mathbf{r})\\right]=\\mathbf{F}_{\\mathrm{e l e c t r i c}}+\\mathbf{F}_{\\mathrm{m a g n e t i c}}",
+            "after": "\\left[\\textbf{E}(\\mathbf{r})+\\textbf{v}\\times\\mathbf{B}(\\mathbf{r})\\right]=\\mathbf{F}_{\\mathrm{electric}}+\\mathbf{F}_{\\mathrm{magnetic}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "^{-4}\\mathrm{t e s l a})",
+            "after": "^{-4}\\mathrm{tesla}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{r l}",
+            "after": "\\begin{array}{r l}\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\widehat{\\pmb{\\mathbf{F}}}=[(",
+            "after": "\\widehat{\\pmb{\\mathbf{F}}}=[(])"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\pmb{\\mathbf{v}}_{_{d}})",
+            "after": "\\pmb{\\mathbf{v}}_{_{d}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\times\\pmb{\\mathbf{B}}=[",
+            "after": "\\times\\pmb{\\mathbf{B}}=[]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{array}",
+            "after": ""
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{r l}{p=}",
+            "after": "\\begin{array}{r l}{p=}\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "y{",
+            "after": "y{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}",
+            "after": ""
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathbf{B}_{t}$d l=$\\mathbf{B}\\cdot$ d$\\mathbf{l}]$ . All such products are added together. We consider the limit as the lengths of elements get smaller and their number gets larger. The sum then tends to an integral. Ampere's law states that this integral is equal to ",
+            "after": "\\mathbf{B}_{t}$d l=$\\mathbf{B}\\cdot$ d$\\mathbf{l}$ . All such products are added together. We consider the limit as the lengths of elements get smaller and their number gets larger. The sum then tends to an integral. Ampere's law states that this integral is equal to "
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\mathrm{E q}\\right",
+            "after": "\\left[\\mathrm{Eq}\\right]"
+        },
+        {
+            "type": "script_fix",
+            "before": "^",
+            "after": ""
+        },
+        {
+            "type": "script_fix",
+            "before": "^",
+            "after": ""
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}\\left",
+            "after": "\\begin{aligned}\\left\\end{aligned}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{{`a'}}",
+            "after": "\\mathrm{`a'}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}\\tau",
+            "after": "\\begin{aligned}\\tau\\end{aligned}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}\\tau",
+            "after": "\\begin{aligned}\\tau\\end{aligned}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{4\\pi\\times10^{-7}\\times3.2}{2\\times10^{-1}}=\\frac{4\\times10^{-5}\\times10}{2\\times10^{-1}}\\quad(",
+            "after": "\\frac{4\\pi\\times10^{-7}\\times3.2}{2\\times10^{-1}}=\\frac{4\\times10^{-5}\\times10}{2\\times10^{-1}}\\quad()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "/2(",
+            "after": "/2()"
+        },
+        {
+            "type": "script_fix",
+            "before": "\\mathbf{E}=\\frac{2\\pmb{\\mathscr{p}}_{e}}{4\\pi\\varepsilon_{_0}x^{^3}}",
+            "after": "\\mathbf{E}=\\frac{2\\pmb{\\mathscr{p}}_{e}}{4\\pi\\varepsilon_{_0}x^{3}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "{\\pmb B}\\simeq\\frac{\\mu_{0}}{4\\pi}\\frac{{\\pmb m}}{x^{^3}};\\qquad x\\gg R ",
+            "after": "{\\pmb B}\\simeq\\frac{\\mu_{0}}{4\\pi}\\frac{\\pmb m}{x^{3}};\\qquad x\\gg R "
+        },
+        {
+            "type": "latex_fix",
+            "before": "R_{_G}r_{_s}/\\left(R_{_G}+r_{_s}\\right)\\simeq r_{_s}\\qquad\\mathrm{i f}\\quad R_{_G}>>r_{_s}If has small value, in relation to the resistance of the rest of the ",
+            "after": "R_{_G}r_{_s}/\\left(R_{_G}+r_{_s}\\right)\\simeq r_{_s}\\qquad\\mathrm{if}\\quad R_{_G}>>r_{_s}If has small value, in relation to the resistance of the rest of the "
+        },
+        {
+            "type": "brace_fix",
+            "before": "R_{{G}}\\quad=\\quad60.00\\quad\\Omega;",
+            "after": "R_{G}\\quad=\\quad60.00\\quad\\Omega;"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[R_{G}+3=63\\Omega\\;.\\mathrm{~H e n c e},\\;I=3/63=0.048\\mathrm{~A}.\\right.",
+            "after": "\\left[R_{G}+3=63\\Omega\\;.\\mathrm{~H e n c e},\\;I=3/63=0.048\\mathrm{~A}.\\right.]"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

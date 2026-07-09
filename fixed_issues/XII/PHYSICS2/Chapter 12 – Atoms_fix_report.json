@@ -1,0 +1,61 @@
+{
+    "chapter": "Chapter 12 – Atoms",
+    "total_formulas": 78,
+    "repaired": 9,
+    "failed": 0,
+    "ocr_fixes": 100,
+    "latex_fixes": 9,
+    "markdown_fixes": 7,
+    "orphaned_latex_wrapped": 56,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.03,
+    "changes": [
+        {
+            "type": "delimiter_balance",
+            "before": "10^{-15}\\mathrm{m})",
+            "after": "10^{-15}\\mathrm{m}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\stackrel{\\sim}{(\\mathrm{r a d i u s}}\\approx10^{-10}",
+            "after": "\\stackrel{\\sim}{(\\mathrm{radius}}\\approx10^{-10})"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\frac{e^{2}}{8\\pi\\varepsilon_{0}r}\\end{aligned}\\right",
+            "after": "\\frac{e^{2}}{8\\pi\\varepsilon_{0}r}\\right"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\times10^{\\mathrm{{-11}}}",
+            "after": "\\times10^{\\mathrm{-11}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "(=6.6",
+            "after": "(=6.6)"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}{E_{_n}}",
+            "after": "\\begin{aligned}{E_{_n}}\\end{aligned}"
+        },
+        {
+            "type": "script_fix",
+            "before": "\\frac{m e^{^4}}{8n^{^2}\\varepsilon_{^0}^{^2}h^{^2}}",
+            "after": "\\frac{m e^{4}}{8n^{2}\\varepsilon_{^0}^{2}h^{2}}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{aligned}\\right",
+            "after": "\\right"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

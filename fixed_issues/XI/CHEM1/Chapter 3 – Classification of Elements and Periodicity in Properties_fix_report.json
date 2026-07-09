@@ -1,0 +1,221 @@
+{
+    "chapter": "Chapter 3 – Classification of Elements and Periodicity in Properties",
+    "total_formulas": 168,
+    "repaired": 41,
+    "failed": 0,
+    "ocr_fixes": 210,
+    "latex_fixes": 41,
+    "markdown_fixes": 3,
+    "orphaned_latex_wrapped": 0,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.146,
+    "changes": [
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{G a C l}_{3}",
+            "after": "\\mathrm{GaCl}_{3}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{E C l}_{4}",
+            "after": "\\mathrm{ECl}_{4}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{G e C l}_{4}",
+            "after": "\\mathrm{GeCl}_{4}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "d,f)",
+            "after": "d,f"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "(\\sim1.2\\mathrm{~\\AA~i.e.,~}1.2\\times10^{-10}",
+            "after": "(\\sim1.2\\mathrm{~\\AA~i.e.,~}1.2\\times10^{-10})"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{O F}_{2}",
+            "after": "\\mathrm{OF}_{2}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{S i B r}_{4}",
+            "after": "\\mathrm{SiBr}_{4}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{A l}_{_2}\\mathrm{S}_{_3}",
+            "after": "\\mathrm{Al}_{_2}\\mathrm{S}_{_3}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C a H}_{2}",
+            "after": "\\mathrm{CaH}_{2}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{A l H}_{3}",
+            "after": "\\mathrm{AlH}_{3}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C H}_{4}",
+            "after": "\\mathrm{CH}_{4}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{G e H}_{4}",
+            "after": "\\mathrm{GeH}_{4}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{S i H}_{4}",
+            "after": "\\mathrm{SiH}_{4}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{S n H}_{4}",
+            "after": "\\mathrm{SnH}_{4}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{A s H}_{_3}",
+            "after": "\\mathrm{AsH}_{_3}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{L i}_{2}\\mathrm{O}",
+            "after": "\\mathrm{Li}_{2}\\mathrm{O}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{{N a}_{2}\\mathrm{{O}}}",
+            "after": "\\mathrm{{N a}_{2}\\mathrm{O}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{I n}_{2}\\mathrm{O}_{3}",
+            "after": "\\mathrm{In}_{2}\\mathrm{O}_{3}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{G a}_{2}\\mathrm{O}_{3}",
+            "after": "\\mathrm{Ga}_{2}\\mathrm{O}_{3}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{G e O}_{2}",
+            "after": "\\mathrm{GeO}_{2}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{S i O}_{2}",
+            "after": "\\mathrm{SiO}_{2}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C O}_{2}",
+            "after": "\\mathrm{CO}_{2}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{S b}_{2}\\mathrm{O}_{3},\\mathrm{S b}_{2}\\mathrm{O}_{5}",
+            "after": "\\mathrm{Sb}_{2}\\mathrm{O}_{3},\\mathrm{Sb}_{2}\\mathrm{O}_{5}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{B i}_{\\mathrm{2}}\\mathrm{O}_{3}\\mathrm{~-~}",
+            "after": "\\mathrm{Bi}_{\\mathrm{2}}\\mathrm{O}_{3}\\mathrm{~-~}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{T e O}_{3}",
+            "after": "\\mathrm{TeO}_{3}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{S e O}_{3}",
+            "after": "\\mathrm{SeO}_{3}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{S O}_{3}",
+            "after": "\\mathrm{SO}_{3}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{M/p\\overline{{m}}}",
+            "after": "\\mathrm{M/p\\overline{m}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\left[\\mathrm{B F}_{4}\\right]^{-}",
+            "after": "\\left[\\mathrm{BF}_{4}\\right]^{-}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "(\\mathrm{e.g.,~C=O,~C=N,~C=N}",
+            "after": "(\\mathrm{e.g.,~C=O,~C=N,~C=N})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathbb{N}=\\mathbb{O}\\}",
+            "after": "\\mathbb{N}=\\mathbb{O}\\"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C l}_{2}\\mathrm{O}_{7}",
+            "after": "\\mathrm{Cl}_{2}\\mathrm{O}_{7}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{{N a}_{2}\\mathrm{{O}}}",
+            "after": "\\mathrm{{N a}_{2}\\mathrm{O}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C l}_{2}\\mathrm{O}_{7}",
+            "after": "\\mathrm{Cl}_{2}\\mathrm{O}_{7}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\mathrm{Na_{2}O+H_{2}O\\rightarrow2NaOH}\\\\\\mathrm{Cl_{2}O_{7}+H_{2}O\\rightarrow2HClO_{4}}\\end{array}",
+            "after": "\\begin{array}{l}\\mathrm{Na_{2}O+H_{2}O\\rightarrow2NaOH}\\\\mathrm{Cl_{2}O_{7}+H_{2}O\\rightarrow2HClO_{4}}\\end{array}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{L i}\\leq\\bar{\\mathrm{B}}<\\mathrm{B e}<\\mathrm{C}<\\bar{\\mathrm{O}}<\\mathrm{N}<\\mathrm{F}<\\mathrm{N e}",
+            "after": "\\mathrm{Li}\\leq\\bar{\\mathrm{B}}<\\mathrm{Be}<\\mathrm{C}<\\bar{\\mathrm{O}}<\\mathrm{N}<\\mathrm{F}<\\mathrm{Ne}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{L i}<\\mathrm{N a}<\\mathrm{K}<\\mathrm{R b}<\\mathrm{C s}",
+            "after": "\\mathrm{Li}<\\mathrm{Na}<\\mathrm{K}<\\mathrm{Rb}<\\mathrm{Cs}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{F}>\\mathrm{C I}>\\mathrm{B r}>\\mathrm{I}",
+            "after": "\\mathrm{F}>\\mathrm{CI}>\\mathrm{Br}>\\mathrm{I}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{B},\\mathrm{A l}",
+            "after": "\\mathrm{B},\\mathrm{Al}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{F}>\\mathrm{C l}>\\mathrm{O}>\\mathrm{N}",
+            "after": "\\mathrm{F}>\\mathrm{Cl}>\\mathrm{O}>\\mathrm{N}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{O}>\\mathrm{F}>\\mathrm{N}>\\mathrm{C l}",
+            "after": "\\mathrm{O}>\\mathrm{F}>\\mathrm{N}>\\mathrm{Cl}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

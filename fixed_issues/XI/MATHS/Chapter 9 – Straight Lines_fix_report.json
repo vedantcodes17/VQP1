@@ -1,0 +1,146 @@
+{
+    "chapter": "Chapter 9 – Straight Lines",
+    "total_formulas": 296,
+    "repaired": 26,
+    "failed": 0,
+    "ocr_fixes": 130,
+    "latex_fixes": 26,
+    "markdown_fixes": 13,
+    "orphaned_latex_wrapped": 133,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.096,
+    "changes": [
+        {
+            "type": "latex_fix",
+            "before": "0^{\\circ}\\leq0\\leq180^{\\circ}(\\mathrm{F i g}\\;9.2)",
+            "after": "0^{\\circ}\\leq0\\leq180^{\\circ}(\\mathrm{Fig}\\;9.2)"
+        },
+        {
+            "type": "brace_fix",
+            "before": "m=\\tan60^{\\circ}=\\sqrt[\\cdot]{3}",
+            "after": "m=\\tan60^{\\circ}=\\sqrt[\\cdot]_{3}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{L}_{1}\\mathrm{a n d}\\mathrm{L}_{2}",
+            "after": "\\mathrm{L}_{1}\\mathrm{and}\\mathrm{L}_{2}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "m_{\\mathrm{{t}}}",
+            "after": "m_{\\mathrm{t}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\underline{{\\alpha}}_{i}",
+            "after": "\\underline{\\alpha}_{i}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x,y\\right)",
+            "after": "x,y\\right"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{_{0}}\\right)",
+            "after": "_{_{0}}\\right"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathbf{P}_{0}(",
+            "after": "\\mathbf{P}_{0}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathbb{P}\\left(",
+            "after": "\\mathbb{P}\\left()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x_{_1},y_{_1})",
+            "after": "x_{_1},y_{_1}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{1}=\\frac{y_{2}-y_{1}}{x_{2}-x_{1}}(",
+            "after": "_{1}=\\frac{y_{2}-y_{1}}{x_{2}-x_{1}}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{5-(-1)}{3-1}(",
+            "after": "\\frac{5-(-1)}{3-1}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " , where θ is the inclination of the line and (i) y-intercept is $$\\frac{3}{2}\\left(",
+            "after": " , where θ is the inclination of the line and (i) y-intercept is $$\\frac{3}{2}\\left()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " be a line, whose distance from the point $$\\mathrm{P}\\left(",
+            "after": " be a line, whose distance from the point $$\\mathrm{P}\\left()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{_1}\\right)",
+            "after": "_{_1}\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\right)=\\frac{1}{2}",
+            "after": "\\right=\\frac{1}{2}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\right)=\\frac{1}{2}\\left",
+            "after": "\\right=\\frac{1}{2}\\left"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left(0+\\frac{C}{B}\\right)+\\left(-\\frac{C}{A}\\right)\\left(-\\frac{C}{B}-",
+            "after": "\\left(0+\\frac{C}{B}\\right)+\\left(-\\frac{C}{A}\\right)\\left(-\\frac{C}{B}-)"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " , 1) from the line ",
+            "after": " , 1 from the line "
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{c}2",
+            "after": "\\begin{array}{c}2\\end{array}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "y-1=-1(x-4)$\\mathrm{o r}$x+y-5=0",
+            "after": "y-1=-1(x-4)$\\mathrm{or}$x+y-5=0"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{array}{l}x=\\frac{\\left(c_{2}-c_{1}\\right)}{\\left(m_{1}-m_{2}\\right)}\\text{and}y=\\frac{\\left(m_{1}c_{2}-m_{2}c_{1}\\right)}{\\left(m_{1}-m_{2}\\right)}\\\\ \\text{is of the triangle is}\\mathrm{R}\\left(\\frac{\\left(c_{2}-c_{1}\\right)}{\\left(m_{1}-m_{2}\\right)},\\frac{\\left(m_{1}c_{2}-m_{2}c_{1}\\right)}{\\left(m_{1}-m_{2}\\right)}\\right).\\end{array}\\right.",
+            "after": "\\left\\{\\begin{array}{l}x=\\frac{\\left(c_{2}-c_{1}\\right)}{\\left(m_{1}-m_{2}\\right)}\\text{and}y=\\frac{\\left(m_{1}c_{2}-m_{2}c_{1}\\right)}{\\left(m_{1}-m_{2}\\right)}\\\\ \\text{is of the triangle is}\\mathrm{R}\\left(\\frac{\\left(c_{2}-c_{1}\\right)}{\\left(m_{1}-m_{2}\\right)},\\frac{\\left(m_{1}c_{2}-m_{2}c_{1}\\right)}{\\left(m_{1}-m_{2}\\right)}\\right).\\end{array}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "y=mx+c\\sin\\frac{y}{x}=\\frac{m\\pm\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan}\\right)+c}\\right)\\right)}}}\\right)}\\right)}\\right)}\\right)}{1\\mp m\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan}\\right)\\right)}}\\right)}}\\right)}\\right)}\\right)}\\right)}{1\\mp m\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\frac{x}{\\tan}\\frac{x}{\\tan\\left(\\frac{x}{\\tan}{x}\\right)}\\right)}}\\right)}}\\right)}}\\right)}{x}\\right)}\\right)}}",
+            "after": "y=mx+c\\sin\\frac{y}{x}=\\frac{m\\pm\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan}\\right)+c}\\right)\\right)}}}\\right)}\\right)}\\right)}\\right)}{1\\mp m\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan}\\right)\\right)}}\\right)}}\\right)}\\right)}\\right)}\\right)}{1\\mp m\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\frac{x}{\\tan\\left(\\frac{x}{\\tan\\frac{x}{\\tan}\\frac{x}{\\tan\\left(\\frac{x}{\\tan}{x}\\right)}\\right)}}\\right)}}\\right)}}\\right)}{x}\\right)}\\right)}}}}))))))"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{L}_{1}\\mathrm{a n d}\\mathrm{L}_{2}",
+            "after": "\\mathrm{L}_{1}\\mathrm{and}\\mathrm{L}_{2}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

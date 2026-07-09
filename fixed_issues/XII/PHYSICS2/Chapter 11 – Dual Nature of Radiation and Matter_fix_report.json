@@ -1,0 +1,86 @@
+{
+    "chapter": "Chapter 11 – Dual Nature of Radiation and Matter",
+    "total_formulas": 170,
+    "repaired": 14,
+    "failed": 0,
+    "ocr_fixes": 105,
+    "latex_fixes": 14,
+    "markdown_fixes": 8,
+    "orphaned_latex_wrapped": 121,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.063,
+    "changes": [
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{e V}=1.602\\times10^{-19}\\mathrm{J}",
+            "after": "\\mathrm{eV}=1.602\\times10^{-19}\\mathrm{J}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "K_{\\mathrm{m a x}}=e V_{\\mathrm{0}}",
+            "after": "K_{\\mathrm{max}}=e V_{\\mathrm{0}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\underline{{\\nu}}_{3}>\\overline{{\\nu}}_{2}>\\nu_{1}",
+            "after": "\\underline{\\nu}_{3}>\\overline{\\nu}_{2}>\\nu_{1}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\nu\\geq\\nu_{0}$\\}$ |. This explains why, for ",
+            "after": "\\nu\\geq\\nu_{0}$\\$ |. This explains why, for "
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\\\ {{",
+            "after": "\\\\ {{}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}}",
+            "after": ""
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "h/e)",
+            "after": "h/e"
+        },
+        {
+            "type": "script_fix",
+            "before": "2.0^{^-}{\\times}10^{^{-3}}\\mathrm{W}",
+            "after": "2.0^{-}{\\times}10^{^{-3}}\\mathrm{W}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\begin{array}{r l}&{\\mathrm{E a c h~p h o t o n~h a s~a n~e n e r g y}}\\\\ &{E=h\\nu=(6.63\\times10^{^{-34}}\\mathrm{J s})\\left(6.0\\times10^{^{14}}\\mathrm{H z}\\right)}\\\\ &{\\quad=3.98\\times10^{^{-19}}\\mathrm{J}}\\end{array}(b) IfNis the number of photons emitted by the source per second,",
+            "after": "\\begin{array}{r l}&{\\mathrm{E a c h~p h o t o n~h a s~a n~e n e r g y}}\\\\ &{E=h\\nu=(6.63\\times10^{^{-34}}\\mathrm{Js})\\left(6.0\\times10^{^{14}}\\mathrm{Hz}\\right)}\\\\ &{\\quad=3.98\\times10^{^{-19}}\\mathrm{J}}\\end{array}(b) IfNis the number of photons emitted by the source per second,"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\frac{h c}{\\lambda}&=h\\lambda-\\phi_{0}=\\frac{h c}{\\lambda}-\\phi_{0}\\\\\\underline{\\quad\\lambda}&=h c/(e V_{0}+\\phi_{0})\\\\&=\\frac{(6.63\\times10^{-34}J s)\\times(3\\times10^{8}m/s)}{(0.60eV+2.14eV)}\\\\&=\\frac{19.89\\times10^{-26}J m}{(2.74eV)}\\\\&=\\frac{19.89\\times10^{-26}J m}{2.74\\times1.6\\times10^{-19}J}=454nm\\end{aligned}",
+            "after": "\\begin{aligned}\\frac{h c}{\\lambda}&=h\\lambda-\\phi_{0}=\\frac{h c}{\\lambda}-\\phi_{0}\\\\underline{\\quad\\lambda}&=h c/(e V_{0}+\\phi_{0})\\\\&=\\frac{(6.63\\times10^{-34}J s)\\times(3\\times10^{8}m/s)}{(0.60eV+2.14eV)}\\\\&=\\frac{19.89\\times10^{-26}J m}{(2.74eV)}\\\\&=\\frac{19.89\\times10^{-26}J m}{2.74\\times1.6\\times10^{-19}J}=454nm\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{\\frac{\\frac{\\lambda}}{\\frac{\\lambda}}}{\\frac{\\lambda}}{\\frac{\\lambda}{\\lambda}}{\\frac{\\frac{\\lambda}}{\\lambda}{\\frac{\\lambda}}{\\frac{\\lambda}}{\\frac{\\lambda}}{\\lambda}}{\\frac{\\frac{\\lambda}}{\\frac{\\lambda}}{\\frac{\\lambda}}{\\lambda}}{This wavelength is so small that it is beyond any measurement. This",
+            "after": "\\frac{\\frac{\\frac{\\lambda}}{\\frac{\\lambda}}}{\\frac{\\lambda}}{\\frac{\\lambda}{\\lambda}}{\\frac{\\frac{\\lambda}}{\\lambda}{\\frac{\\lambda}}{\\frac{\\lambda}}{\\frac{\\lambda}}{\\lambda}}{\\frac{\\frac{\\lambda}}{\\frac{\\lambda}}{\\frac{\\lambda}}{\\lambda}}{This wavelength is so small that it is beyond any measurement. This}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\nu_{o})",
+            "after": "\\nu_{o}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "_{\\mathrm{m a x}}",
+            "after": "_{\\mathrm{max}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\times1\\overline{{0}}^{14}",
+            "after": "\\times1\\overline{0}^{14}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

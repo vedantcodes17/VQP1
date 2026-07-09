@@ -1,0 +1,76 @@
+{
+    "chapter": "Chapter 8 – Electromagnetic Waves",
+    "total_formulas": 85,
+    "repaired": 12,
+    "failed": 0,
+    "ocr_fixes": 98,
+    "latex_fixes": 12,
+    "markdown_fixes": 4,
+    "orphaned_latex_wrapped": 71,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.031,
+    "changes": [
+        {
+            "type": "delimiter_balance",
+            "before": "3\\times10^{8}\\:\\mathrm{m/s)}",
+            "after": "3\\times10^{8}\\:\\mathrm{m/s}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "i_{\\mathrm{d}}^{\\mathrm{~}}\\left(=\\varepsilon_{0}^{\\mathrm{~}}\\right.",
+            "after": "i_{\\mathrm{d}}^{\\mathrm{~}}\\left(=\\varepsilon_{0}^{\\mathrm{~}}\\right.)"
+        },
+        {
+            "type": "latex_fix",
+            "before": "^{\\mathrm{\\bar{11}}}\\mathrm{H z}",
+            "after": "^{\\mathrm{\\bar{11}}}\\mathrm{Hz}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\omega=c k,$\\mathrm{w h e r e}$,c=1/$\\sqrt{\\mu_{0}\\varepsilon_{0}}",
+            "after": "\\omega=c k,$\\mathrm{where}$,c=1/$\\sqrt{\\mu_{0}\\varepsilon_{0}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{0}\\sin\\left[2",
+            "after": "_{0}\\sin\\left[2]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left(\\frac{x}{\\lambda}+\\frac{t}{T}\\right)\\right]",
+            "after": "\\left(\\frac{x}{\\lambda}+\\frac{t}{T}\\right)\\right"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "t)",
+            "after": "t"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "kz-\\omega t\\right)\\\\&=E",
+            "after": "kz-\\omega t\\right\\\\&=E"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " t\\right)\\right]=E",
+            "after": " t\\right\\right=E"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "kz-\\omega t\\right)\\\\&=B",
+            "after": "kz-\\omega t\\right\\\\&=B"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " t\\right)\\right]=B",
+            "after": " t\\right\\right=B"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{M H z}",
+            "after": "\\mathrm{MHz}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

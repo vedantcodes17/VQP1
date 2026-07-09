@@ -1,0 +1,271 @@
+{
+    "chapter": "Chapter 3 – Current Electricity",
+    "total_formulas": 270,
+    "repaired": 51,
+    "failed": 0,
+    "ocr_fixes": 160,
+    "latex_fixes": 51,
+    "markdown_fixes": 10,
+    "orphaned_latex_wrapped": 181,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.119,
+    "changes": [
+        {
+            "type": "delimiter_balance",
+            "before": "I=\\frac{q}{t}is defined to be the current across the area in the forward direction. (if it ",
+            "after": "I=\\frac{q}{t}is defined to be the current across the area in the forward direction. (if it )"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "(t+\\Delta t)]",
+            "after": "(t+\\Delta t)"
+        },
+        {
+            "type": "latex_fix",
+            "before": "I\\left(t\\right)\\equiv\\operatorname*{l i m}_{\\Delta t\\rightarrow0}\\frac{\\Delta Q}{\\Delta t}In SI units, the unit of current is ampere. An ampere is defined ",
+            "after": "I\\left(t\\right)\\equiv\\mathrm*{l i m}_{\\Delta t\\rightarrow0}\\frac{\\Delta Q}{\\Delta t}In SI units, the unit of current is ampere. An ampere is defined "
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[R=\\rho\\frac{l}{A}\\right.where the constant of proportionality ρ depends on the material of the ",
+            "after": "\\left[R=\\rho\\frac{l}{A}\\right.where the constant of proportionality ρ depends on the material of the ]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[R=\\rho\\frac{l}{A}\\right.",
+            "after": "\\left[R=\\rho\\frac{l}{A}\\right.]"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\Delta x=v$_{\\mathrm{{d}}}\\Delta$ t ",
+            "after": "\\Delta x=v$_{\\mathrm{d}}\\Delta$ t "
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\underline{{n}}\\Delta t|\\mathbf{v}_{d}|A",
+            "after": "\\underline{n}\\Delta t|\\mathbf{v}_{d}|A"
+        },
+        {
+            "type": "phantom_strip",
+            "before": "9.0\\times10^{3}\\mathrm{k g}\\overset{\\leftrightarrow}{/\\mathrm{m}}\\vphantom{\\mathrm{m}}^{\\mathrm{\\dot{3}}}",
+            "after": "9.0\\times10^{3}\\mathrm{kg}\\overset{\\leftrightarrow}{/\\mathrm{m}}^{\\mathrm{\\dot{3}}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\sqrt{k_{{B}}T/M}",
+            "after": "\\sqrt{k_{B}T/M}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{E\\overline{{q}}},",
+            "after": "\\mathrm{E\\overline{q}},"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{0}(1+\\alpha",
+            "after": "_{0}(1+\\alpha)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{A})\\stackrel{\\circ}{>}",
+            "after": "\\mathrm{A}\\stackrel{\\circ}{>}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{B})",
+            "after": "\\mathrm{B}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\Delta U_{\\mathrm{p o t}}",
+            "after": "\\Delta U_{\\mathrm{pot}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "similarly at B, it is Q V(B). Thus, change in its potential energy \\begin{array}{r l}&{\\Delta U_{\\mathrm{p o t}}=\\mathrm{F i n a l~p o t e n t i a l~e n e r g y-I n}}\\\\ &{\\quad=\\Delta Q[(V(\\mathrm{B})-V(\\mathrm{A})]=-\\Delta Q V}\\\\ &{\\quad=-L V\\Delta t<0}\\end{array} ıitial potential energy If charges moved without collisions through the conductor, their ",
+            "after": "similarly at B, it is Q V(B). Thus, change in its potential energy \\begin{array}{r l}&{\\Delta U_{\\mathrm{pot}}=\\mathrm{F i n a l~p o t e n t i a l~e n e r g y-I n}}\\\\ &{\\quad=\\Delta Q[(V(\\mathrm{B})-V(\\mathrm{A})]=-\\Delta Q V}\\\\ &{\\quad=-L V\\Delta t<0}\\end{array} ıitial potential energy If charges moved without collisions through the conductor, their )"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\Delta K=-\\Delta U_{\\mathrm{p o t}}",
+            "after": "\\Delta K=-\\Delta U_{\\mathrm{pot}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "I_{\\mathrm{m a x}}=\\varepsilon/r",
+            "after": "I_{\\mathrm{max}}=\\varepsilon/r"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{c}\\varepsilon_{1}",
+            "after": "\\begin{array}{c}\\varepsilon_{1}\\end{array}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "V_{\\mathrm{B C}}\\equiv V(\\mathrm{B})-V(\\mathrm{C})=\\varepsilon_{2}-I r_{2}",
+            "after": "V_{\\mathrm{BC}}\\equiv V(\\mathrm{B})-V(\\mathrm{C})=\\varepsilon_{2}-I r_{2}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\varepsilon_{_{\\mathrm{e q}}}=\\varepsilon_{_{1}}+\\varepsilon_{_{2}}",
+            "after": "\\varepsilon_{_{\\mathrm{eq}}}=\\varepsilon_{_{1}}+\\varepsilon_{_{2}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\varepsilon_{e q}=\\varepsilon_{1}-\\varepsilon_{2}\\quad\\left(\\varepsilon_{1}",
+            "after": "\\varepsilon_{e q}=\\varepsilon_{1}-\\varepsilon_{2}\\quad\\left(\\varepsilon_{1})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\varepsilon_{2}\\right)",
+            "after": "\\varepsilon_{2}\\right"
+        },
+        {
+            "type": "brace_fix",
+            "before": "&{{}}\\\\ {\\equiv}&{{}\\underset{",
+            "after": "&{}\\\\ {\\equiv}&{{}\\underset{}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{\\circ}\\underset{",
+            "after": "{\\circ}\\underset{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}{\\overset{",
+            "after": "{\\overset{}}"
+        },
+        {
+            "type": "environment_close",
+            "before": "}{\\mathrm{~\\tiny~\\begin{array}{~\\scriptstyle~I~}{~\\scriptstyle~\\left|~\\begin{array}{~\\scriptstyle~I~}{~\\scriptstyle~\\left|~\\begin{array}{~\\scriptstyle~I~}{~\\left|~\\begin{array}{~\\scriptstyle~I~}{~\\left|~\\begin{array}{~\\scriptstyle~I~}{~\\left|~\\begin{~I~}{~\\left|~\\begin{~I}{~\\left|~\\begin{~I}{~\\left|~\\begin{~I}{~\\left|~\\left|~\\begin{~I}{~\\left|~\\left|~\\begin{\\varepsilon}{~\\left|~\\left|",
+            "after": "{\\mathrm{~\\tiny~\\begin{array}{~\\scriptstyle~I~}{~\\scriptstyle~\\left|~\\begin{array}{~\\scriptstyle~I~}{~\\scriptstyle~\\left|~\\begin{array}{~\\scriptstyle~I~}{~\\left|~\\begin{array}{~\\scriptstyle~I~}{~\\left|~\\begin{array}{~\\scriptstyle~I~}{~\\left|~\\begin{~I~}{~\\left|~\\begin{~I}{~\\left|~\\begin{~I}{~\\left|~\\begin{~I}{~\\left|~\\left|~\\begin{~I}{~\\left|~\\left|~\\begin{\\varepsilon}{~\\left|~\\left|\\end{array}\\end{array}\\end{array}\\end{array}\\end{array}}}}}}}}}}}}}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "~\\left|\\end{\\left|",
+            "after": "~\\left|\\end{\\left|}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "~\\left|\\begin{\\varepsilon}{\\left|\\left|",
+            "after": "~\\left|\\begin{\\varepsilon}{\\left|\\left|}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "I=I_{\\mathrm{{1}}}+I_{\\mathrm{{2}}}",
+            "after": "I=I_{\\mathrm{1}}+I_{\\mathrm{2}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "B_{1}\\mathrm{a n d}B_{2}",
+            "after": "B_{1}\\mathrm{and}B_{2}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{P})-",
+            "after": "\\mathrm{P}-"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{N})=\\widetilde{\\varepsilon-I_{r}}",
+            "after": "\\mathrm{N}=\\widetilde{\\varepsilon-I_{r}}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{aligned}",
+            "after": ""
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{2}=0\\quad(",
+            "after": "_{2}=0\\quad()"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "&10\\ \\big(I",
+            "after": "&10\\ \\big(I)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "I_{g}-5\\ \\big(I",
+            "after": "I_{g}-5\\ \\big(I)"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{_2}+5\\left(",
+            "after": "_{_2}+5\\left()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{_g}\\right)=10",
+            "after": "_{_g}\\right=10"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{o r}",
+            "after": "\\mathrm{or}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{M}\\mathrm{L}^{2}\\mathrm{T}^{-3}\\underline{{\\mathrm{A}}}^{-2}]",
+            "after": "\\mathrm{M}\\mathrm{L}^{2}\\mathrm{T}^{-3}\\underline{{\\mathrm{A}}}^{-2}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "[",
+            "after": "[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{M}\\mathrm{L}^{3}\\mathrm{T}^{-3}\\mathrm{A}^{-2}]",
+            "after": "\\mathrm{M}\\mathrm{L}^{3}\\mathrm{T}^{-3}\\mathrm{A}^{-2}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "[",
+            "after": "[]"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\underline{{V}}_{\\mathrm{d}}$</td><td>",
+            "after": "\\underline{V}_{\\mathrm{d}}$</td><td>"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "[",
+            "after": "[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{L}^{\\mathrm{\\bar{\\sigma}^{2}}}\\mathrm{\\;A}]",
+            "after": "\\mathrm{L}^{\\mathrm{\\bar{\\sigma}^{2}}}\\mathrm{\\;A}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

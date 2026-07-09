@@ -1,0 +1,836 @@
+{
+    "chapter": "Chapter 3 – Matrices",
+    "total_formulas": 738,
+    "repaired": 164,
+    "failed": 0,
+    "ocr_fixes": 93,
+    "latex_fixes": 164,
+    "markdown_fixes": 16,
+    "orphaned_latex_wrapped": 679,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.205,
+    "changes": [
+        {
+            "type": "latex_fix",
+            "before": "i^{\\mathrm{t h}}",
+            "after": "i^{\\mathrm{th}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "j^{\\mathrm{t h}}",
+            "after": "j^{\\mathrm{th}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "i^{\\mathrm{t h}}",
+            "after": "i^{\\mathrm{th}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "j^{\\mathrm{t h}}",
+            "after": "j^{\\mathrm{th}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "a_{ij}=\\left\\{\\begin{aligned}1\\quad if\\quad i=j\\\\ 0\\quad if\\quad i\\neq j\\end{aligned}\\right.",
+            "after": "a_{ij}=\\left\\{\\begin{aligned}1\\quad if\\quad i=j\\\\ 0\\quad if\\quad i\\neq j\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\begin{aligned}&A+B=\\left[\\begin{aligned}2+\\sqrt{3}&1+\\sqrt{5}&1-1\\\\ 2-2&3+3&0+\\frac{1}{2}\\end{aligned}\\right]=\\left[\\begin{aligned}2+\\sqrt{3}&1+\\sqrt{5}&0\\\\ 0&6&\\frac{1}{2}\\end{aligned}\\right]\\end{aligned}\\right.",
+            "after": "\\left[\\begin{aligned}&A+B=\\left[\\begin{aligned}2+\\sqrt{3}&1+\\sqrt{5}&1-1\\\\ 2-2&3+3&0+\\frac{1}{2}\\end{aligned}\\right]=\\left[\\begin{aligned}2+\\sqrt{3}&1+\\sqrt{5}&0\\\\ 0&6&\\frac{1}{2}\\end{aligned}\\right]\\end{aligned}\\right.]"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{ccc}&Boys&\\quad Girls\\\\&&\\\\12\\left[\\begin{array}{c}80\\\\75\\\\90\\\\\\end{array}\\right.&&\\left.\\begin{array}{c}60\\\\65\\\\85\\\\\\end{array}\\right]&\\\\\\end{array}",
+            "after": "\\begin{array}{ccc}&Boys&\\quad Girls\\\\&&\\\\12\\left[\\begin{array}{c}80\\\\75\\\\90\\\\end{array}\\right.&&\\left.\\begin{array}{c}60\\\\65\\\\85\\\\end{array}\\right]&\\\\end{array}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}2\\mathrm{A}-\\mathrm{B}",
+            "after": "\\begin{aligned}2\\mathrm{A}-\\mathrm{B}\\end{aligned}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{bmatrix}1",
+            "after": "\\begin{bmatrix}1\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}-\\begin{bmatrix}3",
+            "after": "-\\begin{bmatrix}3\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}",
+            "after": ""
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{bmatrix}2",
+            "after": "\\begin{bmatrix}2\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}+\\begin{bmatrix}-3",
+            "after": "+\\begin{bmatrix}-3\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}",
+            "after": ""
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{bmatrix}2-3",
+            "after": "\\begin{bmatrix}2-3\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}=\\begin{bmatrix}-1",
+            "after": "=\\begin{bmatrix}-1\\end{bmatrix}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{ij}],\\mathrm{B}=[",
+            "after": "_{ij},\\mathrm{B}=[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "&=[a_{ij}]+[b_{ij}]=[a_{ij}+b_{ij}]\\\\&=[b_{ij}+a_{ij}](addition of numbers is commutative)\\\\&=([b_{ij}]+[a",
+            "after": "&=[a_{ij}]+[b_{ij}]=[a_{ij}+b_{ij}]\\\\&=[b_{ij}+a_{ij}](addition of numbers is commutative)\\\\&=([b_{ij}]+[a])"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}(",
+            "after": "\\begin{aligned}(\\end{aligned})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{_{ij}})]\\quad(",
+            "after": "_{_{ij}}\\quad()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{ij}\\right]_{m\\times n}",
+            "after": "_{ij}\\right_{m\\times n}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "s-A=\\left[-a",
+            "after": "s-A=\\left[-a]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " such that $$\\widehat{A}+(-",
+            "after": " such that $$\\widehat{A}+(-)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{A}=[",
+            "after": "\\mathrm{A}=[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{B}=[",
+            "after": "\\mathrm{B}=[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "&=k\\left(\\left[a",
+            "after": "&=k\\left(\\left[a])"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\\\&=k\\left[a_{ij}+b",
+            "after": "\\\\&=k\\left[a_{ij}+b]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "k\\left(a_{ij}+b",
+            "after": "k\\left(a_{ij}+b)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\\\&=\\left[k\\ a",
+            "after": "\\\\&=\\left[k\\ a]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "k\\left[a",
+            "after": "k\\left[a]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "k\\left[b",
+            "after": "k\\left[b]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "&=(k+l)\\left[a",
+            "after": "&=(k+l)\\left[a]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\\\&=\\left[(k+l)\\ a",
+            "after": "\\\\&=\\left[(k+l)\\ a]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "k\\left[a",
+            "after": "k\\left[a]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "l\\left[a",
+            "after": "l\\left[a]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\frac{1}{3}\\left[\\begin{matrix}10-16-10+0",
+            "after": "\\frac{1}{3}\\left[\\begin{matrix}10-16-10+0\\end{matrix}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{matrix}\\right]=\\frac{1}{3}\\left[\\begin{matrix}-6",
+            "after": "\\right=\\frac{1}{3}\\left[\\begin{matrix}-6\\end{matrix}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{matrix}\\right]=\\left[\\begin{matrix}-2",
+            "after": "\\right=\\left[\\begin{matrix}-2\\end{matrix}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{X}=\\frac{1}{2}\\begin{bmatrix}8",
+            "after": "\\mathrm{X}=\\frac{1}{2}\\begin{bmatrix}8\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}=\\begin{bmatrix}4",
+            "after": "=\\begin{bmatrix}4\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{bmatrix}5-3",
+            "after": "\\begin{bmatrix}5-3\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}\\Rightarrow2",
+            "after": "\\Rightarrow2"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{bmatrix}2",
+            "after": "\\begin{bmatrix}2\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{bmatrix}",
+            "after": "\\begin{bmatrix}\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}+\\begin{bmatrix}3",
+            "after": "+\\begin{bmatrix}3\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}=\\begin{bmatrix}7",
+            "after": "=\\begin{bmatrix}7\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{bmatrix}2",
+            "after": "\\begin{bmatrix}2\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}=\\begin{bmatrix}7",
+            "after": "=\\begin{bmatrix}7\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}\\Rightarrow\\begin{bmatrix}2",
+            "after": "\\Rightarrow\\begin{bmatrix}2\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}=\\begin{bmatrix}7",
+            "after": "=\\begin{bmatrix}7\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}",
+            "after": ""
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{A}+\\mathrm{B}=\\left[\\begin{array}{ll}\\text{Basmati}",
+            "after": "\\mathrm{A}+\\mathrm{B}=\\left[\\begin{array}{ll}\\text{Basmati}\\end{array}]"
+        },
+        {
+            "type": "escape_fix",
+            "before": "Bassanii&Permal&Naura\\\\\\hline5000&10,000&24,000\\\\30,000&20,000&0",
+            "after": "Bassanii&Permal&Naura\\\\hline5000&10,000&24,000\\\\30,000&20,000&0"
+        },
+        {
+            "type": "escape_fix",
+            "before": "Bassmi&Permal&Naura\\\\\\hline5000&10,000&6000\\\\\\hline20,000&10,000&10,000",
+            "after": "Bassmi&Permal&Naura\\\\hline5000&10,000&6000\\\\hline20,000&10,000&10,000"
+        },
+        {
+            "type": "escape_fix",
+            "before": "&200&120\\\\\\hline400&200&200\\\\",
+            "after": "&200&120\\\\hline400&200&200\\\\"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " matrix and $$\\mathrm{B}=[",
+            "after": " matrix and $$\\mathrm{B}=[]"
+        },
+        {
+            "type": "latex_fix",
+            "before": "^{\\mathrm{t h}}",
+            "after": "^{\\mathrm{th}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "^{\\mathrm{t h}}",
+            "after": "^{\\mathrm{th}}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\quad3\\quad4\\end{aligned}\\right]\\left[\\begin{aligned}2\\quad7",
+            "after": "\\quad3\\quad4\\right\\left[\\begin{aligned}2\\quad7\\end{aligned}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\quad-4\\end{aligned}\\right]",
+            "after": "\\quad-4\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{l}\\text{Entry in}",
+            "after": "\\begin{array}{l}\\text{Entry in}\\end{array}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\text{second column}\\left[1-1\\quad2\\right]\\left[\\begin{array}{cc}2",
+            "after": "\\text{second column}\\left[1-1\\quad2\\right]\\left[\\begin{array}{cc}2\\end{array}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{array}\\right]=\\left[\\begin{array}{cc}13",
+            "after": "\\right=\\left[\\begin{array}{cc}13\\end{array}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{array}\\right]\\end{array}",
+            "after": "\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{bmatrix}13",
+            "after": "\\begin{bmatrix}13\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}\\mathrm{and}\\mathrm{B}=\\begin{bmatrix}2",
+            "after": "\\mathrm{and}\\mathrm{B}=\\begin{bmatrix}2\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}",
+            "after": ""
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "m\\times n,k\\times l{",
+            "after": "m\\times n,k\\times l{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}",
+            "after": ""
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{BA}=\\begin{bmatrix}2",
+            "after": "\\mathrm{BA}=\\begin{bmatrix}2\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}\\begin{bmatrix}-2",
+            "after": "\\begin{bmatrix}-2\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}=\\begin{bmatrix}2-12",
+            "after": "=\\begin{bmatrix}2-12\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}=\\begin{bmatrix}-10",
+            "after": "=\\begin{bmatrix}-10\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{Example}14\\mathrm{If}\\mathrm{A}=\\left[\\begin{aligned}1",
+            "after": "\\mathrm{Example}14\\mathrm{If}\\mathrm{A}=\\left[\\begin{aligned}1\\end{aligned}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\quad-1\\end{aligned}\\right]\\mathrm{and}\\mathrm{B}=\\left[\\begin{aligned}0",
+            "after": "\\quad-1\\right\\mathrm{and}\\mathrm{B}=\\left[\\begin{aligned}0\\end{aligned}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\quad0\\end{aligned}\\right],\\mathrm{then}\\mathrm{AB}=\\left[\\begin{aligned}0",
+            "after": "\\quad0\\right,\\mathrm{then}\\mathrm{AB}=\\left[\\begin{aligned}0\\end{aligned}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\quad0\\end{aligned}\\right]",
+            "after": "\\quad0\\right"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\\\ &(",
+            "after": "\\\\ &()"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{BC}=\\begin{bmatrix}0",
+            "after": "\\mathrm{BC}=\\begin{bmatrix}0\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}\\begin{bmatrix}2",
+            "after": "\\begin{bmatrix}2\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}=\\begin{bmatrix}0-2+3",
+            "after": "=\\begin{bmatrix}0-2+3\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}=\\begin{bmatrix}1",
+            "after": "=\\begin{bmatrix}1\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}(",
+            "after": "()"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{bmatrix}9",
+            "after": "\\begin{bmatrix}9\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}+\\begin{bmatrix}1",
+            "after": "+\\begin{bmatrix}1\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}=\\begin{bmatrix}10",
+            "after": "=\\begin{bmatrix}10\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{bmatrix}1",
+            "after": "\\begin{bmatrix}1\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}",
+            "after": ""
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{A}^{3}=\\mathrm{AA}^{2}=\\begin{bmatrix}1",
+            "after": "\\mathrm{A}^{3}=\\mathrm{AA}^{2}=\\begin{bmatrix}1\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}\\begin{bmatrix}19",
+            "after": "\\begin{bmatrix}19\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}=\\begin{bmatrix}63",
+            "after": "=\\begin{bmatrix}63\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{r}{\\mathrm{A}=\\left[\\begin{matrix}{\\mathrm{C o s t\\;p e r\\;c o n t a c t}}\\\\ {40}\\\\ {100}\\\\ {50}\\end{matrix}\\right]\\mathrm{T e l e p h o n e}}",
+            "after": "\\begin{array}{r}{\\mathrm{A}=\\left[\\begin{matrix}{\\mathrm{C o s t\\;p e r\\;c o n t a c t}}\\\\ {40}\\\\ {100}\\\\ {50}\\end{matrix}\\right]\\mathrm{Telephone}}\\end{array}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{C o s s e c a l l}",
+            "after": "\\mathrm{Cossecall}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{L e t t e r}",
+            "after": "\\mathrm{Letter}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}\\rightarrow\\mathrm{Y}",
+            "after": "\\rightarrow\\mathrm{Y}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}(",
+            "after": "\\begin{aligned}(\\end{aligned})"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\left[\\begin{matrix}",
+            "after": "\\left[\\begin{matrix}\\end{matrix}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{matrix}\\right]+\\left[\\begin{matrix}",
+            "after": "\\right+\\left[\\begin{matrix}\\end{matrix}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{matrix}\\right]",
+            "after": "\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\left[\\begin{matrix}",
+            "after": "\\left[\\begin{matrix}\\end{matrix}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "^{2}\\end{matrix}\\right]+\\left[\\begin{matrix}2",
+            "after": "^{2}\\right+\\left[\\begin{matrix}2\\end{matrix}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{matrix}\\right]",
+            "after": "\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\left[\\begin{matrix}-1",
+            "after": "\\left[\\begin{matrix}-1\\end{matrix}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{matrix}\\right]+\\left[\\begin{matrix}12",
+            "after": "\\right+\\left[\\begin{matrix}12\\end{matrix}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{matrix}\\right]",
+            "after": "\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\left[\\begin{matrix}\\cos^{2}",
+            "after": "\\left[\\begin{matrix}\\cos^{2}\\end{matrix}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{matrix}\\right]+\\left[\\begin{matrix}\\sin^{2}",
+            "after": "\\right+\\left[\\begin{matrix}\\sin^{2}\\end{matrix}]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "i)",
+            "after": "i"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{If}\\mathrm{F}(",
+            "after": "\\mathrm{If}\\mathrm{F}()"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{bmatrix}\\cos",
+            "after": "\\begin{bmatrix}\\cos\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix},\\mathrm{show that}\\mathrm{F}(",
+            "after": ",\\mathrm{show that}\\mathrm{F}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{F}(",
+            "after": "\\mathrm{F}()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{F}(",
+            "after": "\\mathrm{F}()"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{bmatrix}5",
+            "after": "\\begin{bmatrix}5\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}\\begin{bmatrix}2",
+            "after": "\\begin{bmatrix}2\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}\\neq\\begin{bmatrix}2",
+            "after": "\\neq\\begin{bmatrix}2\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}\\begin{bmatrix}5",
+            "after": "\\begin{bmatrix}5\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{bmatrix}2",
+            "after": "\\begin{bmatrix}2\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}",
+            "after": ""
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{A}=\\left[\\begin{aligned}0",
+            "after": "\\mathrm{A}=\\left[\\begin{aligned}0\\end{aligned}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{aligned}\\right]",
+            "after": "\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{ij}\\right]_{m\\times n}",
+            "after": "_{ij}\\right_{m\\times n}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{if}\\mathrm{A}=\\left[\\begin{matrix}3",
+            "after": "\\mathrm{if}\\mathrm{A}=\\left[\\begin{matrix}3\\end{matrix}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\frac{-1}{5}\\end{matrix}\\right]_{3\\times2},\\mathrm{then}\\mathrm{A}",
+            "after": "\\frac{-1}{5}\\right_{3\\times2},\\mathrm{then}\\mathrm{A}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\left[\\begin{matrix}3",
+            "after": "\\left[\\begin{matrix}3\\end{matrix}]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "')'=",
+            "after": "''="
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{B})",
+            "after": "\\mathrm{B}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "3)",
+            "after": "3"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "A B)",
+            "after": "A B"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{AB}=\\begin{bmatrix}-2",
+            "after": "\\mathrm{AB}=\\begin{bmatrix}-2\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}\\begin{bmatrix}1",
+            "after": "\\begin{bmatrix}1\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}=\\begin{bmatrix}-2",
+            "after": "=\\begin{bmatrix}-2\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{bmatrix}",
+            "after": ""
+        },
+        {
+            "type": "environment_close",
+            "before": "\\mathrm{A}^{\\prime}=[-245],\\mathrm{B}^{\\prime}=\\left[\\begin{array}{l}1",
+            "after": "\\mathrm{A}^{\\prime}=[-245],\\mathrm{B}^{\\prime}=\\left[\\begin{array}{l}1\\end{array}]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{ij}\\right]=\\left[",
+            "after": "_{ij}\\right=\\left[]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "_{ji}\\right]",
+            "after": "_{ji}\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{matrix}\\right]",
+            "after": "\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}",
+            "after": "\\begin{aligned}\\end{aligned}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{aligned}",
+            "after": ""
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "(",
+            "after": "()"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "'\\right)\\right]",
+            "after": "'\\right\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{aligned}\\mathrm{B}^{\\prime}",
+            "after": "\\begin{aligned}\\mathrm{B}^{\\prime}\\end{aligned}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\left[\\begin{matrix}2",
+            "after": "\\left[\\begin{matrix}2\\end{matrix}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{matrix}\\right]",
+            "after": "\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\frac{1}{2}(\\mathrm{B}+\\mathrm{B}^{\\prime})=\\frac{1}{2}\\left[\\begin{matrix}4",
+            "after": "\\frac{1}{2}(\\mathrm{B}+\\mathrm{B}^{\\prime})=\\frac{1}{2}\\left[\\begin{matrix}4\\end{matrix}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{matrix}\\right]=\\left[\\begin{matrix}2",
+            "after": "\\right=\\left[\\begin{matrix}2\\end{matrix}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{matrix}\\right]",
+            "after": "\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\left[\\begin{matrix}2",
+            "after": "\\left[\\begin{matrix}2\\end{matrix}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\end{matrix}\\right]=\\mathrm{P}\\end{aligned}",
+            "after": "\\right=\\mathrm{P}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\quad0\\end{aligned}\\right]=\\left[\\begin{aligned}0",
+            "after": "\\quad0\\right=\\left[\\begin{aligned}0\\end{aligned}]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\quad0\\end{aligned}\\right]",
+            "after": "\\quad0\\right"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "B-B')",
+            "after": "B-B'"
+        },
+        {
+            "type": "latex_fix",
+            "before": "$\\left(\\mathrm{i}\\right)\\begin{bmatrix}5$\\\\ $\\dfrac{1}{2}$\\\\ -1$\\end{bmatrix}\\quad\\left(\\mathrm{i i}\\right)\\begin{bmatrix}1$&-1\\\\ 2&3$\\end{bmatrix}\\quad\\left(\\mathrm{i i i}\\right)\\begin{bmatrix}-1$&5&6\\\\ $\\sqrt{3}$&5&6\\\\ 2&3&-1$\\end{bmatrix}",
+            "after": "$\\left(\\mathrm{i}\\right)\\begin{bmatrix}5$\\\\ $\\dfrac{1}{2}$\\\\ -1$\\end{bmatrix}\\quad\\left(\\mathrm{ii}\\right)\\begin{bmatrix}1$&-1\\\\ 2&3$\\end{bmatrix}\\quad\\left(\\mathrm{iii}\\right)\\begin{bmatrix}-1$&5&6\\\\ $\\sqrt{3}$&5&6\\\\ 2&3&-1$\\end{bmatrix}"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\cos\\alpha\\end{bmatrix}",
+            "after": "\\cos\\alpha"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "'\\right)",
+            "after": "'\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": " , when $$\\left[\\begin{aligned}\\mathbf{A}=\\left[\\begin{aligned}0\\quad",
+            "after": " , when $$\\left[\\begin{aligned}\\mathbf{A}=\\left[\\begin{aligned}0\\quad\\end{aligned}\\end{aligned}]]"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\quad0\\end{aligned}\\right]\\end{aligned}\\right",
+            "after": "\\quad0\\right\\right"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\left[\\begin{aligned}6\\quad-2\\quad2",
+            "after": "\\left[\\begin{aligned}6\\quad-2\\quad2\\end{aligned}]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{A^{-1})}",
+            "after": "\\mathrm{A^{-1}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "y,z\\;\\mathrm{i f}",
+            "after": "y,z\\;\\mathrm{if}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\begin{matrix}{1}&{2}&{1}\\\\ \\end{matrix}\\right]\\left[\\begin{matrix}{1}&{2}&{0}\\\\ {2}&{0}&{1}\\\\ {1}&{0}&{2}\\\\ \\end{matrix}\\right]\\left[\\begin{matrix}{0}\\\\ {2}\\\\ {x}\\\\ \\end{matrix}\\right]=0\\}",
+            "after": "\\left[\\begin{matrix}{1}&{2}&{1}\\\\ \\end{matrix}\\right]\\left[\\begin{matrix}{1}&{2}&{0}\\\\ {2}&{0}&{1}\\\\ {1}&{0}&{2}\\\\ \\end{matrix}\\right]\\left[\\begin{matrix}{0}\\\\ {2}\\\\ {x}\\\\ \\end{matrix}\\right]=0\\"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{A n}\\;m\\times n",
+            "after": "\\mathrm{An}\\;m\\times n"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

@@ -1,0 +1,202 @@
+﻿1. | 16. | Find the valency factor (n) for NH2OH in given reaction : Fe3+ + NH2OH \longrightarrow Fe2+ + N2O + H+ + H2O |
+
+2. | 18. | 2 moles of a mixture of O2 and O3 is reacted with excess of acidified solution of KI. The iodine liberated require 1L of 2M hypo solution for complete reaction. The weight % of O3 in the initial sample is x. Find $ \frac{x}{10} $ . |
+
+3. | The overall equation for the reaction between sodium carbonate solution and dilute hydrochloric acid is Na2CO3(aq.) + 2HCl(aq.) \longrightarrow NaCl(aq) + CO2(g) + H2O(Γäª) |
+
+4. Content: 16.  $ PhN^{\oplus}Cl \xrightarrow{H_{3}PO_{2},\Delta} C_{6}H_{6} $
+
+5. Content: 1. What volume of 98% sulphuric acid (in ml) should be mixed with water to obtain 200 mL of 15% solution of sulphuric acid by weight ? Given density of  $ H_{2}O = 1.00 \, g \, cm^{-3} $ , sulphuric acid (98%) = 1.88 g cm $ ^{-3} $  and sulphuric acid (15%) = 1.12 g cm $ ^{-3} $ .
+
+6. 2. At 300 K, 40 mL of  $ O_{3} $  (g) dissolves in 100 g of water at 1.0 atm. What mass of ozone (in gram) dissolved in 1600 g of water at a pressure of 4.0 atm at 300 K?
+
+7. 4. A and B form ideal solutions; at  $ 50^{\circ}C $ ,  $ P_{A}^{0} $  is half  $ P_{B}^{0} $ . A solution containing 0.2 mole of A and 0.8 mole of B has a normal bolling point of  $ 50^{\circ}C $ . Find  $ 18 \times P_{B}^{0} $ . ( $ P_{B}^{0} $  is in atm)
+
+8. $$  L = \frac{Pt}{M}  $$
+
+9. Example 1. The centres of two identical spheres are at a distance 1.0 m apart. If the gravitational force between them is 1.0 N, then find the mass of each sphere.  $ G = 6.67 \times 10^{-11} \, m^3 \, kg^{-1} \, sec^{-2} $
+
+10. Solution : Gravitational force  $ F = \frac{Gm.m}{r^{2}} $
+
+11. on substituting F = 1.0 N, r = 1.0 m and  $ G = 6.67 \times 10^{-11} \, m^{3} \, kg^{-1} \, sec^{-1} $  we get  $ m = 1.224 \times 10^{5} \, kg $
+
+12. (b)  $ CaCl_{2} $  is obtained as by product in Solvay process.
+
+13. (c)  $ NH_{3} $  can be recovered in above process.
+
+14. (d)  $ MgSO_{4}.7H_{2}O $  is epsom salt.
+
+15. (e) On hydrolysis of  $ Na_{2}CO_{3} $ , we get an acidic solution due to the formation of  $ H_{2}CO_{3} $ .
+
+16. (f)  $ K_{2}CO_{3} $  can also be prepared by Solvay process.
+
+17. (g)  $ CaCO_{3} $  can be obtained by passing excess of  $ CO_{2} $  through lime water.
+
+18. (c) αñëαñ¬αñ░αÑïαñòαÑìαññ αñ¬αÑìαñ░αñòαÑìαñ░αñ« αñ«αÑçαñé  $ NH_{3} $  αñòαÑï αñ¬αÑüαñ¿αñâ αñ¬αÑìαñ░αñ╛αñ¬αÑìαññ αñòαñ┐αñ»αñ╛ αñ£αñ╛ αñ╕αñòαññαñ╛ αñ╣αÑêαÑñ
+
+19. Ans. 4 (1 $ ^{st} $  four) (αñ¬αÑìαñ░αñÑαñ« αñÜαñ╛αñ░)
+
+20. (e) On hydrolysis of  $ Na_{2}CO_{3} $ . We get an basic solution due to the formation of NaOH.
+
+21. (f)  $ K_{2}CO_{3} $  can not be prepared by Solvay process.
+
+22. | 6. $ ^{*} $ | (2,3) | 7. | (2) | 8. | (1) | 9. | (4) | 10. | (4) |
+
+23. Content: $$ \mathbf{B}-14.\searrow\sinh<h<\tanh,h\in\left(0,\frac{\pi}{2}\right)\frac{h}{\sinh}>1\Rightarrow\frac{-\text{h}}{\sin\text{h}}<-1\text{LHL}=\lim_{h\to0}\left[\frac{\frac{\pi}{2}-h-\frac{\pi}{2}}{\cos\left(\frac{\pi}{2}-h\right)}\right]=\lim_{h\to0}\left[\frac{-h}{\sinh}\right]=-2 $$
+
+24. $$ \mathsf{R H L}=\lim_{\mathsf{h}\to0}\left[\frac{\frac{\pi}{2}+\mathsf{h}-\frac{\pi}{2}}{\cos\left(\frac{\pi}{2}+\mathsf{h}\right)}\right]=\lim_{\mathsf{h}\to0}\left[\frac{-\mathsf{h}}{\sinh}\right]=-2 $$
+
+25. $$ \therefore\quad LHL=RHL=-2 $$
+
+26. $ ^{*} $  Marked Questions are more than one correct options.
+
+27. 1. Which of the following represent the given mode of hybridisation  $ sp^{2} $ -sp $ ^{2} $ -sp from left to right.
+
+28. (A)  $ H_{2}C=CH-C\equiv N $
+
+29. (B)  $ HC\equiv C-C\equiv CH $
+
+30. (C)  $ H_{2}C=C=C-CH_{2} $
+
+31. (D)  $ H_{2}N\equiv CH_{2} $
+
+32. $$
+
+33. $$
+
+34. $$
+
+35. $$
+
+36. 4. The IUPAC name of  $ C_{6}H_{5}COCl $  is :
+
+37. 5. The number of structural isomers for  $ C_{6}H_{14} $  is : [IIT-JEE 2007]
+
+38. 7. The total number of cyclic isomers possible for a hydrocarbon with the molecular formula  $ C_{4}H_{6} $  is / are : [IIT-JEE 2010]
+
+39. 8. In allene  $ (\mathrm{C}_{3}\mathrm{H}_{4}) $ , the type(s) of hybridisation of the carbon atoms is (are): [IIT-JEE 2012]
+
+40. (A) sp and  $ sp^{3} $
+
+41. (B) sp and  $ sp^{2} $
+
+42. (C) only  $ sp^{3} $
+
+43. (D)  $ sp^{2} $  and  $ sp^{3} $
+
+44. 9. The carboxyl functional group ( $ ΓÇöCOOH $ ) is present in : [IIT-JEE 2012, 3/162]
+
+45. 10. The correct combination of names for isomeric alcohols with molecular formula  $ C_{4}H_{10}O $  is/are
+
+46. $$  \text{[JEE-Advanced 2017, 3/160]}  $$
+
+47. $$  \begin{array}{c}
+
+48. \end{array}  $$
+
+49. Content: 7.  $ Na_{2}B_{4}O_{7} + H_{2}SO_{4} + 5H_{2}O \longrightarrow Na_{2}SO_{4} + 4H_{3}BO_{3} $
+
+50. $ 2H_{3}BO_{3} \longrightarrow B_{2}O_{3} + 3H_{2}O $
+
+51. $ B_{2}O_{3} + 3Mg \longrightarrow 2B + 3MgO $
+
+52. Content: 10.  $ h = \sqrt{\{\cos 2\alpha + \cos 2\beta + 2\cos(\alpha + \beta)\}^2 + \{\sin 2\alpha + \sin 2\beta + 2\sin(\alpha + \beta)\}^2} $
+
+53. $ \Rightarrow h = [4\cos^2(\alpha + \beta)(\cos(\alpha - \beta) + 1)^2 + 4\sin^2(\alpha + \beta)(\cos(\alpha - \beta) + 1)^2]^{1/2} $
+
+54. $ \Rightarrow h = [4\{\cos(\alpha - \beta) + 1}^2\{\cos^2(\alpha + \beta) + \sin^2(\alpha + \beta)\}^2]^{1/2} $
+
+55. $ \Rightarrow h = 2(1 + \cos(\alpha - \beta)) $   $ \Rightarrow h = 2 \times 2\cos^2\left(\frac{\alpha - \beta}{2}\right) $
+
+56. $ \Rightarrow h = 4\cos^2\left(\frac{\alpha - \beta}{2}\right) $
+
+57. $$ \boldsymbol{a}^{\log_{a}N}=N,a>0,a\neq1\&N>0 $$
+
+58. Let M & N are arbitrary positive numbers,  $ a > 0 $ ,  $ a \neq 1 $ ,  $ b > 0 $ ,  $ b \neq 1 $  and  $ \alpha $ ,  $ \beta $  are any real numbers,
+
+59. (ii)  $ \log_{a}(M/N)=\log_{a}M-\log_{a}N $
+
+60. (iii)  $ \log_{a}M^{\alpha} = \alpha. $   $ \log_{a}M $
+
+61. (iv)  $ \log_{a^{B}} M = \frac{1}{\beta} \log_{a} M $
+
+62. (v)  $ \log_{b} M = \frac{\log_{a} M}{\log_{a} b} $  (base changing theorem)
+
+63. $$ \mathsf{l o g}_{\mathsf{a}}1=0 $$
+
+64. $$ \mathsf{l o g}_{\mathsf{a}}\mathsf{a}=1 $$
+
+65. $$ \mathsf{l o g}_{1/\mathsf{a}}\mathsf{a}=-1 $$
+
+66. $$ \log_{b}a=\frac{1}{\log_{a}b} $$
+
+67. $$ \boldsymbol{a}^{x}=\boldsymbol{e}^{x\ln a} $$
+
+68. $$ \boldsymbol{a}^{\log_{\mathrm{c}}\boldsymbol{b}}=\boldsymbol{b}^{\log_{\mathrm{c}}\boldsymbol{a}} $$
+
+69. Content: K-3.Γ£ù A coil of 50 turns and 20 cm diameter is made with a wire of 0.2 mm diameter and resistivity  $ 2 \times 10^{-6} \Omega $  cm. The coil is connected to a source of EMF. 20 V and negligible internal resistance.
+
+70. (b) What must be the minimum potential difference across the coil so as to nullify the earth's horizontal magnetic induction of  $ 3.14 \times 10^{-5} $  tesla at the centre of the coil. How should the coil be placed to achieve the above result.
+
+71. $$ \mathsf{L}=\mathsf{N}\times2\pi r-50\times2\times\pi\times0.1 $$
+
+72. $$ \mathsf{A}=\pi r^{2}=\pi\times(0.1\times10^{-3})^{2} $$
+
+73. Resistance αñ¬αÑìαñ░αññαñ┐αñ░αÑïαñº  $ R = \frac{\rho L}{A} $
+
+74. $$ =\frac{2\times10^{-8}\times50\times2\times\pi\times0.1}{\pi\times10^{-8}}=20\Omega $$
+
+75. $$ \mathsf{i}=\frac{\varepsilon}{\mathsf{R}}=1\mathsf{A} $$
+
+76. $$ \mathsf{B}_{\mathsf{H}}=\frac{\mu_{0}\mathsf{N}\mathsf{i}}{2r} $$
+
+77. $$ \frac{1}{\mathsf{v}}+\frac{1}{\mathsf{u}}=\frac{1}{\mathsf{f}} $$
+
+78. $$ \frac{1}{25/3}+\frac{1}{u_{1}}=\frac{1}{10} $$
+
+79. $$ \frac{1}{u_{1}}=\frac{1}{10}-\frac{3}{25}=-\frac{1}{50} $$
+
+80. $$ \frac{1}{50/7}+\frac{1}{u_{2}}=\frac{1}{10}\quad\Rightarrow\quad\frac{1}{u_{2}}=-\frac{1}{25}\quad\Rightarrow\quad u_{2}=-25\ cm $$
+
+81. So, speed =  $ \left|\frac{\Delta u}{\Delta t}\right| = \frac{25}{30} $  m/sec. =  $ \frac{5}{6} $  m/sec.
+
+82. & in km/hr =  $ \frac{5}{6} \times \frac{18}{5} = 3 $  km/hr.
+
+83. Content: A-4. An alternating voltage is given by:  $ e = e_{1} \sin \omega t + e_{2} \cos \omega t $ . Then the root mean square value of voltage is given by:
+
+84. αñ¬αÑìαñ░αññαÑìαñ»αñ╛αñ╡αñ░αÑìαññαÑÇ αñºαñ╛αñ░αñ╛ αñ╡αñ┐αñ¡αñ╡ :  $ e = e_{1} \sin \omega t + e_{2} \cos \omega t $  αñ╣αÑê αññαÑï αñ╡αñ┐αñ¡αñ╡ αñòαñ╛ αñ╡αñ░αÑìαñùαñ«αñ╛αñºαÑìαñ» αñ«αÑéαñ▓ αñ«αñ╛αñ¿ αñ╣αÑê :
+
+85. (A)  $ \sqrt{e_{1}^{2} + e_{2}^{2}} $  (B)  $ \sqrt{e_{1} \cdot e_{2}} $  (C)  $ \sqrt{\frac{e_{1} \cdot e_{2}}{2}} $  (D)  $ \sqrt{\frac{e_{1}^{2} + e_{2}^{2}}{2}} $
+
+86. (A)  $ \sqrt{e_{1}^{2}+e_{2}^{2}} $  (B)  $ \sqrt{e_{1}\ e_{2}} $  (C)  $ \sqrt{\frac{e_{1}\ e_{2}}{2}} $  (D)  $ \sqrt{\frac{e_{1}^{2}+e_{2}^{2}}{2}} $
+
+87. Sol.  $ V^{2}_{\mathrm{rms}}=\int_{0}^{\mathrm{T}}\frac{(\mathbf{e}_{1}\sin\omega t+\mathbf{e}_{2}\cos\omega t)^{2}\mathrm{d}t}{\mathrm{T}} $
+
+88. $$ =\sqrt{\frac{\mathbf{e}_{1}^{2}+\mathbf{e}_{2}^{2}}{2}} $$
+
+89. where  $ \omega=\frac{2\pi}{T} $ .
+
+90. Sol.  $ V^{2}_{\text{rms}} = \int_{0}^{\tau} \frac{(e_{1} \sin \omega t + e_{2} \cos \omega t)^{2} \, dt}{T} $
+
+91. $$  = \sqrt{\frac{e_{1}^{2} + e_{2}^{2}}{2}}  $$
+
+92. $$  = \frac{\omega}{T}.  $$
+
+93. $$  \mathrm{Au(OH)_3 + 4 HCl \longrightarrow HAuCl_4 + 3 H_2O}, \quad \Delta\mathrm{H} = -28\ \mathrm{kcal}  $$
+
+94. $$  \mathrm{Au(OH)_3 + 4 HBr \longrightarrow HAuBr_4 + 3 H_2O}, \quad \Delta\mathrm{H} = -36.8\ \mathrm{kcal}  $$
+
+95. In an experiment, there was an absorption of 0.44 kcal when one mole of  $ HAuBr_{4} $  was mixed with 4 moles of HCl. Then, the fraction of  $ HAuBr_{4} $  converted into  $ HAuCl_{4} $  (percentage conversion)
+
+96. Content: 5. In which of the following molecules  $ \pi $ -electron density in ring is minimum :
+
+97. $$ \mathrm{OCH}_{3} $$
+
+98. Suppose a rod of mass M and length L is lying along the x-axis with its one end at x = 0 and the other at x = L. Mass per unit length of the rod =  $ \frac{M}{L} $
+
+99. Hence, dm, (the mass of the element dx situated at x = x is) =  $ \frac{M}{L} $  dx
+
+100. The coordinates of the element dx are  $ (x, 0, 0) $ . Therefore, x-coordinate of COM of the rod will be
+
+
+--- Printed 100 formula lines ---

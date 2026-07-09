@@ -1,0 +1,161 @@
+{
+    "chapter": "Chapter 6 – Electromagnetic Induction",
+    "total_formulas": 221,
+    "repaired": 29,
+    "failed": 0,
+    "ocr_fixes": 122,
+    "latex_fixes": 29,
+    "markdown_fixes": 12,
+    "orphaned_latex_wrapped": 14,
+    "llm_fixed": 0,
+    "processing_time_sec": 0.088,
+    "changes": [
+        {
+            "type": "latex_fix",
+            "before": "\\Phi_{B}=\\mathbf{B}_{1}\\circ\\mathrm{d}\\mathbf{A}_{1}+\\mathbf{B}_{2}\\circ\\mathrm{d}\\mathbf{A}_{2}+\\ldots=\\sum_{\\mathrm{a l l}}\\mathbf{B}_{i}\\circ\\mathrm{d}\\mathbf{A}_{i}",
+            "after": "\\Phi_{B}=\\mathbf{B}_{1}\\circ\\mathrm{d}\\mathbf{A}_{1}+\\mathbf{B}_{2}\\circ\\mathrm{d}\\mathbf{A}_{2}+\\ldots=\\sum_{\\mathrm{all}}\\mathbf{B}_{i}\\circ\\mathrm{d}\\mathbf{A}_{i}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\left[\\varepsilon=-N\\frac{\\mathrm{d}\\varPhi_{{B}}}{\\mathrm{d}t}\\right]",
+            "after": "\\left[\\varepsilon=-N\\frac{\\mathrm{d}\\varPhi_{B}}{\\mathrm{d}t}\\right]"
+        },
+        {
+            "type": "latex_fix",
+            "before": "=\\frac{0.1\\times10^{-2}}{\\sqrt{2}}\\mathrm{W b}",
+            "after": "=\\frac{0.1\\times10^{-2}}{\\sqrt{2}}\\mathrm{Wb}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\varPhi_{\\mathrm{m i n}}=0",
+            "after": "\\varPhi_{\\mathrm{min}}=0"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\begin{array}{r l}{\\phi_{\\mathrm{B\\:(i n i t i a l)}}}&{=B A\\:\\cos\\:\\theta}\\\\ &{=3.0\\times10^{-5}\\times(\\pi\\times10^{-2})\\times\\cos\\:0^{\\circ}}\\\\ &{=3\\pi\\times10^{-7}\\:\\mathrm{W b}}\\end{array}",
+            "after": "\\begin{array}{r l}{\\phi_{\\mathrm{B\\:(i n i t i a l)}}}&{=B A\\:\\cos\\:\\theta}\\\\ &{=3.0\\times10^{-5}\\times(\\pi\\times10^{-2})\\times\\cos\\:0^{\\circ}}\\\\ &{=3\\pi\\times10^{-7}\\:\\mathrm{Wb}}\\end{array}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\begin{array}{r l}{\\Phi_{\\mathrm{B(f i n a l)}}}&{=3.0\\times10^{-5}\\times(\\pi\\times10^{-2})\\times\\cos180^{\\circ}}\\\\ &{=-3\\pi\\times10^{-7}\\mathrm{W b}}\\end{array}",
+            "after": "\\begin{array}{r l}{\\Phi_{\\mathrm{B(f i n a l)}}}&{=3.0\\times10^{-5}\\times(\\pi\\times10^{-2})\\times\\cos180^{\\circ}}\\\\ &{=-3\\pi\\times10^{-7}\\mathrm{Wb}}\\end{array}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{R Q}=x\\mathrm{a n d}\\mathrm{R S}=l,",
+            "after": "\\mathrm{RQ}=x\\mathrm{and}\\mathrm{RS}=l,"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\varPhi_{\\mathrm{{B}}}",
+            "after": "\\varPhi_{\\mathrm{B}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\Phi_{\\mathrm{{B}}}",
+            "after": "\\Phi_{\\mathrm{B}}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\mathrm{O P Q}",
+            "after": "\\mathrm{OPQ}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{\\mathrm{d}\\phi_{B}}{\\mathrm{d}t}\\propto\\frac{\\mathrm{d}I}{\\mathrm{d}t}\\right.",
+            "after": "\\left[\\frac{\\mathrm{d}\\phi_{B}}{\\mathrm{d}t}\\propto\\frac{\\mathrm{d}I}{\\mathrm{d}t}\\right.]"
+        },
+        {
+            "type": "latex_fix",
+            "before": "S_{1}\\operatorname{b y}r_{1}",
+            "after": "S_{1}\\mathrm{by}r_{1}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "S_{\\mathrm{2}}\\mathrm{i s}\\mu_{\\mathrm{0}}n_{\\mathrm{2}}I_{\\mathrm{2}}",
+            "after": "S_{\\mathrm{2}}\\mathrm{is}\\mu_{\\mathrm{0}}n_{\\mathrm{2}}I_{\\mathrm{2}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "T]",
+            "after": "T"
+        },
+        {
+            "type": "brace_fix",
+            "before": "S_{\\mathrm{{t}}}",
+            "after": "S_{\\mathrm{t}}"
+        },
+        {
+            "type": "script_fix",
+            "before": "$\\begin{aligned}$&$\\Phi_{_1}=\\pi$ r_{_1}^{_2}B_{_2}\\\\&$\\quad=\\frac{\\mu_{_0}\\pi r_{_1}^{^2}}{2r_{_2}}$I_{_2}\\\\&\\quad=M_{_{12}}I_{_2}\\\\&\\quad Thus,\\\\&\\quad M$_{_{12}}=\\frac{\\mu_{_0}\\pi r_{_1}^{^2}}{2r_{_2}}$\\\\&\\quad From Eq.(6.12)\\\\&\\quad M_{_{12}}=M$_{_{21}}=\\frac{\\mu_{_0}\\pi r_{_1}^{^2}}{2r_{_2}}$\\\\ $\\end{aligned}",
+            "after": "$\\begin{aligned}$&$\\Phi_{_1}=\\pi$ r_{_1}^{_2}B_{_2}\\\\&$\\quad=\\frac{\\mu_{_0}\\pi r_{_1}^{2}}{2r_{_2}}$I_{_2}\\\\&\\quad=M_{_{12}}I_{_2}\\\\&\\quad Thus,\\\\&\\quad M$_{_{12}}=\\frac{\\mu_{_0}\\pi r_{_1}^{2}}{2r_{_2}}$\\\\&\\quad From Eq.(6.12)\\\\&\\quad M_{_{12}}=M$_{_{21}}=\\frac{\\mu_{_0}\\pi r_{_1}^{2}}{2r_{_2}}$\\\\ $\\end{aligned}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "C_{2}.\\operatorname{L e t}\\varPhi_{1}",
+            "after": "C_{2}.\\mathrm{Let}\\varPhi_{1}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}{N\\varPhi_{B}}&{{}\\right.\\propto I}\\\\ {N\\varPhi_{B}}&{{}=L I}\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}{N\\varPhi_{B}}&{{}\\right.\\propto I}\\\\ {N\\varPhi_{B}}&{{}=L I}\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}{N\\varPhi_{B}}&{{}\\right.\\propto I}\\\\ {N\\varPhi_{B}}&{{}=L I}\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}{N\\varPhi_{B}}&{{}\\right.\\propto I}\\\\ {N\\varPhi_{B}}&{{}=L I}\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}L&=\\frac{N\\Phi_{B}}{I}\\\\ &=\\mu_{0}n^{2}A l\\end{aligned}\\right.not ",
+            "after": "\\left\\{\\begin{aligned}L&=\\frac{N\\Phi_{B}}{I}\\\\ &=\\mu_{0}n^{2}A l\\end{aligned}\\right.not }"
+        },
+        {
+            "type": "environment_close",
+            "before": "\\begin{array}{l}{{\\displaystyle\\int_{U_{B}}=\\frac{1}{2}L I^{2}}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {\\quad}}\\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {\\quad}}\\\\ {{\\quad}}\\\\ {\\quad}\\\\ {{\\quad}}}\\\\ \\\\ {{\\quad}}\\\\ {{\\quad}}\\\\ {\\quad}}\\\\ {{\\quad}}\\\\ {\\quad}}\\\\ \\\\ {{\\quad}}\\\\ {\\quad}{}\\\\ {\\quad}}\\\\ \\\\ {{\\quad}}\\\\ {\\quad}}\\\\ {}\\\\ \\\\ {\\quad}{}\\quad}\\\\ {}\\\\ {\\quad}}\\\\ {\\quad}{}\\\\ \\quad{}}\\\\ \\\\ {\\quad}{}\\quad}\\\\ {\\quad}\\quad}{}\\\\ U{U\\quad{}\\quad}{U}\\quad{U}\\quad{U}_{{}\\quad}\\quad{U}\\quad}{U\\quad}\\quad{U}\\quad\\quad}{U\\quad}\\quad{U}\\quad\\quad\\quad}\\quad{U\\quad}\\quad\\quad}\\quad\\quad\\quad\\quad\\quad}\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\mu\\mu\\mu\\mu\\mu\\mu\\mu\\mu\\mu\\mu\\mu\\mu\\mu U\\mu\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu\\mu U\\mu U\\mu\\mu U\\mu\\mu U\\mu U\\mu\\mu U\\mu U\\mu\\mu U\\mu U\\mu\\mu U\\mu U\\mu U\\mu U\\mu\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U U\\mu U\\mu U\\mu U\\mu U U\\mu U\\mu U U\\mu U\\mu U U U\\mu U U U\\mu\\mu U U\\mu U U U\\mu\\mu U U U\\mu U U\\mu\\mu U U U U U U U\\mu\\mu\\mu U U U U U U U U\\mu\\mu\\mu U U U U U U U U\\mu\\mu\\mu U U U U U U U U U U\\mu\\mu\\mu\\mu U U U U U U U U U U U U U\\mu\\mu\\mu\\mu U U U U U U U U U U U U\\mu\\mu\\mu U U U U U U U U U U U U U U U\\mu\\mu\\mu\\mu U U U U U U U U U U U U U U U U U U U U U U\\mu\\mu\\mu\\mu U U U U U U U U U U U U U U U U U U U U U U U U U U U\\mu\\mu\\mu U U U U U U U U U U U U U U U U U U U U U U U U U U U U\\mu\\mu\\mu\\mu U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U ",
+            "after": "\\begin{array}{l}{{\\displaystyle\\int_{U_{B}}=\\frac{1}{2}L I^{2}}}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ \\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ {\\quad}\\\\ \\\\ {\\quad}\\\\ {\\quad}{}\\\\ {\\quad}\\\\ \\\\ {\\quad}\\\\ {\\quad}\\\\ {}\\\\ \\\\ {\\quad}{}\\quad\\\\ {}\\\\ {\\quad}\\\\ {\\quad}{}\\\\ \\quad{}\\\\ \\\\ {\\quad}{}\\quad\\\\ {\\quad}\\quad{}\\\\ U{U\\quad{}\\quad}{U}\\quad{U}\\quad{U}_{{}\\quad}\\quad{U}\\quad{U\\quad}\\quad{U}\\quad\\quad{U\\quad}\\quad{U}\\quad\\quad\\quad\\quad{U\\quad}\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\mu\\mu\\mu\\mu\\mu\\mu\\mu\\mu\\mu\\mu\\mu\\mu\\mu U\\mu\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu\\mu U\\mu U\\mu\\mu U\\mu\\mu U\\mu U\\mu\\mu U\\mu U\\mu\\mu U\\mu U\\mu\\mu U\\mu U\\mu U\\mu U\\mu\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U\\mu U U\\mu U\\mu U\\mu U\\mu U U\\mu U\\mu U U\\mu U\\mu U U U\\mu U U U\\mu\\mu U U\\mu U U U\\mu\\mu U U U\\mu U U\\mu\\mu U U U U U U U\\mu\\mu\\mu U U U U U U U U\\mu\\mu\\mu U U U U U U U U\\mu\\mu\\mu U U U U U U U U U U\\mu\\mu\\mu\\mu U U U U U U U U U U U U U\\mu\\mu\\mu\\mu U U U U U U U U U U U U\\mu\\mu\\mu U U U U U U U U U U U U U U U\\mu\\mu\\mu\\mu U U U U U U U U U U U U U U U U U U U U U U\\mu\\mu\\mu\\mu U U U U U U U U U U U U U U U U U U U U U U U U U U U\\mu\\mu\\mu U U U U U U U U U U U U U U U U U U U U U U U U U U U U\\mu\\mu\\mu\\mu U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U U \\end{array}"
+        },
+        {
+            "type": "script_fix",
+            "before": "\\left\\{\\begin{aligned}{u_{_B}}&{{}=\\frac{U_{_B}}{V}}\\\\ {}&{{}=\\frac{U_{_B}}{A l}}\\\\ {}&{{}=\\frac{B^{^2}}{2\\mu_{_0}}}\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}{u_{_B}}&{{}=\\frac{U_{_B}}{V}}\\\\ {}&{{}=\\frac{U_{_B}}{A l}}\\\\ {}&{{}=\\frac{B^{2}}{2\\mu_{_0}}}\\end{aligned}\\right.}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "u_{{E}}=\\frac{1}{2}\\varepsilon_{0}E^{2}",
+            "after": "u_{E}=\\frac{1}{2}\\varepsilon_{0}E^{2}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "t\\mathbf{i s}\\theta=\\omega t(\\mathrm{a s s u m i n g}\\theta=0^{\\circ}\\mathrm{a t}t=0)",
+            "after": "t\\mathbf{i s}\\theta=\\omega t(\\mathrm{assuming}\\theta=0^{\\circ}\\mathrm{at}t=0)"
+        },
+        {
+            "type": "latex_fix",
+            "before": "+\\varepsilon_{0}\\mathrm{a n d}-\\varepsilon_{0}",
+            "after": "+\\varepsilon_{0}\\mathrm{and}-\\varepsilon_{0}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\varPhi_{\\mathrm{{_B}}}",
+            "after": "\\varPhi_{\\mathrm{_B}}"
+        },
+        {
+            "type": "script_fix",
+            "before": "L=\\mu_{_r}\\mu_{_0}n^{^2}A l where A is the area of cross-section of the solenoid, lits length and n ",
+            "after": "L=\\mu_{_r}\\mu_{_0}n^{2}A l where A is the area of cross-section of the solenoid, lits length and n "
+        },
+        {
+            "type": "script_fix",
+            "before": "L=\\mu_{_r}\\mu_{_0}n^{^2}A l",
+            "after": "L=\\mu_{_r}\\mu_{_0}n^{2}A l"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\varPhi_{\\mathrm{{B}}}",
+            "after": "\\varPhi_{\\mathrm{B}}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}
