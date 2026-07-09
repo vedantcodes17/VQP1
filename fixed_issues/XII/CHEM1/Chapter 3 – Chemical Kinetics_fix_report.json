@@ -1,0 +1,97 @@
+{
+    "chapter": "Chapter 3 – Chemical Kinetics",
+    "total_formulas": 348,
+    "repaired": 15,
+    "failed": 1,
+    "ocr_fixes": 153,
+    "latex_fixes": 15,
+    "markdown_fixes": 34,
+    "processing_time_sec": 0.151,
+    "changes": [
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}t/s\\quad0\\quad50\\quad100\\quad150\\quad200\\quad300\\quad400\\quad700\\quad800\\\\ IC_4H_9Cl/mol^{\\circ}L^{-1}0.1000.0905\\quad0.0820\\quad0.07410.06710.0549\\quad0.0439\\quad0.02100.017\\\\\\end{array}",
+            "after": "\\begin{array}{c}t/s\\quad0\\quad50\\quad100\\quad150\\quad200\\quad300\\quad400\\quad700\\quad800\\\\ IC_4H_9Cl/mol^{\\circ}L^{-1}0.1000.0905\\quad0.0820\\quad0.07410.06710.0549\\quad0.0439\\quad0.02100.017\\\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\overline{{0.00}}",
+            "after": "\\overline{0.00}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{array}{r l r}&{}&{\\mathrm{A v e r a g e~R a t e~}=\\frac{1}{2}\\left\\{-\\frac{\\Delta\\left[\\mathrm{N_{2}O_{5}}\\right]}{\\Delta t}\\right\\}=-\\frac{1}{2}\\left[\\frac{\\left(2.08-2.33\\right)\\mathrm{m o l}\\mathrm{L^{-1}}}{184\\mathrm{m i n}}\\right]}\\\\ &{=}&{6.79\\times10^{-4}\\mathrm{m o l}\\mathrm{L^{-1}/m i n}=\\left(6.79\\times10^{-4}\\mathrm{m o l}\\mathrm{L^{-1}m i n^{-1}}\\right)\\times\\left(60\\mathrm{m i n/1h}\\right)}\\\\ &{=}&{4.07\\times10^{-2}\\mathrm{m o l}\\mathrm{L^{-1}/h}}\\\\ &{=}&{6.79\\times10^{-4}\\mathrm{m o l}\\mathrm{L^{-1}\\times1m i n/}60\\mathrm{s}}\\\\ &{=}&{1.13\\times10^{-5}\\mathrm{m o l}\\mathrm{L^{-1}s^{-1}}}\\end{array} )",
+            "after": "\\begin{array}{r l r}&{}&{\\mathrm{A v e r a g e~R a t e~}=\\frac{1}{2}\\left\\{-\\frac{\\Delta\\left[\\mathrm{N_{2}O_{5}}\\right]}{\\Delta t}\\right\\}=-\\frac{1}{2}\\left[\\frac{\\left(2.08-2.33\\right)\\mathrm{m o l}\\mathrm{L^{-1}}}{184\\mathrm{m i n}}\\right]}\\\\ &{=}&{6.79\\times10^{-4}\\mathrm{m o l}\\mathrm{L^{-1}/m i n}=\\left(6.79\\times10^{-4}\\mathrm{m o l}\\mathrm{L^{-1}m i n^{-1}}\\right)\\times\\left(60\\mathrm{m i n/1h}\\right)}\\\\ &{=}&{4.07\\times10^{-2}\\mathrm{m o l}\\mathrm{L^{-1}/h}}\\\\ &{=}&{6.79\\times10^{-4}\\mathrm{m o l}\\mathrm{L^{-1}\\times1m i n/}60\\mathrm{s}}\\\\ &{=}&{1.13\\times10^{-5}\\mathrm{m o l}\\mathrm{L^{-1}s^{-1}}}\\end{array} "
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{{}^{*}l n[R]_{1}=-\\partial\\partial\\partial\\partial\\partial\\partial+\\partial\\partial\\partial\\partial\\partial\\partial\\partial\\partial\\partial}=-\\mathrm{{}^{*}}k t_{\\mathrm{{1}}}+\\mathrm{{}^{*}l n[R]_{0}}",
+            "after": "\\mathrm{{}^{*}l n[R]_{1}=-\\partial\\partial\\partial\\partial\\partial\\partial+\\partial\\partial\\partial\\partial\\partial\\partial\\partial\\partial\\partial}=-\\mathrm{{}^{*}}k t_{\\mathrm{1}}+\\mathrm{{}^{*}l n[R]_{0}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\begin{array}{c c c c c c c}{{\\mathrm{A(g)}}}&{{\\rightarrow}}&{{\\mathrm{B(g)}}}&{{+}}&{{\\mathrm{C(g)}}}\\\\ {{\\mathrm{A t}\\quad t=0}}&{{p_{\\mathrm{i}}\\mathrm{a t m}}}&{{}}&{{0\\mathrm{a t m}}}&{{}}&{{0\\mathrm{a t m}}}\\\\ {{\\mathrm{A t~t i m e}\\quad t}}&{{}}&{{(p_{\\mathrm{i}}\\mathrm{-x)}\\mathrm{a t m}}}&{{}}&{{\\mathrm{x~a t m}}}&{{}}&{{\\mathrm{x~a t m}}}\\end{array}",
+            "after": "\\begin{array}{c c c c c c c}{{\\mathrm{A(g)}}}&{\\rightarrow}&{{\\mathrm{B(g)}}}&{+}&{{\\mathrm{C(g)}}}\\\\ {{\\mathrm{A t}\\quad t=0}}&{{p_{\\mathrm{i}}\\mathrm{a t m}}}&{}&{{0\\mathrm{a t m}}}&{}&{{0\\mathrm{a t m}}}\\\\ {{\\mathrm{A t~t i m e}\\quad t}}&{}&{{(p_{\\mathrm{i}}\\mathrm{-x)}\\mathrm{a t m}}}&{}&{{\\mathrm{x~a t m}}}&{}&{{\\mathrm{x~a t m}}}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\begin{array}{l}2\\mathrm{N}_{2}\\mathrm{O}_{5}\\left(\\mathrm{g}\\right)\\\\\\end{array}\\rightarrow\\begin{array}{l}2\\mathrm{N}_{2}\\mathrm{O}_{4}\\left(\\mathrm{g}\\right)\\\\\\end{array}+\\begin{array}{l}\\mathrm{O}_{2}\\left(\\mathrm{g}\\right)\\\\\\end{array}\\\\\\begin{array}{l}\\text{Start}t=0\\\\\\end{array}\\begin{array}{l}0.5\\text{atm}\\\\\\end{array}\\begin{array}{l}0\\text{atm}\\\\2\\mathrm{x}\\text{atm}\\\\\\end{array}\\begin{array}{l}0\\text{atm}\\\\\\end{array}\\\\\\begin{array}{l}p_{t}=p_{\\mathrm{N}_{2}\\mathrm{O}_{5}}+p_{\\mathrm{N}_{2}\\mathrm{O}_{5}}+p_{\\mathrm{O}_{2}}\\\\\\end{array}\\\\\\begin{array}{l}=\\left(0.5-2\\mathrm{x}\\right)+2\\mathrm{x}+\\mathrm{x}=0.5+\\mathrm{x}\\\\\\end{array}\\\\\\begin{array}{l}\\mathrm{x}=p_{t}-0.5\\\\\\end{array}\\\\\\begin{array}{l}p_{\\mathrm{N}_{2}\\mathrm{O}_{5}}\\\\\\end{array}=0.5-2\\mathrm{x}\\\\\\begin{array}{l}t=0.5-2\\mathrm{x}\\\\\\end{array}\\left(p_{\\mathrm{t}}-0.5\\right)=1.5-2p_{t}\\\\\\text{At}\\quad t=100\\mathrm{~s};p_{\\mathrm{t}}=0.512\\mathrm{~atm}\\end{array}",
+            "after": "\\begin{array}{l}\\begin{array}{l}2\\mathrm{N}_{2}\\mathrm{O}_{5}\\left(\\mathrm{g}\\right)\\\\end{array}\\rightarrow\\begin{array}{l}2\\mathrm{N}_{2}\\mathrm{O}_{4}\\left(\\mathrm{g}\\right)\\\\end{array}+\\begin{array}{l}\\mathrm{O}_{2}\\left(\\mathrm{g}\\right)\\\\end{array}\\\\begin{array}{l}\\text{Start}t=0\\\\end{array}\\begin{array}{l}0.5\\text{atm}\\\\end{array}\\begin{array}{l}0\\text{atm}\\\\2\\mathrm{x}\\text{atm}\\\\end{array}\\begin{array}{l}0\\text{atm}\\\\end{array}\\\\begin{array}{l}p_{t}=p_{\\mathrm{N}_{2}\\mathrm{O}_{5}}+p_{\\mathrm{N}_{2}\\mathrm{O}_{5}}+p_{\\mathrm{O}_{2}}\\\\end{array}\\\\begin{array}{l}=\\left(0.5-2\\mathrm{x}\\right)+2\\mathrm{x}+\\mathrm{x}=0.5+\\mathrm{x}\\\\end{array}\\\\begin{array}{l}\\mathrm{x}=p_{t}-0.5\\\\end{array}\\\\begin{array}{l}p_{\\mathrm{N}_{2}\\mathrm{O}_{5}}\\\\end{array}=0.5-2\\mathrm{x}\\\\begin{array}{l}t=0.5-2\\mathrm{x}\\\\end{array}\\left(p_{\\mathrm{t}}-0.5\\right)=1.5-2p_{t}\\\\text{At}\\quad t=100\\mathrm{~s};p_{\\mathrm{t}}=0.512\\mathrm{~atm}\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}k=\\frac{2.303}{t}\\log\\frac{p_{i}}{p_{A}}=\\frac{2.303}{100s}\\log\\frac{0.5atm}{0.476atm}\\\\ =\\frac{2.303}{100s}\\times0.0216=4.98\\times10^{-4}s^{-1}\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}k=\\frac{2.303}{t}\\log\\frac{p_{i}}{p_{A}}=\\frac{2.303}{100s}\\log\\frac{0.5atm}{0.476atm}\\\\ =\\frac{2.303}{100s}\\times0.0216=4.98\\times10^{-4}s^{-1}\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}&k=\\frac{[\\mathbf{R}]_0-[\\mathbf{R}]}{t}\\\\&At t=t_{1/2},\\quad[\\mathbf{R}]=\\frac{1}{2}[\\mathbf{R}]_0\\\\ \\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}&k=\\frac{[\\mathbf{R}]_0-[\\mathbf{R}]}{t}\\\\&At t=t_{1/2},\\quad[\\mathbf{R}]=\\frac{1}{2}[\\mathbf{R}]_0\\\\ \\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}k=\\frac{\\left[\\mathbf{R}\\right]_{0}-1/2\\left[\\mathbf{R}\\right]_{0}}{t_{1/2}}\\\\ t_{1/2}=\\frac{\\left[\\mathbf{R}\\right]_{0}}{2k}\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}k=\\frac{\\left[\\mathbf{R}\\right]_{0}-1/2\\left[\\mathbf{R}\\right]_{0}}{t_{1/2}}\\\\ t_{1/2}=\\frac{\\left[\\mathbf{R}\\right]_{0}}{2k}\\end{aligned}\\right.}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}t_{_{1/2}}&=0.693/k\\\\\\frac{t}{t_{_{1/2}}}&=\\frac{6.909}{k}\\times\\frac{k}{0.693}=10\\end{aligned}",
+            "after": "\\begin{aligned}t_{_{1/2}}&=0.693/k\\\\frac{t}{t_{_{1/2}}}&=\\frac{6.909}{k}\\times\\frac{k}{0.693}=10\\end{aligned}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{C_{12}H_{22}O_{11}}+\\mathrm{H_2O}\\xrightarrow{\\mathrm{H^*}}\\mathrm{C_6H_{12}O_6}+\\mathrm{C_6H_{12}O_6}\\\\\\mathrm{Cane~sugar}\\quad\\mathrm{Glucose}\\quad\\mathrm{Fructsee}\\\\\\mathrm{Rate}=k\\mathrm{\\left[C_{12}H_{22}O_{11}\\right]}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{C_{12}H_{22}O_{11}}+\\mathrm{H_2O}\\xrightarrow{\\mathrm{H^*}}\\mathrm{C_6H_{12}O_6}+\\mathrm{C_6H_{12}O_6}\\\\mathrm{Cane~sugar}\\quad\\mathrm{Glucose}\\quad\\mathrm{Fructsee}\\\\mathrm{Rate}=k\\mathrm{\\left[C_{12}H_{22}O_{11}\\right]}\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "N_{\\mathrm{T}}\\mathrm{~i\\overline{{s}}~}",
+            "after": "N_{\\mathrm{T}}\\mathrm{~i\\overline{s}~}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\log\\frac{k_{_2}}{k_{_1}}&=\\frac{E_{_{\\mathrm{a}}}}{2.303R}\\Bigg[\\frac{T_{_2}-T_{_1}}{T_{_1}T_{_2}}\\Bigg]\\\\\\left[\\log\\frac{0.07}{0.02}\\right.&=\\left(\\frac{E_{_{\\mathrm{a}}}}{2.303\\times8.3\\overline{1}4\\mathrm{~J}K^{^{-1}}\\mathrm{mol}^{^{-1}}}\\right)\\Bigg[\\frac{700-500}{700\\times500}\\Bigg]\\\\0.544&=E_{_{\\mathrm{a}}}\\times5.714\\times10^{^{-4}}/19.15\\\\E_{_{\\mathrm{a}}}&=0.544\\times19.15/5.714\\times10^{^{-4}}=18230.8\\mathrm{~J}\\\\k&=A\\mathrm{e}^{^{-\\mathrm{E}_{\\mathrm{a}}/R T}}\\\\0.02&=A\\mathrm{e}^{^{-\\mathrm{18230.8}/8.314}\\times^{500}}\\\\A&=0.02/0.012=1.61\\end{aligned}",
+            "after": "\\begin{aligned}\\log\\frac{k_{_2}}{k_{_1}}&=\\frac{E_{_{\\mathrm{a}}}}{2.303R}\\Bigg[\\frac{T_{_2}-T_{_1}}{T_{_1}T_{_2}}\\Bigg]\\\\left[\\log\\frac{0.07}{0.02}\\right.&=\\left(\\frac{E_{_{\\mathrm{a}}}}{2.303\\times8.3\\overline{1}4\\mathrm{~J}K^{^{-1}}\\mathrm{mol}^{^{-1}}}\\right)\\Bigg[\\frac{700-500}{700\\times500}\\Bigg]\\\\0.544&=E_{_{\\mathrm{a}}}\\times5.714\\times10^{^{-4}}/19.15\\\\E_{_{\\mathrm{a}}}&=0.544\\times19.15/5.714\\times10^{^{-4}}=18230.8\\mathrm{~J}\\\\k&=A\\mathrm{e}^{^{-\\mathrm{E}_{\\mathrm{a}}/R T}}\\\\0.02&=A\\mathrm{e}^{^{-\\mathrm{18230.8}/8.314}\\times^{500}}\\\\A&=0.02/0.012=1.61\\end{aligned}]"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\log k_{_2}&=\\log k_{_1}+\\frac{E_{_{a}}}{2.303R}\\left[\\frac{1}{T_{_1}}-\\frac{1}{T_{_2}}\\right]\\\\&=\\log\\left(1.60\\times10^{^{-5}}\\right)+\\frac{209000J mol L^{^{-1}}}{2.303\\times8.314J mol L^{^{-1}}}\\left[\\frac{1}{600K}-\\frac{1}{700K}\\right]\\\\\\log k_{_2}&=-4.796+2.599=-2.197\\\\k_{_2}&=6.36\\times10^{^{-3}}s^{^{-1}}\\end{aligned}",
+            "after": "\\begin{aligned}\\log k_{_2}&=\\log k_{_1}+\\frac{E_{_{a}}}{2.303R}\\left[\\frac{1}{T_{_1}}-\\frac{1}{T_{_2}}\\right]\\\\&=\\log\\left(1.60\\times10^{^{-5}}\\right)+\\frac{209000J mol L^{^{-1}}}{2.303\\times8.314J mol L^{^{-1}}}\\left[\\frac{1}{600K}-\\frac{1}{700K}\\right]\\\\log k_{_2}&=-4.796+2.599=-2.197\\\\k_{_2}&=6.36\\times10^{^{-3}}s^{^{-1}}\\end{aligned}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "t_{{1/2}}=3.00",
+            "after": "t_{1/2}=3.00"
+        }
+    ],
+    "failed_equations": [
+        {
+            "equation": "\\begin{array}{r l r}&{}&{{\\mathrm{R e a c t i o n}}}\\\\ &{}&{{\\mathrm{1.~C H C l_{3}+C l_{2}\\rightarrow C C l_{4}+H C l}}\\quad{\\mathrm{\\quad{\\quad{\\quad{\\quad{\\quad{\\quad{\\quad{\\quad{\\quad{\\quad{\\quad{\\quad{R a t e}}}}\\quad{\\quad{\\quad{\\quad{\\quad{\\quad{\\quad{\\quad{\\quad{\\quad{\\quad{\\quad{1}}}}}\\quad{{\\quad{\\quad{\\quad{\\quad{1}}}}}\\quad{{\\quad{\\quad{\\quad{\\quad{1}}}}}\\quad{{\\quad{\\quad{\\quad{\\quad{1}}}}}\\quad{{\\quad{\\quad{\\quad{\\quad{1}}}}}\\quad{{\\quad{\\quad{\\quad{\\quad{1}}}}}\\quad{{\\quad{\\quad{\\quad{\\quad{1}}}}}\\quad{{\\quad{\\quad{\\quad{\\quad{1}}}}}\\quad{{\\quad{\\quad{\\quad{\\quad{1}}}}}\\quad{{\\quad{\\quad{\\quad{\\quad{1}}}}}\\quad{{\\quad{\\quad{\\quad{\\quad{1}}}}}\\quad{{\\quad{\\quad{\\quad{\\quad{1}}}}}\\quad{{\\quad{\\quad{\\quad{\\quad{1}}}}}\\quad{{\\quad{\\quad{\\quad{\\quad{1}}}}}\\quad{{\\quad{\\quad{\\quad{1}}}}\\quad{{\\quad{\\quad{\\quad{1}}}}}\\quad{{\\quad{\\quad{\\quad{\\quad{1}}}}}\\quad{{\\quad{\\quad{\\quad{1}}}}\\quad{{\\quad{\\quad{\\quad{1}}}}}\\quad{{\\quad{\\quad{\\quad{1}}}}\\quad{{\\quad{\\quad{\\quad{1}}}}}\\quad{{\\quad{\\quad{\\quad{\\quad{1}}}}}\\quad{{\\quad{\\quad{\\quad{1}}}}\\quad{{\\quad{\\quad{\\quad{1}}}}}\\quad{{\\quad{\\quad{\\quad{\\quad{1}}}}}\\quad{{\\quad{\\quad{\\quad{\\quad1}}}}}\\quad{{\\quad{\\quad{\\quad{\\quad{1}}}}}\\quad{{\\quad{\\quad{\\quad{\\quad{1}}}}}\\quad{{\\quad{\\quad{\\quad{\\quad1}}}}}\\quad{{\\quad{\\quad{\\quad{\\quad1}}}}}\\quad{{\\quad{\\quad{\\quad{\\quad1}}}}}\\quad{{\\quad{\\quad{\\quad{\\quad1}}}}}\\quad{{\\quad{\\quad{\\quad\\quad{1}}}}\\quad{\\quad{\\quad{\\quad{\\quad{\\quad{1}}}}}\\quad{\\quad{\\quad{\\quad{\\quad1}}}}}\\quad{\\quad{\\quad{\\quad{\\quad1}}}}\\quad{\\quad{\\quad{\\quad{\\quad1}}}}\\quad{\\quad{\\quad{\\quad\\quad{\\quad{\\quad1}}}}}\\quad{\\quad{\\quad{\\quad\\quad{\\quad{\\quad1}}}}}\\quad{\\quad{\\quad\\quad{\\quad{\\quad\\quad{\\quad1}}}}\\quad{\\quad{\\quad\\quad{\\quad{\\quad\\quad{\\quad1}}}}}\\quad{\\quad{\\quad\\quad{\\quad\\quad{\\quad1}}}}\\quad}}}}}}}}}}}}}}}}}}}}}}}}}}}{}}}{}}{}}}{}}{}}{}}}&\\\\ {{}{}}}&{{}2}}\\mathrm{}}\\mathrm{}}\\mathrm{H}}_{}\\mathrm{H}}_{}\\mathrm{C H}_{}_{3}}\\mathrm}\\mathrm{C H}_{}}\\mathrm{C H}_}\\mathrm{H}_{}\\mathrm{C H}_}\\mathrm{C H}_{}\\mathrm{H}}\\mathrm}\\mathrm{C}}\\mathrm}\\mathrm{H}}\\mathrm}\\mathrm{H}\\mathrm{C}}\\mathrm}\\mathrm{H}\\mathrm}\\mathrm{H}}\\mathrm}\\mathrm{H}\\mathrm}\\mathrm{H}\\mathrm}\\mathrm{H}}\\mathrm\\mathrm{H}}\\mathrm}\\mathrm{H}\\mathrm}\\mathrm{H}\\mathrm}\\mathrm{H}\\mathrm}\\mathrm{H}\\mathrm}\\mathrm{H}\\mathrm}\\mathrm}\\mathrm{H}\\mathrm}\\mathrm}\\mathrm{H}\\mathrm}\\mathrm}\\mathrm{H}\\mathrm}\\mathrm\\mathrm{H}\\mathrm}\\mathrm}\\mathrm{H}\\mathrm}\\mathrm}\\mathrm\\mathrm{H}\\mathrm}\\mathrm}\\mathrm}\\mathrm{H}\\mathrm\\mathrm}\\mathrm{H}\\mathrm}\\mathrm\\mathrm}\\mathrm}\\mathrm\\mathrm{H}\\mathrm}\\mathrm}\\mathrm\\mathrm\\mathrm{H}\\mathrm}\\mathrm}\\mathrm\\mathrm\\mathrm}\\mathrm{H}\\mathrm\\mathrm}\\mathrm}\\mathrm\\mathrm}\\mathrm ",
+            "delimiter": "$$",
+            "reasons": [
+                "unbalanced \\begin/\\end environment"
+            ]
+        }
+    ],
+    "suspicious_equations": []
+}

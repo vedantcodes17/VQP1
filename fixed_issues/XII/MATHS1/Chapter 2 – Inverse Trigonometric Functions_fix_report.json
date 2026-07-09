@@ -1,0 +1,54 @@
+{
+    "chapter": "Chapter 2 – Inverse Trigonometric Functions",
+    "total_formulas": 255,
+    "repaired": 8,
+    "failed": 0,
+    "ocr_fixes": 42,
+    "latex_fixes": 8,
+    "markdown_fixes": 6,
+    "processing_time_sec": 0.072,
+    "changes": [
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\left[\\frac{\\pi}{2},\\frac{3\\pi}{2}\\right]\\right.",
+            "after": "\\left[\\left[\\frac{\\pi}{2},\\frac{3\\pi}{2}\\right]\\right.]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\{x:x\\in\\mathbb{R}",
+            "after": "\\{x:x\\in\\mathbb{R}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x\\neq n\\pi,n\\in\\mathbf{Z}\\}",
+            "after": "x\\neq n\\pi,n\\in\\mathbf{Z}\\"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathbf{R}-\\{x:x=(2n+1)\\frac{\\pi}{2}",
+            "after": "\\mathbf{R}-\\{x:x=(2n+1)\\frac{\\pi}{2}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "n\\in\\mathbf{Z}\\}",
+            "after": "n\\in\\mathbf{Z}\\"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\{x:x\\in\\mathbb{R}",
+            "after": "\\{x:x\\in\\mathbb{R}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\left(\\frac{-1}{\\sqrt{3}}\\right)\\stackrel{\\cdot}{is}\\frac{2\\pi}{3}\\right.",
+            "after": "\\left[\\left(\\frac{-1}{\\sqrt{3}}\\right)\\stackrel{\\cdot}{is}\\frac{2\\pi}{3}\\right.]"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\sin^{-1}\\left(2x\\sqrt{1-x^{2}}\\right)&=2\\sin^{-1}x,\\quad-\\frac{1}{\\sqrt{2}}\\leq x\\leq\\frac{1}{\\sqrt{2}}\\\\\\sin^{-1}\\left(2x\\sqrt{1-x^{2}}\\right)&=2\\cos^{-1}x,\\quad\\frac{1}{\\sqrt{2}}\\leq x\\leq1\\end{aligned}Solution \n",
+            "after": "\\begin{aligned}\\sin^{-1}\\left(2x\\sqrt{1-x^{2}}\\right)&=2\\sin^{-1}x,\\quad-\\frac{1}{\\sqrt{2}}\\leq x\\leq\\frac{1}{\\sqrt{2}}\\\\sin^{-1}\\left(2x\\sqrt{1-x^{2}}\\right)&=2\\cos^{-1}x,\\quad\\frac{1}{\\sqrt{2}}\\leq x\\leq1\\end{aligned}Solution \n"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

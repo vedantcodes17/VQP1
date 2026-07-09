@@ -1,0 +1,64 @@
+{
+    "chapter": "Chapter 4 – Complex Numbers and Quadratic Equations",
+    "total_formulas": 220,
+    "repaired": 10,
+    "failed": 0,
+    "ocr_fixes": 36,
+    "latex_fixes": 10,
+    "markdown_fixes": 11,
+    "processing_time_sec": 0.069,
+    "changes": [
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{as}-z)",
+            "after": "\\mathrm{as}-z"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "(z_{1}\\;z_{2})\\;z_{3}=z_{1}\\;(z_{2}\\;z_{3}).(iv ",
+            "after": "(z_{1}\\;z_{2})\\;z_{3}=z_{1}\\;(z_{2}\\;z_{3}).(iv )"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}\\frac{z_{1}}{z_{2}}=z_{1}\\frac{1}{z_{2}}\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}\\frac{z_{1}}{z_{2}}=z_{1}\\frac{1}{z_{2}}\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{aligned}&\\left(z_{1}+z_{2}\\right)^{2}=\\left(z_{1}+z_{2}\\right)\\left(z_{1}+z_{2}\\right),\\\\&\\left(z_{1}+z_{2}\\right)z_{1}+\\left(z_{1}+z_{2}\\right)z_{2}\\quad\\left(\\operatorname{Distribute law}\\right)\\\\&\\left(z_{1}^{2}+z_{2}z_{1}+z_{1}z_{2}+z_{2}^{2}\\right.\\quad\\left(\\operatorname{Distribute law}\\right)\\\\&\\left.=z_{1}^{2}+z_{1}z_{2}+z_{1}z_{2}+z_{2}^{2}\\right.\\quad\\left(\\operatorname{Gommutative law ofmultiplication}\\right)\\\\&\\left.=z_{1}^{2}+2z_{1}z_{2}+z_{2}^{2}\\right.\\\\ \\end{aligned}epur ",
+            "after": "\\begin{aligned}&\\left(z_{1}+z_{2}\\right)^{2}=\\left(z_{1}+z_{2}\\right)\\left(z_{1}+z_{2}\\right),\\\\&\\left(z_{1}+z_{2}\\right)z_{1}+\\left(z_{1}+z_{2}\\right)z_{2}\\quad\\left(\\operatorname{Distribute law}\\right)\\\\&\\left(z_{1}^{2}+z_{2}z_{1}+z_{1}z_{2}+z_{2}^{2}\\right.\\quad\\left(\\operatorname{Distribute law}\\right)\\\\&\\left.=z_{1}^{2}+z_{1}z_{2}+z_{1}z_{2}+z_{2}^{2}\\right.\\quad\\left(\\operatorname{Gommutative law ofmultiplication}\\right)\\\\&\\left.=z_{1}^{2}+2z_{1}z_{2}+z_{2}^{2}\\right.\\\\ \\end{aligned}epur )"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{aligned}&\\left(z_{1}-z_{2}\\right)^{2}=z_{1}^{2}-2z_{1}z_{2}+z_{2}^{2}\\\\ &\\left(z_{1}+z_{2}\\right)^{3}=z_{1}^{3}+3z_{1}^{2}z_{2}+3z_{1}z_{2}^{2}+z_{2}^{3}\\\\ &\\left(z_{1}-z_{2}\\right)^{3}=z_{1}^{3}-3z_{1}^{2}z_{2}+3z_{1}z_{2}^{2}-z_{2}^{3}\\\\ &\\left(z_{1}^{2}-z_{2}^{2}=\\left(z_{1}+z_{2}\\right)\\left(z_{1}-z_{2}\\right)\\right.\\\\ \\end{aligned} epur ",
+            "after": "\\begin{aligned}&\\left(z_{1}-z_{2}\\right)^{2}=z_{1}^{2}-2z_{1}z_{2}+z_{2}^{2}\\\\ &\\left(z_{1}+z_{2}\\right)^{3}=z_{1}^{3}+3z_{1}^{2}z_{2}+3z_{1}z_{2}^{2}+z_{2}^{3}\\\\ &\\left(z_{1}-z_{2}\\right)^{3}=z_{1}^{3}-3z_{1}^{2}z_{2}+3z_{1}z_{2}^{2}-z_{2}^{3}\\\\ &\\left(z_{1}^{2}-z_{2}^{2}=\\left(z_{1}+z_{2}\\right)\\left(z_{1}-z_{2}\\right)\\right.\\\\ \\end{aligned} epur )"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "[\\bar{z}",
+            "after": "[\\bar{z}]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[i^{9}+i^{19}\\right.",
+            "after": "\\left[i^{9}+i^{19}\\right.]"
+        },
+        {
+            "type": "brace_fix",
+            "before": "12.\\sqrt[]{5}+3i",
+            "after": "12.\\sqrt[]_{5}+3i"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\overline{{z}}",
+            "after": "\\overline{z}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\overline{{z}}=a-i b",
+            "after": "\\overline{z}=a-i b"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

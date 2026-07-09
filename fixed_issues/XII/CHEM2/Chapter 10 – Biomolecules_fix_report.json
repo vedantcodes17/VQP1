@@ -1,0 +1,67 @@
+{
+    "chapter": "Chapter 10 – Biomolecules",
+    "total_formulas": 61,
+    "repaired": 9,
+    "failed": 1,
+    "ocr_fixes": 126,
+    "latex_fixes": 9,
+    "markdown_fixes": 8,
+    "processing_time_sec": 0.04,
+    "changes": [
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{CHO}\\\\(\\mathrm{CHOH})_{4}\\\\\\mathrm{H}_{2}\\mathrm{OH}\\end{array}\\xrightarrow{\\mathrm{HI},\\ \\Delta}\\mathrm{CH}_{3}-\\mathrm{CH}_{2}-\\mathrm{CH}_{2}-\\mathrm{CH}_{2}-\\mathrm{CH}_{2}-\\mathrm{CH}_{3}",
+            "after": "\\begin{array}{c}\\mathrm{CHO}\\\\(\\mathrm{CHOH})_{4}\\\\mathrm{H}_{2}\\mathrm{OH}\\end{array}\\xrightarrow{\\mathrm{HI},\\ \\Delta}\\mathrm{CH}_{3}-\\mathrm{CH}_{2}-\\mathrm{CH}_{2}-\\mathrm{CH}_{2}-\\mathrm{CH}_{2}-\\mathrm{CH}_{3}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{ccc}\\overset{\\mathrm{CHO}}{\\underset{\\mathrm{CHOH}}{\\mathrm{CHOH}}}\\overset{\\mathrm{CH,OH}}{\\underset{\\mathrm{CH_2OH}}{\\longrightarrow}}&\\overset{\\mathrm{CH=N-OH}}{\\underset{\\mathrm{CH_2OH}}{\\mathrm{CHOH}}}&\\overset{\\mathrm{CHO}}{\\underset{\\mathrm{CH_2OH}}{\\longrightarrow}}&\\overset{\\mathrm{CH}}{\\underset{\\mathrm{CH_2OH}}{\\longrightarrow}}\\\\\\overset{\\mathrm{CH_2OH}}{\\underset{\\mathrm{CH_2OH}}{\\longrightarrow}}&\\overset{\\mathrm{CH_2OH}}{\\underset{\\mathrm{CH_2OH}}{\\longrightarrow}}&\\overset{\\mathrm{CHOH}}{\\underset{\\mathrm{CH_2OH}}{\\longrightarrow}}&\\overset{\\mathrm{CHN}}{\\underset{\\mathrm{CH_2OH}}{\\longrightarrow}}\\\\\\end{array}",
+            "after": "\\begin{array}{ccc}\\overset{\\mathrm{CHO}}{\\underset{\\mathrm{CHOH}}{\\mathrm{CHOH}}}\\overset{\\mathrm{CH,OH}}{\\underset{\\mathrm{CH_2OH}}{\\longrightarrow}}&\\overset{\\mathrm{CH=N-OH}}{\\underset{\\mathrm{CH_2OH}}{\\mathrm{CHOH}}}&\\overset{\\mathrm{CHO}}{\\underset{\\mathrm{CH_2OH}}{\\longrightarrow}}&\\overset{\\mathrm{CH}}{\\underset{\\mathrm{CH_2OH}}{\\longrightarrow}}\\\\overset{\\mathrm{CH_2OH}}{\\underset{\\mathrm{CH_2OH}}{\\longrightarrow}}&\\overset{\\mathrm{CH_2OH}}{\\underset{\\mathrm{CH_2OH}}{\\longrightarrow}}&\\overset{\\mathrm{CHOH}}{\\underset{\\mathrm{CH_2OH}}{\\longrightarrow}}&\\overset{\\mathrm{CHN}}{\\underset{\\mathrm{CH_2OH}}{\\longrightarrow}}\\\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{CHO}\\\\\\mathrm{(CHOH)_4}\\\\\\mathrm{(CH_2OH)_4}\\\\\\end{array}\\xrightarrow{\\mathrm{Br_2}\\text{water}}\\begin{array}{c}\\mathrm{COOH}\\\\\\mathrm{(CHOH)_4}\\\\\\mathrm{CH_2OH}\\\\\\mathrm{Gluonic acid}\\\\\\end{array}not \n",
+            "after": "\\begin{array}{c}\\mathrm{CHO}\\\\mathrm{(CHOH)_4}\\\\mathrm{(CH_2OH)_4}\\\\end{array}\\xrightarrow{\\mathrm{Br_2}\\text{water}}\\begin{array}{c}\\mathrm{COOH}\\\\mathrm{(CHOH)_4}\\\\mathrm{CH_2OH}\\\\mathrm{Gluonic acid}\\\\end{array}not \n"
+        },
+        {
+            "type": "escape_fix",
+            "before": "not \n\\begin{array}{c}\\overset{\\text{CHO}}{\\underset{\\text{(CHOH)}_{4}}{\\longrightarrow}}\\xrightarrow{\\text{Acectic anhydride}}\\overset{\\text{CHO}}{\\underset{\\text{(CH-O-C-CH_{3})}}{\\longrightarrow}}\\\\\\overset{\\text{(CHO)}}{\\underset{\\text{CH_{2}OH}}{\\longrightarrow}}\\end{array}",
+            "after": "not \n\\begin{array}{c}\\overset{\\text{CHO}}{\\underset{\\text{(CHOH)}_{4}}{\\longrightarrow}}\\xrightarrow{\\text{Acectic anhydride}}\\overset{\\text{CHO}}{\\underset{\\text{(CH-O-C-CH_{3})}}{\\longrightarrow}}\\\\overset{\\text{(CHO)}}{\\underset{\\text{CH_{2}OH}}{\\longrightarrow}}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\mathrm{C_{12}H_{22}O_{11}+H_{2}O\\xrightarrow{\\Delta}C_{6}H_{12}O_{6}+\\Delta}\\mathrm{C_{6}H_{12}O_{6}}\\\\\\text{Sucose}\\quad\\mathrm{D-(+)-Gulucose}\\quad\\mathrm{D-(-)-Fruetose}\\end{array}",
+            "after": "\\begin{array}{l}\\mathrm{C_{12}H_{22}O_{11}+H_{2}O\\xrightarrow{\\Delta}C_{6}H_{12}O_{6}+\\Delta}\\mathrm{C_{6}H_{12}O_{6}}\\\\text{Sucose}\\quad\\mathrm{D-(+)-Gulucose}\\quad\\mathrm{D-(-)-Fruetose}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{R}-\\mathrm{CH}-\\mathrm{COOH}\\\\\\mid\\\\\\mathrm{NH_2}\\\\\\mathrm{\\alpha_{a}-amino~acid}\\\\\\left(\\mathrm{R}=\\mathrm{side~chain}\\right)\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{R}-\\mathrm{CH}-\\mathrm{COOH}\\\\mid\\\\mathrm{NH_2}\\\\mathrm{\\alpha_{a}-amino~acid}\\\\left(\\mathrm{R}=\\mathrm{side~chain}\\right)\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{H_3C-CH_2-CH-}\\\\\\mathrm{CH_3}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{H_3C-CH_2-CH-}\\\\mathrm{CH_3}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}O\\\\\\underset{H_2N-C-CH_2-CH_2-}{||}\\\\ H_2N-CH_2-CH_2-\\\\\\end{array}",
+            "after": "\\begin{array}{c}O\\\\underset{H_2N-C-CH_2-CH_2-}{||}\\\\ H_2N-CH_2-CH_2-\\\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{C_{6}H_{5}–\\mathrm{C H_{2}]}}",
+            "after": "\\mathrm{C_{6}H_{5}–\\mathrm{C H_{2}}}"
+        }
+    ],
+    "failed_equations": [
+        {
+            "equation": "\\mathrm{H_{3}C\\_S\\_CH_{2}\\_CH_{2}}",
+            "delimiter": "$",
+            "reasons": [
+                "double subscript ('x_a_b')"
+            ]
+        }
+    ],
+    "suspicious_equations": []
+}

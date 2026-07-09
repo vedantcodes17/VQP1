@@ -1,0 +1,59 @@
+{
+    "chapter": "lech2an",
+    "total_formulas": 44,
+    "repaired": 9,
+    "failed": 0,
+    "ocr_fixes": 23,
+    "latex_fixes": 9,
+    "markdown_fixes": 11,
+    "processing_time_sec": 0.031,
+    "changes": [
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{\\underline{{C}}_{2}H_{5}}",
+            "after": "\\mathrm{\\underline{C}_{2}H_{5}}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{CH_{3}-CH_{2}-CH-CH_{2}-CH_{2}-OH}\\\\\\mid\\\\\\mathrm{CH_{2}Cl}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{CH_{3}-CH_{2}-CH-CH_{2}-CH_{2}-OH}\\\\mid\\\\mathrm{CH_{2}Cl}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{CH_3-CH_2-CH-CH_2-OH}\\\\\\mid\\\\\\mathrm{CH_3}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{CH_3-CH_2-CH-CH_2-OH}\\\\mid\\\\mathrm{CH_3}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{CH_{3}-CH-CH-CH_{3}}\\\\\\mid\\quad\\mid\\\\\\mathrm{CH_{3}\\ OH}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{CH_{3}-CH-CH-CH_{3}}\\\\mid\\quad\\mid\\\\mathrm{CH_{3}\\ OH}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{CH_3\\bar{-}CH\\bar{-}CH_2\\bar{-}CH_2OH,}\\\\\\mid\\\\\\mathrm{CH_3}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{CH_3\\bar{-}CH\\bar{-}CH_2\\bar{-}CH_2OH,}\\\\mid\\\\mathrm{CH_3}\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\overset{Br}{\\underset{C_6H_5}{\\mid}}\\overset{O}{\\underset{\\parallel}{\\parallel}}\\overset{H}{\\underset{C}{\\mid}}\\overset{H}{\\underset{C}{\\mid}}\\overset{H}{\\underset{C}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{O}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}{C}\\overset{H}{\\underset{\\parallel}{\\mid}}{C}\\overset{H}{\\underset{\\parallel}{\\mid}}{C}\\overset{H}{\\underset{\\parallel}{\\mid}}{C}\\overset{H}{\\underset{\\parallel}{\\mid}}{C}\\overset{H}{\\underset{\\parallel}{\\mid}}{C}\\overset{H}{\\underset{\\parallel}{\\mid}}{C}}\\overset{H{}}{\\underset{C}}{H}{}}",
+            "after": "\\overset{Br}{\\underset{C_6H_5}{\\mid}}\\overset{O}{\\underset{\\parallel}{\\parallel}}\\overset{H}{\\underset{C}{\\mid}}\\overset{H}{\\underset{C}{\\mid}}\\overset{H}{\\underset{C}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{O}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}\\overset{H}{\\underset{\\parallel}{\\mid}}{C}\\overset{H}{\\underset{\\parallel}{\\mid}}{C}\\overset{H}{\\underset{\\parallel}{\\mid}}{C}\\overset{H}{\\underset{\\parallel}{\\mid}}{C}\\overset{H}{\\underset{\\parallel}{\\mid}}{C}\\overset{H}{\\underset{\\parallel}{\\mid}}{C}\\overset{H}{\\underset{\\parallel}{\\mid}}{C}\\overset{H{}}{\\underset{C}}{H}{}"
+        },
+        {
+            "type": "duplicate_command_fix",
+            "before": "\\mathrm{\\mathrm{\\mathrm{\\mathrm{\\mathrm{\\mathrm{\\mathrm{\\mathrm{\\mathrm{\\mathrm{\\mathrm{\\mathrm{\\mathrm{\\mathrm{\\mathrm{\\mathrm{\\mathrm{\\mathrm{~~~~}}~}~}~}~}~}~}~}~}~}~}~}~}~A c c e t a l d e h y d e}}}",
+            "after": "\\mathrm{\\mathrm{\\mathrm{\\mathrm{\\mathrm{\\mathrm{\\mathrm{\\mathrm{\\mathrm{\\mathrm{\\mathrm{\\mathrm{\\mathrm{\\mathrm{\\mathrm{\\mathrm{\\mathrm{~~~~}~}~}~}~}~}~}~}~}~}~}~}~}~A c c e t a l d e h y d e}}}}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{C_6H_5CH=C-CHO~+~other}\\\\\\mid\\\\\\mathrm{CH_3}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{C_6H_5CH=C-CHO~+~other}\\\\mid\\\\mathrm{CH_3}\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{B H_{3};~2.~H_{2}O_{2}/\\overline{{O}}H;} : 3.PCC (xi)",
+            "after": "\\mathrm{B H_{3};~2.~H_{2}O_{2}/\\overline{O}H;} : 3.PCC (xi)"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

@@ -1,0 +1,69 @@
+{
+    "chapter": "Chapter 8 – Aldehydes, Ketones and Carboxylic Acids",
+    "total_formulas": 193,
+    "repaired": 11,
+    "failed": 0,
+    "ocr_fixes": 159,
+    "latex_fixes": 11,
+    "markdown_fixes": 24,
+    "processing_time_sec": 0.106,
+    "changes": [
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{{^\\mathrm{{\\prime}}C H}_{3}}",
+            "after": "\\mathrm{{^\\mathrm{\\prime}C H}_{3}}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\overset{1}{\\underset{\\mathrm{R}}{\\longrightarrow}}\\overset{2}{\\underset{\\mathrm{CH_2}}{\\longrightarrow}}\\overset{3}{\\underset{\\mathrm{C}}{\\longrightarrow}}\\overset{1}{\\underset{\\mathrm{C_2}}{\\longrightarrow}}\\overset{\\mathrm{[O]}}{\\underset{\\mathrm{O}}{\\longrightarrow}}\\overset{\\mathrm{[O]}}{\\underset{\\mathrm{R}}{\\longrightarrow}}\\overset{\\mathrm{R}}{\\underset{\\mathrm{C}}{\\longrightarrow}}\\overset{\\mathrm{C}}{\\underset{\\mathrm{OOH}}{\\longrightarrow}}+\\overset{\\mathrm{R}}{\\underset{\\mathrm{R}}{\\longrightarrow}}\\overset{\\mathrm{-C}}{\\underset{\\mathrm{C_2}}{\\longrightarrow}}\\overset{\\mathrm{C}}{\\underset{\\mathrm{COOH}}{\\longrightarrow}}\\\\\\overset{\\mathrm{(By~leavage~of~C_1-C_2~bond)}}{+}\\\\\\overset{\\mathrm{R}}{\\underset{\\mathrm{C}}{\\longrightarrow}}\\overset{\\mathrm{C}}{\\underset{\\mathrm{H_2}}{\\longrightarrow}}\\overset{\\mathrm{C}}{\\underset{\\mathrm{COOH}}{\\longrightarrow}}+\\overset{\\mathrm{R}}{\\underset{\\mathrm{R}}{\\longrightarrow}}\\overset{\\mathrm{-C}}{\\underset{\\mathrm{COOH}}{\\longrightarrow}}\\\\\\overset{\\mathrm{(By~leavage~of~C_2-C_3~bond)}}{\\longrightarrow}\\end{array}",
+            "after": "\\begin{array}{c}\\overset{1}{\\underset{\\mathrm{R}}{\\longrightarrow}}\\overset{2}{\\underset{\\mathrm{CH_2}}{\\longrightarrow}}\\overset{3}{\\underset{\\mathrm{C}}{\\longrightarrow}}\\overset{1}{\\underset{\\mathrm{C_2}}{\\longrightarrow}}\\overset{\\mathrm{[O]}}{\\underset{\\mathrm{O}}{\\longrightarrow}}\\overset{\\mathrm{[O]}}{\\underset{\\mathrm{R}}{\\longrightarrow}}\\overset{\\mathrm{R}}{\\underset{\\mathrm{C}}{\\longrightarrow}}\\overset{\\mathrm{C}}{\\underset{\\mathrm{OOH}}{\\longrightarrow}}+\\overset{\\mathrm{R}}{\\underset{\\mathrm{R}}{\\longrightarrow}}\\overset{\\mathrm{-C}}{\\underset{\\mathrm{C_2}}{\\longrightarrow}}\\overset{\\mathrm{C}}{\\underset{\\mathrm{COOH}}{\\longrightarrow}}\\\\overset{\\mathrm{(By~leavage~of~C_1-C_2~bond)}}{+}\\\\overset{\\mathrm{R}}{\\underset{\\mathrm{C}}{\\longrightarrow}}\\overset{\\mathrm{C}}{\\underset{\\mathrm{H_2}}{\\longrightarrow}}\\overset{\\mathrm{C}}{\\underset{\\mathrm{COOH}}{\\longrightarrow}}+\\overset{\\mathrm{R}}{\\underset{\\mathrm{R}}{\\longrightarrow}}\\overset{\\mathrm{-C}}{\\underset{\\mathrm{COOH}}{\\longrightarrow}}\\\\overset{\\mathrm{(By~leavage~of~C_2-C_3~bond)}}{\\longrightarrow}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\overset{\\mathrm{CH_3CHO}}{\\underset{+}{\\longrightarrow}}\\xrightarrow[\\mathrm{2.\\quad\\triangle}]{\\mathrm{~1.~NaOH}}\\overset{\\mathrm{CH_3-CH=CH-CHO+CH_3CH_2-CH=C-CHO}}{\\underset{\\mathrm{But-2-enal}}{\\longrightarrow}}\\overset{\\mathrm{CH_3}}{\\underset{\\mathrm{CH_3}}{\\longrightarrow}}\\\\\\overset{\\mathrm{from~two~molecules~of~channel~2-Methylpen+2-enal}}{\\underset{\\mathrm{from~two~molecules}}{\\longrightarrow}}\\\\\\end{array}",
+            "after": "\\begin{array}{c}\\overset{\\mathrm{CH_3CHO}}{\\underset{+}{\\longrightarrow}}\\xrightarrow[\\mathrm{2.\\quad\\triangle}]{\\mathrm{~1.~NaOH}}\\overset{\\mathrm{CH_3-CH=CH-CHO+CH_3CH_2-CH=C-CHO}}{\\underset{\\mathrm{But-2-enal}}{\\longrightarrow}}\\overset{\\mathrm{CH_3}}{\\underset{\\mathrm{CH_3}}{\\longrightarrow}}\\\\overset{\\mathrm{from~two~molecules~of~channel~2-Methylpen+2-enal}}{\\underset{\\mathrm{from~two~molecules}}{\\longrightarrow}}\\\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}RCH_2OH\\xrightarrow[2.H_3\\dot{O}]{1.allline KMnO_4}RCOOH\\\\ CH_3(CH_2)_8CH_2OH\\xrightarrow[Jones represent]{1.CrO_3-H_2SO_4}CH_3(CH_2)_8COOH\\\\ Decanoic acid\\\\\\end{array}",
+            "after": "\\begin{array}{c}RCH_2OH\\xrightarrow[2.H_3\\dot{O}]{1.allline KMnO_4}RCOOH\\\\ CH_3(CH_2)_8CH_2OH\\xrightarrow[Jones represent]{1.CrO_3-H_2SO_4}CH_3(CH_2)_8COOH\\\\ Decanoic acid\\\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{CH_{3}CH_{2}CH_{2}CH_{2}OH\\xrightarrow[Jones represent]{CrO_{3}-H_{2}SO_{4}}CH_{3}CH_{2}COOH}\\\\\\mathrm{Butan-1-ol}\\\\\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{CH_{3}CH_{2}CH_{2}CH_{2}OH\\xrightarrow[Jones represent]{CrO_{3}-H_{2}SO_{4}}CH_{3}CH_{2}COOH}\\\\mathrm{Butan-1-ol}\\\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\mathrm{C_{6}H_{5}COOH>C_{6}H_{5}CH_{2}COOH>CH_{3}COOH>CH_{3}CH_{2}COOH}\\\\\\text{(continuous)}\\end{array}",
+            "after": "\\begin{array}{l}\\mathrm{C_{6}H_{5}COOH>C_{6}H_{5}CH_{2}COOH>CH_{3}COOH>CH_{3}CH_{2}COOH}\\\\text{(continuous)}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\mathrm{R}-\\mathrm{CH}_{2}-\\mathrm{COOH}\\xrightarrow[\\text{(ii)}\\mathrm{H}_{2}\\mathrm{O}]{\\text{(i)}\\mathrm{X}_{2}/\\mathrm{Red phosphorus}}\\begin{array}{l}\\mathrm{R}-\\mathrm{CH}-\\mathrm{COOH}\\\\\\underset{\\mathrm{X}}{\\mid}\\\\\\mathrm{X}=\\mathrm{Cl},\\mathrm{Br}\\end{array}",
+            "after": "\\mathrm{R}-\\mathrm{CH}_{2}-\\mathrm{COOH}\\xrightarrow[\\text{(ii)}\\mathrm{H}_{2}\\mathrm{O}]{\\text{(i)}\\mathrm{X}_{2}/\\mathrm{Red phosphorus}}\\begin{array}{l}\\mathrm{R}-\\mathrm{CH}-\\mathrm{COOH}\\\\underset{\\mathrm{X}}{\\mid}\\\\mathrm{X}=\\mathrm{Cl},\\mathrm{Br}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "Which acid of each pair shown here would you expect to be strong \\begin{array}{l}WHCl 日日日 \\\\\\{\\mathrm{i}\\}\\text{CH}_{3}\\mathrm{CO}_{2}\\mathrm{H}\\text{or}\\mathrm{CH}_{2}\\mathrm{FCO}_{2}\\mathrm{H}\\text{}\\quad\\{\\mathrm{ii}\\}\\text{CH}_{2}\\mathrm{FCO}_{2}\\mathrm{H}\\text{or}\\mathrm{CH}_{2}\\mathrm{CICO}_{2}\\mathrm{H}\\\\\\{\\mathrm{iii}\\}\\text{CH}_{2}\\mathrm{FCH}_{2}\\mathrm{CH}_{2}\\mathrm{CO}_{2}\\mathrm{H}\\text{or}\\mathrm{CH}_{3}\\mathrm{CHFCH}_{2}\\mathrm{CO}_{2}\\mathrm{H}\\end{array}",
+            "after": "Which acid of each pair shown here would you expect to be strong \\begin{array}{l}WHCl 日日日 \\\\{\\mathrm{i}\\}\\text{CH}_{3}\\mathrm{CO}_{2}\\mathrm{H}\\text{or}\\mathrm{CH}_{2}\\mathrm{FCO}_{2}\\mathrm{H}\\text{}\\quad\\{\\mathrm{ii}\\}\\text{CH}_{2}\\mathrm{FCO}_{2}\\mathrm{H}\\text{or}\\mathrm{CH}_{2}\\mathrm{CICO}_{2}\\mathrm{H}\\\\{\\mathrm{iii}\\}\\text{CH}_{2}\\mathrm{FCH}_{2}\\mathrm{CH}_{2}\\mathrm{CO}_{2}\\mathrm{H}\\text{or}\\mathrm{CH}_{3}\\mathrm{CHFCH}_{2}\\mathrm{CO}_{2}\\mathrm{H}\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{C_{8}H_{16}O_{2})}",
+            "after": "\\mathrm{C_{8}H_{16}O_{2}}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{CH_{3}O}\\quad\\mathrm{O}\\\\\\mid\\quad\\parallel\\\\\\mathrm{H_{3}C-CH-C-H}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{CH_{3}O}\\quad\\mathrm{O}\\\\mid\\quad\\parallel\\\\mathrm{H_{3}C-CH-C-H}\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\overset{\\overset{\\frown}{\\underset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}}}{\\underset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}}}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\underset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\underset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\underset{\\cdot\\cdot}{\\vert\\cdot}}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\underset{\\cdot\\cdot}{\\vert\\cdot}}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\underset{\\cdot\\cdot}{\\vert\\cdot}}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\underset{\\cdot\\cdot}{\\vert\\cdot}}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\vert\\cdot}}{\\overset{\\vert\\vert\\cdot}}{\\vert\\overset{\\vert\\cdot\\cdot}{\\vert\\vert\\cdot}}\\overset{\\vert\\vert}{\\vert\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\vert\\cdot}}",
+            "after": "\\overset{\\overset{\\frown}{\\underset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}}}{\\underset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}}}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\underset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\underset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\underset{\\cdot\\cdot}{\\vert\\cdot}}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\underset{\\cdot\\cdot}{\\vert\\cdot}}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\underset{\\cdot\\cdot}{\\vert\\cdot}}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\underset{\\cdot\\cdot}{\\vert\\cdot}}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}\\overset{\\underset{\\cdot\\cdot}{\\vert\\cdot}}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\vert\\cdot}{\\overset{\\vert\\vert\\cdot}}{\\vert\\overset{\\vert\\cdot\\cdot}{\\vert\\vert\\cdot}}\\overset{\\vert\\vert}{\\vert\\vert\\cdot}\\overset{\\vert\\cdot}{\\vert\\vert\\cdot}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

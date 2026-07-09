@@ -1,0 +1,162 @@
+{
+    "chapter": "Chapter 8 – Organic Chemistry – Some Basic Principles And Techniques",
+    "total_formulas": 424,
+    "repaired": 28,
+    "failed": 1,
+    "ocr_fixes": 264,
+    "latex_fixes": 28,
+    "markdown_fixes": 13,
+    "processing_time_sec": 0.187,
+    "changes": [
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{H}\\quad\\mathrm{H}\\\\\\mathrm{H}-\\mathrm{C}\\equiv\\mathrm{C}-\\mathrm{H}\\quad\\mathrm{H}-\\underset{\\mathrm{~\\text{~H~}}}{\\overset{\\mathrm{H}}{\\vert}}\\quad\\mathrm{O}-\\underset{\\mathrm{~\\text{~H~}}}{\\overset{\\mathrm{H}}{\\vert}}\\quad\\mathrm{H}\\\\\\mathrm{H}\\quad\\mathrm{H}\\\\E t h y n e\\quad M e t h a n o l\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{H}\\quad\\mathrm{H}\\\\mathrm{H}-\\mathrm{C}\\equiv\\mathrm{C}-\\mathrm{H}\\quad\\mathrm{H}-\\underset{\\mathrm{~\\text{~H~}}}{\\overset{\\mathrm{H}}{\\vert}}\\quad\\mathrm{O}-\\underset{\\mathrm{~\\text{~H~}}}{\\overset{\\mathrm{H}}{\\vert}}\\quad\\mathrm{H}\\\\mathrm{H}\\quad\\mathrm{H}\\\\E t h y n e\\quad M e t h a n o l\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\mathrm{(a)\\_CH_{3}CH_{2}CHCH_{2}CH_{2}CH_{2}CH_{2}CH_{3}}",
+            "after": "\\mathrm{(a)_CH_{3}CH_{2}CHCH_{2}CH_{2}CH_{2}CH_{2}CH_{3}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "[C H_{4}",
+            "after": "[C H_{4}]"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{(H_{3}C)_{2}\\overline{{C}}O}",
+            "after": "\\mathrm{(H_{3}C)_{2}\\overline{C}O}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{CH_3\\bar{-}CH\\bar{-}CH_2\\bar{-}CH_3}\\mathrm{CH_3\\bar{-}CH\\bar{-}CH_2\\bar{-}CH\\bar{-}CH_3}\\\\|\\quad|\\quad|\\\\\\mathrm{CH_3}\\quad\\mathrm{CH_2CH_3}\\mathrm{CH_3}\\\\\\mathrm{(a)}\\quad\\mathrm{(b)}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{CH_3\\bar{-}CH\\bar{-}CH_2\\bar{-}CH_3}\\mathrm{CH_3\\bar{-}CH\\bar{-}CH_2\\bar{-}CH\\bar{-}CH_3}\\\\|\\quad|\\quad|\\\\mathrm{CH_3}\\quad\\mathrm{CH_2CH_3}\\mathrm{CH_3}\\\\mathrm{(a)}\\quad\\mathrm{(b)}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}1\\ 2\\ 3\\ 4\\ 5\\ 6\\ 7\\ 8\\\\\\mathrm{CH_{3}}—\\mathrm{CH_{2}}—\\mathrm{CH}—\\mathrm{CH_{2}}—\\mathrm{CH_{2}}—\\mathrm{CH}—\\mathrm{CH_{2}}—\\mathrm{CH_{3}}\\\\\\mid\\quad\\quad\\quad\\mid\\\\\\mathrm{CH_{2}CH_{3}}—\\mathrm{CH_{3}}\\end{array}",
+            "after": "\\begin{array}{c}1\\ 2\\ 3\\ 4\\ 5\\ 6\\ 7\\ 8\\\\mathrm{CH_{3}}—\\mathrm{CH_{2}}—\\mathrm{CH}—\\mathrm{CH_{2}}—\\mathrm{CH_{2}}—\\mathrm{CH}—\\mathrm{CH_{2}}—\\mathrm{CH_{3}}\\\\mid\\quad\\quad\\quad\\mid\\\\mathrm{CH_{2}CH_{3}}—\\mathrm{CH_{3}}\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\begin{array}{l}{{4\\quad3\\quad2\\quad1}}\\\\ {{\\mathrm{C H_{3}–C H–C H_{2}–C H–}}}\\\\ {{\\quad\\mid\\quad\\mid}}\\\\ {{\\quad\\mathrm{C H_{3}\\quad\\mathrm{C H_{3}}}}}\\\\ {{\\quad\\scriptstyle{I,3–D i m e t h y l b u t y l e}}}\\end{array}",
+            "after": "\\begin{array}{l}{4\\quad3\\quad2\\quad1}\\\\ {{\\mathrm{C H_{3}–C H–C H_{2}–C H–}}}\\\\ {\\quad\\mid\\quad\\mid}\\\\ {{\\quad\\mathrm{C H_{3}\\quad\\mathrm{C H_{3}}}}}\\\\ {{\\quad\\scriptstyle{I,3–D i m e t h y l b u t y l e}}}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{CH(CH_3)_2}\\\\1\\quad2\\quad3\\quad4\\mid5\\quad6\\quad7\\quad8\\quad9\\quad10\\\\\\mathrm{CH_3-CH_2-CH_2-CH-CH-CH_2-CH_2-CH_2-CH_2-CH_3}\\\\\\mid\\\\\\mathrm{CH_3-CH-CH_2-CH_3}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{CH(CH_3)_2}\\\\1\\quad2\\quad3\\quad4\\mid5\\quad6\\quad7\\quad8\\quad9\\quad10\\\\mathrm{CH_3-CH_2-CH_2-CH-CH-CH_2-CH_2-CH_2-CH_2-CH_3}\\\\mid\\\\mathrm{CH_3-CH-CH_2-CH_3}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}1\\ 2\\ 3\\ 4\\ 5\\ 6\\ 7\\ 8\\ 9\\\\ CH_3-CH_2-CH_2-CH_2-CH_2-CH_2-CH_2-CH_3\\\\\\hline\\begin{array}{c}1\\\\ 1\\\\ 2\\\\ 3\\\\ 1\\\\ 3\\end{array}\\\\\\end{array}",
+            "after": "\\begin{array}{c}1\\ 2\\ 3\\ 4\\ 5\\ 6\\ 7\\ 8\\ 9\\\\ CH_3-CH_2-CH_2-CH_2-CH_2-CH_2-CH_2-CH_3\\\\hline\\begin{array}{c}1\\\\ 1\\\\ 2\\\\ 3\\\\ 1\\\\ 3\\end{array}\\\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\overline{{6}}^{\\mathrm{t h}}",
+            "after": "\\overline{6}^{\\mathrm{t h}}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}O\\quad O\\\\\\parallel\\quad\\parallel\\\\ CH_3-CH_2-C-CH_2-C-CH_3\\\\6\\quad5\\quad4\\quad3\\quad2\\quad1\\end{array}",
+            "after": "\\begin{array}{c}O\\quad O\\\\parallel\\quad\\parallel\\\\ CH_3-CH_2-C-CH_2-C-CH_3\\\\6\\quad5\\quad4\\quad3\\quad2\\quad1\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{O}\\\\\\parallel\\\\\\mathrm{CH_{3}-C-CH_{2}-CH_{2}-CH_{2}-COOH}\\\\6\\quad5\\quad4\\quad3\\quad2\\quad1\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{O}\\\\parallel\\\\mathrm{CH_{3}-C-CH_{2}-CH_{2}-CH_{2}-COOH}\\\\6\\quad5\\quad4\\quad3\\quad2\\quad1\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{\\overline{{C H}}_{3}\\overline{{C H}}_{2}\\overline{{C H}}_{2}\\overline{{C H}}_{2}\\overline{{C H}}(\\overline{{C l}})\\overline{{C H}}_{3}}",
+            "after": "\\mathrm{\\overline{C H}_{3}\\overline{C H}_{2}\\overline{C H}_{2}\\overline{C H}_{2}\\overline{C H}(\\overline{C l})\\overline{C H}_{3}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{(C_{6}H_{5}\\mathrm{^-}}",
+            "after": "\\mathrm{(C_{6}H_{5}\\mathrm{^-}})"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{cc}O&H\\\\\\parallel&\\mid\\\\ CH_3-C-CH_3&CH_3-CH_2\\text{—}C=O\\\\�Propanone&Propanal\\\\\\end{array}",
+            "after": "\\begin{array}{cc}O&H\\\\parallel&\\mid\\\\ CH_3-C-CH_3&CH_3-CH_2\\text{—}C=O\\\\�Propanone&Propanal\\\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\underset{\\text{Oraganic}}{\\overset{\\text{Attacking}}{\\longrightarrow}}\\underset{\\text{IIntermedicatel}}{\\longrightarrow}\\underset{\\text{Product(s)}}{\\longrightarrow}\\\\\\text{molecule}\\xrightarrow{\\text{II}}\\underset{\\text{Byproducts}}{\\longrightarrow}\\underset{\\text{Byproducts}}{\\longrightarrow}\\end{array}",
+            "after": "\\begin{array}{c}\\underset{\\text{Oraganic}}{\\overset{\\text{Attacking}}{\\longrightarrow}}\\underset{\\text{IIntermedicatel}}{\\longrightarrow}\\underset{\\text{Product(s)}}{\\longrightarrow}\\\\text{molecule}\\xrightarrow{\\text{II}}\\underset{\\text{Byproducts}}{\\longrightarrow}\\underset{\\text{Byproducts}}{\\longrightarrow}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\overbrace{\\underset{\\mathrm{R}}{\\longrightarrow}}\\underbrace{\\xrightarrow{\\mathrm{Heat}\\;\\mathrm{or}\\;\\mathrm{Light}}}_{\\text{}}\\quad\\dot{\\underset{\\mathrm{R}}{\\mathrm{~R}}}\\quad+\\quad\\dot{\\underset{\\mathrm{X}}{\\mathrm{~X}}}\\\\\\quad\\mathrm{Alkyl}\\\\\\quad\\mathrm{free}\\;\\mathrm{radical}\\end{array}",
+            "after": "\\begin{array}{c}\\overbrace{\\underset{\\mathrm{R}}{\\longrightarrow}}\\underbrace{\\xrightarrow{\\mathrm{Heat}\\;\\mathrm{or}\\;\\mathrm{Light}}}_{\\text{}}\\quad\\dot{\\underset{\\mathrm{R}}{\\mathrm{~R}}}\\quad+\\quad\\dot{\\underset{\\mathrm{X}}{\\mathrm{~X}}}\\\\quad\\mathrm{Alkyl}\\\\quad\\mathrm{free}\\;\\mathrm{radical}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\dot{\\mathrm{C}}\\mathrm{H}_{3}<\\dot{\\mathrm{C}}\\mathrm{H}_{2}\\mathrm{CH}_{3}<\\dot{\\mathrm{C}}\\mathrm{H}\\left(\\mathrm{CH}_{3}\\right)_{2}<\\dot{\\mathrm{C}}\\left(\\mathrm{CH}_{3}\\right)_{3\\circ}\\\\\\text{Methyl}\\mathrm{Ethyl}\\text{Isopropyl}\\mathrm{Tert-butyl}\\\\\\text{free}\\text{free}\\text{free}\\text{free}\\text{free}\\\\\\text{radical}\\text{radical}\\text{radical}\\text{radical}\\text{radical}\\end{array}",
+            "after": "\\begin{array}{l}\\dot{\\mathrm{C}}\\mathrm{H}_{3}<\\dot{\\mathrm{C}}\\mathrm{H}_{2}\\mathrm{CH}_{3}<\\dot{\\mathrm{C}}\\mathrm{H}\\left(\\mathrm{CH}_{3}\\right)_{2}<\\dot{\\mathrm{C}}\\left(\\mathrm{CH}_{3}\\right)_{3\\circ}\\\\text{Methyl}\\mathrm{Ethyl}\\text{Isopropyl}\\mathrm{Tert-butyl}\\\\text{free}\\text{free}\\text{free}\\text{free}\\text{free}\\\\text{radical}\\text{radical}\\text{radical}\\text{radical}\\text{radical}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\mathrm{CH_2=CH_2+Br_2\\longrightarrow Br CH_2-CH_2Br}\\\\\\mathrm{Substate\\quad Reagent\\quad Product}\\end{array}",
+            "after": "\\begin{array}{l}\\mathrm{CH_2=CH_2+Br_2\\longrightarrow Br CH_2-CH_2Br}\\\\mathrm{Substate\\quad Reagent\\quad Product}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\delta\\delta^{+}\\quad\\delta^{+}\\quad\\delta^{-}\\\\ CH_3\\longrightarrow CH_2\\longrightarrow Cl\\\\2\\quad1\\\\\\end{array}",
+            "after": "\\begin{array}{c}\\delta\\delta^{+}\\quad\\delta^{+}\\quad\\delta^{-}\\\\ CH_3\\longrightarrow CH_2\\longrightarrow Cl\\\\2\\quad1\\\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{:}\\mathrm{O}:\\\\\\mathrm{CH}_{2}=\\mathrm{CH}-\\mathrm{\\stackrel{||}{C}}-\\mathrm{H}\\Leftrightarrow\\mathrm{\\stackrel{+}{CH}}_{2}-\\mathrm{CH}=\\mathrm{\\stackrel{|}{C}}-\\mathrm{H}\\\\\\mathrm{I}\\\\\\Leftrightarrow\\mathrm{\\stackrel{-}{CH}}_{2}-\\mathrm{CH}=\\mathrm{\\stackrel{|}{C}}-\\mathrm{H}\\\\\\mathrm{III}\\\\\\mathrm{Stability}:\\mathrm{I}>\\mathrm{II}>\\mathrm{III}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{:}\\mathrm{O}:\\\\mathrm{CH}_{2}=\\mathrm{CH}-\\mathrm{\\stackrel{||}{C}}-\\mathrm{H}\\Leftrightarrow\\mathrm{\\stackrel{+}{CH}}_{2}-\\mathrm{CH}=\\mathrm{\\stackrel{|}{C}}-\\mathrm{H}\\\\mathrm{I}\\\\Leftrightarrow\\mathrm{\\stackrel{-}{CH}}_{2}-\\mathrm{CH}=\\mathrm{\\stackrel{|}{C}}-\\mathrm{H}\\\\mathrm{III}\\\\mathrm{Stability}:\\mathrm{I}>\\mathrm{II}>\\mathrm{III}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\bar{\\bar{\\Omega}}:\\bar{\\bar{\\Omega}}:\\bar{\\bar{\\Omega}}:\\bar{\\bar{\\Omega}}:\\\\\\mathrm{CH_3-C-C-C-C}\\longrightarrow\\mathrm{CH_3-C=C=C-C}\\\\\\mathrm{I}\\quad\\mathrm{II}\\end{array}",
+            "after": "\\begin{array}{c}\\bar{\\bar{\\Omega}}:\\bar{\\bar{\\Omega}}:\\bar{\\bar{\\Omega}}:\\bar{\\bar{\\Omega}}:\\\\mathrm{CH_3-C-C-C-C}\\longrightarrow\\mathrm{CH_3-C=C=C-C}\\\\mathrm{I}\\quad\\mathrm{II}\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{C H_{_3}\\dot{\\hat{C}}H_{_2}(e t h y l}",
+            "after": "\\mathrm{C H_{_3}\\dot{\\hat{C}}H_{_2}(e t h y l})"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\mathrm{C}+2\\mathrm{CuO}\\xrightarrow{\\Delta}2\\mathrm{Cu}+\\mathrm{CO}_{2}\\\\\\mathrm{H}_{2}+\\mathrm{CuO}\\xrightarrow{\\Delta}\\mathrm{Cu}+\\mathrm{H}_{2}\\mathrm{O}\\\\\\mathrm{CO}_{2}+\\mathrm{Ca}(\\mathrm{OH})_{2}\\xrightarrow{\\Delta}\\mathrm{CaCO}_{3}\\downarrow+\\mathrm{H}_{2}\\mathrm{O}\\\\5\\mathrm{H}_{2}\\mathrm{O}+\\mathrm{CuSO}_{4}\\xrightarrow{\\Delta}\\mathrm{CuSO}_{4}.5\\mathrm{H}_{2}\\mathrm{O}\\\\\\quad\\text{While}\\quad\\text{Blue}\\end{array}",
+            "after": "\\begin{array}{l}\\mathrm{C}+2\\mathrm{CuO}\\xrightarrow{\\Delta}2\\mathrm{Cu}+\\mathrm{CO}_{2}\\\\mathrm{H}_{2}+\\mathrm{CuO}\\xrightarrow{\\Delta}\\mathrm{Cu}+\\mathrm{H}_{2}\\mathrm{O}\\\\mathrm{CO}_{2}+\\mathrm{Ca}(\\mathrm{OH})_{2}\\xrightarrow{\\Delta}\\mathrm{CaCO}_{3}\\downarrow+\\mathrm{H}_{2}\\mathrm{O}\\\\5\\mathrm{H}_{2}\\mathrm{O}+\\mathrm{CuSO}_{4}\\xrightarrow{\\Delta}\\mathrm{CuSO}_{4}.5\\mathrm{H}_{2}\\mathrm{O}\\\\quad\\text{While}\\quad\\text{Blue}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\mathrm{Na}+\\mathrm{C}+\\mathrm{N}+\\mathrm{S}\\longrightarrow\\quad\\mathrm{NaSCN}\\\\\\mathrm{Fe^{3+}}+\\mathrm{SCN^-}\\longrightarrow\\quad\\mathrm{[Fe(SCN)]^{2+}}\\end{array}",
+            "after": "\\begin{array}{l}\\mathrm{Na}+\\mathrm{C}+\\mathrm{N}+\\mathrm{S}\\longrightarrow\\quad\\mathrm{NaSCN}\\\\mathrm{Fe^{3+}}+\\mathrm{SCN^-}\\longrightarrow\\quad\\mathrm{[Fe(SCN)]^{2+}}\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{array}{c}\\text{compound}\\xrightarrow{\\quad heat\\quad}\\mathrm{O}_{2}+\\text{other gaseous}\\\\ \\text{products}\\\\ 2\\mathrm{C}+\\mathrm{O}_{2}\\xrightarrow{\\quad1373\\mathrm{K}\\quad}2\\mathrm{CO}]\\times5\\quad\\text{(A)}\\\\ \\text{I}_{2}\\mathrm{O}_{5}+5\\mathrm{CO}\\xrightarrow{\\quad}\\mathrm{I}_{2}+5\\mathrm{CO}_{2}]\\times2\\quad\\text{(B)}\\end{array}",
+            "after": "\\begin{array}{c}\\text{compound}\\xrightarrow{\\quad heat\\quad}\\mathrm{O}_{2}+\\text{other gaseous}\\\\ \\text{products}\\\\ 2\\mathrm{C}+\\mathrm{O}_{2}\\xrightarrow{\\quad1373\\mathrm{K}\\quad}2\\mathrm{CO}\\times5\\quad\\text{(A)}\\\\ \\text{I}_{2}\\mathrm{O}_{5}+5\\mathrm{CO}\\xrightarrow{\\quad}\\mathrm{I}_{2}+5\\mathrm{CO}_{2}\\times2\\quad\\text{(B)}\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{\\underline{{O}}_{2}N C H_{2}C H_{2}O^{-}}",
+            "after": "\\mathrm{\\underline{O}_{2}N C H_{2}C H_{2}O^{-}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{\\overline{{C}}_{6}\\mathrm{H_{5}O H}}",
+            "after": "\\mathrm{\\overline{C}_{6}\\mathrm{H_{5}O H}}"
+        }
+    ],
+    "failed_equations": [
+        {
+            "equation": "\\begin{array}{c}\\mathrm{CH_3\\_CHCH_2CH_2CH_3}\\\\\\mathrm{CH_3CH_2CH_2CH_2CH_3}\\\\\\mathrm{Pentane}\\\\\\mathrm{Isopentane}\\\\(2\\mathrm{-Methylbutane})\\\\\\mathrm{CH_3}\\\\\\mathrm{CH_3\\_\\_C\\_\\_CH_3}\\\\\\mathrm{\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_}\\\\\\mathrm{\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_}\\\\\\mathrm{Neopentane}\\\\(2,2\\mathrm{-Dimethylpropane})\\end{array}",
+            "delimiter": "$$",
+            "reasons": [
+                "double subscript ('x_a_b')"
+            ]
+        }
+    ],
+    "suspicious_equations": []
+}

@@ -1,0 +1,89 @@
+{
+    "chapter": "Chapter 1 – Solutions",
+    "total_formulas": 345,
+    "repaired": 15,
+    "failed": 0,
+    "ocr_fixes": 139,
+    "latex_fixes": 15,
+    "markdown_fixes": 36,
+    "processing_time_sec": 0.129,
+    "changes": [
+        {
+            "type": "brace_fix",
+            "before": "K_{\\mathrm{{H}}}",
+            "after": "K_{\\mathrm{H}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "K_{\\mathrm{{H}}}",
+            "after": "K_{\\mathrm{H}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "K_{\\mathrm{{H}}}",
+            "after": "K_{\\mathrm{H}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "K_{\\mathrm{{H}}}",
+            "after": "K_{\\mathrm{H}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "$x { 0$ x_{2}=1",
+            "after": "$x { 0$ x_{2}=1}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{C H C l}_{_3},~[p_{\\mathrm{C H}_{2}\\mathrm{C l}_{2}}^{^O}=",
+            "after": "\\mathrm{C H C l}_{_3},~[p_{\\mathrm{C H}_{2}\\mathrm{C l}_{2}}^{^O}=]"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\frac{p_{1}^{0}-p_{1}}{p_{1}^{0}}\\quad&=\\frac{n_{2}}{n_{1}}\\\\\\text{for}\\quad\\frac{p_{1}^{0}-p_{1}}{p_{1}^{0}}\\quad&=\\frac{\\mathbf{w}_{2}\\times M_{1}}{M_{2}\\times\\mathbf{w}_{1}}\\end{aligned}",
+            "after": "\\begin{aligned}\\frac{p_{1}^{0}-p_{1}}{p_{1}^{0}}\\quad&=\\frac{n_{2}}{n_{1}}\\\\text{for}\\quad\\frac{p_{1}^{0}-p_{1}}{p_{1}^{0}}\\quad&=\\frac{\\mathbf{w}_{2}\\times M_{1}}{M_{2}\\times\\mathbf{w}_{1}}\\end{aligned}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\underline{{K}}_{\\mathrm{b}}",
+            "after": "\\underline{K}_{\\mathrm{b}}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\Delta T_{f}&=\\frac{K_{f}\\times w_{2}/M_{2}}{w_{1}/1000}\\\\\\Delta T_{f}&=\\frac{K_{f}\\times w_{2}\\times1000}{M_{2}\\times w_{1}}\\\\M_{2}&=\\frac{K_{f}\\times w_{2}\\times1000}{\\Delta T_{f}\\times w_{1}}\\end{aligned}",
+            "after": "\\begin{aligned}\\Delta T_{f}&=\\frac{K_{f}\\times w_{2}/M_{2}}{w_{1}/1000}\\\\Delta T_{f}&=\\frac{K_{f}\\times w_{2}\\times1000}{M_{2}\\times w_{1}}\\\\M_{2}&=\\frac{K_{f}\\times w_{2}\\times1000}{\\Delta T_{f}\\times w_{1}}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{C_{6}H_{8}O_{6})}",
+            "after": "\\mathrm{C_{6}H_{8}O_{6}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{m o l}^{-1})",
+            "after": "\\mathrm{m o l}^{-1}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{(\\underline{{C}}H_{3}\\overline{{C}}N)}",
+            "after": "\\mathrm{(\\underline{C}H_{3}\\overline{C}N)}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "1.5\\times10^{-3}]",
+            "after": "1.5\\times10^{-3}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "140\\mathrm{g m o l^{-1})}",
+            "after": "140\\mathrm{g m o l^{-1}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "180\\mathrm{g m o l^{-1})}",
+            "after": "180\\mathrm{g m o l^{-1}}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

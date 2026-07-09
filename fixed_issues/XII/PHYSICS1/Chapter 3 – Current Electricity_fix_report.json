@@ -1,0 +1,97 @@
+{
+    "chapter": "Chapter 3 – Current Electricity",
+    "total_formulas": 318,
+    "repaired": 15,
+    "failed": 1,
+    "ocr_fixes": 161,
+    "latex_fixes": 15,
+    "markdown_fixes": 20,
+    "processing_time_sec": 0.108,
+    "changes": [
+        {
+            "type": "delimiter_balance",
+            "before": "I=\\frac{q}{t}is defined to be the current across the area in the forward direction. (if it ",
+            "after": "I=\\frac{q}{t}is defined to be the current across the area in the forward direction. (if it )"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "(t+\\Delta t)]",
+            "after": "(t+\\Delta t)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[R=\\rho\\frac{l}{A}\\right.where the constant of proportionality ρ depends on the material of the ",
+            "after": "\\left[R=\\rho\\frac{l}{A}\\right.where the constant of proportionality ρ depends on the material of the ]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[R=\\rho\\frac{l}{A}\\right.",
+            "after": "\\left[R=\\rho\\frac{l}{A}\\right.]"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\Delta x=v_{\\mathrm{{d}}}\\Delta t ",
+            "after": "\\Delta x=v_{\\mathrm{d}}\\Delta t "
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\underline{{n}}\\Delta t|\\mathbf{v}_{d}|A",
+            "after": "\\underline{n}\\Delta t|\\mathbf{v}_{d}|A"
+        },
+        {
+            "type": "phantom_strip",
+            "before": "9.0\\times10^{3}\\mathrm{k g}\\overset{\\leftrightarrow}{/\\mathrm{m}}\\vphantom{\\mathrm{m}}^{\\mathrm{\\dot{3}}}",
+            "after": "9.0\\times10^{3}\\mathrm{k g}\\overset{\\leftrightarrow}{/\\mathrm{m}}^{\\mathrm{\\dot{3}}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\sqrt{k_{{B}}T/M}",
+            "after": "\\sqrt{k_{B}T/M}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{E\\overline{{q}}},",
+            "after": "\\mathrm{E\\overline{q}},"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "similarly at B, it is Q V(B). Thus, change in its potential energy \\begin{array}{r l}&{\\Delta U_{\\mathrm{p o t}}=\\mathrm{F i n a l~p o t e n t i a l~e n e r g y-I n}}\\\\ &{\\quad=\\Delta Q[(V(\\mathrm{B})-V(\\mathrm{A})]=-\\Delta Q V}\\\\ &{\\quad=-L V\\Delta t<0}\\end{array} ıitial potential energy If charges moved without collisions through the conductor, their ",
+            "after": "similarly at B, it is Q V(B). Thus, change in its potential energy \\begin{array}{r l}&{\\Delta U_{\\mathrm{p o t}}=\\mathrm{F i n a l~p o t e n t i a l~e n e r g y-I n}}\\\\ &{\\quad=\\Delta Q[(V(\\mathrm{B})-V(\\mathrm{A})]=-\\Delta Q V}\\\\ &{\\quad=-L V\\Delta t<0}\\end{array} ıitial potential energy If charges moved without collisions through the conductor, their )"
+        },
+        {
+            "type": "brace_fix",
+            "before": "I=I_{\\mathrm{{1}}}+I_{\\mathrm{{2}}}",
+            "after": "I=I_{\\mathrm{1}}+I_{\\mathrm{2}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\underline{{R}}_{3}",
+            "after": "\\underline{R}_{3}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\frac{R_{\\mathrm{1}}}{R_{\\mathrm{2}}}=\\frac{R_{\\mathrm{3}}}{R_{\\mathrm{4}}}\\right.",
+            "after": "\\left\\{\\frac{R_{\\mathrm{1}}}{R_{\\mathrm{2}}}=\\frac{R_{\\mathrm{3}}}{R_{\\mathrm{4}}}\\right.}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "[\\mathrm{M}\\mathrm{L}^{\\overline{{2}}}\\mathrm{T}^{-3}\\mathrm{A}^{-1}]",
+            "after": "[\\mathrm{M}\\mathrm{L}^{\\overline{2}}\\mathrm{T}^{-3}\\mathrm{A}^{-1}]"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\underline{{V}}_{\\mathrm{d}}",
+            "after": "\\underline{V}_{\\mathrm{d}}"
+        }
+    ],
+    "failed_equations": [
+        {
+            "equation": "\\begin{array}{r l}{\\varepsilon_{\\mathrm{e q}}}&{{}}\\\\ {\\equiv}&{{}\\underset{\\mathrm{~A~}}{\\circ}\\underset{\\mathrm{~\\tiny~\\begin{array}{~\\scriptstyle~I~}{~\\scriptstyle~r_{e q}~}\\end{array}~}{~\\scriptstyle~I~}}{\\overset{\\varepsilon_{\\mathrm{e q}}}{\\mathrm{~\\tiny~\\begin{array}{~\\scriptstyle~I~}{~\\scriptstyle~\\left|~\\begin{array}{~\\scriptstyle~I~}{~\\scriptstyle~\\left|~\\begin{array}{~\\scriptstyle~I~}{~\\left|~\\begin{array}{~\\scriptstyle~I~}{~\\left|~\\begin{array}{~\\scriptstyle~I~}{~\\left|~\\begin{~I~}{~\\left|~\\begin{~I}{~\\left|~\\begin{~I}{~\\left|~\\begin{~I}{~\\left|~\\left|~\\begin{~I}{~\\left|~\\left|~\\begin{\\varepsilon}{~\\left|~\\left|\\end{\\varepsilon}~\\left|\\end{\\left|\\begin{~I}~\\left|\\begin{\\varepsilon}{\\left|\\left|\\begin{\\varepsilon}\\end{\\left|\\left|\\begin{\\varepsilon}\\right|\\end{\\left|\\varepsilon}\\right|\\end{\\left|\\varepsilon}\\right|\\end{\\left|\\varepsilon}\\right|\\left|\\right|\\right|\\right|\\right|}\\end{\\left|I\\left|\\left|\\right|\\left|\\right|\\right|\\left|I\\left|\\left|\\right|\\left|\\right|I\\left|\\left|\\right|\\left|I\\left|\\right|\\left|\\left|I\\right|\\left|\\left|I\\right|\\left|\\right|\\left|I\\left|\\right|\\left|I\\right|\\left|\\left|I\\right|\\left|\\left|I\\right|\\left|\\left|I\\right|\\left|\\left|I\\right|\\left|\\left|I\\right|\\left|\\right|I\\right|\\left|\\left|I\\right|\\left|\\left|I\\right|\\left|\\left|I\\right|\\left|\\left|I\\right|\\left|I\\right|\\left|\\left|I\\right|\\left|\\left|I\\right|\\left|\\left|I\\right|\\left|I\\right|\\right|\\left|I\\right|\\left|\\left|I\\right|\\left|I\\right|\\left|\\left|I\\right|\\left|I\\right|\\left|\\left|I\\right|\\left|I\\right|\\left|I\\right|\\left|\\left|I\\right|\\left|I\\right|\\left|I\\right|\\left|I\\right|\\left|I\\right|\\left|\\left|I\\right|\\left|I\\right|\\left|I\\right|\\left|I\\right|\\left|I\\right|\\left|I\\right|\\left|I\\right|\\left|I\\right|\\left|I\\right|\\left|I\\right|\\left|I\\right|\\left|I\\right|\\left|I\\right|\\left|I\\left|\\left|I\\right|\\left|I\\right|\\left|I\\right|\\left|I\\right|\\left|I\\right|\\left|I\\right|\\left|I\\right|\\left|I\\right|\\left|I\\left|I\\right|\\left|I\\right|\\left|I\\right|\\left|I\\right|\\left|I\\right|\\left|I\\left|I\\right|\\left|I\\right|\\left|I\\right|\\left|I\\right|\\left|I\\right|I\\right|\\left|I\\left|I\\right|\\left|I\\right|\\left|I\\right|\\left|I\\right|I\\right|\\left|I\\left|I\\right|\\left|I\\right|\\left|I\\right|I\\left|\\left|I\\right|I\\right|\\left|I\\right|I\\right|\\left|I\\left|I\\right|\\left|I\\right|I\\right|\\left|I\\right|\\left|I\\left|I\\right|I\\right|\\left|I\\right|\\left|I\\right|I\\left|I\\right|\\left|I\\right|I\\right|\\left|I\\right|I\\right|\\left|I\\left|I\\right|\\left|I\\right|I\\right|\\left|I\\right|I\\left|I\\right|\\left|I\\right|I\\right|\\left|I\\right|\\left|I\\right|I\\right|\\left|I\\right|\\left|I\\right|I\\right|\\left|I\\right|I\\left|I\\right|\\right|\\left|I\\right|\\left|I\\right|\\right|\\left|I\\right|\\left|I\\right|\\right|\\left|I\\right|\\left|I\\right|\\right|\\left|I\\right|\\right|\\left|\\right|\\left|I\\right|\\left|\\right|\\right|\\right|\\left|\\left|\\right|\\right|\\right|\\left|\\right|\\right|\\left|\\right|\\right|\\left|\\right|\\right|\\right|\\left|\\right|\\left|\\right|\\right|\\left|\\right|\\right|\\right|\\left|\\right|\\left|\\right|\\right|\\right|\\left|\\right|\\left|\\right|\\right|\\left|\\right|\\right|\\right|\\left|\\right|\\right|\\left|\\right|\\right|\\left|\\right|\\right|\\right|\\left|\\right|\\left|\\right|\\right|\\right|\\left|\\right|\\left|\\right|\\right|\\right|\\left|\\right|\\left|\\right|\\right|\\right|\\right|\\left|\\right|\\right|\\left|\\left|\\right|\\right|\\left|\\right|\\right|\\right|\\right|\\left|\\right|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\right|\\right|\\right|\\left|\\right|\\left|\\right|\\right|\\right|\\left|\\left|\\right|\\right|\\left|\\right|\\right|\\right|\\right|\\left|\\right|\\left\\right|\\right|\\left|\\right|\\left\\right|\\right|\\left\\right|\\right|\\left\\right|\\right|\\right|\\right|\\left\\right|\\left\\right|\\right|\\left\\left\\right|\\right|\\left\\right|\\right|\\left\\right|\\right|\\right|\\left\\right|\\left\\right|\\left\\right|\\right|\\left\\right|\\right|\\left\\right|\\left\\right|\\right|\\left\\left\\right|\\left\\right|\\right|\\left\\right|\\left\\right|\\right|\\left\\right|\\",
+            "delimiter": "$$",
+            "reasons": [
+                "unbalanced \\begin/\\end environment"
+            ]
+        }
+    ],
+    "suspicious_equations": []
+}

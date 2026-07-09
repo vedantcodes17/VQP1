@@ -1,0 +1,49 @@
+{
+    "chapter": "Chapter 14 – Semiconductor Electronics - Materials, Devices And Simple Circuits",
+    "total_formulas": 119,
+    "repaired": 7,
+    "failed": 0,
+    "ocr_fixes": 120,
+    "latex_fixes": 7,
+    "markdown_fixes": 12,
+    "processing_time_sec": 0.041,
+    "changes": [
+        {
+            "type": "delimiter_balance",
+            "before": "(2s+6p",
+            "after": "(2s+6p)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "E_{q})",
+            "after": "E_{q}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\underline{{I}}_{h^{\\prime}}",
+            "after": "\\underline{I}_{h^{\\prime}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\bar{E_{g}})",
+            "after": "\\bar{E_{g}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left(\\sim0.2V\\right.",
+            "after": "\\left(\\sim0.2V\\right.)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "R_{L})",
+            "after": "R_{L}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "R_{L})",
+            "after": "R_{L}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

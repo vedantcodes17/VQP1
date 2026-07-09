@@ -1,0 +1,59 @@
+{
+    "chapter": "Chapter 8 – Application of Integrals",
+    "total_formulas": 296,
+    "repaired": 9,
+    "failed": 0,
+    "ocr_fixes": 98,
+    "latex_fixes": 9,
+    "markdown_fixes": 15,
+    "processing_time_sec": 0.103,
+    "changes": [
+        {
+            "type": "delimiter_balance",
+            "before": "x=a)",
+            "after": "x=a"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{9}{4}\\right.",
+            "after": "\\left[\\frac{9}{4}\\right.]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[{\\frac{9}{3}}\\right.",
+            "after": "\\left[{\\frac{9}{3}}\\right.]"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\begin{aligned}(x-2)^{2}+y^{2}&=x^{2}+y^{2}\\\\x^{2}-4x+4+y^{2}&=x^{2}+y^{2}\\\\x=1which gives y&=\\pm\\sqrt[\\cdot]{3}\\end{aligned}",
+            "after": "\\begin{aligned}(x-2)^{2}+y^{2}&=x^{2}+y^{2}\\\\x^{2}-4x+4+y^{2}&=x^{2}+y^{2}\\\\x=1which gives y&=\\pm\\sqrt[\\cdot]_{3}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{3}{4}\\right.",
+            "after": "\\left[\\frac{3}{4}\\right.]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "-x-y=1]",
+            "after": "-x-y=1"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[{\\frac{1}{3}}\\right.",
+            "after": "\\left[{\\frac{1}{3}}\\right.]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "y=x^{2}if x>0and y=-x^{2}if x<0].",
+            "after": "y=x^{2}if x>0and y=-x^{2}if x<0."
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\mathrm{Area}=&\\int_{a}^{b}\\left[f(x)-g(x)\\right]dx,\\quad\\mathrm{where},f(x)\\geq g(x)\\quad\\mathrm{in}[a,b]\\\\\\mathrm{If}\\quad&\\mathrm{If}\\quad f(x)\\geq g(x)\\quad\\mathrm{in}[a,c]\\quad\\mathrm{and}\\quad f(x)\\leq g(x)\\quad\\mathrm{in}[c,b],\\quad a<c<b,\\quad\\mathrm{then}\\\\\\mathrm{Area}=&\\int_{a}^{c}\\left[f(x)-g(x)\\right]dx+\\int_{c}^{b}\\left[g(x)-f(x)\\right]dx.\\end{aligned}",
+            "after": "\\begin{aligned}\\mathrm{Area}=&\\int_{a}^{b}\\left[f(x)-g(x)\\right]dx,\\quad\\mathrm{where},f(x)\\geq g(x)\\quad\\mathrm{in}[a,b]\\\\mathrm{If}\\quad&\\mathrm{If}\\quad f(x)\\geq g(x)\\quad\\mathrm{in}[a,c]\\quad\\mathrm{and}\\quad f(x)\\leq g(x)\\quad\\mathrm{in}[c,b],\\quad a<c<b,\\quad\\mathrm{then}\\\\mathrm{Area}=&\\int_{a}^{c}\\left[f(x)-g(x)\\right]dx+\\int_{c}^{b}\\left[g(x)-f(x)\\right]dx.\\end{aligned}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

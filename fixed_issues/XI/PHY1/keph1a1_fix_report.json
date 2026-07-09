@@ -1,0 +1,99 @@
+{
+    "chapter": "keph1a1",
+    "total_formulas": 182,
+    "repaired": 17,
+    "failed": 0,
+    "ocr_fixes": 96,
+    "latex_fixes": 17,
+    "markdown_fixes": 1,
+    "processing_time_sec": 0.071,
+    "changes": [
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\sin\\theta&=\\begin{array}{c}y\\\\ r\\end{array}&\\cos\\theta&=\\begin{array}{c}x\\\\ r\\end{array}\\\\\\tan\\theta&=\\begin{array}{c}y\\\\ x\\end{array}&\\cot\\theta&=\\begin{array}{c}x\\\\ y\\end{array}\\\\\\sec\\theta&=\\begin{array}{c}r\\\\ x\\end{array}&\\csc\\theta&=\\begin{array}{c}r\\\\ y\\end{array}\\end{aligned} ied ",
+            "after": "\\begin{aligned}\\sin\\theta&=\\begin{array}{c}y\\\\ r\\end{array}&\\cos\\theta&=\\begin{array}{c}x\\\\ r\\end{array}\\\\tan\\theta&=\\begin{array}{c}y\\\\ x\\end{array}&\\cot\\theta&=\\begin{array}{c}x\\\\ y\\end{array}\\\\sec\\theta&=\\begin{array}{c}r\\\\ x\\end{array}&\\csc\\theta&=\\begin{array}{c}r\\\\ y\\end{array}\\end{aligned} ied "
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "(>>",
+            "after": "(>>)"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\sin\\theta&=\\theta-\\frac{\\theta^{3}}{3!}+\\frac{\\theta^{5}}{5!}-\\cdots\\cdots\\\\\\cos\\theta&=1-\\frac{\\theta^{2}}{2!}+\\frac{\\theta^{4}}{4!}-\\cdots\\cdots\\\\\\tan\\theta&=\\theta+\\frac{\\theta^{3}}{3}+\\frac{2\\theta^{5}}{15}-\\cdots\\cdots\\end{aligned}",
+            "after": "\\begin{aligned}\\sin\\theta&=\\theta-\\frac{\\theta^{3}}{3!}+\\frac{\\theta^{5}}{5!}-\\cdots\\cdots\\\\cos\\theta&=1-\\frac{\\theta^{2}}{2!}+\\frac{\\theta^{4}}{4!}-\\cdots\\cdots\\\\tan\\theta&=\\theta+\\frac{\\theta^{3}}{3}+\\frac{2\\theta^{5}}{15}-\\cdots\\cdots\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{aligned}&\\left.\\begin{array}{l}\\boldsymbol{\\mathbf{a}}\\times\\boldsymbol{\\mathbf{b}}=-\\boldsymbol{\\mathbf{b}}\\times\\boldsymbol{\\mathbf{a}}=\\left|\\begin{array}{l l l}\\hat{\\boldsymbol{\\mathbf{i}}}&\\hat{\\boldsymbol{\\mathbf{j}}}&\\hat{\\boldsymbol{\\mathbf{k}}}\\\\ a_{x}&a_{y}&a_{z}\\\\ b_{x}&b_{y}&b_{z}\\end{array}\\right|\\\\ \\end{array}\\right.\\\\ &=\\left(a_{y}b_{z}-b_{y}a_{z}\\right)\\hat{\\boldsymbol{\\mathbf{i}}}+\\left(a_{z}b_{x}-b_{z}a_{x}\\right)\\hat{\\boldsymbol{\\mathbf{j}}}+\\left(a_{x}b_{y}-b_{x}a_{y}\\right)\\hat{\\boldsymbol{\\mathbf{k}}}\\\\ &\\left(\\boldsymbol{\\mathbf{a}}\\cdot(\\boldsymbol{\\mathbf{b}}\\times\\boldsymbol{\\mathbf{c}})=\\boldsymbol{\\mathbf{b}}\\cdot(\\boldsymbol{\\mathbf{c}}\\times\\boldsymbol{\\mathbf{a}})=\\boldsymbol{\\mathbf{c}}\\cdot(\\boldsymbol{\\mathbf{a}}\\times\\boldsymbol{\\mathbf{b}})\\right.\\\\ &\\left(\\boldsymbol{\\mathbf{a}}\\times(\\boldsymbol{\\mathbf{b}}\\times\\boldsymbol{\\mathbf{c}})=(\\boldsymbol{\\mathbf{a}}\\cdot\\boldsymbol{\\mathbf{c}})\\boldsymbol{\\mathbf{b}}-(\\boldsymbol{\\mathbf{a}}\\cdot\\boldsymbol{\\mathbf{b}})\\boldsymbol{\\mathbf{c}}\\right.\\\\ \\end{aligned}",
+            "after": "\\begin{aligned}&\\left.\\begin{array}{l}\\boldsymbol{\\mathbf{a}}\\times\\boldsymbol{\\mathbf{b}}=-\\boldsymbol{\\mathbf{b}}\\times\\boldsymbol{\\mathbf{a}}=\\left|\\begin{array}{l l l}\\hat{\\boldsymbol{\\mathbf{i}}}&\\hat{\\boldsymbol{\\mathbf{j}}}&\\hat{\\boldsymbol{\\mathbf{k}}}\\\\ a_{x}&a_{y}&a_{z}\\\\ b_{x}&b_{y}&b_{z}\\end{array}\\right|\\\\ \\end{array}\\right.\\\\ &=\\left(a_{y}b_{z}-b_{y}a_{z}\\right)\\hat{\\boldsymbol{\\mathbf{i}}}+\\left(a_{z}b_{x}-b_{z}a_{x}\\right)\\hat{\\boldsymbol{\\mathbf{j}}}+\\left(a_{x}b_{y}-b_{x}a_{y}\\right)\\hat{\\boldsymbol{\\mathbf{k}}}\\\\ &\\left(\\boldsymbol{\\mathbf{a}}\\cdot(\\boldsymbol{\\mathbf{b}}\\times\\boldsymbol{\\mathbf{c}})=\\boldsymbol{\\mathbf{b}}\\cdot(\\boldsymbol{\\mathbf{c}}\\times\\boldsymbol{\\mathbf{a}})=\\boldsymbol{\\mathbf{c}}\\cdot(\\boldsymbol{\\mathbf{a}}\\times\\boldsymbol{\\mathbf{b}})\\right.\\\\ &\\left(\\boldsymbol{\\mathbf{a}}\\times(\\boldsymbol{\\mathbf{b}}\\times\\boldsymbol{\\mathbf{c}})=(\\boldsymbol{\\mathbf{a}}\\cdot\\boldsymbol{\\mathbf{c}})\\boldsymbol{\\mathbf{b}}-(\\boldsymbol{\\mathbf{a}}\\cdot\\boldsymbol{\\mathbf{b}})\\boldsymbol{\\mathbf{c}}\\right.\\\\ \\end{aligned}))"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "</td></tr><tr><td>Thermal conductivity</td><td>watt permetrekelvin</td><td>Wm1K1</td><td>m kg s3K1</td></tr><tr><td>Energy density</td><td>joule per cubic metre</td><td>J/m</td><td>kg m</td></tr><tr><td>Electric field strength</td><td>volt per metre</td><td>V/m</td><td>mkgs3A-1</td></tr><tr><td>Electric charge density</td><td>coulomb per cubic</td><td>C/m^{3",
+            "after": "</td></tr><tr><td>Thermal conductivity</td><td>watt permetrekelvin</td><td>Wm1K1</td><td>m kg s3K1</td></tr><tr><td>Energy density</td><td>joule per cubic metre</td><td>J/m</td><td>kg m</td></tr><tr><td>Electric field strength</td><td>volt per metre</td><td>V/m</td><td>mkgs3A-1</td></tr><tr><td>Electric charge density</td><td>coulomb per cubic</td><td>C/m^{3}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "m^{3As",
+            "after": "m^{3As}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "</td></tr><tr><td>Angular momentum,</td><td>joule second</td><td>Js</td><td>kgm2s</td></tr><tr><td>Molar entropy, molar</td><td>joule per mole kelvin</td><td>J/mol K</td><td>m²kgs²K</td></tr><tr><td>Exposure (x-rays and</td><td>coulomb per kilogram</td><td>C/kg</td><td>",
+            "after": "</td></tr><tr><td>Angular momentum,</td><td>joule second</td><td>Js</td><td>kgm2s</td></tr><tr><td>Molar entropy, molar</td><td>joule per mole kelvin</td><td>J/mol K</td><td>m²kgs²K</td></tr><tr><td>Exposure (x-rays and</td><td>coulomb per kilogram</td><td>C/kg</td><td>)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "</td></tr><tr><td>Pressure energy</td><td>pascal cubi metre</td><td>PamorNm</td><td>kgm²s-2</td></tr><tr><td>Impulse</td><td>newton second</td><td>Ns</td><td>kg m s-1</td></tr><tr><td>Angular impulse</td><td>newton metre second</td><td>Nms</td><td>kg m2s-1</td></tr><tr><td>Specific resistance</td><td>ohm metre</td><td>Ωm</td><td>kg m^{3}s{3}A^-}",
+            "after": "</td></tr><tr><td>Pressure energy</td><td>pascal cubi metre</td><td>PamorNm</td><td>kgm²s-2</td></tr><tr><td>Impulse</td><td>newton second</td><td>Ns</td><td>kg m s-1</td></tr><tr><td>Angular impulse</td><td>newton metre second</td><td>Nms</td><td>kg m2s-1</td></tr><tr><td>Specific resistance</td><td>ohm metre</td><td>Ωm</td><td>kg m^{3}s{3}A^-"
+        },
+        {
+            "type": "phantom_strip",
+            "before": "t_{\\phantom{235}92}^{235}",
+            "after": "t_{92}^{235}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathbf{s}^{-2}]",
+            "after": "\\mathbf{s}^{-2}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{p F}=10^{-12}\\;\\mathrm{F});",
+            "after": "\\mathrm{p F}=10^{-12}\\;\\mathrm{F};"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{~l~m V}=10^{-3}~\\mathrm{V});",
+            "after": "\\mathrm{~l~m V}=10^{-3}~\\mathrm{V};"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{cm^{-1}}=(10^{-2}\\mathrm{m^{-1}}-10^{2}\\mathrm{m^{-1}}",
+            "after": "\\mathrm{cm^{-1}}=(10^{-2}\\mathrm{m^{-1}}-10^{2}\\mathrm{m^{-1}})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{cm^{-1}}=(10^{-2}\\mathrm{m^{-1}}-10^{2}\\mathrm{m^{-1}}",
+            "after": "\\mathrm{cm^{-1}}=(10^{-2}\\mathrm{m^{-1}}-10^{2}\\mathrm{m^{-1}})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "T]",
+            "after": "T"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "T]",
+            "after": "T"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "10^{3})",
+            "after": "10^{3}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

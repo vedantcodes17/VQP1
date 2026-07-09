@@ -1,0 +1,19 @@
+{
+    "chapter": "lech1an",
+    "total_formulas": 56,
+    "repaired": 1,
+    "failed": 0,
+    "ocr_fixes": 9,
+    "latex_fixes": 1,
+    "markdown_fixes": 7,
+    "processing_time_sec": 0.016,
+    "changes": [
+        {
+            "type": "brace_fix",
+            "before": "3d^{\\mathrm{{i0}}}",
+            "after": "3d^{\\mathrm{i0}}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

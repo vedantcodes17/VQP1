@@ -1,0 +1,49 @@
+{
+    "chapter": "Mathematical Modelling",
+    "total_formulas": 133,
+    "repaired": 7,
+    "failed": 0,
+    "ocr_fixes": 44,
+    "latex_fixes": 7,
+    "markdown_fixes": 1,
+    "processing_time_sec": 0.04,
+    "changes": [
+        {
+            "type": "escape_fix",
+            "before": "\\mathrm{A}=\\underset{\\mathrm{F}_{2}}{\\mathrm{F}_{1}}\\left[\\begin{array}{lll}\\mathrm{P}_{2}&\\mathrm{P}_{3}\\\\\\bullet&\\bullet&\\bullet\\\\\\bullet&\\bullet&\\bullet\\end{array}\\right]",
+            "after": "\\mathrm{A}=\\underset{\\mathrm{F}_{2}}{\\mathrm{F}_{1}}\\left[\\begin{array}{lll}\\mathrm{P}_{2}&\\mathrm{P}_{3}\\\\bullet&\\bullet&\\bullet\\\\bullet&\\bullet&\\bullet\\end{array}\\right]"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\mathrm{P}_{1}\\mathrm{R}_{2}\\mathrm{R}_{3}\\\\\\mathrm{B}=\\mathrm{P}_{2}\\mathrm{P}_{3}\\bullet\\bullet\\bullet\\mathrm{P}_{4}\\\\\\bullet\\bullet\\bullet\\bullet\\end{aligned}",
+            "after": "\\begin{aligned}\\mathrm{P}_{1}\\mathrm{R}_{2}\\mathrm{R}_{3}\\\\mathrm{B}=\\mathrm{P}_{2}\\mathrm{P}_{3}\\bullet\\bullet\\bullet\\mathrm{P}_{4}\\\\bullet\\bullet\\bullet\\bullet\\end{aligned}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\mathrm{AB}&=\\begin{bmatrix}10&15&6\\\\10&20&0\\end{bmatrix}\\begin{bmatrix}3&4&0\\\\7&9&3\\\\5&12&7\\end{bmatrix}\\\\&=\\begin{bmatrix}\\mathrm{R}_1&\\mathrm{R}_2&\\mathrm{R}_3\\\\\\mathrm{F}_1\\end{bmatrix}\\begin{bmatrix}165&247&87\\\\170&220&60\\end{bmatrix}\\end{aligned}",
+            "after": "\\begin{aligned}\\mathrm{AB}&=\\begin{bmatrix}10&15&6\\\\10&20&0\\end{bmatrix}\\begin{bmatrix}3&4&0\\\\7&9&3\\\\5&12&7\\end{bmatrix}\\\\&=\\begin{bmatrix}\\mathrm{R}_1&\\mathrm{R}_2&\\mathrm{R}_3\\\\mathrm{F}_1\\end{bmatrix}\\begin{bmatrix}165&247&87\\\\170&220&60\\end{bmatrix}\\end{aligned}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\mathrm{B}=\\mathrm{P}_{2}\\left[\\begin{array}{ccc}\\mathrm{R}_{1}&\\mathrm{R}_{2}&\\mathrm{R}_{3}\\\\\\mathrm{P}_{1}&3&0\\\\7&9&3\\\\\\mathrm{P}_{3}&12&7\\end{array}\\right] jub ",
+            "after": "\\mathrm{B}=\\mathrm{P}_{2}\\left[\\begin{array}{ccc}\\mathrm{R}_{1}&\\mathrm{R}_{2}&\\mathrm{R}_{3}\\\\mathrm{P}_{1}&3&0\\\\7&9&3\\\\mathrm{P}_{3}&12&7\\end{array}\\right] jub "
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "4x+9y+12z=455\\left(for raw material R_2\\right) \\mathbb{R}_{3}) 4x+9y+12z=455\\left(for raw material R_2\\right)",
+            "after": "4x+9y+12z=455\\left(for raw material R_2\\right) \\mathbb{R}_{3} 4x+9y+12z=455\\left(for raw material R_2\\right)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left.\\begin{aligned}&x\\leqq20000\\\\&y\\leqq40000\\\\&x+y\\leqq45000\\\\&3x+y\\leqq66000\\\\&x\\geqq0,y\\geqq0\\\\ \\end{aligned}\\right\\}",
+            "after": "\\left.\\begin{aligned}&x\\leqq20000\\\\&y\\leqq40000\\\\&x+y\\leqq45000\\\\&3x+y\\leqq66000\\\\&x\\geqq0,y\\geqq0\\\\ \\end{aligned}\\right\\"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{y}{1000}kg)",
+            "after": "\\frac{y}{1000}kg"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

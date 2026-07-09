@@ -1,0 +1,352 @@
+{
+    "chapter": "Chapter 9 – Hydrocarbons",
+    "total_formulas": 330,
+    "repaired": 53,
+    "failed": 10,
+    "ocr_fixes": 194,
+    "latex_fixes": 53,
+    "markdown_fixes": 8,
+    "processing_time_sec": 0.273,
+    "changes": [
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{H}\\\\\\mid\\\\\\mathrm{H}—\\mathrm{C}—\\mathrm{H}\\\\\\mid\\\\\\mathrm{H}\\end{array}\\xrightarrow{\\text{replace any H by-CH}_{3}}\\mathrm{H}—\\mathrm{C}—\\mathrm{C}—\\mathrm{H}\\text{or}\\mathrm{C}_{2}\\mathrm{H}_{6}",
+            "after": "\\begin{array}{c}\\mathrm{H}\\\\mid\\\\mathrm{H}—\\mathrm{C}—\\mathrm{H}\\\\mid\\\\mathrm{H}\\end{array}\\xrightarrow{\\text{replace any H by-CH}_{3}}\\mathrm{H}—\\mathrm{C}—\\mathrm{C}—\\mathrm{H}\\text{or}\\mathrm{C}_{2}\\mathrm{H}_{6}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "$\\begin{array}{c}\\underset{\\mathrm{H}}{\\overset{\\mathrm{H}}{\\underset{1 丨 }{\\mathrm{ 丨 }}}}-\\underset{\\mathrm{C}}{\\overset{\\mathrm{H}}{\\underset{2 丨 }{\\mathrm{ 丨 }}}}-\\underset{\\mathrm{C}}{\\overset{\\mathrm{3 丨 }}{\\underset{3 丨 }{\\mathrm{ 丨 }}}}-\\underset{\\mathrm{H}}{\\mathrm{H}}\\\\\\underset{\\mathrm{H}}{\\overset{\\mathrm{H}}{\\underset{\\mathrm{H}-\\mathrm{C}-\\mathrm{H}}{\\mathrm{ 丨 }}}}\\underset{\\mathrm{H}}{\\overset{\\mathrm{H}}{\\underset{}{\\mathrm{ 丨 }}{\\mathrm{ 丨 }}}}\\\\\\end{array}",
+            "after": "$\\begin{array}{c}\\underset{\\mathrm{H}}{\\overset{\\mathrm{H}}{\\underset{1 丨 }{\\mathrm{ 丨 }}}}-\\underset{\\mathrm{C}}{\\overset{\\mathrm{H}}{\\underset{2 丨 }{\\mathrm{ 丨 }}}}-\\underset{\\mathrm{C}}{\\overset{\\mathrm{3 丨 }}{\\underset{3 丨 }{\\mathrm{ 丨 }}}}-\\underset{\\mathrm{H}}{\\mathrm{H}}\\\\underset{\\mathrm{H}}{\\overset{\\mathrm{H}}{\\underset{\\mathrm{H}-\\mathrm{C}-\\mathrm{H}}{\\mathrm{ 丨 }}}}\\underset{\\mathrm{H}}{\\overset{\\mathrm{H}}{\\underset{}{\\mathrm{ 丨 }}{\\mathrm{ 丨 }}}}\\\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{H}\\quad\\mathrm{H}\\quad\\mathrm{H}\\quad\\mathrm{H}\\quad\\mathrm{H}\\\\\\mathrm{H}-\\stackrel{\\mathrm{H}}{\\mathrm{C}}-\\stackrel{\\mathrm{H}}{\\mathrm{C}}-\\stackrel{\\mathrm{H}}{\\mathrm{C}}-\\stackrel{\\mathrm{H}}{\\mathrm{C}}-\\stackrel{\\mathrm{C}}{\\mathrm{C}}-\\stackrel{\\mathrm{H}}{\\mathrm{C}}-\\stackrel{\\mathrm{H}}{\\mathrm{C}}\\\\\\mathrm{H}\\quad\\mathrm{H}\\quad\\mathrm{H}\\quad\\mathrm{H}\\quad\\mathrm{H}\\quad\\mathrm{H}\\\\\\mathrm{Pentane}\\left(\\mathrm{n}-\\mathrm{pentane}\\right)\\\\(\\mathrm{b.p.}309\\mathrm{~K})\\\\\\mathrm{H}\\quad\\mathrm{H}\\quad\\mathrm{H}\\quad\\mathrm{H}\\\\\\mathrm{H}-\\stackrel{\\mathrm{H}}{\\mathrm{C}}-\\stackrel{\\mathrm{2L}}{\\mathrm{C}}-\\stackrel{\\mathrm{3L}}{\\mathrm{C}}-\\stackrel{\\mathrm{4L}}{\\mathrm{C}}-\\stackrel{\\mathrm{L}}{\\mathrm{C}}-\\stackrel{\\mathrm{H}}{\\mathrm{C}}\\\\\\mathrm{H}\\quad\\mathrm{H}-\\mathrm{C}-\\mathrm{H}\\stackrel{\\mathrm{H}}{\\mathrm{H}}\\quad\\mathrm{H}\\\\\\mathrm{H}\\\\\\mathrm{H}\\\\2-\\mathrm{Methylbutane}\\left(\\mathrm{isopentane}\\right)\\\\(\\mathrm{b.p.}301\\mathrm{~K})\\\\\\mathrm{H}\\\\\\mathrm{H}\\quad\\mathrm{H}-\\stackrel{\\mathrm{L}}{\\mathrm{C}}-\\mathrm{H}\\quad\\mathrm{H}\\\\\\mathrm{H}-\\stackrel{\\mathrm{L}}{\\mathrm{C}}-\\stackrel{\\mathrm{2L}}{\\mathrm{C}}-\\stackrel{\\mathrm{3L}}{\\mathrm{C}}-\\stackrel{\\mathrm{H}}{\\mathrm{C}}\\\\\\mathrm{H}\\quad\\mathrm{H}-\\stackrel{\\mathrm{L}}{\\mathrm{C}}-\\stackrel{\\mathrm{L}}{\\mathrm{C}}-\\stackrel{\\mathrm{H}}{\\mathrm{H}}\\\\\\mathrm{H}\\quad\\mathrm{H}\\quad\\mathrm{H}\\end{array} je ",
+            "after": "\\begin{array}{c}\\mathrm{H}\\quad\\mathrm{H}\\quad\\mathrm{H}\\quad\\mathrm{H}\\quad\\mathrm{H}\\\\mathrm{H}-\\stackrel{\\mathrm{H}}{\\mathrm{C}}-\\stackrel{\\mathrm{H}}{\\mathrm{C}}-\\stackrel{\\mathrm{H}}{\\mathrm{C}}-\\stackrel{\\mathrm{H}}{\\mathrm{C}}-\\stackrel{\\mathrm{C}}{\\mathrm{C}}-\\stackrel{\\mathrm{H}}{\\mathrm{C}}-\\stackrel{\\mathrm{H}}{\\mathrm{C}}\\\\mathrm{H}\\quad\\mathrm{H}\\quad\\mathrm{H}\\quad\\mathrm{H}\\quad\\mathrm{H}\\quad\\mathrm{H}\\\\mathrm{Pentane}\\left(\\mathrm{n}-\\mathrm{pentane}\\right)\\\\(\\mathrm{b.p.}309\\mathrm{~K})\\\\mathrm{H}\\quad\\mathrm{H}\\quad\\mathrm{H}\\quad\\mathrm{H}\\\\mathrm{H}-\\stackrel{\\mathrm{H}}{\\mathrm{C}}-\\stackrel{\\mathrm{2L}}{\\mathrm{C}}-\\stackrel{\\mathrm{3L}}{\\mathrm{C}}-\\stackrel{\\mathrm{4L}}{\\mathrm{C}}-\\stackrel{\\mathrm{L}}{\\mathrm{C}}-\\stackrel{\\mathrm{H}}{\\mathrm{C}}\\\\mathrm{H}\\quad\\mathrm{H}-\\mathrm{C}-\\mathrm{H}\\stackrel{\\mathrm{H}}{\\mathrm{H}}\\quad\\mathrm{H}\\\\mathrm{H}\\\\mathrm{H}\\\\2-\\mathrm{Methylbutane}\\left(\\mathrm{isopentane}\\right)\\\\(\\mathrm{b.p.}301\\mathrm{~K})\\\\mathrm{H}\\\\mathrm{H}\\quad\\mathrm{H}-\\stackrel{\\mathrm{L}}{\\mathrm{C}}-\\mathrm{H}\\quad\\mathrm{H}\\\\mathrm{H}-\\stackrel{\\mathrm{L}}{\\mathrm{C}}-\\stackrel{\\mathrm{2L}}{\\mathrm{C}}-\\stackrel{\\mathrm{3L}}{\\mathrm{C}}-\\stackrel{\\mathrm{H}}{\\mathrm{C}}\\\\mathrm{H}\\quad\\mathrm{H}-\\stackrel{\\mathrm{L}}{\\mathrm{C}}-\\stackrel{\\mathrm{L}}{\\mathrm{C}}-\\stackrel{\\mathrm{H}}{\\mathrm{H}}\\\\mathrm{H}\\quad\\mathrm{H}\\quad\\mathrm{H}\\end{array} je "
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{CH_{3}-CH-CH_{2}-CH_{2}-CH_{3}}\\\\\\mathrm{OH}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{CH_{3}-CH-CH_{2}-CH_{2}-CH_{3}}\\\\mathrm{OH}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{CH_{3}}\\\\\\mid\\\\\\mathrm{CH_{3}-CH-CH_{2}-CH_{2}-}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{CH_{3}}\\\\mid\\\\mathrm{CH_{3}-CH-CH_{2}-CH_{2}-}\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{(C H_{3})_{3}\\:C\\:C H_{2}C(\\underline{{C}}H_{3})_{3}}",
+            "after": "\\mathrm{(C H_{3})_{3}\\:C\\:C H_{2}C(\\underline{C}H_{3})_{3}}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\mathrm{CH_{3}-\\begin{array}{l}CH_{3}\\\\\\mid\\\\C-\\mathrm{CH-CH_{2}-CH_{3}}\\\\\\mid\\\\CH_{3}\\mathrm{CH_{2}H_{5}}\\end{array}}",
+            "after": "\\mathrm{CH_{3}-\\begin{array}{l}CH_{3}\\\\mid\\\\C-\\mathrm{CH-CH_{2}-CH_{3}}\\\\mid\\\\CH_{3}\\mathrm{CH_{2}H_{5}}\\end{array}}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{CH_{3}}\\\\\\mid\\\\\\mathrm{(i)}\\quad\\mathrm{CH_{3}-CH_{2}-CH-C-CH-CH_{2}-CH_{3}}\\\\\\mid\\quad\\mid\\quad\\mid\\\\\\mathrm{CH_{3}}\\quad\\mathrm{CH_{3}}\\quad\\mathrm{CH_{3}}\\\\\\mid\\\\\\mathrm{CH_{3}}\\quad\\mathrm{CH_{3}}\\\\\\mid\\quad\\mid\\\\\\mathrm{(ii)}\\quad\\mathrm{CH_{3}-CH-CH_{2}-CH_{2}-CH-CH_{3}}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{CH_{3}}\\\\mid\\\\mathrm{(i)}\\quad\\mathrm{CH_{3}-CH_{2}-CH-C-CH-CH_{2}-CH_{3}}\\\\mid\\quad\\mid\\quad\\mid\\\\mathrm{CH_{3}}\\quad\\mathrm{CH_{3}}\\quad\\mathrm{CH_{3}}\\\\mid\\\\mathrm{CH_{3}}\\quad\\mathrm{CH_{3}}\\\\mid\\quad\\mid\\\\mathrm{(ii)}\\quad\\mathrm{CH_{3}-CH-CH_{2}-CH_{2}-CH-CH_{3}}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{CH_{3}-CH-CH_{2}-CH_{2}-CH_{3}}\\\\\\mid\\\\\\mathrm{C_{2}H_{5}}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{CH_{3}-CH-CH_{2}-CH_{2}-CH_{3}}\\\\mid\\\\mathrm{C_{2}H_{5}}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}7\\ 6\\ 5\\ 4\\ 3\\ 2\\ 1\\\\ CH_3-CH_2-CH-CH_2-CH-CH_2-CH_3\\\\\\mid\\quad\\mid\\\\ CH_3\\quad C_2H_5\\end{array}",
+            "after": "\\begin{array}{c}7\\ 6\\ 5\\ 4\\ 3\\ 2\\ 1\\\\ CH_3-CH_2-CH-CH_2-CH-CH_2-CH_3\\\\mid\\quad\\mid\\\\ CH_3\\quad C_2H_5\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\text{Butanotic acid,}\\\\\\text{CH_3CH_2CH_2COO^-Na^++NaOH\\xrightarrow{CaO}}\\\\\\quad\\text{CH_3CH_2CH_3+Na_2CO_3}\\end{array}",
+            "after": "\\begin{array}{l}\\text{Butanotic acid,}\\\\text{CH_3CH_2CH_2COO^-Na^++NaOH\\xrightarrow{CaO}}\\\\quad\\text{CH_3CH_2CH_3+Na_2CO_3}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\downarrow\\mathrm{Electrolysis}\\\\\\mathrm{CH}_{3}-\\mathrm{CH}_{3}+2\\mathrm{CO}_{2}+\\mathrm{H}_{2}+2\\mathrm{NaOH}\\end{array}",
+            "after": "\\begin{array}{c}\\downarrow\\mathrm{Electrolysis}\\\\mathrm{CH}_{3}-\\mathrm{CH}_{3}+2\\mathrm{CO}_{2}+\\mathrm{H}_{2}+2\\mathrm{NaOH}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\begin{array}{l}\\text{O}\\\\2\\mathrm{CH}_{3}-\\stackrel{\\text{(I)}}{\\mathrm{C}}-\\stackrel{-2\\mathrm{e}^{-}}{\\mathrm{C}}\\rightarrow2\\mathrm{CH}_{3}-\\stackrel{\\text{(I)}}{\\mathrm{C}}\\rightarrow\\stackrel{\\text{(II)}}{\\mathrm{C}}\\rightarrow2\\dot{\\mathrm{C}}\\mathrm{H}_{3}+2\\mathrm{CO}_{2}\\uparrow\\\\\\text{Acetate ion}\\text{Acetate}\\text{Methyl free}\\end{array}\\\\\\text{free radical radical}\\\\\\text{(iii)}\\mathrm{H}_{3}\\mathrm{C}+\\mathrm{CH}_{3}\\longrightarrow\\mathrm{H}_{3}\\mathrm{C}-\\mathrm{CH}_{3}\\uparrow\\\\\\text{it v)}\\bar{\\mathrm{At}}\\text{cathode}:\\\\\\begin{array}{l}\\mathrm{H}_{2}\\mathrm{O}+\\bar{\\mathrm{e}}^{-}\\rightarrow-\\mathrm{OH}+\\dot{\\mathrm{H}}\\\\2\\dot{\\mathrm{H}}\\rightarrow\\mathrm{H}_{2}\\uparrow\\end{array}\\end{array}",
+            "after": "\\begin{array}{l}\\begin{array}{l}\\text{O}\\\\2\\mathrm{CH}_{3}-\\stackrel{\\text{(I)}}{\\mathrm{C}}-\\stackrel{-2\\mathrm{e}^{-}}{\\mathrm{C}}\\rightarrow2\\mathrm{CH}_{3}-\\stackrel{\\text{(I)}}{\\mathrm{C}}\\rightarrow\\stackrel{\\text{(II)}}{\\mathrm{C}}\\rightarrow2\\dot{\\mathrm{C}}\\mathrm{H}_{3}+2\\mathrm{CO}_{2}\\uparrow\\\\text{Acetate ion}\\text{Acetate}\\text{Methyl free}\\end{array}\\\\text{free radical radical}\\\\text{(iii)}\\mathrm{H}_{3}\\mathrm{C}+\\mathrm{CH}_{3}\\longrightarrow\\mathrm{H}_{3}\\mathrm{C}-\\mathrm{CH}_{3}\\uparrow\\\\text{it v}\\bar{\\mathrm{At}}\\text{cathode}:\\\\begin{array}{l}\\mathrm{H}_{2}\\mathrm{O}+\\bar{\\mathrm{e}}^{-}\\rightarrow-\\mathrm{OH}+\\dot{\\mathrm{H}}\\\\2\\dot{\\mathrm{H}}\\rightarrow\\mathrm{H}_{2}\\uparrow\\end{array}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{CH_{4}+Cl_{2}\\xrightarrow{hv}\\quad CH_{3}C1\\quad+\\quad HCl1}\\\\\\mathrm{Cholormethane}\\quad(9.10)\\\\\\mathrm{CH_{3}C1\\quad+Cl_{2}\\xrightarrow{hv}\\quad CH_{2}C1_{2}\\quad+\\quad HCl}\\\\\\mathrm{Dicholormethane}\\quad(9.11)\\\\\\mathrm{CH_{2}C1_{2}+Cl_{2}\\xrightarrow{hv}\\quad CHC1_{3}\\quad+\\quad HCl}\\\\\\mathrm{Tricholormethane}\\quad(9.12)\\\\\\mathrm{CHC1_{3}\\quad+\\quad C1_{2}\\xrightarrow{hv}\\quad CC1_{4}\\quad+\\quad HCl}\\\\\\mathrm{Tetacholormethane}\\quad(9.13)\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{CH_{4}+Cl_{2}\\xrightarrow{hv}\\quad CH_{3}C1\\quad+\\quad HCl1}\\\\mathrm{Cholormethane}\\quad(9.10)\\\\mathrm{CH_{3}C1\\quad+Cl_{2}\\xrightarrow{hv}\\quad CH_{2}C1_{2}\\quad+\\quad HCl}\\\\mathrm{Dicholormethane}\\quad(9.11)\\\\mathrm{CH_{2}C1_{2}+Cl_{2}\\xrightarrow{hv}\\quad CHC1_{3}\\quad+\\quad HCl}\\\\mathrm{Tricholormethane}\\quad(9.12)\\\\mathrm{CHC1_{3}\\quad+\\quad C1_{2}\\xrightarrow{hv}\\quad CC1_{4}\\quad+\\quad HCl}\\\\mathrm{Tetacholormethane}\\quad(9.13)\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\mathrm{CH_{4}(\\bar{g})+2O_{2}(g)\\rightarrow CO_{2}(g)+2H_{2}O(1);}\\\\\\mathrm{\\bar{A}_{c}H^{\\bar{c}}-890kJmol^{-1}}\\\\(9.17)\\\\\\mathrm{C_{4}H_{10}(g)+13/2O_{2}(g)\\rightarrow4CO_{2}(g)+5H_{2}O(1)}\\\\\\mathrm{\\bar{A}_{c}H^{\\bar{c}}=-2875.84kJmol^{-1}}\\end{aligned}",
+            "after": "\\begin{aligned}\\mathrm{CH_{4}(\\bar{g})+2O_{2}(g)\\rightarrow CO_{2}(g)+2H_{2}O(1);}\\\\mathrm{\\bar{A}_{c}H^{\\bar{c}}-890kJmol^{-1}}\\\\(9.17)\\\\mathrm{C_{4}H_{10}(g)+13/2O_{2}(g)\\rightarrow4CO_{2}(g)+5H_{2}O(1)}\\\\mathrm{\\bar{A}_{c}H^{\\bar{c}}=-2875.84kJmol^{-1}}\\end{aligned}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\mathrm{C}_{6}\\mathrm{H}_{14}\\xrightarrow{\\quad773\\mathrm{K}\\quad}\\begin{array}{l}\\longrightarrow\\mathrm{C}_{6}\\mathrm{H}_{12}\\quad+\\quad\\mathrm{H}_{2}\\\\\\longrightarrow\\mathrm{C}_{4}\\mathrm{H}_{8}\\quad+\\quad\\mathrm{C}_{2}\\mathrm{H}_{6}\\\\\\longrightarrow\\mathrm{C}_{3}\\mathrm{H}_{6}\\quad+\\quad\\mathrm{C}_{2}\\mathrm{H}_{4}+\\mathrm{CH}_{4}\\end{array}\\end{array}",
+            "after": "\\begin{array}{l}\\mathrm{C}_{6}\\mathrm{H}_{14}\\xrightarrow{\\quad773\\mathrm{K}\\quad}\\begin{array}{l}\\longrightarrow\\mathrm{C}_{6}\\mathrm{H}_{12}\\quad+\\quad\\mathrm{H}_{2}\\\\longrightarrow\\mathrm{C}_{4}\\mathrm{H}_{8}\\quad+\\quad\\mathrm{C}_{2}\\mathrm{H}_{6}\\\\longrightarrow\\mathrm{C}_{3}\\mathrm{H}_{6}\\quad+\\quad\\mathrm{C}_{2}\\mathrm{H}_{4}+\\mathrm{CH}_{4}\\end{array}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{\\tiny{(CH_3)_2CH-CH=CH-CH_2-CH}}\\\\\\|\\\\\\mathrm{\\tiny{CH_3-CH-CH}}\\\\\\|\\\\\\mathrm{\\tiny{C_2H_5}}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{\\tiny{(CH_3)_2CH-CH=CH-CH_2-CH}}\\\\|\\\\mathrm{\\tiny{CH_3-CH-CH}}\\\\|\\\\mathrm{\\tiny{C_2H_5}}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "(iv)\\begin{array}{c}\\mathrm{CH_2=C\\left(CH_2CH_2CH_3\\right)_2}\\\\\\mathrm{CH_3CH_2CH_2CH_2}\\\\|\\quad\\quad\\quad\\quad\\quad\\quad\\mathrm{CH_2CH_3}\\\\\\mathrm{CH_3-CHCH=C-CH_2-CHCH_3}\\\\|\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\mathrm{CH_3}\\end{array}",
+            "after": "(iv)\\begin{array}{c}\\mathrm{CH_2=C\\left(CH_2CH_2CH_3\\right)_2}\\\\mathrm{CH_3CH_2CH_2CH_2}\\\\|\\quad\\quad\\quad\\quad\\quad\\quad\\mathrm{CH_2CH_3}\\\\mathrm{CH_3-CHCH=C-CH_2-CHCH_3}\\\\|\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\mathrm{CH_3}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}&H\\text{.}\\begin{array}{l}1\\quad2\\quad3\\quad4\\\\\\quad CH_2=CH-CH_2-CH_3\\\\\\quad But-1-ene\\\\\\quad\\left(C_4H_8\\right)\\end{array}\\\\ &\\\\ &III\\text{.}\\begin{array}{l}1\\quad2\\quad3\\quad4\\\\\\quad CH_3-CH=CH-CH_3\\\\\\quad But-2-ene\\\\\\quad\\left(C_4H_8\\right)\\end{array}\\\\ \\end{aligned}",
+            "after": "\\begin{aligned}&H\\text{.}\\begin{array}{l}1\\quad2\\quad3\\quad4\\\\quad CH_2=CH-CH_2-CH_3\\\\quad But-1-ene\\\\quad\\left(C_4H_8\\right)\\end{array}\\\\ &\\\\ &III\\text{.}\\begin{array}{l}1\\quad2\\quad3\\quad4\\\\quad CH_3-CH=CH-CH_3\\\\quad But-2-ene\\\\quad\\left(C_4H_8\\right)\\end{array}\\\\ \\end{aligned}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\mathrm{CH}_{2}=\\mathrm{C}-\\mathrm{CH}_{3}\\\\\\quad\\mid\\\\\\quad\\mathrm{CH}_{3}\\\\\\quad2-\\mathrm{Methylprop}-1-\\mathrm{ene}_{3}\\\\\\quad\\left(\\mathrm{C}_{4}\\mathrm{H}_{8}\\right)\\end{array}",
+            "after": "\\begin{array}{l}\\mathrm{CH}_{2}=\\mathrm{C}-\\mathrm{CH}_{3}\\\\quad\\mid\\\\quad\\mathrm{CH}_{3}\\\\quad2-\\mathrm{Methylprop}-1-\\mathrm{ene}_{3}\\\\quad\\left(\\mathrm{C}_{4}\\mathrm{H}_{8}\\right)\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\mathrm{CH}_{2}=\\mathrm{C}-\\mathrm{CH}_{3}\\\\\\quad\\mid\\\\\\quad\\mathrm{CH}_{3}\\\\\\quad2-\\mathrm{Methylprop}-1-\\mathrm{ene}_{3}\\\\\\quad\\left(\\mathrm{C}_{4}\\mathrm{H}_{8}\\right)\\end{array}",
+            "after": "\\begin{array}{l}\\mathrm{CH}_{2}=\\mathrm{C}-\\mathrm{CH}_{3}\\\\quad\\mid\\\\quad\\mathrm{CH}_{3}\\\\quad2-\\mathrm{Methylprop}-1-\\mathrm{ene}_{3}\\\\quad\\left(\\mathrm{C}_{4}\\mathrm{H}_{8}\\right)\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\mathrm{CH_{3}-CH{=}CH\\_-CH_{2}-CH_{3}}",
+            "after": "\\mathrm{CH_{3}-CH{=}CH_-CH_{2}-CH_{3}}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{CH_{3}-C=CH-CH_{3}}\\\\\\mid\\\\\\mathrm{CH_{3}}\\\\2-Methylbut-2-ene\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{CH_{3}-C=CH-CH_{3}}\\\\mid\\\\mathrm{CH_{3}}\\\\2-Methylbut-2-ene\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{CH_3-CH-CH=CH_2}\\\\\\mid\\\\\\mathrm{CH_3}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{CH_3-CH-CH=CH_2}\\\\mid\\\\mathrm{CH_3}\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{iv)\\ \\ CH_{3}-C\\equiv CH+H_{2}\\xrightarrow{Pd/C}CH_{3}-CH=CH_{2}}",
+            "after": "\\mathrm{iv\\ \\ CH_{3}-C\\equiv CH+H_{2}\\xrightarrow{Pd/C}CH_{3}-CH=CH_{2}}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{H}\\quad\\mathrm{H}\\\\\\mathrm{H}-\\mathrm{C}-\\mathrm{C}-\\mathrm{H}\\\\\\mathrm{H}\\quad\\mathrm{X}\\end{array}\\xrightarrow[\\Delta]{\\text{alc.KOH}}\\begin{array}{c}\\mathrm{H}\\\\\\setminus\\\\\\mathrm{C}\\\\\\mathrm{H}\\end{array}\\mathrm{C}=\\mathrm{C}\\begin{array}{c}\\mathrm{H}\\\\\\setminus\\\\\\setminus\\\\\\mathrm{H}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{H}\\quad\\mathrm{H}\\\\mathrm{H}-\\mathrm{C}-\\mathrm{C}-\\mathrm{H}\\\\mathrm{H}\\quad\\mathrm{X}\\end{array}\\xrightarrow[\\Delta]{\\text{alc.KOH}}\\begin{array}{c}\\mathrm{H}\\\\setminus\\\\mathrm{C}\\\\mathrm{H}\\end{array}\\mathrm{C}=\\mathrm{C}\\begin{array}{c}\\mathrm{H}\\\\setminus\\\\setminus\\\\mathrm{H}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\mathrm{CH_2=CH_2+Br-Br\\xrightarrow{\\quad\\mathrm{CCl_4}}\\ CH_2-CH_2}\\\\\\mathrm{Ethene}\\quad\\mathrm{\\ \\ \\ \\ }\\left|\\quad\\mathrm{\\ \\ }\\right|\\\\\\mathrm{Br}\\quad\\mathrm{Br}\\end{array}",
+            "after": "\\begin{array}{l}\\mathrm{CH_2=CH_2+Br-Br\\xrightarrow{\\quad\\mathrm{CCl_4}}\\ CH_2-CH_2}\\\\mathrm{Ethene}\\quad\\mathrm{\\ \\ \\ \\ }\\left|\\quad\\mathrm{\\ \\ }\\right|\\\\mathrm{Br}\\quad\\mathrm{Br}\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left(430.5\\right.",
+            "after": "\\left(430.5\\right.)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " mol^{-1})",
+            "after": " mol^{-1}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{mol}^{-1})",
+            "after": "\\mathrm{mol}^{-1}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " mol^{-1})",
+            "after": " mol^{-1}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\text{(i)}\\mathrm{CH_2{=}CH-CH_2{-}CH_2{-}CH_2{-}CH_3{+}H{-}Br}\\\\\\quad\\text{Hex-1-ene}\\quad\\big\\downarrow\\mathrm{No}\\text{Pereoxide}\\\\\\quad\\mathrm{CH_3{-}CH-CH_2{-}CH_2{-}CH_2{-}CH_2{-}CH_3}\\\\\\quad\\mathrm{Br}\\\\\\quad\\text{2-Brownianexane}\\\\\\quad\\text{(ii)}\\mathrm{CH_2{=}CH{-}CH_2{-}CH_2{-}CH_2{-}CH_3{+}H{-}Br}\\\\\\quad\\big\\downarrow\\mathrm{Pereoxide}\\\\\\quad\\mathrm{CH_2{-}CH_2{-}CH_2{-}CH_2{-}CH_2{-}CH_2{-}CH_3}\\\\\\quad\\mid\\mathrm{Br}\\\\\\quad\\text{1-Brownianexane}\\end{array}",
+            "after": "\\begin{array}{l}\\text{(i)}\\mathrm{CH_2{=}CH-CH_2{-}CH_2{-}CH_2{-}CH_3{+}H{-}Br}\\\\quad\\text{Hex-1-ene}\\quad\\big\\downarrow\\mathrm{No}\\text{Pereoxide}\\\\quad\\mathrm{CH_3{-}CH-CH_2{-}CH_2{-}CH_2{-}CH_2{-}CH_3}\\\\quad\\mathrm{Br}\\\\quad\\text{2-Brownianexane}\\\\quad\\text{(ii)}\\mathrm{CH_2{=}CH{-}CH_2{-}CH_2{-}CH_2{-}CH_3{+}H{-}Br}\\\\quad\\big\\downarrow\\mathrm{Pereoxide}\\\\quad\\mathrm{CH_2{-}CH_2{-}CH_2{-}CH_2{-}CH_2{-}CH_2{-}CH_3}\\\\quad\\mid\\mathrm{Br}\\\\quad\\text{1-Brownianexane}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{CH}_{2}=\\mathrm{CH}_{2}+\\mathrm{H}-\\mathrm{O}-\\stackrel{\\mathrm{O}}{\\underset{\\mathrm{S}}{\\parallel}}-\\mathrm{O}-\\mathrm{H}\\\\\\downarrow\\quad\\stackrel{\\mathrm{II}}{\\mathrm{O}}\\\\\\mathrm{CH}_{3}-\\mathrm{CH}_{2}-\\mathrm{O}\\stackrel{\\mathrm{SO}}{\\mathrm{SO}_{2}}-\\mathrm{OH}\\text{or}\\mathrm{C}_{2}\\mathrm{H}_{5}\\mathrm{HSO}_{4}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{CH}_{2}=\\mathrm{CH}_{2}+\\mathrm{H}-\\mathrm{O}-\\stackrel{\\mathrm{O}}{\\underset{\\mathrm{S}}{\\parallel}}-\\mathrm{O}-\\mathrm{H}\\\\downarrow\\quad\\stackrel{\\mathrm{II}}{\\mathrm{O}}\\\\mathrm{CH}_{3}-\\mathrm{CH}_{2}-\\mathrm{O}\\stackrel{\\mathrm{SO}}{\\mathrm{SO}_{2}}-\\mathrm{OH}\\text{or}\\mathrm{C}_{2}\\mathrm{H}_{5}\\mathrm{HSO}_{4}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{CH_{3}-CH=CH_{2}+HOSO_{2}OH}\\\\\\downarrow\\\\\\mathrm{CH_{3}-CH-CH_{3}}\\\\\\uparrow\\\\\\mathrm{OSO_{2}OH}\\\\\\mathrm{Proply\\ hydrogen\\ subphase}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{CH_{3}-CH=CH_{2}+HOSO_{2}OH}\\\\downarrow\\\\mathrm{CH_{3}-CH-CH_{3}}\\\\uparrow\\\\mathrm{OSO_{2}OH}\\\\mathrm{Proply\\ hydrogen\\ subphase}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{CH_{2}=CH_{2}+H_{2}O+O\\xrightarrow{\\mathrm{dl}}\\mathrm{KMnO_{4}}}\\mathrm{CH_{2}-CH_{2}}\\\\\\mathrm{\\uparrow}\\mathrm{OH}\\mathrm{\\uparrow}\\mathrm{OH}\\\\\\mathrm{Ethane-1,2-diol}\\\\\\mathrm{(Glycol)}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{CH_{2}=CH_{2}+H_{2}O+O\\xrightarrow{\\mathrm{dl}}\\mathrm{KMnO_{4}}}\\mathrm{CH_{2}-CH_{2}}\\\\mathrm{\\uparrow}\\mathrm{OH}\\mathrm{\\uparrow}\\mathrm{OH}\\\\mathrm{Ethane-1,2-diol}\\\\mathrm{(Glycol)}\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{Z n}-\\mathrm{H_{2}}\\mathrm{\\underline{{O}}}",
+            "after": "\\mathrm{Z n}-\\mathrm{H_{2}}\\mathrm{\\underline{O}}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{HC}\\equiv\\mathrm{C}-\\mathrm{CH}_{2}-\\mathrm{CH}_{2}-\\mathrm{CH}_{2}-\\mathrm{CH}_{3}\\\\\\mathrm{Hex}-1\\text{-yne}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{HC}\\equiv\\mathrm{C}-\\mathrm{CH}_{2}-\\mathrm{CH}_{2}-\\mathrm{CH}_{2}-\\mathrm{CH}_{3}\\\\mathrm{Hex}-1\\text{-yne}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{CH_{3}-C\\equiv C-CH_{2}-CH_{2}-CH_{3}}\\\\\\mathrm{Hex-2-yne}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{CH_{3}-C\\equiv C-CH_{2}-CH_{2}-CH_{3}}\\\\mathrm{Hex-2-yne}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{CH_{3}-C\\equiv C-CH-CH_{3}}\\\\\\mid\\\\\\mathrm{CH_{3}}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{CH_{3}-C\\equiv C-CH-CH_{3}}\\\\mid\\\\mathrm{CH_{3}}\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": " mol^{-1})",
+            "after": " mol^{-1}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{H}\\\\\\mathrm{H_2C-C-H+KOH}\\\\\\mathrm{Br}\\\\\\mathrm{Br}\\end{array}\\xrightarrow{\\text{alcothol}}\\begin{array}{c}\\mathrm{H}\\\\\\mathrm{\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad H}\\\\\\mathrm{\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad}\\\\\\mathrm{\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad}\\\\\\mathrm{Na}^{+}\\mathrm{NH}_{2}^{-}\\mathrm{~\\quad\\quad\\quad\\quad\\quad}\\\\\\mathrm{CH}\\equiv\\mathrm{CH}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{H}\\\\mathrm{H_2C-C-H+KOH}\\\\mathrm{Br}\\\\mathrm{Br}\\end{array}\\xrightarrow{\\text{alcothol}}\\begin{array}{c}\\mathrm{H}\\\\mathrm{\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad H}\\\\mathrm{\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad}\\\\mathrm{\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad}\\\\mathrm{Na}^{+}\\mathrm{NH}_{2}^{-}\\mathrm{~\\quad\\quad\\quad\\quad\\quad}\\\\mathrm{CH}\\equiv\\mathrm{CH}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{HC}\\equiv\\mathrm{CH}+\\mathrm{Na}\\rightarrow\\mathrm{HC}\\equiv\\mathrm{Ca}^{+}+\\mathrm{\\Omega}_{1/2}\\mathrm{H}_{2}\\\\\\mathrm{Monosodium}\\\\\\mathrm{ethunide}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{HC}\\equiv\\mathrm{CH}+\\mathrm{Na}\\rightarrow\\mathrm{HC}\\equiv\\mathrm{Ca}^{+}+\\mathrm{\\Omega}_{1/2}\\mathrm{H}_{2}\\\\mathrm{Monosodium}\\\\mathrm{ethunide}\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\begin{array}{c c c}{{\\mathrm{C H}_{3}-\\mathrm{C}\\equiv\\mathrm{C}-\\mathrm{H}}}&{{+}}&{{\\mathrm{N a}^{+}\\mathrm{N H}_{\\mathrm{~2~}}^{-}}}\\\\ {{}}&{{}}&{{\\downarrow}}\\\\ {{\\mathrm{C H}_{3}-\\mathrm{C}\\equiv\\mathrm{C}^{-}\\mathrm{N a}^{+}\\;+}}&{{\\mathrm{N H}_{3}}}\\end{array}",
+            "after": "\\begin{array}{c c c}{{\\mathrm{C H}_{3}-\\mathrm{C}\\equiv\\mathrm{C}-\\mathrm{H}}}&{+}&{{\\mathrm{N a}^{+}\\mathrm{N H}_{\\mathrm{~2~}}^{-}}}\\\\ {}&{}&{\\downarrow}\\\\ {{\\mathrm{C H}_{3}-\\mathrm{C}\\equiv\\mathrm{C}^{-}\\mathrm{N a}^{+}\\;+}}&{{\\mathrm{N H}_{3}}}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{CH_3\\bar{-}C{\\equiv}CH+H_2\\xrightarrow{Pt/Pd/Ni}[CH_3\\bar{-}CH{=}CH_2]}\\\\\\mathrm{Propune}\\quad\\mathrm{Prope}\\\\\\downarrow\\mathrm{H_2}\\\\\\mathrm{CH_3\\bar{-}CH_2\\bar{-}CH_3}\\\\\\mathrm{Propane}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{CH_3\\bar{-}C{\\equiv}CH+H_2\\xrightarrow{Pt/Pd/Ni}[CH_3\\bar{-}CH{=}CH_2]}\\\\mathrm{Propune}\\quad\\mathrm{Prope}\\\\downarrow\\mathrm{H_2}\\\\mathrm{CH_3\\bar{-}CH_2\\bar{-}CH_3}\\\\mathrm{Propane}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{CH_{3}-C\\equiv CH+Br-Br\\longrightarrow[CH_{3}CBr=CHBr]}\\\\1,2-Dibromoprepene\\\\\\left\\downarrow\\mathrm{Br_{2}}\\right.\\\\\\mathrm{Br}\\quad\\mathrm{Br}\\\\\\mathrm{CH_{3}-C-CH}\\\\\\mathrm{Br}\\quad\\mathrm{Br}\\\\1,1,2,2-Tetrabromoprepane\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{CH_{3}-C\\equiv CH+Br-Br\\longrightarrow[CH_{3}CBr=CHBr]}\\\\1,2-Dibromoprepene\\\\left\\downarrow\\mathrm{Br_{2}}\\right.\\\\mathrm{Br}\\quad\\mathrm{Br}\\\\mathrm{CH_{3}-C-CH}\\\\mathrm{Br}\\quad\\mathrm{Br}\\\\1,1,2,2-Tetrabromoprepane\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{H}\\mathrm{-C}\\mathrm{\\equiv}\\mathrm{C}\\mathrm{-H}\\mathrm{+H}\\mathrm{-Br}\\longrightarrow\\left[\\mathrm{CH_{2}}=\\mathrm{CH}\\mathrm{-Br}\\right]\\xrightarrow{\\mathrm{HBr}}\\mathrm{CHBr_{2}}\\\\\\mathrm{Bromoethene}\\quad\\left|\\quad\\mathrm{CH_{3}}\\right.\\\\\\mathrm{1,1}\\mathrm{-Dibromoethane}\\\\\\quad\\left(9.65\\right)\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{H}\\mathrm{-C}\\mathrm{\\equiv}\\mathrm{C}\\mathrm{-H}\\mathrm{+H}\\mathrm{-Br}\\longrightarrow\\left[\\mathrm{CH_{2}}=\\mathrm{CH}\\mathrm{-Br}\\right]\\xrightarrow{\\mathrm{HBr}}\\mathrm{CHBr_{2}}\\\\mathrm{Bromoethene}\\quad\\left|\\quad\\mathrm{CH_{3}}\\right.\\\\mathrm{1,1}\\mathrm{-Dibromoethane}\\\\quad\\left(9.65\\right)\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{array}{c}\\textcircled{H}\\underset{\\textcircled{H}\\mathbb{C}\\equiv\\textcircled{H}+\\textcircled{H}-\\textcircled{H}\\xrightarrow{\\textcircled{H}^{2^{*}}/\\textcircled{H}^{*}}\\underset{\\textcircled{K}\\mathbb{K}}{\\mathrm{C H}_{2}}{=}\\underset{\\textcircled{K}}{-\\mathrm{~H}}\\\\ \\textcircled{K}\\underset{\\textcircled{K}}{\\mathrm{E t h y n e}}\\underset{\\textcircled{H}}{\\mathrm{H}_{3}}\\underset{\\textcircled{K}}{\\overset{\\mathrm{~I s o m e r i s a t i o n}}{\\mathrm{C H}_{3}}}\\\\ \\textcircled{K}\\underset{\\textcircled{H}}{\\mathrm{C H}_{3}\\mathrm{-}\\mathrm{C}\\mathrm{-H}}\\\\ \\textcircled{H}\\underset{\\textcircled{H}}{\\mathrm{O}}\\underset{\\textcircled{H}}{\\mathrm{O}}\\\\ \\textcircled{O}\\\\ \\quad(9.67)\\\\ \\textcircled{H}\\underset{\\textcircled{K}}{\\mathrm{C H}_{3}\\mathrm{-C}\\equiv\\mathrm{C H}+\\mathrm{H}\\mathrm{-O H}\\xrightarrow{\\mathrm{H g}^{2^{*}}/\\mathrm{H}^{*}}\\mathrm{C H}_{3}\\mathrm{-C}\\equiv\\mathrm{C H}_{2}}\\\\ \\textcircled{H}\\underset{\\textcircled{H}\\mathrm{O-H}}{\\mathrm{C H}_{3}\\mathrm{-C}\\mathrm{-C H}_{3}}\\\\ \\textcircled{H}\\underset{\\textcircled{H}}{\\mathrm{C H}_{3}\\mathrm{-C}\\mathrm{-C H}_{3}}\\\\ \\textcircled{H}\\underset{\\textcircled{H}}{\\mathrm{O}}\\\\ \\quad(9.68)\\end{array} )",
+            "after": "\\begin{array}{c}\\textcircled{H}\\underset{\\textcircled{H}\\mathbb{C}\\equiv\\textcircled{H}+\\textcircled{H}-\\textcircled{H}\\xrightarrow{\\textcircled{H}^{2^{*}}/\\textcircled{H}^{*}}\\underset{\\textcircled{K}\\mathbb{K}}{\\mathrm{C H}_{2}}{=}\\underset{\\textcircled{K}}{-\\mathrm{~H}}\\\\ \\textcircled{K}\\underset{\\textcircled{K}}{\\mathrm{E t h y n e}}\\underset{\\textcircled{H}}{\\mathrm{H}_{3}}\\underset{\\textcircled{K}}{\\overset{\\mathrm{~I s o m e r i s a t i o n}}{\\mathrm{C H}_{3}}}\\\\ \\textcircled{K}\\underset{\\textcircled{H}}{\\mathrm{C H}_{3}\\mathrm{-}\\mathrm{C}\\mathrm{-H}}\\\\ \\textcircled{H}\\underset{\\textcircled{H}}{\\mathrm{O}}\\underset{\\textcircled{H}}{\\mathrm{O}}\\\\ \\textcircled{O}\\\\ \\quad(9.67)\\\\ \\textcircled{H}\\underset{\\textcircled{K}}{\\mathrm{C H}_{3}\\mathrm{-C}\\equiv\\mathrm{C H}+\\mathrm{H}\\mathrm{-O H}\\xrightarrow{\\mathrm{H g}^{2^{*}}/\\mathrm{H}^{*}}\\mathrm{C H}_{3}\\mathrm{-C}\\equiv\\mathrm{C H}_{2}}\\\\ \\textcircled{H}\\underset{\\textcircled{H}\\mathrm{O-H}}{\\mathrm{C H}_{3}\\mathrm{-C}\\mathrm{-C H}_{3}}\\\\ \\textcircled{H}\\underset{\\textcircled{H}}{\\mathrm{C H}_{3}\\mathrm{-C}\\mathrm{-C H}_{3}}\\\\ \\textcircled{H}\\underset{\\textcircled{H}}{\\mathrm{O}}\\\\ \\quad(9.68)\\end{array} }"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathbb{S}_{\\mathrm{E}}\\left(\\mathbb{S}=\\right.",
+            "after": "\\mathbb{S}_{\\mathrm{E}}\\left(\\mathbb{S}=\\right.)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{E}=\\mathrm{e l e c t r o p h i l i c})",
+            "after": "\\mathrm{E}=\\mathrm{e l e c t r o p h i l i c}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\widehat{\\mathrm{Cl}-\\mathrm{Cl}}\\quad+\\quad\\stackrel{\\mathrm{Al}}{\\mathrm{AlCl}_{3}}\\quad\\longrightarrow\\stackrel{+}{\\mathrm{Cl}}\\quad+\\quad\\left[\\mathrm{AlCl}_{4}\\right]^{-}\\\\\\stackrel{\\mathrm{Cholonium}}{\\mathrm{ion}}\\\\\\stackrel{+}{\\mathrm{Cl}_{3}-\\mathrm{Cl}}\\quad+\\quad\\stackrel{\\mathrm{AlCl}}{\\mathrm{AlCl}_{3}}\\quad\\longrightarrow\\quad\\stackrel{+}{\\mathrm{CH}_{3}}\\quad+\\quad\\left[\\mathrm{AlCl}_{4}\\right]^{-}\\end{array}",
+            "after": "\\begin{array}{c}\\widehat{\\mathrm{Cl}-\\mathrm{Cl}}\\quad+\\quad\\stackrel{\\mathrm{Al}}{\\mathrm{AlCl}_{3}}\\quad\\longrightarrow\\stackrel{+}{\\mathrm{Cl}}\\quad+\\quad\\left[\\mathrm{AlCl}_{4}\\right]^{-}\\\\stackrel{\\mathrm{Cholonium}}{\\mathrm{ion}}\\\\stackrel{+}{\\mathrm{Cl}_{3}-\\mathrm{Cl}}\\quad+\\quad\\stackrel{\\mathrm{AlCl}}{\\mathrm{AlCl}_{3}}\\quad\\longrightarrow\\quad\\stackrel{+}{\\mathrm{CH}_{3}}\\quad+\\quad\\left[\\mathrm{AlCl}_{4}\\right]^{-}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathbf{Step}\\mathbf{I}\\\\\\mathbf{HO}_{3}\\mathbf{SO}-\\mathbf{H}+\\mathbf{H}-\\mathbf{O}-\\mathbf{NO}_{2}\\rightleftharpoons\\mathbf{H}-\\mathbf{O}-\\mathbf{NO}_{2}+\\mathbf{HSO}_{4}\\\\\\mathbf{Step}\\mathbf{II}\\\\\\mathbf{H}-\\mathbf{O}-\\mathbf{NO}_{2}\\rightleftharpoons\\mathbf{H}_{2}\\mathbf{O}+\\mathbf{NO}_{2}\\\\\\mathbf{Pro}_{2}\\text{the}\\mathbf{H}_{2}\\mathbf{O}_{4} 与 \\mathbf{H}_{2}\\mathbf{O}_{4} 与 \\mathbf{H}_{2}\\mathbf{O}_{4}\\\\\\mathbf{H}_{2}\\mathbf{O}_{4}\\text{acid}\\mathbf{H}_{2}\\mathbf{O}_{4} 与 \\mathbf{H}_{2}\\mathbf{O}_{4}\\mathbf{O}_{4}\\\\\\end{array}",
+            "after": "\\begin{array}{c}\\mathbf{Step}\\mathbf{I}\\\\mathbf{HO}_{3}\\mathbf{SO}-\\mathbf{H}+\\mathbf{H}-\\mathbf{O}-\\mathbf{NO}_{2}\\rightleftharpoons\\mathbf{H}-\\mathbf{O}-\\mathbf{NO}_{2}+\\mathbf{HSO}_{4}\\\\mathbf{Step}\\mathbf{II}\\\\mathbf{H}-\\mathbf{O}-\\mathbf{NO}_{2}\\rightleftharpoons\\mathbf{H}_{2}\\mathbf{O}+\\mathbf{NO}_{2}\\\\mathbf{Pro}_{2}\\text{the}\\mathbf{H}_{2}\\mathbf{O}_{4} 与 \\mathbf{H}_{2}\\mathbf{O}_{4} 与 \\mathbf{H}_{2}\\mathbf{O}_{4}\\\\mathbf{H}_{2}\\mathbf{O}_{4}\\text{acid}\\mathbf{H}_{2}\\mathbf{O}_{4} 与 \\mathbf{H}_{2}\\mathbf{O}_{4}\\mathbf{O}_{4}\\\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "C_{x}H_{y}+\\left(x+\\frac{y}{4}\\right)O_{2}\\rightarrow xCO_{2}+\\frac{y}{2}H_{2}O\\ n\\left(9.8\\right) ;3)",
+            "after": "C_{x}H_{y}+\\left(x+\\frac{y}{4}\\right)O_{2}\\rightarrow xCO_{2}+\\frac{y}{2}H_{2}O\\ n\\left(9.8\\right) ;3"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{CH_3(CH_2)_4\\ CH\\ (CH_2)_3\\ CH_3}\\\\\\mathrm{\\ \\ \\ \\ \\ \\ \\ \\ }\\mathrm{CH_2-CH\\ (CH_3)_2}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{CH_3(CH_2)_4\\ CH\\ (CH_2)_3\\ CH_3}\\\\mathrm{\\ \\ \\ \\ \\ \\ \\ \\ }\\mathrm{CH_2-CH\\ (CH_3)_2}\\end{array}"
+        }
+    ],
+    "failed_equations": [
+        {
+            "equation": "\\begin{array}{c}{{\\mathrm{C H_{3}–C H_{3}+C1_{2}\\xrightarrow{h\\nu}~C H_{3}–C H_{2}C1}+\\mathrm{H C}1}}\\\\ {{\\mathrm{C h l o r o e t h a n e}\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\",
+            "delimiter": "$$",
+            "reasons": [
+                "unbalanced \\begin/\\end environment"
+            ]
+        },
+        {
+            "equation": "\\mathrm{C H_{3}\\_\\_C l,}",
+            "delimiter": "$",
+            "reasons": [
+                "double subscript ('x_a_b')"
+            ]
+        },
+        {
+            "equation": "\\begin{aligned}CH_{4}+O_{2}\\xrightarrow[\\Delta]{\\quad Mo_{2}O_{3}\\quad}HCHO+H_{2}O\\\\ \\quad\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ ",
+            "delimiter": "$$",
+            "reasons": [
+                "unbalanced \\begin/\\end environment"
+            ]
+        },
+        {
+            "equation": "\\begin{array}{l}\\mathrm{CH_3(CH)_2)_4CH_3\\xrightarrow{Anhy,AlCl_3/\\_HCl}}\\\\n-\\mathrm{Hexane}\\\\\\mathrm{CH_3CH-(CH_2)_2-CH_3+CH_3CH_2-CH-CH_2-CH_3}\\\\\\quad\\stackrel{\\mathrm{I}}{\\mathrm{CH_3}}\\quad\\stackrel{\\mathrm{I}}{\\mathrm{CH_3}}\\\\2-\\mathrm{Methylpentan}\\quad3-\\mathrm{Methylpentan}\\end{array}(9.25)",
+            "delimiter": "$$",
+            "reasons": [
+                "double subscript ('x_a_b')"
+            ]
+        },
+        {
+            "equation": "\\begin{array}{c}\\mathrm{H}\\quad\\mathrm{H}\\\\\\mathrm{H}-\\underset{\\mathrm{\\tiny{\\begin{array}{c}\\mathrm{\\begin{array}{p}\\end{p}}\\end{array}}}{\\mid\\beta\\quad\\mathrm{\\tiny{\\begin{array}{l}\\mathrm{\\begin{array}{l}\\mathrm{\\begin{array}{l}\\mathrm{\\alpha}\\\\\\mathrm{\\alpha}\\\\\\mathrm{\\alpha}\\\\\\mathrm{\\alpha}\\\\\\mathrm{\\alpha}\\\\\\mathrm{\\alpha}\\\\\\mathrm{\\alpha}\\\\\\mathrm{\\alpha}\\\\\\mathrm{\\alpha}\\\\\\mathrm{\\alpha}\\\\\\end{array}}}\\end{array}}}}{\\mathrm{H}}}\\xrightarrow{\\mathrm{Conc.\\;H_{2}SO_{4}}}\\mathrm{CH_{2}=CH_{2}+H_{2}O_{4}}\\\\\\mathrm{Ethane}\\\\\\end{array}",
+            "delimiter": "$$",
+            "reasons": [
+                "unbalanced \\begin/\\end environment"
+            ]
+        },
+        {
+            "equation": "\\begin{aligned}&(i)\\begin{array}{c}\\text{O}\\\\\\|\\text{I}\\\\\\text{C}_{6}\\text{H}_{5}-\\text{C}-\\text{O}-\\text{C}-\\text{C}_{6}\\text{H}_{5}\\xrightarrow{\\text{Homolysis}}\\end{array}\\\\&\\text{Benzyl peroxide}\\quad\\begin{array}{c}\\text{O}\\\\\\|\\text{I}\\\\\\text{2C}_{6}\\text{H}_{5}-\\text{C}-\\text{\\text{\\text{\\text{\\text{C}}}}}\\text{\\text{\\text{\\text{\\text{\\ \\text{\\ }}}}}}\\text{\\text{\\text{\\text{\\text{\\text{\\text{\\ \\ }}}}}}}\\text{\\text{\\text{\\text{\\text{\\text{\\text{\\ \\ }}}}}}}\\text{\\text{\\text{\\text{\\text{\\text{\\text{\\text{\\ \\ }}}}}}}}\\text{\\text{\\text{\\text{\\text{\\text{\\text{\\text{\\{\\{\\{\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot ",
+            "delimiter": "$$",
+            "reasons": [
+                "unbalanced \\begin/\\end environment"
+            ]
+        },
+        {
+            "equation": "\\begin{array}{c}\\mathrm{CH_{3}-C=CH_{2}+H_{2}O\\xrightarrow{H^{+}}\\quad CH_{3}\\overset{\\mathrm{CH_{3}}}{\\underset{\\mathrm{CH_{3}-C}}{\\mathrm{\\text{\\text{\\text{\\text{\\text{\\text{\\text{\\text{\\text{\\text{\\ }{\\text{\\text{}}}}}}}}}}}}}}}\\overset{\\mathrm{CH_{3}}}{\\underset{\\mathrm{\\text{\\text{\\text{\\text{\\text{\\text{\\text{\\text{\\text{\\text{\\text{}}}}}}}}}}}}{\\mathrm{\\text{\\text{\\text{\\text{\\text{\\text{\\text{\\text{\\text{}}}}}}}}}}}}}\\overset{\\mathrm{CH_{3}}}{\\underset{\\mathrm{\\text{\\text{\\text{\\text{\\text{\\text{\\text{\\text{\\text{\\text{\\text{\\text{\\text{\\text{\\text{}\\text{\\text{\\text{}\\text{\\text{}\\text{\\text{}\\text{\\text{}\\text{\\text{}\\text{}{\\text{\\text{\\text{C}{}\\text{\\text{}\\text{}{\\text{\\text{H}{}\\text{}{\\text{\\text{\\text{}\\text{{\\text{}\\text{}{C}{H}{}\\text{}{\\text{\\text{}\\text{H{}{}\\text{}{\\text{\\text{}{H}{}\\text{{\\text{}{\\text{H}{}{\\text{}{\\text{H}{}{\\text{}{\\text{H}{}{\\text{}{H}{}{\\text{}{H}{}{\\text{}{H}{}{\\text{H}{}{}{\\text{H}{}{}{\\text{H}{}{}{\\text{H}{}{}{H}{}{\\text{H}{}{}{H}{}{\\mathop{H{{H}}{}{H}{}{}{\\mathop{H{}{H}{}{}{H}{}{\\mathop{H{}{H}{}{}{H}{}{\\mathop{H{}{H}{}{}{H}{}{\\mathop{H{}{H}{}{}{H}{}{\\mathop{H{}{H}}{{}{H}{}{\\mathop{H{H}{}{}{H}{}{}{H}{}{\\mathop{H{H}{}{}{H}{}{H}{}{\\mathop{H{H}{}{H}{}{H}{}{}{\\mathop{H{H}{}{H}{}{H}{}{}{H}{\\mathop{H{H}{}{H}{}{H}{}{\\mathop{H{H}{}{H}{}{H}{}{H}{}{\\mathop{H{H}{H}{}{H}{}{H}{}{\\mathop{H{H}{}{H}{}{H}{}{H}{}{\\mathop{H{H}{H}{}{H}{}{H}{{\\mathop{H{H}{}{H}{}{H}{}{H}{\\mathop{H{H}{H}{}{H}{}{H}{}{H}{\\mathop{H{H}{H}{}{H}{{H}}{H{}{\\mathop{H{H}{H}{}{H}{}{H}{{\\mathop{H}{H}{H{}{H}{H}{}{H}{}{H}{\\mathop{H{H}{H}{H}{}{H}{{}{H}{\\mathop{H{H}{H}{H}{}{H}{}{H}{H{}{\\mathop{H{H}{H}{H}{}{H}{}{H}{H{}{\\mathop{H{H}{H}{H}{}{H{}}{H{}{H}{\\mathop{H{H}{H}{H}{}{H}{}{H{}{\\mathop{H{H}{H}{}{H}{H}{}{H}{\\mathop{H{H}{H{}{H}{}{H}{}{H}{\\mathop{H{H}{H}{H}{}{H}{{H}{}{H}{\\mathop{H{H}{H}{}{H}{H{}}{H{}{\\mathop{H}{H{H}{H}{}{H}{}{H}{\\mathop{H{H}{H}{H{}}{H{}{}{H}{H}{\\mathop{H{H}{H}{}{H{}{H}{\\mathop{H{H}{}{H}{H}{}{H{\\mathop{H}{H}{H{}{H}{H}{\\mathop{H{H}{}{H}{H}{H}{\\mathop{H{H}{H}{H{}\\mathop{H{}{H}{H}{H}{H\\mathop{{H}{H}{H}{H}{H}{H\\mathop{H{}{H}{H}{H\\mathop{H}{H{}{H}{H}\\mathop{H{H}{H{H}{H}{H}\\mathop{H{}{H}{H\\mathop{H{H}{H}{H}{H}\\mathop{H{H}{H}{H{\\mathop}{H{H}{H}\\mathop{H{H}{H}}{H{H}{H}{H\\mathop{H}{H ",
+            "delimiter": "$$",
+            "reasons": [
+                "unbalanced \\begin/\\end environment",
+                "pathological brace/bracket nesting depth (unrecoverable OCR garbage)"
+            ]
+        },
+        {
+            "equation": "\\begin{array}{l}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text\\text{}\\text{}\\text{}\\text{}\\text{}\\text\\text{}\\text{}\\text{}\\text{}\\text{}\\text\\text{}\\text{}\\text\\text{}\\text{}\\text{}\\text{}\\text\\text{}\\text{}\\text{}\\text\\text{}\\text{}\\text{}\\text\\text{}\\text{}\\text{}\\text\\text{}\\text{}\\text\\text{}\\text{}\\text{}\\text\\text{}\\text{}\\text\\text{}\\text{}\\text\\text{}\\text{}\\text\\text{}\\text{}\\text\\text{}\\text{}\\text\\text{}\\text{}\\text\\text{}\\text\\text{}\\text{}\\text\\text{}\\text{}\\text\\text{}\\text\\text{}\\text{}\\text\\text{}\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text{}\\text\\text{{}\\text\\text}\\text{{}\\text\\text\\text{}\\text\\text{{}\\text\\text\\text{}\\text\\text{}\\text\\text{{}\\text\\text\\text{{}\\text}\\text\\text\\text{{}\\text\\text ",
+            "delimiter": "$$",
+            "reasons": [
+                "unbalanced \\begin/\\end environment"
+            ]
+        },
+        {
+            "equation": "\\begin{array}{c}\\mathrm{CH_{3}-C\\equiv CH+H-Br\\longrightarrow[CH_{3}-C=CH_{2}]}\\\\\\mathrm{\\quad\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\  2",
+            "delimiter": "$$",
+            "reasons": [
+                "unbalanced \\begin/\\end environment"
+            ]
+        },
+        {
+            "equation": "\\begin{array}{c}\\bigcirc\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad}^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad}^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad\\quad^{9}\\quad^{9}\\quad^{9}\\quad\\quad^{9}\\quad^{9}\\quad^{9}\\quad^{9}\\quad\\quad^{9}\\quad^{9}\\quad\\quad^{9}\\quad^{9}\\quad^{9}\\quad\\quad^{9}\\quad^{9}\\quad^{9}\\quad\\quad^{9}\\quad^{9}\\quad\\quad^{9}\\quad^{9}\\quad\\quad^{9}\\quad^{9}\\quad^{9}\\quad\\quad^{9}\\quad^{9}\\quad\\quad^{9}\\quad^{9}\\quad\\quad^{9}\\quad^{9}\\quad^{}\\quad^{99}\\quad\\quad^{}\\quad^{9}\\quad\\quad^{9}\\quad^{9}\\quad\\quad^{}\\quad^{9}\\quad^{9}\\quad\\quad^{9}\\quad^{}\\quad\\quad^{9}\\quad^{9}\\quad^{}\\quad\\quad^{9}\\quad^{}\\quad^{9}\\quad\\quad^{}\\quad^{9}\\quad\\quad^{}\\quad^{9}\\quad^{}\\quad^{}\\quad\\quad^{9}\\quad{}^\\quad{9}\\quad^{}\\quad^\\quad{}^{}\\quad^{9}\\quad\\quad^{}\\quad^{}\\quad\\quad^{9}\\quad^{}\\quad^{}\\quad{}\\quad^{}\\quad^{}^\\quad{}\\quad^{}\\quad{\\quad^}{\\quad}^{\\quad^}{\\quad^{}\\quad\\quad}^{\\quad}^{\\quad}{^{}\\quad^{}\\quad\\quad^{}\\quad^{}\\quad\\quad^{}{}\\quad^{}\\quad^{}\\quad{}^\\quad{\\quad^}{\\quad}^{\\quad}^{\\quad}{\\quad^}{\\quad\\quad^}{}\\quad^{{}\\quad^\\quad{}\\quad^{}{}\\quad^{}\\quad^{}{\\quad}\\quad^{}\\quad^{\\quad}{\\quad^}{\\quad}^{\\quad\\quad}{\\quad^{}\\quad{}^\\quad{}^{}\\quad^{\\quad}{\\quad}^{\\quad\\quad}{\\quad\\quad}^{} ",
+            "delimiter": "$$",
+            "reasons": [
+                "unbalanced \\begin/\\end environment",
+                "double superscript ('x^a^b')"
+            ]
+        }
+    ],
+    "suspicious_equations": []
+}

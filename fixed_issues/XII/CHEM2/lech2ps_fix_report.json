@@ -1,0 +1,13 @@
+{
+    "chapter": "lech2ps",
+    "total_formulas": 0,
+    "repaired": 0,
+    "failed": 0,
+    "ocr_fixes": 73,
+    "latex_fixes": 0,
+    "markdown_fixes": 2,
+    "processing_time_sec": 0.006,
+    "changes": [],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

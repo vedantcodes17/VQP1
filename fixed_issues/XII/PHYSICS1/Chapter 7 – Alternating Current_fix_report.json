@@ -1,0 +1,125 @@
+{
+    "chapter": "Chapter 7 – Alternating Current",
+    "total_formulas": 310,
+    "repaired": 20,
+    "failed": 0,
+    "ocr_fixes": 143,
+    "latex_fixes": 20,
+    "markdown_fixes": 17,
+    "processing_time_sec": 0.103,
+    "changes": [
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}I=&\\sqrt{\\overline{i^{2}}}=\\sqrt{\\frac{1}{2}i_{m}^{2}}=\\frac{i_{m}}{\\sqrt{2}}\\\\ &=0.707i_{m}\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}I=&\\sqrt{\\overline{i^{2}}}=\\sqrt{\\frac{1}{2}i_{m}^{2}}=\\frac{i_{m}}{\\sqrt{2}}\\\\ &=0.707i_{m}\\end{aligned}\\right.}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "v_{\\mathrm{{m}}}={\\sqrt{2}}V=311\\mathrm{{V}}",
+            "after": "v_{\\mathrm{m}}={\\sqrt{2}}V=311\\mathrm{V}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}P_{\\mathrm{L}}=\\left\\langle-\\frac{i_{m}v_{m}}{2}\\sin(2\\omega t)\\right\\rangle\\\\ =-\\frac{i_{m}v_{m}}{2}\\left\\langle\\sin(2\\omega t)\\right\\rangle=0,\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}P_{\\mathrm{L}}=\\left\\langle-\\frac{i_{m}v_{m}}{2}\\sin(2\\omega t)\\right\\rangle\\\\ =-\\frac{i_{m}v_{m}}{2}\\left\\langle\\sin(2\\omega t)\\right\\rangle=0,\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}X_{L}=2\\pi\\nu L=2\\times3.14\\times50\\times25\\times10^{-3}\\Omega\\\\ =7.85\\Omega\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}X_{L}=2\\pi\\nu L=2\\times3.14\\times50\\times25\\times10^{-3}\\Omega\\\\ =7.85\\Omega\\end{aligned}\\right.}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathbf{v_{\\mathrm{{R}}}},\\mathbf{v_{\\mathrm{{c}}}}",
+            "after": "\\mathbf{v_{\\mathrm{R}}},\\mathbf{v_{\\mathrm{c}}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathbf{v_{\\mathrm{{_L}}}}\\mathrm{{i s}}\\pi/2",
+            "after": "\\mathbf{v_{\\mathrm{_L}}}\\mathrm{i s}\\pi/2"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathbf{v_{\\mathrm{{_R}}}}",
+            "after": "\\mathbf{v_{\\mathrm{_R}}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}v_{m}^{2}&=\\left(i_{m}R\\right)^{2}+\\left(i_{m}X_{C}-i_{m}X_{L}\\right)^{2}\\\\ &=i_{m}^{2}\\left[R^{2}+\\left(X_{C}-X_{L}\\right)^{2}\\right]\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}v_{m}^{2}&=\\left(i_{m}R\\right)^{2}+\\left(i_{m}X_{C}-i_{m}X_{L}\\right)^{2}\\\\ &=i_{m}^{2}\\left[R^{2}+\\left(X_{C}-X_{L}\\right)^{2}\\right]\\end{aligned}\\right.}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{cases}X_{_L}=2\\pi\\mathrm{v}L\\\\\\quad=2\\times3.14\\times50\\times25.48\\times10^{-3}\\Omega=8\\Omega\\\\\\quad X_{_C}=\\displaystyle\\frac{1}{2\\pi\\gamma C}\\end{cases}",
+            "after": "\\begin{cases}X_{_L}=2\\pi\\mathrm{v}L\\\\quad=2\\times3.14\\times50\\times25.48\\times10^{-3}\\Omega=8\\Omega\\\\quad X_{_C}=\\displaystyle\\frac{1}{2\\pi\\gamma C}\\end{cases}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "(a) To find the impedance of the circuit, we first calculate \\begin{cases}X_{_L}=2\\pi\\mathrm{v}L\\\\\\quad=2\\times3.14\\times50\\times25.48\\times10^{-3}\\Omega=8\\Omega\\\\\\quad X_{_C}=\\displaystyle\\frac{1}{2\\pi\\gamma C}\\end{cases}",
+            "after": "(a) To find the impedance of the circuit, we first calculate \\begin{cases}X_{_L}=2\\pi\\mathrm{v}L\\\\quad=2\\times3.14\\times50\\times25.48\\times10^{-3}\\Omega=8\\Omega\\\\quad X_{_C}=\\displaystyle\\frac{1}{2\\pi\\gamma C}\\end{cases}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}Z=\\sqrt{R^{2}+\\left(X_{L}-X_{C}\\right)^{2}}=\\sqrt{3^{2}+\\left(8-4\\right)^{2}}\\\\ =5\\Omega\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}Z=\\sqrt{R^{2}+\\left(X_{L}-X_{C}\\right)^{2}}=\\sqrt{3^{2}+\\left(8-4\\right)^{2}}\\\\ =5\\Omega\\end{aligned}\\right.}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "\\frac{\\mathrm{i}\\mathrm{p}}{\\phi\\mathrm{p}}^{s}N^{-}={}^{s}^{3}",
+            "after": "\\frac{\\mathrm{i}\\mathrm{p}}{\\phi\\mathrm{p}}^{s}N^{-}={}^{s3}"
+        },
+        {
+            "type": "latex_fix",
+            "before": "L \\frac{\\mathrm{i}\\mathrm{p}}{\\phi\\mathrm{p}}^{s}N^{-}={}^{s}^{3}",
+            "after": "L \\frac{\\mathrm{i}\\mathrm{p}}{\\phi\\mathrm{p}}^{s}N^{-}={}^{s3}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\{N_{p}/N_{s}\\bar{<1}",
+            "after": "\\{N_{p}/N_{s}\\bar{<1}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "<I_{p})",
+            "after": "<I_{p}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "i_{m}=\\frac{v_{m}}{X_{C}},\\quad X_{C}=\\frac{1}{\\omega C}\\text{is called space}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text\\text{}\\text{}\\text{}\\text{}\\text{}\\text\\text{}\\text{}\\text{}\\text\\text{}\\text{}\\text{}\\text\\text{}\\text{}\\text\\text{}\\text{}\\text\\text{}\\text{}\\text\\text{}\\text{}\\text\\text{}\\text{}\\text\\text{}\\text{}\\text\\text{}\\text{}\\text\\text{}\\text\\text{}\\text{}\\text\\text{}\\text\\text{}\\text{}\\text\\text{}\\text\\text{}\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text\\text{}\\text\\text{}\\text\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text\\text{}\\text\\text{}\\text\\text\\text{}\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text\\text{}\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{\\text}\\text\\text{\\text}\\text\\text\\text{\\text}\\text\\text{\\text\\text}\\text\\text{\\text}\\text\\text\\text{}\\text\\text\\text{\\text\\text}\\text\\text{\\text\\text}\\text\\text{\\text}\\text\\text\\text{\\text\\text}\\text\\text{\\text\\text}\\text\\text\\text{\\text\\text}\\text\\text\\text{\\text\\text}\\text\\text{\\text\\text\\text}\\text\\text{\\text\\text\\text{}\\text\\text\\text\\text{}\\text\\text\\text\\text\\text{}\\text\\text\\text\\text\\text{}\\text\\text\\text\\text\\text{\\text}\\text\\text\\text\\text{\\text\\text\\text}\\text\\text\\text\\text{\\text\\text{}\\text\\text\\text\\text\\text{}\\text\\text\\text\\text\\text\\text{\\text}\\",
+            "after": "i_{m}=\\frac{v_{m}}{X_{C}},\\quad X_{C}=\\frac{1}{\\omega C}\\text{is called space}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text{}\\text\\text{}\\text{}\\text{}\\text{}\\text{}\\text\\text{}\\text{}\\text{}\\text\\text{}\\text{}\\text{}\\text\\text{}\\text{}\\text\\text{}\\text{}\\text\\text{}\\text{}\\text\\text{}\\text{}\\text\\text{}\\text{}\\text\\text{}\\text{}\\text\\text{}\\text{}\\text\\text{}\\text\\text{}\\text{}\\text\\text{}\\text\\text{}\\text{}\\text\\text{}\\text\\text{}\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text\\text{}\\text\\text{}\\text\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text\\text{}\\text\\text{}\\text\\text\\text{}\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text{}\\text\\text{}\\text\\text\\text{}\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{}\\text\\text\\text{\\text}\\text\\text{\\text}\\text\\text\\text{\\text}\\text\\text{\\text\\text}\\text\\text{\\text}\\text\\text\\text{}\\text\\text\\text{\\text\\text}\\text\\text{\\text\\text}\\text\\text{\\text}\\text\\text\\text{\\text\\text}\\text\\text{\\text\\text}\\text\\text\\text{\\text\\text}\\text\\text\\text{\\text\\text}\\text\\text{\\text\\text\\text}\\text\\text{\\text\\text\\text{}\\text\\text\\text\\text{}\\text\\text\\text\\text\\text{}\\text\\text\\text\\text\\text{}\\text\\text\\text\\text\\text{\\text}\\text\\text\\text\\text{\\text\\text\\text}\\text\\text\\text\\text{\\text\\text{}\\text\\text\\text\\text\\text{}\\text\\text\\text\\text\\text\\text{\\text}\\}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\begin{array}{r}{X_{\\mathrm{{L}}}}\\\\ {X_{\\mathrm{{C}}}}\\end{array}",
+            "after": "\\begin{array}{r}{X_{\\mathrm{L}}}\\\\ {X_{\\mathrm{C}}}\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\begin{array}{l}{{X_{\\mathrm{{_L}}}={\\dot{\\mathrm{~}}}\\omega\\mathrm{~}L}}\\\\ {{X_{\\mathrm{{_c}}}=1/\\mathrm{{~}}\\omega\\mathrm{~}C}}\\end{array}",
+            "after": "\\begin{array}{l}{{X_{\\mathrm{_L}}={\\dot{\\mathrm{~}}}\\omega\\mathrm{~}L}}\\\\ {{X_{\\mathrm{_c}}=1/\\mathrm{~}\\omega\\mathrm{~}C}}\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\begin{array}{r}{X_{\\mathrm{{L}}}}\\\\ {X_{\\mathrm{{C}}}}\\end{array}",
+            "after": "\\begin{array}{r}{X_{\\mathrm{L}}}\\\\ {X_{\\mathrm{C}}}\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\begin{array}{l}{{X_{\\mathrm{{_L}}}={\\dot{\\mathrm{~}}}\\omega\\mathrm{~}L}}\\\\ {{X_{\\mathrm{{_c}}}=1/\\mathrm{{~}}\\omega\\mathrm{~}C}}\\end{array}",
+            "after": "\\begin{array}{l}{{X_{\\mathrm{_L}}={\\dot{\\mathrm{~}}}\\omega\\mathrm{~}L}}\\\\ {{X_{\\mathrm{_c}}=1/\\mathrm{~}\\omega\\mathrm{~}C}}\\end{array}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": [
+        {
+            "equation": "\\frac{\\mathrm{i}\\mathrm{p}}{\\phi\\mathrm{p}}^{s}N^{-}={}^{s3}",
+            "delimiter": "$",
+            "reason": "adjacent scripts were merged after removing an OCR-inserted \\phantom - digits are preserved but the split point was a guess; needs manual review"
+        },
+        {
+            "equation": "L \\frac{\\mathrm{i}\\mathrm{p}}{\\phi\\mathrm{p}}^{s}N^{-}={}^{s3}",
+            "delimiter": "$$",
+            "reason": "adjacent scripts were merged after removing an OCR-inserted \\phantom - digits are preserved but the split point was a guess; needs manual review"
+        }
+    ]
+}

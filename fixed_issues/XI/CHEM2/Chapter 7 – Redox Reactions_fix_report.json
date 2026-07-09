@@ -1,0 +1,154 @@
+{
+    "chapter": "Chapter 7 – Redox Reactions",
+    "total_formulas": 328,
+    "repaired": 28,
+    "failed": 0,
+    "ocr_fixes": 89,
+    "latex_fixes": 28,
+    "markdown_fixes": 7,
+    "processing_time_sec": 0.157,
+    "changes": [
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{Cu(s)+2Ag^{*}(aq)\\longrightarrow Cu^{2+}(aq)+2Ag(s)} 16)",
+            "after": "\\mathrm{Cu(s)+2Ag^{*}(aq)\\longrightarrow Cu^{2+}(aq)+2Ag(s)} 16"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{\\underline{{C u}}(s)}",
+            "after": "\\mathrm{\\underline{C u}(s)}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\mathrm{H_2(s)+Cl_2(g)\\rightarrow2HCl(g)}\\\\\\mathrm{and},\\\\\\mathrm{CH_4(g)+4Cl_2(g)\\rightarrow CCl_4(l)+4HCl(g)}\\end{array}",
+            "after": "\\begin{array}{l}\\mathrm{H_2(s)+Cl_2(g)\\rightarrow2HCl(g)}\\\\mathrm{and},\\\\mathrm{CH_4(g)+4Cl_2(g)\\rightarrow CCl_4(l)+4HCl(g)}\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{(e.g.,H_{2}O_{2},}",
+            "after": "\\mathrm{(e.g.,H_{2}O_{2},})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{N a}_{2}\\mathrm{O}_{2})",
+            "after": "\\mathrm{N a}_{2}\\mathrm{O}_{2}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "(\\mathbf{e.g.}",
+            "after": "(\\mathbf{e.g.})"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{ccc}\\mathrm{HAuCl}_{4}&\\rightarrow&\\mathrm{Au~has~3}\\\\\\mathrm{Ti}_{2}\\mathrm{O}&\\rightarrow&\\mathrm{Tl~has~1}\\\\\\mathrm{FeO}&\\rightarrow&\\mathrm{Fe~has~2}\\\\\\mathrm{Fe}_{2}\\mathrm{O}_{3}&\\rightarrow&\\mathrm{Fe~has~3}\\\\\\mathrm{CuI}&\\rightarrow&\\mathrm{Cu~has~1}\\\\\\mathrm{CuO}&\\rightarrow&\\mathrm{Cu~has~2}\\\\\\mathrm{MnO}&\\rightarrow&\\mathrm{Mn~has~2}\\\\\\mathrm{MnO}_{2}&\\rightarrow&\\mathrm{Mn~has~4}\\\\\\end{array}",
+            "after": "\\begin{array}{ccc}\\mathrm{HAuCl}_{4}&\\rightarrow&\\mathrm{Au~has~3}\\\\mathrm{Ti}_{2}\\mathrm{O}&\\rightarrow&\\mathrm{Tl~has~1}\\\\mathrm{FeO}&\\rightarrow&\\mathrm{Fe~has~2}\\\\mathrm{Fe}_{2}\\mathrm{O}_{3}&\\rightarrow&\\mathrm{Fe~has~3}\\\\mathrm{CuI}&\\rightarrow&\\mathrm{Cu~has~1}\\\\mathrm{CuO}&\\rightarrow&\\mathrm{Cu~has~2}\\\\mathrm{MnO}&\\rightarrow&\\mathrm{Mn~has~2}\\\\mathrm{MnO}_{2}&\\rightarrow&\\mathrm{Mn~has~4}\\\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{{|C l}_{4}",
+            "after": "\\mathrm{{|C l}_{4}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{{C u}_{2}\\mathrm{{O}}}",
+            "after": "\\mathrm{{C u}_{2}\\mathrm{O}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{{C u}_{2}\\mathrm{{O}}}",
+            "after": "\\mathrm{{C u}_{2}\\mathrm{O}}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{ccc}\\mathrm{C}(\\mathrm{s})&0&\\xrightarrow{+4-2}\\\\\\mathrm{C}(\\mathrm{s})+\\mathrm{O}_{2}(\\mathrm{g})\\xrightarrow{\\Delta}&\\mathrm{CO}_{2}(\\mathrm{g})&\\{7.24\\}\\\\&0&0&\\xrightarrow{+2-3}\\\\3\\mathrm{Mg}(\\mathrm{s})+\\mathrm{N}_{2}(\\mathrm{g})\\xrightarrow{\\Delta}&\\mathrm{Mg}_{3}\\mathrm{N}_{2}(\\mathrm{s})&\\{7.25\\}\\\\\\xrightarrow{-4+1}&0&\\xrightarrow{+4-2}&\\xrightarrow{+1-2}\\\\\\mathrm{CH}_{4}(\\mathrm{g})+2\\mathrm{O}_{2}(\\mathrm{g})\\xrightarrow{\\Delta}&\\mathrm{CO}_{2}(\\mathrm{g})&+2\\mathrm{H}_{2}\\mathrm{O}(\\mathrm{l})\\\\\\end{array}",
+            "after": "\\begin{array}{ccc}\\mathrm{C}(\\mathrm{s})&0&\\xrightarrow{+4-2}\\\\mathrm{C}(\\mathrm{s})+\\mathrm{O}_{2}(\\mathrm{g})\\xrightarrow{\\Delta}&\\mathrm{CO}_{2}(\\mathrm{g})&\\{7.24\\}\\\\&0&0&\\xrightarrow{+2-3}\\\\3\\mathrm{Mg}(\\mathrm{s})+\\mathrm{N}_{2}(\\mathrm{g})\\xrightarrow{\\Delta}&\\mathrm{Mg}_{3}\\mathrm{N}_{2}(\\mathrm{s})&\\{7.25\\}\\\\xrightarrow{-4+1}&0&\\xrightarrow{+4-2}&\\xrightarrow{+1-2}\\\\mathrm{CH}_{4}(\\mathrm{g})+2\\mathrm{O}_{2}(\\mathrm{g})\\xrightarrow{\\Delta}&\\mathrm{CO}_{2}(\\mathrm{g})&+2\\mathrm{H}_{2}\\mathrm{O}(\\mathrm{l})\\\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{ccc}\\overset{+1\\ -2}{2\\mathrm{H_2O\\ (l)}}&\\overset{0}{2\\mathrm{H_2\\ (g)}}+\\overset{0}{\\mathrm{O_2(g)}}\\\\\\overset{+1\\ -1}{2\\mathrm{NaH\\ (s)}}\\overset{\\pm}{\\longrightarrow}&\\overset{0}{2\\mathrm{Na\\ (s)}}+\\overset{0}{\\mathrm{H_2(g)}}\\\\\\overset{+1\\ +5\\ -2}{2\\mathrm{KClO_3\\ (s)}}\\overset{\\pm}{\\longrightarrow}&\\overset{+1\\ -1}{2\\mathrm{KCl\\ (s)}}+\\overset{0}{3\\mathrm{O_2(g)}}\\end{array}",
+            "after": "\\begin{array}{ccc}\\overset{+1\\ -2}{2\\mathrm{H_2O\\ (l)}}&\\overset{0}{2\\mathrm{H_2\\ (g)}}+\\overset{0}{\\mathrm{O_2(g)}}\\\\overset{+1\\ -1}{2\\mathrm{NaH\\ (s)}}\\overset{\\pm}{\\longrightarrow}&\\overset{0}{2\\mathrm{Na\\ (s)}}+\\overset{0}{\\mathrm{H_2(g)}}\\\\overset{+1\\ +5\\ -2}{2\\mathrm{KClO_3\\ (s)}}\\overset{\\pm}{\\longrightarrow}&\\overset{+1\\ -1}{2\\mathrm{KCl\\ (s)}}+\\overset{0}{3\\mathrm{O_2(g)}}\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\begin{array}{r l r}{^{+2\\;+4\\;-2}}&{{}}&{^{+2-2}}\\\\ {\\mathrm{C a C O}_{_3}\\left(\\mathbf{s}\\right)\\xrightarrow{\\;\\pmb{\\Delta}\\;}}&{{}}&{\\mathrm{C a O}(\\mathbf{s})\\quad+\\quad\\mathrm{C O}_{_2}(\\mathbf{g})}\\end{array}",
+            "after": "\\begin{array}{r l r}{^{+2\\;+4\\;-2}}&{}&{^{+2-2}}\\\\ {\\mathrm{C a C O}_{_3}\\left(\\mathbf{s}\\right)\\xrightarrow{\\;\\pmb{\\Delta}\\;}}&{}&{\\mathrm{C a O}(\\mathbf{s})\\quad+\\quad\\mathrm{C O}_{_2}(\\mathbf{g})}\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\begin{array}{r l r}{{\\tt0}}&{{}{\\scriptstyle+1}{\\bf\\delta}{\\scriptstyle-2}}&{{\\scriptstyle+1}{\\bf\\delta}{\\scriptstyle-2}{\\bf\\delta}{\\scriptstyle+1}{\\bf\\delta}{\\scriptstyle0}}\\\\ {{\\tt2N a(s)}+{\\tt2H_{2}O(l)}}&{{}{\\scriptstyle\\rightarrow}}&{{\\tt2N a O H(a q)}+{\\mathrm{H_{2}(g)}}}\\\\ {{\\tt0}}&{{}{\\scriptstyle+1}{\\bf\\delta}{\\scriptstyle-2}}&{{\\scriptstyle+2}{\\bf\\delta}{\\scriptstyle-2}{\\bf\\delta}{\\scriptstyle+1}{\\bf\\delta}{\\scriptstyle0}}\\\\ {{\\mathrm{C a(s)}}+{\\tt2H_{2}O(l)}}&{{}{\\scriptstyle\\rightarrow}}&{{\\mathrm{C a(O H)_{2}\\delta(a q)}}+{\\mathrm{H_{2}(g)}}}\\\\ {{\\mathrm{(7.34)}}}\\end{array}",
+            "after": "\\begin{array}{r l r}{\\tt0}&{{}{\\scriptstyle+1}{\\bf\\delta}{\\scriptstyle-2}}&{{\\scriptstyle+1}{\\bf\\delta}{\\scriptstyle-2}{\\bf\\delta}{\\scriptstyle+1}{\\bf\\delta}{\\scriptstyle0}}\\\\ {{\\tt2N a(s)}+{\\tt2H_{2}O(l)}}&{{}{\\scriptstyle\\rightarrow}}&{{\\tt2N a O H(a q)}+{\\mathrm{H_{2}(g)}}}\\\\ {\\tt0}&{{}{\\scriptstyle+1}{\\bf\\delta}{\\scriptstyle-2}}&{{\\scriptstyle+2}{\\bf\\delta}{\\scriptstyle-2}{\\bf\\delta}{\\scriptstyle+1}{\\bf\\delta}{\\scriptstyle0}}\\\\ {{\\mathrm{C a(s)}}+{\\tt2H_{2}O(l)}}&{{}{\\scriptstyle\\rightarrow}}&{{\\mathrm{C a(O H)_{2}\\delta(a q)}}+{\\mathrm{H_{2}(g)}}}\\\\ {{\\mathrm{(7.34)}}}\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\begin{array}{c c}{{0}}&{{{\\scriptstyle+1}\\;{\\scriptstyle-2}}}\\\\ {{\\mathrm{M g}({\\bf s})\\;+\\;2\\mathrm{H}_{2}\\mathrm{O}({\\bf l})\\stackrel{\\Delta}{\\longrightarrow}}}&{{\\mathrm{M g}(\\mathrm{O H})_{2}({\\bf s})\\;+\\mathrm{H}_{2}({\\bf g})}}\\end{array}(7.35)",
+            "after": "\\begin{array}{c c}{0}&{{{\\scriptstyle+1}\\;{\\scriptstyle-2}}}\\\\ {{\\mathrm{M g}({\\bf s})\\;+\\;2\\mathrm{H}_{2}\\mathrm{O}({\\bf l})\\stackrel{\\Delta}{\\longrightarrow}}}&{{\\mathrm{M g}(\\mathrm{O H})_{2}({\\bf s})\\;+\\mathrm{H}_{2}({\\bf g})}}\\end{array}(7.35)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": ".37).38) [7.39)",
+            "after": ".37.38 [7.39]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "[7.41)−",
+            "after": "[7.41−]"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{\\tiny{0}}\\quad\\mathrm{\\tiny{0}}\\quad\\mathrm{\\tiny{1}}\\quad\\mathrm{\\tiny{1}}\\quad\\mathrm{\\tiny{2}}\\quad\\mathrm{\\tiny{1}}\\quad\\mathrm{\\tiny{0}}\\\\\\mathrm{\\tiny{Cl_2}(g)}+2\\mathrm{Br^-}(\\mathrm{aq})\\rightarrow2\\mathrm{Cl^-}(\\mathrm{aq})+\\mathrm{Br_2(l)}\\\\\\mathrm{\\tiny{0}}\\quad\\mathrm{\\tiny{1}}\\quad\\mathrm{\\tiny{1}}\\quad\\mathrm{\\tiny{1}}\\quad\\mathrm{\\tiny{0}}\\\\\\mathrm{\\tiny{Cl_2}(g)}+2\\mathrm{I^-}(\\mathrm{aq})\\rightarrow2\\mathrm{Cl^-}(\\mathrm{aq})+\\mathrm{I_2(s)}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{\\tiny{0}}\\quad\\mathrm{\\tiny{0}}\\quad\\mathrm{\\tiny{1}}\\quad\\mathrm{\\tiny{1}}\\quad\\mathrm{\\tiny{2}}\\quad\\mathrm{\\tiny{1}}\\quad\\mathrm{\\tiny{0}}\\\\mathrm{\\tiny{Cl_2}(g)}+2\\mathrm{Br^-}(\\mathrm{aq})\\rightarrow2\\mathrm{Cl^-}(\\mathrm{aq})+\\mathrm{Br_2(l)}\\\\mathrm{\\tiny{0}}\\quad\\mathrm{\\tiny{1}}\\quad\\mathrm{\\tiny{1}}\\quad\\mathrm{\\tiny{1}}\\quad\\mathrm{\\tiny{0}}\\\\mathrm{\\tiny{Cl_2}(g)}+2\\mathrm{I^-}(\\mathrm{aq})\\rightarrow2\\mathrm{Cl^-}(\\mathrm{aq})+\\mathrm{I_2(s)}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}0\\\\\\mathrm{S}_{\\mathrm{8}}(\\mathrm{s})+12\\mathrm{~OH}^{-}(\\mathrm{aq})\\rightarrow\\begin{array}{c}\\mathrm{~\\frac{~-2}{~}}\\\\4\\mathrm{S}^{\\mathrm{2}-}(\\mathrm{aq})+2\\mathrm{S}_{\\mathrm{2}}\\mathrm{O}_{\\mathrm{3}}^{\\mathrm{~2}-}(\\mathrm{aq})\\\\+6\\mathrm{H}_{\\mathrm{2}}\\mathrm{O}(\\mathrm{l})\\end{array}\\\\\\quad(7.47)\\\\\\mathrm{Cl}_{\\mathrm{2}}(\\mathrm{g})+2\\mathrm{~OH}^{-}(\\mathrm{aq})\\rightarrow\\begin{array}{c}\\mathrm{~\\frac{~-1}{~}}\\\\\\mathrm{ClO}^{-}(\\mathrm{aq})+\\mathrm{Cl}^{-}(\\mathrm{aq})+\\mathrm{~}\\\\\\mathrm{~\\frac{~}{~}}\\mathrm{H}_{\\mathrm{2}}\\mathrm{O}(\\mathrm{l})\\end{array}\\\\\\quad(7.48)\\end{array}",
+            "after": "\\begin{array}{c}0\\\\mathrm{S}_{\\mathrm{8}}(\\mathrm{s})+12\\mathrm{~OH}^{-}(\\mathrm{aq})\\rightarrow\\begin{array}{c}\\mathrm{~\\frac{~-2}{~}}\\\\4\\mathrm{S}^{\\mathrm{2}-}(\\mathrm{aq})+2\\mathrm{S}_{\\mathrm{2}}\\mathrm{O}_{\\mathrm{3}}^{\\mathrm{~2}-}(\\mathrm{aq})\\\\+6\\mathrm{H}_{\\mathrm{2}}\\mathrm{O}(\\mathrm{l})\\end{array}\\\\quad(7.47)\\\\mathrm{Cl}_{\\mathrm{2}}(\\mathrm{g})+2\\mathrm{~OH}^{-}(\\mathrm{aq})\\rightarrow\\begin{array}{c}\\mathrm{~\\frac{~-1}{~}}\\\\mathrm{ClO}^{-}(\\mathrm{aq})+\\mathrm{Cl}^{-}(\\mathrm{aq})+\\mathrm{~}\\\\mathrm{~\\frac{~}{~}}\\mathrm{H}_{\\mathrm{2}}\\mathrm{O}(\\mathrm{l})\\end{array}\\\\quad(7.48)\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{{\\overline{{C l O}}}_{4}^{-}}",
+            "after": "\\mathrm{{\\overline{C l O}}_{4}^{-}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{N O_{2}^{-}}\\left(+3\\right.",
+            "after": "\\mathrm{N O_{2}^{-}}\\left(+3\\right.)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\{4/3\\}]",
+            "after": "\\{4/3\\}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\overset{+4}{\\mathrm{PbO_{2}}}+\\overset{-1}{4\\mathrm{HCl}}\\rightarrow\\overset{+2}{\\mathrm{PbCl_{2}}}+\\overset{0}{\\mathrm{Cl_{2}}}+2\\mathrm{H_{2}O}\\\\\\quad(\\text{redox reaction)}\\end{array}",
+            "after": "\\begin{array}{l}\\overset{+4}{\\mathrm{PbO_{2}}}+\\overset{-1}{4\\mathrm{HCl}}\\rightarrow\\overset{+2}{\\mathrm{PbCl_{2}}}+\\overset{0}{\\mathrm{Cl_{2}}}+2\\mathrm{H_{2}O}\\\\quad(\\text{redox reaction)}\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "{\\mathrm{O x i d a t i o n~h a l f:~}}\\begin{array}{r c l}{{\\mathrm{I}^{-1}}}&{{}}&{{0}}\\\\ {{\\mathrm{I}^{-}({\\mathrm{a q}})}}&{{\\rightarrow}}&{{\\mathrm{I}_{2}^{-}({\\mathrm{s}})}}\\\\ {{\\mathrm{}}}&{{}}&{{\\mathrm{}}}\\\\ {{\\mathrm{}}}&{{\\mathrm{}}}&{{\\mathrm{}}+{\\mathrm{I}_{2}^{-}({\\mathrm{a q}})}}\\end{array}",
+            "after": "{\\mathrm{O x i d a t i o n~h a l f:~}}\\begin{array}{r c l}{{\\mathrm{I}^{-1}}}&{}&{0}\\\\ {{\\mathrm{I}^{-}({\\mathrm{a q}})}}&{\\rightarrow}&{{\\mathrm{I}_{2}^{-}({\\mathrm{s}})}}\\\\ {{\\mathrm{}}}&{}&{{\\mathrm{}}}\\\\ {{\\mathrm{}}}&{{\\mathrm{}}}&{{\\mathrm{}}+{\\mathrm{I}_{2}^{-}({\\mathrm{a q}})}}\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{N a H\\underline{{S}}O_{4}}",
+            "after": "\\mathrm{N a H\\underline{S}O_{4}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{aligned}&\\mathrm{(a)}&\\mathrm{H_{3}PO_{2}(aq)}+4\\mathrm{~AgNO_{3}(aq)}+2\\mathrm{~H_{2}O(l)}\\rightarrow\\mathrm{H_{3}PO_{4}(aq)}+4\\mathrm{Ag(s)}+4\\mathrm{HNO_{3}(aq)}\\\\&\\mathrm{(b)}&\\mathrm{H_{3}PO_{2}(aq)}+2\\mathrm{CuSO_{4}(aq)}+2\\mathrm{~H_{2}O(l)}\\rightarrow\\mathrm{H_{3}PO_{4}(aq)}+2\\mathrm{Cu(s)}+\\mathrm{~H_{2}SO_{4}(aq)}\\\\&\\mathrm{(c)}&\\mathrm{C_{6}H_{5}CHO(l)}+2[\\mathrm{Ag~(NH_{3})_{2}'(aq)}+3\\mathrm{OH'(aq)}\\rightarrow\\mathrm{C_{6}H_{5}COO'(aq)}+2\\mathrm{Ag(s)}+\\\\&\\mathrm{(c)}&\\mathrm{CH_{3}CO(l)}+2\\mathrm{C_{6}OH(aq)}+5\\mathrm{OH(aq)}+\\mathrm{N}\\rightarrow\\mathrm{C_{6}H_{5}CO(l)}\\end{aligned}(d)\\mathrm{C_{6}H_{5}C H O(l)+2C u^{2+}(a q)+5O H^{-}(a q)\\rightarrow N o~c h a n g e~o b s e r v e d.}",
+            "after": "\\begin{aligned}&\\mathrm{(a)}&\\mathrm{H_{3}PO_{2}(aq)}+4\\mathrm{~AgNO_{3}(aq)}+2\\mathrm{~H_{2}O(l)}\\rightarrow\\mathrm{H_{3}PO_{4}(aq)}+4\\mathrm{Ag(s)}+4\\mathrm{HNO_{3}(aq)}\\\\&\\mathrm{(b)}&\\mathrm{H_{3}PO_{2}(aq)}+2\\mathrm{CuSO_{4}(aq)}+2\\mathrm{~H_{2}O(l)}\\rightarrow\\mathrm{H_{3}PO_{4}(aq)}+2\\mathrm{Cu(s)}+\\mathrm{~H_{2}SO_{4}(aq)}\\\\&\\mathrm{(c)}&\\mathrm{C_{6}H_{5}CHO(l)}+2[\\mathrm{Ag~(NH_{3})_{2}'(aq)}+3\\mathrm{OH'(aq)}\\rightarrow\\mathrm{C_{6}H_{5}COO'(aq)}+2\\mathrm{Ag(s)}+\\\\&\\mathrm{(c)}&\\mathrm{CH_{3}CO(l)}+2\\mathrm{C_{6}OH(aq)}+5\\mathrm{OH(aq)}+\\mathrm{N}\\rightarrow\\mathrm{C_{6}H_{5}CO(l)}\\end{aligned}(d)\\mathrm{C_{6}H_{5}C H O(l)+2C u^{2+}(a q)+5O H^{-}(a q)\\rightarrow N o~c h a n g e~o b s e r v e d.}]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{aligned}&\\mathrm{(a)}&\\mathrm{H_{3}PO_{2}(aq)}+4\\mathrm{~AgNO_{3}(aq)}+2\\mathrm{~H_{2}O(l)}\\rightarrow\\mathrm{H_{3}PO_{4}(aq)}+4\\mathrm{Ag(s)}+4\\mathrm{HNO_{3}(aq)}\\\\&\\mathrm{(b)}&\\mathrm{H_{3}PO_{2}(aq)}+2\\mathrm{CuSO_{4}(aq)}+2\\mathrm{~H_{2}O(l)}\\rightarrow\\mathrm{H_{3}PO_{4}(aq)}+2\\mathrm{Cu(s)}+\\mathrm{~H_{2}SO_{4}(aq)}\\\\&\\mathrm{(c)}&\\mathrm{C_{6}H_{5}CHO(l)}+2[\\mathrm{Ag~(NH_{3})_{2}'(aq)}+3\\mathrm{OH'(aq)}\\rightarrow\\mathrm{C_{6}H_{5}COO'(aq)}+2\\mathrm{Ag(s)}+\\\\&\\mathrm{(c)}&\\mathrm{CH_{3}CO(l)}+2\\mathrm{C_{6}OH(aq)}+5\\mathrm{OH(aq)}+\\mathrm{N}\\rightarrow\\mathrm{C_{6}H_{5}CO(l)}\\end{aligned}",
+            "after": "\\begin{aligned}&\\mathrm{(a)}&\\mathrm{H_{3}PO_{2}(aq)}+4\\mathrm{~AgNO_{3}(aq)}+2\\mathrm{~H_{2}O(l)}\\rightarrow\\mathrm{H_{3}PO_{4}(aq)}+4\\mathrm{Ag(s)}+4\\mathrm{HNO_{3}(aq)}\\\\&\\mathrm{(b)}&\\mathrm{H_{3}PO_{2}(aq)}+2\\mathrm{CuSO_{4}(aq)}+2\\mathrm{~H_{2}O(l)}\\rightarrow\\mathrm{H_{3}PO_{4}(aq)}+2\\mathrm{Cu(s)}+\\mathrm{~H_{2}SO_{4}(aq)}\\\\&\\mathrm{(c)}&\\mathrm{C_{6}H_{5}CHO(l)}+2[\\mathrm{Ag~(NH_{3})_{2}'(aq)}+3\\mathrm{OH'(aq)}\\rightarrow\\mathrm{C_{6}H_{5}COO'(aq)}+2\\mathrm{Ag(s)}+\\\\&\\mathrm{(c)}&\\mathrm{CH_{3}CO(l)}+2\\mathrm{C_{6}OH(aq)}+5\\mathrm{OH(aq)}+\\mathrm{N}\\rightarrow\\mathrm{C_{6}H_{5}CO(l)}\\end{aligned}]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{aligned}&\\mathrm{(a)}&\\mathrm{H_{3}PO_{2}(aq)}+4\\mathrm{~AgNO_{3}(aq)}+2\\mathrm{~H_{2}O(l)}\\rightarrow\\mathrm{H_{3}PO_{4}(aq)}+4\\mathrm{Ag(s)}+4\\mathrm{HNO_{3}(aq)}\\\\&\\mathrm{(b)}&\\mathrm{H_{3}PO_{2}(aq)}+2\\mathrm{CuSO_{4}(aq)}+2\\mathrm{~H_{2}O(l)}\\rightarrow\\mathrm{H_{3}PO_{4}(aq)}+2\\mathrm{Cu(s)}+\\mathrm{~H_{2}SO_{4}(aq)}\\\\&\\mathrm{(c)}&\\mathrm{C_{6}H_{5}CHO(l)}+2[\\mathrm{Ag~(NH_{3})_{2}'(aq)}+3\\mathrm{OH'(aq)}\\rightarrow\\mathrm{C_{6}H_{5}COO'(aq)}+2\\mathrm{Ag(s)}+\\\\&\\mathrm{(c)}&\\mathrm{CH_{3}CO(l)}+2\\mathrm{C_{6}OH(aq)}+5\\mathrm{OH(aq)}+\\mathrm{N}\\rightarrow\\mathrm{C_{6}H_{5}CO(l)}\\end{aligned}\\mathrm{C_{6}H_{5}C H O(l)+2C u^{2+}(a q)+5O H^{-}(a q)\\rightarrow N o~c h a n g e~o b s e r v e d.}",
+            "after": "\\begin{aligned}&\\mathrm{(a)}&\\mathrm{H_{3}PO_{2}(aq)}+4\\mathrm{~AgNO_{3}(aq)}+2\\mathrm{~H_{2}O(l)}\\rightarrow\\mathrm{H_{3}PO_{4}(aq)}+4\\mathrm{Ag(s)}+4\\mathrm{HNO_{3}(aq)}\\\\&\\mathrm{(b)}&\\mathrm{H_{3}PO_{2}(aq)}+2\\mathrm{CuSO_{4}(aq)}+2\\mathrm{~H_{2}O(l)}\\rightarrow\\mathrm{H_{3}PO_{4}(aq)}+2\\mathrm{Cu(s)}+\\mathrm{~H_{2}SO_{4}(aq)}\\\\&\\mathrm{(c)}&\\mathrm{C_{6}H_{5}CHO(l)}+2[\\mathrm{Ag~(NH_{3})_{2}'(aq)}+3\\mathrm{OH'(aq)}\\rightarrow\\mathrm{C_{6}H_{5}COO'(aq)}+2\\mathrm{Ag(s)}+\\\\&\\mathrm{(c)}&\\mathrm{CH_{3}CO(l)}+2\\mathrm{C_{6}OH(aq)}+5\\mathrm{OH(aq)}+\\mathrm{N}\\rightarrow\\mathrm{C_{6}H_{5}CO(l)}\\end{aligned}\\mathrm{C_{6}H_{5}C H O(l)+2C u^{2+}(a q)+5O H^{-}(a q)\\rightarrow N o~c h a n g e~o b s e r v e d.}]"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}
