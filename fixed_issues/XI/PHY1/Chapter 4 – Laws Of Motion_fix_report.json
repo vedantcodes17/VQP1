@@ -1,0 +1,85 @@
+{
+    "chapter": "Chapter 4 – Laws Of Motion",
+    "total_formulas": 212,
+    "repaired": 14,
+    "failed": 0,
+    "ocr_fixes": 159,
+    "latex_fixes": 14,
+    "markdown_fixes": 20,
+    "orphaned_latex_wrapped": 5,
+    "processing_time_sec": 0.14,
+    "changes": [
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{\\Delta\\pmb{p}}{\\Delta t}\\right.",
+            "after": "\\left[\\frac{\\Delta\\pmb{p}}{\\Delta t}\\right.]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}{F_{x}=}&{{}\\frac{\\mathrm{d}p_{x}}{\\mathrm{d}t}=m a_{x}}\\\\ {F_{y}=}&{{}\\frac{\\mathrm{d}p_{y}}{\\mathrm{d}t}=m a_{y}}\\\\ {F_{z}=}&{{}\\frac{\\mathrm{d}p_{z}}{\\mathrm{d}t}=m a_{z}}\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}{F_{x}=}&{{}\\frac{\\mathrm{d}p_{x}}{\\mathrm{d}t}=m a_{x}}\\\\ {F_{y}=}&{{}\\frac{\\mathrm{d}p_{y}}{\\mathrm{d}t}=m a_{y}}\\\\ {F_{z}=}&{{}\\frac{\\mathrm{d}p_{z}}{\\mathrm{d}t}=m a_{z}}\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{array}{r}{\\pmb{\\mathbf{F}}_{A B}\\Delta t=\\pmb{\\mathbf{p}}_{A}^{\\prime}-\\pmb{\\mathbf{p}}_{A}\\quad\\mathrm{a n d}\\quad}\\\\ {\\left[\\pmb{\\mathbf{F}}_{B A}\\Delta t=\\pmb{\\mathbf{p}}_{B}^{\\prime}-\\pmb{\\mathbf{p}}_{B}\\right.\\quad}\\end{array}",
+            "after": "\\begin{array}{r}{\\pmb{\\mathbf{F}}_{A B}\\Delta t=\\pmb{\\mathbf{p}}_{A}^{\\prime}-\\pmb{\\mathbf{p}}_{A}\\quad\\mathrm{a n d}\\quad}\\\\ {\\left[\\pmb{\\mathbf{F}}_{B A}\\Delta t=\\pmb{\\mathbf{p}}_{B}^{\\prime}-\\pmb{\\mathbf{p}}_{B}\\right.\\quad}\\end{array}]"
+        },
+        {
+            "type": "duplicate_command_fix",
+            "before": "\\mathbf\\mathbf\\mathbf\\mathbf{\\nabla\\nabla}\\mathbf\\mathbf\\mathbf\\mathbf\\mathbf",
+            "after": "\\mathbf{\\nabla\\nabla}\\mathbf"
+        },
+        {
+            "type": "duplicate_command_fix",
+            "before": "\\mathbf\\mathbf\\mathbf{\\nabla\\nabla}\\mathbf\\mathbf\\mathbf\\mathbf{\\nabla}\\mathbf\\mathbf\\mathbf",
+            "after": "\\mathbf{\\nabla\\nabla}\\mathbf{\\nabla}\\mathbf"
+        },
+        {
+            "type": "duplicate_command_fix",
+            "before": "\\mathbf\\mathbf\\mathbf\\mathbf{\\nabla}\\mathbf\\mathbf\\mathbf{\\mathbf\\nabla}\\mathbf\\mathbf\\mathbf\\mathbf",
+            "after": "\\mathbf{\\nabla}\\mathbf{\\mathbf\\nabla}\\mathbf"
+        },
+        {
+            "type": "duplicate_command_fix",
+            "before": "\\mathbf\\mathbf\\mathbf\\mathbf\\mathbf{}\\mathbf\\mathbf\\mathbf\\mathbf\\mathbf",
+            "after": "\\mathbf{}\\mathbf"
+        },
+        {
+            "type": "duplicate_command_fix",
+            "before": "\\mathbf\\mathbf\\mathbf\\mathbf{\\mathbf\\mathbf\\nabla\\nabla\\mathbf}\\mathbf\\mathbf\\mathbf\\mathbf{\\mathbf\\mathbf\\mathbf\\",
+            "after": "\\mathbf{\\mathbf\\nabla\\nabla\\mathbf}\\mathbf{\\mathbf\\}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\pmb{p}_{A}^{\\prime}-\\pmb{p}_{A}&=-\\left(\\pmb{p}_{B}^{\\prime}-\\pmb{p}_{B}\\right)\\\\\\pmb{p}_{A}^{\\prime}+\\pmb{p}_{B}^{\\prime}&=\\pmb{p}_{A}+\\pmb{p}_{B}\\end{aligned}",
+            "after": "\\begin{aligned}\\pmb{p}_{A}^{\\prime}-\\pmb{p}_{A}&=-\\left(\\pmb{p}_{B}^{\\prime}-\\pmb{p}_{B}\\right)\\\\pmb{p}_{A}^{\\prime}+\\pmb{p}_{B}^{\\prime}&=\\pmb{p}_{A}+\\pmb{p}_{B}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\left(f_{s}\\right.\\right)_{\\mathrm{m a x}}",
+            "after": "\\left[\\left(f_{s}\\right.\\right)_{\\mathrm{m a x}}]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\left(f_{s}\\right)_{\\max}\\right.",
+            "after": "\\left[\\left(f_{s}\\right)_{\\max}\\right.]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\left(f_{s}\\right)_{\\mathrm{m a x}}=\\mu_{_{s}}N_{s}\\right.",
+            "after": "\\left[\\left(f_{s}\\right)_{\\mathrm{m a x}}=\\mu_{_{s}}N_{s}\\right.]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}f=&\\frac{mv^{2}}{R}\\leq\\mu_{s}N\\\\ v^{2}\\leq&\\frac{\\mu_{s}RN}{m}=\\mu_{s}Rg\\quad&[\\because N=mg]\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}f=&\\frac{mv^{2}}{R}\\leq\\mu_{s}N\\\\ v^{2}\\leq&\\frac{\\mu_{s}RN}{m}=\\mu_{s}Rg\\quad&[\\because N=mg]\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\varrho=10\\mathrm{m s^{-2}})",
+            "after": "\\varrho=10\\mathrm{m s^{-2}}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

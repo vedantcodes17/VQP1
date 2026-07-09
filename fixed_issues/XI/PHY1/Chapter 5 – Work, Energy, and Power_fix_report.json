@@ -1,0 +1,95 @@
+{
+    "chapter": "Chapter 5 – Work, Energy, and Power",
+    "total_formulas": 346,
+    "repaired": 16,
+    "failed": 0,
+    "ocr_fixes": 174,
+    "latex_fixes": 16,
+    "markdown_fixes": 20,
+    "orphaned_latex_wrapped": 0,
+    "processing_time_sec": 0.127,
+    "changes": [
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}\\mathbf{A}\\cdot\\mathbf{B}=&\\left(A_{x}\\hat{\\mathbf{i}}+A_{y}\\hat{\\mathbf{j}}+A_{z}\\hat{\\mathbf{k}}\\right)\\cdot\\left(B_{x}\\hat{\\mathbf{i}}+B_{y}\\hat{\\mathbf{j}}+B_{z}\\hat{\\mathbf{k}}\\right)\\\\ =&A_{x}B_{x}+A_{y}B_{y}+A_{z}B_{z}\\quad(5)\\end{aligned}\\right. .1b)",
+            "after": "\\left\\{\\begin{aligned}\\mathbf{A}\\cdot\\mathbf{B}=&\\left(A_{x}\\hat{\\mathbf{i}}+A_{y}\\hat{\\mathbf{j}}+A_{z}\\hat{\\mathbf{k}}\\right)\\cdot\\left(B_{x}\\hat{\\mathbf{i}}+B_{y}\\hat{\\mathbf{j}}+B_{z}\\hat{\\mathbf{k}}\\right)\\\\ =&A_{x}B_{x}+A_{y}B_{y}+A_{z}B_{z}\\quad(5)\\end{aligned}\\right. .1b}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "{\\begin{array}{r l}{\\underbrace{\\scriptstyle\\left({\\boldsymbol{A}}_{A A S W{\\mathcal{O}}{\\mathcal{C}}^{\\top}}{\\boldsymbol{F}}{\\cdot}{\\boldsymbol{d}}\\right.}}&{={\\boldsymbol{F}}_{x}d_{x}+{\\boldsymbol{F}}_{y}d_{y}+{\\boldsymbol{F}}_{z}d_{z}}\\\\ &{=3\\;(5)+4\\;(4)+(-\\;5)\\;(3)}\\\\ &{=16\\;\\mathrm{u n i t}}\\\\ {\\mathrm{H e n c e}{\\boldsymbol{F}}{\\cdot}{\\boldsymbol{d}}}&{={\\boldsymbol{F}}d\\;\\cos\\theta=16\\;\\mathrm{u n i t}}\\\\ {\\mathrm{N o w}{\\boldsymbol{F}}{\\cdot}{\\boldsymbol{F}}}&{={\\boldsymbol{F}}^{2}={\\boldsymbol{F}}_{x}^{2}+{\\boldsymbol{F}}_{y}^{2}+{\\boldsymbol{F}}_{z}^{2}}\\\\ &{=9+16+25}\\\\ &{=50\\;\\mathrm{u n i t}}\\\\ {\\mathrm{a n d}{\\boldsymbol{d}}{\\cdot}{\\boldsymbol{d}}}&{=d^{2}=d_{x}^{2}+d_{y}^{2}+d_{z}^{2}}\\\\ &{=25+16+9}\\\\ &{=50\\;\\mathrm{u n i t}}\\\\ {\\therefore\\;\\cos^{\\cdot}\\theta}&{={\\frac{16}{\\sqrt{50}\\sqrt{50}}}={\\frac{16}{50}}=0.32,}\\\\ &{\\theta=\\cos^{-1}0.32}\\end{array}}",
+            "after": "{\\begin{array}{r l}{\\underbrace{\\scriptstyle\\left({\\boldsymbol{A}}_{A A S W{\\mathcal{O}}{\\mathcal{C}}^{\\top}}{\\boldsymbol{F}}{\\cdot}{\\boldsymbol{d}}\\right.}}&{={\\boldsymbol{F}}_{x}d_{x}+{\\boldsymbol{F}}_{y}d_{y}+{\\boldsymbol{F}}_{z}d_{z}}\\\\ &{=3\\;(5)+4\\;(4)+(-\\;5)\\;(3)}\\\\ &{=16\\;\\mathrm{u n i t}}\\\\ {\\mathrm{H e n c e}{\\boldsymbol{F}}{\\cdot}{\\boldsymbol{d}}}&{={\\boldsymbol{F}}d\\;\\cos\\theta=16\\;\\mathrm{u n i t}}\\\\ {\\mathrm{N o w}{\\boldsymbol{F}}{\\cdot}{\\boldsymbol{F}}}&{={\\boldsymbol{F}}^{2}={\\boldsymbol{F}}_{x}^{2}+{\\boldsymbol{F}}_{y}^{2}+{\\boldsymbol{F}}_{z}^{2}}\\\\ &{=9+16+25}\\\\ &{=50\\;\\mathrm{u n i t}}\\\\ {\\mathrm{a n d}{\\boldsymbol{d}}{\\cdot}{\\boldsymbol{d}}}&{=d^{2}=d_{x}^{2}+d_{y}^{2}+d_{z}^{2}}\\\\ &{=25+16+9}\\\\ &{=50\\;\\mathrm{u n i t}}\\\\ {\\therefore\\;\\cos^{\\cdot}\\theta}&{={\\frac{16}{\\sqrt{50}\\sqrt{50}}}={\\frac{16}{50}}=0.32,}\\\\ &{\\theta=\\cos^{-1}0.32}\\end{array}})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "180^{\\mathrm{o}}{=}{-}1]",
+            "after": "180^{\\mathrm{o}}{=}{-}1"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{aligned}&\\left\\{\\begin{aligned}\\frac{1}{2}mv_{f}^{2}=&100J\\\\ v_{f}=&\\sqrt{\\frac{2\\times100J}{0.05kg}}\\end{aligned}\\right.\\\\ &\\\\ &\\left\\{\\begin{aligned}&1\\\\ &2\\end{aligned}\\right.=63.2m s^{-1}\\\\ \\end{aligned}",
+            "after": "\\begin{aligned}&\\left\\{\\begin{aligned}\\frac{1}{2}mv_{f}^{2}=&100J\\\\ v_{f}=&\\sqrt{\\frac{2\\times100J}{0.05kg}}\\end{aligned}\\right.\\\\ &\\\\ &\\left\\{\\begin{aligned}&1\\\\ &2\\end{aligned}\\right.=63.2m s^{-1}\\\\ \\end{aligned}}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}W_{F}&=100\\times10+\\frac{1}{2}(100+50)\\times10\\\\ &=1000+750\\\\ &=1750J\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}W_{F}&=100\\times10+\\frac{1}{2}(100+50)\\times10\\\\ &=1000+750\\\\ &=1750J\\end{aligned}\\right.}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\frac{\\mathrm{d}K}{\\mathrm{d}t}=&\\frac{\\mathrm{d}}{\\mathrm{d}t}\\left(\\frac{1}{2}m v^{2}\\right)\\\\=&m\\frac{\\mathrm{d}v}{\\mathrm{d}t}v\\\\=&F v\\left(\\mathrm{from Newton's Second Law}\\right)\\\\=&F\\frac{\\mathrm{d}x}{\\mathrm{d}t}\\\\\\mathrm{d}K=&F\\mathrm{d}v\\end{aligned}\\mathrm{d}K=F\\mathrm{d}x \n",
+            "after": "\\begin{aligned}\\frac{\\mathrm{d}K}{\\mathrm{d}t}=&\\frac{\\mathrm{d}}{\\mathrm{d}t}\\left(\\frac{1}{2}m v^{2}\\right)\\\\=&m\\frac{\\mathrm{d}v}{\\mathrm{d}t}v\\\\=&F v\\left(\\mathrm{from Newton's Second Law}\\right)\\\\=&F\\frac{\\mathrm{d}x}{\\mathrm{d}t}\\\\mathrm{d}K=&F\\mathrm{d}v\\end{aligned}\\mathrm{d}K=F\\mathrm{d}x \n"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}&\\overline{E_{_H}}=\\overline{E_{_O}}\\\\ &mgH=\\frac{1}{2}mv_{_f}^{^2}\\\\ &v_{_f}=\\sqrt{2gH}\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}&\\overline{E_{_H}}=\\overline{E_{_O}}\\\\ &mgH=\\frac{1}{2}mv_{_f}^{^2}\\\\ &v_{_f}=\\sqrt{2gH}\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\begin{aligned}&\\frac{5}{2}mgL=\\frac{m}{2}v_{0}^{2}\\\\&v_{0}=\\sqrt{5gL}\\\\ \\end{aligned}\\right.",
+            "after": "\\left[\\begin{aligned}&\\frac{5}{2}mgL=\\frac{m}{2}v_{0}^{2}\\\\&v_{0}=\\sqrt{5gL}\\\\ \\end{aligned}\\right.]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}&\\frac{1}{2}mv_{_B}^{^2}+mgL=\\frac{1}{2}mv_{_0}^{^2}\\\\&\\frac{1}{2}=\\frac{5}{2}m\\ gL\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}&\\frac{1}{2}mv_{_B}^{^2}+mgL=\\frac{1}{2}mv_{_0}^{^2}\\\\&\\frac{1}{2}=\\frac{5}{2}m\\ gL\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathbf{h^{-1}}=\\mathbf{10}~\\mathbf{m}~\\mathbf{s^{-1}}]",
+            "after": "\\mathbf{h^{-1}}=\\mathbf{10}~\\mathbf{m}~\\mathbf{s^{-1}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[P_{av}=\\frac{W}{t}\\right.",
+            "after": "\\left[P_{av}=\\frac{W}{t}\\right.]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{aligned}&\\left\\{\\begin{aligned}&m_{1}v_{1i}(v_{2f}-v_{1i})=m_{1}v_{1f}(v_{2f}-v_{1f})\\\\&v_{2f}(v_{1i}-v_{1f})=v_{1i}^{2}-v_{1f}^{2}\\\\&\\end{aligned}\\right.\\\\ &=(v_{1i}-v_{1f})(v_{1i}+v_{1f})\\\\ \\end{aligned}",
+            "after": "\\begin{aligned}&\\left\\{\\begin{aligned}&m_{1}v_{1i}(v_{2f}-v_{1i})=m_{1}v_{1f}(v_{2f}-v_{1f})\\\\&v_{2f}(v_{1i}-v_{1f})=v_{1i}^{2}-v_{1f}^{2}\\\\&\\end{aligned}\\right.\\\\ &=(v_{1i}-v_{1f})(v_{1i}+v_{1f})\\\\ \\end{aligned}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}{}&{{}v_{1f}=\\frac{\\left(m_{1}-m_{2}\\right)}{m_{1}+m_{2}}v_{1i}}\\\\ {}&{{}v_{2f}=\\frac{2m_{1}v_{1i}}{m_{1}+m_{2}}}\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}{}&{{}v_{1f}=\\frac{\\left(m_{1}-m_{2}\\right)}{m_{1}+m_{2}}v_{1i}}\\\\ {}&{{}v_{2f}=\\frac{2m_{1}v_{1i}}{m_{1}+m_{2}}}\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "10^{7}\\mathrm{~m~s^{-1})}",
+            "after": "10^{7}\\mathrm{~m~s^{-1}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\{V_{1f},V_{2f},\\theta_{i}",
+            "after": "\\{V_{1f},V_{2f},\\theta_{i}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\hat{\\mathbf{i}},\\hat{\\mathbf{j}},\\hat{\\mathbf{k}}\\right.",
+            "after": "\\left[\\hat{\\mathbf{i}},\\hat{\\mathbf{j}},\\hat{\\mathbf{k}}\\right.]"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

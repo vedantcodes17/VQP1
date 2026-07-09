@@ -1,0 +1,130 @@
+{
+    "chapter": "Chapter 9 – Differential Equations",
+    "total_formulas": 520,
+    "repaired": 23,
+    "failed": 0,
+    "ocr_fixes": 132,
+    "latex_fixes": 23,
+    "markdown_fixes": 23,
+    "orphaned_latex_wrapped": 3,
+    "processing_time_sec": 0.207,
+    "changes": [
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}x^{2}-3x+3&=0,\\\\\\sin x+\\cos x&=0,\\\\x+y&=7\\end{aligned}",
+            "after": "\\begin{aligned}x^{2}-3x+3&=0,\\\\sin x+\\cos x&=0,\\\\x+y&=7\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[y^{\\prime\\prime}\\right.",
+            "after": "\\left[y^{\\prime\\prime}\\right.]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}\\frac{dy}{dx}=-a\\sin x+b\\cos x\\\\ \\frac{d^{2}y}{dx^{2}}=-a\\cos x-b\\sin x\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}\\frac{dy}{dx}=-a\\sin x+b\\cos x\\\\ \\frac{d^{2}y}{dx^{2}}=-a\\cos x-b\\sin x\\end{aligned}\\right.}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{align*}\\left(\\mathrm{A}\\right)\\frac{d^{2}y}{d x^{2}}-x^{2}\\frac{d y}{d x}+x y=x\\quad\\left(\\mathrm{B}\\right)\\frac{d^{2}y}{d x^{2}}+x\\frac{d y}{d x}+x y=x\\\\\\left(\\mathrm{C}\\right)\\frac{d^{2}y}{d x^{2}}\\quad x^{2}\\frac{d y}{d x}\\quad x y\\quad0\\quad\\left(\\mathrm{D}\\right)\\frac{d^{2}y}{d x^{2}}+x\\frac{d y}{d x}+x y=0\\end{align*}",
+            "after": "\\begin{align*}\\left(\\mathrm{A}\\right)\\frac{d^{2}y}{d x^{2}}-x^{2}\\frac{d y}{d x}+x y=x\\quad\\left(\\mathrm{B}\\right)\\frac{d^{2}y}{d x^{2}}+x\\frac{d y}{d x}+x y=x\\\\left(\\mathrm{C}\\right)\\frac{d^{2}y}{d x^{2}}\\quad x^{2}\\frac{d y}{d x}\\quad x y\\quad0\\quad\\left(\\mathrm{D}\\right)\\frac{d^{2}y}{d x^{2}}+x\\frac{d y}{d x}+x y=0\\end{align*}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}\\frac{dp}{dt}&=\\left(\\frac{5}{100}\\right)\\times\\mathrm{P}\\\\ \\frac{dp}{dt}&=\\frac{\\mathrm{P}}{20}\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}\\frac{dp}{dt}&=\\left(\\frac{5}{100}\\right)\\times\\mathrm{P}\\\\ \\frac{dp}{dt}&=\\frac{\\mathrm{P}}{20}\\end{aligned}\\right.}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{align*}\\left(A\\right)e^{x}+e^{-y}&=C\\quad&\\left(B\\right)e^{x}+e^{y}&=C\\\\\\left(C\\right)e^{-x}+e^{y}&=C\\quad&\\left(D\\right)e^{-x}+e^{-y}&=C\\end{align*}",
+            "after": "\\begin{align*}\\left(A\\right)e^{x}+e^{-y}&=C\\quad&\\left(B\\right)e^{x}+e^{y}&=C\\\\left(C\\right)e^{-x}+e^{y}&=C\\quad&\\left(D\\right)e^{-x}+e^{-y}&=C\\end{align*}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\mathrm{F}_{1}(x,y)&=y^{2}+2x y,\\quad\\mathrm{F}_{2}(x,y)=2x-3y,\\\\\\mathrm{F}_{3}(x,y)&=\\cos\\left(\\frac{y}{x}\\right),\\quad\\mathrm{F}_{4}(x,y)=\\sin x+\\cos y.\\end{aligned}",
+            "after": "\\begin{aligned}\\mathrm{F}_{1}(x,y)&=y^{2}+2x y,\\quad\\mathrm{F}_{2}(x,y)=2x-3y,\\\\mathrm{F}_{3}(x,y)&=\\cos\\left(\\frac{y}{x}\\right),\\quad\\mathrm{F}_{4}(x,y)=\\sin x+\\cos y.\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}v+x\\frac{dv}{dx}&=\\frac{1+2v}{1-v}\\\\ x\\frac{dv}{dx}&=\\frac{1+2v}{1-v}-v\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}v+x\\frac{dv}{dx}&=\\frac{1+2v}{1-v}\\\\ x\\frac{dv}{dx}&=\\frac{1+2v}{1-v}-v\\end{aligned}\\right.}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}v+x\\frac{dv}{dx}&=\\frac{v\\cos v+1}{\\cos v}\\\\x\\frac{dv}{dx}&=\\frac{v\\cos v+1}{\\cos v}-v\\\\x\\frac{dv}{dx}&=\\frac{1}{\\cos v}\\\\\\cos v\\ dv&=\\frac{dx}{x}\\end{aligned}",
+            "after": "\\begin{aligned}v+x\\frac{dv}{dx}&=\\frac{v\\cos v+1}{\\cos v}\\\\x\\frac{dv}{dx}&=\\frac{v\\cos v+1}{\\cos v}-v\\\\x\\frac{dv}{dx}&=\\frac{1}{\\cos v}\\\\cos v\\ dv&=\\frac{dx}{x}\\end{aligned}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\sin v&=\\log|x|+\\log|C|\\\\\\sin v&=\\log|Cx|\\end{aligned}",
+            "after": "\\begin{aligned}\\sin v&=\\log|x|+\\log|C|\\\\sin v&=\\log|Cx|\\end{aligned}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "ERT \\begin{aligned}\\int\\frac{2v}{v^{2}-1}dv&=-\\int\\frac{1}{x}dx\\\\\\log|v^{2}-1|&=-\\log|x|+\\log|C_{1}|\\\\\\log|(v^{2}-1)(x)|&=\\log|C_{1}|\\\\(v^{2}-1)x&=\\pm C_{1}\\end{aligned}",
+            "after": "ERT \\begin{aligned}\\int\\frac{2v}{v^{2}-1}dv&=-\\int\\frac{1}{x}dx\\\\log|v^{2}-1|&=-\\log|x|+\\log|C_{1}|\\\\log|(v^{2}-1)(x)|&=\\log|C_{1}|\\\\(v^{2}-1)x&=\\pm C_{1}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}\\frac{dx}{dy}+x=\\cos y\\\\ \\frac{dx}{dy}+\\frac{-2x}{y}=y^{2}e^{-y}\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}\\frac{dx}{dy}+x=\\cos y\\\\ \\frac{dx}{dy}+\\frac{-2x}{y}=y^{2}e^{-y}\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[y\\cdot g\\left(x\\right)\\right.",
+            "after": "\\left[y\\cdot g\\left(x\\right)\\right.]"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}e^{\\frac{\\mathrm{P}dx}{dx}}\\frac{dy}{dx}\\mathrm{P}e^{\\frac{\\mathrm{P}dx}{dx}}y=Q e^{\\frac{\\mathrm{P}dx}{dx}}\\\\\\frac{d}{dx}y e^{\\frac{\\mathrm{P}dx}{dx}}=Q e^{\\frac{\\mathrm{P}dx}{dx}}\\end{aligned}",
+            "after": "\\begin{aligned}e^{\\frac{\\mathrm{P}dx}{dx}}\\frac{dy}{dx}\\mathrm{P}e^{\\frac{\\mathrm{P}dx}{dx}}y=Q e^{\\frac{\\mathrm{P}dx}{dx}}\\\\frac{d}{dx}y e^{\\frac{\\mathrm{P}dx}{dx}}=Q e^{\\frac{\\mathrm{P}dx}{dx}}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}y e^{^{\\mathrm{P}}d x}&=\\quad\\mathrm{Q}e^{^{\\mathrm{P}}d x}d x\\\\ &=e^{^{\\mathrm{P}}d x}\\mathrm{Q}e^{^{\\mathrm{P}}d x}d x\\quad\\mathrm{C}\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}y e^{^{\\mathrm{P}}d x}&=\\quad\\mathrm{Q}e^{^{\\mathrm{P}}d x}d x\\\\ &=e^{^{\\mathrm{P}}d x}\\mathrm{Q}e^{^{\\mathrm{P}}d x}d x\\quad\\mathrm{C}\\end{aligned}\\right.}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}e^{-x}\\frac{dy}{dx}-e^{-x}y=e^{-x}\\cos x,\\\\\\frac{dy}{dx}\\left(y e^{-x}\\right)=e^{-x}\\cos x.\\end{aligned}",
+            "after": "\\begin{aligned}e^{-x}\\frac{dy}{dx}-e^{-x}y=e^{-x}\\cos x,\\\\frac{dy}{dx}\\left(y e^{-x}\\right)=e^{-x}\\cos x.\\end{aligned}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\mathrm{I}&=\\int\\cos x\\mathrm{e}^{-x}\\mathrm{e}^{-x}\\mathrm{d}x\\\\&=-\\cos x\\mathrm{e}^{-x}-\\int\\sin x\\mathrm{e}^{-x}\\mathrm{d}x\\\\&=-\\cos x\\mathrm{e}^{-x}-\\left[\\sin x\\left(-e^{-x}\\right)-\\int\\cos x\\left(-e^{-x}\\right)\\mathrm{d}x\\right]\\\\&=-\\cos x\\mathrm{e}^{-x}+\\sin x\\mathrm{e}^{-x}-\\int\\cos x\\mathrm{e}^{-x}\\mathrm{d}x\\\\\\mathrm{I}&=-e^{-x}\\cos x+\\sin x\\mathrm{e}^{-x}-\\mathrm{I}\\\\2\\mathrm{I}&=\\left(\\sin x-\\cos x\\right)e^{-x}\\\\\\mathrm{I}&=\\frac{\\left(\\sin x-\\cos x\\right)e^{-x}}{2}\\end{aligned}",
+            "after": "\\begin{aligned}\\mathrm{I}&=\\int\\cos x\\mathrm{e}^{-x}\\mathrm{e}^{-x}\\mathrm{d}x\\\\&=-\\cos x\\mathrm{e}^{-x}-\\int\\sin x\\mathrm{e}^{-x}\\mathrm{d}x\\\\&=-\\cos x\\mathrm{e}^{-x}-\\left[\\sin x\\left(-e^{-x}\\right)-\\int\\cos x\\left(-e^{-x}\\right)\\mathrm{d}x\\right]\\\\&=-\\cos x\\mathrm{e}^{-x}+\\sin x\\mathrm{e}^{-x}-\\int\\cos x\\mathrm{e}^{-x}\\mathrm{d}x\\\\mathrm{I}&=-e^{-x}\\cos x+\\sin x\\mathrm{e}^{-x}-\\mathrm{I}\\\\2\\mathrm{I}&=\\left(\\sin x-\\cos x\\right)e^{-x}\\\\mathrm{I}&=\\frac{\\left(\\sin x-\\cos x\\right)e^{-x}}{2}\\end{aligned}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\int x\\frac{1}{y}&=\\int(2y)\\left(\\frac{1}{y}\\right)dy+C\\\\\\frac{x}{y}&=\\int(2dy)+C\\\\\\frac{x}{y}&=2y+C\\\\x&=2y^2+C y\\end{aligned}",
+            "after": "\\begin{aligned}\\int x\\frac{1}{y}&=\\int(2y)\\left(\\frac{1}{y}\\right)dy+C\\\\frac{x}{y}&=\\int(2dy)+C\\\\frac{x}{y}&=2y+C\\\\x&=2y^2+C y\\end{aligned}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\frac{dy}{dx}&=e^{ax}-bc_{1}\\sin bx\\quad bc_{2}\\cos bx\\quad c_{1}\\cos bx\\quad c_{2}\\sin bx e^{ax}\\quad a\\\\\\frac{dy}{dx}&=e^{ax}[(bc_{2}+ac_{1})\\cos bx+(ac_{2}-bc_{1})\\sin bx]\\end{aligned}",
+            "after": "\\begin{aligned}\\frac{dy}{dx}&=e^{ax}-bc_{1}\\sin bx\\quad bc_{2}\\cos bx\\quad c_{1}\\cos bx\\quad c_{2}\\sin bx e^{ax}\\quad a\\\\frac{dy}{dx}&=e^{ax}[(bc_{2}+ac_{1})\\cos bx+(ac_{2}-bc_{1})\\sin bx]\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{aligned}L.H.S.=&e^{ax}[a^{2}c_{2}-2abc_{1}-b^{2}c_{2})\\sin bx+(a^{2}c_{1}+2abc_{2}-b^{2}c_{1})\\cos bx]\\\\&2ae^{ax}[(bc_{2}\\quad ac_{1})\\cos bx\\quad(ac_{2}\\quad bc_{1})\\sin bx]\\\\&(a^{2}\\quad b^{2})e^{ax}[c_{1}\\cos bx\\quad c_{2}\\sin bx]\\\\=&e^{ax}\\left[\\left(a^{2}c_{2}-2abc_{1}-b^{2}c_{2}-2a^{2}c_{2}+2abc_{1}+a^{2}c_{2}+b^{2}c_{2}\\right)\\sin bx\\right.\\\\&\\left.+(a^{2}c_{1}+2abc_{2}-b^{2}c_{1}-2abc_{2}-2a^{2}c_{1}+a^{2}c_{1}+b^{2}c_{1})\\cos bx\\right]\\end{aligned}",
+            "after": "\\begin{aligned}L.H.S.=&e^{ax}[a^{2}c_{2}-2abc_{1}-b^{2}c_{2}\\sin bx+(a^{2}c_{1}+2abc_{2}-b^{2}c_{1})\\cos bx]\\\\&2ae^{ax}[(bc_{2}\\quad ac_{1})\\cos bx\\quad(ac_{2}\\quad bc_{1})\\sin bx]\\\\&(a^{2}\\quad b^{2})e^{ax}[c_{1}\\cos bx\\quad c_{2}\\sin bx]\\\\=&e^{ax}\\left[\\left(a^{2}c_{2}-2abc_{1}-b^{2}c_{2}-2a^{2}c_{2}+2abc_{1}+a^{2}c_{2}+b^{2}c_{2}\\right)\\sin bx\\right.\\\\&\\left.+(a^{2}c_{1}+2abc_{2}-b^{2}c_{1}-2abc_{2}-2a^{2}c_{1}+a^{2}c_{1}+b^{2}c_{1})\\cos bx\\right]\\end{aligned}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\frac{dy}{dx}&=e^{(3x+4y)},\\\\\\frac{dy}{dx}&=e^{3x}.e^{4y}\\end{aligned}",
+            "after": "\\begin{aligned}\\frac{dy}{dx}&=e^{(3x+4y)},\\\\frac{dy}{dx}&=e^{3x}.e^{4y}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}y&=vx\\\\ \\frac{dy}{dx}&=y+x\\frac{dv}{dx}\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}y&=vx\\\\ \\frac{dy}{dx}&=y+x\\frac{dv}{dx}\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "(ii))y=x\\sin3x ",
+            "after": "(ii)y=x\\sin3x "
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

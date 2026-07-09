@@ -1,0 +1,95 @@
+{
+    "chapter": "Chapter 7 – Gravitation",
+    "total_formulas": 282,
+    "repaired": 16,
+    "failed": 0,
+    "ocr_fixes": 109,
+    "latex_fixes": 16,
+    "markdown_fixes": 14,
+    "orphaned_latex_wrapped": 0,
+    "processing_time_sec": 0.104,
+    "changes": [
+        {
+            "type": "brace_fix",
+            "before": "\\underline{{\\mathbf{F}}}_{\\mathrm{{1}}}",
+            "after": "\\underline{{\\mathbf{F}}}_{\\mathrm{1}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "10^{-34}\\mathrm{~y^{2}~m^{-3}.}\\}",
+            "after": "10^{-34}\\mathrm{~y^{2}~m^{-3}.}\\"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{array}{r l}{\\left[\\Delta\\mathbf{A}/\\Delta\\mathrm{t}\\right.}&{=\\%\\left(\\mathbf{r}\\times\\mathbf{p}\\right)/\\mathrm{m},\\left(\\mathrm{s i n c e}\\quad\\mathbf{v}=\\mathbf{p}/\\mathrm{m}\\right)}\\\\ {}&{=\\quad\\mathbf{L}/\\left(2\\mathrm{~m}\\right),\\quad\\mathrm{(7}}\\end{array}  '.2)",
+            "after": "\\begin{array}{r l}{\\left[\\Delta\\mathbf{A}/\\Delta\\mathrm{t}\\right.}&{=\\%\\left(\\mathbf{r}\\times\\mathbf{p}\\right)/\\mathrm{m},\\left(\\mathrm{s i n c e}\\quad\\mathbf{v}=\\mathbf{p}/\\mathrm{m}\\right)}\\\\ {}&{=\\quad\\mathbf{L}/\\left(2\\mathrm{~m}\\right),\\quad\\mathrm{(7}}\\end{array}  '.2)]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\{\\tau_{P},",
+            "after": "\\{\\tau_{P},}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}{\\mathbf{F}_{\\mathrm{G A}}}&{{}=\\frac{G m\\left(2m\\right)}{1}\\hat{\\mathbf{j}}}\\\\ {\\mathbf{F}_{\\mathrm{G B}}}&{{}=\\frac{G m\\left(2m\\right)}{1}\\left(-\\hat{\\mathbf{i}}\\cos30^{\\sigma}-\\hat{\\mathbf{j}}\\sin30^{\\sigma}\\right)}\\\\ {\\mathbf{F}_{\\mathrm{G C}}}&{{}=\\frac{G m\\left(2m\\right)}{1}\\left(+\\hat{\\mathbf{i}}\\cos30^{\\sigma}-\\hat{\\mathbf{j}}\\sin30^{\\sigma}\\right)}\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}{\\mathbf{F}_{\\mathrm{G A}}}&{{}=\\frac{G m\\left(2m\\right)}{1}\\hat{\\mathbf{j}}}\\\\ {\\mathbf{F}_{\\mathrm{G B}}}&{{}=\\frac{G m\\left(2m\\right)}{1}\\left(-\\hat{\\mathbf{i}}\\cos30^{\\sigma}-\\hat{\\mathbf{j}}\\sin30^{\\sigma}\\right)}\\\\ {\\mathbf{F}_{\\mathrm{G C}}}&{{}=\\frac{G m\\left(2m\\right)}{1}\\left(+\\hat{\\mathbf{i}}\\cos30^{\\sigma}-\\hat{\\mathbf{j}}\\sin30^{\\sigma}\\right)}\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\begin{array}{l}{\\mathbf{F}_{\\mathrm{R}}=\\mathbf{F}_{\\mathrm{G A}}+\\mathbf{F}_{\\mathrm{G B}}+\\mathbf{F}_{\\mathrm{G C}}}\\\\ {\\mathbf{F}_{\\mathrm{R}}=2G m^{2}\\hat{\\mathbf{j}}+2G m^{2}\\left(-\\hat{\\mathbf{i}}\\cos30^{\\circ}-\\hat{\\mathbf{j}}\\sin30^{\\circ}\\right)}\\\\ {\\quad+2G m^{2}\\left(\\hat{\\mathbf{i}}\\cos30^{\\circ}-\\hat{\\mathbf{j}}\\sin30^{\\circ}\\right)=0}\\end{array}\\right.",
+            "after": "\\left[\\begin{array}{l}{\\mathbf{F}_{\\mathrm{R}}=\\mathbf{F}_{\\mathrm{G A}}+\\mathbf{F}_{\\mathrm{G B}}+\\mathbf{F}_{\\mathrm{G C}}}\\\\ {\\mathbf{F}_{\\mathrm{R}}=2G m^{2}\\hat{\\mathbf{j}}+2G m^{2}\\left(-\\hat{\\mathbf{i}}\\cos30^{\\circ}-\\hat{\\mathbf{j}}\\sin30^{\\circ}\\right)}\\\\ {\\quad+2G m^{2}\\left(\\hat{\\mathbf{i}}\\cos30^{\\circ}-\\hat{\\mathbf{j}}\\sin30^{\\circ}\\right)=0}\\end{array}\\right.]"
+        },
+        {
+            "type": "brace_fix",
+            "before": "R_{{E}}",
+            "after": "R_{E}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{aligned}&g(h)=\\frac{GM_{E}}{R_{E}^{2}(1+h/R_{E})^{2}}=g(1+h/R_{E})^{-2}\\\\ &For\\frac{h}{R_{E}}<<1,using binomial expression,\\\\ &g(h)\\approx g\\left(1-\\frac{2h}{R_{E}}\\right),\\quad(7.1)\\\\ \\end{aligned} 15)",
+            "after": "\\begin{aligned}&g(h)=\\frac{GM_{E}}{R_{E}^{2}(1+h/R_{E})^{2}}=g(1+h/R_{E})^{-2}\\\\ &For\\frac{h}{R_{E}}<<1,using binomial expression,\\\\ &g(h)\\approx g\\left(1-\\frac{2h}{R_{E}}\\right),\\quad(7.1)\\\\ \\end{aligned} 15"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}g(d)&=\\frac{F(d)}{m}is\\\\ g(d)&=\\frac{F(d)}{m}=\\frac{GM_E}{R_E^3}\\left(R_E-d\\right)\\\\ =g\\frac{R_E-d}{R_E}&=g(1-d/R_E)\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}g(d)&=\\frac{F(d)}{m}is\\\\ g(d)&=\\frac{F(d)}{m}=\\frac{GM_E}{R_E^3}\\left(R_E-d\\right)\\\\ =g\\frac{R_E-d}{R_E}&=g(1-d/R_E)\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "W_{(h)}=m g h+W_{_0}(\n",
+            "after": "W_{(h)}=m g h+W_{_0}(\n)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "W_{\\mathrm{o}}=\\mathrm{c o n s t a n t});",
+            "after": "W_{\\mathrm{o}}=\\mathrm{c o n s t a n t};"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\sqrt[1]{2}l",
+            "after": "\\sqrt[1]_{2}l"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left(R_{_E}=\\right.",
+            "after": "\\left(R_{_E}=\\right.)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{aligned}&\\left\\{\\begin{aligned}\\boldsymbol{T}^{2}=\\frac{4\\pi^{2}}{GM_{m}}\\boldsymbol{R}^{3}\\\\ \\mathbf{M}_{m}=\\frac{4\\pi^{2}}{G}\\frac{\\boldsymbol{R}^{3}}{\\boldsymbol{T}^{2}}\\end{aligned}\\right.\\\\ &\\left\\{\\begin{aligned}\\boldsymbol{R}=\\frac{4\\times\\left(3.14\\right)^{2}\\times\\left(9.4\\right)^{3}\\times10^{18}}{6.67\\times10^{-11}\\times\\left(459\\times60\\right)^{2}}\\end{aligned}\\right.\\\\ &\\left\\{\\begin{aligned}\\mathbf{M}_{m}=\\frac{4\\times\\left(3.14\\right)^{2}\\times\\left(9.4\\right)^{3}\\times10^{18}}{6.67\\times\\left(4.59\\times6\\right)^{2}\\times10^{-5}}\\end{aligned}\\right.\\\\ &\\left\\{\\begin{aligned}\\boldsymbol{R}=6.48\\times10^{23}&kg.\\end{aligned}\\right.\\\\ \\end{aligned}",
+            "after": "\\begin{aligned}&\\left\\{\\begin{aligned}\\boldsymbol{T}^{2}=\\frac{4\\pi^{2}}{GM_{m}}\\boldsymbol{R}^{3}\\\\ \\mathbf{M}_{m}=\\frac{4\\pi^{2}}{G}\\frac{\\boldsymbol{R}^{3}}{\\boldsymbol{T}^{2}}\\end{aligned}\\right.\\\\ &\\left\\{\\begin{aligned}\\boldsymbol{R}=\\frac{4\\times\\left(3.14\\right)^{2}\\times\\left(9.4\\right)^{3}\\times10^{18}}{6.67\\times10^{-11}\\times\\left(459\\times60\\right)^{2}}\\end{aligned}\\right.\\\\ &\\left\\{\\begin{aligned}\\mathbf{M}_{m}=\\frac{4\\times\\left(3.14\\right)^{2}\\times\\left(9.4\\right)^{3}\\times10^{18}}{6.67\\times\\left(4.59\\times6\\right)^{2}\\times10^{-5}}\\end{aligned}\\right.\\\\ &\\left\\{\\begin{aligned}\\boldsymbol{R}=6.48\\times10^{23}&kg.\\end{aligned}\\right.\\\\ \\end{aligned}}}}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}K=&\\frac{G M m}{2a}\\\\ V=&-\\frac{G M m}{a}\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}K=&\\frac{G M m}{2a}\\\\ V=&-\\frac{G M m}{a}\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{{(=2\\times 10^{30}}}",
+            "after": "\\mathrm{{(=2\\times 10^{30}}})"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

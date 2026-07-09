@@ -1,0 +1,227 @@
+{
+    "chapter": "Chapter 6 – Equilibrium",
+    "total_formulas": 1101,
+    "repaired": 38,
+    "failed": 3,
+    "ocr_fixes": 339,
+    "latex_fixes": 37,
+    "markdown_fixes": 30,
+    "orphaned_latex_wrapped": 5,
+    "processing_time_sec": 0.841,
+    "changes": [
+        {
+            "type": "delimiter_balance",
+            "before": "\\left(\\mathrm{H}_{2},\\mathrm{~N}_{2},\\mathrm{~N H}_{3}\\right.",
+            "after": "\\left(\\mathrm{H}_{2},\\mathrm{~N}_{2},\\mathrm{~N H}_{3}\\right.)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{D_{2},~N_{2},~N D_{3}})",
+            "after": "\\mathrm{D_{2},~N_{2},~N D_{3}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{(N H_{3},N H_{2}D,N H D_{2}}",
+            "after": "\\mathrm{(N H_{3},N H_{2}D,N H D_{2}})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{ND}_{3})",
+            "after": "\\mathrm{ND}_{3}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{D}_{2})",
+            "after": "\\mathrm{D}_{2}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{r}\\mathrm{CH_{3}COO\\bar{C}_{2}H_{5}(aq)+H_{2}O(l)\\rightleftharpoons CH_{3}COOH(aq)}\\\\+\\mathrm{C_{2}H_{5}OH(aq)}\\\\\\mathrm{and_{3}Fe^{3+}(aq)+SCN^{-}(aq)\\rightleftharpoons Fe(SCN)^{2+}(aq)}\\end{array} )",
+            "after": "\\begin{array}{r}\\mathrm{CH_{3}COO\\bar{C}_{2}H_{5}(aq)+H_{2}O(l)\\rightleftharpoons CH_{3}COOH(aq)}\\\\+\\mathrm{C_{2}H_{5}OH(aq)}\\\\mathrm{and_{3}Fe^{3+}(aq)+SCN^{-}(aq)\\rightleftharpoons Fe(SCN)^{2+}(aq)}\\end{array} "
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{aligned}K_{p}=\\frac{\\left(p_{\\mathrm{HI}}\\right)^{2}}{\\left(p_{\\mathrm{H}_{2}}\\right)\\left(p_{\\mathrm{I}_{2}}\\right)}=\\frac{\\left[\\mathrm{HI}(\\mathrm{g})\\right]^{2}\\left[\\mathrm{RT}\\right]^{2}}{\\left[\\mathrm{H}_{2}(\\mathrm{g})\\right]\\mathrm{RT}_{\\mathrm{i}}\\left[\\mathrm{I}_{2}(\\mathrm{g})\\right]\\mathrm{RT}}\\\\=\\frac{\\left[\\mathrm{HI}(\\mathrm{g})\\right]^{2}}{\\left[\\mathrm{H}_{2}(\\mathrm{g})\\right]\\left[\\mathrm{I}_{2}(\\mathrm{g})\\right]}=K_{c}\\quad(6.13)\\end{aligned} i)",
+            "after": "\\begin{aligned}K_{p}=\\frac{\\left(p_{\\mathrm{HI}}\\right)^{2}}{\\left(p_{\\mathrm{H}_{2}}\\right)\\left(p_{\\mathrm{I}_{2}}\\right)}=\\frac{\\left[\\mathrm{HI}(\\mathrm{g})\\right]^{2}\\left[\\mathrm{RT}\\right]^{2}}{\\left[\\mathrm{H}_{2}(\\mathrm{g})\\right]\\mathrm{RT}_{\\mathrm{i}}\\left[\\mathrm{I}_{2}(\\mathrm{g})\\right]\\mathrm{RT}}\\\\=\\frac{\\left[\\mathrm{HI}(\\mathrm{g})\\right]^{2}}{\\left[\\mathrm{H}_{2}(\\mathrm{g})\\right]\\left[\\mathrm{I}_{2}(\\mathrm{g})\\right]}=K_{c}\\quad(6.13)\\end{aligned} i"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{array}{r l}&{\\mathrm{~a s~}}\\\\ &{K_{c}=\\mathrm{x}^{2}/(0.1-\\mathrm{x})^{2}=4.24}\\\\ &{\\mathrm{~x}^{2}=4.24(0.01+\\mathrm{x}^{2}-0.2\\mathrm{x})}\\\\ &{\\mathrm{~x}^{2}=0.0424+4.24\\mathrm{x}^{2}-0.848\\mathrm{x}}\\\\ &{3.24\\mathrm{x}^{2}-0.848\\mathrm{x}+0.0424=0}\\\\ &{\\mathrm{~a}=3.24,\\mathrm{b}=-0.848,\\mathrm{c}=0.0424}\\\\ &{(\\mathrm{f o r~q u a d r a t i c~e q u a t i o n~a x}^{2}+\\mathrm{b x}+\\mathrm{c}=0,}\\\\ &{\\quad\\mathrm{~x}=\\frac{\\left(-\\mathrm{b}\\pm\\sqrt{\\mathrm{b}^{2}-4\\mathrm{a c}}\\right)}{2\\mathrm{a}}}\\\\ &{\\mathrm{~x}=0.848\\pm\\sqrt{(0.848)^{2}-4(3.24)(0.0424)}/}\\\\ &{\\mathrm{~x}=(0.848\\pm0.4118)/6.48}\\\\ &{\\mathrm{~x}_{1}=(0.848-0.4118)/6.48=0.067}\\\\ &{\\mathrm{~x}_{2}=(0.848+0.4118)/6.48=0.194}\\end{array}",
+            "after": "\\begin{array}{r l}&{\\mathrm{~a s~}}\\\\ &{K_{c}=\\mathrm{x}^{2}/(0.1-\\mathrm{x})^{2}=4.24}\\\\ &{\\mathrm{~x}^{2}=4.24(0.01+\\mathrm{x}^{2}-0.2\\mathrm{x})}\\\\ &{\\mathrm{~x}^{2}=0.0424+4.24\\mathrm{x}^{2}-0.848\\mathrm{x}}\\\\ &{3.24\\mathrm{x}^{2}-0.848\\mathrm{x}+0.0424=0}\\\\ &{\\mathrm{~a}=3.24,\\mathrm{b}=-0.848,\\mathrm{c}=0.0424}\\\\ &{(\\mathrm{f o r~q u a d r a t i c~e q u a t i o n~a x}^{2}+\\mathrm{b x}+\\mathrm{c}=0,}\\\\ &{\\quad\\mathrm{~x}=\\frac{\\left(-\\mathrm{b}\\pm\\sqrt{\\mathrm{b}^{2}-4\\mathrm{a c}}\\right)}{2\\mathrm{a}}}\\\\ &{\\mathrm{~x}=0.848\\pm\\sqrt{(0.848)^{2}-4(3.24)(0.0424)}/}\\\\ &{\\mathrm{~x}=(0.848\\pm0.4118)/6.48}\\\\ &{\\mathrm{~x}_{1}=(0.848-0.4118)/6.48=0.067}\\\\ &{\\mathrm{~x}_{2}=(0.848+0.4118)/6.48=0.194}\\end{array})"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "Q\\left(\\overline{Q}_{\\circ}\\right.",
+            "after": "Q\\left(\\overline{Q}_{\\circ}\\right.)"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\mathrm{Fe^{3+}(aq)^{+}\\ SCN^{-}(aq)\\rightleftharpoons[Fe(SCN)]^{2+}(aq)}\\\\\\mathrm{yellow}\\quad\\mathrm{colourless}\\quad\\mathrm{deg}\\ \\mathrm{red}\\end{array}",
+            "after": "\\begin{array}{l}\\mathrm{Fe^{3+}(aq)^{+}\\ SCN^{-}(aq)\\rightleftharpoons[Fe(SCN)]^{2+}(aq)}\\\\mathrm{yellow}\\quad\\mathrm{colourless}\\quad\\mathrm{deg}\\ \\mathrm{red}\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left(CH_{4}\\right.\\left.\\bar{+}\\right.",
+            "after": "\\left(CH_{4}\\right.\\left.\\bar{+}\\right.)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\underline{{\\mathrm{H}}}_{2}\\mathrm{O})",
+            "after": "\\underline{{\\mathrm{H}}}_{2}\\mathrm{O}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\bar{p}V=\\mathrm{c o n s t a n t})",
+            "after": "\\bar{p}V=\\mathrm{c o n s t a n t}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{HX}\\left(\\mathrm{aq}\\right)\\rightarrow\\mathrm{H}^{+}\\left(\\mathrm{aq}\\right)+\\mathrm{X}^{-}\\left(\\mathrm{aq}\\right)\\\\\\mathrm{or}\\\\\\mathrm{HX}\\left(\\mathrm{aq}\\right)+\\mathrm{H}_{2}\\mathrm{O}(\\mathrm{l})\\rightarrow\\mathrm{H}_{3}\\mathrm{O}^{+}\\left(\\mathrm{aq}\\right)+\\mathrm{X}^{-}\\left(\\mathrm{aq}\\right)\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{HX}\\left(\\mathrm{aq}\\right)\\rightarrow\\mathrm{H}^{+}\\left(\\mathrm{aq}\\right)+\\mathrm{X}^{-}\\left(\\mathrm{aq}\\right)\\\\mathrm{or}\\\\mathrm{HX}\\left(\\mathrm{aq}\\right)+\\mathrm{H}_{2}\\mathrm{O}(\\mathrm{l})\\rightarrow\\mathrm{H}_{3}\\mathrm{O}^{+}\\left(\\mathrm{aq}\\right)+\\mathrm{X}^{-}\\left(\\mathrm{aq}\\right)\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "(\\sim10^{-15}",
+            "after": "(\\sim10^{-15})"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\underline{{K}}_{\\mathrm{w}}",
+            "after": "\\underline{K}_{\\mathrm{w}}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\mathrm{HX}(\\mathrm{aq})+\\mathrm{H_2O}(\\mathrm{l})\\rightleftharpoons\\mathrm{H_3O^+(aq)}+\\mathrm{X^-(aq)}\\\\\\mathrm{Initial}\\\\\\mathrm{concentration~(M)}\\\\\\mathrm{cc}\\quad0\\quad0\\\\\\mathrm{Let}\\;\\alpha\\;\\mathrm{be}\\;\\mathrm{the}\\;\\mathrm{ext}\\;\\mathrm{of}\\;\\mathrm{ionization}\\\\\\mathrm{Change}\\;(\\mathrm{M})\\\\\\mathrm{-cc}\\;\\alpha\\quad+\\mathrm{cc}\\alpha\\quad+\\mathrm{cc}\\alpha\\\\\\mathrm{Equilbirum}\\;\\mathrm{concentration~(M)}\\\\\\mathrm{-cc}\\;\\alpha\\quad\\mathrm{cc}\\alpha\\quad\\mathrm{cc}\\alpha\\end{array}Here,",
+            "after": "\\begin{array}{l}\\mathrm{HX}(\\mathrm{aq})+\\mathrm{H_2O}(\\mathrm{l})\\rightleftharpoons\\mathrm{H_3O^+(aq)}+\\mathrm{X^-(aq)}\\\\mathrm{Initial}\\\\mathrm{concentration~(M)}\\\\mathrm{cc}\\quad0\\quad0\\\\mathrm{Let}\\;\\alpha\\;\\mathrm{be}\\;\\mathrm{the}\\;\\mathrm{ext}\\;\\mathrm{of}\\;\\mathrm{ionization}\\\\mathrm{Change}\\;(\\mathrm{M})\\\\mathrm{-cc}\\;\\alpha\\quad+\\mathrm{cc}\\alpha\\quad+\\mathrm{cc}\\alpha\\\\mathrm{Equilbirum}\\;\\mathrm{concentration~(M)}\\\\mathrm{-cc}\\;\\alpha\\quad\\mathrm{cc}\\alpha\\quad\\mathrm{cc}\\alpha\\end{array}Here,"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathbf{\\mathit{T}},\\mathbf{\\mathit{\\kappa}}_{\\mathrm{{a}}}",
+            "after": "\\mathbf{\\mathit{T}},\\mathbf{\\mathit{\\kappa}}_{\\mathrm{a}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\quad{\\quad\\quad\\quad[{\\quad[{\\quad[{\\quad{\\quad[{\\quad[{\\quad[{\\}\\}\\quad[{\\}\\}\\quad[{\\}\\}\\quad[{\\}\\quad[{\\}\\}\\quad[{\\}\\}\\quad[{\\}\\quad[{\\}\\}\\quad[{\\}\\}\\quad[{\\}",
+            "after": "\\quad{\\quad\\quad\\quad[{\\quad[{\\quad[{\\quad{\\quad[{\\quad[{\\quad[{\\}\\}\\quad[{\\}\\}\\quad[{\\}\\}\\quad[{\\}\\quad[{\\}\\}\\quad[{\\}\\}\\quad[{\\}\\quad[{\\}\\}\\quad[{\\}\\}\\quad[{\\}]]]]]]]]]]]]]]]"
+        },
+        {
+            "type": "brace_fix",
+            "before": "K_{\\mathrm{{b}}}",
+            "after": "K_{\\mathrm{b}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{p}K_{\\mathrm{{b}}}",
+            "after": "\\mathrm{p}K_{\\mathrm{b}}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\mathrm{NH}_{3}+\\mathrm{H}_{2}\\mathrm{O}\\stackrel{\\rightharpoonup}{\\rightleftharpoons}\\mathrm{NH}_{4}^{+}+\\mathrm{OH}^{-},\\\\\\text{The ionization constant of}\\mathrm{NH}_{3},\\\\K_{\\mathrm{b}}=\\text{antilog}(-\\mathrm{p}K_{\\mathrm{b}})\\text{i.e.}\\end{array}",
+            "after": "\\begin{array}{l}\\mathrm{NH}_{3}+\\mathrm{H}_{2}\\mathrm{O}\\stackrel{\\rightharpoonup}{\\rightleftharpoons}\\mathrm{NH}_{4}^{+}+\\mathrm{OH}^{-},\\\\text{The ionization constant of}\\mathrm{NH}_{3},\\\\K_{\\mathrm{b}}=\\text{antilog}(-\\mathrm{p}K_{\\mathrm{b}})\\text{i.e.}\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\begin{aligned}{K_{\\mathrm{a}}\\times K_{\\mathrm{b}}=\\{[\\mathrm{H}_{3}\\mathrm{O}^{+}][\\mathrm{~N H}_{3}]/[\\mathrm{N H}_{4}^{+}]\\}\\times\\{[\\mathrm{N H}_{4}^{+}]}&{{}}\\\\ {[\\mathrm{O H}^{-}]/[\\mathrm{N H}_{3}]\\}}&{{}}\\\\ {=[\\mathrm{H}_{3}\\mathrm{O}^{+}][\\mathrm{O H}^{-}]=K_{\\mathrm{w}}}&{{}}\\\\ {=(5.6\\times10^{-10})\\times(1.8\\times10^{-5})}&{{}=1.0\\times10^{-14}\\mathrm{~M}}\\end{aligned}",
+            "after": "\\begin{aligned}{K_{\\mathrm{a}}\\times K_{\\mathrm{b}}=\\{[\\mathrm{H}_{3}\\mathrm{O}^{+}][\\mathrm{~N H}_{3}]/[\\mathrm{N H}_{4}^{+}]\\}\\times\\{[\\mathrm{N H}_{4}^{+}]}&{}\\\\ {[\\mathrm{O H}^{-}]/[\\mathrm{N H}_{3}]\\}}&{}\\\\ {=[\\mathrm{H}_{3}\\mathrm{O}^{+}][\\mathrm{O H}^{-}]=K_{\\mathrm{w}}}&{}\\\\ {=(5.6\\times10^{-10})\\times(1.8\\times10^{-5})}&{{}=1.0\\times10^{-14}\\mathrm{~M}}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{N H}_{3})",
+            "after": "\\mathrm{N H}_{3}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\mathrm{NH}_{3}\\quad+\\quad\\mathrm{HCl}\\quad\\rightarrow\\quad\\mathrm{NH}_{4}^{+}+\\quad\\mathrm{Cl}^{-}\\\\2.5\\quad2.5\\quad0\\quad0\\\\\\mathrm{At}\\text{equilibrium}\\\\0\\quad0\\quad2.5\\quad2.5\\end{array}",
+            "after": "\\begin{array}{l}\\mathrm{NH}_{3}\\quad+\\quad\\mathrm{HCl}\\quad\\rightarrow\\quad\\mathrm{NH}_{4}^{+}+\\quad\\mathrm{Cl}^{-}\\\\2.5\\quad2.5\\quad0\\quad0\\\\mathrm{At}\\text{equilibrium}\\\\0\\quad0\\quad2.5\\quad2.5\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\mathrm{NH}_{4}\\mathrm{OH}\\quad\\rightleftharpoons\\quad\\mathrm{NH}_{4}^{+}\\quad+\\quad\\mathrm{OH}^{-}\\\\0.033\\mathrm{M}-\\mathrm{y}\\quad\\mathrm{y}\\quad\\mathrm{y}\\\\\\text{where,y=[OH^{-}]=[NH_{4}^{+}]}\\end{array}",
+            "after": "\\begin{array}{l}\\mathrm{NH}_{4}\\mathrm{OH}\\quad\\rightleftharpoons\\quad\\mathrm{NH}_{4}^{+}\\quad+\\quad\\mathrm{OH}^{-}\\\\0.033\\mathrm{M}-\\mathrm{y}\\quad\\mathrm{y}\\quad\\mathrm{y}\\\\text{where,y=[OH^{-}]=[NH_{4}^{+}]}\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{aligned}&K_{\\mathrm{b}}=[\\mathrm{NH}_{4}^{+}][\\mathrm{OH}^{-}]/[\\mathrm{NH}_{4}\\mathrm{OH}]\\\\ &\\quad=\\mathrm{y}(0.033)/(0.033)=1.77\\times10^{-5}\\mathrm{M}\\\\ &\\mathrm{Thus},\\mathrm{y}=1.77\\times10^{-5}=[\\mathrm{OH}^{-}]\\\\ &\\mathrm{H}^{+}]=10^{-14}/1.77\\times10^{-5}=0.56\\times10^{-9}\\\\ &\\mathrm{Hence},\\mathrm{pH}=9.24\\\\ \\end{aligned}",
+            "after": "\\begin{aligned}&K_{\\mathrm{b}}=[\\mathrm{NH}_{4}^{+}][\\mathrm{OH}^{-}]/[\\mathrm{NH}_{4}\\mathrm{OH}]\\\\ &\\quad=\\mathrm{y}(0.033)/(0.033)=1.77\\times10^{-5}\\mathrm{M}\\\\ &\\mathrm{Thus},\\mathrm{y}=1.77\\times10^{-5}=[\\mathrm{OH}^{-}]\\\\ &\\mathrm{H}^{+}=10^{-14}/1.77\\times10^{-5}=0.56\\times10^{-9}\\\\ &\\mathrm{Hence},\\mathrm{pH}=9.24\\\\ \\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{(e.g.,N a^{+},K^{+},\\mathring{C}a^{2+},B a^{2+}}",
+            "after": "\\mathrm{(e.g.,N a^{+},K^{+},\\mathring{C}a^{2+},B a^{2+}})"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\operatorname*{g e t}{\\mathrm{~\\overline{{~}}~}}",
+            "after": "\\operatorname*{g e t}{\\mathrm{~\\overline{~}~}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{aligned}&K_{\\mathrm{sp}}=[\\mathrm{S}][\\mathrm{f}\\mathrm{S}]=\\mathrm{S}^2\\{K_{\\mathrm{a}}/(K_{\\mathrm{a}}+[\\mathrm{H}^+])\\}\\mathrm{and}\\\\&\\mathrm{S}=\\{K_{\\mathrm{sp}}([\\mathrm{H}^+]+K_{\\mathrm{a}})/K_{\\mathrm{a}}\\}^{1/2}\\quad(6)\\\\ \\end{aligned} 5.46)",
+            "after": "\\begin{aligned}&K_{\\mathrm{sp}}=[\\mathrm{S}][\\mathrm{f}\\mathrm{S}]=\\mathrm{S}^2\\{K_{\\mathrm{a}}/(K_{\\mathrm{a}}+[\\mathrm{H}^+])\\}\\mathrm{and}\\\\&\\mathrm{S}=\\{K_{\\mathrm{sp}}([\\mathrm{H}^+]+K_{\\mathrm{a}})/K_{\\mathrm{a}}\\}^{1/2}\\quad(6)\\\\ \\end{aligned} 5.46"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{H}_{2}\\mathrm{\\overline{{O}}}",
+            "after": "\\mathrm{H}_{2}\\mathrm{\\overline{O}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{P C\\underline{{1}}}_{5}",
+            "after": "\\mathrm{P C\\underline{1}}_{5}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\overline{{p}}_{\\mathrm{c o_{2}}}=0.80",
+            "after": "\\overline{p}_{\\mathrm{c o_{2}}}=0.80"
+        },
+        {
+            "type": "ocr_typo",
+            "before": "\\begin{aligned}&\\mathrm{(a)}\\quad\\mathrm{PC15}(\\mathrm{g})\\quad\\rightleftharpoons\\quad\\mathrm{PC13}(\\mathrm{g})+\\mathrm{Cl2}(\\mathrm{g})\\\\ &\\mathrm{(b)}\\quad\\mathrm{CaO}(\\mathrm{s})+\\mathrm{CO2}(\\mathrm{g})\\quad\\rightleftharpoons\\quad\\mathrm{CaCO3}(\\mathrm{s})\\\\ &\\mathrm{(c)}\\quad3\\mathrm{Fe}(\\mathrm{s})+4\\mathrm{H_2O}(\\mathrm{g})\\quad\\rightleftharpoons\\quad\\mathrm{Fe_3O_4}(\\mathrm{s})+4\\mathrm{H_2}(\\mathrm{g})\\\\ \\end{aligned}",
+            "after": "\\begin{aligned}&\\mathrm{(a)}\\quad\\mathrm{PC15}(\\mathrm{g})\\quad\\rightleftharpoons\\quad\\mathrm{PC13}(\\mathrm{g})+\\mathrm{Cl2}(\\mathrm{g})\\\\ &\\mathrm{(b)}\\quad\\mathrm{CaO}(\\mathrm{s})+\\mathrm{CO_{2}}(\\mathrm{g})\\quad\\rightleftharpoons\\quad\\mathrm{CaCO3}(\\mathrm{s})\\\\ &\\mathrm{(c)}\\quad3\\mathrm{Fe}(\\mathrm{s})+4\\mathrm{H_2O}(\\mathrm{g})\\quad\\rightleftharpoons\\quad\\mathrm{Fe_3O_4}(\\mathrm{s})+4\\mathrm{H_2}(\\mathrm{g})\\\\ \\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "K_{\\mathrm{s p}}=7.4\\times10^{-8})",
+            "after": "K_{\\mathrm{s p}}=7.4\\times10^{-8}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "2.5\\times10^{\\mathrm{{-13}}}",
+            "after": "2.5\\times10^{\\mathrm{-13}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "K_{\\mathrm{s p}}=6.\\bar{3}\\times10^{-18})",
+            "after": "K_{\\mathrm{s p}}=6.\\bar{3}\\times10^{-18}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "9.\\bar{1}\\times10^{-6}\\}",
+            "after": "9.\\bar{1}\\times10^{-6}\\"
+        }
+    ],
+    "failed_equations": [
+        {
+            "equation": "\\begin{array}{l}\\mathrm{H_2O(l)~+~H_2O(l)~\\rightleftharpoons~H_3O^*(aq)~+~OH^-(aq)}",
+            "delimiter": "$",
+            "reasons": [
+                "unbalanced \\begin/\\end environment"
+            ]
+        },
+        {
+            "equation": "\\begin{aligned}",
+            "delimiter": "$",
+            "reasons": [
+                "unbalanced \\begin/\\end environment"
+            ]
+        },
+        {
+            "equation": "\\begin{aligned}&\\text{1}\\quad\\text{2}\\quad\\text{3}\\quad\\text{4}\\quad\\text{5}\\quad\\text{6}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\text{1}\\quad\\text{6}\\quad\\quad\\text{1}\\quad6}\\quad\\text{1}\\quad\\text{6}\\quad\\quad\\text{1}\\quad\\text{6}\\quad\\quad\\text{1}\\quad\\text{6}\\quad\\quad\\text{1}\\quad\\text{6}\\quad\\quad\\text{1}\\quad\\text{6}\\quad\\quad\\text{1}\\quad\\quad\\text{6}\\quad\\quad\\text{1}\\quad\\text{6}\\quad\\quad\\text{1}\\quad\\quad\\text{6}\\quad\\quad\\text{1}\\quad\\quad\\text{6}\\quad\\quad\\text{1}\\quad\\quad\\text{1}\\quad\\quad\\text{6}\\quad\\quad\\text{1}\\quad\\quad\\text{6}\\quad\\quad\\text{1}\\quad\\quad\\text{1}\\quad\\quad\\quad\\text{6}\\quad\\quad\\text{1}\\quad\\quad\\text{1}\\quad\\quad\\text{6}\\quad\\quad\\text{1}\\quad\\quad\\quad\\text{1}\\quad\\quad\\quad\\text{1}\\quad\\quad\\text{1}\\quad\\quad\\text{\\text{}\\quad\\text{1}\\quad\\quad\\quad\\text{1}\\quad\\quad\\quad\\text{1}\\quad\\quad\\text{\\quad1}\\quad\\quad\\text{\\text{}\\quad\\text{1}\\quad\\quad\\quad\\text{1}\\quad\\quad\\quad\\text{\\text{}\\quad\\text{1}\\quad\\quad\\quad\\text{\\quad1}\\quad\\quad\\quad\\text{\\text{1}\\quad\\quad\\quad\\quad\\text{\\quad1}\\quad\\quad\\quad\\quad\\text{\\text{}\\quad\\text{\\quad\\text{}\\quad\\quad\\text{\\text{1}\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\text{\\quad ",
+            "delimiter": "$$",
+            "reasons": [
+                "unbalanced \\begin/\\end environment"
+            ]
+        }
+    ],
+    "suspicious_equations": []
+}

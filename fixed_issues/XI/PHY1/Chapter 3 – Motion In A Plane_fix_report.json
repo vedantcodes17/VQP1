@@ -1,0 +1,158 @@
+{
+    "chapter": "Chapter 3 – Motion In A Plane",
+    "total_formulas": 432,
+    "repaired": 27,
+    "failed": 1,
+    "ocr_fixes": 126,
+    "latex_fixes": 27,
+    "markdown_fixes": 22,
+    "orphaned_latex_wrapped": 11,
+    "processing_time_sec": 0.166,
+    "changes": [
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathbf{A}+\\mathbf{O}=\\mathbf{A}\\\\\\lambda\\mathbf{O}=\\mathbf{O}\\\\0\\mathbf{A}=\\mathbf{O}\\end{array}",
+            "after": "\\begin{array}{c}\\mathbf{A}+\\mathbf{O}=\\mathbf{A}\\\\lambda\\mathbf{O}=\\mathbf{O}\\\\0\\mathbf{A}=\\mathbf{O}\\end{array}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\hat{\\mathbf{n}}\\right.",
+            "after": "\\left[\\hat{\\mathbf{n}}\\right.]"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathbf{\\cdot}\\mathbf{A}_{{X}}",
+            "after": "\\mathbf{\\cdot}\\mathbf{A}_{X}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\mathbf{A}&=A_{x}\\hat{\\mathbf{i}}+A_{y}\\hat{\\mathbf{j}}+A_{z}\\hat{\\mathbf{k}}\\\\\\mathbf{B}&=B_{x}\\hat{\\mathbf{i}}+B_{y}\\hat{\\mathbf{j}}+B_{z}\\hat{\\mathbf{k}}\\\\\\mathbf{R}&=\\mathbf{A}\\pm\\mathbf{B}=R_{x}\\hat{\\mathbf{i}}+R_{y}\\hat{\\mathbf{j}}+R_{z}\\hat{\\mathbf{k}}\\end{aligned}",
+            "after": "\\begin{aligned}\\mathbf{A}&=A_{x}\\hat{\\mathbf{i}}+A_{y}\\hat{\\mathbf{j}}+A_{z}\\hat{\\mathbf{k}}\\\\mathbf{B}&=B_{x}\\hat{\\mathbf{i}}+B_{y}\\hat{\\mathbf{j}}+B_{z}\\hat{\\mathbf{k}}\\\\mathbf{R}&=\\mathbf{A}\\pm\\mathbf{B}=R_{x}\\hat{\\mathbf{i}}+R_{y}\\hat{\\mathbf{j}}+R_{z}\\hat{\\mathbf{k}}\\end{aligned}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\overline{{\\pmb{v}}}=\\overline{{v}}_{x}\\hat{\\pmb{\\mathrm{i}}}+\\overline{{v}}_{y}\\hat{\\pmb{\\mathrm{j}}}",
+            "after": "\\overline{{\\pmb{v}}}=\\overline{v}_{x}\\hat{\\pmb{\\mathrm{i}}}+\\overline{v}_{y}\\hat{\\pmb{\\mathrm{j}}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathbf{\\overline{{v}}}",
+            "after": "\\mathbf{\\overline{v}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "&{",
+            "after": "&{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\\\ &{",
+            "after": "\\\\ &{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\\\ &{",
+            "after": "\\\\ &{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}\\\\ &{",
+            "after": "\\\\ &{}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}",
+            "after": ""
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}",
+            "after": ""
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}",
+            "after": ""
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}",
+            "after": ""
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}",
+            "after": ""
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "}",
+            "after": ""
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}{\\pmb{v}_{x}=\\pmb{v}_{o x}+a_{x}t}\\\\ {\\pmb{v}_{y}=\\pmb{v}_{o y}+a_{y}t}\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}{\\pmb{v}_{x}=\\pmb{v}_{o x}+a_{x}t}\\\\ {\\pmb{v}_{y}=\\pmb{v}_{o y}+a_{y}t}\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{\\mathrm{d}\\mathbf{r}}{\\mathrm{d}t}\\right.",
+            "after": "\\left[\\frac{\\mathrm{d}\\mathbf{r}}{\\mathrm{d}t}\\right.]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}{x}&{{}=x_{0}+v_{o x}t+\\frac{1}{2}a_{x}t^{2}}\\\\ {y}&{{}=y_{0}+v_{o y}t+\\frac{1}{2}a_{y}t^{2}}\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}{x}&{{}=x_{0}+v_{o x}t+\\frac{1}{2}a_{x}t^{2}}\\\\ {y}&{{}=y_{0}+v_{o y}t+\\frac{1}{2}a_{y}t^{2}}\\end{aligned}\\right.}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathbf{\\bar{v}}_{\\mathrm{{o}}}",
+            "after": "\\mathbf{\\bar{v}}_{\\mathrm{o}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}{}&{{}{\\pmb a}=-g\\hat{\\pmb j}}\\\\ {}&{{}a_{_{x}}=0,a_{_{y}}=-g}\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}{}&{{}{\\pmb a}=-g\\hat{\\pmb j}}\\\\ {}&{{}a_{_{x}}=0,a_{_{y}}=-g}\\end{aligned}\\right.}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\scriptstyle\\underline{{V}}=0",
+            "after": "\\scriptstyle\\underline{V}=0"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "y=h_{m}=\\left(v_{0}\\sin\\theta_{0}\\right)\\left(\\frac{v_{0}\\sin\\theta_{0}}{g}\\right)-\\frac{g}{2}\\left(\\frac{v_{0}\\sin\\theta_{0}}{g}\\right)^{2} 3.41)",
+            "after": "y=h_{m}=\\left(v_{0}\\sin\\theta_{0}\\right)\\left(\\frac{v_{0}\\sin\\theta_{0}}{g}\\right)-\\frac{g}{2}\\left(\\frac{v_{0}\\sin\\theta_{0}}{g}\\right)^{2} 3.41"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[R_{m}\\right.=\\frac{v_{0}^{2}}{g}",
+            "after": "\\left[R_{m}\\right.=\\frac{v_{0}^{2}}{g}]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{aligned}&\\left\\{\\begin{aligned}\\\\ &a_{c}=\\frac{v^{2}}{R}=\\frac{\\omega^{2}R^{2}}{R}=\\omega^{2}R^{2}\\\\&a_{c}=\\omega^{2}R\\\\ &\\end{aligned}\\right.\\\\ \\end{aligned}",
+            "after": "\\begin{aligned}&\\left\\{\\begin{aligned}\\\\ &a_{c}=\\frac{v^{2}}{R}=\\frac{\\omega^{2}R^{2}}{R}=\\omega^{2}R^{2}\\\\&a_{c}=\\omega^{2}R\\\\ &\\end{aligned}\\right.\\\\ \\end{aligned}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathbf{\\overline{{a}}}",
+            "after": "\\mathbf{\\overline{a}}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\underline{{h}}_{\\mathrm{m}}",
+            "after": "\\underline{h}_{\\mathrm{m}}"
+        }
+    ],
+    "failed_equations": [
+        {
+            "equation": "wher \\begin{array}{r l}&{\\mathbf{\\nabla}\\cdot\\mathbf{\\nabla}}\\\\ &{\\mathbf{\\nabla}\\cdot\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}}\\\\ &{\\mathbf{\\nabla}\\cdot\\mathbf{\\nabla}\\underset{\\Delta t\\rightarrow0}{l i m}\\left(\\frac{\\Delta x}{\\Delta t}\\hat{\\mathbf{i}}+\\frac{\\Delta y}{\\Delta t}\\hat{\\mathbf{j}}\\right)}\\\\ &{\\mathbf{\\nabla}\\cdot\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf\\mathbf{}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf\\mathbf{}\\mathbf{\\nabla}\\mathbf\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf\\mathbf{}\\mathbf{\\nabla}\\mathbf\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf\\nabla}\\mathbf{\\nabla}\\mathbf\\mathbf{}\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf\\mathbf{\\nabla}\\mathbf{\\nabla}\\mathbf}\\mathbf{\\nabla\\nabla}\\mathbf{\\nabla}\\mathbf\\mathbf{}\\mathbf\\nabla{}\\mathbf\\nabla}\\mathbf{\\nabla}\\mathbf\\mathbf{}\\mathbf\\mathbf{}\\mathbf\\nabla{\\nabla}\\mathbf}\\mathbf\\mathbf{\\nabla}\\mathbf\\mathbf{\\nabla}\\mathbf{\\nabla\\nabla}\\mathbf\\mathbf{}\\mathbf\\mathbf{\\nabla}\\mathbf\\mathbf{\\nabla}\\mathbf\\mathbf{\\nabla}\\mathbf\\mathbf\\mathbf{}\\mathbf\\nabla\\mathbf{\\nabla}\\mathbf\\mathbf ",
+            "delimiter": "$$",
+            "reasons": [
+                "unbalanced \\begin/\\end environment"
+            ]
+        }
+    ],
+    "suspicious_equations": []
+}

@@ -1,0 +1,203 @@
+{
+    "chapter": "Chapter 13 – Probability",
+    "total_formulas": 547,
+    "repaired": 32,
+    "failed": 3,
+    "ocr_fixes": 222,
+    "latex_fixes": 32,
+    "markdown_fixes": 24,
+    "orphaned_latex_wrapped": 15,
+    "processing_time_sec": 0.363,
+    "changes": [
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{S}=\\{\\mathrm{H H H}",
+            "after": "\\mathrm{S}=\\{\\mathrm{H H H}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{1}{8}\\right.",
+            "after": "\\left[\\frac{1}{8}\\right.]"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\mathrm{P}((\\mathrm{A}\\cap\\mathrm{B})|\\mathrm{F})&=0\\\\\\mathrm{P}((\\mathrm{A}\\cup\\mathrm{B})|\\mathrm{F})&=\\mathrm{P}(\\mathrm{A}|\\mathrm{F})+\\mathrm{P}(\\mathrm{B}|\\mathrm{F})\\end{aligned} ep ",
+            "after": "\\begin{aligned}\\mathrm{P}((\\mathrm{A}\\cap\\mathrm{B})|\\mathrm{F})&=0\\\\mathrm{P}((\\mathrm{A}\\cup\\mathrm{B})|\\mathrm{F})&=\\mathrm{P}(\\mathrm{A}|\\mathrm{F})+\\mathrm{P}(\\mathrm{B}|\\mathrm{F})\\end{aligned} ep "
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{ccc}\\mathrm{P}(\\mathrm{E}\\cup\\mathrm{E}^{\\prime}|\\mathrm{F})&=1&\\text{since}\\mathrm{S}=\\mathrm{E}\\cup\\mathrm{E}^{\\prime}\\\\\\mathrm{P}(\\mathrm{E}|\\mathrm{F})+\\mathrm{P}(\\mathrm{E}^{\\prime}|\\mathrm{F})&=1&\\text{since E and}\\mathrm{E}^{\\prime}\\text{are disjoint events}\\\\\\mathrm{P}(\\mathrm{E}^{\\prime}|\\mathrm{F})&=1-\\mathrm{P}(\\mathrm{E}|\\mathrm{F})\\end{array}",
+            "after": "\\begin{array}{ccc}\\mathrm{P}(\\mathrm{E}\\cup\\mathrm{E}^{\\prime}|\\mathrm{F})&=1&\\text{since}\\mathrm{S}=\\mathrm{E}\\cup\\mathrm{E}^{\\prime}\\\\mathrm{P}(\\mathrm{E}|\\mathrm{F})+\\mathrm{P}(\\mathrm{E}^{\\prime}|\\mathrm{F})&=1&\\text{since E and}\\mathrm{E}^{\\prime}\\text{are disjoint events}\\\\mathrm{P}(\\mathrm{E}^{\\prime}|\\mathrm{F})&=1-\\mathrm{P}(\\mathrm{E}|\\mathrm{F})\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\bar{\\underline{{\\underline{{\\gamma}}}}}_{12} (T,3)",
+            "after": "\\bar{\\underline{{\\underline{\\gamma}}}}_{12} (T,3)"
+        },
+        {
+            "type": "brace_fix",
+            "before": "(T,3)\\overline{{\\gamma}}_{12}(T,4)",
+            "after": "(T,3)\\overline{\\gamma}_{12}(T,4)"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\mathrm{F}&=\\{(\\mathrm{H},\\mathrm{T}),(\\mathrm{T},1),(\\mathrm{T},2),(\\mathrm{T},3),(\\mathrm{T},4),(\\mathrm{T},5),(\\mathrm{T},6)\\}\\\\\\mathrm{E}&=\\{(\\mathrm{T},5),(\\mathrm{T},6)\\}\\quad and\\quad\\mathrm{E}\\cap\\mathrm{F}=\\{(\\mathrm{T},5),(\\mathrm{T},6)\\}\\\\\\mathrm{P}(\\mathrm{F})&=\\mathrm{P}(\\{(\\mathrm{H},\\mathrm{T})\\})+\\mathrm{P}\\left(\\{(\\mathrm{T},1)\\}\\right)+\\mathrm{P}\\left(\\{(\\mathrm{T},2)\\}\\right)+\\mathrm{P}\\left(\\{(\\mathrm{T},3)\\}\\right)\\\\&\\quad+\\mathrm{P}\\left(\\{(\\mathrm{T},4)\\}\\right)+\\mathrm{P}(\\{(\\mathrm{T},5)\\})+\\mathrm{P}(\\{(\\mathrm{T},6)\\})\\\\&=\\frac{1}{4}\\cdot\\frac{1}{12}\\cdot\\frac{1}{12}\\cdot\\frac{1}{12}\\cdot\\frac{1}{12}\\cdot\\frac{1}{12}\\cdot\\frac{1}{12}\\cdot\\frac{3}{4}\\end{aligned}",
+            "after": "\\begin{aligned}\\mathrm{F}&=\\{(\\mathrm{H},\\mathrm{T}),(\\mathrm{T},1),(\\mathrm{T},2),(\\mathrm{T},3),(\\mathrm{T},4),(\\mathrm{T},5),(\\mathrm{T},6)\\}\\\\mathrm{E}&=\\{(\\mathrm{T},5),(\\mathrm{T},6)\\}\\quad and\\quad\\mathrm{E}\\cap\\mathrm{F}=\\{(\\mathrm{T},5),(\\mathrm{T},6)\\}\\\\mathrm{P}(\\mathrm{F})&=\\mathrm{P}(\\{(\\mathrm{H},\\mathrm{T})\\})+\\mathrm{P}\\left(\\{(\\mathrm{T},1)\\}\\right)+\\mathrm{P}\\left(\\{(\\mathrm{T},2)\\}\\right)+\\mathrm{P}\\left(\\{(\\mathrm{T},3)\\}\\right)\\\\&\\quad+\\mathrm{P}\\left(\\{(\\mathrm{T},4)\\}\\right)+\\mathrm{P}(\\{(\\mathrm{T},5)\\})+\\mathrm{P}(\\{(\\mathrm{T},6)\\})\\\\&=\\frac{1}{4}\\cdot\\frac{1}{12}\\cdot\\frac{1}{12}\\cdot\\frac{1}{12}\\cdot\\frac{1}{12}\\cdot\\frac{1}{12}\\cdot\\frac{1}{12}\\cdot\\frac{3}{4}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{1}{2}\\right.",
+            "after": "\\left[\\frac{1}{2}\\right.]"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{align*}\\left(A\\right)A&\\subset B but A\\neq B\\quad&\\left(B\\right)A=B\\\\\\left(C\\right)A&\\cap B=\\varnothing\\quad&\\left(D\\right)P(A)&=P(B)\\end{align*}",
+            "after": "\\begin{align*}\\left(A\\right)A&\\subset B but A\\neq B\\quad&\\left(B\\right)A=B\\\\left(C\\right)A&\\cap B=\\varnothing\\quad&\\left(D\\right)P(A)&=P(B)\\end{align*}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\mathrm{P}(\\mathrm{E}\\cap\\mathrm{F})&=\\mathrm{P}(\\mathrm{E}).\\mathrm{P}(\\mathrm{F})\\\\\\mathrm{P}(\\mathrm{E}\\cap\\mathrm{G})&\\neq\\mathrm{P}(\\mathrm{E}).\\mathrm{P}(\\mathrm{G})\\\\\\mathrm{P}(\\mathrm{F}\\cap\\mathrm{G})&\\neq\\mathrm{P}(\\mathrm{F}).\\mathrm{P}(\\mathrm{G})\\end{aligned}",
+            "after": "\\begin{aligned}\\mathrm{P}(\\mathrm{E}\\cap\\mathrm{F})&=\\mathrm{P}(\\mathrm{E}).\\mathrm{P}(\\mathrm{F})\\\\mathrm{P}(\\mathrm{E}\\cap\\mathrm{G})&\\neq\\mathrm{P}(\\mathrm{E}).\\mathrm{P}(\\mathrm{G})\\\\mathrm{P}(\\mathrm{F}\\cap\\mathrm{G})&\\neq\\mathrm{P}(\\mathrm{F}).\\mathrm{P}(\\mathrm{G})\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{1}{2}\\bmod\\frac{1}{3}\\right.",
+            "after": "\\left[\\frac{1}{2}\\bmod\\frac{1}{3}\\right.]"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{S}=\\mathrm{E}_{1}\\cup\\mathrm{E}_{2}\\cup\\ldots\\cup\\mathrm{E}_{n}\\\\\\mathrm{E}_{i}\\cap\\mathrm{E}_{j}=\\varnothing,i\\neq j,i,j=1,2,\\ldots,n\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{S}=\\mathrm{E}_{1}\\cup\\mathrm{E}_{2}\\cup\\ldots\\cup\\mathrm{E}_{n}\\\\mathrm{E}_{i}\\cap\\mathrm{E}_{j}=\\varnothing,i\\neq j,i,j=1,2,\\ldots,n\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{align*}\\mathrm{P}(\\mathrm{A})&=\\mathrm{P}(\\mathrm{E}_1)\\mathrm{P}(\\mathrm{A}|\\mathrm{E}_1)+\\mathrm{P}(\\mathrm{E}_2)\\mathrm{P}(\\mathrm{A}|\\mathrm{E}_2)+\\ldots+\\mathrm{P}(\\mathrm{E}_n)\\mathrm{P}(\\mathrm{A}|\\mathrm{E}_n)\\\\\\mathrm{P}(\\mathrm{A})&=\\sum_{j=1}^{n}\\mathrm{P}(\\mathrm{E}_j)\\mathrm{P}(\\mathrm{A}|\\mathrm{E}_j)\\end{align*}",
+            "after": "\\begin{align*}\\mathrm{P}(\\mathrm{A})&=\\mathrm{P}(\\mathrm{E}_1)\\mathrm{P}(\\mathrm{A}|\\mathrm{E}_1)+\\mathrm{P}(\\mathrm{E}_2)\\mathrm{P}(\\mathrm{A}|\\mathrm{E}_2)+\\ldots+\\mathrm{P}(\\mathrm{E}_n)\\mathrm{P}(\\mathrm{A}|\\mathrm{E}_n)\\\\mathrm{P}(\\mathrm{A})&=\\sum_{j=1}^{n}\\mathrm{P}(\\mathrm{E}_j)\\mathrm{P}(\\mathrm{A}|\\mathrm{E}_j)\\end{align*}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{E}_{1})",
+            "after": "\\mathrm{E}_{1}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{j}\\mathrm{j}\\mathrm{ 'lishe",
+            "after": "\\mathrm{j}\\mathrm{j}\\mathrm{ 'lishe}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{E^{\\prime}\\}}",
+            "after": "\\mathrm{E^{\\prime}\\}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{aligned}P(A|E)&=P(Pearson tested as HIV+ive given that he/shell)\\\\&\\quad is actually having HIV)\\\\&=90\\%\\quad\\frac{90}{100}\\quad0.9\\end{aligned}lish ",
+            "after": "\\begin{aligned}P(A|E)&=P(Pearson tested as HIV+ive given that he/shell)\\\\&\\quad is actually having HIV\\\\&=90\\%\\quad\\frac{90}{100}\\quad0.9\\end{aligned}lish "
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\mathrm{S}&=\\{w_{1}w_{1},w_{1}w_{2},w_{2}w_{2},w_{2}w_{1},w_{1}r,w_{2}r,r w_{1},r w_{2},r r\\}\\\\\\omega&\\in\\mathrm{S}\\\\\\mathrm{X}(\\omega)&=number of red balls\\end{aligned} \\mathrm{S}=\\left\\{w_{1}w_{1},w_{1}w_{2},w_{2}w_{2},w_{2}w_{1},w_{1}r,w_{2}r,r,w_{1},r,w_{2},r\\right\\}",
+            "after": "\\begin{aligned}\\mathrm{S}&=\\{w_{1}w_{1},w_{1}w_{2},w_{2}w_{2},w_{2}w_{1},w_{1}r,w_{2}r,r w_{1},r w_{2},r r\\}\\\\omega&\\in\\mathrm{S}\\\\mathrm{X}(\\omega)&=number of red balls\\end{aligned} \\mathrm{S}=\\left\\{w_{1}w_{1},w_{1}w_{2},w_{2}w_{2},w_{2}w_{1},w_{1}r,w_{2}r,r,w_{1},r,w_{2},r\\right\\}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\mathrm{X}(\\{w_{1}w_{1}\\})&=\\mathrm{X}(\\{w_{1}w_{2}\\})=\\mathrm{X}(\\{w_{2}w_{2}\\})=\\mathrm{X}(\\{w_{2}w_{1}\\})=0\\\\\\mathrm{X}(\\{w_{1}r\\})&=\\mathrm{X}(\\{w_{2}r\\})=\\mathrm{X}(\\{r w_{1}\\})=\\mathrm{X}(\\{r w_{2}\\})=1\\text{and}\\mathrm{X}(\\{r r\\})=2\\end{aligned}",
+            "after": "\\begin{aligned}\\mathrm{X}(\\{w_{1}w_{1}\\})&=\\mathrm{X}(\\{w_{1}w_{2}\\})=\\mathrm{X}(\\{w_{2}w_{2}\\})=\\mathrm{X}(\\{w_{2}w_{1}\\})=0\\\\mathrm{X}(\\{w_{1}r\\})&=\\mathrm{X}(\\{w_{2}r\\})=\\mathrm{X}(\\{r w_{1}\\})=\\mathrm{X}(\\{r w_{2}\\})=1\\text{and}\\mathrm{X}(\\{r r\\})=2\\end{aligned}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\mathrm{X}(f_{1})=3,\\mathrm{X}(f_{2})=4,\\mathrm{X}(f_{3})=3,\\mathrm{X}(f_{4})=2,\\mathrm{X}(f_{5})=5,\\\\\\mathrm{X}(f_{6})=4,\\mathrm{X}(f_{7})=3,\\mathrm{X}(f_{8})=6,\\mathrm{X}(f_{9})=4,\\mathrm{X}(f_{10})=5\\end{array}",
+            "after": "\\begin{array}{l}\\mathrm{X}(f_{1})=3,\\mathrm{X}(f_{2})=4,\\mathrm{X}(f_{3})=3,\\mathrm{X}(f_{4})=2,\\mathrm{X}(f_{5})=5,\\\\mathrm{X}(f_{6})=4,\\mathrm{X}(f_{7})=3,\\mathrm{X}(f_{8})=6,\\mathrm{X}(f_{9})=4,\\mathrm{X}(f_{10})=5\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{ccc}X&:&x_{1}\\quad x_{2}\\quad\\ldots\\quad x_{n}\\\\ P(X)&:&p_{1}\\quad p_{2}\\quad\\ldots\\quad p_{n}\\\\&&\\\\p_{i}\\quad0,&\\underset{i1}{\\overset{n}{\\mathop{\\quad}}}p_{i}=1,i=1,2,\\ldots,n\\\\\\end{array}",
+            "after": "\\begin{array}{ccc}X&:&x_{1}\\quad x_{2}\\quad\\ldots\\quad x_{n}\\\\ P(X)&:&p_{1}\\quad p_{2}\\quad\\ldots\\quad p_{n}\\\\&&\\\\p_{i}\\quad0,&\\underset{i1}{\\overset{n}{\\mathop{\\quad}}}p_{i}=1,i=1,2,\\ldots,n\\\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\mathrm{P}(\\mathrm{X}=0)&=\\mathrm{P}\\left(\\mathrm{no}\\text{doublet}\\right)=\\frac{5}{6}\\quad\\frac{5}{6}\\quad\\frac{5}{6}\\quad\\frac{125}{216}\\\\\\mathrm{P}(\\mathrm{X}=1)&=\\mathrm{P}\\left(\\text{one}\\text{doublet and two non-dubits}\\right)\\\\&=\\frac{1}{6}\\quad\\frac{5}{6}\\quad\\frac{5}{6}\\quad\\frac{5}{6}\\quad\\frac{1}{6}\\quad\\frac{5}{6}\\quad\\frac{5}{6}\\quad\\frac{5}{6}\\quad\\frac{1}{6}\\\\&=\\frac{1}{6}\\quad\\frac{1}{6}\\quad\\frac{5^{2}}{6^{2}}\\quad\\frac{75}{216}\\end{aligned} ublishe ",
+            "after": "\\begin{aligned}\\mathrm{P}(\\mathrm{X}=0)&=\\mathrm{P}\\left(\\mathrm{no}\\text{doublet}\\right)=\\frac{5}{6}\\quad\\frac{5}{6}\\quad\\frac{5}{6}\\quad\\frac{125}{216}\\\\mathrm{P}(\\mathrm{X}=1)&=\\mathrm{P}\\left(\\text{one}\\text{doublet and two non-dubits}\\right)\\\\&=\\frac{1}{6}\\quad\\frac{5}{6}\\quad\\frac{5}{6}\\quad\\frac{5}{6}\\quad\\frac{1}{6}\\quad\\frac{5}{6}\\quad\\frac{5}{6}\\quad\\frac{5}{6}\\quad\\frac{1}{6}\\\\&=\\frac{1}{6}\\quad\\frac{1}{6}\\quad\\frac{5^{2}}{6^{2}}\\quad\\frac{75}{216}\\end{aligned} ublishe "
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{P}(\\mathrm{X}=x)=\\left\\{\\begin{aligned}&0.1,\\text{if}x=0\\\\&kx,\\text{if}x=1\\text{or}2\\\\&k(5-x),\\text{if}x=3\\text{or}4\\\\&0,\\text{otherwise}\\end{aligned}\\right.",
+            "after": "\\mathrm{P}(\\mathrm{X}=x)=\\left\\{\\begin{aligned}&0.1,\\text{if}x=0\\\\&kx,\\text{if}x=1\\text{or}2\\\\&k(5-x),\\text{if}x=3\\text{or}4\\\\&0,\\text{otherwise}\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{E}(\\mathrm{X})=\\frac{\\mathrm{E}_{x_{i}}}{\\mathrm{E}_{x_{i}}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{E}_{i}\\mathrm{P}(x_{i})\\mathrm{E}_{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{E}_{i}\\mathrm{P}(x_{i})\\mathrm{P}_{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{E}_{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{P}_{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{P}_{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{P}\\mathrm{P}(x_{P}(x_{i})\\mathrm{P}_{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{P})\\mathrm{P}_{P}(x_{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{P}_{P}(x_{i})\\mathrm{P}\\mathrm{P}(x_{P})\\mathrm{P}_{P}(x_{P}(x_{i})}\\mathrm{P}(x_{P})\\mathrm{P}_{P}(x_{i})\\mathrm{P}_{P}(x_{i})\\mathrm{P})\\mathrm{P}_{P}(x_{P}(x_{i})\\mathrm{P}\\mathrm{P}_{P}(x_{P})}(x_{P})\\mathrm{P}_{P}(x_{P})\\mathrm{P}_{P}(x_{P})}\\mathrm{P}(x_{P}_{P}(x_{i})\\mathrm{P})\\mathrm{P}_{P}(x_{P})\\mathrm{P}_{P}_{P}(x_{P})}\\mathrm{P}_{P}(x_{P})\\mathrm{P}_{P}(x_{P}_{P}(x_{P})}\\mathrm{P}(x_{P})\\mathrm{P}_{P}_{P}(x_{P})}\\mathrm{P}_{P}(x_{P})\\mathrm{P}_{P}_{P}(x_{P})}_{P}(x_{P})\\mathrm{P}_{P}_{P}\\mathrm{P}_{P}(x_{P})}_{P}(x_{P}_{P})}_{P}\\mathrm{P}_{P}(x_{P}_{P}(x_{P})\\mathrm{P}\\mathrm{P}_{P}_{P}_{P}(x_{P}_{P})}(x_{P})\\mathrm{P}_{P}_{P}(x_{P}_{P}\\mathrm{P}_{P}\\mathrm{P}_{P}(x_{P})\\mathrm{P}_{P}(x_{P}_{P}_{P}\\mathrm{",
+            "after": "\\mathrm{E}(\\mathrm{X})=\\frac{\\mathrm{E}_{x_{i}}}{\\mathrm{E}_{x_{i}}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{E}_{i}\\mathrm{P}(x_{i})\\mathrm{E}_{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{E}_{i}\\mathrm{P}(x_{i})\\mathrm{P}_{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{E}_{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{P}_{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{P}_{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{P}\\mathrm{P}(x_{P}(x_{i})\\mathrm{P}_{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{P})\\mathrm{P}_{P}(x_{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{P}_{P}(x_{i})\\mathrm{P}\\mathrm{P}(x_{P})\\mathrm{P}_{P}(x_{P}(x_{i})\\mathrm{P}(x_{P})\\mathrm{P}_{P}(x_{i})\\mathrm{P}_{P}(x_{i})\\mathrm{P})\\mathrm{P}_{P}(x_{P}(x_{i})\\mathrm{P}\\mathrm{P}_{P}(x_{P})(x_{P})\\mathrm{P}_{P}(x_{P})\\mathrm{P}_{P}(x_{P})\\mathrm{P}(x_{PP}(x_{i})\\mathrm{P})\\mathrm{P}_{P}(x_{P})\\mathrm{P}_{PP}(x_{P})\\mathrm{P}_{P}(x_{P})\\mathrm{P}_{P}(x_{PP}(x_{P})\\mathrm{P}(x_{P})\\mathrm{P}_{PP}(x_{P})\\mathrm{P}_{P}(x_{P})\\mathrm{P}_{PP}(x_{P})_{P}(x_{P})\\mathrm{P}_{PP}\\mathrm{P}_{P}(x_{P})_{P}(x_{PP})_{P}\\mathrm{P}_{P}(x_{PP}(x_{P})\\mathrm{P}\\mathrm{P}_{PPP}(x_{PP})(x_{P})\\mathrm{P}_{PP}(x_{PP}\\mathrm{P}_{P}\\mathrm{P}_{P}(x_{P})\\mathrm{P}_{P}(x_{PPP}\\mathrm{}))))))"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{P}(\\mathrm{X})=\\left\\{\\begin{aligned}&k,\\ if\\ x=0\\\\&2k,\\ if\\ x=1\\\\&3k,\\ if\\ x=2\\\\&0,\\ otherwise\\end{aligned}\\right.",
+            "after": "\\mathrm{P}(\\mathrm{X})=\\left\\{\\begin{aligned}&k,\\ if\\ x=0\\\\&2k,\\ if\\ x=1\\\\&3k,\\ if\\ x=2\\\\&0,\\ otherwise\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{8}{3}\\right.",
+            "after": "\\left[\\frac{8}{3}\\right.]"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}&=\\mathrm{P}(\\mathrm{S})\\mathrm{P}(\\mathrm{S})\\mathrm{P}(\\mathrm{F})+\\mathrm{P}(\\mathrm{S})\\mathrm{P}(\\mathrm{F})\\mathrm{P}(\\mathrm{S})+\\mathrm{P}(\\mathrm{F})\\mathrm{P}(\\mathrm{S})\\mathrm{P}(\\mathrm{S})\\\\&=p.p.q.+p.q.p+q.p.p=3p^{2}q\\\\\\mathrm{P}(\\mathrm{X}=3)&=\\mathrm{P}(\\text{three success})=\\mathrm{P}(\\{\\mathrm{SSS}\\})\\\\&=\\mathrm{P}(\\mathrm{S}).\\mathrm{P}(\\mathrm{S}).\\mathrm{P}(\\mathrm{S})=p^{3}\\end{aligned}",
+            "after": "\\begin{aligned}&=\\mathrm{P}(\\mathrm{S})\\mathrm{P}(\\mathrm{S})\\mathrm{P}(\\mathrm{F})+\\mathrm{P}(\\mathrm{S})\\mathrm{P}(\\mathrm{F})\\mathrm{P}(\\mathrm{S})+\\mathrm{P}(\\mathrm{F})\\mathrm{P}(\\mathrm{S})\\mathrm{P}(\\mathrm{S})\\\\&=p.p.q.+p.q.p+q.p.p=3p^{2}q\\\\mathrm{P}(\\mathrm{X}=3)&=\\mathrm{P}(\\text{three success})=\\mathrm{P}(\\{\\mathrm{SSS}\\})\\\\&=\\mathrm{P}(\\mathrm{S}).\\mathrm{P}(\\mathrm{S}).\\mathrm{P}(\\mathrm{S})=p^{3}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{P}(x_{i}),x_{i}=0,1,2,3,4,5,6)",
+            "after": "\\mathrm{P}(x_{i}),x_{i}=0,1,2,3,4,5,6"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{3}{4}\\right.",
+            "after": "\\left[\\frac{3}{4}\\right.]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}{}&{{}^{n}\\mathrm{C}_{0}\\frac{1}{4^{n}}\\quad0.01\\quad\\mathrm{i.e.}\\quad\\frac{1}{4^{n}}<0.01}\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}{}&{{}^{n}\\mathrm{C}_{0}\\frac{1}{4^{n}}\\quad0.01\\quad\\mathrm{i.e.}\\quad\\frac{1}{4^{n}}<0.01}\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\frac{1}{2})",
+            "after": "\\frac{1}{2}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{llll}X&:&\\quad x_{1}\\quad&x_{2}\\quad&\\ldots\\quad&x_{n}\\\\ P(X)&:&\\quad p_{1}\\quad&p_{2}\\quad&\\ldots\\quad&p_{n}\\\\\\end{array}",
+            "after": "\\begin{array}{llll}X&:&\\quad x_{1}\\quad&x_{2}\\quad&\\ldots\\quad&x_{n}\\\\ P(X)&:&\\quad p_{1}\\quad&p_{2}\\quad&\\ldots\\quad&p_{n}\\\\end{array}"
+        }
+    ],
+    "failed_equations": [
+        {
+            "equation": "\\begin{aligned}\\mathrm{P}(\\mathrm{A}",
+            "delimiter": "$",
+            "reasons": [
+                "unbalanced \\begin/\\end environment"
+            ]
+        },
+        {
+            "equation": "\\begin{aligned}",
+            "delimiter": "$",
+            "reasons": [
+                "unbalanced \\begin/\\end environment"
+            ]
+        },
+        {
+            "equation": "\\end{aligned}",
+            "delimiter": "$",
+            "reasons": [
+                "unbalanced \\begin/\\end environment"
+            ]
+        }
+    ],
+    "suspicious_equations": [
+        {
+            "equation": "\\mathrm{E}(\\mathrm{X})=\\frac{\\mathrm{E}_{x_{i}}}{\\mathrm{E}_{x_{i}}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{E}_{x_{i}}\\mathrm{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{E}_{i}\\mathrm{P}(x_{i})\\mathrm{E}_{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{E}_{i}\\mathrm{P}(x_{i})\\mathrm{P}_{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{E}_{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{P}_{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{P}_{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{P}\\mathrm{P}(x_{P}(x_{i})\\mathrm{P}_{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{P})\\mathrm{P}_{P}(x_{P}(x_{i})\\mathrm{P}(x_{i})\\mathrm{P}_{P}(x_{i})\\mathrm{P}\\mathrm{P}(x_{P})\\mathrm{P}_{P}(x_{P}(x_{i})\\mathrm{P}(x_{P})\\mathrm{P}_{P}(x_{i})\\mathrm{P}_{P}(x_{i})\\mathrm{P})\\mathrm{P}_{P}(x_{P}(x_{i})\\mathrm{P}\\mathrm{P}_{P}(x_{P})(x_{P})\\mathrm{P}_{P}(x_{P})\\mathrm{P}_{P}(x_{P})\\mathrm{P}(x_{PP}(x_{i})\\mathrm{P})\\mathrm{P}_{P}(x_{P})\\mathrm{P}_{PP}(x_{P})\\mathrm{P}_{P}(x_{P})\\mathrm{P}_{P}(x_{PP}(x_{P})\\mathrm{P}(x_{P})\\mathrm{P}_{PP}(x_{P})\\mathrm{P}_{P}(x_{P})\\mathrm{P}_{PP}(x_{P})_{P}(x_{P})\\mathrm{P}_{PP}\\mathrm{P}_{P}(x_{P})_{P}(x_{PP})_{P}\\mathrm{P}_{P}(x_{PP}(x_{P})\\mathrm{P}\\mathrm{P}_{PPP}(x_{PP})(x_{P})\\mathrm{P}_{PP}(x_{PP}\\mathrm{P}_{P}\\mathrm{P}_{P}(x_{P})\\mathrm{P}_{P}(x_{PPP}\\mathrm{}))))))",
+            "delimiter": "$$",
+            "reason": "adjacent scripts were merged after removing an OCR-inserted \\phantom - digits are preserved but the split point was a guess; needs manual review"
+        }
+    ]
+}

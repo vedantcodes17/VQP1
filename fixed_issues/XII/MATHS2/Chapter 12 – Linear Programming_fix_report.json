@@ -1,0 +1,30 @@
+{
+    "chapter": "Chapter 12 – Linear Programming",
+    "total_formulas": 154,
+    "repaired": 3,
+    "failed": 0,
+    "ocr_fixes": 134,
+    "latex_fixes": 3,
+    "markdown_fixes": 5,
+    "orphaned_latex_wrapped": 0,
+    "processing_time_sec": 0.05,
+    "changes": [
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{ll}9x+12y\\leq180&(Fabricating constraint)\\\\3x+4y\\leq60&(...(2))\\\\x+3y\\leq30&(Finishing constraint)\\\\x\\geq0,y\\geq0&(non-negative constraint)\\\\\\end{array}",
+            "after": "\\begin{array}{ll}9x+12y\\leq180&(Fabricating constraint)\\\\3x+4y\\leq60&(...(2))\\\\x+3y\\leq30&(Finishing constraint)\\\\x\\geq0,y\\geq0&(non-negative constraint)\\\\end{array}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\overline{{M}}",
+            "after": "\\overline{M}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\begin{array}{r l r l}{x\\geq0,y\\geq0}&{{}}&{}&{{}\\dots(1)}\\\\ {x^{\\;+}y\\leq8}&{{}}&{}&{{}\\dots(2)}\\\\ {x\\leq5}&{{}}&{}&{{}\\dots(3)}\\\\ {y\\leq5}&{{}}&{}&{{}\\dots(4)}\\\\ {x^{\\;+}y\\geq4}&{{}}&{}&{{}\\dots(5)}\\end{array}",
+            "after": "\\begin{array}{r l r l}{x\\geq0,y\\geq0}&{}&{}&{{}\\dots(1)}\\\\ {x^{\\;+}y\\leq8}&{}&{}&{{}\\dots(2)}\\\\ {x\\leq5}&{}&{}&{{}\\dots(3)}\\\\ {y\\leq5}&{}&{}&{{}\\dots(4)}\\\\ {x^{\\;+}y\\geq4}&{}&{}&{{}\\dots(5)}\\end{array}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

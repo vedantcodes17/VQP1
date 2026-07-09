@@ -1,0 +1,125 @@
+{
+    "chapter": "Chapter 6 – Application of Derivatives",
+    "total_formulas": 597,
+    "repaired": 22,
+    "failed": 0,
+    "ocr_fixes": 219,
+    "latex_fixes": 22,
+    "markdown_fixes": 29,
+    "orphaned_latex_wrapped": 1,
+    "processing_time_sec": 0.16,
+    "changes": [
+        {
+            "type": "escape_fix",
+            "before": "not to \\begin{aligned}\\frac{d V}{d t}&=\\frac{d V}{d t}\\cdot\\frac{d V}{d t}\\\\9&=\\frac{d V}{d t}=\\frac{d}{d t}(x^3)=\\frac{d}{d x}(x^3)\\cdot\\frac{d x}{d t}\\quad(By Chain Rule)\\\\&=3x^2\\cdot\\frac{d x}{d t}\\\\\\frac{d x}{d t}&=\\frac{3}{x^2}\\\\\\frac{d S}{d t}&=\\frac{d}{d t}(6x^2)=\\frac{d}{d x}(6x^2)\\cdot\\frac{d x}{d t}\\quad(By Chain Rule)\\\\&=12x\\cdot\\left(\\frac{3}{x^2}\\right)=\\frac{36}{x}\\quad(Using(1))\\end{aligned}",
+            "after": "not to \\begin{aligned}\\frac{d V}{d t}&=\\frac{d V}{d t}\\cdot\\frac{d V}{d t}\\\\9&=\\frac{d V}{d t}=\\frac{d}{d t}(x^3)=\\frac{d}{d x}(x^3)\\cdot\\frac{d x}{d t}\\quad(By Chain Rule)\\\\&=3x^2\\cdot\\frac{d x}{d t}\\\\frac{d x}{d t}&=\\frac{3}{x^2}\\\\frac{d S}{d t}&=\\frac{d}{d t}(6x^2)=\\frac{d}{d x}(6x^2)\\cdot\\frac{d x}{d t}\\quad(By Chain Rule)\\\\&=12x\\cdot\\left(\\frac{3}{x^2}\\right)=\\frac{36}{x}\\quad(Using(1))\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}\\frac{dA}{dt}&=\\frac{dx}{dt}\\cdot y+x\\cdot\\frac{dy}{dt}\\\\ &=-3(6)+10(2)\\quad(as x=10cm and y=6cm)\\\\ &=2cm^2/min\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}\\frac{dA}{dt}&=\\frac{dx}{dt}\\cdot y+x\\cdot\\frac{dy}{dt}\\\\ &=-3(6)+10(2)\\quad(as x=10cm and y=6cm)\\\\ &=2cm^2/min\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\left(2,\\infty\\right),f^{\\prime}\\left(x\\right)>0\\right.",
+            "after": "\\left[\\left(2,\\infty\\right),f^{\\prime}\\left(x\\right)>0\\right.]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "3x=\\frac{\\pi}{2},\\frac{3\\pi}{2}(as x\\in\\left[0,\\frac{\\pi}{2}\\right]",
+            "after": "3x=\\frac{\\pi}{2},\\frac{3\\pi}{2}(as x\\in\\left[0,\\frac{\\pi}{2}\\right])"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[0,\\frac{\\pi}{6}\\right]\\mathrm{a n d}\\left(\\frac{\\pi}{6},\\frac{\\pi}{2}\\right]",
+            "after": "\\left[0,\\frac{\\pi}{6}\\right]\\mathrm{a n d}\\left(\\frac{\\pi}{6},\\frac{\\pi}{2}\\right)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "f^{\\prime}(x)>0for all x\\in\\left[0,\\frac{\\pi}{6}\\right)as0\\leq x<\\frac{\\pi}{6}\\Rightarrow0\\leq3x<\\frac{\\pi}{2}",
+            "after": "f^{\\prime}(x)>0for all x\\in\\left[0,\\frac{\\pi}{6}\\rightas0\\leq x<\\frac{\\pi}{6}\\Rightarrow0\\leq3x<\\frac{\\pi}{2}]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[0,\\frac{\\pi}{6}\\right)",
+            "after": "\\left[0,\\frac{\\pi}{6}\\right]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\left(\\frac{\\pi}{6},\\frac{\\pi}{2}\\right)\\right.",
+            "after": "\\left[\\left(\\frac{\\pi}{6},\\frac{\\pi}{2}\\right)\\right.]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[0,\\frac{\\pi}{4}\\right),\\left(\\frac{\\pi}{4},\\frac{5\\pi}{4}\\right)\\text{and}\\left(\\frac{5\\pi}{4},2\\pi\\right]",
+            "after": "\\left[0,\\frac{\\pi}{4}\\right,\\left(\\frac{\\pi}{4},\\frac{5\\pi}{4}\\right)\\text{and}\\left(\\frac{5\\pi}{4},2\\pi\\right])"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "erer f^{\\prime}(x)>0if x\\in\\left[0,\\frac{\\pi}{4}\\right)\\cup\\left(\\frac{5\\pi}{4},2\\pi\\right]CO \n",
+            "after": "erer f^{\\prime}(x)>0if x\\in\\left[0,\\frac{\\pi}{4}\\right\\cup\\left(\\frac{5\\pi}{4},2\\pi\\right]CO \n)"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[0,\\frac{\\pi}{4}\\right)\\;\\mathrm{a n d}\\;\\left(\\frac{5\\pi}{4},2\\pi\\right]",
+            "after": "\\left[0,\\frac{\\pi}{4}\\right\\;\\mathrm{a n d}\\;\\left(\\frac{5\\pi}{4},2\\pi\\right])"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[0,{\\frac{\\pi}{4}}\\right)",
+            "after": "\\left[0,{\\frac{\\pi}{4}}\\right]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "$f (x)   }$\\dot{\\cdot}\\times\\dot{\\cdot}",
+            "after": "$f (x)   $\\dot{\\cdot}\\times\\dot{\\cdot}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}f(x)&=2x^{3}-6x^{2}+6x+5\\\\\\begin{cases}f^{\\prime}(x)=6x^{2}-12x+6=6(x-1)^{2}\\\\f^{\\prime\\prime}(x)=12(x-1)\\end{cases}\\end{aligned}",
+            "after": "\\begin{aligned}f(x)&=2x^{3}-6x^{2}+6x+5\\\\begin{cases}f^{\\prime}(x)=6x^{2}-12x+6=6(x-1)^{2}\\\\f^{\\prime\\prime}(x)=12(x-1)\\end{cases}\\end{aligned}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{c}\\mathrm{S}(x)=x^{2}+(15-x)^{2}=2x^{2}-30x+225\\\\\\begin{cases}\\mathrm{S}^{\\prime}(x)=4x-30\\\\\\mathrm{S}^{\\prime\\prime}(x)=4\\end{cases}\\end{array}",
+            "after": "\\begin{array}{c}\\mathrm{S}(x)=x^{2}+(15-x)^{2}=2x^{2}-30x+225\\\\begin{cases}\\mathrm{S}^{\\prime}(x)=4x-30\\\\mathrm{S}^{\\prime\\prime}(x)=4\\end{cases}\\end{array}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\frac{\\mathrm{QE}}{\\mathrm{OA}}&=\\frac{\\mathrm{EC}}{\\mathrm{OC}}\\quad(since\\Delta\\mathrm{QEC}\\sim\\Delta\\mathrm{AOC})\\\\\\frac{\\mathrm{QE}}{h}&=\\frac{r-x}{r}\\\\\\mathrm{QE}&=\\frac{h(r-x)}{r}\\end{aligned}",
+            "after": "\\begin{aligned}\\frac{\\mathrm{QE}}{\\mathrm{OA}}&=\\frac{\\mathrm{EC}}{\\mathrm{OC}}\\quad(since\\Delta\\mathrm{QEC}\\sim\\Delta\\mathrm{AOC})\\\\frac{\\mathrm{QE}}{h}&=\\frac{r-x}{r}\\\\mathrm{QE}&=\\frac{h(r-x)}{r}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}\\mathrm{S}'(x)&=\\frac{2\\pi h}{r}(r-2x)\\\\ \\mathrm{S}''(x)&=\\frac{-4\\pi h}{r}\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}\\mathrm{S}'(x)&=\\frac{2\\pi h}{r}(r-2x)\\\\ \\mathrm{S}''(x)&=\\frac{-4\\pi h}{r}\\end{aligned}\\right.}"
+        },
+        {
+            "type": "brace_fix",
+            "before": "\\mathrm{{'s}}",
+            "after": "\\mathrm{'s}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\sqrt{2}\\right.",
+            "after": "\\left\\{\\sqrt{2}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x]_{t=4}=4^{2}\\left(2-\\frac{4}{3}\\right)=16\\left(\\frac{2}{3}\\right)=\\frac{32}{3}m ",
+            "after": "x_{t=4}=4^{2}\\left(2-\\frac{4}{3}\\right)=16\\left(\\frac{2}{3}\\right)=\\frac{32}{3}m "
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\mathrm{AS}=3s\\left(\\mathrm{as}\\mathrm{MN}=\\right.",
+            "after": "\\mathrm{AS}=3s\\left(\\mathrm{as}\\mathrm{MN}=\\right.)"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}AM&=3s-s=2s.But AM=l\\\\l&=2s\\\\\\frac{dl}{dt}&=2\\frac{ds}{dt}\\end{aligned}",
+            "after": "\\begin{aligned}AM&=3s-s=2s.But AM=l\\\\l&=2s\\\\frac{dl}{dt}&=2\\frac{ds}{dt}\\end{aligned}"
+        }
+    ],
+    "failed_equations": [],
+    "suspicious_equations": []
+}

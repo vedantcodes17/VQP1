@@ -1,0 +1,213 @@
+{
+    "chapter": "Chapter 7 – Integrals",
+    "total_formulas": 938,
+    "repaired": 35,
+    "failed": 3,
+    "ocr_fixes": 119,
+    "latex_fixes": 35,
+    "markdown_fixes": 11,
+    "orphaned_latex_wrapped": 2,
+    "processing_time_sec": 0.581,
+    "changes": [
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\left\\{\\int g(x)d x+\\mathbb{C}_{2},\\mathbb{C}_{2}\\in\\mathbb{R}\\right\\}\\mathrm{a r e i d e n t i c a l}.\\right.",
+            "after": "\\left\\{\\left\\{\\int g(x)d x+\\mathbb{C}_{2},\\mathbb{C}_{2}\\in\\mathbb{R}\\right\\}\\mathrm{a r e i d e n t i c a l}.\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{aligned}\\left\\{\\frac{d}{dx}\\left[\\int f(x)dx+\\int g(x)dx\\right]\\right.&=\\left.\\frac{d}{dx}\\int f(x)dx+\\frac{d}{dx}\\int g(x)dx\\right.\\\\&=f(x)+g(x)\\end{aligned}",
+            "after": "\\begin{aligned}\\left\\{\\frac{d}{dx}\\left[\\int f(x)dx+\\int g(x)dx\\right]\\right.&=\\left.\\frac{d}{dx}\\int f(x)dx+\\frac{d}{dx}\\int g(x)dx\\right.\\\\&=f(x)+g(x)\\end{aligned}}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[{\\frac{\\tan^{4}{\\sqrt{x}}\\sec^{2}{\\sqrt{x}}}{\\sqrt{x}}}\\right.",
+            "after": "\\left[{\\frac{\\tan^{4}{\\sqrt{x}}\\sec^{2}{\\sqrt{x}}}{\\sqrt{x}}}\\right.]"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}2\\int\\tan^{4}t\\sec^{2}t dt&=2\\int u^{4}du=2\\frac{u^{5}}{5}+C\\\\&=\\frac{2}{5}\\tan^{5}t+C(since u=\\tan t)\\\\&=\\frac{2}{5}\\tan^{5}\\sqrt{x}+C(since t=\\sqrt{x})\\\\\\int\\frac{\\tan^{4}\\sqrt{x}\\sec^{2}\\sqrt{x}}{\\sqrt{x}}dx&=\\frac{2}{5}\\tan^{5}\\sqrt{x}+C\\end{aligned}",
+            "after": "\\begin{aligned}2\\int\\tan^{4}t\\sec^{2}t dt&=2\\int u^{4}du=2\\frac{u^{5}}{5}+C\\\\&=\\frac{2}{5}\\tan^{5}t+C(since u=\\tan t)\\\\&=\\frac{2}{5}\\tan^{5}\\sqrt{x}+C(since t=\\sqrt{x})\\\\int\\frac{\\tan^{4}\\sqrt{x}\\sec^{2}\\sqrt{x}}{\\sqrt{x}}dx&=\\frac{2}{5}\\tan^{5}\\sqrt{x}+C\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{aligned}\\int\\frac{\\sin x}{\\sin\\left(x+a\\right)}dx=&\\int\\frac{\\sin\\left(t-a\\right)}{\\sin t}dt\\\\=&\\int\\frac{\\sin t\\cos a-\\cos t\\sin a}{\\sin t}dt\\\\=&\\cos a\\int dt-\\sin a\\int\\cot t dt\\\\=&\\left.\\left(\\cos a\\right)t-\\left(\\sin a\\right)\\right[\\log\\left|\\sin t\\right|+\\mathrm{C}_{1}\\left]\\right.\\\\=&\\left.\\left(\\cos a\\right)\\left(x+a\\right)-\\left(\\sin a\\right)\\right[\\log\\left|\\sin\\left(x+a\\right)\\right|+\\mathrm{C}_{1}\\left]\\right.\\\\=&\\left.x\\cos a+a\\cos a-\\left(\\sin a\\right)\\log\\left|\\sin\\left(x+a\\right)\\right|-\\mathrm{C}_{1}\\sin a\\right]\\end{aligned}",
+            "after": "\\begin{aligned}\\int\\frac{\\sin x}{\\sin\\left(x+a\\right)}dx=&\\int\\frac{\\sin\\left(t-a\\right)}{\\sin t}dt\\\\=&\\int\\frac{\\sin t\\cos a-\\cos t\\sin a}{\\sin t}dt\\\\=&\\cos a\\int dt-\\sin a\\int\\cot t dt\\\\=&\\left.\\left(\\cos a\\right)t-\\left(\\sin a\\right)\\right[\\log\\left|\\sin t\\right|+\\mathrm{C}_{1}\\left]\\right.\\\\=&\\left.\\left(\\cos a\\right)\\left(x+a\\right)-\\left(\\sin a\\right)\\right[\\log\\left|\\sin\\left(x+a\\right)\\right|+\\mathrm{C}_{1}\\left]\\right.\\\\=&\\left.x\\cos a+a\\cos a-\\left(\\sin a\\right)\\log\\left|\\sin\\left(x+a\\right)\\right|-\\mathrm{C}_{1}\\sin a\\right\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[e^{2x+3}\\right.",
+            "after": "\\left[e^{2x+3}\\right.]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[{\\sqrt{\\sin2x}}\\cos2x\\right.",
+            "after": "\\left[{\\sqrt{\\sin2x}}\\cos2x\\right.]"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\cos^{2}x&=\\frac{1+\\cos2x}{2}\\\\\\int\\cos^{2}x dx&=\\frac{1}{2}\\int(1+\\cos2x)dx=\\frac{1}{2}\\int dx+\\frac{1}{2}\\int\\cos2x dx\\\\&=\\frac{x}{2}+\\frac{1}{4}\\sin2x+C\\end{aligned}",
+            "after": "\\begin{aligned}\\cos^{2}x&=\\frac{1+\\cos2x}{2}\\\\int\\cos^{2}x dx&=\\frac{1}{2}\\int(1+\\cos2x)dx=\\frac{1}{2}\\int dx+\\frac{1}{2}\\int\\cos2x dx\\\\&=\\frac{x}{2}+\\frac{1}{4}\\sin2x+C\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[{\\frac{\\sin^{3}x+\\cos^{3}x}{\\sin^{2}x\\cos^{2}x}}\\right.",
+            "after": "\\left[{\\frac{\\sin^{3}x+\\cos^{3}x}{\\sin^{2}x\\cos^{2}x}}\\right.]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[{\\frac{1}{\\cos\\left(x-a\\right)\\cos\\left(x-b\\right)}}\\right.",
+            "after": "\\left[{\\frac{1}{\\cos\\left(x-a\\right)\\cos\\left(x-b\\right)}}\\right.]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\left(\\frac{c}{a}-\\frac{b^2}{4a^2}\\right)\\right.",
+            "after": "\\left[\\left(\\frac{c}{a}-\\frac{b^2}{4a^2}\\right)\\right.]"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}3x^{2}+13x-10&=3\\left(x^{2}+\\frac{13x}{3}-\\frac{10}{3}\\right)\\\\&=3\\left[\\left(x+\\frac{13}{6}\\right)^{2}-\\left(\\frac{17}{6}\\right)^{2}\\right]\\quad(completing the square)\\\\\\int&\\frac{dx}{3x^{2}+13x-10}=\\frac{1}{3}\\int&\\frac{dx}{\\left(x+\\frac{13}{6}\\right)^{2}-\\left(\\frac{17}{6}\\right)^{2}}\\end{aligned}",
+            "after": "\\begin{aligned}3x^{2}+13x-10&=3\\left(x^{2}+\\frac{13x}{3}-\\frac{10}{3}\\right)\\\\&=3\\left[\\left(x+\\frac{13}{6}\\right)^{2}-\\left(\\frac{17}{6}\\right)^{2}\\right]\\quad(completing the square)\\\\int&\\frac{dx}{3x^{2}+13x-10}=\\frac{1}{3}\\int&\\frac{dx}{\\left(x+\\frac{13}{6}\\right)^{2}-\\left(\\frac{17}{6}\\right)^{2}}\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{1}{\\sqrt{7-6x-x^{2}}}\\right.",
+            "after": "\\left[\\frac{1}{\\sqrt{7-6x-x^{2}}}\\right.]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\frac{\\mathrm{P}_{1}\\left(x\\right)}{\\mathrm{Q}(x)}\\right.",
+            "after": "\\left\\{\\frac{\\mathrm{P}_{1}\\left(x\\right)}{\\mathrm{Q}(x)}\\right.}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\frac{x^{2}+1}{x^{2}-5x+6}&=1-\\frac{5}{x-2}+\\frac{10}{x-3}\\\\\\int\\frac{x^{2}+1}{x^{2}-5x+6}dx&=\\int dx-5\\int\\frac{1}{x-2}dx+10\\int\\frac{dx}{x-3}\\\\&=x-5\\log|x-2|+10\\log|x-3|+C.\\\\\\int\\frac{3x-2}{(x+1)^{2}(x+3)}dx\\end{aligned}",
+            "after": "\\begin{aligned}\\frac{x^{2}+1}{x^{2}-5x+6}&=1-\\frac{5}{x-2}+\\frac{10}{x-3}\\\\int\\frac{x^{2}+1}{x^{2}-5x+6}dx&=\\int dx-5\\int\\frac{1}{x-2}dx+10\\int\\frac{dx}{x-3}\\\\&=x-5\\log|x-2|+10\\log|x-3|+C.\\\\int\\frac{3x-2}{(x+1)^{2}(x+3)}dx\\end{aligned}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\frac{x^{2}+1}{x^{2}-5x+6}&=1-\\frac{5}{x-2}+\\frac{10}{x-3}\\\\\\int\\frac{x^{2}+1}{x^{2}-5x+6}dx&=\\int dx-5\\int\\frac{1}{x-2}dx+10\\int\\frac{dx}{x-3}\\\\&=x-5\\log|x-2|+10\\log|x-3|+C.\\\\\\int\\frac{3x-2}{(x+1)^{2}(x+3)}dx\\end{aligned}",
+            "after": "\\begin{aligned}\\frac{x^{2}+1}{x^{2}-5x+6}&=1-\\frac{5}{x-2}+\\frac{10}{x-3}\\\\int\\frac{x^{2}+1}{x^{2}-5x+6}dx&=\\int dx-5\\int\\frac{1}{x-2}dx+10\\int\\frac{dx}{x-3}\\\\&=x-5\\log|x-2|+10\\log|x-3|+C.\\\\int\\frac{3x-2}{(x+1)^{2}(x+3)}dx\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}\\frac{3x-2}{{(x+1)}^{2}(x+3)}&=\\frac{\\mathbf{A}}{x+1}+\\frac{\\mathbf{B}}{{(x+1)}^{2}}+\\frac{\\mathbf{C}}{x+3}\\\\ 3x-2&=\\mathbf{A}(x+1)(x+3)+\\mathbf{B}(x+3)+\\mathbf{C}(x+1)^{2}\\\\ &=\\mathbf{A}(x^{2}+4x+3)+\\mathbf{B}(x+3)+\\mathbf{C}(x^{2}+2x+1)\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}\\frac{3x-2}{{(x+1)}^{2}(x+3)}&=\\frac{\\mathbf{A}}{x+1}+\\frac{\\mathbf{B}}{{(x+1)}^{2}}+\\frac{\\mathbf{C}}{x+3}\\\\ 3x-2&=\\mathbf{A}(x+1)(x+3)+\\mathbf{B}(x+3)+\\mathbf{C}(x+1)^{2}\\\\ &=\\mathbf{A}(x^{2}+4x+3)+\\mathbf{B}(x+3)+\\mathbf{C}(x^{2}+2x+1)\\end{aligned}\\right.}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\frac{3x-2}{\\left(x+1\\right)^{2}\\left(x+3\\right)}&=\\frac{11}{4\\left(x+1\\right)}-\\frac{5}{2\\left(x+1\\right)^{2}}-\\frac{11}{4\\left(x+3\\right)}\\\\\\int\\frac{3x-2}{\\left(x+1\\right)^{2}\\left(x+3\\right)}&=\\frac{11}{4}\\int\\frac{dx}{x+1}-\\frac{5}{2}\\int\\frac{dx}{\\left(x+1\\right)^{2}}-\\frac{11}{4}\\int\\frac{dx}{x+3}\\\\&=\\frac{11}{4}\\log\\left|x+1\\right|+\\frac{5}{2\\left(x+1\\right)}-\\frac{11}{4}\\log\\left|x+3\\right|+C\\\\&=\\frac{11}{4}\\log\\left|\\frac{x+1}{x+3}\\right|+\\frac{5}{2\\left(x+1\\right)}+C\\end{aligned}",
+            "after": "\\begin{aligned}\\frac{3x-2}{\\left(x+1\\right)^{2}\\left(x+3\\right)}&=\\frac{11}{4\\left(x+1\\right)}-\\frac{5}{2\\left(x+1\\right)^{2}}-\\frac{11}{4\\left(x+3\\right)}\\\\int\\frac{3x-2}{\\left(x+1\\right)^{2}\\left(x+3\\right)}&=\\frac{11}{4}\\int\\frac{dx}{x+1}-\\frac{5}{2}\\int\\frac{dx}{\\left(x+1\\right)^{2}}-\\frac{11}{4}\\int\\frac{dx}{x+3}\\\\&=\\frac{11}{4}\\log\\left|x+1\\right|+\\frac{5}{2\\left(x+1\\right)}-\\frac{11}{4}\\log\\left|x+3\\right|+C\\\\&=\\frac{11}{4}\\log\\left|\\frac{x+1}{x+3}\\right|+\\frac{5}{2\\left(x+1\\right)}+C\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\begin{aligned}{\\frac{y}{(y+1)(y+4)}=}&{{}~\\frac{\\mathbf{A}}{y+1}+\\frac{\\mathbf{B}}{y+4}}\\\\ {y=}&{{}~\\mathbf{A}~(y+4)+\\mathbf{B}~(y+1)}\\end{aligned}\\right.",
+            "after": "\\left\\{\\begin{aligned}{\\frac{y}{(y+1)(y+4)}=}&{{}~\\frac{\\mathbf{A}}{y+1}+\\frac{\\mathbf{B}}{y+4}}\\\\ {y=}&{{}~\\mathbf{A}~(y+4)+\\mathbf{B}~(y+1)}\\end{aligned}\\right.}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "x^{n-1}\\mathrm{a n d}\\mathrm{p u t}x^{n}=t]",
+            "after": "x^{n-1}\\mathrm{a n d}\\mathrm{p u t}x^{n}=t"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[{\\sqrt{x}}\\right.",
+            "after": "\\left[{\\sqrt{x}}\\right.]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{aligned}\\int x\\cos x dx&=x(\\sin x+k)-\\int(\\sin x+k)dx\\\\&=x(\\sin x+k)-\\int(\\sin x dx-\\int k dx\\\\&=x(\\sin x+k)-\\cos x-kx+C=x\\sin x+\\cos x+C\\end{aligned}This shows thatadding a constant to the integralof the second function is ",
+            "after": "\\begin{aligned}\\int x\\cos x dx&=x(\\sin x+k)-\\int(\\sin x+k)dx\\\\&=x(\\sin x+k)-\\int(\\sin x dx-\\int k dx\\\\&=x(\\sin x+k)-\\cos x-kx+C=x\\sin x+\\cos x+C\\end{aligned}This shows thatadding a constant to the integralof the second function is )"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}&17\\_e^{x}\\left(\\sin x+\\cos x\\right)\\quad17\\_\\frac{x\\ e^{x}}{\\left(1+x\\right)^{2}}\\quad18\\_\\ e^{x}\\left(\\frac{1+\\sin x}{1+\\cos x}\\right)\\\\ &21\\_e^{x}\\left(\\frac{1}{x}-\\frac{1}{x^{2}}\\right)\\quad20\\_\\frac{\\left(x-3\\right)e^{x}}{\\left(x-1\\right)^{3}}\\quad21\\_e^{2x}\\sin x\\\\ &32\\_\\sin^{-1}\\left(\\frac{2x}{1+x^{2}}\\right)\\\\ \\end{aligned}",
+            "after": "\\begin{aligned}&17_e^{x}\\left(\\sin x+\\cos x\\right)\\quad17_\\frac{x\\ e^{x}}{\\left(1+x\\right)^{2}}\\quad18_\\ e^{x}\\left(\\frac{1+\\sin x}{1+\\cos x}\\right)\\\\ &21_e^{x}\\left(\\frac{1}{x}-\\frac{1}{x^{2}}\\right)\\quad20_\\frac{\\left(x-3\\right)e^{x}}{\\left(x-1\\right)^{3}}\\quad21_e^{2x}\\sin x\\\\ &32_\\sin^{-1}\\left(\\frac{2x}{1+x^{2}}\\right)\\\\ \\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{1}{3}e^{x^3}+\\mathbf{C}\\right.",
+            "after": "\\left[\\frac{1}{3}e^{x^3}+\\mathbf{C}\\right.]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{1}{3}e^{x^2}+\\mathbf{C}\\right.",
+            "after": "\\left[\\frac{1}{3}e^{x^2}+\\mathbf{C}\\right.]"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}=&x\\sqrt{x^{2}-a^{2}}-\\int\\sqrt{x^{2}-a^{2}}\\ dx-a^{2}\\int\\frac{dx}{\\sqrt{x^{2}-a^{2}}}\\\\=&x\\sqrt{x^{2}-a^{2}}-\\mathrm{I}-a^{2}\\int\\frac{dx}{\\sqrt{x^{2}-a^{2}}}\\\\2\\mathrm{I}=&x\\sqrt{x^{2}-a^{2}}-a^{2}\\int\\frac{dx}{\\sqrt{x^{2}-a^{2}}}\\\\\\mathrm{I}=&\\int\\sqrt{x^{2}-a^{2}}\\ dx=\\left.\\frac{x}{2}\\sqrt{x^{2}-a^{2}}-\\frac{a^{2}}{2}\\log\\left|x+\\sqrt{x^{2}-a^{2}}\\right.\\right|+C\\end{aligned}Similarly, integrating other two integralsby parts taking constant function  a th ",
+            "after": "\\begin{aligned}=&x\\sqrt{x^{2}-a^{2}}-\\int\\sqrt{x^{2}-a^{2}}\\ dx-a^{2}\\int\\frac{dx}{\\sqrt{x^{2}-a^{2}}}\\\\=&x\\sqrt{x^{2}-a^{2}}-\\mathrm{I}-a^{2}\\int\\frac{dx}{\\sqrt{x^{2}-a^{2}}}\\\\2\\mathrm{I}=&x\\sqrt{x^{2}-a^{2}}-a^{2}\\int\\frac{dx}{\\sqrt{x^{2}-a^{2}}}\\\\mathrm{I}=&\\int\\sqrt{x^{2}-a^{2}}\\ dx=\\left.\\frac{x}{2}\\sqrt{x^{2}-a^{2}}-\\frac{a^{2}}{2}\\log\\left|x+\\sqrt{x^{2}-a^{2}}\\right.\\right|+C\\end{aligned}Similarly, integrating other two integralsby parts taking constant function  a th "
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\int\\sqrt{x^{2}+a^{2}}dx&=\\frac{1}{2}x\\sqrt{x^{2}+a^{2}}+\\frac{a^{2}}{2}\\log\\left|x+\\sqrt{x^{2}+a^{2}}\\right|+C\\\\\\int\\sqrt{a^{2}-x^{2}}dx&=\\frac{1}{2}x\\sqrt{a^{2}-x^{2}}+\\frac{a^{2}}{2}\\sin^{-1}\\frac{x}{a}+C\\end{aligned}",
+            "after": "\\begin{aligned}\\int\\sqrt{x^{2}+a^{2}}dx&=\\frac{1}{2}x\\sqrt{x^{2}+a^{2}}+\\frac{a^{2}}{2}\\log\\left|x+\\sqrt{x^{2}+a^{2}}\\right|+C\\\\int\\sqrt{a^{2}-x^{2}}dx&=\\frac{1}{2}x\\sqrt{a^{2}-x^{2}}+\\frac{a^{2}}{2}\\sin^{-1}\\frac{x}{a}+C\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{aligned}\\int\\sqrt{3-2x-x^{2}}dx&=\\int\\sqrt{4-y^{2}}dy\\\\&=\\frac{1}{2}y\\sqrt{4-y^{2}}+\\frac{4}{2}\\sin^{-1}\\frac{y}{2}+C\\quad[using7]\\\\&=\\frac{1}{2}(x+1)\\sqrt{3-2x-x^{2}}+2\\sin^{-1}\\left(\\frac{x+1}{2}\\right)+C\\end{aligned} .6.2 (iii)]",
+            "after": "\\begin{aligned}\\int\\sqrt{3-2x-x^{2}}dx&=\\int\\sqrt{4-y^{2}}dy\\\\&=\\frac{1}{2}y\\sqrt{4-y^{2}}+\\frac{4}{2}\\sin^{-1}\\frac{y}{2}+C\\quad[using7]\\\\&=\\frac{1}{2}(x+1)\\sqrt{3-2x-x^{2}}+2\\sin^{-1}\\left(\\frac{x+1}{2}\\right)+C\\end{aligned} .6.2 (iii)"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{array}{l}\\underbrace{\\sqrt[3]{4-x^{2}}}_{1\\cdot\\quad\\sqrt{4-x^{2}}}\\\\\\underbrace{\\sqrt[4]{x^{2}+4x+1}}_{4\\cdot\\quad\\sqrt{x^{2}+4x+1}}\\\\\\underbrace{7\\cdot\\quad\\sqrt{1+3x-x^{2}}}_{9\\cdot\\quad\\sqrt{x^{2}+3x}}\\\\\\end{array}\\quad\\underbrace{\\sqrt[2]{1-4x^{2}}}_{5\\cdot\\quad\\sqrt{1-4x-x^{2}}}\\quad\\underbrace{\\sqrt[3]{\\cdot\\sqrt{x^{2}+4x+6}}}_{6\\cdot\\quad\\sqrt{x^{2}+4x-5}}",
+            "after": "\\begin{array}{l}\\underbrace{\\sqrt[3]{4-x^{2}}}_{1\\cdot\\quad\\sqrt{4-x^{2}}}\\\\underbrace{\\sqrt[4]{x^{2}+4x+1}}_{4\\cdot\\quad\\sqrt{x^{2}+4x+1}}\\\\underbrace{7\\cdot\\quad\\sqrt{1+3x-x^{2}}}_{9\\cdot\\quad\\sqrt{x^{2}+3x}}\\\\end{array}\\quad\\underbrace{\\sqrt[2]{1-4x^{2}}}_{5\\cdot\\quad\\sqrt{1-4x-x^{2}}}\\quad\\underbrace{\\sqrt[3]{\\cdot\\sqrt{x^{2}+4x+6}}}_{6\\cdot\\quad\\sqrt{x^{2}+4x-5}}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\int_{a}^{b}f(x)dx=&\\lim_{h\\to0}h\\left[f(a)+f(a+h)+\\ldots+f(a+(n-1)h)\\right]\\\\\\left[\\int_{a}^{b}f(x)dx\\right.=&\\left.(b-a)\\lim_{n\\to\\infty}\\frac{1}{n}\\left[f(a)+f(a+h)+\\ldots+f(a+(n-1)h)\\right]\\right]\\end{aligned}",
+            "after": "\\begin{aligned}\\int_{a}^{b}f(x)dx=&\\lim_{h\\to0}h\\left[f(a)+f(a+h)+\\ldots+f(a+(n-1)h)\\right]\\\\left[\\int_{a}^{b}f(x)dx\\right.=&\\left.(b-a)\\lim_{n\\to\\infty}\\frac{1}{n}\\left[f(a)+f(a+h)+\\ldots+f(a+(n-1)h)\\right]\\right]\\end{aligned}"
+        },
+        {
+            "type": "escape_fix",
+            "before": "\\begin{aligned}\\mathbf{P}_{0}:\\quad\\int_{a}^{b}f(x)dx=&\\int_{a}^{b}f(t)dt\\\\\\mathbf{P}_{1}:\\quad\\int_{a}^{b}f(x)dx=&-\\int_{b}^{a}f(x)dx.In particular,\\int_{a}^{a}f(x)dx=0\\\\\\mathbf{P}_{2}:\\quad\\int_{a}^{b}f(x)dx=&\\int_{a}^{c}f(x)dx+\\int_{c}^{b}f(x)dx\\\\\\mathbf{P}_{3}:\\quad\\int_{a}^{b}f(x)dx=&\\int_{a}^{b}f(a+b-x)dx\\\\\\mathbf{P}_{4}:\\quad\\int_{a}^{c}f(x)dx=&\\int_{0}^{a}f(a-x)dx\\\\&(Note that\\mathrm{P}_{4}is a particular case of\\mathrm{P}_{3})\\\\\\mathbf{P}_{5}:\\quad\\int_{0}^{2a}f(x)dx=&\\int_{0}^{a}f(x)dx+\\int_{0}^{a}f(2a-x)dx\\\\\\mathbf{P}_{6}:\\quad\\int_{0}^{2a}f(x)dx=&2\\int_{0}^{a}f(x)dx,if f(2a-x)=f(x)\\quad and\\\\&0if f(2a-x)=-f(x)\\\\\\mathbf{P}_{7}:\\quad(i)\\int_{-a}^{a}f(x)dx=&2\\int_{0}^{a}f(x)dx,if f is an even function,i.e.,if f(-x)=f(x).\\\\&(ii)\\int_{-a}^{a}f(x)dx=0,if f is an odd function,i.e.,if f(-x)=-f(x).\\end{aligned}",
+            "after": "\\begin{aligned}\\mathbf{P}_{0}:\\quad\\int_{a}^{b}f(x)dx=&\\int_{a}^{b}f(t)dt\\\\mathbf{P}_{1}:\\quad\\int_{a}^{b}f(x)dx=&-\\int_{b}^{a}f(x)dx.In particular,\\int_{a}^{a}f(x)dx=0\\\\mathbf{P}_{2}:\\quad\\int_{a}^{b}f(x)dx=&\\int_{a}^{c}f(x)dx+\\int_{c}^{b}f(x)dx\\\\mathbf{P}_{3}:\\quad\\int_{a}^{b}f(x)dx=&\\int_{a}^{b}f(a+b-x)dx\\\\mathbf{P}_{4}:\\quad\\int_{a}^{c}f(x)dx=&\\int_{0}^{a}f(a-x)dx\\\\&(Note that\\mathrm{P}_{4}is a particular case of\\mathrm{P}_{3})\\\\mathbf{P}_{5}:\\quad\\int_{0}^{2a}f(x)dx=&\\int_{0}^{a}f(x)dx+\\int_{0}^{a}f(2a-x)dx\\\\mathbf{P}_{6}:\\quad\\int_{0}^{2a}f(x)dx=&2\\int_{0}^{a}f(x)dx,if f(2a-x)=f(x)\\quad and\\\\&0if f(2a-x)=-f(x)\\\\mathbf{P}_{7}:\\quad(i)\\int_{-a}^{a}f(x)dx=&2\\int_{0}^{a}f(x)dx,if f is an even function,i.e.,if f(-x)=f(x).\\\\&(ii)\\int_{-a}^{a}f(x)dx=0,if f is an odd function,i.e.,if f(-x)=-f(x).\\end{aligned}"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left[\\frac{3}{4}\\right.",
+            "after": "\\left[\\frac{3}{4}\\right.]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\begin{aligned}\\left[\\int_{-1}^{\\frac{3}{2}}|x\\sin\\pi x|dx\\right.&=\\left[\\frac{-x\\cos\\pi x}{\\pi}+\\frac{\\sin\\pi x}{\\pi^2}\\right]_{-1}^{1}-\\left[\\frac{-x\\cos\\pi x}{\\pi}+\\frac{\\sin\\pi x}{\\pi^2}\\right]_{-1}^{\\frac{3}{2}}\\\\&=\\left.\\frac{2}{\\pi}-\\left[-\\frac{1}{\\pi^2}-\\frac{1}{\\pi}\\right]=\\frac{3}{\\pi}+\\frac{1}{\\pi^2}\\right.\\end{aligned}",
+            "after": "\\begin{aligned}\\left[\\int_{-1}^{\\frac{3}{2}}|x\\sin\\pi x|dx\\right.&=\\left[\\frac{-x\\cos\\pi x}{\\pi}+\\frac{\\sin\\pi x}{\\pi^2}\\right]_{-1}^{1}-\\left[\\frac{-x\\cos\\pi x}{\\pi}+\\frac{\\sin\\pi x}{\\pi^2}\\right]_{-1}^{\\frac{3}{2}}\\\\&=\\left.\\frac{2}{\\pi}-\\left[-\\frac{1}{\\pi^2}-\\frac{1}{\\pi}\\right]=\\frac{3}{\\pi}+\\frac{1}{\\pi^2}\\right.\\end{aligned}]"
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\int_{1}^{4}\\left[x-1\\right]+\\left|x-2\\right|+\\left|x-3\\right|]dx ",
+            "after": "\\int_{1}^{4}\\left[x-1\\right]+\\left|x-2\\right|+\\left|x-3\\right|dx "
+        },
+        {
+            "type": "delimiter_balance",
+            "before": "\\left\\{\\frac{\\mathbf{P}_{1}(x)}{\\mathbf{Q}(x)}\\right.",
+            "after": "\\left\\{\\frac{\\mathbf{P}_{1}(x)}{\\mathbf{Q}(x)}\\right.}"
+        }
+    ],
+    "failed_equations": [
+        {
+            "equation": "{\\begin{array}{r l}&{\\quad{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\boldmath~\\int~}}\\int_{\\mathrm{~\\mathrm{\\boldmath~\\int~}}}\\int_{\\mathrm{\\mathrm{~\\boldmath~\\int~}}}\\int_{\\mathrm{\\mathrm{~\\boldmath~\\int~}}}\\int_{\\mathrm{\\mathrm{~\\boldmath~\\int~}}}\\int_{\\mathrm{\\mathrm{~\\boldmath~\\int~}}}\\int_{\\mathrm{\\mathrm{~\\boldmath~\\int~}}}\\int_{\\mathrm{\\mathrm{~\\boldmath~\\int}}}\\int_{\\mathrm{\\mathrm{~\\boldmath~\\int}}}\\int_{\\mathrm{\\mathrm{~\\boldmath~\\int}}}_{\\mathrm{\\mathrm{\\boldmath~\\int~}}}\\int_{\\mathrm{\\mathrm{\\boldmath~\\int}}}_{\\mathrm{\\mathrm{\\mathrm~{~\\boldmath\\int~~\\int}}}}_{\\mathrm{\\mathrm{\\mathrm{~~\\int~\\int}}}_{\\mathrm{\\mathrm{\\int~\\int}}}_{\\mathrm{\\mathrm{\\mathrm{~~\\int~\\int}}}}_{\\mathrm{\\mathrm{\\mathrm{~~\\int~\\int}}}}_{\\mathrm{\\mathrm{\\mathrm{~~\\int~\\int}}}}_{\\mathrm{\\mathrm{\\mathrm{\\int~~\\int~}}}_{\\mathrm{\\mathrm{\\mathrm~~\\int}{\\int}}}_{\\mathrm{\\mathrm{\\mathrm~~\\int}}{\\mathrm{\\int~~\\int}}}_{\\mathrm{\\mathrm{\\mathrm{~\\int~~\\int}}}}_{\\mathrm{\\mathrm{\\mathrm{\\int~~\\int}}}}_{\\mathrm{\\mathrm{\\mathrm{\\int~\\int}}}_{\\mathrm{\\mathrm{\\mathrm{~\\int~}}\\mathrm{}}}_{\\mathrm{\\mathrm{\\int\\mathrm}{\\int}}_{\\mathrm{\\mathrm{\\int\\mathrm}}{\\mathrm}{}}_{\\mathrm{\\mathrm{\\int\\int}}}_{\\mathrm{\\mathrm{\\mathrm}{\\int}}}_{\\mathrm{\\mathrm{\\mathrm\\int}{}}_{\\mathrm{\\mathrm{\\int\\int}\\mathrm}{\\mathrm}{}}_{\\mathrm{\\mathrm}{\\mathrm}{}_{\\mathrm{\\int\\mathrm}}{}_{\\mathrm\\mathrm{}{\\int}}_{\\mathrm\\mathrm{}{\\mathrm}}{d}_{\\mathrm{d\\mathrm}}{d}_{\\mathrm{d\\mathrm}}_{{}}_{\\mathrm{\\mathrm\\mathrm{d}}}_{\\mathrm{\\mathrm}{d}}_{}_{\\mathrm\\mathrm{}{d}_{\\mathrm}}{_{\\mathrm}{\\mathrm}}_{\\mathrm{\\mathrm\\mathrm}{}}_{}_{\\mathrm\\mathrm{\\mathrm}{\\mathrm}{}\\mathrm}_{\\mathrm}{}_{\\mathrm\\mathrm}{\\mathrm}\\mathrm{\\mathrm}{\\mathrm}_{\\mathrm}\\mathrm{\\mathrm}{}_\\mathrm{",
+            "delimiter": "$$",
+            "reasons": [
+                "unbalanced \\begin/\\end environment",
+                "double subscript ('x_a_b')"
+            ]
+        },
+        {
+            "equation": "\\begin{aligned}&\\begin{aligned}\\\\ &\\text{Put}\\cos x=t\\text{so that}\\sin x dx=-dt\\\\&\\text{until}\\\\&\\text{On}\\\\&\\text{for}\\\\&\\text{for}\\\\&\\text{for}\\\\&\\text{for}\\\\&\\text{for}\\\\&\\text{for}\\\\&\\text{in x}\\\\&\\text{for}\\\\&\\text{in x}\\\\&\\text{for}\\\\&\\text{in x}\\\\&\\text{for}\\\\&\\text{in x}\\\\&\\text{for}\\\\&\\text{in x}\\\\&\\text{for}\\\\&\\text{in x}\\\\&\\text{in}\\\\&\\text{for}\\\\&\\text{in x}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\text{in}\\\\&\\\\&\\text\\\\&{in}\\\\&\\text\\\\&\\\\&\\\\&\\text{in}\\\\&\\\\&\\text{in}\\\\&\\\\&\\\\&\\text\\\\&\\\\&\\\\&}\\\\&\\text\\\\&{in\\\\&\\\\&}\\\\&\\text\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\text\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\&\\\\",
+            "delimiter": "$$",
+            "reasons": [
+                "unbalanced \\begin/\\end environment"
+            ]
+        },
+        {
+            "equation": "\\begin{aligned}",
+            "delimiter": "$",
+            "reasons": [
+                "unbalanced \\begin/\\end environment"
+            ]
+        }
+    ],
+    "suspicious_equations": []
+}
