@@ -47,7 +47,7 @@ A=
 \end{bmatrix}.
 \text{ Verify that }
 \begin{cases}
-[\operatorname{adj}(A)]^{-1}=\operatorname{adj}(A^{-1}),\\\\
+[\mathrm{adj}(A)]^{-1}=\mathrm{adj}(A^{-1}),\\\\
 (A^{-1})^{-1}=A.
 \end{cases}\\\\[1ex]
 5.\quad &
