@@ -4,7 +4,7 @@
 
 $$
 \begin{aligned}
-\Pi V &= \frac{w_2RT}{M_2} \\
+\Pi V &= \frac{w_2RT}{M_2} \\\\
 \text{or}\quad
 M_2 &= \frac{w_2RT}{\Pi V}
 \end{aligned}
@@ -95,7 +95,7 @@ $$
 $$
 \mathrm{
 2CH_3CH_2OH
-\xrightarrow[413\,K]{conc.\ H_2SO_4}
+\xrightarrow[413\\,K]{conc.\ H_2SO_4}
 CH_3CH_2OCH_2CH_3+H_2O
 }
 $$
@@ -174,7 +174,7 @@ $$
 $$
 \mathrm{
 Ph{-}NH{-}C(=O)CH_3
-\;\leftrightarrow\;
+\\;\leftrightarrow\\;
 Ph{-}N^{+}H{=}C(-O^{-})CH_3
 }
 $$
@@ -209,7 +209,7 @@ $$
 $$
 \mathrm{(C_6H_5CH_2)_2Cd+2CH_3COCl
 \longrightarrow
-2\,CH_3COCH_2C_6H_5+CdCl_2}
+2\\,CH_3COCH_2C_6H_5+CdCl_2}
 $$
 
 **(iii)**
@@ -236,25 +236,25 @@ $$
 **(i)**
 
 $$
-\mathrm{CH_3COOH\;or\;CH_2FCOOH}
+\mathrm{CH_3COOH\\;or\\;CH_2FCOOH}
 $$
 
 **(ii)**
 
 $$
-\mathrm{CH_2FCOOH\;or\;CH_2ClCOOH}
+\mathrm{CH_2FCOOH\\;or\\;CH_2ClCOOH}
 $$
 
 **(iii)**
 
 $$
-\mathrm{CH_2FCH_2CH_2COOH\;or\;CH_3CHFCH_2COOH}
+\mathrm{CH_2FCH_2CH_2COOH\\;or\\;CH_3CHFCH_2COOH}
 $$
 
 **(iv)**
 
 $$
-\mathrm{CF_3{-}C_6H_4{-}COOH\;or\;CH_3{-}C_6H_4{-}COOH}
+\mathrm{CF_3{-}C_6H_4{-}COOH\\;or\\;CH_3{-}C_6H_4{-}COOH}
 $$
 
 ---
@@ -298,18 +298,18 @@ $$
 $$
 \mathrm{
 CH_3CH_2CH=CHCH_3
-\;\xleftarrow[\mathrm{OH^-}]{}\;
+\\;\xleftarrow[\mathrm{OH^-}]{}\\;
 CH_3CH_2CH(Br)CH_2CH_3
-\;\xrightarrow[\mathrm{OH^-}]{}\;
+\\;\xrightarrow[\mathrm{OH^-}]{}\\;
 CH_3CH_2CH_2CH=CH_2
 }
 $$
 
 $$
 \mathrm{
-Pent\!-\!2\!-\!ene\;(81\%)
+Pent\\!-\\!2\\!-\\!ene\\;(81\\%)
 \hspace{2cm}
-Pent\!-\!1\!-\!ene\;(19\%)
+Pent\\!-\\!1\\!-\\!ene\\;(19\\%)
 }
 $$
 

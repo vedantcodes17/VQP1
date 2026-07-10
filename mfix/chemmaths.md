@@ -215,7 +215,7 @@ CH3 – C – CH3
 #### (a)
 
 $$
-\mathrm{CH_3{-}SCH_3 \;\longrightarrow\; CH_3^{+} + SCH_3^{-}}
+\mathrm{CH_3{-}SCH_3 \\;\longrightarrow\\; CH_3^{+} + SCH_3^{-}}
 $$
 
 ---
@@ -223,7 +223,7 @@ $$
 #### (b)
 
 $$
-\mathrm{CH_3{-}CN \;\longrightarrow\; CH_3^{+} + CN^{-}}
+\mathrm{CH_3{-}CN \\;\longrightarrow\\; CH_3^{+} + CN^{-}}
 $$
 
 ---
@@ -231,7 +231,7 @@ $$
 #### (c)
 
 $$
-\mathrm{CH_3{-}Cu \;\longrightarrow\; CH_3^{-} + Cu^{+}}
+\mathrm{CH_3{-}Cu \\;\longrightarrow\\; CH_3^{-} + Cu^{+}}
 $$
 
 > **Note:** The curved arrows in the original figure indicate the movement of the bonding electron pair during heterolytic bond cleavage. These arrows are illustrative and are generally omitted in Markdown/KaTeX representations.
@@ -292,7 +292,7 @@ $$
 
 $$
 \mathrm{CH_3(CH_2)_5CH_3
-\xrightarrow[\;10\text{–}20~atm,\;773~K\;]{Cr_2O_3\; \text{or}\; V_2O_5\; \text{or}\; Mo_2O_3}
+\xrightarrow[\\;10\text{–}20~atm,\\;773~K\\;]{Cr_2O_3\\; \text{or}\\; V_2O_5\\; \text{or}\\; Mo_2O_3}
 C_6H_5CH_3 + 4H_2}
 $$
 
@@ -415,7 +415,7 @@ $$
 $$
 \mathrm{C_6H_6 + 3H_2
 \xrightarrow[\Delta]{Ni}
-C_6H_{12}\;(Cyclohexane)}
+C_6H_{12}\\;(Cyclohexane)}
 $$
 
 ### Interval Notation: [a,b], [a,b), (a,b] (ID 186)
@@ -423,19 +423,19 @@ $$
 The interval which contains the end points also is called closed interval and is denoted by $[a,b]$. Thus
 
 $$
-[a,b]=\{x:a\le x\le b\}
+[a,b]=\\{x:a\le x\le b\\}
 $$
 
 We can also have intervals closed at one end and open at the other, i.e.,
 
 $$
-[a,b)=\{x:a\le x<b\}
+[a,b)=\\{x:a\le x<b\\}
 $$
 
 is an interval from $a$ to $b$, including $a$ but excluding $b$.
 
 $$
-(a,b]=\{x:a<x\le b\}
+(a,b]=\\{x:a<x\le b\\}
 $$
 
 is an interval from $a$ to $b$, including $b$ but excluding $a$.
@@ -445,10 +445,10 @@ is an interval from $a$ to $b$, including $b$ but excluding $a$.
 $$
 \begin{aligned}
 \frac{x-2}{x^{2}-x}-\frac{1}{x^{3}-3x^{2}+2x}
-&=\frac{x-2}{x(x-1)}-\frac{1}{x(x-1)(x-2)}\\
-&=\frac{(x-2)^{2}-1}{x(x-1)(x-2)}\\
-&=\frac{x^{2}-4x+3}{x(x-1)(x-2)}\\
-&=\frac{(x-1)(x-3)}{x(x-1)(x-2)}\\
+&=\frac{x-2}{x(x-1)}-\frac{1}{x(x-1)(x-2)}\\\\
+&=\frac{(x-2)^{2}-1}{x(x-1)(x-2)}\\\\
+&=\frac{x^{2}-4x+3}{x(x-1)(x-2)}\\\\
+&=\frac{(x-1)(x-3)}{x(x-1)(x-2)}\\\\
 &=\frac{x-3}{x(x-2)}, \qquad x\ne1,2.
 \end{aligned}
 $$
@@ -458,10 +458,10 @@ $$
 $$
 \begin{aligned}
 \frac{df(x)}{dx}
-&=\frac{d}{dx}(\sin x\cdot\sin x)\\
-&=(\sin x)'\sin x+\sin x(\sin x)'\\
-&=(\cos x)\sin x+\sin x(\cos x)\\
-&=2\sin x\cos x\\
+&=\frac{d}{dx}(\sin x\cdot\sin x)\\\\
+&=(\sin x)'\sin x+\sin x(\sin x)'\\\\
+&=(\cos x)\sin x+\sin x(\cos x)\\\\
+&=2\sin x\cos x\\\\
 &=\sin 2x.
 \end{aligned}
 $$
@@ -474,12 +474,12 @@ $$
 \begin{aligned}
 \sigma^2
 &=\frac{1}{N}\left[\sum_{i=1}^{n}f_i x_i^2
-+\bar{x}^{\,2}\sum_{i=1}^{n}f_i
--2\bar{x}\sum_{i=1}^{n}f_i x_i\right]\\
++\bar{x}^{\\,2}\sum_{i=1}^{n}f_i
+-2\bar{x}\sum_{i=1}^{n}f_i x_i\right]\\\\
 &=\frac{1}{N}\left[\sum_{i=1}^{n}f_i x_i^2
-+N\bar{x}^{\,2}
--2N\bar{x}^{\,2}\right]\\
-&=\frac{1}{N}\sum_{i=1}^{n}f_i x_i^2-\bar{x}^{\,2}.
++N\bar{x}^{\\,2}
+-2N\bar{x}^{\\,2}\right]\\\\
+&=\frac{1}{N}\sum_{i=1}^{n}f_i x_i^2-\bar{x}^{\\,2}.
 \end{aligned}
 $$
 
@@ -491,11 +491,11 @@ $$
 \begin{aligned}
 P(A)+P(B)
 &=\left[\sum_{\omega_i\in A}P(\omega_i)\right]
-+\left[\sum_{\omega_i\in B}P(\omega_i)\right]\\
++\left[\sum_{\omega_i\in B}P(\omega_i)\right]\\\\
 &=\left[\sum_{\omega_i\in(A-B)}P(\omega_i)\right]
-+\left[\sum_{\omega_i\in(A\cap B)}P(\omega_i)\right]\\
++\left[\sum_{\omega_i\in(A\cap B)}P(\omega_i)\right]\\\\
 &\quad+\left[\sum_{\omega_i\in(B-A)}P(\omega_i)\right]
-+\left[\sum_{\omega_i\in(A\cap B)}P(\omega_i)\right]\\
++\left[\sum_{\omega_i\in(A\cap B)}P(\omega_i)\right]\\\\
 &=P(A\cup B)+P(A\cap B).
 \end{aligned}
 $$
@@ -505,10 +505,10 @@ $$
 $$
 \begin{aligned}
 \sin(x+y)
-&=\cos\left(\frac{\pi}{2}-(x+y)\right)\\
-&=\cos\left[\left(\frac{\pi}{2}-x\right)-y\right]\\
+&=\cos\left(\frac{\pi}{2}-(x+y)\right)\\\\
+&=\cos\left[\left(\frac{\pi}{2}-x\right)-y\right]\\\\
 &=\cos\left(\frac{\pi}{2}-x\right)\cos y
-+\sin\left(\frac{\pi}{2}-x\right)\sin y\\
++\sin\left(\frac{\pi}{2}-x\right)\sin y\\\\
 &=\sin x\cos y+\cos x\sin y.
 \end{aligned}
 $$
@@ -534,14 +534,14 @@ $$
 
 $$
 \begin{aligned}
-30x+7200 &> 15x+9000,\\
+30x+7200 &> 15x+9000,\\\\
 30x+7200 &< 18x+10800.
 \end{aligned}
 $$
 
 $$
 \begin{aligned}
-15x &> 1800,\\
+15x &> 1800,\\\\
 12x &< 3600.
 \end{aligned}
 $$
@@ -593,7 +593,7 @@ Permutations when O₁, O₂ are different      Permutations when O₁, O₂ are
 ### Binomial Theorem – Inductive Step P(k+1) (ID 24)
 
 $$
-P(k+1):\;
+P(k+1):\\;
 (a+b)^{k+1}
 =
 {}^{k+1}C_{0}a^{k+1}
@@ -612,34 +612,34 @@ $$
 $$
 \begin{aligned}
 (a+b)^{k+1}
-&=(a+b)(a+b)^k\\
+&=(a+b)(a+b)^k\\\\
 &=(a+b)\left(
 {}^{k}C_{0}a^{k}
 +{}^{k}C_{1}a^{k-1}b
 +{}^{k}C_{2}a^{k-2}b^{2}
 +\cdots
 +{}^{k}C_{k}b^{k}
-\right)\\
+\right)\\\\
 &={}^{k}C_{0}a^{k+1}
 +{}^{k}C_{1}a^{k}b
 +{}^{k}C_{2}a^{k-1}b^{2}
 +\cdots
 +{}^{k}C_{k-1}a^{2}b^{k-1}
-+{}^{k}C_{k}ab^{k}\\
++{}^{k}C_{k}ab^{k}\\\\
 &\quad
 +{}^{k}C_{0}a^{k}b
 +{}^{k}C_{1}a^{k-1}b^{2}
 +{}^{k}C_{2}a^{k-2}b^{3}
 +\cdots
 +{}^{k}C_{k-1}ab^{k}
-+{}^{k}C_{k}b^{k+1}\\
++{}^{k}C_{k}b^{k+1}\\\\
 &={}^{k}C_{0}a^{k+1}
 +\left({}^{k}C_{1}+{}^{k}C_{0}\right)a^{k}b
 +\left({}^{k}C_{2}+{}^{k}C_{1}\right)a^{k-1}b^{2}
-+\cdots\\
++\cdots\\\\
 &\quad
 +\left({}^{k}C_{k}+{}^{k}C_{k-1}\right)ab^{k}
-+{}^{k}C_{k}b^{k+1}\\
++{}^{k}C_{k}b^{k+1}\\\\
 &={}^{k+1}C_{0}a^{k+1}
 +{}^{k+1}C_{1}a^{k}b
 +{}^{k+1}C_{2}a^{k-1}b^{2}
@@ -658,7 +658,7 @@ $$
 \left(1-\frac{x}{2}\right)^{-\frac12}
 &=1+\frac{\left(-\frac12\right)}{1}\left(-\frac{x}{2}\right)
 +\frac{\left(-\frac12\right)\left(-\frac32\right)}{1\cdot2}
-\left(-\frac{x}{2}\right)^2+\cdots\\
+\left(-\frac{x}{2}\right)^2+\cdots\\\\
 &=1+\frac{x}{4}+\frac{3x^2}{32}+\cdots
 \end{aligned}
 $$
