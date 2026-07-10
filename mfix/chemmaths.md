@@ -292,6 +292,58 @@ $$
 
 **Reaction:** Aromatization (dehydrocyclization) of **n-heptane** to **toluene** in the presence of **Cr₂O₃**, **V₂O₅**, or **Mo₂O₃** at **773 K** and **10–20 atm**.
 
+### Oxidation and Ozonolysis of Alkenes (ID 214)
+
+#### (a) Oxidation with Cold Dilute Alkaline Potassium Permanganate (Baeyer's Test)
+
+$$
+\mathrm{
+CH_2=CH_2 + H_2O + [O]
+\xrightarrow[\mathrm{273\\,K}]{\mathrm{dil.\\ KMnO_4}}
+HOCH_2CH_2OH
+}
+$$
+
+**Product:** Ethane-1,2-diol (Glycol)
+
+$$
+\mathrm{
+CH_3CH=CH_2 + H_2O + [O]
+\xrightarrow[\mathrm{273\\,K}]{\mathrm{dil.\\ KMnO_4}}
+CH_3CH(OH)CH_2OH
+}
+$$
+
+**Product:** Propane-1,2-diol
+
+---
+
+#### (b) Ozonolysis of Alkenes
+
+$$
+\mathrm{
+CH_3CH=CH_2 + O_3
+\longrightarrow
+\text{Propene ozonide}
+\xrightarrow{\mathrm{Zn/H_2O}}
+CH_3CHO + HCHO
+}
+$$
+
+**Products:** Ethanal + Methanal
+
+$$
+\mathrm{
+(CH_3)_2C=CH_2 + O_3
+\longrightarrow
+\text{2-Methylpropene ozonide}
+\xrightarrow{\mathrm{Zn/H_2O}}
+(CH_3)_2CO + HCHO
+}
+$$
+
+**Products:** Propan-2-one + Methanal
+
 ### Ozonolysis of Propene and 2-Methylpropene (ID 207)
 
 #### Ozonolysis of Propene
@@ -339,6 +391,54 @@ $$
 | `HC≡C–CH₂–CH₂–CH₃` | **Pent-1-yne** |
 | `CH₃–C≡C–CH₂–CH₃` | **Pent-2-yne** |
 | `HC≡C–CH(CH₃)–CH₃` | **3-Methylbut-1-yne** |
+
+### Hydration of Alkynes (ID 269)
+
+#### (a) Hydration of Ethyne
+
+$$
+\mathrm{
+HC\equiv CH + H_2O
+\xrightarrow[\mathrm{333\\,K}]{Hg^{2+}/H^{+}}
+CH_2=CHOH
+}
+$$
+
+**Intermediate:** Vinyl alcohol (Ethenol)
+
+$$
+\mathrm{
+CH_2=CHOH
+\;\xrightarrow{\text{Isomerisation}}\;
+CH_3CHO
+}
+$$
+
+**Product:** Ethanal
+
+---
+
+#### (b) Hydration of Propyne
+
+$$
+\mathrm{
+CH_3C\equiv CH + H_2O
+\xrightarrow[\mathrm{333\\,K}]{Hg^{2+}/H^{+}}
+CH_3C(OH)=CH_2
+}
+$$
+
+**Intermediate:** Enol
+
+$$
+\mathrm{
+CH_3C(OH)=CH_2
+\;\xrightarrow{\text{Isomerisation}}\;
+CH_3COCH_3
+}
+$$
+
+**Product:** Propanone
 
 ### Addition of HBr to Ethyne and Prop-1-yne (ID 268)
 
