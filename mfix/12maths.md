@@ -25,8 +25,7 @@ $$
 
 3.\quad &
 \text{If }A^{-1}
-=
-\frac1{15}
+= \frac1{15}
 \begin{bmatrix}
 3&1&1\\\\
 6&5&2\\\\
@@ -81,8 +80,7 @@ $$
 
 $$
 \frac{dx}{dt}
-=
-a\left(t+\frac{1}{t}\right)^{a-1}
+= a\left(t+\frac{1}{t}\right)^{a-1}
 \left(1-\frac{1}{t^{2}}\right)
 $$
 
@@ -136,13 +134,9 @@ $$
 
 ### Probability Distribution of a Fair Die (ID 351)
 
-$$
-\begin{array}{c|cccccc}
-X & 1 & 2 & 3 & 4 & 5 & 6\\\\
-\hline
-P(X) & \frac16 & \frac16 & \frac16 & \frac16 & \frac16 & \frac16
-\end{array}
-$$
+| X | 1 | 2 | 3 | 4 | 5 | 6 |
+|---|---|---|---|---|---|---|
+| P(X) | $\frac16$ | $\frac16$ | $\frac16$ | $\frac16$ | $\frac16$ | $\frac16$ |
 
 ## Chapter 7 – Integrals
 

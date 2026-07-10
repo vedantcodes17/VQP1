@@ -139,32 +139,26 @@ gives
 
 $$
 1.8 \times 10^{-5}
-=
-\frac{x^2}{0.05}
+= \frac{x^2}{0.05}
 $$
 
 $$
 x^2
-=
-(1.8 \times 10^{-5})(0.05)
-=
-9.0 \times 10^{-7}
+= (1.8 \times 10^{-5})(0.05)
+= 9.0 \times 10^{-7}
 $$
 
 $$
 x
-=
-\sqrt{9.0 \times 10^{-7}}
-=
-9.49 \times 10^{-4}\ \mathrm{M}
+= \sqrt{9.0 \times 10^{-7}}
+= 9.49 \times 10^{-4}\ \mathrm{M}
 $$
 
 Finally,
 
 $$
 \mathrm{pH}
-=
--\log(9.49 \times 10^{-4})
+= -\log(9.49 \times 10^{-4})
 \approx 3.02
 $$
 
@@ -595,8 +589,7 @@ Permutations when O₁, O₂ are different      Permutations when O₁, O₂ are
 $$
 P(k+1):\\;
 (a+b)^{k+1}
-=
-{}^{k+1}C_{0}a^{k+1}
+= {}^{k+1}C_{0}a^{k+1}
 +
 {}^{k+1}C_{1}a^{k}b
 +
@@ -609,6 +602,8 @@ $$
 
 ### Binomial Theorem – Proof of Inductive Step (ID 25)
 
+Expanding $(a+b)^{k+1}$ using the induction hypothesis $P(k)$:
+
 $$
 \begin{aligned}
 (a+b)^{k+1}
@@ -619,7 +614,14 @@ $$
 +{}^{k}C_{2}a^{k-2}b^{2}
 +\cdots
 +{}^{k}C_{k}b^{k}
-\right)\\\\
+\right)
+\end{aligned}
+$$
+
+Distributing $a$ and $b$ separately over the sum:
+
+$$
+\begin{aligned}
 &={}^{k}C_{0}a^{k+1}
 +{}^{k}C_{1}a^{k}b
 +{}^{k}C_{2}a^{k-1}b^{2}
@@ -632,14 +634,28 @@ $$
 +{}^{k}C_{2}a^{k-2}b^{3}
 +\cdots
 +{}^{k}C_{k-1}ab^{k}
-+{}^{k}C_{k}b^{k+1}\\\\
++{}^{k}C_{k}b^{k+1}
+\end{aligned}
+$$
+
+Regrouping like terms:
+
+$$
+\begin{aligned}
 &={}^{k}C_{0}a^{k+1}
 +\left({}^{k}C_{1}+{}^{k}C_{0}\right)a^{k}b
 +\left({}^{k}C_{2}+{}^{k}C_{1}\right)a^{k-1}b^{2}
 +\cdots\\\\
 &\quad
 +\left({}^{k}C_{k}+{}^{k}C_{k-1}\right)ab^{k}
-+{}^{k}C_{k}b^{k+1}\\\\
++{}^{k}C_{k}b^{k+1}
+\end{aligned}
+$$
+
+Applying Pascal's identity, ${}^{k}C_{r}+{}^{k}C_{r-1}={}^{k+1}C_{r}$, to each grouped pair:
+
+$$
+\begin{aligned}
 &={}^{k+1}C_{0}a^{k+1}
 +{}^{k+1}C_{1}a^{k}b
 +{}^{k+1}C_{2}a^{k-1}b^{2}
