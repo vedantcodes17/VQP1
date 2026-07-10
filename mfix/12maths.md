@@ -2,7 +2,7 @@
 
 ## Chapter 4 – Determinants
 
-### ID 297
+### Determinant Properties and Applications Exercise (Q1–Q6) (ID 297)
 
 ```latex
 \begin{aligned}
@@ -77,7 +77,7 @@ x & x+y & y
 
 ## Chapter 5 – Continuity and Differentiability
 
-### ID 598
+### Derivative of a Parametric Power Function (ID 598)
 
 ```latex
 \frac{dx}{dt}
@@ -98,7 +98,7 @@ t\neq\pm1.
 
 ## Chapter 8 – Application of Integrals
 
-### ID 40
+### Area of an Ellipse (Horizontal Strip Method) (ID 40)
 
 ```latex
 \begin{aligned}
@@ -124,7 +124,7 @@ t\neq\pm1.
 
 ## Chapter 13 – Probability
 
-### ID 223
+### Conditional Probabilities P(A|E_i) (ID 223)
 
 ```latex
 \begin{aligned}
@@ -134,7 +134,7 @@ P(A\mid E_3)&=\frac12.
 \end{aligned}
 ```
 
-### ID 351
+### Probability Distribution of a Fair Die (ID 351)
 
 ```latex
 \begin{array}{c|cccccc}
@@ -144,11 +144,9 @@ P(X) & \frac16 & \frac16 & \frac16 & \frac16 & \frac16 & \frac16
 \end{array}
 ```
 
-# Manual Formula Fixes
-
 ## Chapter 7 – Integrals
 
-### ID 51
+### Fundamental Theorem of Calculus Verification (ID 51)
 
 ```latex
 \begin{aligned}
@@ -162,7 +160,7 @@ P(X) & \frac16 & \frac16 & \frac16 & \frac16 & \frac16 & \frac16
 
 ---
 
-### ID 160
+### Integral of tan x (ID 160)
 
 ```latex
 \begin{aligned}
@@ -180,7 +178,7 @@ P(X) & \frac16 & \frac16 & \frac16 & \frac16 & \frac16 & \frac16
 
 ---
 
-### ID 165
+### Integral of sin x / sin(x + a) (ID 165)
 
 ```latex
 \begin{aligned}
@@ -196,7 +194,7 @@ P(X) & \frac16 & \frac16 & \frac16 & \frac16 & \frac16 & \frac16
 
 ---
 
-### ID 296
+### Integration Exercise – Rational Functions (ID 296)
 
 ```latex
 \begin{aligned}
@@ -209,7 +207,7 @@ P(X) & \frac16 & \frac16 & \frac16 & \frac16 & \frac16 & \frac16
 
 ---
 
-### ID 522
+### Integration Exercise – Exponential and Inverse-Trig Forms (ID 522)
 
 ```latex
 16.\;e^x(\sin x+\cos x)
@@ -226,7 +224,8 @@ P(X) & \frac16 & \frac16 & \frac16 & \frac16 & \frac16 & \frac16
 \\[4pt]
 22.\;\sin^{-1}\!\left(\frac{2x}{1+x^2}\right)
 ```
-### ID 392
+
+### First-Order Linear Differential Equations Exercise (ID 392)
 
 ```latex
 \begin{aligned}
