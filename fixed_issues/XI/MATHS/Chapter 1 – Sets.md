@@ -115,7 +115,7 @@ NoteIt maybe notedthat while writing the set in rosterformanlement is not ll of 
 
 
 
-$V=\{x:x$ is a vowel in English alphabet 
+$V=\{x:x$} is a vowel in English alphabet 
 
 It may be observed that we describe the element of the set by using a symbol (any other symbol like the letters $y,z,$ etc. could be used) which is followed by a colon " :".After the sign of colon, we write the characteristic property possessed by the elements of the set and then enclose the whole description within braces. The above descriptionofthesetVisreadas"the setof allxsuchthatxis avoweloftheEnglish alphabet".Inthis descriptionthebraces stand for "thesetof all",thecolonstands for "such that". For example, the set 
 
